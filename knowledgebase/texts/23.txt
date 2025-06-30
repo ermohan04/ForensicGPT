@@ -1,0 +1,906 @@
+
+
+--- PAGE 1 ---
+
+Clare Knock,1 Ph.D. and Marie Davison,1 M.Sc.
+Predicting the Position of the Source of Blood
+Stains for Angled Impacts
+ABSTRACT: Droplets of pig’s blood were dropped onto paper at different angles to the horizontal to produce blood stains. Impact velocities var-
+ied from 1.82 to 5.76 m⁄sec, drop size from 3.7 to 5.0 mm in diameter, and the surface sloped at angles between 22.7 and 90 to the horizontal.
+From the data a single equation relating stain size to drop size and velocity for all impact angles was produced; ab = 111.74 (Re1 ⁄ 2We1 ⁄ 4)0.75DoDo +
+0.00084 with R2 = 0.88, where a is the stain width, b the stain length, Re the Reynolds number, and We the Weber number. A second equation rela-
+ted the number of spines, N, to drop size, velocity, and surface slope for all impact angles as N = 0.76 We0.5 sin3h with R2 = 0.9, where h is the
+impact angle. Combining these equations the impact velocity can be determined and hence the position of the stain’s source.
+KEYWORDS: forensic science, bloodstain pattern analysis, angled impact, spines, pig’s blood
+The standard technique for determining the position of the source
+of a blood stain at a crime scene is the ‘‘stringing technique’’ (1,2).
+This technique uses the fact that the width to length ratio of a
+blood stain is approximately related to its impact angle. Using the
+calculated angle of impact, a straight line is drawn back from the
+stain along the line of the impact angle. Where the lines from sev-
+eral stains intersect is assumed to be the source of the stain.
+However, this does not take into account the effect of gravity on
+the flight path of the blood droplet. Assuming that the path of the
+blood stain can be described by the equations for the movement of
+a rigid object, i.e., neglecting factors such as air resistance and
+oscillation of the blood droplet, then the equations needed to
+include gravity in the flight path of the blood droplet are (3):
+ui cos hi ¼ uf cos hf
+ð1Þ
+ui sin hi  gt ¼ uf sin hf
+ð2Þ
+xf ¼ xo þ ui cos hit
+ð3Þ
+yf ¼ yo þ ui sin hit  1
+2 gt2
+ð4Þ
+where (xo,yo), are the coordinates of the source of the blood
+drop; (xf, yf) the position of the centre of the blood stain; hi, the
+angle to the horizontal at which the drop is launched; hf, the
+angle to the horizontal at which the drop hits the ground (or
+wall); ui, the initial velocity of the droplet; uf, the impact velo-
+city of the droplet; t, time; and g, gravity. Eliminating the initial
+angle of flight, the initial velocity, and time gives:
+yo ¼ yf  tan hf xf  xo
+ð
+Þ  0:5g xf  xo
+ð
+Þ2
+u2
+f cos2 hf
+ð5Þ
+Now the final position of the stain is known, the horizontal
+position of the source can be obtained by the stringing method
+and this leaves two unknowns, the vertical position of the
+source and the impact velocity when the drop hits the wall or
+floor. If the latter can be determined from the stain shape and
+size then the position of the source of the blood can be
+obtained.
+A large amount of work has been carried out looking at the ver-
+tical impact of droplets onto different (dry) surfaces to study the
+reverse problem, given a known drop size and impact velocity what
+will the final shape of the liquid stain be for the cases when no
+splashing occurs; for ink used in printing (4) and for water (5,6)
+because of its use in irrigation (7,8) and settling dust on coal (9).
+The authors found that the stain’s maximum size (10), final size
+(11) [as droplets hit a surface they expand out due to momentum
+and then contract back due to surface tension giving a final stain
+size smaller than the maximum spread of the impacting droplet
+(8)], number of spines (also termed fingers) (6,11), and any
+rebound of the droplet (12) depended on the droplet’s impact velo-
+city and size as well as a combination of surface tension, density,
+viscosity, and contact area (11).
+When studying blood stains at a crime scene the maximum
+stain size or any rebound cannot be determined. This leaves the
+stain’s size and number of spines from which to determine the
+impact velocity. A variety of equations relating the stain’s size
+and number of spines have been determined. Some are physics
+based, looking at the stain size; the conservation of volume (4) or
+energy (8) or the forces acting on the drop (9) or to predict the
+number of spines; the Rayleigh–Taylor instability (5), or surface
+tension (13). Other equations require complex computer modeling
+(7,14,15). A survey of the papers prior to 1993 is given in Ref.
+(11) and later work on the number of spines occurring is sum-
+marized in Ref. (5).
+In general, the equations developed in the above references were
+found not to work when the authors of this paper applied them to
+blood or water droplets. This may be due to the background of the
+work. Many projects were set up to examine the spraying of liquids
+onto surfaces (5) for use in spray painting or pesticide application,
+resulting in low Reynolds and Weber numbers (16).
+In 2005, Hulse-Smith et al. (17) showed that it is possible to
+determine the impact velocity of a blood droplet landing vertically
+from the number of spines around the blood stain and the stains
+1Engineering Systems Department, Cranfield University, Shrivenham,
+Swindon, Wilts SN6 8BB, U.K.
+Received 20 May 2006; and in revised form 2 Jan. 2007, 2 Mar. 2007;
+accepted 18 Mar. 2007; published 23 July 2007.
+J Forensic Sci, September 2007, Vol. 52, No. 5
+doi: 10.1111/j.1556-4029.2007.00505.x
+Available online at: www.blackwell-synergy.com
+ 2007 Cranfield University
+1044
+Journal compilation  2007 American Academy of Forensic Sciences
+
+
+--- PAGE 2 ---
+
+size. By dropping different sized blood droplets onto a variety of
+surfaces
+from
+different
+heights
+they
+obtained
+the
+following
+equations.
+Ds
+Do
+¼ Cd
+Re0:25
+2
+ð6Þ
+and
+N ¼ CN
+ﬃﬃﬃﬃﬃﬃﬃ
+We
+p
+ð7Þ
+where DS is the final stain diameter, Do the drop diameter, N
+the number of spines, and Re the Reynolds number defined by:
+Re ¼ qDoVo
+l
+ð8Þ
+where l is the viscosity, q the density, and Vo the impact velo-
+city. The Weber number, We, is given by:
+We ¼ qDoV2
+o
+r
+ð9Þ
+where r is the surface tension. CN and Cd are constants, using
+experimental data (17) obtains values of 0.955 and 1.11,
+respectively,
+whilst
+working
+with
+water
+droplets
+authors
+obtained values of CN = 1.14 (5) and Cd = 1.0 (18).
+A theoretical parameter, ReI, proportional to the Weber and Rey-
+nolds number, defined as
+ReI / Re1=2We1=4
+ð10Þ
+has been used (16). The authors found correlations for experi-
+mental data for a variety of liquids against Reynolds numbers
+of up to 25,000 and Weber numbers of up to 4000 for ReI
+against the number of spines and the ratio of stain size to drop
+size. This paper is referenced in Ref. (5) but with the equation
+now (mis)printed as
+ReI / ðRe1=2We1=4Þ0:75
+ð11Þ
+hereafter referred to as ReIM.
+However, the above work only considered the vertical impact of
+blood stains and many blood stains arrive at an angle to the sur-
+face. Whilst there has been a large amount of work considering the
+vertical impact of droplets as outlined above, there has been little
+work on the angled impact of droplets, the exceptions were either
+onto a heated surface (19) or a single case at a single angle of 45
+to validate a complex computational fluid dynamics model of the
+flow of a droplet but ignoring the generation of spines (20).
+By looking at the angled impacts of blood droplets onto paper
+this paper shows how the same equations can be used to determine
+the impact velocity of droplets over a wide range of angles, for
+which the vertical impact is simply a special case.
+Experimental Technique
+As in the work in Ref. (17), pig’s blood was used, which has
+been shown to be a viable blood substitute (21). One liter of blood
+was mixed with 100 mL of the anticoagulant 10% sodium citrate.
+Blood was collected from the abattoir one morning and the blood
+to be used that day was kept in a water bath at 37C and removed
+only when it was to be used, ensuring that the experiments were
+carried out at body temperature. The remaining blood was kept in
+a fridge to be used the following day. All blood was discarded at
+the end of the second day. Values for the density (1062 kg⁄m2),
+viscosity (0.0048 N sec⁄m2), and surface tension (0.0056 N⁄m1)
+for pig’s blood were taken from the literature (21).
+The blood was dropped from pipettes clamped into position at
+heights of 50, 100, 150, and 200 cm above the impact surface,
+resulting in impact velocities of 1.8–5.8 m⁄sec. Three different pip-
+ette sizes were used, 1.52, 2.25, and 5 mm diameter, to obtain dif-
+ferent sized droplets, resulting in measured drop diameters of 3.4–
+5.0 mm. The pipette was changed every six drops to avoid clotting
+of blood affecting the drop size formed. The droplet fell vertically
+to impact onto a surface, the slope of which was altered to give
+impact angles of 22.7, 43.5, 56.3, 61.6, 78.8, and 90 to the hori-
+zontal. For the 22.7 impact only the 1.52 mm pipette was used
+and for the small pipette at 90 to the horizontal, extra heights of
+20, 40, 60, and 80 cm were included. The surface used was stand-
+ard photocopying paper. Each combination of height, pipette size,
+and surface slope was repeated six times.
+The last 10 cm of the droplets fall was recorded using a Phan-
+tom V7.1 camera (Vision Research Inc., Wayne, NJ) filming at
+1000 frames⁄sec. The drop’s velocity and width were measured
+using the camera’s image processing software, Phantom 7, camera
+software version 605.2. Whilst the droplets were formed slowly
+using the pipette to avoid imparting an initial velocity onto the
+droplet, measuring the drop’s velocity using the camera meant that
+if inadvertently an initial velocity was imparted onto the droplet, it
+was taken into account in the results. For all stains the stain size
+was measured and the number of spines around the entire stain
+(360) was counted by hand. For each angle and height, the results
+were averaged over the six replicates. The stain size and number of
+spines were then plotted against a number of variables to obtain a
+correlation coefficient.
+Results
+Figure 1 shows the effect of impact angle on the number of
+spines obtained and the stain size and shape. As shown in previous
+work (1), as the impact angle increases, i.e., becomes closer to a
+vertical impact, the stain becomes shorter, until for a vertical
+impact a circular stain is generated (Fig. 1a). What has not been
+discussed before is that the number of spines also alters as the
+impact angle alters. From Fig. 1, it can be seen that the number of
+spines increases as the impact angle increases. As the drop size or
+impact velocity increase the stain size and number of spines also
+increases for an angled impact, Figs. 2 and 3, respectively, as pre-
+viously demonstrated in Ref. (17) for a vertical impact.
+Vertical Impact
+To compare the results against work by previous authors, at first
+only vertical impacts were considered with the correlation coeffi-
+cients, R2, given in Table 1 for stain size and Table 2 for number
+(a)
+(b)
+(c)
+(d)
+(e)
+FIG. 1—Blood stains falling from 100 cm for a medium sized pipette at
+angles of (a) 90, (b) 78.8, (c) 61.6, (d) 43.5, and (e) 33.7 to the vertical.
+KNOCK AND DAVISON
+• POSITION OF THE SOURCE OF BLOOD STAINS
+1045
+ 15564029, 2007, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2007.00505.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+
+of spines plotted against a number of parameters. When the stain
+size is plotted against the Reynolds number or Weber number the
+correlation is low as would be expected when plotting a dimen-
+sional number against a nondimensional number.
+The circular stain produced by a vertical impact can be para-
+meterized by the stain’s diameter, DS. To nondimensionalize the
+stain size for vertical impact, most work uses the ratio of the stain
+diameter to the drop size, Ds⁄Do (17). This ratio is often known as
+b (11). However, on a sloping surface the stain is oval in shape
+(see for example Fig. 1c) and so the stain size, S, depends on both
+the stain’s width (a) and length (b), and is given by S = pab⁄4. So
+for the two-dimensional analysis, a new parameter has been devel-
+oped during this work, a, given by:
+a ¼ ab
+D2
+o
+ð12Þ
+In the case of a vertical impact when a spherical stain is pro-
+duced and therefore a = b this reduces to the form:
+a ¼ ab
+D2
+o
+¼ a2
+D2
+o
+¼ b2
+ð13Þ
+Hence to plot results equivalent to those in Ref. (17), here given
+in Eq. (6), of beta against Re0.25 means squaring both sides of the
+equation and gives an equation of the form:
+a ¼ mRe0:5 þ c
+ð14Þ
+or on expansion
+ab ¼ m quDo
+l
+
+0:5
+D2
+o þ cD2
+o
+ð15Þ
+where m and c are constants obtained from fitting a straight line
+to the data and c = 0 in Eq. (6) from Ref. (17).
+Plotting alpha against the Weber number gives a low correla-
+tion coefficient, but against the Reynolds number, ReI and ReIM,
+significant correlations were obtained (Table 1). For Re0.5 the
+equation is:
+(a)
+(b)
+(c)
+FIG. 2—Blood stains falling from 100 cm onto paper at an angle of
+56.3 for drop sizes of (a) 3.83, (b) 4.4, and (c) 4.7 mm.
+TABLE 2—Correlation coefficients, R2 for the number of spines against
+various parameters and where this is significant, the fitted equation for the
+experimental results.
+Equation fitted
+Vertical impact, 90
+All data
+y = mx + c
+y = mx
+y = mx + c
+y = mx
+N vs. Re
+0.87
+0.84
+0.29
+0.29
+y = 0.0060x + 4.26
+y = 0.007x
+N vs. We
+0.76
+0.10
+0.21
+0.07
+N vs. We0.5
+0.82
+0.80
+0.21
+0.21
+y = 0.617x + 4.16
+y = 0.72x
+N vs. ReI
+0.85
+0.82
+0.26
+0.26
+y = 0.61x + 4.11
+y = 0.071x
+N vs. REIM
+0.86
+0.85
+0.25
+0.24
+y = 0.35x)2.82
+y = 0.321x
+For an explanation of the symbols see text.
+TABLE 1—Correlation coefficients, R2 for stain size against various parameters and where this is significant, the fitted equation for the experimental results.
+Equation fitted
+Vertical impact, 90
+All data
+y = mx + c
+y = mx
+y = mx + c
+y = mx
+S vs. Re
+0.67
+0.66
+0.57
+0.57
+S vs. We
+0.52
+0.021
+––
+––
+S vs. ReDoDo
+0.92
+0.89
+0.86
+0.80
+y = 0.2096 + 0.0026
+y = 0.244x
+y = 0.208 + 0.0042
+y = 0.261x
+S vs. ReIDoDo
+0.9
+0.89
+0.85
+0.81
+y = 2.19x + 0.00223
+y = 2.5x
+S vs. REIM DoDo
+0.95
+0.94
+0.88
+0.88
+y = 11.95x)0.00091
+y = 11.37x
+y = 11.74x + 0.00084
+y = 12.25x
+a vs. Re
+0.90
+0.81
+0.79
+0.70
+y = 0.0024x + 3.02
+y = 0.0031x
+y = 0.0023x + 3.27
+y = 0.00312x
+a vs. Re0.5
+0.91
+0.83
+0.80
+0.48
+y = 0.183x)5.22
+y = 0.201x
+y = 0.283x)5.22
+y = 0.201x
+a vs. We
+0.80
+0.51
+0.67
+0.60
+a vs. REI
+0.88
+0.79
+0.68
+0.53
+y = 1.91x + 232.5
+a vs. REIM
+0.89
+0.89
+0.68
+0.69
+y = 10.99x + 20.0
+y = 11.21x
+(a)
+(b)
+(c)
+(d)
+FIG. 3—Blood stains falling onto paper at an angle of 56.3 from heights
+of (a) 50, (b) 100, (c) 150, and (d) 200 cm.
+1046
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2007, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2007.00505.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+
+ab ¼ 0:183 quDo
+l
+
+0:5
+D2
+o  5:22D2
+o
+ð16Þ
+For this equation, as the velocity tends to zero the stain size
+tends to a negative area. Physically the impact velocity is zero
+when a drop is placed on the surface and allowed to collapse under
+gravity to produce a stain of finite size. Hence c in Eq. (15) must
+take a value greater than zero and the negative value in Eq. (16)
+for the constant c is not physically realistic. As the drop size tends
+to zero in Eq. (15) the stain size also tends to zero as would be
+expected.
+Although it is not physically realistic (as when the velocity tends
+to zero the stain size tends to zero), to compare results to those in
+Refs. (17,18), the equation for the Reynold’s number was forced to
+pass through zero giving c = 0 in Eq. (15) as in Eq. (6) taken from
+Ref. (17). This gave correlation coefficients of R2 = 0.81 and 0.83
+for Re and Re0.5, respectively, with equations a = 0.00310 Re or
+a = 0.200 Re0.5. The original for Re0.5 had a coefficient of 0.5 for
+water droplets (18), but it was found necessary to alter this to
+0.555 for the work on blood (17). This compares with the equival-
+ent coefficient here of 0.22 = 0.4, suggesting differences in the
+results.
+Even better results are obtained with correlation coefficients of
+R2 = 0.95 and 0.93 by plotting the stain size against ReIMDoDo and
+ReDoDo. Mathematically, these variables give equations of the
+form:
+ab ¼ m1MD2
+o þ c1
+ð17Þ
+where m1 and c1 are constants and M is a nondimensional num-
+ber such as the Reynolds number or REIM. When the velocity
+tends to zero the stain size tends to the value of c1; however, c1
+is a constant and it would be expected that the stain size formed
+when a droplet is placed on the surface (with zero velocity)
+would vary with drop size. When the drop size tends to zero
+then again the stain size tends to the value of c1, when clearly
+it should tend to zero. When c1 is zero then as the drop size
+tends to zero the stain size correctly tends to zero. However, as
+the velocity tends to zero the stain size also tends to zero when
+actually although it should become smaller it should tend
+towards a size based on the drop size.
+For the number of spines, significant correlations were found
+(Table 2) for the Reynold’s number, the square root of the Weber
+number, ReI and REIM. Once the equations are forced to pass
+through zero, implying no spines when the velocity or drop size
+tend to zero, the correlation coefficient for the Weber number
+becomes insignificant but the other parameters still show significant
+correlations. Compared to the results from Ref. (5,17), where the
+number of spines from Eq. (7) was Cn = 0.955 and 1.11, respect-
+ively, here the value for Cn was 0.63.
+Angled Impact
+When all the angles (from 22.7 to 90 to the horizontal) are
+considered, the correlation coefficients on the right of Table 1 are
+obtained for the stain size. To calculate the stain size using alpha,
+the only significant correlation is against the Reynolds number
+(Fig. 4) when R2 = 0.8. A significant correlation is also obtained
+for the square root of the Reynolds number, but as in the vertical
+impact case, the negative constant means that the stain’s size tends
+to a negative area as the velocity tends to zero, nullifying this
+equation.
+As discussed in the section on vertical impact, an equation rela-
+ting alpha to the impact velocity and drop size, when the line does
+not pass through zero gives the best physical interpretation of the
+data when the velocity or drop size tend to zero. However, better
+correlations were found for the stains size against ReDD, ReIDoDo,
+and ReIMDoDo. The best correlation was for ReIMDoDo (Fig. 5)
+with a correlation coefficient of R2 = 0.88.
+For the number of spines none of the parameters give a signifi-
+cant correlation (Table 2). However, the graphs do not take into
+account the angle of impact, which alters the stain’s shape. To take
+this into consideration the graphs were replotted in the form:
+y ¼ m  sinn h þ c
+ð18Þ
+where h is the impact angle and n is a constant, varied to give
+the best fit. Correlation coefficients are given in Table 3.
+These results include the data collected at 22.7 to the horizontal.
+The number of spines tends toward a single spine as the impact
+velocity and impact angle tend to zero. This means that at low
+impact velocities and angles, it is impossible to distinguish between
+stains by calculating the number of spines. However, for the experi-
+ments carried out for the impact angle at 22.7 to the horizontal, it
+was found that whilst droplets from 50 cm only formed one spine
+(Fig. 6a) those at faster impacts (from 100 cm and above) formed
+more than one spine (Fig. 6b). This suggests that whilst the correla-
+tions are still valid at this angle, further work would be needed, for
+example, looking at spine length, to consider smaller angles and
+lower velocity impacts when only one spine is formed.
+For the stain size the best results occur when the angle of
+impact is neglected, i.e., n = 0 in Eq. (18). This implies that the
+stain size is independent of the angle of impact. This is feasible
+in that regardless of the impact angle the same amount of blood
+is available and a change in stain size would only occur if signi-
+ficant cast off occurs or the blood collects at one end of a long
+stain or a stain is exceptionally thick. There was no clear sign of
+these occurring.
+y = 0.0023x + 3.2741
+R2 = 0.7904
+y = 0.0031x
+R2 = 0.697
+0.00
+2.00
+4.00
+6.00
+8.00
+10.00
+12.00
+14.00
+16.00
+18.00
+20.00
+0.00
+1000.00
+2000.00
+3000.00
+4000.00
+5000.00
+6000.00
+7000.00
+Reynolds number
+alpha
+FIG. 4—Plot of alpha against Reynolds number.
+y = 11.73694x + 0.00084
+R2 = 0.88224
+y = 12.248x
+R2 = 0.8804
+0.00
+0.01
+0.01
+0.02
+0.02
+0.03
+0.03
+0.04
+0
+0.0005
+0.001
+0.0015
+0.002
+0.0025
+0.003
+ReIM DD (m*m)
+Stain size (m*m)
+FIG. 5—Plot of stain size against ReIMDoDo.
+KNOCK AND DAVISON
+• POSITION OF THE SOURCE OF BLOOD STAINS
+1047
+ 15564029, 2007, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2007.00505.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+
+As discussed above, physically, the best equation to use is that
+for the Reynolds number given by:
+a ¼ 0:0023Re þ 3:27
+ð19Þ
+as the equation makes physical sense as the velocity and drop
+size tend to zero. Better fits are found using ReDoDo, REIDoDo,
+and REIMDoDo but they do not give the correct result as the
+velocity tends to zero. However, as long as the equation is only
+used within the limits of the collected data then the other equa-
+tions could be used, for example, the equation for REIMDoDo
+with R2 = 0.88, compares with R2 = 0.70 for Eq. (19) gives
+ab ¼ 111:74REIMDoDo þ 0:00084
+ð20Þ
+For the number of spines, the angle of impact has a clear effect
+(see Fig. 1). Whilst there is no correlation when n is set to 0, for
+n = 3 Reynolds number, Weber number, ReI and ReIM all give cor-
+relations of better than 0.9. Example plots, for Re and We0.5 are
+given in Figs. 7 and 8, respectively. For the Weber number this
+cubic dependence on the impact angle could be due to the variable
+parameter DoVo
+2, but for We0.5, Re, ReI, and ReIM the reason for
+this cubic dependency of the angle is unclear.
+A summary on the causes of spines is given in Ref. (5), out-
+lining that at the moment, it is thought that the number of spines
+depends on the surface tension of a liquid and not its viscosity.
+Given the closeness of the correlation coefficients, this means
+that from this data it is not possible to determine which equation
+is best. Until more data varying the density, surface tension, vis-
+cosity, and surface can be obtained it is recommended that the
+equation using the square root of the Weber number is used.
+Given that it would be expected that the number of spines
+should tend to zero as the drop size or velocity tend to zero
+then:
+(a)
+(b)
+FIG. 6—Blood stains falling from a small sized pipette at an angle of
+22.7 to the vertical from (a) 5 and (b) 200 cm.
+FIG. 7—Plot of the number o f spines against Re sin3(h).
+TABLE 3—Correlation coefficients, R2, for experimental results taking into account varying impact angle with, in brackets, the most significant equation for
+the number of spines.
+n
+)2
+)1
+0
+0.5
+1
+2
+3
+4
+Equation fitted
+a = mRe sinnh + c
+—
+0.13
+0.79
+—
+0.71
+0.53
+—
+—
+a = mRe0.5 sinnh + c
+—
+0.00
+0.80
+0.72
+0.53
+0.34
+—
+—
+S = mReDoDo sinnh + c
+0.14
+0.72
+0.86
+—
+0.69
+0.53
+—
+—
+S = mReDoDo sinnh
+—
+0.66
+0.80
+—
+0.69
+—
+—
+—
+S = mReIMDoDo sinnh + c
+—
+0.63
+0.88
+—
+0.65
+—
+—
+—
+S = mReIMDoDo sinnh
+—
+0.61
+0.88
+—
+0.47
+—
+—
+—
+N = mRe sinnh + c
+—
+0.06
+0.29
+—
+0.75
+0.89
+0.93 (y = 0.0068x + 1.60)
+0.92
+N = mRe sinnh
+—
+0.29
+—
+0.72
+0.89
+0.92 (y = 0.92x)
+0.88
+N = mWe0.5 sinnh + c
+—
+0.1
+0.21
+—
+0072
+0.87
+0.91 (y = 0.72x + 1.27)
+0.9
+N = mWe0.5 sinnh
+—
+—
+0.21
+—
+0.68
+0.86
+0.90 (y = 0.76x)
+0.87
+N = mREIDoDo sinnh + c
+—
+—
+0.26
+—
+0.74
+0.89
+0.92 (y = 0.070x + 1.39)
+0.92
+N = mREIDoDo sinnh
+—
+—
+0.26
+—
+0.70
+0.88
+0.92 (y = 0.074x)
+0.88
+N = mREIMDoDo sinnh + c
+—
+—
+0.24
+—
+0.71
+0.89
+0.93 (y = 0.34x)0.02)
+0.89
+N = mREIMDoDo sinnh
+—
+—
+0.25
+—
+0.81
+0.92
+0.93 (y = 0.32x)
+0.92
+y = 0.7192x + 1.2707
+R2 = 0.9078
+y = 0.7574x
+R2 = 0.9046
+0
+0
+10
+20
+30
+40
+50
+60
+5
+10
+15
+20
+25
+30
+35
+40
+45
+sqrt(weber)sin(theta)**3
+Number of spines
+FIG. 8—Plot of the number of spines against We0.5sin3(h).
+1048
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2007, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2007.00505.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+
+N ¼ 0:76We0:5 sin3 h
+ð21Þ
+The coefficient in Eq. (21) is 0.76, this is lower than those in
+Refs. (17) and (5), 0.955 and 1.11, respectively. The difference in
+values may be due to the difference in surface used. The surface
+affects the contact angle between the liquid and the surface and
+hence the stain size (18). Another possible explanation is that, as
+was observed in Ref. (17), counting spines is somewhat subject-
+ive. The author’s experience with working with water and now
+blood has shown that it is more important to be consistent than
+to obtain the exact number of spines. As long as the counter is
+consistent then the same relationships will occur, with slightly dif-
+ferent coefficients, hence until the process can be automated a
+researcher must obtain and apply their own equations to work in
+the field.
+Conclusions
+The experimental work presented in this paper shows that it is
+possible to use a single equation to take into account the impact
+angle when calculating a blood stain’s size and number of
+spines. Hence for a blood droplet’s impact on paper by measur-
+ing the stains size and number of spines it is possible to deter-
+mine the impact velocity and hence the position of the source of
+the droplet.
+The results differ from those of Hulse-Smith et al. (17), but dif-
+ferent surfaces were used and as they point out the determination
+of what is a spine is difficult to quantify. Results at Cranfield Uni-
+versity have shown that as long as the person counting spines is
+always consistent meaningful equations can be found and used.
+The exact form of the equation to determine the number of spines
+will require further work using different liquids to determine the
+exact dependency of the number of spines.
+Currently, work has only been carried out on paper and further
+work will be needed to determine whether any relationships exist for
+other surfaces and if they can also be incorporated into a single equa-
+tion for all surfaces by taking account of the contact angle and⁄or
+the surface roughness. Before use at crime scenes the work will then
+have to be validated using blind trials. For crime scene work, it may
+also be possible to set up equations that do not need the liquid’s den-
+sity, viscosity, and surface tension, the values of which will have to
+be taken from the literature, as they cannot be obtained from a dried
+scene. However, this will make it more difficult to include effects
+such as different surfaces or extend the work to other liquids found
+at a crime scene and still have a single equation.
+References
+1. MacDonell HL. Bloodstain patterns. Corning, NY: Laboratory of Foren-
+sic Science, 1993.
+2. Bevel T, Gardner RM. Determining the point of convergence and the
+point of origin. In: Bevel T, Gardner RM, editors. Bloodstain pattern
+analysis: with an introduction to crime scene reconstruction. London:
+CRC Press Inc., 2002;121–41.
+3. Young HD. University physics. Reading, MA: Addison-Wesley Publish-
+ing Company, 1992.
+4. Asai A, Shioya M, Hirasawa S, Okazaki T. Impact of an ink drop on
+paper. J Imaging Sci Technol 1993;37(2):205–7.
+5. Mehdizadeh NZ, Chandra S, Mostaghimi J. Formation of fingers around
+the edge of a drop hitting a metal plate. J Fluid Mech 2004;510:353–73.
+6. Thoroddsen ST, Sakakibara J. Evolution of the fingering pattern of an
+impacting drop. Phys Fluids 1998;10(6):1359–74.
+7. Chang W-J, Hills DJ. Sprinkler droplet effects on irrigation. I: impact
+simulation. J Irrig Drain E-ASCE 1993;119(1):142–56.
+8. Ford RE, Furmidge CGL. Impact and spreading of spray drops on foliar
+surfaces. Soc Chem Ind Monogr 1967;25:417–32.
+9. Cheng L. Dynamic spreading of drops impacting onto a solid surface.
+Ind Eng Chem Process Des Dev 1977;16(2):192–7.
+10. Scheller BL, Bousfield DW. Newtonian drop impact with a solid sur-
+face. AICHE J 1995;41(6):1357–67.
+11. Rein M. Phenomena of liquid drop impact on solid and liquid surfaces.
+Fluid Dyn Res 1993;12:61–93.
+12. Mao T, Kuhn DCS, Tran H. Spread and rebound of liquid droplets upon
+impact on flat surfaces. AICHE J 1997;43(9):2169–79.
+13. Allen RT. The role of surface tension in splashing. J Colloid Interf Sci
+1974;51(2):350–1 (Letter to Editor).
+14. Davidson MR. Boundary integral prediction of the spreading of an invis-
+cid drop impacting on a solid surface. Chem Eng Sci 2000;55:1159–70.
+15. Fukai J, Zhao Z, Poulikakos D, Megaridis CM, Miyatake O. Modeling
+of the deformation of a liquid droplet impinging on a flat surface. Phys
+Fluids A 1993;5(11):2588–99.
+16. Marmanis H, Thoroddsen ST. Scaling of the fingering pattern of an
+impacting drop. Phys Fluids 1996;8(6):1344–6.
+17. Hulse-Smith L, Mehdizadeh NZ, Chandra S. Deducing drop size and
+impact velocity from circular bloodstains. J Forensic Sci 2005;50:54–63.
+18. Pasandideh-Fard M, Qiao YM, Chandra S, Mostaghimi SJ. Capillary
+effects
+during
+droplet
+impact
+on
+a
+solid
+surface.
+Phys
+Fluids
+1996;8(3):650–9.
+19. Kang BS, Lee DH. On the dynamic behavior of a liquid droplet impact-
+ing upon an inclined heated surface. Exp Fluids 2000;29:380–7.
+20. Bussman M, Mostaghimi J, Chandra S. On the three dimensional vol-
+ume tracking model of droplet impact. Phys Fluids 1999;11(6):1406–17.
+21. Raymond MA, Smith ER, Leisegang J. The physical properties of blood
+– forensic considerations. Sci Justice 1995;36:153–60.
+Additional information and reprint requests:
+Clare Knock, M.D.
+Engineering Systems Department
+Cranfield University
+Shrivenham, Swindon
+Wilts SN6 8BB, U.K.
+E-mail: c.knock@cranfield.ac.uk
+KNOCK AND DAVISON
+• POSITION OF THE SOURCE OF BLOOD STAINS
+1049
+ 15564029, 2007, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2007.00505.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

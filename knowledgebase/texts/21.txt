@@ -1,0 +1,463 @@
+
+
+--- PAGE 1 ---
+
+Technical Note
+The application of silicon sol–gel technology to forensic blood
+substitute development: Investigation of the spreading dynamics onto
+a paper surface
+Theresa Stotesburya, Mike Illesb, Paul Wilsonc, Andrew J. Vreugdenhila,d,*
+a Materials Science Program, Trent University, 1600 West Bank Drive, Peterborough, Ontario, K9J 0G2, Canada
+b Forensic Science Department, Trent University, 1600 West Bank Drive, Peterborough, Ontario, K9J 0G2, Canada
+c Biology Department, Trent University, 1600 West Bank Drive, Peterborough, Ontario, K9J 0G2, Canada
+d Chemistry Department, Trent University, 1600 West Bank Drive, Peterborough, Ontario, K9J 0G2, Canada
+A R T I C L E 
+I N F O
+Article history:
+Received 14 November 2016
+Received in revised form 23 March 2017
+Accepted 24 March 2017
+Available online 1 April 2017
+Keywords:
+Bloodstain pattern analysis
+Passive drip stain
+Spreading
+Forensic blood substitutes
+Silicon sol–gels
+Thin ﬁlms
+A B S T R A C T
+This work investigates the spreading dynamics of three candidate sol–gel solutions, of ranging viscosities,
+surface tensions and densities, and compares them with water and two commercial blood substitute
+products. Droplets were created with different sizes (10 to75 mL) and impact velocities (1.4 to 6.0 m/s) to
+strike 176 gsm cardstock. Over 2200 droplets were created using the six different ﬂuids and their ﬁnal
+dried stain diameter was measured. Droplet spread was plotted using the Scheller and Bousﬁeld
+correlation and uses effective viscosity as a parameter for non-Newtonian ﬂuids. Comparing the results to
+an expected whole human blood range validated the spread of the candidate FBS sol–gel material in
+passive drip bloodstain pattern simulation. These ﬁndings complement the practical application of the
+material as a safe substitute for demonstrating droplet spread under controlled conditions on hard paper
+surfaces.
+© 2017 Elsevier B.V. All rights reserved.
+1. Introduction
+The Organization of Scientiﬁc Areas Committee’s (OSAC)
+bloodstain pattern analysis (BPA) subcommittee has recently
+reported a call to determine the differences between fresh, whole
+human blood and various blood substitutes for use in research,
+training and case experimentation [1]. The subcommittee suggests
+that further research can help with understanding the relationship
+between the physical characteristics of blood and other ﬂuids and
+the mechanisms that cause pattern formation [1]. This work
+complements this idea by exploring the contributions of surface
+tension, density and viscosity to droplet spread and passive drip
+stain formation of various forensic blood substitutes (FBS).
+Previously, our sol–gel formulation has demonstrated validity
+in passive dripping simulation [2]. We can further evaluate the
+utility of our materials by investigating the ﬂuid dynamics of
+spread. We extend our previous data set [2] by creating more
+droplets of various size and impact velocities. This helps to provide
+a more comprehensive understanding of droplet spread in
+practical crime scene reconstruction. We can then compare the
+results of the sol–gel materials to the expected whole human blood
+range in passive drip bloodstain pattern simulation. Validation of a
+forensic blood substitute is an important component of its
+implementation into research and training exercises. This is
+particularly true with commonly encountered [3], well researched
+[4] and extensively taught [5] bloodstains patterns associated with
+bloodletting events.
+Droplet impact and spreading dynamics have been heavily
+explored in the literature [6]. Traditionally, spread has been
+modeled in bloodstain pattern analysis, and other areas of ﬂuid
+dynamics, using either the droplet’s Weber number and/or
+Reynolds number [4,7]. A recent study suggests that the accuracy
+of the model can be enhanced by blending terms from both the
+capillary and viscous regimes of the ﬂuid [8]. Our work supports
+this idea, and we use the Scheller and Bouseﬁeld relation [9] to
+linearize the spreading ratios of six different ﬂuids. This work
+extends previous work that uses the correlation as a platform to
+test candidate FBS materials [10] as it can be used to express both
+Newtonian and non-Newtonian spreading by using a ﬂuid’s high
+shear, or effective viscosity [11]. In this paper we investigate the
+spread of six ﬂuids, water, two commercial blood substitutes, and
+* Corresponding author at: Chemistry Department, Trent University,
+1600 West Bank Drive, Peterborough, Ontario, K9J 0G2, Canada.
+E-mail address: avreugdenhil@trentu.ca (A.J. Vreugdenhil).
+http://dx.doi.org/10.1016/j.forsciint.2017.03.020
+0379-0738/© 2017 Elsevier B.V. All rights reserved.
+Forensic Science International 275 (2017) 308–313
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+
+
+--- PAGE 2 ---
+
+three sol–gel materials used to develop what we describe as our
+candidate FBS. This candidate FBS has been tested against whole
+blood and validated using another passive dripping test [10]. The
+focus of this work is to demonstrate the spreading dynamics of the
+validated material in comparison to those observed for other
+materials.
+2. Materials and methods
+2.1. Test liquids
+Six different ﬂuids were characterized in this experiment:
+water, three sol–gel materials and two commercial products. The
+sol–gels were created using an established protocol [2]. These
+included the base formulation (GT), the base formulation that
+undergoes a process for alcohol removal (LAGT), and the LAGT gel
+with ﬁllers, which is our candidate FBS. The GT and LAGT
+formulations had <1% weight by volume (w/v) food coloring, to
+enhance visualization of the dried stains. Millipore water was used
+with <1% w/v food coloring. Two commercial products were also
+tested; one intended for use by forensic practitioners [12] and the
+other for use in educational settings [13].
+2.2. Physical property measurements
+The surface tension of each ﬂuid was measured using the
+Pendant_Drop plugin for ImageJ [14]. A 1 cc glass syringe was
+cleaned with water and dried with acetone prior to droplet
+formation. Scaled images of the fully developed droplets were
+captured using a Nikon D3400 under ambient conditions prior to
+droplet release. Fifty measurements were obtained per ﬂuid and
+averaged.
+Density was determined by measuring the mass of known
+volumes of each material drawn in a 1 cc glass syringe with an
+analytical balance. Ten measurements were obtained per ﬂuid and
+averaged.
+The viscosity of each ﬂuid was measured in triplicate at
+25 C  0.05 C between shear rates 1 to 12,000 s1 using a TA AR
+2000 rheometer. Viscosity was measured in ambient conditions as
+each of the materials are considered stable and ready-to-use at
+room temperature. Measurements were taken and averaged over
+60 s for each of the shear rates analyzed. The high shear viscosity
+was determined by averaging the ﬂuid’s viscosity at shear rates
+greater than 100 s1.
+Statistical test measures were applied to the density, surface
+tension and viscosity measurements obtained for each of the six
+tested ﬂuids. It is important to note that the whole human blood
+values were not included in the testing, as the values were
+obtained from the literature using different sources, where means
+of the physical properties are reported rather than the raw data,
+where variance in sample measurements are used and required for
+statistical testing. A one-way ANOVA test was used to determine
+whether 
+there were 
+any 
+statistically signiﬁcant 
+differences
+between the means of the different ﬂuids’ densities, surface
+tensions and high shear viscosities. A Tukey honestly signiﬁcant
+different test was then used for post hoc testing for pairwise
+analysis of each of the physical properties of the ﬂuids. Statistically
+signiﬁcant differences were also conﬁrmed using a pairwise test
+with a Bonferroni correction factor for multiple testing.
+2.3. Stain deposition
+Droplet volume was controlled using different syringe tips with
+various diameters. Single droplets were formed at speciﬁc dripping
+heights between 20–120 cm and allowed to fall perpendicular to
+the target paper. Droplet volumes ranged from 10 to 75 mL and
+impact velocities 1.4 to 6.0 ms1. White cardstock (65 lb/176 gsm)
+was the target surface for stain deposition. Each piece had a circle
+printed on it as an area that stains could be dropped within to avoid
+any interference by the paper’s edges. 10 stains per dripping height
+were created and allowed to dry prior to measurement. The
+diameter of each stain was measured from scaled images of the
+stains using ImageJ. Over 2200 stains were created and measured.
+The droplet’s spread, DS/D0, was determined as the quotient
+between the measured stain diameter, DS, and original droplet
+volume D0.
+3. Results and discussion
+3.1. Physical property measurements of test ﬂuids
+Table 1 reports the average measured properties of the ﬂuids,
+and includes an estimated whole human blood range that is taken
+from a survey of the scientiﬁc literature on the scientiﬁc
+literature. Combined, they form a wide range of 
+testable
+properties to model droplet spread, and therefore assess the
+capabilities of the ﬂuids to act as forensic blood substitutes in
+dripping simulation. Interestingly, the commercial substitutes
+have signiﬁcantly different high shear viscosities and surface
+tensions compared to whole human blood, and are in fact, more
+similar to water. The LAGT and FBS have similar properties to
+whole human blood, with a slightly lower surface tension and
+higher density than required.
+The one-way ANOVA testing determined that statistically
+signiﬁcant differences exist between the means of each of the
+tested ﬂuid’s densities, surface tensions and high shear viscosities
+(p < 216 for each test). Using the post-hoc testing, only three
+similarities in means were determined and were: the surface
+tension between the LAGT and FBS (p = 0.250), the density between
+water and Commercial 1 (p = 0.951) and the high shear viscosities
+between water and Commercial 1 (p = 0.685). These results support
+the idea that the sol–gels have physical properties that are much
+different than water and the other commercial blood substitutes,
+as well as demonstrate how the physical properties of Commercial
+1 are similar to water. The rest of the pairwise comparisons were
+determined to have statistically signiﬁcant differences between
+Table 1
+Surface tension, density and high shear viscosity of the test ﬂuids at ambient temperatures (22 to 25 C) compared to whole blood at physiological temperature (37 C).
+Fluid 
+Surface tension  103
+(Nm1)
+Density
+(kg m3)
+High shear viscosity
+(>100 s1)  103 (Pa.s)
+Water 
+71.4  2.8 
+1028.7  0.0044 
+1.04  0.09
+Commercial 1 
+57.1  5.9 
+1126.1  0.0065 
+1.26  0.14
+Commercial 2 
+65.9  4.1 
+1026.5  0.0044 
+2.15  0.11
+GT 
+36.6  1.4 
+1083.0  0.0071 
+6.46  0.97
+LAGT 
+48.0  2.0 
+1170.3  0.0070 
+4.59  0.35
+FBS 
+49.5  2.3 
+1149.3  0.0023 
+4.99  0.54
+Whole human blood 
+54  4.2 [15,16] 
+1053  0.0113 [16–21] 
+4.63  1.94 [22–25]
+T. Stotesbury et al. / Forensic Science International 275 (2017) 308–313 
+309
+
+
+--- PAGE 3 ---
+
+the means of the pairs (p  3.110). The results of this ﬁnd primarily
+suggest that each of these ﬂuids must be plotted independently
+when mapping droplet spread. It also supports the idea of using
+descriptors for ﬂuids being more “water-like” and “blood-like”.
+Fig. 1 shows an example of a fully developed droplet of each
+ﬂuid using the same 1 cc glass syringe. There is a visual difference
+in droplet size and contour when they are fully developed at the
+syringe tip. Since droplet size inﬂuences stain size, it is important,
+then that consistency in droplet size is maintained when testing
+candidate materials in passive dripping simulation.
+The alcohol removal step when converting GT to LAGT is key to
+increasing the surface tension of the base sol–gel material, while
+not signiﬁcantly affecting its viscosity and density. The increase in
+density from LAGT to FBS is a result of ﬁller addition.
+3.2. Dried stain characteristics
+Fig. 2 highlights the observed difference in the average
+spreading ratio of the dried stains of each ﬂuid. This ﬁgures
+shows the average spreading ratio of the stains created from
+droplets of the same approximate size (36.9 mL  2.0 mL). Plotting
+the spreading ratio, Ds/D0 accounts for minor volume differences
+between the ﬂuids As expected, the water stains are much larger
+than the commercial and sol–gel products, GT, LAGT and FBS.
+3.3. Droplet spread
+Using the Weber and Reynolds numbers individually to plot
+ﬁnal stain diameter is not an effective way to understand
+spreading in this case. Fig. 3 shows that most of the data falls
+below the theoretically and experimentally depicted capillary and
+viscous regimes commonly used to model spread [7,26–28]. This
+has also been reported in a previous study of forensic relevance
+[8].
+If anything, these models are best suited for water, rather
+than ﬂuids with a higher viscosity, like the commercial and
+candidate ﬂuids. It is ﬁtting, then, that the ﬂuid spread is more
+appropriately modeled using a combination of dimensionless
+numbers.
+The Scheller and Bouseﬁeld Correlation [9] using the An & Lee’s
+concept of effective viscosity [11] shown in Fig. 4 is one example of
+a method that linearizes the data (R2 = 0.71) and shows a clear
+Fig. 1. Droplets that have formed prior to release from the tip of a 1 cc glass syringe for surface tension measurement. The average surface tension values for each of the ﬂuids
+are given. The differences in opacity of the FBS and commercial products from the GT, LAGT and water are a result of the solid content of each ﬂuid.
+Fig. 2. Average droplet spread as a function of dripping height for water (blue circles), Commercial1 (green diamonds), Commercial2 (purple triangles), GT (yellow triangles),
+LAGT (orange circles), and FBS (red diamonds). Error bars represent standard deviation of n = 10 samples per dripping height. The average droplet volume for the ﬂuids is
+36.9  2.0 mL. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)
+310 
+T. Stotesbury et al. / Forensic Science International 275 (2017) 308–313
+
+
+--- PAGE 4 ---
+
+difference in scalability of passive drip stains created by all of the
+ﬂuids. The correlation uses a combination of a ﬂuid droplet’s
+density, surface tension, viscosity, volume and impact velocity to
+map its spread. The scaling factor (slope of the line of best ﬁt), 0.55,
+is different than the 0.61 reported [11]; however, this is most likely
+a result of surface constraint as stains were created on two slightly
+different hard, porous surfaces [10]. Paper surfaces have complex
+interactions at the ﬂuid-substrate interface, where absorbency can
+conceivably limit spread.
+Scalability is highlighted by the overlap in stain data between
+ﬂuids. For example, a small water droplet can be made to look like a
+larger stain created from larger droplets made from sol–gel and
+vice versa. This speaks to the versatility in creating a wide variety of
+formulations for FBS; however, practically this is ill-suited for
+Fig. 3. Spread of the ﬂuids as a function of their droplet’s Weber, We, (above) and Reynolds, Re, (below) numbers. The tested ﬂuids are water (blue circles), Commercial1
+(green diamonds), Commercial2 (purple triangles), GT (yellow triangles), LAGT (orange circles), and FBS (red diamonds). (For interpretation of the references to color in this
+ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 4. Droplet spread of the ﬂuids as a function of Scheller and Bouseﬁeld correlation. The tested ﬂuids are water (blue circles), Commercial1 (green diamonds), Commercial2
+(purple triangles), GT (yellow triangles), LAGT (orange circles), and FBS (red diamonds). (For interpretation of the references to color in this ﬁgure legend, the reader is referred
+to the web version of this article.)
+T. Stotesbury et al. / Forensic Science International 275 (2017) 308–313 
+311
+
+
+--- PAGE 5 ---
+
+implementation into forensic training and reconstruction as
+discussion of the scaling factors would require further and
+unnecessary follow-up/instruction.
+There is a clear difference between the LAGT and FBS solutions
+compared to the other ﬂuids. In fact, the commercial products
+share similar spreading characteristics to water. This is primarily
+due to the products’ low viscosity. When applying the range of
+experimental conditions (10 to 75 mL droplet volumes and impact
+velocities 1.4 to 6.0 ms1) to the reported whole human blood
+range, a theoretical range of spread is determined. This range,
+shown in Fig. 4, was determined using an accommodating
+approach, one that exploits the entire range of physical property
+values reported in the literature. Again, some stains made by
+water and the commercial standards fall outside of this range,
+while the sol–gel solutions, particularly the LAGT and FBS, do not.
+This is best demonstrated by Fig. 5, which uses the ﬂuids’
+Ohnesorge numbers in relation to droplet spread. The vertical
+spread in data at a speciﬁc Ohnesorge number is dictated by the
+droplet’s impact velocity. Again, this plot demonstrates how the
+LAGT and FBS solutions spread in a manner similar to whole
+human blood range. Caution is recommended when using and
+applying the commercial ﬂuids in dripping experiments under
+the tested conditions.
+The obvious extension of this work is to investigate splashing;
+particularly in spine and scallop formation as well as the
+generation of satellite stains from the parent stain.
+3.4. Importance for validation prior to implementation in training
+Establishing validation protocols are important for implement-
+ing an artiﬁcial ﬂuid into bloodstain training and research
+programs [29]. Using ﬂuids that can accurately represent the
+mechanisms of bloodshed is important for training, particularly
+where whole blood is not used. This holds true for both
+quantitative and qualitative stain and pattern characteristics. It
+is important to consider how well a ﬂuid mimics a well-researched
+bloodstain pattern type. This is because there is little user-beneﬁt
+in using a material with physical properties that are signiﬁcantly
+different than whole blood as it could potentially provide a false
+visualization of bloodstain pattern formation. This is particularly
+important in training, as providing an accurate representation of a
+scientiﬁc concept is important for a learner to understand the
+theoretical and experimental core principles of pattern formation
+[30]. This is why investigating the fundamental dynamics of
+candidate FBS materials during pattern simulation is so important
+for implementation into the industry.
+4. Conclusion
+This work extends the validation of the silicon sol–gel material
+as a candidate FBS for simulated passive dripping under controlled
+conditions on a paper substrate. Passive drip stains of six different
+ﬂuids were created and their spread analyzed. Spread was modeled
+using the Scheller and Bousﬁeld correlation, with an applied
+effective high-shear viscosity for non-Newtonian ﬂuids. A theo-
+retical range for whole human blood was determined and applied
+to the data. This was used to show that droplet spread from the
+LAGT and FBS solutions were more similar to blood, and the two
+commercial products more similar to water. This work emphasizes
+the need to characterize and thoroughly test FBS materials for use
+in crime scene research and training.
+Conﬂict of interest
+The authors declare no conﬂict of interest from the work of this
+paper.
+Acknowledgements
+We would like to thank Dr. Suresh Narine of the Trent University
+Center for Biomaterials Research for access to equipment as well as
+Dr. Laziz Bouzidi and Peter Andreas for their technical advice with
+the rheometer. The author TS was supported by the Vanier
+Scholarship from the Natural Sciences and Engineering Research
+Council of Canada.
+References
+[1] OSAC, OSAC research needs assessment form, in: (FSSB) FSSB (Ed.), Behaviour
+of Blood Outside the Body, 2016 p. 3.
+[2] T. Stotesbury, M. Illes, P. Wilson, A.J. Vreugdenhil, The application of silicon
+sol–gel technology to forensic blood substitute development: mimicking
+aspects of whole human blood rheology, Forensic Sci. Int. 270 (2017) 12–19.
+[3] P.E. Kish, T.P. Sutton, S.H. James, Principles of Bloodstain Pattern Analysis:
+Theory and Practice, 3rd ed., CRC Press, Boca Raton, 2005.
+Fig. 5. Spread of the ﬂuids as a function of their droplet’s Ohnesorge number, Oh. The tested ﬂuids are water (blue circles), Commercial1 (green diamonds), Commercial2
+(purple triangles), GT (yellow triangles), LAGT (orange circles), and FBS (red diamonds). (For interpretation of the references to color in this ﬁgure legend, the reader is referred
+to the web version of this article.)
+312 
+T. Stotesbury et al. / Forensic Science International 275 (2017) 308–313
+
+
+--- PAGE 6 ---
+
+[4] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamic topics
+in bloodstain pattern analysis: comparative review and research opportu-
+nities, Forensic Sci. Int. 231 (2013) 375–396.
+[5] International Association of Bloodstain Pattern Analysts I, Bloodstain Pattern
+Analysis Basic Course: Course Requirements, (2011) .
+[6] A.L. Yarin, Drop impact dynamics: splashing, spreading, receding, bouncing .
+. . , Annu. Rev. Fluid Mech. 38 (2006) 159–192.
+[7] C.D. Adam, Fundamental studies of bloodstain formation and characteristics,
+Forensic Sci. Int. 219 (2012) 76–87.
+[8] N. Laan, K.G. de Bruin, D. Bartolo, C. Josserand, D. Bonn, Maximum diameter of
+impacting liquid droplets, Phys. Rev. Appl. 2 (2015).
+[9] B.I. Scheller, D.W. Bousﬁeld, Newtonian drop impact with a solid surface,
+AIChE 41 (1995) 1357–1367.
+[10] T. Stotesbury, M.C. Taylor, M.C. Jermy, Passive drip stain formation dynamics of
+blood onto hard surfaces and comparison to simple ﬂuids for blood substitute
+development and assessment, J. Forensic Sci. 62 (1) (2017) 74–82.
+[11] S.M. An, S.Y. Lee, Maximum spreading of a shear-thinning liquid droplet
+impacting on dry solid surfaces, Exp. Therm. Fluid Sci. 38 (2012) 140–148.
+[12] Spatter 
+Blood. 
+https://www.shopevident.com/product/spatter-training-
+blood-8-oz-bottle.
+[13] Wards. Introduction to Blood Spatter Analysis, Simulated Drip and Projected
+Blood p. Item 375312. https://www.wardsci.com/store/catalog/product.jsp?
+product_id=10546902.
+[14] A. Daerr, A. Monge, Pendent_Drop: an ImageJ plugin to measure the surface
+tension from an image of a pendent drop, J. Open Res. Softw. 4 (5)
+(2016).
+[15] J. Rosina, E. Kvasnak, D. Suta, H. Kolarova, J. Malek, L. Krajci, Temperature
+dependence of blood surface tension, Physiol. Res. 56 (2007) 93–98.
+[16] M. Raymond, E. Smith, J. Liesegang, The physical properties of blood—forensic
+considerations, Sci. Justice 36 (1996) 153–160.
+[17] H. Hinghofer-Szalkay, Method of high-precision microsample blood and
+plasma mass densitometery, J. Appl. Physiol. 60 (1986) 1082–1088.
+[18] H. Hinghofer-Szalkay, J.E. Greenleaf, Continuous monitoring of blood volume
+changes in humans, J. Appl. Physiol. 63 (1987) 1003–1007.
+[19] D. Schneditz, T. Kenner, E. Gallasch, F. Ranier, Quick measurement of
+hematocrit and erythrocyte sedimentation-rate by means of a density
+tracking method, Blut 55 (1987) 153–163.
+[20] R.J. Trudnowski, R.C. Rico, Speciﬁc gravity of blood and plasma at 4 and 37 C,
+Clin. Chem. 20 (1974) 615–616.
+[21] T. Kenner, The measurement of blood density and its meaning, Basic Res.
+Cardiol. 84 (1989) 111–124.
+[22] D.M. Eckman, S. Bowers, M. Stecker, A.T. Cheung, Hematocrit, volume
+expander, temperature and shear rate effects on blood viscosity, Anesth.
+Analg. 91 (2000).
+[23] O.K. Baskurt, H.J. Meiselman, Blood rheology and hemodynamics, Semin.
+Thromb. Hemost. 29 (2003).
+[24] E. Fossum, A. Hoieggen, A. Moan, G. Nordby, T.L. Velund, S.E. Kjeldsen, Whole
+blood viscosity, blood pressure and cadiovascular risk factors in healthy blood
+donors, Blood Press. 6 (1997) 161–165.
+[25] T. Somer, H.J. Meiselman, Disorders of blood viscosity, Ann. Med. 25 (1993)
+31–39.
+[26] S. Chandra, C. Avedisian, On the collision of a droplet with a solid surface, Proc.
+R. Soc. London, A (1991) 13–41.
+[27] M. Rein, Phenomena of liquid drop impact on solid and liquid surfaces, Fluid
+Dyn. Res. 12 (1993) 61–93.
+[28] A.L. Yarin, Drop impact dynamics: splashing, spreading, receding, bouncing . . . ,
+Ann. Rev. Fluid Mech. 38 (2006) 159–192.
+[29] T. Stotesbury, C. Bruce, M. Illes, R. Hanley-Dafoe, Design considerations for the
+implementation of artiﬁcial ﬂuids as blood substitutes for educational and
+training use in the forensic sciences, Forensic Sci. Policy Manag. Int. J. 7 (2016)
+81–86.
+[30] M.P. Cook, Visual representations in science education: The inﬂuence of prior
+knowledge and cognitive load theory on instructional design principles, Sci.
+Educ. 90 (2006) 1073–1091.
+T. Stotesbury et al. / Forensic Science International 275 (2017) 308–313 
+313

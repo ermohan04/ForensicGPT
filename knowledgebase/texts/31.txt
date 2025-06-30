@@ -1,0 +1,605 @@
+
+
+--- PAGE 1 ---
+
+J. Fluid Mech. (2011), vol. 667, pp. 85–95.
+c⃝Cambridge University Press 2010
+doi:10.1017/S0022112010005070
+85
+Pattern formation in drying drops of blood
+D. BRUTIN1†, B. S OBAC1
+B. LOQUET 2 AND J. S AM POL 3
+1Universit´e de Provence, IUSTI UMR 6595 CNRS, 13453 Marseille, France
+2Laboratoire d’Analyses M´edicales Bio 13, 13013 Marseille, France
+3UMR U608 INSERM, Facult´e de Pharmacie, 13385 Marseille, France
+(Received 5 August 2010; revised 24 September 2010; accepted 24 September 2010;
+ﬁrst published online 16 December 2010)
+The drying of a drop of human blood exhibits coupled physical mechanisms, such as
+Marangoni ﬂow, evaporation and wettability. The ﬁnal stage of a whole blood drop
+evaporation reveals regular patterns with a good reproducibility for a healthy person.
+Other experiments on anaemic and hyperlipidaemic people were performed, and
+diﬀerent patterns were revealed. The ﬂow motion inside the blood drop is observed
+and analysed with the use of a digital camera: the inﬂuence of the red blood cells
+motion is revealed at the drop periphery as well as its consequences on the ﬁnal
+stage of drying. The mechanisms which lead to the ﬁnal pattern of the dried blood
+drops are presented and explained on the basis of ﬂuid mechanics in conjunction
+with the principles of haematology. The blood drop evaporation process is evidenced
+to be driven only by Marangoni ﬂow. The same axisymmetric pattern formation is
+observed, and can be forecast for diﬀerent blood drop diameters. The evaporation
+mass ﬂux can be predicted with a good agreement, assuming only the knowledge of
+the colloids mass concentration.
+Key words: bioconvection, blood ﬂow, colloids
+1. Introduction
+Several patterns can be observed in dried drops of a diﬀerent nature. Coﬀee drops
+have been widely studied in the past by demonstrating the inﬂuence of colloids in the
+ﬁnal pattern observed (Deegan et al. 1997). Regarding human blood serum (the clear
+portion of any liquid separated from its more solid elements), the dried drop of blood
+serum presents diﬀerent patterns depending on the individual’s health condition. The
+speciﬁc regular pattern characteristics of a healthy individual do not appear in a dried
+drop of the blood serum from a person with blood disease (Martusevich, Zimin &
+Bochkareva 2007; Shabalin & Shatokhina 2007).
+Experimental observations of dried drops of biological ﬂuids (except whole human
+blood) have been performed and published in medical journals. The drying process
+is not analysed in the literature; they only focus on the ﬁnal pattern in order to
+diﬀerentiate healthy people from patients with diseases. The drying technique has
+been used to store samples in locations, where appropriate storage conditions are not
+available: ﬁeld studies, third world countries, deserts, etc. (Zhuang et al. 1982). The
+method was used to detect hepatitis B infection in serum dried on ﬁlter paper. Also,
+† Email address for correspondence: david.brutin@polytech.univ-mrs.fr
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 2 ---
+
+86
+D. Brutin, B. Sobac, B. Loquet and J. Sampol
+experimental observations of dried drops of serum have been performed (Yakhno
+2008). The author identiﬁed the origin of the patterns observed in dried drops of
+serum from the phase transition (gelliﬁcation) of proteins. A strong attachment of
+the dried serum due to a biological reaction of the protein with the glass plate of the
+microscope and salt crystallization were found in the dried drop, these phenomena
+have been explained.
+Whole blood is a complex colloidal suspension which behaves like a non-Newtonian
+ﬂuid. Since the colloids of blood have complicated shapes, the individual colloid
+behaviour is hardly predictable. Pozrikidis (2006) demonstrate the existence of a
+molecular adhesion component to explain the ﬂipping behaviour of a platelet over a
+plane wall. Besides the ﬂow around these colloids, the biochemistry is also present,
+the red blood cells (RBCs) evidence repulsive behaviour near a wall as they do in the
+human body to avoid the vessel obstruction. When drops of blood evaporate, all the
+colloids are carried by the ﬂow motion inside the drop and interact. These interactions
+are governed by ﬂuid mechanics, biology and chemistry. Any modiﬁcation in the drop
+evaporation process can reveal a given disease, either an RBC-related disease for
+whole blood drop evaporation or another disease for serum drop evaporation.
+Similar to those phenomena which we observe with whole blood are presented in
+the case of the desiccation of a colloidal suspension (Pauchard, Parisse & Alain 1999).
+Crack patterns formed by desiccation of a colloidal suspension in a sessile drop placed
+on a glass surface have been observed. Pauchard et al. (1999) demonstrate that the
+crack formation is related to the salinity of the suspension and interpreted the pattern
+obtained for large drops as buckling instability. The experimental observations with
+mica colloids in deionized water (Deegan 2000) were theoretical conﬁrmed by Popov
+(2005).
+The biological suspension used in this study is real human whole blood from which
+the coagulation protein (ﬁbrinogen) has been removed. RBCs are observed thanks to
+the relative transparency of a thin layer of blood (less than 500 µm). In this paper,
+we will mainly present the dynamic of the process of evaporation using a top view
+visualization and the drop mass evolution during the drying process.
+2. Materials and methods
+2.1. Experimental set-up
+An experimental set-up was designed to provide a complete geometric characterization
+of a posed drop of blood during its evaporation on a substrate. The drops were
+deposited on Bioblock glass plates. Environmental conditions (temperature, pressure,
+humidity) were recorded using a meteorological station. Evaporation took place in
+a parallelepipedic box measuring 100 × 100 × 150 mm3 which remains covered during
+the whole duration of the experiment to avoid external ﬂow perturbations. The box
+volume is not suﬃcient enough to saturate due to the generation of drop vapour
+phase. The image analysis was made by means of a Canon EOS 7d digital camera
+coupled with a ×1 to ×5 macro lens. This camera enabled us to obtain 5184 × 3456
+pixels on an area of 22.3 × 14.9 mm2. With an enlargement of ×1, the resolution was
+4.30 µm, and with the greatest enlargement of ×5 the resolution was 0.86 µm. For
+ﬁlms with 30 images s−1, spatial resolution had to be reduced to 1920 by 1080 pixels
+(full HD) with a pixel size of 2.30 µm. This optical diagnosis allowed a visualization
+of the drop from above in enough detail for further analysis of speciﬁc areas. Drop
+evaporation was performed using a cold cathode back light at 5000 ± 270 K without
+any surrounding light to avoid reﬂection on the blood drop interface. The eﬀect of the
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 3 ---
+
+Pattern formation in drying drops of blood
+87
+density of light on the drying process was studied to avoid any biological or chemical
+disturbance of the phenomenon. To follow the drying process, the experiment is
+performed on a digital accurate weighting balance with a resolution of 10 µg up to
+81 g (Mettler Toledo XS 205). The drop is deposited on a microscope glass substrate
+(5 g) and then the total mass of the set-up is recorded on a computer at 1 Hz.
+2.2. Blood: biological and physical properties
+Blood samples were taken in a nearby medical laboratory and stored in their original
+10 µl sterile tubes (BD Vacutainer 9NC 0.109M) in a refrigerator at +4◦C, so
+that several experiments could be carried out at diﬀerent times. Experiments were
+performed at any time from 1 h to 6 days after the sample was drawn, results for
+the same person remained almost the same showing that these storage conditions
+do not inﬂuence the main drying process. The blood used in this paper was taken
+from volunteers of whom some were in good health and others had a disease:
+anaemia (reduction below normal of the number of RBCs, quantity of haemoglobin
+or the volume of packed RBCs in the blood) or hyperlipidaemia (elevated blood
+lipids, particularly triglycerides, after carbohydrate ingestion). The biological ﬂuid
+properties have been determined in order to correctly analyse the ﬂow behaviour
+observed and the pattern formation. The whole blood and the serum have been
+analysed in terms of ﬂuid viscosity using a Physica MCR 501 ‘Anton Paar’ and the
+surface tension has been determined using the pendant drop method. At the same
+time, a full haematology and biochemistry analysis of the blood has been performed
+to obtain the blood characteristics in terms of comosition (haematocrit, lipidaemic
+balance). The blood density varies slightly for diﬀerent people in between 1020 and
+1060 kg m−3 depending on the blood composition. Considering this small variation in
+density (less than 4 %), one assumes a constant whole blood density of 1040 kg m−3
+in this study. The blood rheology is obtained in the range of shear stresses from 0.1
+to 100 s−1 and is given in (2.1) as
+τ = k˙γ n,
+(2.1)
+with n equal to 0.82 ± 0.01 and k is a constant. This is in agreement with typical results
+obtained, indicating that whole blood viscosity is driven by the RBCs concentration
+(the haematocrit) (Thieret 2008). For the blood serum, we obtain n = 1.01 ± 0.01,
+which is more consistent with a Newtonian ﬂuid. The blood serum does not contain
+micrometre-sized colloids, such as RBCs or WBCs, but only ions and proteins. Of the
+whole blood drop, 43.9 % volume is RBCs based on haematological analysis. Mass-
+wise, 23.9 % of whole blood is composed of colloids which will be remain on the
+glass substrate at the end of the drying process. The main blood colloid distribution
+is as follows.
+(i) Erythrocytes (red blood cells) with 4.9 × 106 units mm−3 and a typical size of
+8 µm represent 97 % of the volume of colloids,
+(ii) Leukocytes (white blood cells) with 4.3 × 103 units mm−3 and a typical size of
+15 µm represent 2 % of the volume of colloids,
+(iii) Platelets with 2.4 × 105 units mm−3 and a typical size of 3 µm represent 1 % of
+the volume of colloids.
+For our analysis in § 3, we will assume that the ﬂuid is mainly composed of 8 µm
+diameter colloids at high concentration (about 45 %). Whole blood also contains ions
+and proteins which represent 11.6 % by mass of the ﬁnal dried deposit (statistical
+values obtained for all experiments were performed using the same blood sample).
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 4 ---
+
+88
+D. Brutin, B. Sobac, B. Loquet and J. Sampol
+Substrate
+θblood
+θserum
+θwater
+Glass without coating
+14.8◦± 16.2 %
+9.5◦± 21.1 %
+–
+Glass with PTFE coating
+140.0◦± 2.6 %
+128.5◦± 2.9 %
+143.6◦± 3.4 %
+Glass with epoxy coating
+84.9◦± 2.4 %
+74.0◦± 2.7 %
+88.1◦± 1.7 %
+Table 1. Drops of blood and serum contact angles (water contact angle on glass substrate
+are not measurable with suﬃcient accuracy).
+The blood surface tension was measured using the pendant drop method with a
+capillary tube of 1 mm diameter. The exact capillary tube diameter was measured
+to an accuracy of 0.02 mm and blood drop mass was determined to be 10 µg using
+an electronic balance. This method gives a statistical value of 69.8 mN m−1 ± 4.6 %
+over 72 drops for the full blood and 58.8 mN m−1 ± 4.9 % over 24 drops for the
+serum. These values agree with the theoretical values found in the literature, and
+they indicate that full blood surface tension is very close to the value obtained for
+water, while serum surface tension is of a much lower value. Contact angles were
+determined using the sessile drop method where whole blood, serum and water were
+dropped onto three substrates: a microscope glass plate without any coating or with
+PTFE or epoxy coating, to conﬁrm the surface tension measurements. The values
+obtained were close to the value obtained with pure ultra-ﬁltered water as presented
+in table 1. Based on physical properties, the full blood used in this study is very close
+to water except for the ﬂuid viscosity, which demonstrates non-Newtonian behaviour
+(thixotropic ﬂuid).
+3. Experiments
+3.1. The pattern formation for healthy people
+The diﬀerent stages of blood drop evaporation are shown in ﬁgure 1. The initial
+drop diameter is 5.9 mm and the enlargement used is ×4.8 to allow visualization of
+RBCs. The images for the ﬁlm did not undergo any processing except for cropping
+as the original size of each picture was 5184 pixel × 3456 pixel. However, due to
+the experimental protocol, the digital camera started taking pictures up to 3 min
+after the drop was placed on the plaque. Nevertheless, this delayed starting time was
+compensated and is t = 0 min. We present a ﬁlm of the whole evaporation process
+online with a playing time which is seven times the real duration, the external drop
+diameter is 6.5 mm (supplementary movies available at journals.cambridge.org/ﬂm).
+The evaporation/desiccation process can be divided into ﬁve stages which are
+detailed below. During the evaporation process, the drop is always pinned on the
+substrate. The total evaporation time for the case presented is 36 min and the
+durations of the stages are presented as a percentage of the total time of evaporation.
+(i) Stage 1 (from 0–20 %): the RBCs move out from the centre of the drop to the
+desiccation line which recedes. A red deposit is observed at the edge of the drop. The
+measured receding speed of the desiccation line is 0.7 µm s−1.
+(ii) Stage 2 (from 20 to 50 %): crystallization appears at the edge of the drop and
+propagates inwards. At the same time, the desiccation process continues from the edge
+towards the inside of the drop. A dark red torus is observed which demonstrates a
+diﬀerent ﬂuid composition. This torus contains a high concentration of RBCs. These
+cells are now clearly observed moving from the centre to the edge of the drop.
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 5 ---
+
+Pattern formation in drying drops of blood
+89
+Time
+Time
+STAGE 1
+STAGE 1
+STAGE 1
+STAGE 2
+STAGE 2
+STAGE 2
+STAGE 3
+STAGE 3
+STAGE 3
+STAGE 3
+STAGE 3
+STAGE 4
+STAGE 4
+STAGE 4
+STAGE 5
+STAGE 5
+STAGE 5
+STAGE 5
+4.6 mm
+3.1 mm
+Drop diameter :
+ 5.9 mm 
+Figure 1. Mechanisms involved in a drying drop of blood from a healthy person (drop
+diameter, 5.9 mm; room temperature, 22◦C; microscope glass substrate; 100 s between frames).
+A movie is provided online with a playing speed increased by 60. See ﬁgure 4 for a schematic
+cut view of the drop.
+Central part of the drop
+Corona
+Periphery
+400 µm
+Drop
+center
+Large
+crack
+Mobile
+deposit
+Wetting
+deposit
+Wetting
+deposit
+Figure 2. Closer view of patterns: diﬀerent characteristic pattern sizes exist (drop diameter
+5.9 mm; room temperature, 22◦C; microscope glass substrate; ﬁeld of view, 4.6 mm × 3.1 mm).
+(iii) Stage 3 (from 50
+to 70 %): the dark red torus desiccates rapidly and
+simultaneously the colour of the central part of the drop changes to an increasingly
+lighter red. The drop is almost totally desiccated and the ﬁrst crack appears around
+the drop between the future corona and central part of the drop.
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 6 ---
+
+90
+D. Brutin, B. Sobac, B. Loquet and J. Sampol
+(a)
+(c)
+(b)
+(d)
+Figure 3. Four drops of blood: (a) sample from a 27-year-old woman in good health, (b)
+person with anaemia, (c) sample from a 31-year-old man in good health and (d) person with
+hyperlipidaemia.
+(iv) Stage 4 (from 70 to 85 %): the central part of the drop desiccates producing
+much smaller plaques. Desiccation of the corona ﬁnishes and circular drying spots
+are observed around the corona.
+(v) Stage 5 (from 85 to 100 %): the large plaques of the corona move slightly as
+soon as they are totally desiccated. This concludes the desiccation of the drop and no
+further changes are observed.
+All patterns observed with dried drops of blood present similar characteristics: the
+central part of the drop, the wide mobile plaques of the corona with wide white cracks,
+and the ﬁne periphery (ﬁgure 2). Whereas the central part of the drop and the ﬁne
+periphery stick onto the glass plate due to the absence of RBCs, the corona is where
+mobile deposits form and these do not adhere to the substrate. The explanation of
+this wetting phenomenon lies in the proteins which exist on the RBCs (glycoproteins).
+The function of these proteins is to avoid wettability with a wall and, in particular,
+the internal wall of organs, veins.
+At the beginning of drop evaporation, the ﬂuid is homogeneous in colloids, this is
+why a thin periphery can dry on the glass plate. However, since Marangoni convection
+is occurring, the RBCs (and other heavy colloids) accumulate at the drop triple line,
+which is receding. The RBCs accumulate by Marangoni convection to form a solid
+deposit which will be called hereafter ‘the corona’. The remaining ﬂuid, which consists
+mainly of serum without heavy colloids, leads to typical small-sized patterns adhering
+to the glass substrate after its evaporation.
+3.2. Repeatability and reliability about whole blood experiments
+The pattern formation observed in drying drops of blood is totally diﬀerent for
+individuals in good health and for those who have a disease. However, for healthy
+people, the patterns observed are quite similar and are presented in ﬁgure 3. They are
+as follows.
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 7 ---
+
+Pattern formation in drying drops of blood
+91
+(i) Cases (a) and (c): case (a) is a 27-year-old woman and case (c) is a 31-year-old
+man, neither smokes or consumes alcohol on a regular basis. The results of drying
+drops of blood for these two cases reveal the same patterns which will be detailed in
+§ 4.
+(ii) Case (b): the person is anaemic. The external part of the drop corona is very
+light-coloured compared to the central part; furthermore, the formation of dark lines
+is observed in this area and then the appearance of white lines in a central torus
+which corresponds to a non-wetting situation of the blood on the glass substrate.
+There are small-sized plaques on the central part of the drop.
+(iii) Case (d): the person is hyperlipidaemic. The external part of the drop corona
+is thick and ‘greasy’. This external zone is followed by the formation of intermediate
+plaques with white lines which also demonstrate a non-wetting situation on the glass
+substrate. There are small-sized plaques on the central part of the drop.
+4. Discussion
+4.1. Physical mechanisms involved
+Based on the biological and physical properties of blood obtained in the previous
+section, we can estimate the dominating forces. RBC speed can be measured using ﬂow
+visualization and is determined to be ∼8 µm s−1. With the blood viscosity and density,
+we obtain a Reynolds number for the internal drop ﬂow of Re = ϱUD/µ ≈3 × 10−3,
+where ϱ is the whole blood density, U is the average speed estimated using a RBC
+displacement, D is the drop radius and µ is the blood viscosity. The capillary number
+which compares the viscous and the capillary forces is: Ca = Uµ/σ ≈1.1 × 10−6, where
+σ is the blood surface tension. The Rouse number which compares the sedimentation
+fall velocity and the shear velocity is: Ro = Us/(k ∗√τ/ϱ) ≈8.2 × 10−5, where Us is
+the sedimentation fall velocity (1 mm h−1 during the ﬁrst hour) and k is the Von
+K´arm´an constant. Consequently, the ﬂow inside the blood drop is driven only by
+Marangoni convection.
+To conﬁrm the diﬀerent mechanisms involved in the drying process, we compared
+the evaporation mass ﬂux of three drops: blood, serum and pure water on a glass
+substrate. The stages of the drops evaporation are all reported in ﬁgure 4, where it
+appears that the drying process is mainly driven by the Marangoni ﬂow, since the
+blood and serum curves are in agreement with the pure water curve. The colloidal
+suspension curves (blood and serum) are corrected by dividing the evaporation mass
+ﬂux by the real ﬂuid mass concentration (which is 76.1 % for blood and 88.1 % for
+serum, water ﬂuid mass concentration is 100 %, since we use pure distilled ultra-
+ﬁltered water). Since the evaporation process is related to the ﬂuid phase transition
+to vapour phase, the solid phase of the suspension is not of concern. One notices that
+when the blood drop is deposited on the glass substrate, the evaporation mass ﬂux is
+slightly more important compared with the pure water case. Then this enhancement
+tends to disappear with time while the colloid concentration changes.
+At the beginning of the experiment, the blood drop is deposited and its shape
+is hemispherical. The RBCs are homogeneously dispersed inside the drop which is
+about 0.5 mm in thickness and 6 mm in diameter. Marangoni ﬂow is acting (see
+the supplementary movie), the RBCs movement from the inner of the drop to the
+periphery is clearly observed. The blood drop desiccates since the water contained in it
+is evaporating. At the same time due to Marangoni ﬂow, the RBCs are accumulating
+at the drop periphery creating a layer of biological deposit (cellular components).
+From 50 % of evaporation time, the drop shape is no more classical with a central
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 8 ---
+
+92
+D. Brutin, B. Sobac, B. Loquet and J. Sampol
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+Ultra pure water (17.9 mg) / D = 13.0 mm / C = 0 %
+Human blood      (23.0 mg) / D = 9.55 mm / C = 23.9 %
+Human serum      (14.0 mg) / D = 8.51 mm / C = 11.9 %
+0.1
+Evaporation mass flux per drop perimeter 
+corrected (µg (mm s)–1)
+0
+0
+10
+20
+30
+40
+Evolution (% of total time)
+50
+60
+70
+80
+90
+100
+Figure 4. Evolution of the evaporation mass ﬂux per drop perimeter: a correction for the
+solid mass fraction (C) is applied for blood and serum taking into account the real ﬂuid mass
+under evaporation (room temperature, 29◦C; microscope glass substrate).
+ﬂat area. Marangoni ﬂow is no longer possible and the remaining RBCs are trapped
+into the central area of the drop, while most of the cellular components have been
+deposited in the drop corona area. At 70 % of the total evaporation time, the central
+area of the drop starts to completely desiccate and evidences small-sized pattern
+formation. This last stage of the process is characterized by a sharp decrease of
+the evaporation mass ﬂux, since the remaining water is that which is inside the
+RBCs. Finally, after 85 % of the total evaporation time, the RBCs which are just
+shells containing the haemoglobin, crack and free the remaining liquid which can
+evaporate. This leads to a typical cross-section deposit which can also be called a
+‘donut’ shape.
+The drying process behaviour based on the evaporation mass ﬂow rate is not
+modiﬁed by the drop diameter as presented in ﬁgure 5. After this, the evaporation
+mass ﬂux sharply decreases. This second dynamic is clearly related to the absence
+of convection, since the drop is now mainly a solid with a small amount of liquid
+remaining inside the red blood cells. The last stage of the drop evaporation consists of
+the red blood cells shell cracking, which releases the haemoglobin. This last stage of
+evaporation takes more time since the ﬂuid has to migrate through the solid deposit,
+which does not wet the glass microscope plate.
+As evidenced in ﬁgures 4 and 5, the evaporation dynamics can be scaled assuming
+that the blood is a colloidal suspension composed of pure water and 23.9 % by
+mass RBCs 8 µm in diameter and the serum as a colloidal suspension of pure water
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 9 ---
+
+Pattern formation in drying drops of blood
+93
+The evaporation process
+is driven by the coiloïds 
+convection inside the drop
+The evaporation
+process is driven by 
+the porous media
+drying dynamics
+Evaporation mass flux by drop 
+perimeter (µg (mm s)–1)
+0
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+0.40
+0.45
+0.50
+0.55
+0.60
+0
+10
+23.0 mg / D = 9.6 mm / t = 4924 s
+17.1 mg / D = 8.7 mm / t = 3980 s
+7.75 mg / D = 6.6 mm / t = 2512 s
+6.57 mg / D = 5.9 mm / t = 2199 s
+3.32 mg / D = 4.9 mm / t = 1343 s
+20
+30
+40
+Evolution (% of total time)
+50
+60
+70
+80
+90
+100
+Figure 5. Evolution of the evaporation mass ﬂux per drop perimeter for ﬁve blood drops.
+The blood comes from the same tube, thus the initial colloid concentration for each drop
+is identical (room temperature, 29◦C; microscope glass substrate; colloid mass concentration,
+C = 23.9 %).
+and 11.9 % by mass proteins 1 µm in diameter. For several drop diameters of blood
+investigated, the same evaporation dynamics is observed like for pure water. Thus, the
+total evaporation time can be predicted based on the blood haematologic composition
+by comparison with pure water.
+4.2. Axisymmetric pattern formation
+Depending on the diameter, cracks can be observed as shown in ﬁgure 6, where we
+present drops with diﬀerent diameters formed simultaneously from the same blood
+with the same experimental conditions. The drop with a diameter of 3.8 mm shows
+no wide axisymmetric cracks, whereas the drop which is 5.4 mm in diameter clearly
+shows periodic cracks around the corona. This cracking phenomenon is only observed
+above a critical diameter which for this case is 4.2 mm. The mechanical stresses inside
+the solid deposit desiccating can be advanced as the origin of this cracking. The
+formation of wide cracks is similar to the desiccation of drops of nanoparticles on
+glass plates studied by Pauchard, Abou & Sekimoto (2009) to which the RBCs in
+the present case may easily be compared. Pauchard et al. (2009) observed cracking
+which depended on the initial concentration and deformability of nanoparticles. In
+our study, the concentration and shape of RBCs can lead to the same consequences
+on the ﬁnal patterns observed. The corona of the drop is mainly composed of RBCs
+which have been deposited by internal drop convection. Thus, the central part of the
+remaining blood is less and less rich in RBCs. After stage 4, the liquid remaining in
+the central area of the drop contains mainly proteins, white blood cells, blood platelets
+and a few amount of RBCs. All these elements present hydrophilic behaviour with
+glass and wet the substrate.
+For small drops below a critical value, drop evaporation which is related to the
+volume to be dried, is much faster. For large drops with a diameter of more than
+4.2 mm, evaporation takes place over 30 min and Marangoni convection observed
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 10 ---
+
+94
+D. Brutin, B. Sobac, B. Loquet and J. Sampol
+4
+3
+18
+16
+No
+cracks
+Existence of cracks
+in the corona
+14
+12
+10
+8
+6
+4
+2
+0
+5
+6
+7
+8
+9
+External diameter of drops (mm)
+Number of cracks
+Figure 6. Dependency of the number of cracks in the corona on the external diameter of
+the drop (blood coming from the same tube taken from a healthy subject; microscope glass
+substrate; room temperature, 22◦C; humidity, 47 %).
+through RBC motion is noticeable. RBCs accumulate at the edge of the drop. When
+the desiccation phenomenon occurs on the glass substrate, a decrease in volume is
+observed due to the large amount of water required. During the desiccation process,
+stress inside the solid deposit of desiccated blood built up and induced surface cracks
+periodically releasing the stress. Furthermore, the RBCs present at their surface
+proteins induce a hydrophobic behaviour with all materials. This is observed with
+glass. The dried RBCs at this position in the drop do not wet the substrate and
+reveal an hydrophobic behaviour. This enables a cracking phenomenon linked with
+the diameter of the drop, and consequently with the perimeter of the corona. For
+small drop perimeters, the stress inside the RBCs solid deposit is small compared
+with large drop diameters.
+5. Concluding remarks
+Observations of the Marangoni ﬂow motion inside a drop of blood using a digital
+camera at a good resolution (about 2.3 µm) enable us to show that the motion of
+RBCs at the edge of the drop is the main mechanism of blood drop evaporation and
+deposition. The mechanisms involved in the blood drop evaporation are conﬁrmed
+through the evaporation mass ﬂux which is measured to be in agreement with a
+pure water drop evaporation. Other biological elements (white blood cells, proteins)
+are transported to the edge of the drop with the RBCs and contribute to the
+pattern formation through the deposit wettability with the substrate and mechanical
+properties. The blood evaporation dynamic can be predicted by a comparison with
+the pure ﬂuid evaporation case corrected by the mass concentration in colloids.
+Totally diﬀerent patterns are formed according to whether the person is healthy or
+suﬀers from anaemia or hyperlipidaemia. This is leading our research to correlate the
+pattern formation with blood diseases. An analysis of the corona of the drop reveals
+the presence of large solid plaques measuring several hundred micrometres which are
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press
+
+
+--- PAGE 11 ---
+
+Pattern formation in drying drops of blood
+95
+clearly visible for a normal individual, but are absent for someone with a disease.
+This simple, reliable and inexpensive indicator could be used for the diagnosis of
+blood diseases. The ﬂuid mechanics involved in this real colloid suspension include
+convection of the main colloids (cellular components), but also evidences hydrophobic
+behaviour between the RBCs and the substrate, which modify the pattern observed
+after the drop has desiccated. An explanation for nonlinear evolution of the number
+of cracks with increasing diameter is currently being prepared, in conjunction with
+elements of solid mechanics.
+The authors gratefully acknowledge the help with blood viscosity measurements
+and the fruitful discussions raised with F. Boyer.
+Supplementary movies are available at journals.cambridge.org/ﬂm.
+REFERENCES
+Deegan, R. D. 2000 Pattern formation in drying drops. Phys. Rev. E 61, 475–485.
+Deegan, R. D., Bakajin, O., Dupont, T. F., Huber, G., Nagel, S. R. & Witten, T. A. 1997 Capillary
+ﬂow as the cause of ring stains from dried liquid drops. Nature 389, 827–829.
+Martusevich, A. K., Zimin, Y. & Bochkareva, A. 2007 Morphology of dried blood serum specimens
+of viral hepatitis. Hepatitis Mon. 7, 207–210.
+Pauchard, L., Abou, B. & Sekimoto, K. 2009 Inﬂuence of mechanical properties of nanoparticles
+on macrocrack formation. Langmuir 25, 6672–6677.
+Pauchard, L., Parisse, F. & Alain, C. 1999 Inﬂuence of salt content on crack patterns formed
+through colloidal suspension desiccation. Phys. Rev. E 59, 3737–3740.
+Popov, Y. O. 2005 Evaporative deposition patterns: spatial dimensions of the deposit. Phys. Rev.
+E 71, 036313.
+Pozrikidis, C. 2006 Flipping of an adherent blood platelet over a substrate. J. Fluid Mech. 568,
+161–172.
+Shabalin, V. N. & Shatokhina, S. N. 2007 Diagnostic markers in the structures of human biological
+liquids. Singap. Med. J. 48, 440–446.
+Thieret, M. 2008 Biology and Mechanics of Blood Flows – Part II: Mechanics and Medical Aspects.
+Springer.
+Yakhno, T. 2008 Salt-induced protein phase transitions in drying drops. J. Colloid Interface Sci.
+318, 225–230.
+Zhuang, H., Coulepis, A. G., Locarnini, S. A. & Gust, I. D. 1982 Detection of markers of
+hepatitis B infection in serum dried on to ﬁlter-paper: an application to ﬁeld studies. Bull.
+World Health Organ. 60, 783–787.
+https://doi.org/10.1017/S0022112010005070 Published online by Cambridge University Press

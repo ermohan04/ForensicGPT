@@ -1,0 +1,666 @@
+
+
+--- PAGE 1 ---
+
+General forensics
+Forward Spatter Bloodstain Pattern Analysis: AO Estimation Using Image 
+Processing and Numerical Modeling
+Aylin Yalçın Sarıbey a,b,*, Fatma Nida Ocak b
+a Forensic Science Department, Faculty of Engineering and Natural Sciences, Üsküdar University, ˙Icadiye, Ba˘glarbas¸ı Cd. No:35, ˙Istanbul 34662, Turkey
+b Institute of Addiction and Forensic Sciences, Üsküdar University, ˙Icadiye, Ba˘glarbas¸ı Cd. No:35, ˙Istanbul 34662, Turkey
+A R T I C L E  I N F O
+Keywords:
+Bloodstain Pattern Analysis
+Forward Spatter
+Area of Origin
+Gunshot Wounds
+Numerical Modeling
+Image Processing
+Tangent Method
+A B S T R A C T
+The aim of examining the forward spatter bloodstain patterns of gunshot wounds is to accurately describe the 
+relationship between the victim, the culprit, and the crime scene. The purpose of this study is to determine the 
+approximate location of the blood source, i.e. the victim, at the crime scene by using an image processing and 
+numerical modeling approach. To achieve this, an experimental setup is designed with cardstocks and a cow 
+blood-soaked sponge. In total, twenty forward spatter patterns are obtained onto cardstocks after successful 
+shootings. In the post-processing phase, ellipses on the cardstocks are detected by processing the forward spatters 
+in MATLAB. To achieve this, ellipse properties are identified for calculating the impact angles. The impact angles 
+are then utilized as inputs to the tangent method within the program to estimate the Area of Origin (AOx). For 
+visualization, 2D and 3D images are generated. In conclusion, it is observed that the program works the best in 
+determining the AOx, for the scenarios where the real AOx distances (blood source to target distances) are 35 cm, 
+50 cm, and 100 cm respectively. The program’s weakness while determining AOx for the source distance of 5 cm 
+is also reported. It is necessary to improve the program for short blood source-to-target distances and long 
+shooting distances. It can be concluded that image quality is also a key factor for post-processing as it might 
+mislead the results with visible ellipses.
+1. Introduction
+Bloodstains are one of the most significant types of physical evidence 
+and can greatly help to establish the connection between the culprit, the 
+victim, and the crime scene. The formation of the stains depends on 
+physical, environmental, and biological factors and can appear in 
+various sizes and forms [1]. Patterns resulting from a force applied 
+directly to the source of blood are referred to as impact spatter. Such 
+spatters may be caused by firearms, blunt objects, stabbing, electrical 
+devices, or explosions [1]. The size of bloodstains is typically less than 
+1 mm or larger, and the velocity of the applied force can start at 30 m/s. 
+However, there is no direct correlation between stain size and the ve­
+locity of the applied force [2]. By analyzing the spatter bloodstains, the 
+following questions can be answered regarding the crime scene: 
+• Possible location and position of the culprit, the victim, and other 
+objects at the scene
+• Chronological order of events
+• Verification or refutation of statements made by the victim, wit­
+nesses, or culprit
+There are a variety of software and algorithms developed in the 
+literature for the location of the blood source, i.e. Area of Origin (AO) 
+estimation in bloodstain pattern analysis [3]. The aim of these methods 
+is to estimate AO based on the size, shape and directionality of blood­
+stains. The string method is a well-known traditional method that uses 
+physical strings to determine the AO. This method is time-consuming, 
+and its accuracy depends on the performer. Modern approaches use 
+primarily image processing and numerical modeling. The currently 
+available and most used programs include HemoSpat, Sherlock, Back­
+Track, HemoVision, FARO Scene [3]. In the study by Arthur et al. 
+MATLAB was used to analyze bloodstain patterns. Digital images were 
+processed and basic features such as eccentricity, major and minor axis 
+lengths, orientation, area and center of mass were calculated using the 
+regionprops function. The methodology involved preparing digital im­
+ages, isolating the bloodstains by applying segmentation and 
+* Corresponding author at: Forensic Science Department, Faculty of Engineering and Natural Sciences, Üsküdar University, ˙Icadiye, Ba˘glarbas¸ı Cd. No:35, ˙Istanbul 
+34662, Turkey.
+E-mail addresses: aylin.yalcinsaribey@uskudar.edu.tr (A. Yalçın Sarıbey), fnidaocak@gmail.com (F.N. Ocak). 
+Contents lists available at ScienceDirect
+Forensic Science International: Reports
+journal homepage: www.sciencedirect.com/journal/forensic-science-international-reports
+https://doi.org/10.1016/j.fsir.2025.100416
+Received 28 December 2024; Received in revised form 12 April 2025; Accepted 16 April 2025  
+Forensic Science International: Reports 11 (2025) 100416 
+Available online 18 April 2025 
+2665-9107/© 2025 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- 
+nc-nd/4.0/ ). 
+
+
+--- PAGE 2 ---
+
+morphological processing, and then using these features to calculate the 
+impact angles and determine the Area of Convergence (AC) [4].
+2. Material and methods
+2.1. Experimental setup
+In this study, bloodstain patterns formed by forward spatter on flat, 
+plain, and light- colored surfaces due to gunshot wounds are investi­
+gated using image processing and numerical modeling methods. For the 
+experimental setup (Figs. 1 and 2), the blood used for both back spatter 
+and forward spatter is aimed to mimic human blood. Thus, cow blood is 
+selected as the most suitable option based on the literature review [5]. 
+Soft sofa sponges, measuring 13x10x7 cm, are soaked to absorb 50 ml of 
+EDTA-anticoagulated cow blood each are then utilized during shootings. 
+In various studies, white cardboard has been used as a target surface to 
+observe the resulting forward spatter bloodstain patterns [6–11]. Sub­
+sequently, bloodstain images were taken with a Canon EOS 1200D 
+camera using an 18–55 mm lens. The shooting settings were adjusted 
+based on lighting conditions to ensure image clarity, with an aperture of 
+f/4.5, a shutter speed of 1/100 s, and an ISO of 6400. The images were 
+recorded at a resolution of 3368 × 4776 pixels with a bit depth of 24 and 
+a DPI of 72.
+2.2. Image processing algorithm & analysis
+The MATLAB code for this study is based on the numerical calcula­
+tion of the AO of a bloodstain pattern on a flat and light-colored surface 
+at the crime scene by processing an image containing bloodstains. The 
+code initially receives a bloodstain pattern image from the user. In the 
+case of a colored image, the code converts it to black-and-white for 
+better identification of the stains. Later, it converts the image to binary 
+format so that the bloodstains appear as white on a black background. 
+With the ‘regionprops’ function, the code analyzes each of the ellipses in 
+the image and calculates their major and minor axis lengths, eccen­
+tricities, centroids, and areas. Using these features, it selects bloodstains 
+that are small, elliptical, and within a certain size range (the minimum 
+area for selected ellipses is 5-pixel, whereas the maximum area for 
+selected ellipses is 500-pixel) so that only the appropriate stains are 
+utilized in the analysis.
+By utilizing the discussed methodology, a set of cardstocks that are 
+the outcome of the experiment which are the combination of different 
+real AOx distances and different shooting distances are analyzed. The 
+real AOx distances are 5 cm, 35 cm, 50 cm, and 100 cm while the 
+Fig. 1. A visualization of the experimental setup, where the distance between the blood source and the target surface is 50 cm, with a shooting distance of 5 cm.
+Fig. 2. A visualization of the experimental setup immediately after the bullet passed through the blood-soaked sponge.
+A. Yalçın Sarıbey and F.N. Ocak                                                                                                                                                                                                            
+Forensic Science International: Reports 11 (2025) 100416 
+2 
+
+
+--- PAGE 3 ---
+
+shooting distances are 0 cm, 5 cm, 25 cm, 50 cm, 100 cm respectively. 
+Thus, a total of 20 forward spatter patterns are obtained, then, these 
+images are post-processed with MATLAB.
+2.3. Impact and gamma angles
+The angle of impact (θ), a crucial factor in bloodstain pattern anal­
+ysis, refers to the angle at which blood drops strike a surface. The 
+appearance of the bloodstain varies with changes in the impact angle. 
+Perpendicular impacts produce circular shapes, while at more oblique 
+angles the ellipse appears more elongated [12]. 
+θ = sin−1
+(width
+length
+)
+#
+(1) 
+In Eq. (1), “width” refers to the minor axis of the ellipse, while 
+“length” denotes the major axis. In bloodstain analysis, gamma angle, 
+known as directional angle, is an important indicator to identify the 
+direction of movement of the blood drop with relative to a reference axis 
+(typically a horizontal or a vertical plane) [13]. It is calculated by 
+considering the orientation and direction of movement of the stain. For 
+example, if a stain is tilted at 45 degrees and the droplet moved to the 
+right, the gamma angle is 45 degrees. If the same stain resulted from a 
+droplet moving to the left, the gamma angle would be 225 degrees (180 
+degrees in the opposite direction). By looking at both the gamma angle 
+and the impact angle, analysts can estimate where the blood drops came 
+from before it hit the surface, helping to find the source of the bloodstain 
+[12]. However, this estimation does not consider other forces like 
+gravity and air resistance.
+2.4. Method for area of origin calculation
+There are various methods in the literature such as tangent method, 
+stringing, automated tangent method, least squares angles for analyzing 
+the ellipse models formed and determining the area of origin. The 
+tangent method and string stretching are mostly manual methods [3, 
+14]. In order to understand the tangent method, it is necessary to 
+understand how to determine the AO. As a result of examining each of 
+the bloodstains formed because of the Impact Mechanism, the impact 
+angle is obtained.
+In the first stage of the tangent method, the intersection points of the 
+lines drawn and extended from the major axes of the ellipses are 
+analyzed in a pairwise manner. Then, the intersection region is deter­
+mined, and the Y and Z coordinates of the AO are determined. The 
+second stage is to find the X coordinate by applying the tangent rule. In 
+this stage, first, the distance Di, which is the projection of each ellipse to 
+the intersection region, is determined as shown in Fig. 4. Then, the 
+length and width of the ellipse are used to determine the impact angle 
+(θi) [14]. 
+AOy = 1
+n
+∑n
+i=1(Di⋅tan(θi) )#
+(2) 
+As shown in Eq. (2), multiplying the distance to the intersection Di by 
+the tangent of the calculated impact angles gives us the total distance 
+perpendicular to the target surface. Since the calculated value contains 
+information from all ellipses, we then divide the found value by the total 
+number of ellipses (n) to come up with the X coordinate of the Area of 
+Origin (AOx) [14].
+Note that, Area of Origin in this case refers to a point since the Area of 
+Origin is defined as "The space in three dimensions to which the trajectories 
+of spatter can be utilized to determine the location of the spatter producing 
+event " [13]. For the scope of this study, coordinates AOy and AOz are not 
+calculated intentionally due to the experimental setup. Since, the 
+experiment is set up in a way that the source is placed globally (AOx, 0, 
+0). That means, the source is placed perpendicular to the origin point of 
+the cardstock. Thus, finding the remaining two coordinates other than 
+AOx is an unnecessary effort.
+As a result of each analysis, the estimated source distance is calcu­
+lated with supporting 2D graphics where detected ellipses and impact 
+angles are shown (Figs. 5), and 3D graphics where the AOx is shown 
+(Fig. 6). For convenience, details of a single case study in which the 
+source to target distance is 35 cm and shooting distance is 0 cm is 
+presented.
+In forensic practice, analysts determine whether the observed 
+bloodstains are more circular (eccentricity close to 0) or more elongated 
+(eccentricity close to 1) before inputting a suitable minimum and 
+maximum eccentricity range. Once these values are provided, the al­
+gorithm further optimizes the selection by prioritizing the most 
+frequently occurring eccentricity values within the image, ensuring that 
+Fig. 3. Forward spatter bloodstains resulting from a shooting distance of 0 cm 
+with an AOx distance of 35 cm.
+Fig. 4. Intersection points (blue) formed by extending the major axes and the 
+2D projection of the area of convergence (yellow).
+A. Yalçın Sarıbey and F.N. Ocak                                                                                                                                                                                                            
+Forensic Science International: Reports 11 (2025) 100416 
+3 
+
+
+--- PAGE 4 ---
+
+the selected stains best represent the dominant pattern and minimizing 
+error (Table 1). The minimum and maximum eccentricity value where 
+the calculated distance is closest to the actual distance is shown in 
+Table 2 by applying the narrowing process. With the minimum 0.00 and 
+maximum 0.57 eccentricity values, the X coordinate of the blood source 
+(AOx) is found to be 34.8607 cm, which has a −0.40 % error relative to 
+the actual source-to-target distance of 35 cm. The same process is 
+applied to the remaining data sets as well. A more detailed discussion of 
+the analysis results for all cases is provided in Section 3.
+3. Results
+In this paper, an algorithm for analyzing bloodstain patterns result­
+ing from gunshot wounds has been developed using the tangent method 
+Fig. 5. Zoom in image of detected elliptically shaped ellipses (red outline) and impact angles (cyan).
+Fig. 6. 3D plot of the estimated AO with linear trajectories of blood­
+stains (green).
+Table 1 
+Optimum eccentricity input scan of bloodstains for cases where a pistol was fired 
+at a distance of 0 cm, with an AOx of 35 cm.
+Min.
+Eccentricity
+Max. Eccentricity
+Calculated AOx (cm)
+​
+0.1000
+0.1000
+NaN
+​
+0.1000
+0.2000
+85.0625
+​
+0.1000
+0.3000
+63.4777
+​
+0.1000
+0.4000
+49.1850
+​
+0.1000
+0.5000
+38.8244
+​
+0.1000
+0.6000
+32.7369
+​
+0.1000
+0.7000
+29.5459
+​
+0.1000
+0.8000
+26.9083
+​
+0.1000
+0.9000
+25.9758
+​
+0.1000
+1.0000
+24.8537
+Table 2 
+Narrowed optimum eccentricity input scan of bloodstains for cases where a 
+pistol was fired at a distance of 0 cm, with an AOx of 35 cm.
+Min. Eccentricity
+Max. Eccentricity
+Calculated AOx(cm)
+0.1000
+0.5000
+38.8244
+0.1000
+0.5100
+38.4657
+0.1000
+0.5200
+37.8221
+0.1000
+0.5300
+37.5613
+0.1000
+0.5400
+36.7058
+0.1000
+0.5500
+36.2732
+0.1000
+0.5600
+35.9497
+0.1000
+0.5700
+34.8607
+0.1000
+0.5800
+34.3223
+0.1000
+0.5900
+33.1011
+A. Yalçın Sarıbey and F.N. Ocak                                                                                                                                                                                                            
+Forensic Science International: Reports 11 (2025) 100416 
+4 
+
+
+--- PAGE 5 ---
+
+in the MATLAB program. Unlike blunt trauma, which is commonly 
+analyzed in the literature, we focused on bloodstain patterns caused by 
+high-velocity impact. This made detection and analysis challenging due 
+to the image quality, complex patterns, and the presence of very small 
+bloodstains.
+In cases where the blood source and the target are separated by 5 cm, 
+significant errors that are exceeding 100 % are seen. This is due to lack 
+of quality of the image which causes complex patterns and small size 
+ellipses that are hard to detect by the program. For these reasons, the 
+ellipses are not detected with a blood source distance of 5 cm and a 
+shooting distance of 100 cm. Thus, the estimated source distance is 
+assigned as NA and not included in the calculation.
+In cases where the blood source and the target are separated by 
+35 cm, the calculated distances showed minimum errors ranging from 
+−0.40–2.37 %. This indicates that the code performs the best at this 
+distance. The average optimized maximum eccentricity value of 0.66 
+received from the user is effective for accurate AO estimation at this 
+distance.
+In cases where the blood source and the target are separated by 
+50 cm and 100 cm, the errors are mostly below 2 %. At the longer dis­
+tance of 100 cm source to target distance, when the shooting distances 
+are 50 cm and 100 cm, the calculation could not be performed due to 
+inadequate ellipses, which are assigned as NA and excluded from the 
+calculation.
+It is seen that as the source to target distance increases the maximum 
+eccentricity value to be utilized decreases. This can be explained with 
+the nature of bloodstain formation. At longer source distances, most 
+ellipses are expected to have low eccentricity values considering that 
+bloodstains will hit at an impact angle closer to 90̊ , while at shorter 
+distances, more elliptical bloodstains are produced when they hit at 
+narrower angles and the eccentricity values of the ellipses are expected 
+to be high. Therefore, to get the majority of the ellipses to be detected in 
+photographs, these ellipses should be selected within a certain range of 
+eccentricity values. A bloodstain pattern analyst is expected to deter­
+mine whether the visible ellipses in the image are generally more cir­
+cular or elongated and estimate an appropriate maximum eccentricity 
+value accordingly. This input helps ensure that the selected range aligns 
+with the dominant ellipse stains in the bloodstain distribution.
+As a result, the code is observed to perform more effectively in 
+analyzing the location of the blood source for bloodstains originating 
+from distances of 35 cm and 50 cm. The code requires improvement for 
+cases involving short source to target distances and long shooting dis­
+tances. Factors such as image quality, and the appearance of mist- 
+patterned stains should also be considered for more precise results. 
+Thus, with future enhancements such as adding physical factors like 
+drag and gravity correction, as well as automating eccentricity limita­
+tions, this program has the potential to become an effective tool for both 
+academic research and crime scene investigations.
+4. Discussion
+In the literature, the majority of the studies have analyzed blood 
+stain patterns resulting from blunt force trauma with low and medium 
+velocity impact on the blood source [14] [3]. In contrast, in this study, 
+spatter bloodstain patterns resulting from gunshot wounds or deaths, 
+which are in the high-velocity impact group, are analyzed. This partic­
+ular type of analysis has made the study more challenging since 
+high-velocity impact patterns on the target surface usually result in the 
+formation of a mist pattern that consists of unevenly distributed and 
+extremely tiny ellipses. The numerical algorithm developed in MATLAB 
+within the scope of the research utilizes the tangent method. The pro­
+gram requires several inputs from the user such as the minimum and 
+maximum eccentricity limits, and minimum and maximum areas of the 
+ellipses to be analyzed. These inputs are crucial in terms of excluding 
+ellipses that will mislead the calculation. Once the user provides an 
+initial eccentricity range, the algorithm systematically evaluates multi­
+ple ranges and optimizes the selection by prioritizing the most 
+frequently occurring eccentricity values within the image. This 
+data-driven approach helps minimize errors and improve accuracy. The 
+current state of the program does not account for the effect of gravity 
+and assumes that blood drop flight paths are linear, which impacts the 
+precision of the calculated source distances. In reality, blood droplets are 
+subject to gravitational pull, which introduces a downward curve to 
+their trajectory. This means that the actual Area of Origin (AO) may lie 
+slightly above the estimated point, especially at longer source-to-target 
+distances. Air resistance can also influence the flight path by slowing 
+down smaller droplets during motion, potentially affecting their final 
+position on the surface. While improvements such as automating the 
+selection of eccentricity limits are already being considered, future 
+versions of the algorithm may also benefit from incorporating simple 
+physical corrections. These could include modeling the parabolic path of 
+a droplet under gravity or adjusting the analysis based on expected 
+travel distance changes due to air drag. Integrating 3D surface mapping 
+or applying correction factors based on surface characteristics may also 
+improve accuracy in more complex scenes. These developments remain 
+open for future research and are not limited to the scope of this study.
+When compared to existing bloodstain analysis software such as 
+BackTrack™, HemoSpat, and Sherlock, the proposed algorithm offers 
+both advantages and limitations. BackTrack™ and HemoSpat are widely 
+used tools that provide visual modeling and include physical corrections 
+such as gravity and air resistance. However, they often operate as closed 
+systems and give the user little control over the internal parameters. 
+HemoSpat also supports analysis on angled surfaces, but its accuracy can 
+drop when analyzing stains from long distances. Sherlock is mainly used 
+for educational purposes and has limited application in real-world 
+forensic scenarios [3]. In contrast, the algorithm developed in this 
+study allows for more user interaction and transparency, especially in 
+controlling which stains are included in the analysis. This makes the 
+method particularly adaptable for high-velocity cases such as gunshot 
+wounds. On the other hand, it currently assumes straight-line trajec­
+tories and does not include surface orientation or air resistance, which 
+may reduce accuracy in some conditions. It also struggles with very 
+short source-to-target distances, where the mist-like stains are hard to 
+detect due to their small size and inconsistent shape. One potential so­
+lution is to improve the current ellipse detection algorithm by inte­
+grating more advanced image processing techniques, which may help 
+distinguish smaller stains from background noise. Additionally, 
+Table 3 
+Error analysis of AOx, calculated with the maximum eccentricity values used for 
+varying shooting distances and real AOx distances.
+AOx 
+real 
+(cm)
+Shooting 
+Distance 
+(cm)
+Max. used 
+Eccentricity
+Average 
+Max 
+Eccentricity
+Calculated 
+AOx(cm)
+AOx 
+Percantage 
+Error (%)
+0
+1
+15.8086
+216.17 %
+5
+1
+10.0400
+100.80 %
+5
+25
+1
+1.0
+18.449
+268.99 %
+50
+1
+16.7005
+234.01 %
+100
+NA
+NA
+NA
+0
+0.57
+34.8607
+−0.40 %
+5
+0.48
+35.0918
+0.26 %
+35
+25
+1
+0.66
+35.8284
+2.37 %
+50
+0,63
+34.9966
+−0.01 %
+100
+0,61
+34.8685
+−0.38 %
+0
+0.46
+50.0082
+0.02 %
+5
+0.50
+50.4948
+0.99 %
+50
+25
+0.50
+0.45
+49.9367
+−0.13 %
+50
+0.55
+50.9106
+1.82 %
+100
+0.26
+50.5563
+1.11 %
+0
+0.30
+99.735
+−0.27 %
+5
+0.34
+98.8474
+−1.15 %
+100
+25
+0.34
+0.33
+102.7675
+2.77 %
+50
+NA
+NA
+NA
+100
+NA
+NA
+NA
+A. Yalçın Sarıbey and F.N. Ocak                                                                                                                                                                                                            
+Forensic Science International: Reports 11 (2025) 100416 
+5 
+
+
+--- PAGE 6 ---
+
+pre-processing filters like contrast enhancement could be applied to 
+improve stain visibility in low-quality images. Incorporating machine 
+learning-based stain recognition, trained on annotated spatter datasets, 
+may also improve reliability at short distances. These enhancements will 
+be considered in future studies to improve the algorithm’s performance 
+in challenging scenarios. Despite the challenges, the algorithm has 
+demonstrated high accuracy at mid-range distances and offers a clear 
+framework that can be extended and refined in future studies.
+5. Conclusions
+In this study, an algorithm for image processing and bloodstain 
+pattern analysis is developed considering its importance in describing 
+the relationship between the victim, the culprit, and the crime scene. 
+The code is developed to be capable of determining the approximate 
+area of origin of the blood, i.e. the victim, by utilizing an image of the 
+crime scene including the bloodstains. This study differs from the 
+literature in the sense that it includes high-velocity impact cases such as 
+firearm related incidents rather than low and medium velocity impact 
+cases such as blunt force trauma in which a lot of resources in the 
+literature are available [3,14]. The method that is employed in this 
+study, called the tangent method, requires the impact angle of the 
+bloodstains to be calculated. This is achieved via extracting the prop­
+erties of the ellipses that are fitted onto bloodstains in the images. With 
+the impact angle calculated, estimated source to target distance can be 
+calculated. Detailly discussed methodology is applied to a set of card­
+stocks that are obtained after the experiment. The experiment consists of 
+different source to target distances and different shooting distances that 
+are (5 cm, 35 cm, 50 cm 100 cm) and (0 cm, 5 cm, 25 cm, 50 cm, 
+100 cm) respectively. Obtained 20 forward spatter bloodstain patterns 
+are analyzed. It should be noted that the code requires user input for 
+minimum and maximum ellipse eccentricities and areas. This would 
+narrow down the ellipses to be analyzed for better converged solutions. 
+Results show that the algorithm performs the best in the source to target 
+distances that are 35 cm and 50 cm with errors to actual distances are 
+less than 1 % in general. For the source the target distance of 100 cm, 
+the errors are still small as the maximum calculated error is 2.77 %. For 
+source the target distance of 5 cm, the errors are huge, exceeding 100 %, 
+due to lack of image quality and existence of extremely small ellipses. In 
+addition, for each source to target distance, an optimum minimum and 
+maximum eccentricity value is selected. It can be concluded that as the 
+source to target distance increases, the optimum value for maximum 
+eccentricity decreases. Since at longer distances, the majority of the 
+ellipses have low eccentricity values due to high impact angles yielding 
+90̊ , utilizing a smaller maximum eccentricity value would enable the 
+code the select the more circular bloodstains. With the same approach, 
+as the distance becomes smaller, the impact angle becomes narrower 
+which yields higher maximum eccentricity values, more elliptic blood­
+stains, are more appropriate. This study can be further improved via 
+automizing the eccentricity and area selection process and training it 
+with better prepared data sets such as wider range of source to target 
+distances and shooting distances that are photographed better. This 
+would help this algorithm and so does this study to be a go-to tool in 
+bloodstain pattern analysis in academia and crime scene investigations.
+CRediT authorship contribution statement
+Ocak Fatma Nida: Writing – original draft, Validation, Software, 
+Resources, Methodology, Investigation, Formal analysis, Data curation. 
+Yalçın Sarıbey Aylin: Writing – review & editing, Visualization, Su­
+pervision, Project administration, Conceptualization.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the 
+online version at doi:10.1016/j.fsir.2025.100416.
+References
+[1] S.H. James, P.E. Kish, T.P. Sutton, Principles of Bloodstain Pattern Analysis: Theory 
+and Practice, CRC Press, 2005.
+[2] T. Bevel, R.M. Gardner. Bloodstain pattern analysis With an introduction to crime 
+scene reconstruction, üçüncü bas Edition, CRC Press, 2012.
+[3] P.H. Home, D.G. Norman, M.A. Williams, Software for the trajectory analysis of 
+blood-drops_ A systematic review, Forensic Sci. Int. 328 (2021) 110992, https:// 
+doi.org/10.1016/j.forsciint.2021.110992.
+[4] R.M. Arthur, P.J. Humburg, J. Hoogenboom, M. Baiker, M.C. Taylor, K.G. de Bruin, 
+An image- processing methodology for extracting bloodstain pattern features, 
+Forensic Sci. Int. 277 (2017) 122–132, https://doi.org/10.1016/j. 
+forsciint.2017.05.022.
+[5] U. Windberger, A. Sparer, J. Huber, Cow blood – A superior storage option in 
+forensics? Heliyon 9 (3) (2023) e14296 https://doi.org/10.1016/j.heliyon.2023. 
+e14296.
+Scheme 1.
+A. Yalçın Sarıbey and F.N. Ocak                                                                                                                                                                                                            
+Forensic Science International: Reports 11 (2025) 100416 
+6 
+
+
+--- PAGE 7 ---
+
+[6] D. Attinger, Y. Liu, R. Faflak, Y. Rao, B.A. Struttman, K.D. Brabanter, P. 
+M. Comiskey, A.L. Yarin, A data set of bloodstain patterns for teaching and research 
+in bloodstain pattern analysis: Gunshot backspatters, Data Brief. 22 (2019) 
+269–278, https://doi.org/10.1016/j.dib.2018.11.075.
+[7] Y. Liu, D. Attinger, K.D. Brabanter, Automatic Classification of Bloodstain Patterns 
+Caused by Gunshot and Blunt Impact at Various Distances, J. Forensic Sci. 65 (3) 
+(2020) 729–743, https://doi.org/10.1111/1556-4029.14262.
+[8] P.M. Comiskey, A.L. Yarin, D. Attinger, Hydrodynamics of forward blood spattering 
+caused by a bullet of general shape, Phys. Fluids 31 (8) (2019), https://doi.org/ 
+10.1063/1.5111835.
+[9] D. Attinger, P.M. Comiskey, A.L. Yarin, K.De Brabanter, Determining the region of 
+origin of blood spatter patterns considering fluid dynamics and statistical 
+uncertainties, Forensic Sci. Int. 298 (2019) 323–331, https://doi.org/10.1016/j. 
+forsciint.2019.02.003.
+[10] A. Orr, M. Illes, J. Beland, T. Stotesbury, Validation of Sherlock, a linear trajectory 
+analysis program for use in bloodstain pattern analysis, J. Can. Soc. Forensic Sci. 52 
+(2) (2019) 78–94, https://doi.org/10.1080/00085030.2019.1577793.
+[11] M.A. Kislov, M. Chauhan, S.A. Stepanov, G.V. Zolotenkova, Y.I. Pigolkin, Y. 
+A. Brazhnikov, Foren- sic diagnostics of the range of rifled firearm calculated by 
+back spatter over clothing, Leg. Med. 57 (February) (2022) 102051, https://doi. 
+org/10.1016/j.legalmed.2022.102051.
+[12] R. Rough, O. Batchelor, R. Green, A. Bainbridge-Smith, An automated method for 
+the generation of bloodstain pattern metrics from images of blood spatter patterns, 
+Forensic Sci. Int. 363 (August) (2024) 112200, https://doi.org/10.1016/j. 
+forsciint.2024.112200.
+[13] A. A. of Forensic Sciences, ASB Technical Report 033, Terms and Definitions in 
+Bloodstain Pattern Analysis (2017).
+[14] P. Joris, E. Jenar, R. Moermans, W.V. de Voorde, D. Vandermeulen, P. Claes, 
+Bloodstain impact pattern Area of Origin estimation using least-squares angles: A 
+HemoVision validation study, Forensic Sci. Int. 333 (2022) 111211, https://doi. 
+org/10.1016/j.forsciint.2022.111211.
+A. Yalçın Sarıbey and F.N. Ocak                                                                                                                                                                                                            
+Forensic Science International: Reports 11 (2025) 100416 
+7 

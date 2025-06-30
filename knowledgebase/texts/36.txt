@@ -1,0 +1,730 @@
+
+
+--- PAGE 1 ---
+
+PAPER
+CRIMINALISTICS
+Nima Behrooz,1 B.Sc.; Lee Hulse-Smith,2 M.S.; and Sanjeev Chandra,1 Ph.D.
+An Evaluation of the Underlying Mechanisms
+of Bloodstain Pattern Analysis Error
+ABSTRACT:
+An experiment was designed to explore the underlying mechanisms of blood disintegration and its subsequent effect on area of
+origin (AO) calculations. Blood spatter patterns were created through the controlled application of pressurized air (20–80 kPa) for 0.1 msec onto sus-
+pended blood droplets (2.7–3.2 mm diameter). The resulting disintegration process was captured using high-speed photography. Straight-line triangu-
+lation resulted in a 50% height overestimation, whereas using the lowest calculated height for each spatter pattern reduced this error to 8%.
+Incorporation of projectile motion resulted in a 28% height underestimation. The AO xy-coordinate was found to be very accurate with a maximum
+offset of only 4 mm, while AO size calculations were found to be two- to fivefold greater than expected. Subsequently, reverse triangulation analysis
+revealed the rotational offset for 26% of stains could not be attributed to measurement error, suggesting that some portion of error is inherent in the
+disintegration process.
+KEYWORDS: forensic science, bloodstain pattern analysis, fluid dynamics, blood
+Measurements taken from bloodstain spatter patterns at a crime
+scene can be utilized to calculate the associated bloodshed area of
+origin (AO) within a three-dimensional space. Generally, this
+involves the resolution of individual spatter patterns, selection of
+suitable bloodstains within, resolution of impact direction, stain tri-
+angulation to yield a two-dimensional area of convergence, and
+finally overlaying this with the third dimension, height, by calculat-
+ing bloodstain impact angles via the Balthazard formula (1). Once
+determined, the AO can prove useful in reconstructing the events
+surrounding bloodshed. Research examining the accuracy and
+underlying mechanisms of this methodology is still incomplete.
+Within the bloodstain pattern analysis (BPA) community, varia-
+tion exists in methodologies used for pattern recognition, velocity
+categorization, stain selection, and stain measurement. Despite this
+variation, there is a strong scientific foundation for correlations
+between certain stain morphology parameters and the AO. These
+include impact directionality through the presence of one or more
+spines, triangulation using the long axis (l) of multiple stain ellip-
+ses, and the angle of impact using the ratio of the long axis (l) to
+short axis (w) through application of the Balthazard formula (Eq.
+[1]). By combining all three parameters, the final AO can be estab-
+lished within a three-dimensional space (2).
+sin h ¼ w
+l
+ð1Þ
+As projectile motion has proven difficult to incorporate into AO
+modeling, straight-line flight paths are assumed with the inherent
+limitation that the z-coordinate will be consistently overestimated.
+In response, the BPA community recommends presenting the AO
+z-coordinate as a maximum height calculation (3).
+With a few exceptions (1,4), research into BPA error rates typi-
+cally utilize a mock crime scene approach, or focus on individual
+passive droplets (5–11). Researchers employing a mock crime
+scene approach are usually attempting to replicate the conditions of
+a specific criminal case. This can only provide a rough estimate of
+AO error, because the experiments are highly variable and difficult
+to control. To establish greater control, researchers have turned to
+the study of passive droplets, which usually involves individual
+blood droplets of a standard size made to fall under the influence
+of gravity alone. However, this approach is limited to investigating
+the error associated with the AO z-coordinate component, because
+triangulation of multiple stains within a spatter pattern is required
+to evaluate the AO size and xy-coordinate.
+This currently limits any complete evaluation of the AO to the
+mock crime scene approach. The consequence of which makes it
+very difficult to explore the underlying mechanisms related to error.
+Take for example a typical experiment where some force (hand,
+baseball bat, firearm projectile) is applied to some blood source
+(blood-soaked sponge, pool of blood). Subsequently, AO is triangu-
+lated from the resulting spatter pattern and compared with the
+known AO. With the exception of z-coordinate overestimation
+resulting from straight-line triangulation, it would be tempting to
+conclude that any observed error must be related to the analyst’s
+measurement technique. This overlooks an important variable, high-
+lighted in Fig. 1. Each frame represents a 10-msec interval follow-
+ing the impact of a hammer on a pool of blood. This series of
+high-speed photographs represents one in a series of disintegration
+events captured by Taylor et al., available online (http://www.
+ameslab.gov/mfrc/rd) (12). It is clear from these images that a num-
+ber of complex fluid dynamic events are present. Therefore, it
+seems reasonable to speculate that some degree of AO error might
+be related to blood displacement and disintegration from an often
+complicated and variable collision.
+1Departmental of Mechanical and Industrial Engineering, University of
+Toronto, 5 King’s College Road, Toronto, Ontario M5S 3G8, Canada.
+2Centre of Forensic Sciences, 25 Grosvenor Street, Toronto, Ontario M7A
+2G8, Canada.
+Received 18 May 2010; and in revised form 2 Sept. 2010; accepted 11
+Sept. 2010.
+J Forensic Sci, September 2011, Vol. 56, No. 5
+doi: 10.1111/j.1556-4029.2011.01835.x
+Available online at: onlinelibrary.wiley.com
+1136
+ 2011 American Academy of Forensic Sciences
+
+
+--- PAGE 2 ---
+
+Research into the dynamics of fluids other than blood offers
+some insight into this complex interaction (13–15). It begins when
+an object strikes a liquid source, transferring energy through com-
+pression and forcing liquid displacement away from the strike
+point. The amount of transferred energy will correlate with the
+degree of fluid displacement. As the liquid undergoes displacement,
+the ratio of surface area to volume increases. To counter this insta-
+bility, the displaced liquid will either recoil through counteracting
+surface tension forces or disintegrate into smaller fragments where
+the energy is great enough. Ultimately, aerodynamic forces govern
+droplet size. The higher the velocity of blood displacement, the
+greater the instability created at the liquid–gas interface, resulting
+in the generation of smaller droplets. This provides some support
+for the current correlations made within the BPA community
+between bloodstain size and droplet velocity. Liquid displacement
+is quite complex, however, and not all of the liquid will be travel-
+ing at the same velocity. This could result in a variety of droplet
+sizes, in addition to the generation of sheets and filaments. As
+blood has a relatively high viscosity when compared to water, this
+increased resistance to flow will counteract displacement and
+increase the probability of encountering sheets and filaments, as
+readily observed in Fig. 1. Unlike droplets, sheets and filaments are
+inherently unstable because of their higher surface area-to-volume
+ratio and will either recoil into a single droplet or further disinte-
+grate into multiple droplets.
+Once airborne, droplet flight trajectory is governed by the effects
+of gravity and drag (or air resistance). Gravity results in downward
+droplet acceleration and can be modeled using the following pro-
+jectile motion equations:
+yðtÞ ¼  1
+2 gt2 þ voyt þ yo
+ð2Þ
+vyðtÞ ¼ gt þ voy
+ð3Þ
+ayðtÞ ¼ g
+ð4Þ
+vxðtÞ ¼ vox ¼ vo cos ho
+ð5Þ
+xðtÞ ¼ vxot þ xo
+ð6Þ
+axðtÞ ¼ 0
+ð7Þ
+tan h ¼ vy
+vx
+ð8Þ
+The force applied to the body of a droplet in motion by the sur-
+rounding air is called drag and acts in the opposite direction of
+droplet motion. The value of drag force can be calculated using the
+following equation:
+FDrag ¼ CD
+1
+2 qairV2 p
+4 D2
+
+
+
+
+ð9Þ
+where q is the fluid density, V is the flow velocity, and D is the
+droplet diameter. CD is the coefficient of drag, which is a function
+of Reynolds number and depends on the shape of the object. The
+Reynolds number for a sphere is defined as:
+Re ¼ qDoVo
+l
+ð10Þ
+where D is the droplet diameter, and l is the fluid viscosity.
+The aim of this research was to utilize a novel experimental
+design to investigate the error associated with the standard calcula-
+tions for AO. Starting with a mock crime scene experimental
+approach, the initial volume of blood was significantly reduced,
+and the disintegration process was propagated through the applica-
+tion of a short burst of pressurized air. These two modifications
+allowed for better resolution of the disintegration process to provide
+a window into the underlying mechanisms responsible for AO
+error.
+Materials and Methods
+A gas tank filled with pressurized air was connected to a nozzle
+via stainless steel tubing. A pressure gauge was used to measure
+air pressure, while a solenoid valve with digital pulse generator
+ensured a controlled release of air from the nozzle. This apparatus
+was contained within an aluminum frame structure to allow for ver-
+tical adjustment. Iron plates secured to the structure ensured it
+would not move during operation. A diagram of this experimental
+setup is shown in Fig. 2.
+A syringe, mounted within a syringe pump to regulate flow rate,
+was connected to a stainless steel needle using clear plastic tubing.
+The syringe and needle were clamped within the apparatus such
+that a droplet suspended from the needle would be directly within
+the path of pressurized air released from the nozzle. Pig blood was
+chosen owing to similarities in physical properties with human
+blood. The reader is directed to our previous article for additional
+information regarding these properties (10).
+Fresh pig blood was obtained from an abattoir (Quality Meat
+Packers, Toronto, Ontario, Canada) and stored in test tubes contain-
+ing the anticoagulant ethylenediaminetetraacetic acid (EDTA). The
+blood was stored at 4C and was used within 48 h of collection.
+Blood was placed into the syringe pump, which was then utilized
+to deliver a specific volume of blood, resulting in consistent sized
+blood droplets suspended from the needle tip. Droplet diameter was
+measured directly from the high-speed images taken immediately
+prior to disintegration, using the needle diameter as a calibration
+reference. Blood droplet and needle diameters are shown in
+Table 1. While these are the same needles used in our previous
+1.
+2.
+3.
+4.
+FIG. 1—High-speed photographs of a hammer impacting a pool of blood.
+Images are numbered according to increasing time intervals of 10 msec
+(http://www.ameslab.gov/mfrc/rd) (12).
+BEHROOZ ET AL.
+• UNDERLYING MECHANISMS OF BPA ERROR
+1137
+ 15564029, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2011.01835.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+
+research (10), the droplet diameters generated here have been
+reduced to prevent droplet detachment under gravity prior to the
+application of pressurized air.
+The pulse generator was set to allow air release from the nozzle
+for 0.1 msec. This resulted in complete separation of the blood
+droplet from the needle and subsequent disintegration into smaller
+droplets. A FastCam-Ultima 1024 high-speed video camera (Pho-
+tron, Tokyo, Japan) was used to capture the disintegration of drop-
+lets from the syringe needle at 1000 frames per second. The
+camera was positioned 0.5 m from the droplet such that it could
+capture disintegration from a side view. A light source was placed
+1.5 m from the droplet on the opposite side to optimize image con-
+trast. The camera was connected to the pulse generator to synchro-
+nize image capture with air release from the nozzle.
+The initial velocity of projected droplets was obtained by mea-
+suring the distance traveled by individual droplets between each
+frame of the high-speed camera images. The known needle diame-
+ter was used for calibration. The resulting blood spatter pattern was
+captured on standard white printing paper positioned 86 mm below
+the nozzle. The AO xy-coordinate was marked on the paper prior
+to each experimental run by releasing a single droplet from the
+needle and allowing it to impact on the paper. Bloodstains were
+allowed to dry prior to digital conversion via a high-resolution
+scanner. All digital measurements were conducted using either the
+ImageJ (U.S. National Institute of Health, Bethesda, MD) or Adobe
+Illustrator (Adobe, San Jose, CA) imaging software.
+The experiment was conducted using two different needle sizes
+(to vary droplet diameter) and four different air pressures (to vary
+impact velocity). Each experiment was replicated three times,
+resulting in the generation of 24 blood spatter patterns. Where
+applicable, data comparison was undertaken using Neyman–Pearson
+statistical testing with a 95% confidence interval.
+Results and Discussion
+Figures 3 and 4 show a side-by-side comparison of two blood
+droplets undergoing disintegration. The two columns represent dif-
+ferent applied air pressures (20 and 40 kPa). Droplet diameter was
+kept constant at 3.2 mm. The images show the process of disinte-
+gration over 25 msec following the application of pressurized air
+onto the droplet for 0.1 msec.
+At time zero, the droplets can be seen adhering to the needle tip,
+representing the known AO. At 3 msec, the pressurized air has
+already been applied and sheets, filaments, and individual droplets
+can be seen radiating from the AO. At 5 msec, small droplets
+c. 0.5 mm in diameter are moving away from the AO at
+c. 6 m⁄sec. These are byproducts of the initial pressurized air
+flowing over the liquid surface, causing sufficient instability to pro-
+duce droplets of this size.
+At 10 msec, the 40 kPa air pressure is associated with the gener-
+ation of more droplets than the 20 kPa air pressure. At both pres-
+sures, a substantial volume of blood can still be observed close to
+the AO. By 20 msec, this volume of blood has begun to stabilize
+into droplets c. 1–1.5 mm in diameter traveling away from the AO
+at a relatively low velocity of c. 1 m⁄sec. By 25 msec, only larger
+droplets and a few filaments remain.
+The resulting 24 spatter patterns exhibited similar characteristics.
+Figure 5 represents a 0.2 · 0.2 m portion of one spatter pattern.
+Each spatter pattern was comprised of c. 200 stains covering an
+area of about 1.1 · 0.2 m. Of these stains, about 75% were
+1
+2
+4
+3
+7
+6
+5
+8
+9
+10
+FIG. 2—Experimental setup: (1) Compressed air cylinder, (2) Pressure
+regulators, (3) Syringe and syringe pump, (4) Pressure gauge, (5) Pulse
+generator, (6) Solenoid valve, (7) High-speed camera, (8) Nozzle, (9) Nee-
+dle, (10) Blood droplet.
+TABLE 1—Droplet diameter was measured from high-speed photographs
+taken 0.5 msec prior to droplet disintegration. Image calibration was
+performed using the needle outer diameter.
+Syringe Needle
+Droplet Diameter
+(mm)
+Gauge
+Inner Diameter
+(mm)
+Outer Diameter
+(mm)
+12
+2.8
+2.2
+3.2 € 0.11 (n = 4)
+17
+1.5
+1.1
+2.7 € 0.13 (n = 6)
+t = 0msec
+t = 2msec
+t = 3msec
+t = 5msec
+Droplet Diameter = 3.2mm
+Pressure = 20kPa
+Pressure = 40kPa
+FIG. 3—High-speed photograph time-series comparing the blood droplet
+disintegration process following application of 20 and 40 kPa pressurized
+air for 0.1 msec. Droplet diameter was kept constant at 3.2 mm. Needle
+diameter, which is marked with a white calibration line in the top left
+image, is 2.8 mm. This time-series continues in Fig. 4.
+1138
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2011.01835.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+
+<0.5 mm diameter with no indication of directionality. This left
+between 30 and 60 stains per spatter pattern, which could yield
+directionality, with elliptical short axis ranging between 0.5 and
+6 mm. Stain selection and measurements were based on the criteria
+outlined by Wells (16). These included:
+• Well-formed stains
+• Angle of impact <60
+• Equal number of stains from each side of the spatter pattern
+• Within 50% of distance from the furthest stain
+• Approximately 20 stains
+Unfortunately for each spatter pattern, after applying the first
+four criteria listed above, only 8–12 stains were deemed suitable.
+The z-coordinate (height) was calculated using the Balthazard for-
+mula based on the long and short axis of a best-fit ellipse overlayed
+within the ImageJ software, as demonstrated in Fig. 6. Care was
+taken when fitting each ellipse to account for the asymmetrical nat-
+ure of each bloodstain (16). The long axis was subsequently
+extracted from each ellipse and then scaled to provide triangulation
+lines back to the AO. For the purposes of triangulation, this method
+prevented any measurement bias as the long axis was determined
+while zoomed into the digital image for each stain, thereby hiding
+the known AO.
+Figure 7 highlights the error associated with the z-coordinate for
+each starting blood droplet diameter and applied air pressure. With
+a known z-coordinate of 86 mm, these results show an average
+overestimation of 43 mm (50% error), with a range of 16–64 mm.
+No statistically significant relationship was found between the
+degree of z-coordinate offset and either air pressure or droplet size.
+These overestimations were expected given that straight-line trian-
+gulation does not account for projectile motion and drag. As a
+result, two alternative methods for estimating the z-coordinate were
+explored. The first examines the accuracy of reporting the lowest
+z-coordinate as a best estimate calculation. The second explores
+whether projectile motion and drag could be incorporated into AO
+modeling.
+As straight-line triangulation consistently overestimates the z-
+coordinate, the lowest z-coordinate measurement for each spatter
+pattern was considered as a potential alternative. The results of this
+approach are shown in Fig. 8. The average overestimation was
+reduced from 43 to 7 mm (8% error) with a range between )10
+and 29 mm. In a few cases, the lowest z-coordinate resulted in an
+underestimation. As using straight lines to estimate z-coordinate
+should always result in an overestimation, we attribute this to mea-
+surement error. As a result, if this method is utilized in casework,
+it should be reported as a best estimate and not as a maximum
+height calculation. It should also be noted that it will be impossible
+to determine the variation around this best estimate because this
+approach only utilizes a single point.
+Next, projectile motion and drag were explored to determine
+whether they might be utilized to reduce z-coordinate error. The
+following projectile motion equations were derived.
+t = 10msec
+t = 15msec
+t = 20msec
+t = 25msec
+Droplet Diameter = 3.2mm
+Pressure = 20kPa
+Pressure = 40kPa
+FIG. 4—High-speed photograph time-series continued from Fig. 3.
+FIG. 5—A 0.2 · 0.2 m section of one blood spatter. The area of origin is
+located 0.31 m from the bottom edge of this section. Applied air pressure
+was 80 kPa and droplet diameter was 3.2 mm.
+FIG. 6—A bloodstain shown on the right with its best-fit ellipse on the
+left.
+BEHROOZ ET AL.
+• UNDERLYING MECHANISMS OF BPA ERROR
+1139
+ 15564029, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2011.01835.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+
+From Eqs (3), (5), and (8), the time of flight can be solved
+tan h ¼
+gt
+vo cos ho
+or
+t ¼ tan hvo cos ho
+g
+ð11Þ
+then substitute Eq. (11) into Eq. (5) to solve for initial velocity
+xðtÞ ¼ tan h cos2 hov2
+o
+g
+or
+vo ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+xðtÞg
+tan h cos2 ho
+s
+ð12Þ
+and finally substitute Eq. (11) into Eq. (2) where y(t) = 0 to solve
+for height
+yo ¼  tan hvo cos ho
+g
+
+ tan hvo cos ho
+2
+þ voy
+
+
+ð13Þ
+From Eqs (12) and (13), the initial droplet velocity (vo) and
+z-coordinate (y) can be derived from the droplet launch angle (ho),
+horizontal distance (x), and impact angle (h). The launch angle is
+currently not attainable from spatter pattern measurements, present-
+ing a significant limitation to utilizing this approach in casework.
+For the purposes of analysis, however, the known horizontal launch
+angle of 0 was used. Figures 9 and 10 show these results for pre-
+dicting the z-coordinate and initial velocity, respectively.
+On average, projectile motion calculations result in a z-coordi-
+nate underestimation of )24 mm (28% error) with a range between
+)11 and )35 mm. The initial velocity values derived from projec-
+tile motion equations do not differ statistically from the velocity
+values measured from the high-speed photographs of droplet disin-
+tegration. This underestimation could result from assuming a 0
+launch angle. From the high-speed photographs, it is clear that
+blood droplets are projected over a variety of angles. Also, the
+exclusion of drag forces could be a factor. However, if this were
+the case, a similar underestimation of velocity would have been
+expected.
+Drag is proportional to the square of droplet velocity and inver-
+sely proportional to a droplets diameter. Consequently, small fast
+droplets are more susceptible to these effects. To study the conse-
+quence of ignoring drag, blood droplet deceleration was modeled
+using Eq. (9) for droplet diameters and velocities observed in this
+experiment. These calculations are shown in Fig. 11. These error
+calculations demonstrate that drag forces must be taken into account
+for all droplets with initial velocities >3 m⁄sec. Otherwise, for drop-
+let >1.6 mm diameter and traveling <3 m⁄sec, the effects of drag
+can generally be ignored with minimal impact on z-coordinate
+-50
+0
+50
+100
+20
+40
+60
+80
+Pressure (kPa)
+Z-coord Offset (mm)
+3.2mm dia droplet
+2.7mm dia droplet
+FIG. 8—The lowest z-coordinate offset over four applied air pressures
+and two droplet diameters.
+-50
+0
+50
+100
+20
+40
+60
+80
+Pressure (kPa)
+Z-coord Offset (mm)
+3.2mm dia droplet
+2.7mm dia droplet
+FIG. 9—Projectile motion equations were used to predict the z-coordinate
+over the four applied air pressures and two droplet diameters tested. Error
+bars represent the 95% confidence interval.
+0
+1
+2
+3
+4
+5
+20
+40
+60
+80
+Pressure (kPa)
+Initial Velocity (m/s) 
+Expected velocity
+Observed velocity
+FIG. 10—Projectile motion equations were used to predict the initial
+velocity over the four applied air pressures and two droplet diameters
+tested. Observed initial velocity was derived from high-speed photographs
+of droplet disintegration. Error bars represent the 95% confidence interval.
+-50
+0
+50
+100
+20
+40
+60
+80
+Pressure (kPa)
+Z-coord Offset (mm)
+3.2mm dia droplet
+2.7mm dia droplet
+FIG. 7—The average z-coordinate offset over four applied air pressures
+and two droplet diameters. Error bars represent the 95% confidence
+interval.
+1140
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2011.01835.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+
+calculations. In this experiment, the stain selection criteria favored
+larger stains. With this in mind, the larger droplets within the high-
+speed images were found to be >0.8 mm diameter and traveling
+<3 m⁄sec. Therefore, ignoring drag is expected to introduce no
+more than 30% error in predicting the z-coordinate in this experi-
+ment. This is quite substantial and highlights that any attempt to
+incorporate projectile motion into AO modeling must take drag into
+account.
+AO error associated with size and xy-coordinate was calculated
+using the stain triangulation lines at the point with which they
+crossed the known x-axis, which runs perpendicular to the spatter
+flight direction. For each spatter pattern, the xy-coordinate was
+measured as the average offset between each triangulation line and
+the known xy-coordinate, while AO size was measured as the 95%
+confidence interval of this average. These calculations are presented
+in Fig. 12.
+No statistically significant correlations were found between the
+observed errors, and blood volumes and velocities tested. XY-coor-
+dinates were found to be quite accurate, with the least accurate
+spatter pattern deviating from the known xy-coordinate by only
+4 mm. On the other hand, the AO size was found to be larger than
+expected. The known blood droplet diameters tested were 2.7 and
+3.2 mm, while the calculated sizes ranged between 7.8 and
+14.3 mm, representing a two- to fivefold increase. Further analysis
+of these results revealed a number of outliers present within each
+trial. This was investigated further.
+One of the 24 spatter patterns was selected randomly for addi-
+tional analysis. The stain selection criteria were lowered to include
+stains that could provide a measure of directionality only. This
+resulted in the selection of 54 stains. For the purpose of this analy-
+sis, instead of starting at each stain and triangulating ‘‘backward,’’
+the known xy-position was used as the starting point and lines were
+drawn ‘‘forward’’ out to each stain. Where each line overlapped the
+corresponding stain, the rotational offset could then be evaluated.
+Of these 54 stains, the rotational offsets of 14 (26%) were signifi-
+cant enough that it was reasonable to assume that any individual
+tasked with fitting an ellipse to a bloodstain was unlikely to have
+arrived at the same triangulation line. Four of these representative
+stains are shown in Fig. 13 each with their corresponding triangula-
+tion path originating from the known xy-coordinate. This finding
+clearly demonstrates that a component of AO error is not related to
+analyst measurement but is instead inherent in the process of blood
+displacement and disintegration.
+Postimpact droplet formation is the most likely mechanism for
+this contribution to AO size error. This ‘‘fork in the road’’ effect
+occurs when a blood volume structure (sheet, filament, or large
+droplet) has traveled a certain distance from the AO and reaches
+an instability threshold where it disintegrates into smaller volumes.
+Subsequently, trajectory lines for these respective bloodstains will
+triangulate back to this fork in the road where secondary disintegra-
+tion occurred, instead of back to the true AO. Given that this
+experiment was designed to reduce the complexity of droplet disin-
+tegration, it is likely that this will be more predominant under
+bloodshed conditions more typically associated with crime scenes.
+Conclusion
+Small volumes of blood were disintegrated through the applica-
+tion of pressurized air. The resulting spatter patterns were used to
+evaluate BPA AO error and investigate the underlying mechanisms.
+Under these experimental conditions, z-coordinate predictions were
+consistently overestimated by an average of 50%, while using the
+lowest z-coordinate within a spatter pattern reduced this error to
+8%. However, if this value is to be reported, it should be presented
+as an estimate and not as a maximum height calculation. Incorpora-
+tion of projectile motion into z-coordinate calculations was found
+to underestimate by an average of 28%, while velocity predictions
+were found to be quite accurate when compared with the high-
+speed photographs. However, the application of projectile motion is
+limited at this time as an assumption related to launch angle was
+required,
+and
+the
+impact
+of
+drag
+could
+not
+be
+ignored.
+0
+20
+40
+60
+80
+100
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+velocity (m/sec)
+error (%)
+D = 0.2mm
+D = 0.4mm
+D = 0.6mm D = 0.8mm
+D = 1.0mm
+D = 1.2mm
+D = 1.4mm
+D = 1.6mm
+FIG. 11—Effect of drag forces on blood droplets between 0.2 and 1.6 mm
+in diameter, traveling up to 10 m ⁄ sec. Drag coefficient was set to 1.
+-12.0
+-6.0
+0.0
+6.0
+12.0
+20
+40
+60
+80
+Pressure (kPa)
+X-coord Offset (mm)
+3.2mm dia droplet
+2.7mm dia droplet
+FIG. 12—XY-coordinate offset was calculated for each of four air
+pressures and two droplet diameters tested. Offset was calculated for each
+triangulation line at the point which it crossed the known x-axis (y-coordi-
+nate = 0). Error bars represent the 95% confidence interval and were used
+to assess the area of origin size.
+FIG. 13—Four bloodstains from one spatter pattern are shown. Lines rep-
+resent the triangulation lines starting from the known xy-position.
+BEHROOZ ET AL.
+• UNDERLYING MECHANISMS OF BPA ERROR
+1141
+ 15564029, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2011.01835.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 7 ---
+
+XY-coordinate predictions were found to be accurate, with the
+greatest offset being only 4 mm. However, AO size estimates were
+found to be two- to fivefold greater than the true AO size. Addi-
+tional investigation revealed that 26% of the stains within a ran-
+domly selected spatter pattern exhibited rotational offset that could
+not be accounted for by measurement error. A ‘‘fork in the road’’
+mechanism was proposed to explain this offset, whereby unstable
+blood volume structures undergo secondary disintegration after first
+traveling some distance from the AO.
+References
+1. Balthazard V, Piedelievre R, Desoille H, Derobert L. Study of projected
+droplets
+of
+blood.
+Ann
+Med
+Leg
+Criminol
+Police
+Sci
+Toxicol
+1939;19(4):265–323.
+2. Carter AL, Podworny EJ. Bloodstain pattern analysis with a scientific
+calculator. Can Soc Forensic Sci J 1991;24(1):37–42.
+3. James SH, Eckert WG. Interpretation of bloodstain evidence at crime
+scenes, 2nd edn. New York, NY: CRC Press, 1999.
+4. Raymond MA, Liesegang J, Smith ER. High speed cinematography of
+blood droplet deformation in flight—implications for crime scene recon-
+struction. In: Jacob B, Bonte W, editors. Advances in forensic sci-
+ences—Proceedings of the 13th Meeting of the International Association
+of Forensic Sciences; 1993 Aug 22–28; Dsseldorf, Germany. Berlin,
+Germany: Verlag Dr. Kçster, 1995;200–7.
+5. Carter AL. Directional analysis of bloodstain patterns theory and direc-
+tional analysis. J Forensic Identification 2006;56(2):242–56.
+6. Karger B, Nusse R, Bajanowski T. Backspatter on the firearm and hand
+in experimental close-range gunshots to the head. Am J Forensic Med
+Path 2002;23(3):211–3.
+7. Randall B. Blood and tissue spatter associated with a chainsaw dismem-
+berment. J Forensic Sci 2009;54(6):1310–4.
+8. Sweet MJ. Velocity measurements of projected bloodstains from a med-
+ium velocity impact source. Can Soc Forensic Sci J 1993;26(3):103–10.
+9. Pizzola PA, Roth S, De Forest PR. Blood droplet dynamics—I. J Foren-
+sic Sci 1986;31(1):36–49.
+10. Hulse-Smith L, Mehdizadeh NZ, Chandra S. Deducing drop size and
+impact velocity from circular bloodstains. J Forensic Sci 2005;50(1):54–
+63.
+11. Knock C, Davison M. Predicting the position of the source of blood
+stains for angled impacts. J Forensic Sci 2007;52(5):1–6.
+12. Laber TL, Epstein BP, Taylor MJ. High speed digital video analysis of
+bloodstain pattern formation from common bloodletting mechanisms.
+IABPA News: June 2008:4–12.
+13. Rein M. Phenomena of liquid drop impact on solid and liquid surfaces.
+Fluid Dyn Res 1993;12:61–93.
+14. Gelfand BM. Droplet breakup phenomena in flows with velocity lag.
+Prog Energy Combust Sci 1996;22:201–65.
+15. Lin SP. Drop and spray formation from a liquid jet. Annu Rev Fluid
+Mech 1998;30:85–105.
+16. Wells JK. Investigation of factors affecting the region of origin esti-
+mates in bloodstain pattern analysis [Master’s Thesis]. Canterbury (New
+Zealand): University of Canterbury, 2006.
+Additional information and reprint requests:
+Lee Hulse-Smith, M.Sc.
+Centre of Forensic Sciences
+Biology Section, 4th Floor
+25 Grosvenor Street
+Toronto, ON M7A 2G8
+Canada
+E-mail: lee.hulsesmith@ontario.ca
+1142
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2011.01835.x by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

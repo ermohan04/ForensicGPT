@@ -1,0 +1,811 @@
+
+
+--- PAGE 1 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+Available online 16 January 2023
+1752-928X/© 2023 Elsevier Ltd and Faculty of Forensic and Legal Medicine. All rights reserved.
+Research Paper 
+Evaluation of the detectability of different ages of bloodstains on fabrics in 
+different washing conditions and at various wavelengths 
+Dilara ¨Oner Kaya a,*, S¸ükriye Karadayi b, Beytullah Karadayi c, Gürsel Çetin c 
+a Istanbul, Turkey 
+b Istanbul Altınbas University Department Vocational School of Health Services, 34147, Istanbul, Turkey 
+c Istanbul University-Cerrahpasa, Cerrahpasa Medical Faculty, Forensic Medicine Department, 34098, Istanbul, Turkey   
+A R T I C L E  I N F O   
+Handling Editor: Nittis Maria  
+Keywords: 
+Laundered bloodstains 
+Forensic light sources 
+SERATEC® hemdirect hemoglobin test 
+A B S T R A C T   
+Purpose: The detection of bloodstains at crime scenes is extremely useful in forensic investigations. This study 
+aimed to investigate the effects of washing temperature, fabric type, fabric color, and stain age (time from 
+staining to laundering) on the detection and identification of bloodstains on fabrics after washing. 
+Material and method: A total of 240 fabrics (4 different colors and 5 different types) were stained with blood and 
+washed in 4 different washing temperatures with 3 different lag times. The evaluations of fabric images were 
+performed using the FLS system (Forenscope-Mobile Multispectral UV-VIS-IR Imaging Systems®) on a total of 
+1200 images using 5 different wavelengths and filter options. The bloodstained areas of the fabric pieces were 
+then excised, and the hemoglobin presence was analyzed using the SERATEC® HemDirect hemoglobin test. 
+Results: The analyses of laundered samples using the FLS system revealed that the best images were obtained 
+from velvet, cotton fleece, denim, and polyester fabrics, in that order. Except for polyester fabrics, the SERATEC® 
+HemDirect hemoglobin screening test, which was used to detect bloodstains on fabrics, showed positive results 
+after washing at low temperatures (approximately 15 ◦C and 30 ◦C). At higher temperatures (60 ◦C and 90 ◦C), 
+the SERATEC® HemDirect hemoglobin test yielded negative results. 
+Conclusion: The fabric type and color played a crucial role in stain detection using the FLS system on the 
+laundered fabrics. The FLS system and the SERATEC® HemDirect hemoglobin test revealed that stain age had a 
+limited effect on the stain’s detectability.   
+1. Introduction 
+Detection of biological stains at the crime scene and DNA extraction 
+from these samples are critical steps in identifying the offender or victim 
+of the incident. Bloodstains are among the most common stains found at 
+crime scenes and have a significant forensic value in terms of criminal 
+justice.1–3 Bloodstains can often be found on different fabrics, such as 
+clothes, sheets, or blankets, belonging to individuals involved in a 
+forensic case. The characteristics of fabrics, including thickness, 
+weaving pattern, content, and color, affect the formation of blood­
+stains.4 These factors may influence the visibility and detectability of 
+bloodstains at the crime scene. 
+Even when blood is visible at the crime scene, the visibility of 
+bloodstains may need enhancement if it is present in less quantity, not 
+clearly visible on the surface, or has been dragged by objects, such as 
+shoes.5 In addition, bloodstained clothing or items may be destroyed or 
+washed after a while to hide the crime.1 
+Although there are numerous methods for detecting bloodstains, 
+especially in cases where samples are scarce, important evidence such as 
+DNA may be compromised by DNA degradation due to destruction of the 
+bloodstained samples.5–7 The most commonly observed body fluid at a 
+crime scene is blood.7 Many crimes, ranging from murder to assault, 
+involve blood.8 Bloodstains can absorb light at wavelength 415 nm.9 The 
+Forenscope-Mobile Multispectral UV-VIS-IR Imaging Systems (FLS) 
+system readily allows visualization of the location of the stains and 
+documentation as scientific evidence, which can be then presented to 
+the court.10 The FLS system is a nondestructive and noninvasive method 
+based on the absorptive and photoluminescent properties of the bio­
+logical stains.10,11 As it permits rapid scanning of large surfaces at the 
+crime scene, using it before advanced verification methods saves time.6 
+* Corresponding author. 
+E-mail addresses: drdilaraoner@gmail.com (D. ¨Oner Kaya), sukriye.karadayi@altinbas.edu.tr (S¸. Karadayi), bkaradayi1970@yahoo.com (B. Karadayi), 
+drgurselcetin@gmail.com (G. Çetin).  
+Contents lists available at ScienceDirect 
+Journal of Forensic and Legal Medicine 
+journal homepage: www.elsevier.com/locate/yjflm 
+https://doi.org/10.1016/j.jflm.2023.102486 
+Received 29 July 2022; Received in revised form 17 December 2022; Accepted 11 January 2023   
+
+
+--- PAGE 2 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+2
+After the stain has been located, various methods are employed to 
+confirm the stain prior to performing DNA analysis. Immunoassay 
+methods, which are frequently used in forensic laboratories, are per­
+formed for the quick and reliable detection of the presence of hemo­
+globin.7,12 The visible spectrum of hemoglobin consists of three main 
+peaks. In fresh bloodstains, hemoglobin appears as oxyhemoglobin, with 
+the strongest peak of oxyhemoglobin at 415 nm, known as the “Soret” 
+band or “γ” band.13 
+The increase in societal awareness has led to the increase in the 
+tendency of perpetrators to disrupt the crime scene. Criminals frequently 
+wear gloves to avoid leaving their fingerprints or DNA, and they use 
+bleach to clean up the crime scene. A crime scene can be cleaned to 
+destroy evidence of the incident, and surfaces that serve as evidence can 
+be painted.14 Many studies on the detectability of semen and bloodstains 
+(Table 1) on washed clothing were conducted to gain further insights 
+into the clarification of such cases.15–20 In two studies, Karadayı et al. 
+reported that semen stains on fabrics can be detected even after 
+washing,15 and the detection rate increases as the age of the stain in­
+creases.16 However, further studies are needed to determine the 
+detectability of bloodstains in a wider range of fabric types and colors 
+after washing in different lag times and washing conditions. Arjun et al. 
+found that the detectability of bloodstains after washing was highest in 
+cotton and brasso fabric types.1 However, little is known about the 
+detectability of a bloodstain after machine washing a textile product.18 
+Studies conducted on bloodstains have primarily used luminol to 
+investigate the visibility factors in washed fabrics. To the best of our 
+knowledge, no detailed study has been conducted to investigate the 
+effect of the lag times of bloodstains on different types of fabrics prior to 
+washing in determining the stain location and confirming the stain using 
+the FLS system. 
+In this study, we aimed to reveal the effect of stain lag times before 
+washing on the detection and identification of bloodstains on laundered 
+clothes. Using a newly developed UV-VIS-IR imaging system with IR 
+feature, we also aimed to comprehensively (four different colors of each 
+of five different fabrics) confirm the role of other factors (washing 
+temperature, fabric type, and color) that have been shown to have an 
+effect on the detection of washed bloodstains on fabrics. 
+2. Materials and methods 
+2.1. Sampling 
+A sample of 25 cc of fresh blood was taken from 6 healthy adult 
+volunteer donors. To mimic blood samples obtained from a crime scene, 
+the samples were not placed in EDTA tubes, and bloodstains were 
+quickly created with Pastor pipettes without allowing blood to coagu­
+late. The detectability of the bloodstain was evaluated based on the lag 
+times of bloodstains, washing temperatures, and fabric types and colors. 
+Given the possibility of encountering fabrics with different structural 
+properties at a crime scene, commonly used fabric types and colors with 
+varying properties were preferred in the study. A bloodstain was created 
+using 20 different fabrics, including 5 different fabric types (cotton, 
+polyester, denim, velvet, and fleece) and 4 different color tones (2 light 
+and 2 dark). Taking into account 3 different lag times and 4 different 
+washing temperatures, 240 pieces of fabric (3 × 4 × 20 = 240) were 
+collected. To determine the location of the bloodstains that would form 
+on each fabric after washing, a circle with a diameter of 5 cm was drawn 
+using a pencil, which would not be erased in water. The midpoint of the 
+marked area on the fabrics was stained with 500 μL fresh blood. 
+Considering the delays in incident reporting and the availability of 
+biological evidence, the fabrics were dried at room temperature after 
+staining and kept in 3 different paper envelopes for 24 h, 1 week, and 1 
+month, respectively, prior to performing the washing protocol. As a 
+result, three groups were obtained. The graphs were created using IBM 
+Statistical Package for the Social Sciences 25.00. 
+This study was approved by the Clinical Ethics Committee of the 
+University of Istanbul University-Cerrahpasa, Cerrahpasa Medical Fac­
+ulty (REC: 86133). 
+2.2. Laundering protocol 
+The bloodstained fabrics, which were kept for 24 h, 1 week, and 1 
+month under appropriate conditions, were washed in a household 
+washing machine (Bosch Maxx 8) at 1000 rpm and 4 different temper­
+atures: ~15 ◦C (tap water temperature at the time of laundering), 30 ◦C, 
+60 ◦C, and 90 ◦C. Each bloodstained fabric was washed with 65-mL 
+enzyme-based liquid laundry agent (Bingo liquid laundry detergent) 
+Table 1 
+Forensic studies on washed bloodstained fabrics.  
+Studies 
+Deposition 
+Time 
+Fabric 
+Types 
+Washing 
+Program 
+Analysis Methods 
+This Study 
+24 h 
+Cotton 
+~15 ◦C 
+FLS system 
+HemDirect test 
+1 week 
+Denim 
+30 ◦C 
+1 month 
+Polyester 
+60 ◦C  
+Polar 
+90 ◦C  
+Velvet  
+Arjun and 
+Ashish1 
+24 h 
+Cotton 
+Waiting-hand- 
+washed 
+Kastle–Meyer 
+Cotton 
+brasso 
+Rubiya 
+cotton 
+Polyester 
+Linen 
+Linen 
+cotton 
+mix 
+Terrycott 
+Gupta et al.2 
+2–3 days 
+Cotton 
+Hand-washing 
+Tetra-methyl 
+Benzidine test 
+Nylon 
+Luminol Test 
+Elder et al.18 
+1 day 
+Cotton 
+denim 
+20 ◦C 
+Luminol DNA 
+recovery STR 
+typing 
+1 week 
+Polyester 
+30 ◦C  
+Cotton 
+jarsey 
+60 ◦C and 
+95 ◦C  
+Micro 
+fleece 
+Mustaq 
+et al.10 
+24 h 
+Cotton 
+Hand-washing 
+at room 
+temperature 
+Hemastix 
+Polyester 
+Kastle–Meyer 
+Cotton- 
+polyester 
+Leucomalachite 
+green 
+Keti 
+Leucomalachite 
+green 
+Tarawere  
+Tarawere  
+Lawn  
+Bosky  
+Khaddar  
+Wool  
+Silk  
+Silk- 
+polyester  
+Hofman 
+et al.18 
+24 h 
+Cotton 
+30 ◦C and 
+60 ◦C 
+Combur 
+48 h 
+Polyester 
+Luminol 
+72 h  
+DNA recovery 
+4,5 day  
+STR typing 
+7 day   
+Kitpipit 
+et al.19 
+24 h 
+Cotton 
+20 ◦C 
+Kastle–Meyer STR 
+typing 
+Polyester 
+40 ◦C 
+Denim 
+60 ◦C  
+95 ◦C 
+Sapan 
+et al.20 
+60 min 
+Nylon 
+40 ◦C 
+Luminol 
+Cotton 
+60 ◦C 
+DNA recovery  
+95 ◦C  
+Stajanovi´c23 
+6 h 
+Cotton 
+30 ◦C 
+Hemastix Bluestar 
+24 h 
+60 ◦C and 
+95 ◦C 
+72 h  
+10 days  
+30 days   
+D. ¨Oner Kaya et al.                                                                                                                                                                                                                             
+
+
+--- PAGE 3 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+3
+by grouping the fabrics with the same lag time and color tone. No 
+detergent was used at 15 ◦C. To prevent cross contamination among the 
+groups, the washing machine was run without fabrics between washes. 
+Fabric softener and laundry bleach were not used in any of the washes. 
+After the washing process, the fabrics were dried at room tempera­
+ture overnight and the marked areas were examined. 
+2.3. Testing for blood stains 
+To determine the persistence of the bloodstains after washing, each 
+stain (240 samples) created within the marked area on each fabric was 
+investigated using the FLS system. The bloodstained area was excised, 
+and the presence of hemoglobin was determined using the SERATEC® 
+HemDirect hemoglobin test (SERATEC Gesellschaft für Biotechnologie 
+mbH, G¨ottingen, Germany). 
+2.4. Examination of bloodstains with the FLS system (Forenscope) 
+An advanced forensic light source system was used to determine the 
+location of bloodstains on fabrics and investigate stain persistence after 
+the laundering procedure. The Forenscope-Mobile Multispectral 
+Tablet® (Forenscope EUROPE) was used for the examination, which has 
+a built-in imaging, recording system, and portable forensic light source 
+system with Android operating system that can emit light at different 
+wavelengths, allowing the use of different filters. For each sample, the 
+following five different lights + filter options were used:  
+- White Light (6500 k) + VIS filter + Color Camera Mode  
+- Violet Light (410–420 nm) + BP415 Filter (BandPass 415 nm Filter) 
++ Color Camera Mode  
+- Violet Light (410–420 nm) + BP415 Filter (BandPass 415 nm Filter) 
++ Monochrome Camera 
+Mode.  
+- Violet Light (410–420 nm) + BP415 Filter (BandPass 415 nm Filter) 
++ Invert Camera Mode  
+- Infrared 840–860 nm + IR filter + Monochrome Camera Mode 
+All fabrics were photographed and recorded using Mobil Multi­
+spectral UV-VIS-IR Imaging Systems®. A total of 1200 (5 × 240 = 1200) 
+images were obtained for 5 different shots based on the different com­
+binations of filters and wavelengths of light for each sample. To take 
+photographs from a standard distance and prevent external light from 
+affecting the images, a dark room supplied with the system and 
+customized for the device was used. After photographing, the images 
+from the camera were transferred to a computer in JPEG format and 
+sorted according to variable characteristics to facilitate evaluation. 
+From the obtained images, three researchers (BK, SK, and DO) selected 
+four reference images (negative, weak, moderate, and strong images). 
+Based on the reference images, the same three researchers indepen­
+dently evaluated and categorized the captured images into the four 
+groups, taking into account the visibility of the stain in the images. If a 
+unanimous decision was not made for a sample, the opinion of the 
+majority of the researchers for that image was considered. For example, 
+if the first researcher evaluated the image as strong, the second 
+researcher as moderate, and the third researcher as strong, the result was 
+recorded as strong. To assess the intraobserver agreement, 60 randomly 
+selected images were reevaluated by the first author (DO). The same 
+images were evaluated separately by the second and third authors (SK 
+and BK), and interobserver agreement was tested on 120 assessments. 
+Cohen’s kappa test21 was performed to calculate the intraobserver and 
+interobserver reliability. 
+2.5. Confirmatory blood test and evaluation 
+The presence of hemoglobin on the washed bloodstains in all groups 
+was analyzed using the SERATEC® Hemdirect test. According to the kit 
+manufacturer’s (SERATEC) instructions, the cut underwear pieces were 
+kept in 1 ml buffer solution for 10 min. Approximately 100 μl (three 
+drops) of this solution was added to the sample well. Results were noted 
+after the end of the 10-min incubation period. The presence of a pink line 
+in the test region (T) indicates that the test is positive. Results based on 
+the status of the pink line was interpreted according to modification of 
+Holtk¨otter et al. Classification.22 These categories were defined as 
+“++++,” “+++,” “++,” and “+” in the presence of the strong T-line 
+with sharp edges, T-line with sharp edges, light T-line with one sharp 
+edge, and faint T-line, respectively, and clear result window was noted 
+as negative. 
+3. Results 
+Cohen’s kappa value used for measuring intraobserver agreement for 
+evaluation stages was 0.93, indicating almost perfect agreement. Like­
+wise, interobserver agreement (kappa value: 0.74) was substantial 
+accordance. 
+The results of the FLS system examinations on the samples are shown 
+in the Supplementary, and the results of the SERATEC® Hemdirect he­
+moglobin test are shown in Table 2. 
+3.1. Forensic light source system 
+The results obtained from the FLS system analysis of the bloodstained 
+fabrics washed with different washing protocols revealed that the 
+strongest to the weakest images were obtained in velvet, cotton, polar 
+fleece, denim, and polyester for all lag times (Fig. 1A). 
+In terms of the prominence of bloodstains after washing, the FLS 
+system produced a better image in light-colored fabrics compared to 
+dark-toned fabrics. When all storage times and washing temperatures 
+were considered, cotton white and cream, velvet white and cream, and 
+fleece white and cream colored fabrics produced the best results 
+(Figs. 1–3). 
+It was observed that the rate of detectability and image quality using 
+Table 2 
+HemDirect test evaluation results for washed bloodstained fabrics categorized 
+according to fabric type, washing temperature, and stain age.  
+Fabric Type 
+◦C 
+Blood Stain Storage Time 
+24 Hours 
+1 Week 
+1 Month 
+Cotton 
+~15 ◦C 
+++++a 
+++++
+++
+30 ◦C 
+– 
++
+++++
+60 ◦C 
+– 
+– 
+– 
+90 ◦C 
+– 
+– 
+– 
+Polyester 
+~15 ◦C 
++++
++++
+++++
+30 ◦C 
++
+– 
+– 
+60 ◦C 
+– 
+– 
+– 
+90 ◦C 
+– 
+– 
+– 
+Denim 
+~15 ◦C 
+++++
++++
++++
+30 ◦C 
++
++++
+++++
+60 ◦C 
+– 
+– 
+– 
+90 ◦C 
+– 
+– 
+– 
+Velvet 
+~15 ◦C 
+++++
++
+++
+30 ◦C 
++
+– 
++
+60 ◦C 
+– 
+– 
++
+90 ◦C 
+++++
+– 
+– 
+Polar 
+~15 ◦C 
++++
++++
+++
+30 ◦C 
+– 
++
+++++
+60 ◦C 
+– 
++
+– 
+90 ◦C 
+– 
+– 
+–  
+a “++++,” “+++,” “++,” “+” and “−” indicate strong positive, positive, 
+weak positive, very weak positive and negative results for HemDirect immun­
+assay, respectively. 
+D. ¨Oner Kaya et al.                                                                                                                                                                                                                             
+
+
+--- PAGE 4 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+4
+the FLS system decreased in all fabric types and tones with the increase 
+in the washing temperature (Supplementary, Fig. 1B). 
+The location of the bloodstain could be determined after the laun­
+dering procedure in 72% images evaluated in the study (Supplemen­
+tary). Considering the washing conditions and lag times of bloodstains, 
+the least successful FLS system analysis results were observed in black- 
+colored fabrics (Fig. 1C; Fig. 3A and B). Images were usually obtained 
+in dark-colored fabrics using IR light (Fig. 4). 
+The lag time of the bloodstained fabrics before washing had an effect 
+on the quality of detectability in the FLS system analysis. The best results 
+obtained by the FLS system analysis were observed in laundered 
+bloodstained fabrics with 1 month of lag time (Fig. 1A; Fig. 2; Fig 3A; 
+Fig. 5). 
+When the images displayed and recorded for each sample using 
+different wavelengths and filter systems of the Forenscope device were 
+evaluated, the best images were obtained using the following 
+parameters:  
+- Violet Light (410–420 nm) + BP415 Filter (BandPass 415 nm Filter) 
++ Color Camera Mode, 
+Fig. 1. The effects of fabric color (A), washing temperature (B), and lag periods of the stain (C) on the estimated marginal means in different fabric types using the 
+forensic light source system (ForenScope). (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.) 
+Fig. 2. Examples of the forensic light source (ForenScope) showing bloodstains on fabrics based on differences in laundering procedures, lag periods, fabric types, 
+and shooting mode. 
+Fig. 3. The effects of lag periods (a) and washing temperature (b) on the estimated marginal means in different colors of fabrics using the forensic light source system 
+(ForenScope) examinations. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.) 
+D. ¨Oner Kaya et al.                                                                                                                                                                                                                             
+
+
+--- PAGE 5 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+5
+- Violet Light (410–420 nm) + BP415 Filter (BandPass 415 nm Filter) 
++ Monochrome Camera Mode  
+- Violet Light (410–420 nm) + BP415 Filter (BandPass 415 nm Filter) 
++ Invert Camera Mode options (Sup.). 
+3.2. Serological testing 
+Regardless of the stain retention time, the SERATEC® HemDirect 
+hemoglobin test produced a strong positive result in all fabric types 
+when no detergent was used at water temperature of ~15 ◦C. 
+With a 1-month lag period, strong positive results were observed in 
+cotton, denim, and fleece fabrics that were washed with detergent at a 
+water temperature of 30 ◦C, whereas weak positive results were 
+observed in velvet fabric (Table 2). 
+It was observed that when the water temperature was higher than 
+60 ◦C, the bloodstain produced a negative result regardless of its age 
+(Table 2). 
+4. Discussion 
+Blood and blood-contaminated items are frequently encountered 
+during a crime scene investigation, and extracting DNA from such 
+samples in the later stages of the investigation is critical to procure ev­
+idence regarding the incident and the criminal. However, criminals 
+often try to clean up the blood at the crime scene in order to destroy 
+evidence, and in some cases, they attempt to destroy evidence by 
+washing bloodstained clothing. Previous studies based on the determi­
+nation of location of the bloodstain after the washing process are usually 
+conducted using chemical substances, such as luminol. Although the FLS 
+systems have been shown to be effective in detecting biological 
+stains,11,12 the number of studies that employed the FLS system is 
+limited. Furthermore, the effect of blood persistence and stain lag time 
+of washed clothes on the detection rate of evidence has not been fully 
+explored. Therefore, we used a cutting-edge Forenscope light source 
+system (Forenscope), which is more efficient than the traditional 
+forensic light source systems. 
+In the present study, the best FLS system image was obtained in 
+velvet, cotton, polar fleece, denim, and polyester fabrics. Gupta et al. 
+obtained pronounced result in hand-washed cotton fabric using the 
+luminol test.2 In the study conducted by Edler et al. using luminol, after 
+washing some fabric by hand and some by machine, the least blood 
+residue was observed in micro fleece fabrics (24.2%), whereas macro­
+scopic bloodstains were detected in all the cotton denim samples.17 
+Among all samples, the presence of blood was detected macroscopically 
+in 57.2% samples after the washing process, whereas a reaction rate of 
+95.9% was observed in all samples by the luminol technique; this rate 
+was 88.6% in the control samples.17 In the present study, the stain 
+location was detected after washing in 72% evaluated images. The 
+image quality obtained after washing may have been influenced by the 
+Fig. 4. Forensic light source (ForenScope) examinations at IR wavelength of bloodstains on different dark-toned fabric types after various laundering procedures.  
+Fig. 5. The effect of washing temperature on the estimated marginal means in 
+different lag periods investigated using the forensic light source system. 
+D. ¨Oner Kaya et al.                                                                                                                                                                                                                             
+
+
+--- PAGE 6 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+6
+amount of blood used in the formation of the stains. Edler et al. used 10 
+mL of blood, whereas 500 mL of blood was used in the present study. 
+Stojanovi´c et al. reported positive results with Hemastix® and Bluestar® 
+in washings at 30 ◦C, 60 ◦C, and 90 ◦C in cotton fabrics.23 
+Edler et al., citing Grifford et al., reported that after 9 h of soaking in 
+still water and 30 min of washing in moving water, no macroscopic 
+bloodstain was observed on the fabrics with blood that were kept from a 
+few seconds to a maximum of 9 h. Edler et al. reported that lag times of 1 
+day and 1 week do not affect the reaction to luminol after washing.17 In 
+our study, stain images were obtained in 62%, 72%, and 81% fabrics 
+that were washed after 24 h, 1 week, and 1 month of lag period. Based on 
+these results, it was concluded that the percentage of detectability in­
+creases with the lag time prior to washing. Hofmann et al. reported 
+better stain images because the lag time before washing increases in 
+their study using the luminol method. A weaker luminol reaction was 
+reported after washing in fabrics that were kept for 24 h than in fabrics 
+that were kept for 3 or more days.18 
+In the present study, when all the lag times and washing tempera­
+tures were considered, favorable results could not be obtained in the 
+polyester fabric owing to its poor absorbency and moisture retention 
+properties. Similarly, in the study by Edler et al., the least chem­
+iluminescence intensity was observed in polyester fabrics, probably due 
+to the failure of hemoglobin adhesion to the polyester.17 Our study re­
+sults are consistent with this finding. 
+A study that used poly light found that the stain image quality was 
+poor due to high absorption of blood by polar fleece; however, a better 
+image was obtained on light-colored cotton fabric.24 Hofmann et al. 
+used the luminol method and reported that stronger fluorescence was 
+obtained in light-colored fabrics.18 The researchers suggested that 
+fluorescence was absorbed in black-colored fabrics and other methods 
+should be used in such cases.18 Similarly, in terms of the persistence of 
+the bloodstain, a better image was obtained in this study with the FLS 
+system in light-tone fabrics than in dark-tone fabrics after washing. 
+Another study found that using infrared light sources was beneficial in 
+dark fabrics.25 According to Chun-Yen Lin et al. study, which used 10 
+different types of black fabrics, stains were visible up to 1/8 dilution 
+with IR.25 However, Sterzik et al. reported that IR enhances the visibility 
+of undiluted blood, but stain images cannot be obtained in diluted 
+blood.26 In our study, the decreased detectability of stain age with IR, 
+especially in dark-colored fabrics washed at high temperatures, supports 
+this finding. Moreover, no favorable stain images could be obtained on 
+the denim fabric at any of the three temperatures. 
+Many factors influence the effectiveness of the FLS systems, 
+including washing temperature, drying time, type of washing machine, 
+type of sample investigated, fabric color and type, quantity of blood­
+stain, and time elapsed between the crime commission and crime scene 
+investigation.10,24 Edler et al. could not confirm the effect of washing 
+water temperature on macroscopic cleaning. Although the lowest 
+chemiluminescence was observed with washing at 95 ◦C, it was reported 
+that stains remained more stable in samples washed at 60 ◦C.17 In the 
+study conducted by Hofman et al. using luminol, it was reported that 
+there was no major difference between washing of textile products at 
+30 ◦C and 60 ◦C, and they also reported that detectability at 95 ◦C was 
+significantly reduced.18 In their study on cotton fabric, wood, and tile 
+surfaces, Miranda et al. reported that fluorescence intensity varies with 
+sample age. The fluorescence was lower when the samples were moist, 
+and the fluorescence was stable for 60 days on dry samples regardless of 
+the surface where the stain sample was located.27 In the present study, 
+stain visibility did not differ significantly between fabrics washed at 
+30 ◦C and 60 ◦C for the 24-h lag period, but some difference was 
+observed for 1-week lag times. Considering the lag period of a maximum 
+of 1 week, our findings of 1-week lag times were consistent with those of 
+Hofman et al.18 In the present study, the difference in fabrics subjected 
+to a 1-month lag period was considerably higher than the others and was 
+significantly reduced at 95 ◦C. We found that increase in washing tem­
+perature decreased the rate of detectability and image quality using the 
+FLS system. 
+Bloodstains are the most visible at 415 nm with yellow glasses and at 
+410 nm without glasses.24 Although we obtained a favorable image of 
+blood at a wavelength of 415 nm, this was not the sole wavelength for 
+effective forensic blood imaging. Favorable results were obtained using 
+the violet and the monochrome option of the FLS System. Bloodstains on 
+dark-colored fabrics should be located with an IR light. 
+In some studies, a greenish discoloration has been reported after 
+washing. Similar observation has been made in dried samples for up to 3 
+days by Edler et al. and in bloodstained fabrics kept for 1 month in our 
+study. Adair and Shaw in their studies using luminol suggested that this 
+coloration could be due to the moisture in samples before washing.28 
+Another hypothesis is that the laundry detergents can cause degradation 
+of blood proteins, and the released sulfur compounds make the stain 
+appear green,17 which seems more likely given that the stains are 
+thoroughly dried before washing. 
+Enzyme-based detergents can remove proteins, such as hemoglobin. 
+In a study conducted by Arjun et al.1 with five different enzyme-based 
+detergent brands, it was determined that Ariel® was the best deter­
+gent for removing stains in the washing of bloody fabrics. As the washing 
+agent used in our study (Bingo) is also an enzyme-based detergent, this 
+could explain the reason behind the negative result of the SERATEC® 
+HemDirect hemoglobin test, especially at the high temperatures. 
+As shown in Table 2, positive results were obtained by the SER­
+ATEC® HemDirect hemoglobin test after 24 h, 1 week, and 1 month of 
+lag periods in all fabric types washed with detergent-free water at 
+~15 ◦C. Similar results were obtained in the FLS system analyses. This 
+finding shows that a detergent-free wash at low temperature is sub­
+stantially insufficient to completely remove bloodstains from any type of 
+fabric. 
+The strong positive results obtained in cotton, denim, and fleece 
+fabrics washed with detergent at 30 ◦C water temperature after a 1- 
+month lag period suggested that washing such fabrics at this tempera­
+ture does not completely remove stains after long-term lag periods. 
+However, it has been determined that when the water temperature rises 
+above 60 ◦C, the bloodstain yields a negative result regardless of the 
+stain age. This finding demonstrates that washing bloodstained fabrics 
+at high temperatures and with detergent can completely remove the 
+stain. In the samples where the stain was visible after washing but 
+negative result was with the SERATEC® HemDirect hemoglobin test, we 
+suggest that this may be due to denatured hemoglobin, especially at high 
+temperatures. 
+In addition to being nondestructive and less time-limited than other 
+methods, the expansion of the spectrum with evolving technology makes 
+the FLS systems more useful. 
+5. Conclusion 
+Based on the results of the FLS system analysis and the SERATEC® 
+HemDirect hemoglobin test, it can be concluded that stain age has a 
+limited effect on stain detectability. According to our findings, the fabric 
+type and color were the most crucial features in the detectability of the 
+stain using the FLS system on the laundered fabrics. Furthermore, the 
+highest detectability was obtained at low washing temperatures and 
+longer lag times, whereas bloodstains on light-colored fabrics were more 
+detectable than on dark-colored fabrics. However, bloodstains that 
+could not be detected at other wavelengths on dark fabrics could be 
+detected by IR. The SERATEC® HemDirect hemoglobin test analyses 
+revealed that the washing temperature was more significant factor than 
+the lag time and fabric type. 
+Funding 
+The authors received no financial support for the research, author­
+ship and/or publication of this article. 
+D. ¨Oner Kaya et al.                                                                                                                                                                                                                             
+
+
+--- PAGE 7 ---
+
+Journal of Forensic and Legal Medicine 94 (2023) 102486
+7
+Declaration of competing interest 
+The authors declare that they have no known conflicting financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This study was carried out with the support of Istanbul University- 
+Cerrahpasa and Altınbas¸ University. We would like to thank Osman Eski, 
+Director of the Grimed Company, for his technical support. We also 
+extend our gratitude to Assoc. Prof. Ibrahim Demir and the designer 
+Kardelen Cetin for their contribution in the arrangement of the figures. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jflm.2023.102486. 
+References 
+1. Arjun RI, Ashish P. Identification of bloodstains on different fabrics after washing 
+with routinely used detergents in India. Intermt J Sci. 2016;1:1–5. https://doi:10.2 
+3880/ijfsc-16000102. 
+2. Gupta M, Saran V, Mishra MK, Gupta AK. Examination of traces of blood stains on 
+different fabrics after washing. IJARESM. 2016;6:204–209. 
+3. Lee WC, Khoo BE, Abdullah AFLB, Abdul Aziz ZB. Statistical evaluation of 
+alternative light sources for bloodstain photography. J Forensic Sci. 2013;58: 
+658–663. https://doi.org/10.1111/1556-4029.12103. 
+4. de Castro TC. Forensic interpretation of bloodstains on fabrics. In: Carr D, ed. 
+Forensic Textile Science. Delhi, DL: Woodhead Publishing; 2017:127–167. 
+5. Quinones I, Sheppard D, Harbison S, Elliot D. Comparative analysis of luminol 
+formulations. Can Soc Forensic Sci. 2007;40:53–63. https://doi.org/10.1080/ 
+00085030.2007.10757151. 
+6. Szeremeta M, Drobuliakova P, Janica M, Lomperta K, Niemcunowicz-Janica A, 
+Pepi´nski W. Evaluation of the usefulness of the alternative light source (ALS) in 
+differentiating simulated bloodstains. Postepy Hig Med Dosw. 2019;73:32–37. 
+https://doi:10.5604/01.3001.0012.8487. 
+7. Virkler K, Lednev IK. Analysis of body fluids for forensic purposes: from laboratory 
+testing to non-destructive rapid confirmatory identification at a crime scene. Forensic 
+Sci Int. 2009;188:1–17. https://doi:10.1016/j.forsciint.2009.02.013. 
+8. Mushtaq S, Rasool N, Firiyal S. Detection of dry bloodstains on different fabrics after 
+washing with commercially available detergents. Aust J Forensic Sci. 2016;48:87–94. 
+https://doi.org/10.1080/00450618.2015.1029971. 
+9. Stoilovic M. Detection of semen and blood stains using polilight as a light source. 
+Forensic Sci Int. 1991;51:289–296. https://doi:10.1111/j.1556-4029.2006.00065.x. 
+10. Sheppard K, Cassella JP, Fieldhouse S, King R. The adaptation of a 360◦camera 
+utilising an alternate light source (ALS) for the detection of biological fluids at crime 
+scenes. Sci Justice. 2017;57:239–249. https://10.1016/j.scijus.2017.04.004. 
+11. Lee WC, Khoo BE. Forensic light sources for detection of biological evidences in 
+crime scene investigation: a review. Malaysian J Forensic Sci. 2010;1:17–28. 
+12. Karadayı B, Karadayı S¸, Sezgin N. Biyolojik delillerin tespitinde kullanılan tarama ve 
+do˘grulama testleri ve bu konudaki son gelis¸meler. Turkiye Klinikleri J Foren Sci Leg 
+Med. 2018;15:80–92. 
+13. Li B, Beveridge P, O’hare WT, Islam M. The age estimation of blood stains up to 30 
+days old using visible wavelength hyperspectral image analysis and linear 
+discriminant analysis. Sci Justice. 2013;53:270–277. https://doi.org/10.1016/j. 
+scijus.2013.04.004. 
+14. Barrera V, Haas C, Meixner EA, Fliss B. Detection of painted-over traces of blood and 
+seminal fluid. Int J Leg Med. 2018;132:1067–1074. https://doi: 10.1007/s00414-0 
+18-1787-7. 
+15. Karadayı S¸ , Karadayı B, ¨Oner D, Çetin G. Evaluation of the relationship between the 
+detectability of seminal stains on laundered fabric and stain age. Med Sci Law. 2021; 
+61:198–207. https://doi:10.1177/0025802421992916. 
+16. Karadayi S, Moshfeghi E, Arasoglu T, Karadayi B. Evaluating the persistence of 
+laundered semen stains on fabric using a forensic light source system, prostate- 
+specific antigen Semiquant test and DNA recovery-profiling. Med Sci Law. 2020;60: 
+122–130. https://doi:10.1177/0025802419896935. 
+17. Edler C, Gehl A, Kohwagner J, Walther M, Krebs O, Augustin C, Klein A. Blood trace 
+evidence on washed textiles-a systematic approach. Int J Leg Med. 2017;131: 
+1179–1189. https://doi:10.1007/s00414-017-1549-y. 
+18. Hofmann M, Adamec J, Anslinger K, Bayer B, Graw M, Peschel O, Schulz MM. 
+Detectability of bloodstains after machine washing. Int J Leg Med. 2019;133:3–16. 
+https://doi:10.1007/s00414-018-1897-2. 
+19. Kitpipit T, Chuaythan W, Thanakiatkrai P. Direct STR profling from laundered 
+bloodstains: an investigation of diferent factors of laundering. Int J Leg Med. 2022: 
+1–9. https://doi.org/10.1007/s00414-022-02858-2. 
+20. Ünsal ST, Erdo˘gan IT, Atasoy S. Human identifcation from washed blood stains. Bull 
+Natl Res Cent. 2021;45:1–13. https://doi.org/10.1186/s42269-021-00600-3. 
+21. Landis JR, Koch GG. The measurement of observer agreement for categorical data. 
+Biometrics. 1977;33:159–174. https://doi:10.2307/2529310. 
+22. Holtk¨otter H, Dias Filho CR, Schwender K, Stadler C, Vennamann M, Pacheco AC, 
+Roca G. Forensic differentiation between peripheral and menstrual blood in cases of 
+alleged sexual assault—validating a immunochromatographic multiplex assay for 
+simultaneous detection of human hemoglobin and D-dimer. Int J Leg Med. 2018;132: 
+683–690. https://doi:10.1007/s00414-017-1719-y. 
+23. Stojanovi´c I. Detection of bloodstains on cotton fabric after washing. Acta Med 
+Mediterr. 2019;58:24–27. https://doi:10.5633/amm.2019.0104. 
+24. Vandenberg N, Van Oorschot RA. The use of Polilight® in the detection of seminal 
+fluid, saliva, and bloodstains and comparison with conventional chemical-based 
+screening tests. J Forensic Sci. 2006;51:361–370. https://doi: 10.1111/j.1556-4029. 
+2006.00065.x. 
+25. Lin ACY, Hsieh HM, Tsai LC, Linacre A, Lee JCI. Forensic applications of infrared 
+imaging for the detection and recording of latent evidence. J Forensic Sci. 2007;52: 
+1148–1150. https://doi: 10.1111/j.1556-4029.2007.00502.x. 
+26. Sterzik V, Panzer S, Apfelbacher M, Bohnert M. Searching for biological traces on 
+different materials using a forensic light source and infrared photography. Int J Leg 
+Med. 2016;130:599–605. https://doi:10.1007/s00414-015-1283-2. 
+27. Miranda GE, Prado FB, Delwing F, Júnior ED. Analysis of the fluorescence of body 
+fluids on different surfaces and times. Sci Justice. 2014;54:427–431. https://doi:10 
+.1016/j.scijus.2014.10.002. 
+28. Adair TW, Shaw RL. Enhancement of bloodstains on washed clothing using luminol 
+and lcv reagents. IABPA News. 2005;21:4–10. 
+D. ¨Oner Kaya et al.                                                                                                                                                                                                                             

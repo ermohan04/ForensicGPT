@@ -1,0 +1,1225 @@
+
+
+--- PAGE 1 ---
+
+Experimental Physiology : Translation and Integration
+Much interest has focused on comparative haemorheological
+studies (Amin & Sirs, 1985; Johnn et al. 1992; Waugh,
+1992; Windberger et al. 1993/1994; Kumaravel & Singh,
+1995; Baskurt, 1996; Baskurt et al. 1997, 2000; Bäumler et
+al. 2001). Despite being similar in basic structure and
+serving equally important physiological functions in all
+mammals, red blood cells differ vastly in their rheological
+properties in different species. Comparative studies are
+designed to give relevant information on the structural and
+functional basis of red blood cell rheological behaviour
+itself. Information gathered in comparative studies can
+thus serve as a basis for experimental models investigating
+flow phenomena in different animal species.
+Blood viscosity contributes to endothelial shear stress
+(Barakat, 2001). Shear stress modulates the orientation of
+endothelial cells in the direction of flow and to the
+‘waviness’ of the luminal surface of the vessel (Davies,
+1995). In addition, shear stress influences the arterial
+diameter (Johnson et al. 1981) through the release of
+endothelial vasoactive factors such as nitric oxide,
+endothelin-1 and prostaglandin I2 (Frangos et al. 1985;
+Moncada et al. 1991; Malek & Izumo, 1992) and affects
+arterial remodelling (Langille & O’Donnel, 1986; Sumpio
+et al. 1990). However, endothelial shear stress, which is
+influenced by fluid viscosity and blood flow, might not be
+uniform between the animal species. In diseases with
+elevated levels of whole blood and plasma viscosity (Linke,
+1996), endothelial shear stress will be even further altered.
+The available data are so far only of limited use. This is
+partly due to the small number of animals and species
+Whole blood viscosity, plasma viscosity and erythrocyte
+aggregation in nine mammalian species: reference values and
+comparison of data
+U. Windberger*, A. Bartholovitsch, R. Plasenzotti, K. J. Korak
+and G. Heinze†
+Institute for Biomedical Research and †Institute for Computer Sciences, University of Vienna,
+Währingergürtel 18-20, A-1090 Vienna, Austria
+(Manuscript received 15 October 2002; accepted 3 February 2003)
+In this study species-specific values for whole blood viscosity (WBV), plasma viscosity (PV) and erythrocyte
+aggregation (EA) were determined in a total of 360 animals. We used 40 individual adult animals of nine
+mammalian species: horse, pig, dog, cat, rat, cattle, sheep, rabbit and mouse. WBV measurements were carried
+out using a LS30 viscometer, PV was measured using OCR-D and EA was measured using a Myrenne
+aggregometer and the LS30 (aggregation index at low shear rate). At low shear rates (0.7 s_1 and 2.4 s_1)
+haematocrit (Hct)-standardized (40% Hct) samples showed a higher value of WBV and EA in horse, pig, dog
+and cat. In cattle, sheep, rabbit and mouse, EA and WBV were markedly decreased and EA was almost
+undetectable, although the plasma fibrinogen concentration was higher in these animals. Rats showed the
+highest WBV at low shear rate in native blood and WBV was not different from horse in Hct-standardized
+blood; however, EA was very low in the rat, a result that might be explained by mechanical or geometrical
+properties of the red blood cell. EA correlated with the plasma protein concentration in each species except dog
+and mouse. In horse, cattle and pig, EA correlated with the plasma fibrinogen concentration. At high shear rate
+(94 s_1), WBV was higher in cattle than cat and rat, and dog had higher values than horse, suggesting specific
+interspecies differences depending on low shear and high shear values of WBV, as a result of mechanisms that
+influence RBC flexibility. PV was highest in cattle and lowest in rabbit and mouse and did not correlate with
+WBV. Haemorheological parameters differed between the species. Each species has its own rheological
+fingerprint. The physiological significance of these variations among mammalian species has not yet been
+established. Viscosity contributes to endothelial cell shear stress. While haemorheological parameters differ
+across the species it may be postulated that factors influencing flow-mediated endothelial cell signal
+transduction are different among the species.  Experimental Physiology (2003) 88.3, 431–440.
+2496
+Publication of The Physiological Society
+*Corresponding author: ursula.windberger@akh-wien.ac.at
+
+
+--- PAGE 2 ---
+
+Experimental Physiology : Translation and Integration
+evaluated in recent studies. Comparison of viscometric
+measurements is further complicated by differences in
+methodology among the individual studies as well as species-
+related factors.
+In the following study we describe the rheological
+properties of blood from mammalian species that are of
+interest in veterinary medicine and are commonly used in
+experimental research. A total of 360 animals were used in
+this study. Blood from 40 animals of nine species was
+analysed employing the same protocol for all animals. It
+was thus possible to standardize the shear history for each
+sample and, at the same time, keep procedures at a
+minimum. Measurements were carried out by experienced
+investigators. Incomplete data sets were eliminated from
+the study. In addition to our reference values for standard
+haemorheological parameters, a complex comparison of
+whole blood viscosity, plasma viscosity, erythrocyte
+aggregation and related parameters is presented.
+METHODS 
+Withdrawal of blood
+Blood was withdrawn by venipuncture from healthy adult horses
+(Warmblut; 28 gelding, 12 mare; age, 7–13 years), pigs (28
+Edelschwein w Pietrain, 12 Landschwein w Edelschwein; 8 male
+(castrated), 32 female; age, 5–12 months), dogs (24 beagle, 4
+German shepherd dogs, 3 golden retriever, 1 boxer, 1 labrador
+retriever, 1 greyhound, 1 Hovawart, 1 Jack-Russell terrier, 2
+collies, 2 Doberman pinschers; 17 male (6 castrated), 23 female
+(10 ovariectomized); age, 2–10 years), cats (37 European shorthair,
+2 Siamese, 1 Karthäuser; 15 male (14 castrated), 25 female
+(18 ovariectomized); age, 1–11 years), cattle (34 Fleckvieh,
+6 Braunvieh; 40 female; age, 2–4 years), sheep (27 Bergschaf, 13
+Milchschaf; 40 female; age, 2–5 years) and rabbits (37 New
+Zealand White, 3 chinchilla bastard; 12 male, 28 female; age,
+5–13 months). Rats (Wistar, 9 male, 31 female; age, 4–6 months)
+and mice (BALB/c, 7 male, 33 female; age, 4–8 months) were
+anaesthetized with 100 mg kg_1 ketamine and 1 mg kg_1 xylazine
+intraperitoneally before blood was taken by puncture of the right
+ventricle. No muscle relaxant drug was used. Rats and mice were
+killed after blood withdrawal by an I.V. bolus of 100 mg kg_1
+thiopentone. Blood from horses, pigs, dogs, cats, cattle, sheep
+and rabbits flowed passively into two standard tubes containing
+K-EDTA. Carefully avoiding heavy suction, blood from rats and
+mice was withdrawn using 5 ml and 1 ml syringes, respectively.
+Blood samples from pigs, dogs, cats, sheep, rabbits, rats and mice
+were immediately placed in a centrifuge at room temperature
+and analysed haematologically after 1 h. However, all haemo-
+rheological and haematological measurements were completed
+within 4 h of blood sampling.
+All animal experiments were carried out according to national
+guidelines (national approval number: GZ-Nr: 66.009/16-
+Pr/4/2000).
+Haematological measurements
+A Cell-Dyn 3500 (Abbott Laboratories, Abbott Park, IL, USA)
+was used for the following haematological measurements:
+red blood cell (RBC) count (cells w 106 ml_1), haemoglobin
+concentration (g dl_1), mean corpuscular volume (MCV, fl),
+mean corpuscular haemoglobin (MCH, pg), mean corpuscular
+haemoglobin concentration (MCHC, g dl_1), white blood cell
+(WBC) count (cells w 103 ml_1) and platelet count (cells w 105
+ml_1). Haematocrit (Hct, %) was measured by centrifugation
+(Hettich, Tuttlingen, Germany).
+Haemorheological measurements
+Haemorheology was carried out using an LS30 viscometer
+(Contraves AG, Zürich, Switzerland) at three different shear rates
+(0.7, 2.4 and 94 s_1) at 37°C, to obtain whole blood viscosity
+(WBV, mPa s) and using a Myrenne aggregometer MA1 (Myrenne
+GmbH, Roetgen, Germany) to measure erythrocyte aggregation
+at room temperature (aggregation index: M0, M1). Aggregation
+was not checked microscopically.
+Principles of measurement of aggregation: 
+(1) Contraves LS30. A 1 ml sample of blood is placed into the
+modified Couette co-axial cylinder system of the device. When
+the outside cylinder is rotated the viscosity of blood, which exerts
+mechanical strain on the freely movable inner cylinder, is
+measured electromagnetically. Shear rates of 0.7, 2.4 and 94 s_1
+were used in this study. Three consecutive readings were taken
+for each value.
+(2) Myrenne aggregometer MA1. A 30 ml sample of blood is
+placed between the transparent cone-plate shearing device and is
+spread to a cellular layer. This layer is sheared at 600 s_1 for 10 s
+to disaggregate all pre-existing aggregates, then abruptly stopped
+in M0 mode or rotated at 3 s_1 in M1 mode for another 10 s to
+allow aggregation. The extent of plasma gaps inside the whole
+blood monolayer allows more light to pass through the red cell
+suspension. The instrument computes an aggregation index (M0
+at stasis and M1 at 3 s_1) proportional to the area under the light
+transmission curve, which reflects the degree of aggregation
+attained by the end of the 10 s period (Nash et al. 1987). At least
+five readings were taken for each value of M0 and M1.
+An additional aggregation index (AI) was obtained using the
+LS30 viscometer during the measurement of whole blood
+viscosity at low shear rates (0.7 and 2.4 s_1) by the following
+procedure: after measurement of the WBV at 0.7 and 2.4 s_1, the
+cup was further rotated at the same speed for 45 s. After 45 s the
+WBV was read again. AI was determined by the formula:
+AI = (peak WBV _ WBV after 45 s)/peak WBV.
+Calculation of AI by this formula is based upon the hypothesis
+that the peak value of WBV represents the characteristic viscosity
+of the blood sample at the given shear rate, whereas the
+secondary decline is thought to be affected by axial migration of
+red cell aggregates from the wall of the viscometer which is a
+measure of erythrocyte aggregation (Johnson et al. 1999).
+Plasma viscosity (PV) was measured using OCR-D (oscillating
+capillary rheometer and densitometer; Paar, Graz, Austria) at
+21°C. In mouse, blood was pooled from 5–10 animals after the
+end of the rheological measurement and plasma viscosity was
+carried out from this pooled plasma.
+Principles of measurement of plasma viscosity:
+OCR-D. A plastic cup containing 1 ml plasma is mounted at the
+bottom of a glass capillary (diameter, 0.9864 mm; length,
+100 mm). The plastic cup is compressed at 2 Hz exerting shear
+rates inside the capillary. The viscosity at the shear rate of 10 s_1
+was determined.
+Whole blood was tested first at its native haematocrit. To
+compare the values among the species, another portion of blood
+from all species except mouse was adjusted to a haematocrit of
+40 % and analysed. Haematocrit standardisation was carried
+out by centrifugation (Rotanta RPC, Hettich, Tuttlingen,
+Deutschland: 2000 U min_1, corresponding to RZB (relative
+U. Windberger and others
+432
+Exp Physiol 88.3
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+
+Experimental Physiology : Translation and Integration
+centrifugal acceleration) = 595, for 10 min), plasma separation
+and resuspension of the blood cell concentration in autologous
+plasma to the desired haematocrit. Blood from mouse was tested
+only at its native haematocrit.
+Additional measurements
+Fibrinogen concentration was measured according to the
+method of Clauss. To evaluate the health status of the animals,
+routine blood chemical measurements (Hitachi 904, Hitachi,
+Tokyo, Japan) were assessed for each sample except for mouse. In
+mouse, following the withdrawal of blood for haemorheological
+measurements, a small amount of blood was pooled from 5–10
+animals to obtain fibrinogen concentration and blood chemistry
+values.
+Protocol of measurements
+After withdrawal of whole blood, the haematological measurements
+were made and one blood sample in a K-EDTA-containing tube
+was centrifuged for haematocrit adjustment. Meanwhile, whole
+blood viscosity at the native haematocrit and erythrocyte
+aggregation were measured. Then the same haemorheological
+parameters were evaluated using standardized blood. Blood from
+individual animals was pooled and centrifuged, and plasma
+viscosity was measured on the next day (plasma sample stored at
+4°C). By using this protocol, a maximum of 10 samples could be
+measured within 4 h of withdrawal of blood.
+Statistics
+Descriptive analysis of native and haematocrit-standardized data
+was performed according to the method of Harrell & Davis
+(1995). Data are presented as median and 25th and 75th
+percentile. Values within this percentile range were used as
+‘reference values’. Differences between the animal species were
+evaluated from data obtained from the standardized blood
+samples only and were calculated first using the Kruskal-Wallis
+test. In a second step, pairwise comparisons of all species were
+performed using the Wilcoxon rank sum test. The resulting P
+values were corrected by the Bonferroni-Holm procedure (Holm,
+1979). Correlations between haemorheological data and total
+protein concentration, fibrinogen concentration, MCV and
+MCHC were assessed by the Spearman correlation coefficient, r.
+P values were corrected using the Bonferroni-Holm procedure.
+Values of P < 0.05 were considered statistically significant. The
+software SAS System V 8.1 (SAS Institute Inc., Cary, NC, USA)
+was used for statistical analysis.
+We are well aware that the term ‘reference value’ is difficult to
+apply to the haemorheological values determined in this study
+due to the inherent variations in methodology among different
+laboratories. The established numerical values are therefore used
+as ‘laboratory-specific’ reference values. However, the consistency
+of the applied procedures in combination with the experience of
+the investigators justifies the interspecies comparison of the
+gathered data.
+RESULTS
+Haematological measurements
+All values were within physiological limits. MCV was
+greatest in rabbit followed by pig, cattle, rat, mouse, horse
+and sheep. MCH was greatest in rabbit followed by dog,
+pig, cattle, rat, horse, mouse, cat and sheep. MCHC was
+greatest in horse followed by dog, rat, sheep, cat, mouse,
+cattle, pig and rabbit. Table 1 shows the haematological
+Haemorheological values in nine mammalian species
+Exp Physiol 88.3
+433
+Table 1. Haematology, fibrinogen concentration and total protein concentration in blood from
+horse, pig, dog, cat, rat, cattle, sheep, rabbit and mouse 
+Hct 
+MCV 
+MCH  
+MCHC  
+Fibrinogen  
+Total protein 
+(%)
+(fl)
+(pg)
+(g dl_1)
+(mg dl_1)
+(g dl_1)
+Horse 
+35 (33/38) 
+45 (43/46) 
+17.4 (16/18) 
+38.8 (38/39.3)
+155 (143/172)
+6.1 (5.88/6.45)
+Ref. 
+32–46 
+37–55 
+13–19
+31–35 
+150–330
+5.5–7.5
+Pig 
+33 (29.5/40) 
+54 (52/61) 
+18.6 (18/20) 
+33.4 (32.6/34.3)
+172 (145/260) 
+4.9 (4.6/5.9)
+Ref. 
+30–42
+50–68 
+17–23 
+30–40 
+160–390 
+–8.6
+Dog
+45 (40/52) 
+61 (59/62) 
+23.7 (23.2/24) 
+38.6 (38/39.4)
+182 (146/235)
+6.6 (6.2/6.9)
+Ref. 
+37–55
+60–77 
+19–23 
+31–34
+120–290 
+5.4–7.5
+Cat 
+40 (39/42) 
+39.3 (37.7/41)
+13.9 (13.2/14.4)
+35.1 (34.3/35.8)
+186 (142/230) 
+7.2 (7/7.4)
+Ref. 
+27–47 
+40–55 
+13–17 
+31–35 
+100–300
+5.7–9.4
+Rat 
+43 (40/44)
+47 (46/48) 
+17.6 (17.1/17.9) 
+37.9 (37/38.2) 
+233 (215/253) 
+6.1 (5.4/6.5)
+Ref. 
+35–44
+50–57 
+18–23
+36–45 
+—
+—
+Cattle 
+30 (27/32)
+51.5 (50/54) 
+17.8 (17.1/18.6)
+34.6 (34.3/35) 
+309 (252/383)
+7.2 (7/7.6)
+Ref. 
+30–40 
+40–60 
+14–19 
+26–34 
+160–560
+6.0–8.0
+Sheep 
+33 (30.8/38)
+29 (27.6/30)
+10.5 (10/10.8) 
+35.7 (35/36.3)
+282 (211/360) 
+6 (5.6/6)
+Ref. 
+28–39 
+23–48 
+9–13 
+29–38 
+—
+5.5–7.5
+Rabbit 
+39 (38/40) 
+62 (61/63.6) 
+21.3 (20.8/22) 
+33.8 (32.6/36.1) 
+286 (223/314)
+5.6 (5.4/6)
+Ref. 
+37–43
+60–67 
+20–22 
+32–34 
+— 
+—
+Mouse 
+40 (38.8/42) 45.5 (43.3/46.8) 
+16 (15/16.5) 
+34.8 (33.6/35.1) 
+283 (277/329) 
+4.3 (4/4.5)
+Ref. 
+39–47 
+44–53 
+15–19 
+34.5–37.5 
+— 
+—
+Data are expressed as median (25th/75thpercentiles). Reference values from Frith et al. (1980);
+Charles River Baseline Hematology (1982); Kraft & Dürr (1997).
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+
+Experimental Physiology : Translation and Integration
+data from the tested animal species, with reference values
+from healthy animals. 
+Haemorheological measurements
+‘Reference’ values are presented in Table 2 (viscometric data
+of standardized blood samples) and Table 3 (erythrocyte
+aggregation data of standardized blood samples). Due to
+the number of animals (40 per species) the 25th and 75th
+percentile distance was taken as the reference range.
+At a standardized haematocrit value, whole blood viscosity
+at the three different shear rates, the aggregation indices
+and plasma viscosity were different among the animal
+species, as identified by the Kruskal-Wallis test. Within the
+data some parameters from the various animal species
+were not significantly different following Bonferroni-
+Holm correction. All data are presented as median with the
+25th and 75th percentiles in parentheses.
+Figures 1 to 5 show the values of PV, WBV at 0.7 s_1, WBV
+at 94 s_1, AI at 2.4 s_1 and M0 of the standardized samples,
+respectively.
+Differences in plasma viscosity
+The values of PV were in the range 1.30 (1.24/1.41) to 1.72
+(1.63/1.94) in all the species tested. The highest value was
+measured in blood from cattle, followed by cat, horse, dog,
+rat, pig, sheep, mouse and rabbit. There were two groups
+of animals. In the first group, the plasma viscosity was
+higher (cattle, cat, horse, dog, rat and pig) than in the other
+group (sheep, mouse and rabbit) (see Fig. 1).
+Differences in whole blood viscosity at low shear rate
+Shear rate 0.7 s_1. The values of WBV were in the range
+6.556 (6.015/7.349) to 38.173 (31.657/42.547) in all the
+species tested. The highest value was measured in blood
+taken from horse followed by rat, cat, pig, dog, mouse,
+rabbit, sheep and cattle (see Fig. 2).
+Shear rate 2.4 s_1. The values of WBV were in the range
+6.092 (5.731/6.793) to 20.179 (17.227/24.384) in all the
+species tested, and the species distribution followed the
+same pattern as above.
+Differences in whole blood viscosity at high shear rate
+(94 s_1)
+The values of WBV were in the range 4.043 (3.750/4.375)
+to 6.288 (5.883/6.920) in all the species tested. The highest
+value was measured in blood from rat followed by dog,
+horse, pig, mouse, cattle, cat, sheep and rabbit (see Fig. 3).
+Differences in erythrocyte aggregation
+Aggregation index (AI) measured using the LS30 viscometer:
+AI at shear rate 0.7 s_1. The values of AI were in the range
+0.0 (0.0/0.0) to 0.30 (0.27/0.36) in all the species tested.
+U. Windberger and others
+434
+Exp Physiol 88.3
+Table 2. Whole blood viscosity (standardized blood samples, 40% Hct) and plasma viscosity of
+horse, pig, dog, cat, rat, cattle, sheep, rabbit and mouse 
+WBV (0.7 s_1)  
+WBV (2.4 s_1)  
+WBV (94 s_1) 
+PV 
+(mPa s)
+(mPa s)
+(mPa s)
+(mPa s)
+Horse 
+38.173 (31.657/42.547) 
+20.179 (17.227/24.384)
+5.175 (4.795/5.512) 
+1.66 (1.57/1.84)
+Pig 
+24.692 (17.262/31.033) 
+14.861 (11.786/19.205)
+4.938 (4.337/5.500) 
+1.58 (1.40/1.69)
+Dog 
+22.885 (18.819/27.752)
+14.584 (12.358/17.476) 
+5.591 (4.939/6.689) 
+1.61 (1.57/1.69)
+Cat 
+30.194 (26.899/33.971) 
+15.349 (13.871/17.251) 
+4.442 (4.183/4.671) 
+1.71 (1.62/1.78)
+Rat 
+35.400 (26.335/40.902)
+19.748 (16.038/22.111) 
+6.288 (5.883/6.920)
+1.59 (1.55/1.65)
+Cattle 
+6.556 (6.015/7.349) 
+6.290 (5.487/6.949)
+4.799 (4.483/5.142) 
+1.72 (1.63/1.94)
+Sheep
+6.587 (5.850/7.192)
+6.092 (5.731/6.793) 
+4.373 (4.095/4.682)
+1.49 (1.44/1.57)
+Rabbit 
+8.313 (6.163/10.243) 
+7.442 (6.351/8.713) 
+4.043 (3.750/4.375) 
+1.30 (1.24/1.41)
+Mouse
+13.367 (10.691/16.568)
+10.563 (8.929/12.289)
+4.879 (4.506/5.345) 
+1.31 (1.29/1.34)
+Man 
+33.487 (26.264/39.584) 
+18.529 (15.729/21.493)
+5.996 (5.140/6.938) 
+1.24 (1.20/1.31)
+Data are expressed as median (25th/75th percentiles). Data from man were included from our own
+unpublished investigations.
+Figure 1
+Plasma viscosity (PV; mPa s) in blood from horse
+(ho), pig (pi), dog (do), cat (ca), rat (rt), cattle (ct),
+sheep (sh), rabbit (rb) and mouse (m). The graph
+shows the median value and the 25th and 75th
+percentiles. The error bars show the highest and the
+lowest value inside the 1Î interquartile range. The
+circles show data that are outside of this range. PV is
+highest in cattle and lowest in rabbit and mouse.
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+
+Experimental Physiology : Translation and Integration
+The highest value was measured in blood from horse
+followed by cat, dog and pig. The values in blood from
+rabbit, mouse, rat, cattle and sheep showed nearly no
+measurable aggregation index.
+AI at shear rate 2.4 s_1. The values of AI were in the range
+0.0 (0.0/0.0) to 0.32 (0.27/0.37) in all the species tested.
+The highest value was measured in blood from horse
+followed by dog, cat and pig. Almost no aggregation index
+was measured in blood from rabbit, mouse, rat, cattle and
+sheep (see Fig. 4).
+Aggregation index measured using the Myrenne
+aggregometer:
+M0. The values of AI were in the range 0 (0/0) to 13.2
+(11.7/14.5) in all the species tested. The highest value was
+measured in blood from horse followed by cat, pig, dog,
+cattle, rat, mouse, rabbit and sheep (see Fig. 5).
+M1. The values of AI were in the range 0.6 (0.5/0.9) to 57.6
+(44.0/67.7) in all the species tested. The highest value was
+measured in blood from horse followed by cat, pig, dog,
+rabbit, cattle, sheep, rat and mouse.
+Haemorheological values in nine mammalian species
+Exp Physiol 88.3
+435
+Table 3. Erythrocyte aggregation (standardized blood samples, 40% Hct) in blood from horse, pig,
+dog, cat, rat, cattle, sheep, rabbit and mouse 
+AI (0.7 s_1) 
+AI (2.4 s_1) 
+M0
+M1
+Horse 
+0.30 (0.27/0.36)
+0.32 (0.27/0.37)
+13.2 (11.7/14.5) 
+57.6 (44.0/67.7)
+Pig 
+0.05 (0.02/0.08)
+0.04 (0.02/0.6) 
+3.7 (2.2/4.6) 
+26.2 (20.9/31.4)
+Dog
+0.07 (0.05/0.13)
+0.11 (0.07/0.18)
+3.0 (2.7/4) 
+23.5 (21.1/27.9)
+Cat 
+0.17 (0.13/0.21)
+0.10 (0.07/0.14)
+5.2 (4.7/6.3)
+29.6 (22.8/40.1)
+Rat 
+0.01 (0/0.04) 
+0.01 (0/0.04) 
+0.7 (0.3/1.2) 
+2.4 (1.5/4.2)
+Cattle 
+0 (0/0)
+0 (0/0) 
+1.7 (1.1/2.2) 
+11.6 (8.3/14.4)
+Sheep
+0.01 (0/0.02) 
+0 (0/0.01) 
+0 (0/0) 
+6.6 (3.5/8.8)
+Rabbit 
+0.02 (0.01/0.03)
+0 (0/0) 
+0 (0/0.1) 
+13.3 (8.2/17.2)
+Mouse
+0 (0/0)
+0 (0/0)
+0.2 (0.1/0.3)
+0.6 (0.5/0.9)
+Man
+0.09 (0.08/0.11)
+0.10 (0.06/0.14)
+— 
+—
+Data are expressed as median (25th/75th percentile). Data from man were included from our own
+unpublished investigations.
+Figure 2
+Whole blood viscosity at low shear rate (WBV at
+0.7 s_1; mPa s) in standardized blood samples
+(Hct = 40%) from 9 mammalian species.
+Abbreviations as in Fig. 1. The graph shows the
+median value and the 25th and 75th percentiles. The
+error bars show the highest and the lowest value
+inside the 1Î interquartile range. The circles show
+data that are outside of this range. Horse, pig, dog,
+cat and rat show elevated WBV, whereas cattle,
+sheep, rabbit and mouse have very low WBV at low
+shear rate.
+Figure 3
+Whole blood viscosity at high shear rate (WBV at
+94 s_1; mPa s) in standardized blood samples
+(Hct = 40%) from 9 mammalian species.
+Abbreviations as in Fig. 1. The graph shows the
+median value and the 25% and 75% percentile. The
+error bars show the highest and the lowest value
+inside the 1Î interquartile range. The circles show
+data that are outside of this range. Differences in
+WBV at high shear rate are not as prominent as
+differences at low shear rate. Rat shows the highest
+WBV at this shear rate.
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+
+Experimental Physiology : Translation and Integration
+Relationships between the parameters within the animal
+species
+In all species, except dog, a positive correlation was found
+between the plasma total protein concentration and
+parameters related to erythrocyte aggregation, such as WBV
+at low shear rate and aggregation indices, both native and
+standardized. In mouse, a trend was observed suggesting a
+relationship between total protein concentration and WBV
+at low shear rate in native blood. In dog and pig, a positive
+correlation was found between the plasma fibrinogen
+concentration and the plasma viscosity. Positive correlation
+of fibrinogen concentration with parameters which
+indicate RBC aggregation were found in horse, cattle and
+pig. These results are summarized in Table 4.
+U. Windberger and others
+436
+Exp Physiol 88.3
+Table 4. Results of the correlation tests 
+Horse 
+Pig
+Dog 
+Cat 
+Rat 
+Cattle 
+Sheep 
+Rabbit 
+Mouse
+TP vs. PV 
+— 
+r = 0.56
+— 
+— 
+— 
+—
+r = 0.37
+— 
+r = 0.76
+P < 0.01
+P < 0.05
+P = 0.06
+Fibrinogen
+—
+r = 0.66 
+r = 0.54 
+—
+—
+—
+— 
+—
+—
+vs. PV
+P < 0.01
+P < 0.05
+TP vs. WBV
+r = 0.48
+r = 0.54
+— 
+r = 0.47
+— 
+r = 0.55
+r = 0.38
+r = 0.45
+r = 0.41
+(0.7 or 2.4 s_1)  
+P < 0.05
+P < 0.01 
+P < 0.05
+P < 0.01 
+P < 0.05  
+P < 0.05 
+P = 0.08 
+TP vs. AI 
+—
+—
+—
+— 
+r = 0.48
+— 
+—
+— 
+—
+P < 0.05
+TP vs. WBV 
+—
+r = 0.46 
+— 
+r = 0.46
+— 
+r = 0.62 
+r = 0.38
+— 
+—
+(94 s_1) 
+P < 0.05 
+P < 0.05
+P < 0.001
+P = 0.05
+Fibrinogen vs.
+r = 0.43 
+r = 0.54 
+— 
+— 
+—
+r = 0.42 
+— 
+—
+—
+WBV (0.7
+P < 0.05
+P < 0.01
+P < 0.05
+or 2.4 s_1)
+r values are given where there is significant correlation. Note that a strong correlation coefficient in
+mouse was associated with a low P value due to the small sample size. TP, total protein; PV, plasma
+viscosity; WBV, whole blood viscosity; AI, aggregation index.
+Figure 5
+Aggregation index measured by Myrenne
+aggregometer (M0) in standardized blood samples
+(Hct = 40%) from 9 mammalian species.
+Abbreviations as in Fig. 1. The graph shows the
+median value and the 25th and 75th percentiles. The
+error bars show the highest and the lowest value
+inside the 1Î interquartile range. The circles show
+data that are outside of this range. There is intensive
+erythrocyte aggregation in horse, but low erythrocyte
+aggregation in rat, cattle, sheep, rabbit and mouse.
+Figure 4
+Aggregation index measured using the LS30
+viscometer (AI at 2.4 s_1) in standardized blood
+samples (Hct = 40%) from 9 mammalian species.
+Abbreviations as in Fig. 1. The graph shows the
+median value and the 25th and 75th percentiles. The
+error bars show the highest and the lowest value
+inside the 1Î interquartile range. The circles show
+data that are outside of this range. Horse shows
+intensive erythrocyte aggregation. Aggregation was
+low or almost unmeasurable in rat, cattle, sheep,
+rabbit and mouse.
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 7 ---
+
+Experimental Physiology : Translation and Integration
+Haemorheological values correlated with erythrocyte
+indices in only a few of the animal species. In dog, MCHC
+correlated significantly with the aggregation index AI
+(r = 0.476, P < 0.01) and in rabbit, MCHC correlated with
+the aggregation index M0 (r = 0.467, P < 0.05). No
+correlation was found between the MCV and haemo-
+rheological parameters.
+Additional measurements
+Plasma total protein and fibrinogen concentration, as well
+as haematocrit were different among the animals tested
+(see Table 1). Cattle demonstrated the highest total
+protein. Cattle also demonstrated the highest fibrinogen
+concentration, followed by rabbit, mouse, sheep, rat, cat,
+dog, pig and horse. Species with low erythrocyte aggregation
+had higher plasma fibrinogen concentrations. Dog showed
+the highest haematocrit followed by rat, mouse, cat, rabbit,
+horse, pig, sheep and cattle.
+Blood chemistry data were within normal ranges (Kraft &
+Dürr, 1997) in all the animals. Values of the plasma
+fibrinogen and total protein concentration of animals are
+included in Table 1.
+DISCUSSION 
+The values of whole blood viscosity, erythrocyte aggregation
+and plasma viscosity differed among the mammalian species
+investigated. Resembling a fingerprint, each species had its
+own individual haemorheological characteristics. In the
+following discussion, these individual characteristics as
+well as the respective variations among the species will be
+considered.
+Differences in WBV at low shear
+Based on the WBV under low shear, the animals could be
+divided into two groups: one group with an elevated WBV
+including horse, rat, pig, dog and cat, and a second group
+with a low WBV including cattle, sheep, rabbit and mouse.
+It is generally accepted that pronounced red cell aggregation
+is a major factor contributing to increased whole blood
+viscosity at low shear. In eight out of nine species this
+assumption could be verified. However, in rats our finding
+of high WBV values in combination with a low erythrocyte
+aggregation contrasted with this general assumption
+despite the fact that erythrocyte aggregation was measured
+by two different methods. A slightly elevated WBV despite
+a decreased erythrocyte aggregation in rats was also
+observed by Baskurt et al. (1997). It seems that the extent
+of erythrocyte aggregation does not influence the high
+WBV at low shear in the rat. Another possible parameter
+affecting WBV is the haematocrit. In this study the possible
+influence of the haematocrit on WBV was eliminated by
+standardizing the blood samples. When these standardized
+blood samples were compared there was still no difference
+between the WBV of rat and horse, the latter having
+pronounced WBV and high erythrocyte aggregation.
+Plasma viscosity, total protein concentration and fibrinogen
+concentration further influence WBV. However, these
+parameters were not increased in the rat. In order to
+exclude possible bias, a second series of 40 rats was tested
+by different investigators. The results of this second series
+supported the findings of our first series. Increasing the
+shear rate led to a decline in WBV, but WBV at 94 s_1 was
+still higher in the rat than in the other animals. It seems
+that mechanisms other than erythrocyte aggregation,
+haemoconcentration or suspending phase viscosity are
+responsible for the high WBV in the rat. These mechanisms
+might include mechanical or geometrical properties of the
+red blood cell (Meiselman, 1978).
+Differences in erythrocyte aggregation
+Erythrocyte aggregation was increased in horse, pig, dog
+and cat, whereas erythrocyte aggregation in rat, cattle, sheep,
+rabbit and mouse was low or undetectable. Interestingly,
+animals with low erythrocyte aggregation tended to have a
+higher plasma fibrinogen concentration than animals
+with high red cell aggregation. As expected, erythrocyte
+aggregation within a species correlated with the plasma
+concentration of total protein. This correlation was not
+found in the dogs investigated in this study, probably due
+to the differences in breed, age and sex amongst the
+animals in this group. These factors have been correlated
+with notable differences in haemorheological variables
+among individuals of the same species in the past  (Bodey
+& Rampling, 1998).
+In horse, cattle and pig, a positive correlation was found
+between the plasma fibrinogen concentration and
+parameters that indicate erythrocyte aggregation. In the
+other species, erythrocyte aggregation and fibrinogen did
+not correlate. Nevertheless, the lack of methodologically
+dependent numerical correlation does not indicate an
+absence of a relationship between these parameters. The
+measure of fibrinogen concentration depends on various
+factors such as methods of blood sampling or blood
+storage. Furthermore, the observed aggregation index was
+sometimes small to start with and a potential relation
+between these parameters was therefore difficult to
+establish.
+The origin of red blood cell aggregation is complex and can
+be explained by two theories: the bridging theory (Chien &
+Sung, 1987; Brooks, 1988) and the more recently proposed
+depletion theory (Bäumler et al. 1999; Armstrong et al.
+1999). Aggregation takes place at low or zero shear
+conditions. Plasma factors such as the concentration of the
+macromolecules fibrinogen or dextran and cellular factors
+including the affinity of the red cell for macromolecules,
+geometric factors, red cell surface charge and the
+membrane and cytoskeletal composition all influence red
+blood cell aggregation.
+The physiological function of erythrocyte aggregation and
+its haemorheological effects on blood flow are still
+controversial. For example, in a feline gastrocnemius muscle
+model (Cabel et al. 1997), an increase in erythrocyte
+aggregation was associated with an increase in venous flow
+resistance. These findings were supported by a study which
+showed that red blood cell aggregation led to increased
+venous flow resistance as arterial pressure and flow rate
+Haemorheological values in nine mammalian species
+Exp Physiol 88.3
+437
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 8 ---
+
+Experimental Physiology : Translation and Integration
+were reduced (Bishop et al. 2001). In contrast, when human
+blood was used in a guinea pig model, an increase in red
+cell aggregation was related to a decrease in venous flow
+resistance (Baskurt et al. 1999).
+Studies with hyperaggregating blood indicate that axial
+migration is larger and directly related to the aggregation
+tendency of the blood (Reinke et al. 1986; Cokelet &
+Goldsmith, 1991; Qin et al. 1998). Erythrocyte aggregation
+in turn augments the axial migration of red blood cells
+during blood flow. As an advantage, the hydrodynamic
+resistance is thus reduced, while at the same time the
+margination of leucocytes and platelets is facilitated (Stoltz
+et al. 1999).
+Under pathological conditions, such as sepsis or diabetes,
+red blood cell aggregation is often increased as well. In
+contrast to the effect of EA during physiological conditions,
+oxygen distribution and peripheral perfusion are impaired
+under these circumstances.
+Red blood cell aggregation is different between animal
+species. However, its physiological and evolutionary impact
+has so far not been elucidated. Besides all mentioned
+effects, the vasculature of the various animals should have
+adapted to the degree of red cell aggregation. Even in horses,
+the species with ‘hyperaggregating’ blood, no impairment
+of oxygen distribution is observed when physical
+performance is associated with increased haematocrit and
+viscosity, at least in trained animals (B. Stoiber, personal
+communication). Further factors leading to species-
+dependent differences in red blood cell aggregation must
+be taken into account. The viscosity of the cellular contents
+of the erythrocyte may vary; for example, dense erythrocytes
+are more rigid (Linderkamp et al. 1993). Estimation of
+internal viscosity based on the MCHC (Pfafferott et al.
+1982) differed among the animals. However, an interspecies
+relationship to red blood cell aggregation could not be
+ruled out. Red blood cell shape might also play a role, since
+the MCV is different in all animals, but no relationship was
+detected. However, species differences might exist in the
+molecular weights of fibrinogen and other macromolecules
+which are important for red blood cell aggregation
+(Andrews et al. 1992), but this was not tested in the present
+study.
+Further, there is evidence that sedentary animals have
+lower blood viscosity than athletic animals (Popel et al.
+1994). Horses are athletic animals that can perform
+extensive muscle work in the presence of increased red cell
+aggregation. Hyperaggregating blood leads to increased
+plasma skimming. Based on this, one might speculate that
+capillary perfusion is augmented under these circumstances.
+Here, increased plasma skimming allows the activity-
+dependent adaptation of the capillary haematocrit and, at
+the same time, eases the flow of blood with a high
+haematocrit through arteriovenous anastomoses. This
+would enable the intensively retracted erythrocyte column
+to act as an O2-carrier reservoir.
+Finally, vessel length plays a role in axial migration. Because
+erythrocyte aggregation is a time-consuming process, a
+minimum tube length is required for sufficient plasma
+skimming. In the venous network, constant infusions of
+blood from the daughter vessels impair axial migration
+(Bishop et al. 2001). For the interpretation of erythrocyte
+aggregation in different animals, the geometric variability
+of the vascular network has to be considered. However,
+comparative studies of the vasculature of small or large
+animals and of animals with high or with low erythrocyte
+aggregation, are lacking. Speculatively, we assume that the
+necessary dimensions for erythrocyte aggregation might
+not exist in small animals such as the mouse, rat and
+rabbit.
+Differences in WBV at high shear stress
+During high shear stress, differences in WBV among the
+species decrease. Interestingly, animals with elevated whole
+blood viscosity at low shear rate do not necessarily have an
+increased viscosity at high shear rate. For instance, whole
+blood viscosity at 94 s_1 was higher in cattle than in cat.
+Also rat and dog had a higher whole blood viscosity than
+horse at this shear rate. During high shear stress, the red
+cell aggregates are destroyed. Erythrocytes become
+oriented in the direction of flow while their cytoskeleton
+reorganizes. The main cellular factor influencing whole
+blood viscosity is erythrocyte deformability. Erythrocyte
+deformability is affected by the mean shear rate, tube
+diameter, external fluid viscosity, cell shape and geometry,
+membrane and cytoskeletal viscoelasticity, internal fluid
+viscosity and physicochemical properties of haemoglobin.
+Although erythrocyte deformability was not measured in
+this study, there may be some differences among the
+species. These differences might not be uniform in animals
+which have erythrocyte aggregation or in those animals
+where it is undetectable.
+Differences in plasma viscosity
+Plasma viscosity plays an important role in the perfusion of
+the microvasculature. Since the haematocrit is dramatically
+reduced according to the Fahraeus-Lindqvist effect,
+viscosity in the arterioles and capillaries is reduced almost
+to the value of viscosity in the plasma. Therefore plasma
+viscosity, in addition to intraluminal pressure and flow
+pattern, is a major determinant of endothelial shear stress
+in this particular region. Plasma viscosity is used as a
+marker for different diseases in humans such as coronary
+artery disease (Koenig et al. 2000; Lowe et al. 2000), lupus
+erythematosus (Reid & DeCeulaer, 1999; Rosenson et al.
+2001) and rheumatoid arthritis (Grassi et al. 1998). However,
+an increase in plasma viscosity with the progression of
+disease (Hoffmeister et al. 2001) or with therapy (Gibbs et
+al. 2001) was not observed.
+Plasma viscosity was highest in cattle, presumably because
+of the increased plasma protein content in this species and
+was lowest in rabbit and mouse. Despite these differences
+in plasma viscosity, these animals have uniform WBV at
+low shear because of minimal red cell aggregation.
+U. Windberger and others
+438
+Exp Physiol 88.3
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 9 ---
+
+Experimental Physiology : Translation and Integration
+Therefore, animals with a low WBV do not necessarily
+have low plasma viscosity.
+The findings of this study do not show a uniform
+relationship between WBV, plasma viscosity and erythrocyte
+aggregation. Plasma viscosity is increased by raised levels of
+macromolecules such as fibrinogen. Fibrinogen also
+increases erythrocyte aggregation. Cattle, rabbit, sheep and
+mouse tend to have higher fibrinogen levels than horse,
+pig, dog, cat and rat. This is interesting, since rabbit and
+mouse, both have a low aggregation tendency and a low
+plasma viscosity while at the same time their fibrinogen
+level is high. Cattle have a very low red blood cell
+aggregation in the presence of high fibrinogen levels.
+However, in contrast to rabbit and mouse, cattle have a
+high plasma viscosity. The reason for this discrepancy is
+unclear. Generally, species with low plasma viscosity such
+as rabbit and mouse might elicit lower endothelial shear
+stress than animals with high plasma viscosity such as
+cattle. The clinical significance of an increased plasma
+viscosity is unclear, since the results of a recent study
+showed that plasma viscosity was rather the result of
+coronary artery disease than its cause (Pfafferott et al.
+1999).
+Conclusion
+Haemorheological parameters differed between the species
+studied. Each species has its own rheological fingerprint.
+The physiological significance of these variations in
+different mammalian species is not entirely clear at
+present.
+Viscosity is a contributor to endothelial cell shear stress.
+The findings of this study show that viscosity, as well as
+other haemorheological parameters, differs across the species
+tested. We therefore postulate that factors influencing
+flow-mediated endothelial cell signal transduction are also
+different among the species.
+Amin TM & Sirs JA (1985). The blood rheology of man and various
+animal species. Q J Exp Physiol 70, 37–49.
+Andrews FM, Korenek NL, Sanders WL & Hamlin RL (1992).
+Viscosity and rheologic properties of blood from clinically normal
+horses. Am J Vet Res 53, 966–970.
+Armstrong JK, Meiselman HJ & Fisher TC (1999). Evidence against
+macromolecular “bridging” as the mechanism of red blood cell
+aggregation induced by nonionic polymers. Biorheology 36,
+433–437.
+Barakat AI (2001). A model for shear stress-induced deformation of
+a flow sensor on the surface of vascular endothelial cells. J Theor
+Biol 210, 221–236.
+Baskurt OK (1996). Deformability of red blood cells from different
+species studied by resistive pulse shape analysis technique.
+Biorheology 33, 169–179.
+Baskurt OK, Bor-Kucukatay M & Yalcin O (1999). The effect of red
+blood cell aggregation on blood flow resistance. Biorheology 36,
+447–452.
+Baskurt OK, Bor-Kucukay M, Yalcin O & Meiselman HJ (2000).
+Aggregation behavior and electrophoretic mobility of red blood
+cells in various mammalian species. Biorheology 37, 417–428.
+Baskurt OK, Farley RA & Meiselman HJ (1997). Erythrocyte
+aggregation tendency and cellular properties in horse, human and
+rat: a comparative study. Am J Physiol 273, H2604–2612.
+Bäumler H, Neu B, Donath E & Kiesewetter H (1999). Basic
+phenomena of red blood cell rouleaux formation. Biorheology 36,
+439–442.
+Bäumler H, Neu B, Mitlohner R, Georgieva R, Meiselman HJ &
+Kiesewetter H (2001). Electrophoretic and aggregation behavior of
+bovine, horse and human red blood cells in plasma and in polymer
+solutions. Biorheology 38, 39–51.
+Bishop JJ, Nance PR, Popel AS, Intaglietta M & Johnson PC (2001).
+Erythrocyte margination and sedimentation in skeletal muscle
+venules. Am J Physiol Heart Circ Physiol 281, H951–958.
+Bodey AR & Rampling MW (1998). A comparative study of the
+haemorheology of various breeds of dog. Clin Haemorheol
+Microcirc 18, 291–298.
+Brooks DE (1988). Mechanism of red cell aggregation. In Blood Cells,
+Rheology and Aging. ed. Platt D, pp. 158–162. Springer, Berlin. 
+Cabel M, Meiselman HJ, Popel AS & Johnson PC (1997).
+Contribution of red cell aggregation to venous vascular resistance
+in skeletal muscle. Am J Physiol 272, H1020–1032.
+Charles River Baseline Hematology (1982). Clinical chemistry values
+for Charles River Wistar rats. Charles River, Kislegg, Germany.  
+Chien S & Sung LA (1987). Physicochemical basis and clinical
+implications of red cell agggregation. Clin Haemorheol 7, 71–91.
+Cokelet GR & Goldsmith HL (1991). Decreased hydrodynamic
+resistance in the two-phase flow of blood through small vertical
+tubes at low flow rates. Circ Res 68, 1–17.
+Davies PF (1995). Flow-mediated endothelial mechanotransduction.
+Physiol Rev 75, 519–560.
+Frangos JA, Eskin SG, McIntire LV & Ives CL (1985). Flow effects on
+prostacyclin production by cultured human endothelial cells.
+Science 227, 1477–1479.
+Frith CH, Suber RL & Umholtz R (1980). Haematological and
+clinical chemistry findings in control BALB/c and C57BL/6 mice.
+Lab Anim Sci 30, 835–840.
+Gibbs CR, Blann AD, Watson RDS & Lip GYN (2001).
+Abnormalities of haemorheological, endothelial and platelet
+function in patients with chronic heart failure in sinus rhythm.
+Circulation 103, 1746–1751.
+Grassi W, Deangelis R, Lamanna G & Cervini C (1998). The clinical
+feature of rheumatoid arthritis. Eur J Radiol 27, S18–S24.
+Harrel R & Davies M (1995). In Statistical Bases of Reference Values
+in Laboratory Medicine, ed. Harris A & Boyd M. Dekker, New
+York.
+Hoffmeister A, Rothenbacher D, Bäzner U, Fröhlich M, Brenner H,
+Hombach V & Koenig W (2001). Role of novel markers of
+inflammation in patients with coronary heart disease. Am J Cardiol
+87, 262–266.
+Holm ST (1979). A simple sequentially rejective multiple test
+procedure. Scand J Statistics 6, 65–70.
+Johnn H, Phipps C, Gascoyne S, Hawkey C & Rampling MW (1992).
+A comparison of the viscometric properties of the blood from a
+wide range of mammals. Clin Haemorheol 12, 639–647.
+Haemorheological values in nine mammalian species
+Exp Physiol 88.3
+439
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 10 ---
+
+Experimental Physiology : Translation and Integration
+Johnson PC (1981). The myogenic response. In Handbook of
+Physiology, section 2, The Cardiovascular System, vol. II, Vascular
+Smooth Muscle, chap. 15, pp. 409–442. American Physiological
+Society, Bethesda, MD, USA. 
+Johnson PC, Bishop JJ, Popel S & Intaglietta M (1999). Effects of red
+cell aggregation on the venous microcirculation. Biorheology 36,
+457–460.
+Koenig M, Sund M, Löwel H, Döring G & Ernst E (2000).
+Association between plasma viscosity and all-cause mortality:
+results from the MONICA-Augsburg Cohort Study 1984–92. Br J
+Haematol 109, 453–458.
+Kraft W & Dürr UM (1997). Klinische Labordiagnostik in der
+Tiermedizin. 4th edn, Schattauer, Stuttgart, New York. 
+Kumaravel M & Singh M (1995). Sequential analysis of aggregation
+process of erythrocytes of human, buffalo, cow, horse, goat and
+rabbit. Clin Haemorheol 15, 291–304.
+Langille BL & O’Donnel F (1986). Reductions in arterial diameter
+produced by chronic decreases in blood flow are endothelium-
+dependent. Science 231, 405–407.
+Linderkamp O, Friederichs E & Meiselman HJ (1993). Mechanical
+and geometrical properties of density separated neonatal and adult
+erythrocytes. Pediatr Res 34, 688–693.
+Linke J (1996). Untersuchungen zur Plasmaviskosität beim Hund.
+Tierärztl Prax 24, 524–528.
+Lowe G, Rumley A, Norrie J, Ford I, Shepherd J, Cobbe S,
+MacFarlane P & Packard CH (2000). Blood rheology,
+cardiovascular risk factors and cardiovascular disease: the West of
+Scotland Coronary Prevention Study. Thromb Haemost 84,
+553–558.
+Malek K & Izumo S (1992). Physiological fluid shear stress causes
+down-regulation of endothelin-1 mRNA in bovine aortic
+endothelium. Am J Physiol 263, C389–396.
+Meiselman HJ (1978). Rheology of shape-transformed human red
+cells. Biorheology 15, 225–237.
+Moncada S, Palmer RM & Higgs EA (1991). Nitric oxide: physiology,
+pathophysiology and pharmacology of nitric oxide. Pharmacol Rev
+43, 109–142.
+Nash GB, Wenby RB, Sowemimo-Coker SO & Meiselman HJ
+(1987). Influence of cellular properties on red cell aggregation.
+Clin Haemorheol 7, 93–108.
+Pfafferott C, Moessmer G, Ehrly AM & Bauersachs RM (1999).
+Involvement of erythrocyte aggregation and erythrocyte resistance
+to flow in acute coronary syndromes. Clin Haemorheol Microcirc
+21, 35–43.
+Pfafferott C, Wenby RB & Meiselman HJ (1982). Morphologic and
+internal viscosity aspects of RBC rheologic behavior. Blood Cells 8,
+65–69.
+Popel AS, Johnson PC, Kameneva MV & Wild MA (1994). Capacity
+for red blood cell aggregation is higher in athletic mammalian
+species than in sedentary species. J Appl Physiol 77, 1790–1794.
+Qin Z, Durand LG & Cloutier G (1998). Kinetics of the “black hole”
+phenomenon in ultrasound backscattering measurements with red
+blood cell aggregation. Ultrasound Med Biol 24, 245–256.
+Reid HL & DeCeulaer K (1999). Abnormal plasma and serum
+viscosity in systemic lupus erythematosus (SLE): a Jamaican study.
+Clin Haemorheol Microcirc 20, 175–180.
+Reinke W, Johnson PC & Gaethgens P (1986). Effect of shear rate
+variation on apparent viscosity of human blood in tubes of 29 to
+94 mm diameter. Circ Res 59, 124–132.
+Rosenson RS, Shott S & Katz R (2001). Elevated blood viscosity in
+systemic lupus erythematosus. Semin Arthritis Rheum 31, 52–57.
+Stoltz JF, Singh M & Riha P (1999). Microrheological parameters. In
+Haemorheology in Practice, chap. 4, pp. 27–52. IOS Press,
+Amsterdam, Berlin, Oxford, Tokyo, Washington DC.
+Sumpio BE, Banes AJ, Link GW & Iba T (1990). Modulation of
+endothelial phenotype by cyclic stretch: inhibition of collagen
+production. J Surg Res 48, 415–420.
+Waugh RE (1992). Red cell deformability in different vertebrate
+animals. Clin Haemorheol 12, 649–656.
+Windberger U, Ribitsch V, Resch KL & Losert U (1993/94). The
+viscoelasticity of blood and plasma in pig, horse, dog, ox and
+sheep. J Exp Anim Sci 36, 89–95.
+U. Windberger and others
+440
+Exp Physiol 88.3
+ 1469445x, 2003, 3, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/eph8802496 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

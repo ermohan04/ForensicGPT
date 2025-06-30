@@ -1,0 +1,1215 @@
+
+
+--- PAGE 1 ---
+
+J Forensic Sci. 2022;67:33–43.	
+﻿
+ | 33
+wileyonlinelibrary.com/journal/jfo
+Received: 17 January 2021 | Revised: 15 July 2021 | Accepted: 25 August 2021
+DOI: 10.1111/1556-4029.14899  
+C O M M E N TA R Y
+C r i m i n a l i s t i c s
+Using the likelihood ratio in bloodstain pattern analysis
+Daniel Attinger PhD1
+ |   Kris De Brabanter PhD2,3 |   Christophe Champod PhD4
+This is an open access article under the terms of the Creat​ive Commo​ns Attri​bution License, which permits use, distribution and reproduction in any medium, 
+provided the original work is properly cited.
+© 2021 The Authors. Journal of Forensic Sciences published by Wiley Periodicals LLC on behalf of American Academy of Forensic Sciences.
+1Struo LLC, Ames, Iowa, USA
+2Department of Statistics, Iowa State 
+University, Ames, Iowa, USA
+3Department of Industrial Manufacturing 
+& Systems Engineering, Iowa State 
+University, Ames, Iowa, USA
+4Ecole des Sciences Criminelles, Faculty 
+of Law, Criminal Justice and Public 
+Administration, Université de Lausanne, 
+Lausanne, Switzerland
+Correspondence
+Daniel Attinger, PhD, Struo LLC, 1908 
+Northwestern ave, Ames, IA 50010, USA.
+Email: daniel.attinger@gmail.com
+Kris De Brabanter, PhD, Department of 
+Statistics, Iowa State University, 2419 
+Snedecor Hall, 2438 Osborn Dr. Ames, IA 
+50011-­1210, USA.
+Email: kbrabant@iastate.edu
+Funding information
+KDB acknowledges funding by the Center 
+for Statistics and Applications in Forensic 
+Evidence (CSAFE) through Cooperative 
+Agreement 70NANB20H019 between 
+NIST and Iowa State University, which 
+includes activities carried out at Carnegie 
+Mellon University, Duke University, 
+University of California Irvine, University 
+of Virginia, West Virginia University, 
+University of Pennsylvania, Swarthmore 
+College, and University of Nebraska, 
+Lincoln.
+Abstract
+There is an apparent paradox that the likelihood ratio (LR) approach is an appropriate 
+measure of the weight of evidence when forensic findings have to be evaluated in 
+court, while it is typically not used by bloodstain pattern analysis (BPA) experts. This 
+commentary evaluates how the scope and methods of BPA relate to several types 
+of evaluative propositions and methods to which LRs are applicable. As a result of 
+this evaluation, we show how specificities in scope (BPA being about activities rather 
+than source identification), gaps in the underlying science base, and the reliance on 
+a wide range of methods render the use of LRs in BPA more complex than in some 
+other forensic disciplines. Three directions are identified for BPA research and train-
+ing, which would facilitate and widen the use of LRs: research in the underlying phys-
+ics; the development of a culture of data sharing; and the development of training 
+material on the required statistical background. An example of how recent fluid dy-
+namics research in BPA can lead to the use of LR is provided. We conclude that an 
+LR framework is fully applicable to BPA, provided methodic efforts and significant 
+developments occur along the three outlined directions.
+K E Y W O R D S
+blood, bloodstain pattern analysis, courtroom testimony, likelihood ratio, statistics
+Highlights
+•	 The likelihood ratio is rarely used in bloodstain pattern analysis (BPA), even though this is a 
+useful measure of the weight of forensic evidence.
+•	 This shortcoming is attributed to specificities in scope and methods and to gaps in the under-
+lying science base.
+•	 Three lines of efforts in research and training are recommended to promote the use of likeli-
+hood ratios in BPA.
+•	 We describe how to estimate a likelihood ratio relevant to BPA, based on recent fluid dynam-
+ics research.
+1  |  INTRODUCTION
+In evaluative reporting, there is a current trend to evaluate findings 
+based on the concept of likelihood ratio (LR). Recent guidelines rec-
+ommending the use of LR have been issued by the UK Association 
+of Forensic Science Providers (AFSP) [1], then adapted by the 
+European Network of Forensic Science Institutes [2], the National 
+Institute of Forensic Science, Australia and New Zealand (NIFS) 
+[3], and recently advised by the UK Forensic Science Regulator 
+(FSR), the UK Charted Society of Forensic Science, and the Royal 
+
+
+--- PAGE 2 ---
+
+34 |   
+COMMENTARY 
+Statistical Society [4]. The later guideline sets a compliance date by 
+October 2026.
+The present contribution has been motivated by observations 
+made in relation to the way BPA findings are reported in court. 
+Current reporting practices in BPA rely on a classic approach [5] 
+where BPA experts indicate that some of their observations are 
+“consistent with” some stated allegations, generally without weigh-
+ing the strength of their observations. As Evett et al. summed up [6] 
+(p. 237): “At worst, the use of this phrase [consistent with] lays one 
+open to the criticism of partiality. At best, it does nothing to convey 
+an assessment of the weight of evidence in favor of one or other of 
+the stated propositions.”
+To the best of our knowledge, attempts to use LRs in BPA are 
+very few and very recent: an oral presentation was given by Leon 
+Meijrink at the 2019 European Conference of the International 
+Association of the Bloodstain Pattern Analysts, with abstract in Ref. 
+[7]; Zadora et al. discussed the construction of LRs based on the 
+interpretation of spectroscopy measurement, toward evaluating 
+the age of dried bloodstains [8–­11]. There is also a current lack of 
+guidance on how BPA evaluations should be reported. For instance, 
+the Bloodstain Pattern Analysis Subcommittee of the Organization 
+of Scientific Area Committees (OSAC) for Forensic Science issued 
+in the 2020 ANSI/ASB Standard 031, Standards for Report Writing 
+in Bloodstain Pattern Analysis [12]. The document gives guidance 
+with regards to the formatting aspects of the reports, but none on 
+how the findings should be assessed and reported in the discipline. 
+Similarly, another standard on the validation of procedures, ANSI/
+ASB 072 “Standard for the validation of procedures in bloodstain 
+pattern analysis” [13], has been reported to be vague and unfit for 
+purpose [14]. In 2020, the UK FSR added to its code of practice and 
+conduct an appendix on BPA [15] that is also silent on how the find-
+ings are evaluated and simply refer to the ANSI/ASB Standard 031.
+With this contribution, we would like to provide context and 
+facts to nurture the debate on a possible migration away from sole 
+ipse dixit opinion of the expert to a more structured way of forming 
+and expressing opinions. Since LRs are not necessarily used by BPA 
+experts, this commentary first describes in detail the LR as a scien-
+tific approach to evaluating observations used in different domains 
+of forensic science and then explores what the use of LRs would 
+entail for BPA.
+When used to evaluate forensic findings, the LR, also known 
+as the Bayes factor, is the ratio between the probabilities of the 
+observations under two competing and mutually exclusive prop-
+ositions [16]. The propositions typically represent the contrast-
+ing allegations made by the parties, whereas the observations 
+are the forensic findings. The LR represents numerically the 
+capability of the observations to discriminate two propositions; 
+its value indicates which proposition is more supported by the 
+observations. The logarithm in base 10 of the LR is also referred 
+as the weight of evidence to be assigned to the observations.
+There are significant advantages to use LRs in evaluative foren-
+sic opinions in court [17]. It forces forensic practitioners to consider 
+their findings in the perspective of both the prosecution and the 
+defense, rather than, for example, only looking through the prism 
+of the thesis of one side. Doing so ensures a balanced approach in 
+the sense that results are assessed in a way that considers the al-
+legations of both sides. It allows bringing a fair assessment to the 
+court whose main duty is to act as a referee between the views of 
+each party.
+Another advantage of the LR approach is the adherence to a 
+logical framework that invites the forensic practitioner to assess 
+the probability of the forensic observations under both proposi-
+tions, and not the probabilities of the propositions themselves, that 
+being the reserved duty of the court. One of the key logical re-
+quirements of forensic testimony is indeed to avoid an error known 
+as “transposing the conditional” [18] and making sure that the fo-
+rensic practitioners reserve their assessments to the observations 
+and not to the propositions themselves. This requirement does not 
+imply that all practitioners will reach the same LR assignments as 
+they may invoke different knowledge, data, and expertise to make 
+them, but at least their opinions will withstand scrutiny in a formal 
+and logical sense. To achieve consistency in opinions, two mecha-
+nisms can be foreseen as identified in the FSR document [4]: a full 
+disclosure of the data used by the practitioner and its limitation 
+(which is important to transparency), and the regular calibration of 
+expert's judgement through, for example, proficiency testing and 
+collaborative exercises.
+Finally, the LR approach strives toward transparency in the sense 
+that the forensic practitioners are invited to describe the data and 
+explain the methods and knowledge that contributed to their assign-
+ments of probabilities.
+There are certainly some difficulties to the use of LRs by forensic 
+experts in court. For instance, the use of LRs is grounded on the 
+specification of two mutually exclusive propositions representing 
+the defense and prosecution allegations. This basic requirement 
+is not always met, as, for example, when the defense exercises its 
+right to remain silent. Also, the propositions put forth by either the 
+defense or the prosecution might change during the course of the 
+proceedings.
+The availability of at least a pair of propositions (referring re-
+spectively to the position of the prosecution and defense) is a pre-­
+requisite for evaluative reports, meaning reports that assess the 
+observations toward the use in a court of law. In the situation where 
+there is no constituted defense proposition or where the defense re-
+mains silent, the forensic findings are best presented in a report that 
+is more of an investigative nature, offering lines of investigation or 
+possible reconstructions, and not through an evaluative report [19]. 
+In BPA, we recognize that a lot of activities are investigative in na-
+ture and will proceed to evaluation only when clarity on the alleged 
+propositions is made. This commentary is primarily concerned with 
+the evaluative testimony. Finally, we note that the defense proposi-
+tion does not need to be restricted to a single option but may cover 
+multiple alleged activities that will be treated separately or jointly as 
+shown in Ref. [16].
+Nevertheless, the LR approach is recommended by the European 
+Network of Forensic Science Institutes [2] for evaluations of forensic 
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+
+    |  35
+COMMENTARY 
+evidence in court and is routinely used for DNA evidence and other 
+types of forensic evidence.
+2  |  A LIKELIHOOD RATIO CAN BE MORE 
+OR LESS COMPLEX TO ASSIGN
+The complexity to establish LRs depends on two main factors:
+1.	 The method and knowledge used to evaluate the forensic 
+observations
+As reviewed in Ref. [20], the LR has been used in evaluations 
+by forensic experts of various fields to evaluate the relations 
+between the evidence and a source, either an individual source 
+such as a person of interest in a crime or a set of sources 
+sharing common identities such as a brand and model, such 
+as pens or cameras.
+These evaluations are made either for analysis obtained from 
+recovered material traces, where the observations are some 
+physicochemical or biological part of the source left at the 
+scene, or for pattern or signal evidence, which is an impression 
+left either on a physical surface or in a numerical form by 
+the source, where the observations will be some geometrical, 
+structural, or signal characteristics.
+For material traces, source-­based evaluations have been made 
+based on chemicals or biological analyses of material traces 
+such as ink [21]; gasoline [22] or inflammable liquid [23]; drugs 
+[24]; glass fragments [25], and, of course, DNA [26]. All these 
+source-­based evaluations relied on statistically assessing the 
+importance of similar (or dissimilar) features between the ob-
+servations and reference data [23].
+For pattern evidence, source-­based evaluations have been de-
+veloped, for example, in the areas of fingermarks [27], facial 
+images [28], and voice recordings [29] (not a pattern per se 
+but an analogue or digital trace).
+Most of these source-­based evaluations involve a process where 
+features of the recovered specimens are compared with features 
+or outputs of a known source, such as handwriting compared 
+with the writing of an individual [30], fake identity documents 
+(compared with elements from fake document factory [31]), 
+or digital images associated with a given camera sensor [32].
+Some of the above evaluations involve a mathematical process, 
+which quantifies the correspondence of features between ev-
+idence and source, and also rely on databases to determine 
+how rare the corresponding features are.
+The availability of databases is critical to the assignment of 
+probabilities to the observations. Indeed, [23] mentions that the 
+performance of an LR evaluation depends on several factors, 
+including the scarcity of the databases used as populations; the 
+mismatch in the conditions of the materials in the population 
+databases and in the specimens; and the degraded quality or 
+quantity of the materials. Also, approaches based on LRs need 
+to be validated, via performance assessments, measurements 
+of discriminative power, and calibration [16,23,33]. There are 
+two main components that will impact the LR at source level: 
+the within-­source variability and the between-­sources variabil-
+ity. DNA evidence is among the fields where assignments of 
+LRs at source level are the most advanced. The within-­source 
+variability is almost null (the DNA profile is stable over the 
+lifetime), and the availability of a biological model, coupled with 
+known allele frequency data, makes the LR calculation well 
+understood, standardized, and widely accepted [34]. For some 
+areas (such as glass fragments, fibers, or footwear marks), the 
+knowledge associated within-­ and between-­sources variability 
+is informed by structured data and documented knowledge.
+At this point, it is important to stress that we are discussing 
+the likelihood ratio approach as an overarching method useful 
+to help the interpretation of forensic observations. It invites 
+the forensic practitioner to assess the probabilities of the ob-
+servations given one or the other propositions, but we do 
+not want to be prescriptive as to how these probabilities (or 
+likelihood ratios) should be conveyed. These could either be 
+expressed numerically (as advised by the ENFSI guideline [2]) 
+or according to the more flexible approach suggested by the 
+latest FSR document [4], where only computed likelihood ratio 
+based on adequate (or limited) data is reported numerically, 
+and a verbal scale is used for qualitative assessments without 
+data, solely based on experience.
+At times, experts will thus rely more on informed judgement 
+than structured datasets, for example, to assess how a feature 
+may evolve over time due to the wear of a shoe. By “informed 
+judgement,” we mean that the expert relies partly on their 
+mental database (examples they have come across in their 
+practice, to the extent that they can remember).
+The above leads us to suggest a hierarchy of methods and 
+knowledge used by forensic scientists to assess their find-
+ings. This hierarchy is reported in Figure 1, which may help 
+compare the methods and scope of BPA with those of other 
+forensic disciplines.
+The horizontal axis of Figure 1 is linked to the number of 
+variables, nature of data, and expertise required. On the left 
+side of the horizontal axis, we have knowledge derived from 
+studies, ideally published, and peer-­reviewed, where the rele-
+vant features have been systematically measured and studied 
+statistically, together with knowledge from models based on 
+sciences such as physics, chemistry, or biology. On the right 
+side of the horizontal axis, specialists will rely on knowledge 
+derived from personal experience, that is, the expert's training 
+and professional experience in the forensic technique, up to 
+mere opinion (on the extreme right of the axis). The more 
+specialists base their assignments of probability on relevant, 
+peer-­reviewed, publicly available, and robust data, the greater 
+is the trustworthiness of those assignments. The more they 
+base their assignments on their recalled experience and knowl-
+edge and on their intuition, the more these assignments will 
+be open to justified challenge. Indeed, when more and more 
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+
+36 |   
+COMMENTARY 
+informed judgements are called upon, we shift to the right of 
+the horizontal axis, toward more complexity. Complexity will 
+hence also encapsulate an inherent difficulty to transparently 
+explain and assess the process. As one reviewer aptly put 
+it: “complexity is associated with the degree of uncertainty 
+one faces when assigning probabilities, so naturally, less data 
+more complexity.”
+2.	 The type of evaluative propositions
+Applications of LRs in the context of forensic expertise [20] 
+are not only limited to evaluate the relation of the evidence 
+with either its source, but also to the associated activities, 
+or the offense itself. These three types of propositions are 
+what Cook et al. define as the hierarchy of propositions [35], 
+explaining that propositions of lower hierarchy (about source) 
+are easier to weigh than higher ones (about activity or offense). 
+This hierarchy is reflected on the vertical axis of Figure 1.
+For the first type of evaluative statement, source-­based evalua-
+tions, it is easier to apply LRs to material traces than patterns 
+[36], because the material is of similar nature as the source 
+(albeit in lower quantity), while patterns involve the printing of 
+features from the source to the evidentiary findings, a trans-
+fer process that is not always reproducible. As mentioned in 
+Ref. [37], “In case of crime scene markings created by one 
+object leaving markings of itself on another object—­such as 
+a fingerprint onto a surface, a firearm barrel onto a bullet, 
+or teeth onto skin—­the faithfulness of the transfer from the 
+original to the receiving surface, and the ability of the receiv-
+ing surface to retain the impression unchanged, are essential 
+to the probativeness of the comparison of the mark on the 
+receiving surface to a suspected source.”
+The second type of evaluative statements where LRs are used 
+involves activity propositions, where it is asked to consider 
+the meaning of the forensic observations in the context of 
+the activities that led to them. Evaluations of activity add to 
+source-­level considerations, the necessity to consider parameters 
+such as the transfer and transport (how much material would 
+be exchanged under these alleged actions; how far from the 
+source would material be found), persistency over time (how 
+the material will potentially change, deteriorate, or disappear 
+over time), the efficiency of the recovery methods used to 
+collect the traces, and the presence by chance of the material 
+in the background [35]. Evaluations of activity do not only 
+aim at associating evidence to a source, but also, and often 
+mainly, consider the spatial motion or temporal modification of 
+the evidentiary material. Examples are the assessment of DNA 
+findings considering either a direct or a secondary transfer 
+[38] or the assessment of fibers [39] or glass [40] if a given 
+set of actions occurred. Consideration of activity relies both 
+on databases of experimental cases and on models of the 
+transport, transfer, or persistence phenomena involved, be they 
+physical, chemical, or biological in nature. Again, the models 
+need to be validated against well-­designed and available data.
+The third type of evaluations relates to judicial matters such as 
+the committed offense, which involve, in general, considerations 
+outside the domain of expertise of the forensic expert [35].
+Therefore, Figure 1 represents the increasing difficulties associ-
+ated with the different methods and propositions evaluated with 
+LRs. The difficulties increase along the diagonal direction, from 
+the “less complex” to the “more complex” realm. Indeed, forensic 
+evaluations become more complex with increasing level in the 
+hierarchy of propositions, with the unavailability of methods, 
+models, and data, and with increasing number of variables that 
+may contribute to the assignments of probabilities. To be clear, 
+the term “less complex” is not used to mean that any forensic 
+evaluation is trivial, but it indicates that in some activities of 
+forensic science, the methods of evaluation are established 
+and well documented, while in others, practitioners have to 
+resort on their personal experience through methods that are 
+less documented in the peer-­reviewed literature.
+In this commentary, we limit the discussion to the first two 
+types of evaluative statements, to which LRs have been applied: 
+source-­based and activity-­based.
+3  |  WHAT ARE THE EVALUATIVE 
+STATEMENTS AND METHODS RELEVANT 
+TO BPA?
+Let us consider now what type of evaluative statements are ex-
+pected from BPA experts, and what methods are used to evaluate 
+these statements. To do so, we review, in Table 1, the goals and 
+methods of BPA and the forensic discipline that examines traces 
+of blood for the purpose of crime scene reconstruction and court 
+FI G U R E 1 The diagonal arrow shows that the complexity in 
+assigning likelihood ratios increases with, on the vertical axis, the 
+hierarchy of propositions (source, activity, and offense), and, on 
+the horizontal axis, the method/knowledge used to assign the 
+associated probabilities. The approximative core positions of a 
+few forensic disciplines are indicated. For BPA, the vertical and 
+horizontal arrows estimate the extension of related propositions 
+and methods [Color figure can be viewed at wileyonlinelibrary.com]
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+
+    |  37
+COMMENTARY 
+TA B LE 1 List of topics of investigation and goals of BPA analysis, with methods used and type of evaluative statements
+General BPA investigation topic (and 
+specific names)
+Methods used
+Typical goal
+Desired goal
+Type of 
+evaluative 
+statement
+1. Location of origin of a blood 
+spatter (height of source of drip 
+pattern; determination of area of 
+origin; determination of area of 
+convergence)
+Measurement of features; comparison 
+with features known from existing 
+experiments; determination of 
+impact angles; assumption of straight 
+trajectories; inspection of intersecting 
+trajectories
+Determination of a location in a 3D space, 
+with a general estimate of the spatial 
+uncertainty
+Evaluation of the same, with estimation of 
+the uncertainty specific to the spatter 
+pattern of interest
+Activity 
+(transport)
+2. Evaluation of motion based on 
+appearance of multiple blood 
+stains (effect of horizontal motion 
+on bloodstain appearance; 
+reconstruction of cast-­off patterns)
+Inspection of stain size and shapes, and 
+spatial distributions of stains
+Determination of the sequence of 
+movements, and the speed, of a bleeding 
+person or bleeding object
+Evaluation of the same, with estimation of 
+the uncertainty specific to the spatter 
+pattern of interest
+Activity 
+(transport)
+3. Classification of bloodstain patterns 
+with respect to their physical cause 
+(identification of the following 
+patterns: low/medium/high velocity 
+spatter; impact patterns, gunshot 
+patterns (forward/backward spatter); 
+spatter patterns; arterial gushing; 
+transfer patterns, cast-­off pattern)
+Qualitative or quantitative examination 
+of stains (number, size, spatial 
+distribution); comparisons with 
+patterns generated during training of 
+analyst; uses of classification trees 
+[43,86], or artificial intelligence [76]
+Opinion on the possible physical 
+mechanism(s) causing the pattern; 
+exclusion of some physical mechanism(s)
+Evaluation of possible physical causes, with 
+a score or other quantitative estimate 
+of certainty as, for example, done in 
+figure 3 of Ref. [87]
+Activity (cause)
+4. Evaluation of the volume of a stained 
+area
+Inspection of the stain; comparison 
+with experiments where relevant 
+parameters are systematically explored
+Determination of the volume of the blood 
+that generated the stain
+Evaluation of the same, with estimation of 
+the uncertainty specific to the situation 
+of interest
+Activity 
+(transport)
+5. Evaluation of the time when the blood 
+trace was produced [54]
+Inspection of the stain; measurement of 
+the ambient conditions; comparison 
+with experiments where relevant 
+parameters are systematically explored; 
+modelling of transport phenomena
+Determination of the time when blood was 
+spilled, with estimate of uncertainty 
+specific to situation of interest
+Evaluation of the same
+Activity 
+(transport)
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+
+38 |   
+COMMENTARY 
+testimony. The table of contents of two successful textbooks on 
+BPA helped to prepare Table 1: the book by MacDonell [41] (and 
+the associated laboratory manual [42]), which—­while dated—­inspired 
+the traditional basic BPA training; and that of a more recent book by 
+Bevel and Gardner [43], a recommended reading for the BPA certi-
+fication of the International Association for Identification. Table 1 
+lists five general BPA topics with their associated methods, goals, 
+and type of evaluative statement. Note that the expressed goals 
+are borrowed directly from the above textbooks. However, when 
+adopting a LR-­based approach, the purpose is not to "determine", 
+but to provide a relative assessment of the probabilities associated 
+with the observations (the effects) given the alleged propositions 
+(the causes).
+3.1  |  BPA evaluations of observations are not 
+about source, but about activities
+Considering that source evaluations are the most current and most 
+straightforward applications of the LR in forensic evaluations, we 
+can readily answer why LR is rarely used in BPA: LR is rarely associ-
+ated with BPA evaluations, because these are essentially activity level 
+reporting, as shown in the last column of Table 1. Source evaluations 
+are not done in BPA: helping to establish the common origin of a 
+bloodstain with its source is a fundamental function of forensic 
+genetics but is carried out outside of the traditional scope of BPA. 
+Thus, the scope of BPA makes it amenable to LR in a more complex 
+way than source-­level evaluations, as per Figure 1. This difficulty 
+is also present in the interpretation of patterns considering activity 
+level propositions. Patterns such as footwear or fingerprints have 
+rarely been assessed in the light of activity level propositions, most 
+of the considerations remained about the source. Assigning LRs for 
+patterns considering activity level propositions is an emerging foren-
+sic topic [44–­46].
+Bloodstain pattern analysis indeed focuses on helping towards 
+questions of activity, involving either the determination of the 
+transport—­that is, the temporal or spatial evolution—­of blood during 
+the activity (how far, in what direction, and how long ago), or the 
+determination of the type of activity (the cause of a blood pattern).
+For instance, BPA analysts are trained at associating patterns 
+of millimeter-­sized elliptical stains with broad causes such as spat-
+ter events. The “spatter” cause is an abstract category, subsuming 
+a wide variety of causes such as spitting blood, stepping in a blood 
+pool, hitting a person with a bullet, and snapping bloody fingers. 
+These spattering events have also completely different character-
+istics (velocity, impulse, and shape of the impactor) than the re-
+sulting distribution of sizes and shapes of the stains in the pattern. 
+Determination of activity based on inspection of stain patterns is 
+thus a process where the observations are associated with an ab-
+stract cause, rather than the association of evidence with class char-
+acteristics. Class characteristics associate evidence of the kind of 
+blood type, fibers, or paint with a given set of individual sources, as 
+bullets with specific marks can be associated with a gun model. The 
+recommendations for courtroom testimony in Ref. [43] mention that 
+bloodstain pattern analysis is a “class characteristic” process. This 
+definition may apply to a small subset of blood patterns called trans-
+fer patterns, which may share characteristics of an object involved 
+in the creation of the blood trace, such as the weaves of a cloth or 
+the ridges of a finger. However, for most blood patterns, the associ-
+ation of a blood pattern with its cause is not a class characteristics 
+process, because there is typically little-­to-­no comparable features 
+between the blood pattern and its cause.
+3.2  |  BPA evaluations rely on a wide range of 
+methods and a complex science base that is still 
+being built
+Classification of findings with respect to their cause can certainly be 
+done by considering similarities between features of the evidentiary 
+observations and features of known data produced by a given cause. 
+This task is more difficult than classification by similar features be-
+tween questioned and known samples of the same kind, because 
+establishing the database requires the design of experiments pro-
+ducing samples based on the set of causes of interest. Firing a model 
+of gun (the cause) and collecting the bullets (the findings) might be 
+a relatively simple example of matching an effect to a cause, in the 
+sense that the striations on the bullet might match striation patterns 
+of the barrel of the weapon, or match the striations on other bul-
+lets fired by the same model of gun. In BPA, the task of designing 
+experiments corresponding to the specific abstract cause of spat-
+ter generation will involve generating events involving, for example, 
+somebody coughing blood, firing bullets, simulating the motion of 
+fists, rods hitting blood pools or body parts, at a variety of velocities, 
+and along different orientations and directions [47,48]. To be repre-
+sentative of all the possible outcomes of these causes, the param-
+eters of the experiments need to be chosen according to a scientific 
+knowledge of the associated transport phenomena, so that no sig-
+nificant region of the design parameter space is omitted. This is dif-
+ficult to do whether the relationship between cause and effect is not 
+well understood, because of, for example, scientific knowledge gaps 
+in the underlying fluid dynamics. In a related way, [36] describes the 
+purpose of BPA in contrast to the identification and classification 
+problems presented above. It describes BPA as an attempt to infer 
+causes from observed evidence: “Forensic examiners in disciplines 
+like crime scene investigation, arson, and blood spatter analysis at-
+tempt to reconstruct a crime based on evidence found at the crime 
+scene, which can be viewed as attempts to infer the causes of ob-
+served effects. This can be a challenging task because it is difficult 
+to carry out realistic controlled experiments that would allow one to 
+reliably distinguish between competing explanations (e.g., fires that 
+develop naturally versus those using an accelerant). Statistical col-
+laboration with practitioners in relevant disciplines will be valuable 
+in strengthening inferences in these settings.” Similarly, [35] also 
+mentions the inherent difficulty in generating statistical data based 
+on a cause such as “kicking bleeding bodies”: “However, this is not 
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 7 ---
+
+    |  39
+COMMENTARY 
+a straightforward matter to deal with: it is similar to the issues that 
+arise in reconstruction problems, a subject which will be left to a 
+future paper.” Also, for the purpose of peer review, the databases are 
+better made publicly available. Recent studies [49–­52] have shown 
+that classification in BPA typically has error rates of about 10%. 
+These numbers are difficult to interpret, because the data used in 
+the studies are not publicly available. Recently, a larger study [53] 
+confirmed the above error rates, while providing more information 
+on the data and methods. Let us stress that a reduction in the error 
+rates by several orders of magnitude is needed to make the related 
+analyses and LRs significant in court. Considering both of these di-
+mensions (level on the hierarchy and nature of the knowledge used), 
+it is clear that assignment of LR in BPA is in the complex realm. Thus, 
+BPA specialists currently borrow more from their personal experi-
+ence than from structured and published data.
+4  |  PROPOSITION OF THREE DIRECTIONS 
+TO FACILITATE THE USE OF LRS IN BPA
+Despite the inherent difficulty that the scope of BPA is about activi-
+ties rather than source, it seems possible to develop BPA along the 
+three directions below to facilitate and widen its use of LRs. Note 
+that, a clear benefit of the proposed directions is to root the BPA 
+assessment in a logical and transparent process, a form of evidence-­
+based assessment more than opinion-­based.
+4.1  |  Proposed direction 1: Better understand the 
+physics associated with BPA
+The branch of physics describing the complex events connecting 
+the cause of a blood pattern and the pattern itself is called fluid 
+dynamics. It describes how a bullet atomizes blood; how the im-
+pact of a fist on a moving face squeezes and splashes blood; how 
+airborne droplets move along trajectories curved by gravity and 
+slowed by drag; and how drops spread, wick, and dry onto ma-
+terials as complex as fabrics. Only recently, peer-­reviewed fluid 
+dynamic studies have started to uncover the complex physics 
+underlying BPA [54–­72]. The governing equations of fluid dynam-
+ics are called the Navier–­Stokes equations; they are the expres-
+sion of Newton's second law for fluids. These equations involve 
+nonlinear and dissipative terms. As their name suggests, nonlin-
+ear terms such as inertial forces exhibit a nonlinear relationship 
+between cause and effect. Linear extrapolations of uncertainties 
+from experiments under specific conditions to casework involving 
+different conditions may therefore lead to large, unknown errors. 
+Nonlinearity thus makes the design of experiments and databases 
+complicated. Effects of dissipative terms such as viscous dissipa-
+tion or species diffusion are that information about the initial con-
+ditions of a bloody event may be lost during the evolution of the 
+resulting blood pattern. Even the rheology of blood, the descrip-
+tion of the fundamental mechanisms by which viscous dissipation 
+occurs, is a topic of current studies [65,73,74]. It is currently not 
+fully clear whether the blood substitutes used for BPA research 
+and training behave like fresh blood [74] in several situations of 
+interest. These difficulties currently limit the ability to reconstruct 
+(going backward in time to identify the causes) a crime scene and 
+to provide corresponding evaluative statements.
+For instance, one could argue that information on the average 
+size of the stains would tell whether a spatter is caused by a gunshot 
+or the impact of, for example, a baseball bat. This argument has been 
+made [41] in the past. It has been recently shown that this distinction 
+is not straightforward [75], and even quite inaccurate in situations 
+involving muzzle gases interacting with droplets [76]. Certainly, a 
+deeper knowledge of the physics involved (as per horizontal axis of 
+Figure 1) would improve the ability to associate patterns with their 
+physical cause.
+4.2  |  Proposed direction 2: Create public 
+databases of BPA patterns, and/or make existing 
+databases public
+There is tradition and increased trend in various scientific disciplines 
+to make data publicly, freely, and widely available, but this is not 
+yet the case in BPA. Only few BPA databases are publicly available 
+[53,77–­80]. Similarly, lots of peer-­reviewed BPA studies produce 
+conclusions on the basis of bloodstain pattern data that are not ac-
+cessible. The open sharing of data is useful for peer review and nec-
+essary to support the determination of rarity and significance of a 
+conclusion. Developing a culture of sharing and publishing BPA data, 
+either scattered, specific, or organized in databases, will contribute 
+to an open science attitude that is much needed in forensic science 
+[81]. This effort may not only involve experimental results from 
+forensic researchers, but also involve casework data from forensic 
+practitioners.
+4.3  |  Proposed direction 3: Develop BPA training 
+material that discusses the likelihood ratio and its 
+related statistical foundations
+The widely used BPA book by James et al. [5] does not mention 
+the concept of likelihood ratio and recommends to perform ex-
+periments to demonstrate that traces are “consistent” with an 
+activity, involving blood transfer, swinging a bloody object, tim-
+ing of the event, a beating, blows, or stab wounds, a given posi-
+tion of a victim raising their arms, or high velocity spatter. Doing 
+so gives BPA the role of supporting one of either the prosecu-
+tion or the defense theses, without assigning weight to the find-
+ings in the context of both propositions. Indeed, the chapter on 
+court testimony in Ref. [5] mentions that experts often influence 
+a verdict and remind the reader that the weight of the evidence 
+is decided by the jury or judge. The uncertainty is presented in 
+a binary manner: “Remember not every question derived from 
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 8 ---
+
+40 |   
+COMMENTARY 
+the bloodstain patterns will have a definitive answer”, rather than 
+along the more realistic probabilistic spectrum. The textbook by 
+Bevel and Gardner does not mention the likelihood ratio either 
+[43]. In their chapter on court testimony, the word uncertainty 
+is not mentioned. The closest is a discussion about the determi-
+nation of angles of impact from stain inspection, where the au-
+thors mention error rates while possibly meaning uncertainty. The 
+chapter also involves a statement mistrusting the legal system and 
+overvaluing the work of the bloodstain pattern analysis: “It is clear 
+and apparent that the legal system as a whole has forgotten that 
+truth is truth.”
+Approaches based on LRs may take years to propagate into the 
+methods used in crime scene reconstruction and court testimony: 
+the culture of certainty needs to change; new methods need to be 
+designed and validated based on research findings; the associated 
+uncertainties need to be quantified; practitioners need to be trained 
+to the new methods; and standards of accreditation need to account 
+for these changes.
+5  |  EXAMPLE OF THE USE OF LR IN BPA
+Since BPA is about activities involving reconstructed measure-
+ments (such as time and location), this creates opportunities to 
+apply LRs in BPA. Remember that the LR applies to any situation 
+where the observations are weighted against each other in the 
+light of two propositions whatever these are. Careful inspection of 
+the first column of Table 1 shows that many topics of BPA inves-
+tigations are not about quantifying the likelihood of one proposi-
+tion, but rather about providing a measurement, such as a location 
+(rows #1, 2), speed (#2), volume (#4), or time (#5) and its meaning 
+in the context of the alleged circumstances. The opportunity to 
+use measurements to evaluate LRs can be illustrated by the re-
+cent work by Smith et al. [54]. In a laboratory setting, they esti-
+mated the time duration t between the generation of a blood pool 
+and the observation of the drying blood pool via high-­resolution 
+photographs. They developed a physical model that estimates t 
+based on the following evidential observations: time-­stamped 
+photographs, with scale, of the shape, size of the blood pool, na-
+ture of the surface on which the blood pool resides, and climate 
+measurements. While the study acknowledges that “many ques-
+tions remain” [54], the proposed estimate is based on a physical 
+model established from transport equations that describe how a 
+complex fluid like blood flows, and how the mass and temperature 
+of the blood pool evolve. While the data and results are currently 
+preliminary, a detailed data collection plan is presented to quan-
+tify the uncertainty associated with the estimation of the time. 
+Let us fast forward a few years and assume that these additional 
+developments of the method have been successfully done; that 
+the assumption of normality has been verified; that uncertainty 
+has been quantified; and that the model can be applied to crime 
+scenes. Assume that such model applied to a given crime scene 
+estimates the time t = 480 min ± a*18 min, where we set a = 1 to 
+obtain a 68.27% confidence interval (based on normality). If the 
+proposition of the prosecution (Hp) is that t < 7 h (420 min), and 
+that of the defense that t > 7 h (Hd), it would be easy to express 
+the likelihood ratio of the evidence under either proposition (see 
+also [82]). The LR is
+This value of the LR means that the findings are 2330 times more 
+likely if the defense proposition is true than if the prosecution prop-
+osition is true.
+Note that a frequentist approach is used in the above illustration 
+about how LRs can be used in BPA. While the use of LRs in forensic 
+science has often been associated with a Bayesian approach to sta-
+tistics, there is no requirement to assign LRs using a full Bayesian 
+methodology. For instance, the above illustrative example does not 
+require the determination of a prior, the value of which is rarely 
+universally accepted. Besides illustrating how LRs can be used in 
+BPA, the above discussion on Ref. [54] illustrates how the scientific 
+method (here fluid dynamics and experiment design) helps deter-
+mine the data that need to be collected. Indeed, without knowledge 
+of the intricacies of the complex, multistage, and multidimensional 
+drying process of a complex fluid like blood, a brute force data col-
+lection approach might not have identified the relevant data to col-
+lect (here the ratio of wet vs. total area of the pool and its perimeter) 
+and might not have been able to subsume those contributions in 
+a single algebraic equation based on physical principles. Note also 
+that, physics-­based methods such as the use of dimensionless num-
+bers can reduce the amount of data to collect by several orders of 
+magnitude [66,83].
+Similar considerations can be done regarding the determination 
+of the height of a blood source, or its distance from a wall, as long 
+as the reconstructed measurement is provided in a physically and 
+statistically sound way [60,84]. These illustrations show that the LR 
+applies to BPA, at least in principle. Finally, LR approaches may be 
+developed on the sole basis of extensive and representative statis-
+tical analysis of findings associated with real casework, such as the 
+survey by Briggs for extraneous blood on clothing [85].
+6  |  SUMMARY AND CONCLUSION
+We conclude that the LR framework is applicable to BPA, but that 
+it is a complex task to do. A structural reason for this complexity 
+is the scope of BPA, which is about evaluations at the level of ac-
+tivities rather than source. A conjectural reason is about the state 
+of the art of BPA-­related fundamental knowledge, data, and train-
+ing material. To facilitate applications of LR in BPA evaluations, it 
+is proposed to develop the discipline along three directions: better 
+physical understanding, solid and available data, and appropriate 
+training. As an example relevant to BPA, thoughts are presented on 
+LR =
+P
+
+evidence|Hp
+
+P
+
+evidence|Hd
+ =
+1
+√
+2휋∫420
+−∞e−(x−480)2
+2⋅182 dx
+1
+√
+2휋∫+∞
+420 e−(x−480)2
+2⋅182 dx
+=
+1
+2330.
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 9 ---
+
+    |  41
+COMMENTARY 
+how to develop an estimate of the LR of forensic observations given 
+two propositions related to the time of generation of a blood pool, 
+on the basis of existing fluid dynamics modelling and preliminary 
+experiments.
+ORCID
+Daniel Attinger 
+ https://orcid.org/0000-0002-2382-1149 
+Christophe Champod 
+ https://orcid.org/0000-0002-4035-2698 
+REFERENCES
+	 1.	 Association of Forensic Science Providers. Standards for the for-
+mulation of evaluative forensic science expert opinion. Sci Justice. 
+2009;49(3):161–­4.
+	 2.	 Willis S, McDermott S, O’Donnell G, Barrett A, Rasmusson B, 
+Hoglund T, et al. ENFSI guideline for evaluative reporting in foren-
+sic science. Contract No.: HOME/2010/ISEC/MO/4000001759. 
+2015. http://enfsi.eu/wp-­conte​nt/uploa​ds/2016/09/m1_guide​line.
+pdf. Accessed 25 Aug 2021.
+	 3.	 National Institute of Forensic Science Australia and New Zealand. 
+An introductory guide to evaluative reporting. 2017. https://www.
+anzpaa.org.au/Artic​leDoc​ument​s/220/An%20Int​roduc​tory%20
+Gui​de%20to%20Eva​luati​ve%20Rep​orting.PDF.aspx. Accessed 15 
+Jul 2021.
+	 4.	 The Forensic Science Regulator in Partnership with the Chartered 
+Society of Forensic Sciences and the Royal Statistical Society. 
+Development of evaluative opinions: codes of practice and con-
+duct for forensic service providers. Contract No.: FSR-­C-­118. 
+Birmingham, UK: Forensic Science Regulator; 2021. https://www.
+gov.uk/gover​nment/​publi​catio​ns/devel​opmen​t-­of-­evalu​ative​
+-­opinions. Accessed 25 Aug 2021.
+	 5.	 James SH, Kish PE, Sutton TP. Principles of bloodstain pattern anal-
+ysis: theory and practice. Boca Raton, FL: CRC Press; 2005. p. 431, 
+435, 443–­78, 488, 492.
+	 6.	 Evett IW, Jackson G, Lambert JA, McCrossan S. The impact of the 
+principles of evidence interpretation on the structure and con-
+tent of statements. Sci Justice. 2000;40(4):233–­9. https://doi.
+org/10.1016/S1355​-­0306(00)71993​-­9
+	 7.	 Leon Meijrink NFI. A logical framework approach for evaluat-
+ing BPA evidence in casework. IABPA J Bloodstain Pattern Anal. 
+2019;34(3):8–­9.
+	 8.	 Menżyk A, Damin A, Martyna A, Alladio E, Vincenti M, Martra G, 
+et al. Toward a novel framework for bloodstains dating by Raman 
+spectroscopy: how to avoid sample photodamage and subsampling 
+errors. Talanta. 2020;209:120565. https://doi.org/10.1016/j.talan​
+ta.2019.120565
+	 9.	 Khandasammy SR, Fikiet MA, Mistek E, Ahmed Y, Halámková L, 
+Bueno J, et al. Bloodstains, paintings, and drugs: Raman spectros-
+copy applications in forensic science. Forensic Chem. 2018;8:111–­
+33. https://doi.org/10.1016/j.forc.2018.02.002
+	10.	 Zadora G, Menzyk A. In the pursuit of the holy grail of forensic 
+science –­ spectroscopic studies on the estimation of time since 
+deposition of bloodstains. Trends Analyt Chem. 2018;105:137–­65. 
+https://doi.org/10.1016/j.trac.2018.04.009
+	11.	 Martyna A, Menżyk A, Damin A, Michalska A, Martra G, Alladio 
+E, et al. Improving discrimination of Raman spectra by optimising 
+preprocessing strategies on the basis of the ability to refine the 
+relationship between variance components. Chemometr Intell 
+Lab Syst. 2020;202:104029. https://doi.org/10.1016/j.chemo​
+lab.2020.104029
+	12.	 AAFS Standards Board. ANSI/ASB, standard 031 –­ standard for re-
+port writing in bloodstain pattern analysis. 2020. http://www.asbst​
+andar​dsboa​rd.org/publi​shed-­docum​ents/blood​stain​-­patte​rn-­analy​
+sis-­publi​shed-­docum​ents/. Accessed 15 Jul 2021.
+	13.	 AAFS Standards Board. ANSI/ASB, standard 072 –­ standard for 
+the validation of procedures in bloodstain pattern analysis. 2019. 
+http://www.asbst​andar​dsboa​rd.org/publi​shed-­docum​ents/blood​
+stain​-­patte​rn-­analy​sis-­publi​shed-­docum​ents/. Accessed 15 Jul 
+2021.
+	14.	 Morrison GS, Neumann C, Geoghegan PH. Vacuous standards 
+–­ subversion of the OSAC standards-­development process. 
+Forensic Sci Int Synerg. 2020;2:206–­9. https://doi.org/10.1016/j.
+fsisyn.2020.06.005
+	15.	 Forensic Science Regulator. Codes of practice and conduct –­ blood-
+stain pattern analysis. Contract No.: FSR-­C-­102. Birmingham, UK: 
+Home Office Forensic Science Regulator; 2020. https://www.gov.
+uk/gover​nment/​publi​catio​ns/blood​stain​-­patte​rn-­analy​sis-­codes​
+-­of-­practice. Accessed 25 Aug 2021.
+	16.	 Aitken CGG, Taroni F, Bozza S. Statistics and the evaluation of evi-
+dence for forensic scientists. 3rd ed. Chichester: John Wiley & Sons 
+Ltd.; 2020. p. 101–­278, 637–­54.
+	17.	 Robertson B, Vignaux GA, Berger CEH. Interpreting evidence –­ 
+evaluating forensic science in the courtroom. 2nd ed. Chichester: 
+John Wiley & Sons, Ltd.; 2016. p. 9–­67.
+	18.	 Evett IW. Avoiding the transposed conditional. Sci Justice. 
+1995;35(2):127–­31.
+	19.	 Jackson G, Jones S, Booth G, Champod C, Evett IW. The na-
+ture of forensic science opinion –­ a possible framework to guide 
+thinking and practice in investigations and in court proceedings. 
+Sci Justice. 2006;46(1):33–­44. https://doi.org/10.1016/S1355​-­  
+0306(06)71565​-­9
+	20.	 Morrison GS, Enzinger E. Score based procedures for the calcula-
+tion of forensic likelihood ratios –­ scores should take account of 
+both similarity and typicality. Sci Justice. 2018;58(1):47–­58. https://
+doi.org/10.1016/j.scijus.2017.06.005
+	21.	 Neumann C, Margot P. New perspectives in the use of ink evidence 
+in forensic science: Part III: operational applications and evaluation. 
+Forensic Sci Int. 2009;192(1–­3):29–­42. https://doi.org/10.1016/j.
+forsc​iint.2009.07.013
+	22.	 Vergeer P, Bolck A, Peschier LJ, Berger CE, Hendrikse JN. Likelihood 
+ratio methods for forensic comparison of evaporated gasoline res-
+idues. Sci Justice. 2014;54(6):401–­11. https://doi.org/10.1016/j.
+scijus.2014.04.008
+	23.	 Zadora G, Martyna A, Ramos D, Aitken C, Zadora G, Martyna A, 
+et al. Likelihood ratio models for classification problems. Chichester: 
+John Wiley & Sons Ltd; 2014. p. 151–­80.
+	24.	 Bolck A, Weyermann C, Dujourdy L, Esseiva P, van den Berg J. 
+Different likelihood ratio approaches to evaluate the strength 
+of evidence of MDMA tablet comparisons. Forensic Sci Int. 
+2009;191(1–­3):42–­51. 
+https://doi.org/10.1016/j.forsc​iint.2009. 
+06.006
+	25.	 Zadora G, Ramos D. Evaluation of glass samples for forensic purposes –­  
+an application of likelihood ratios and an information–­theoretical ap-
+proach. Chemometr Intell Lab Syst. 2010;102(2):63–­83. https://doi.
+org/10.1016/j.chemo​lab.2010.03.007
+	26.	 Foreman LA, Champod C, Evett IW, Lambert JA, Pope S. Interpreting 
+DNA evidence: a review. Int Stat Rev. 2003;71(3):473–­95. https://
+doi.org/10.1111/j.1751-­5823.2003.tb002​07.x
+	27.	 Champod C, Lennard C, Margot P, Stoilovic M. Fingerprints and 
+other ridge skin impressions. 2nd ed. Boca Raton, FL: CRC Press, 
+Taylor and Francis; 2016. p. 33–­126.
+	28.	 Ali T, Spreeuwers L, Veldhuis R, Meuwly D. Biometric evidence 
+evaluation: an empirical assessment of the effect of different train-
+ing data. IET Biom. 2014;3(4):335–­46. https://doi.org/10.1049/
+iet-­bmt.2014.0009
+	29.	 Gonzalez-­Rodriguez J, Rose P, Ramos D, Toledano DT, Ortega-­
+Garcia J. Emulating DNA: rigorous quantification of evidential 
+weight in transparent and testable forensic speaker recognition. 
+IEEE Trans Audio Speech Lang Process. 2007;15(7):2104–­15. 
+https://doi.org/10.1109/tasl.2007.902747
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 10 ---
+
+42 |   
+COMMENTARY 
+	30.	 Morrison GS, Ballentyne K, Geoghegan PH. ,A, response to Marquis 
+et al. (2017) What is the error margin of your signature analysis? 
+Forensic Sci Int. 2017;2018(287):e11–­2. https://doi.org/10.1016/j.
+forsc​iint.2018.03.009
+	31.	 Baechler S, Terrasse V, Pujol JP, Fritz T, Ribaux O, Margot P. The sys-
+tematic profiling of false identity documents: method validation and 
+performance evaluation using seizures known to originate from com-
+mon and different sources. Forensic Sci Int. 2013;232(1–­3):180–­90. 
+https://doi.org/10.1016/j.forsc​iint.2013.07.022
+	32.	 Bernacki J. A survey on digital camera identification methods. 
+Forensic Sci Int Digit Investig. 2020;34:300983. https://doi.
+org/10.1016/j.fsidi.2020.300983
+	33.	 Meuwly D, Ramos D, Haraksim R. A guideline for the validation 
+of likelihood ratio methods used for forensic evidence evaluation. 
+Forensic Sci Int. 2017;276:142–­53. https://doi.org/10.1016/j.forsc​
+iint.2016.03.048
+	34.	 Bright J-­A, Coble MD. Forensic DNA profiling: a practical guide to 
+assigning likelihood ratios. Boca Raton, FL: CRC Press; 2020.
+	35.	 Cook R, Evett IW, Jackson G, Jones PJ, Lambert JA. A hierarchy 
+of propositions: deciding which level to address in casework. 
+Sci Justice. 1998;38(4):231–­40. https://doi.org/10.1016/S1355​
+-­0306(98)72117​-­3
+	36.	 Stern HS. Statistical issues in forensic science. Annu Rev Stat Appl. 
+2017;4(1):225–­44. 
+https://doi.org/10.1146/annur​ev-­stati​stics​
+-­04171​5-­033554
+	37.	 Saks MJ, Albright T, Bohan TL, Bierer BE, Bowers CM, Bush MA, 
+et al. Forensic bitemark identification: weak foundations, ex-
+aggerated claims. J Law Biosci. 2016;3(3):538–­75. https://doi.
+org/10.1093/jlb/lsw045
+	38.	 Gill P, Hicks T, Butler JM, Connolly ED, Gusmão L, Kokshoorn B, 
+et al. DNA commission of the International society for forensic 
+genetics: assessing the value of forensic biological evidence –­ 
+guidelines highlighting the importance of propositions. Part II: eval-
+uation of biological traces considering activity level propositions. 
+Forensic Sci Int Genet. 2020;44:102186. https://doi.org/10.1016/j.
+fsigen.2019.102186
+	39.	 Grieve M, Roux C, Wiggins K, Champod C, Taroni F. Interpretation 
+of fibres evidence. In: Robertson J, Roux C, Wiggins K, editors. 
+Forensic examination of fibres. London: Taylor & Francis Ltd; 2018. 
+p. 345–­425.
+	40.	 Curran J, Hicks T, Trejos T. Interpretation of glass evidence. In: 
+Desiderio VJ, Taylor CE, Daéid NN, editors. Handbook of trace evi-
+dence analysis. Chichester: Wiley; 2021. p. 377–­420.
+	41.	 MacDonell HL. Bloodstain patterns. 2nd ed. Corning, NY: 
+Laboratory of Forensic Sciences; 2005. p. xv–­xvii, 59–­74.
+	42.	 MacDonell HL. Laboratory manual for the geometric interpretation 
+of bloodstain pattern evidence. 6th ed. Corning, NY: Laboratory of 
+Forensic Sciences; 2005. TOC.
+	43.	 Bevel T, Gardner RM. Bloodstain pattern analysis with an introduc-
+tion to crime scene reconstruction. 3rd ed. Boca Raton, FL: CRC 
+Press; 2008. p. vii–­xiv, 37–­87, 345–­66, 347, 371.
+	44.	 de Ronde A, Kokshoorn B, de Poot CJ, de Puit M. The evalua-
+tion of fingermarks given activity level propositions. Forensic Sci 
+Int. 2019;302:109904. https://doi.org/10.1016/j.forsc​iint.2019. 
+109904
+	45.	 de Ronde A, van Aken M, de Puit M, de Poot C. A study into 
+fingermarks at activity level on pillowcases. Forensic Sci Int. 
+2019;295:113–­20. https://doi.org/10.1016/j.forsc​iint.2018.11.027
+	46.	 de Ronde A, van Aken M, de Poot CJ, de Puit M. A study into 
+evaluating the location of fingermarks on letters given activity 
+level propositions. Forensic Sci Int. 2020;315:110443. https://doi.
+org/10.1016/j.forsc​iint.2020.110443
+	47.	 Sliefert N, Gen L, Michael JB, Yarin AL. Experimental and nu-
+merical study of blood backspatter interaction with firearm 
+propellant gases. Phys Fluids. 2021;33(4):043319. https://doi.
+org/10.1063/5.0045219
+	48.	 Li G, Sliefert N, Michael JB, Yarin AL. Blood backspatter interaction 
+with propellant gases. Phys Fluids. 2021;33(4):043318. https://doi.
+org/10.1063/5.0045214
+	49.	 Yuen SKY, Taylor MC, Owens G, Elliot DA. The reliability of swipe/
+wipe classification and directionality determination methods in 
+bloodstain pattern analysis. J Forensic Sci. 2017;62(4):1037–­42. 
+https://doi.org/10.1111/1556-­4029.13298
+	50.	 Taylor MC, Laber TL, Kish PE, Owens G, Osborne NK. The reliabil-
+ity of pattern classification in bloodstain pattern analysis, part 1: 
+bloodstain patterns on rigid non-­absorbent surfaces. J Forensic 
+Sci. 
+2016;61(4):922–­7. 
+https://doi.org/10.1111/1556-­4029. 
+13091
+	51.	 Taylor MC, Laber TL, Kish PE, Owens G, Osborne NK. The re-
+liability of pattern classification in bloodstain pattern analysis 
+–­ PART 2: bloodstain patterns on fabric surfaces. J Forensic Sci. 
+2016;61(6):1461–­6. https://doi.org/10.1111/1556-­4029.13191
+	52.	 Osborne NK, Taylor MC, Healey M, Zajac R. Bloodstain pattern 
+classification: accuracy, effect of contextual information and 
+the role of analyst characteristics. Sci Justice. 2016;56(2):123–­8. 
+https://doi.org/10.1016/j.scijus.2015.12.005
+	53.	 Hicklin RA, Winer KR, Kish PE, Parks CL, Chapman W, Dunagan 
+K, et al. Accuracy and reproducibility of conclusions by forensic 
+bloodstain pattern analysts. Forensic Sci Int. 2021;325:110856. 
+https://doi.org/10.1016/j.forsc​iint.2021.110856
+	54.	 Smith FR, Nicloux C, Brutin D. A new forensic tool to date human 
+blood pools. Sci Rep. 2020;10(1):8598. https://doi.org/10.1038/
+s4159​8-­020-­65465​-­4
+	55.	 Smith FR, Nicloux C, Brutin D. Influence of the impact energy on 
+the pattern of blood drip stains. Phys Rev Fluids. 2018;3(1):013601. 
+https://doi.org/10.1103/PhysR​evFlu​ids.3.013601
+	56.	 Smith FR, Brutin D. Wetting and spreading of human blood: re-
+cent advances and applications. Curr Opin Colloid Interface Sci. 
+2018;36:78–­83. https://doi.org/10.1016/j.cocis.2018.01.013
+	57.	 Brutin D, Sobac B, Loquet B, Sampol J. Pattern formation in dry-
+ing drops of blood. J Fluid Mech. 2010;667:85–­95. https://doi.
+org/10.1017/s0022​11201​0005070
+	58.	 Agrawal P, Barnet L, Attinger D. Bloodstains on woven fabric: 
+Simulations and experiments for quantifying the uncertainty on the 
+impact and directional angles. Forensic Sci Int. 2017;278:240–­52. 
+https://doi.org/10.1016/j.forsc​iint.2017.07.008
+	59.	 Comiskey PM, Yarin AL, Attinger D. Hydrodynamics of forward 
+blood spattering caused by a bullet of general shape. Phys Fluids. 
+2019;31(8):084103. https://doi.org/10.1063/1.5111835
+	60.	 Attinger D, Comiskey PM, Yarin AL, Brabanter K. Determining the 
+region of origin of blood spatter patterns considering fluid dynam-
+ics and statistical uncertainties. Forensic Sci Int. 2019;298:323–­31. 
+https://doi.org/10.1016/j.forsc​iint.2019.02.003
+	61.	 Comiskey PM, Yarin AL, Attinger D. Implications of two backward 
+blood spatter models based on fluid dynamics for bloodstain pat-
+tern analysis. Forensic Sci Int. 2019;301:299–­305. https://doi.
+org/10.1016/j.forsc​iint.2019.05.026
+	62.	 Das R, Faflak R, Attinger D, Michael JB. Blood atomization from 
+blunt impact on a liquid film using high-­speed digital in-­line ho-
+lography. In: Proceedings of the ILASS –­ Americas 30th Annual 
+Conference on Liquid Atomization and Spray Systems, 201 May 
+12–­15; Tempe, AZ. Irvine, CA: ILASS –­ Americas; 2019.
+	63.	 Comiskey PM, Yarin AL, Attinger D. Theoretical and experimental 
+investigation of forward spatter of blood from a gunshot. Phys Rev 
+Fluids. 
+2018;3(6):063901. 
+https://doi.org/10.1103/PhysR​evFlu​
+ids.3.063901
+	64.	 Attinger D. Charts based on millions of fluid dynamics simulations 
+provide a simple tool to estimate how far from its source a spe-
+cific blood stain can be found. Forensic Sci Int. 2019;298:97–­105. 
+https://doi.org/10.1016/j.forsc​iint.2019.02.052
+	65.	 Kolbasov A, Comiskey PM, Sahu RP, Sinha-­Ray S, Yarin AL, 
+Sikarwar BS, et al. Blood rheology in shear and uniaxial elongation. 
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 11 ---
+
+    |  43
+COMMENTARY 
+Rheol 
+Acta. 
+2016;55:901–­8. 
+https://doi.org/10.1007/s0039​
+7-­016-­0964-­1
+	66.	 Attinger D, Moore C, Donaldson A, Jafari A, Stone HA. Fluid dynam-
+ics topics in bloodstain pattern analysis: comparative review and 
+research opportunities. Forensic Sci Int. 2013;231(1–­3):375–­96. 
+https://doi.org/10.1016/j.forsc​iint.2013.04.018
+	67.	 Kim S, Ma Y, Agrawal P, Attinger D. How important is it to consider 
+target properties and hematocrit in bloodstain pattern analysis? 
+Forensic Sci Int. 2016;266:178–­84. https://doi.org/10.1016/j.forsc​
+iint.2016.05.015
+	68.	 Comiskey PM, Yarin AL, Kim S, Attinger D. Prediction of blood 
+back spatter from a gunshot in bloodstain pattern analysis. Phys 
+Rev Fluids. 2016;1(4):043201. https://doi.org/10.1103/PhysR​evFlu​
+ids.1.043201
+	69.	 Comiskey PM, Yarin AL, Attinger D. Hydrodynamics of back spatter 
+by blunt bullet gunshot with a link to bloodstain pattern analysis. 
+Phys Rev Fluids. 2017;2(7):073906. https://doi.org/10.1103/PhysR​
+evFlu​ids.2.073906
+	70.	 Comiskey PM, Yarin AL, Attinger D. High-­speed video analysis 
+of forward and backward spattered blood droplets. Forensic Sci 
+Int. 2017;276:134–­41. https://doi.org/10.1016/j.forsc​iint.2017. 
+04.016
+	71.	 Taylor MC, Laber TL, Epstein BP, Zamzow DS, Baldwin DP. The 
+effect of firearm muzzle gases on the backspatter of blood. Int J 
+Legal Med. 2011;125(5):617–­28. https://doi.org/10.1007/s0041​
+4-­010-­0462-­4
+	72.	 Williams EMP, Graham ES, Jermy MC, Kieser DC, Taylor MC. The dy-
+namics of blood drop release from swinging objects in the creation 
+of cast-­off bloodstain patterns. J Forensic Sci. 2019;64(2):413–­21. 
+https://doi.org/10.1111/1556-­4029.13855
+	73.	 Brust M, Schaefer C, Doerr R, Pan L, Garcia M, Arratia PE, et al. 
+Rheology of human blood plasma: viscoelastic versus Newtonian 
+behavior. 
+Phys 
+Rev 
+Lett. 
+2013;110(7):078305. 
+https://doi.
+org/10.1103/PhysR​evLett.110.078305
+	74.	 Lee S-­Y, Seo Y-­I, Moon B-­S, Kim J-­P, Goh J-­M, Park N-­K, et al. Study 
+on development of forensic blood substitute: focusing on blood-
+stain pattern analysis. Forensic Sci Int. 2020;316:110461. https://
+doi.org/10.1016/j.forsc​iint.2020.110461
+	75.	 Siu S, Pender J, Springer F, Tulleners F, Ristenpart W. Quantitative 
+differentiation of bloodstain patterns resulting from gunshot and 
+blunt force impacts. J Forensic Sci. 2017;62(5):1166–­79. https://doi.
+org/10.1111/1556-­4029.13418
+	76.	 Liu Y, Attinger D, De Brabanter K. Automatic classification of 
+bloodstain patterns caused by gunshot and blunt impact at vari-
+ous distances. J Forensic Sci. 2020;65(3):729–­43. https://doi.
+org/10.1111/1556-­4029.14262
+	77.	 Attinger D, Liu YU, Faflak R, Rao Y, Struttman BA, De Brabanter K, 
+et al. A data set of bloodstain patterns for teaching and research 
+in bloodstain pattern analysis: gunshot backspatters. Data Brief. 
+2019;22:269–­78. https://doi.org/10.1016/j.dib.2018.11.075
+	78.	 Attinger D, Liu Y, Bybee T, De Brabanter K. A data set of bloodstain 
+patterns for teaching and research in bloodstain pattern analysis: 
+impact beating spatters. Data Brief. 2018;18:648–­54. https://doi.
+org/10.1016/j.dib.2018.02.070
+	79.	 Laber TL, Epstein BP, Taylor MC. High speed digital video analysis 
+of bloodstain pattern formation from common bloodletting mecha-
+nisms. IABPA News. 2008;24(2):4–­12.
+	80.	 Basu N, Bandyopadhyay SK. Initial data release of regular blood drip 
+stain created by varying fall height, angle of impact and source di-
+mension. Data Brief. 2016;8:1194–­205. https://doi.org/10.1016/j.
+dib.2016.07.003
+	81.	 Chin J, Growns B, Mellor D. Improving expert evidence: the 
+role of open science and transparency. Ottawa Law Rev. 
+2019;50(2):365–­410.
+	82.	 Weyermann C, Ribaux O. Situating forensic traces in time. Sci Justice. 
+2012;52(2):68–­75. https://doi.org/10.1016/j.scijus.2011.09.003
+	83.	 Yarin LP. The Pi-­Theorem: applications to fluid mechanics and heat 
+and mass transfer. Berlin/Heidelberg: Springer; 2012. p. 1–­102.
+	84.	 Camana F. Determining the area of convergence in blood-
+stain pattern analysis: a probabilistic approach. Forensic Sci Int. 
+2013;231(1–­3):131–­6. https://doi.org/10.1016/j.forsc​iint.2013. 
+04.019
+	85.	 Briggs TJ. The probative value of bloodstains on clothing. Med 
+Sci Law. 1978;18(2):79–­83. https://doi.org/10.1177/00258​02478​
+01800202
+	86.	 Esperança P. Morphoanalyse des traces the sang: une approche 
+methodique [Bloodstain pattern analysis: a methodical approach]. 
+Lausanne: Presses Polytechniques et Univesitaires Romandes; 
+2019.
+	87.	 De Brabanter K, Karsmakers P, De Brabanter J, Suykens JAK, 
+De Moor B. Confidence bands for least squares support vec-
+tor machine classifiers: a regression approach. Pattern Recognit. 
+2012;45(6):2280–­7. https://doi.org/10.1016/j.patcog.2011.11.021
+How to cite this article: Attinger D, De Brabanter K, Champod 
+C. Using the likelihood ratio in bloodstain pattern analysis. J 
+Forensic Sci. 2022;67:33–­43. https://doi.
+org/10.1111/1556-­4029.14899
+ 15564029, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.14899 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

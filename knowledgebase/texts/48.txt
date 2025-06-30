@@ -1,0 +1,1679 @@
+
+
+--- PAGE 1 ---
+
+Talanta 72 (2007) 896–913
+Review
+Forensic application of the luminol reaction
+as a presumptive test for latent blood detection
+Filippo Barni a,∗, Simon W. Lewis b, Andrea Berti a,
+Gordon M. Miskelly c, Giampietro Lago a
+a Molecular Biology and Genetics Unit, Carabinieri Scientiﬁc Investigation Department of Rome, Viale di Tor di Quinto 119, 00191 Rome, Italy
+b Department of Applied Chemistry, Curtin University of Technology, G.P.O. Box U1987 Perth, Western Australia 6845, Australia
+c Department of Chemistry, The University of Auckland, Private Bag 92019, Auckland, New Zealand
+Received 17 November 2006; accepted 22 December 2006
+Available online 9 January 2007
+Abstract
+The forensic application of the luminol chemiluminescence reaction is reviewed. Luminol has been effectively employed for more than 40 years
+for the presumptive detection of bloodstains which are hidden from the naked eye at crime scenes and, for this reason, has been considered one
+of the most important and well-known assays in the ﬁeld of forensic sciences. This review provides an historical overview of the forensic use of
+luminol, and the current understanding of the reaction mechanism with particular reference to the catalysis by blood. Operational use of the luminol
+reaction, including issues with interferences and the effect of the luminol reaction on subsequent serological and DNA testing is also discussed.
+© 2007 Elsevier B.V. All rights reserved.
+Keywords: Luminol chemistry; Chemiluminescence; Forensic; Latent bloodstains; DNA typing
+Contents
+1.
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+897
+1.1.
+Chemiluminescence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+897
+1.2.
+Luminol historical background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+898
+2.
+The luminol reaction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+899
+2.1.
+Luminol chemical and physical properties and chemiluminescence. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+899
+2.2.
+Hemoglobin and its derivatives: biology and catalytic role in luminol test . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+900
+2.3.
+Redox reaction mechanism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+902
+3.
+The luminol reaction as a presumptive test for blood . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+903
+3.1.
+Operational use of luminol as a presumptive test for blood . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+903
+3.2.
+Factors inﬂuencing the use of luminol. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+905
+3.2.1.
+Physical nature of substrate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+905
+3.2.2.
+Inﬂuence of interfering substances . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+905
+3.3.
+Interpretation of luminol test results. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+908
+3.4.
+Improvements to luminol formulations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+909
+3.5.
+Sample collection and effect on serological and DNA analyses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+910
+4.
+Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+911
+Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+911
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+911
+∗Corresponding author. Tel.: +39 347 1849158; fax: +39 02 700412617.
+E-mail address: ﬁlippobarni@tin.it (F. Barni).
+0039-9140/$ – see front matter © 2007 Elsevier B.V. All rights reserved.
+doi:10.1016/j.talanta.2006.12.045
+
+
+--- PAGE 2 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+897
+1. Introduction
+The emission of light observed when a solution containing
+luminol (5-amino-2,3-dihydro-1,4-phthalazine-dione or, more
+simply, 3-aminophthalhydrazide) and hydrogen peroxide is
+sprayed on dried bloodstains has been utilised by forensic sci-
+entists in investigations involving violent crime for more than
+40 years. This article reviews the current understanding of the
+chemistry and mechanism of the luminol reaction as it pertains to
+the detection of bloodstains. A forensic overview of operational
+use of the luminol reaction will be given including a discus-
+sion of interfering species and the possible detrimental effect of
+luminol on further presumptive tests for blood and DNA typing
+analyses.
+1.1. Chemiluminescence
+Chemiluminescence [1] refers to the emission of light from
+a chemical reaction, which can occur in solid, liquid or gas
+systems. The fundamentals of chemiluminescence have been
+comprehensively reviewed in a number of textbooks and articles
+in recent years [2–5].
+Two main categories of chemiluminescent reaction have been
+described in the literature, direct and indirect. Direct chemilu-
+minescence can be represented by:
+A + B →[I]∗→PRODUCTS + LIGHT
+where A and B are reactants and [I]* is an excited state inter-
+mediate. The luminol reaction is an example of this form of
+chemiluminescence. In certain cases where the excited state is
+an inefﬁcient emitter, its energy may be passed on to another
+species (a sensitizer, F) for light emission to be observed. This
+is called “indirect chemiluminescence” and is exempliﬁed by
+the peroxyoxalate (light stick) reaction:
+A + B →[I]∗+ F →[F]∗→F + LIGHT
+Once a molecule has been converted to a metastable interme-
+diate in an excited state there are a number of routes by which
+it can return to the ground state. These routes can be displayed
+diagrammatically, as in Fig. 1, by an “energy well” diagram, or
+more simply by the Jablonski diagram, ﬁrst introduced in the
+1930s. The light emission can either be ﬂuorescence or chemi-
+luminescence, if from a singlet state, or phosphorescence if from
+a triplet state.
+The light emitted from chemiluminescent reactions has dif-
+fering degrees of intensity, lifetime and wavelength with the
+latter parameter covering the spectrum from near ultraviolet,
+through the visible and into the near infrared.
+For emission to be observed from a chemical reaction, three
+essential energetic requirements need to be met:
+1. There should be an energetically favourable reaction path-
+way for the production of the excited state species. Of the
+total number of molecules participating in the reaction a
+signiﬁcant number should reach the excited state.
+2. Thereactionisrequiredtobeexothermic,withthefreeenergy
+change being in the range 170–300 kJ mol−1.
+3. Thereshouldbeafavourabledeactivationpathwayforchemi-
+luminescence emission, with other competitive non-radiative
+processes such as intra- or intermolecular energy transfer,
+molecular dissociation, isomerization or physical quenching
+kept to a minimum.
+The intensity of the chemiluminescence emission from a
+reaction is dependant upon the rate of reaction and the efﬁciency
+of the process generating excited state species. The latter can
+be described by the chemiluminescence quantum yield, ΦCL,
+which is deﬁned as:
+ΦCL = total number of photons emitted
+number of molecules reacting
+Fig. 1. Jablonski energetic diagram showing energy levels and transitions in a molecular compound: C, chemiluminescence; F, ﬂuorescence; P, phosphorescence;
+CD, collisional deactivation; IC, internal conversion; ISC, intersystem crossing; S0, ground singlet state; S1, S2, excited singlet states; T1, T2, excited triplet states;
+→, radiative transition;
+, non-radiative transition.
+
+
+--- PAGE 3 ---
+
+898
+F. Barni et al. / Talanta 72 (2007) 896–913
+ΦCL is the product of three factors: the fraction of excited states
+produced, ΦEX; the fraction of reacting molecules following
+the correct chemical path, ΦR; and the ﬂuorescence quantum
+yield of the emitter, ΦF:
+ΦCL = ΦEXΦRΦF
+Chemiluminescence quantum yields vary widely from 10−15 to
+nearly 1, however most of the reactions used in analysis fall in the
+range 0.01–0.1 [6]. The use of very sensitive detectors and the
+almost complete absence of background emission has allowed
+the monitoring of even inefﬁcient chemiluminescence reactions
+with quantum efﬁciencies less than 0.001, such as the oxidative
+ultra-weak chemiluminescent reactions in living cells [7].
+The quantum efﬁciency and colour of a chemiluminescence
+emission are greatly affected by the environment in which the
+reaction takes place. For solution phase chemiluminescence the
+factors that will affect the reaction are similar to those affect-
+ing normal ﬂuorescence and phosphorescence. For example,
+the chemiluminescence quantum yield and colour of emission
+for luminol in dimethylsulfoxide and water are 0.05, blue-
+green (λmax ∼480–502 nm) and 0.01, blue-violet to blue-green
+(λmax ∼425 nm), respectively [8,9].
+For most analytical purposes it is the chemiluminescence
+emission intensity (ICL) that is measured, either as an integral
+over the lifetime of the emission or as a transient response. It is
+a function of both the efﬁciency and the rate of the reaction:
+ICL = ΦCL
+dC
+dt
+
+where dC/dt is the rate of reaction (molecules reacting s−1).
+Chemiluminescence reactions can occur very rapidly (<1 s) or
+extremely slowly (>1 day), according to the reaction and the
+conditions.
+1.2. Luminol historical background
+Some of the key events in the discovery, study, and use of
+luminol are shown in Fig. 2. Even though there is some debate
+as to the ﬁrst report of the synthesis of luminol [10,11], the Ger-
+man scientist Schmitz has often been suggested as the ﬁrst to
+have produced this compound in 1908 [12,13]. Regardless of
+this controversy, it is now widely accepted that Albrecht was the
+ﬁrst to report its involvement in chemiluminescence reactions
+in 1928 [14] (Fig. 2). Specht, a forensic scientist at the Univer-
+sity Institute for Legal Medicine and Scientiﬁc Criminalistics
+of Jena, Germany, ﬁrst studied in depth the role of hemin, an
+iron-containing compound derived from heme, in the chemical
+reaction involving luminol and investigated its potential appli-
+cation in blood detection [15]. This represented the ﬁrst use of
+liquid phase chemiluminescence for analytical purposes.
+Proesher and Moody [16], investigating both the chemical
+structure and reaction properties of luminol, correctly pre-
+dicted the keto-enolic tautomerisation of luminol in alkaline
+solutions and the fully protonated form in acidic solutions.
+They concluded that chemiluminescence emission intensity
+and duration were increased with dried and decomposed blood,
+aged even for 3 years, with respect to fresh blood. They also
+observed that luminol solution could be sprayed many times
+over bloodstains, particularly if dried, allowing a repetition of
+the chemiluminescence.
+McGrath [17] evaluated the speciﬁcity of the luminol test on
+biological ﬂuids and showed that luminol displayed a speciﬁcity
+for blood while appearing insensitive to the other biological ﬂu-
+ids studied. Nevertheless, when used as presumptive test for
+blood identiﬁcation, he recommended the conﬁrmation of the
+luminol reaction with other more speciﬁc serological tests.
+Grodsky et al. [18] proposed a blend of powders made up
+of luminol, sodium carbonate (Na2CO3) and sodium perborate
+(NaBO3·nH2O) mixed with distilled water. This subsequently
+became the formula that is most commonly used by today’s
+investigators to detect traces of blood at the scene of a crime. An
+alternative formulation was proposed by Weber [19] of luminol,
+sodium hydroxide or potassium hydroxide, and hydrogen per-
+oxide diluted in distilled water. The solution so obtained needed
+to be kept in a cool place away from direct light and showed a
+brief lifespan.
+Since these early studies in luminol, there have been sev-
+eral other attempts to elucidate the reaction mechanism, with
+a major effort by Mer´enyi and co-workers in the 1980s culmi-
+nating in a summary paper in 1990 [20]. Thornton and Maloney
+Fig. 2. Luminol timeline from its discovery to the most recent developments.
+
+
+--- PAGE 4 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+899
+Table 1
+Luminol commonest chemical, physical and toxicological properties [9,32–37]
+Names
+5-Amino-2,3-dihydro-1,4-phthalazine-dione, o-aminophthalyl hydrazide, 3-aminophthalic hydrazide
+Molecular and structural formula
+C8H7N3O2
+Molecular mass
+177.16 amu
+Melting point
+319–320 ◦C
+pKa1
+6.74
+pKa2
+15.1
+Solubility in water
+<0.1 g/100 mL at room temperature
+Physical properties
+Yellow crystalline solid (grainy crystals)
+General properties
+Stable at room temperature, sensitive to light, combustible, incompatible with strong oxidizing agents,
+strong acids, strong bases, strong reducing agents, emits light on reaction with oxidizers
+(chemiluminescent)
+Safety information and potential health effects
+The toxicological properties have not been fully investigated in humans; anyway mucosa irritation has
+been described: eyes, skin, respiratory tract and gastrointestinal tract (with nausea, vomiting and
+diarrhea). No data available about chronic effects. More information available at The National
+Toxicology Program (The National Institute of Environmental Health Sciences, NC, USA) website
+http://ntp.niehs.nih.gov/index.cfm
+[13] summarised luminol chemistry from a forensic science per-
+spective in 1985, although their mechanistic argument derived
+from earlier studies than the Mer´enyi work.
+Over the last 20 years luminol has become one of the widest
+used chemiluminescent reagents for application to molecular
+biology and analytical chemistry. It has been used as the basis
+for a multitude of sensitive and selective detection methods
+including high performance liquid chromatography (HPLC),
+immunoassay, DNA probes, DNA typing and as substrate in
+western blot detection [5,21–29]. More recently, also historical
+and archaeological studies using luminol have been successfully
+carriedout[30,31]disclosinganinterestingnewapplicationﬁeld
+for luminol-based assays.
+2. The luminol reaction
+2.1. Luminol chemical and physical properties and
+chemiluminescence
+Luminol (5-amino-2,3-dihydro-1,4-phthalazine-dione) is a
+cyclic acyl-hydrazide, and shows the typical reactivity of
+this class of compounds [32]. Beyond the common chem-
+ical, physical and toxicological characteristics which are
+succinctly described in Table 1 [9,33] and are also available
+at The National Toxicology Program (The National Insti-
+tute of Environmental Health Sciences, NC, USA) website
+(http://ntp.niehs.nih.gov/index.cfm)1, luminol presents some
+1 The National Institute of Environmental Health Sciences (NIEHS) is one of
+the National Institutes of Health (NIH) within the U.S. Department of Health
+and Human Services. The National Toxicology Program is headquartered on the
+NIEHS campus in Research Triangle Park, NC, USA.
+properties which are especially relevant when it is used for
+forensic purposes: photo- and thermal-stability and chemical
+behaviour in protic polar media.
+Luminol solutions are sensitive to light and the presence of
+metal cations; typically they are only stable 8–12 h. Luminol
+was shown to be thermally unstable, so luminol and its solutions
+should be protected from high temperature [34].
+Two separate pKa values (6.74 and 15.1), corresponding to
+loss of the two acyl-hydrazide protons, at (pKa1) and (pKa2)
+have been found [35–37]. Thus in aqueous solution phase lumi-
+nol (LH2) can be found in the fully protonated form in acidic
+solutions while, when dissolved in a basic solution, above about
+pH 7, dissociations to the monoanion (LH−) and dianion (L2−)
+occur. The fully-protonated and monodeprotonated (monoan-
+ionic) forms of luminol can undergo keto-enolic tautomerisation
+in solution and the solid state [16,32,37] (Fig. 3), although most
+authors (including us) represent these compounds with the pro-
+tons on the nitrogens.
+Luminol chemiluminescence has recently been reviewed by
+Barnett and Francis [5]. The light-producing pathway for the
+oxidation of luminol is a complex multi-step process and is
+dependent on several factors including pH, temperature and
+ionic strength of the reaction medium and reactive species that
+can be present in solution and interact with luminol, metal cat-
+alyst or hydroxide ions [5].
+White et al. observed that the ﬂuorescence spectrum of an
+intermediate molecule in the luminol oxidation process named
+3-aminophthalate in an electronically excited state (3-APA*)
+perfectly matched the chemiluminescence spectrum of luminol,
+thus they concluded that this excited intermediate could be con-
+sideredthelightemittingspeciesupondeexcitationtotheground
+state (3-APA) [38–40]. This was conﬁrmed in 1965 by Gunder-
+
+
+--- PAGE 5 ---
+
+900
+F. Barni et al. / Talanta 72 (2007) 896–913
+Fig. 3. Luminol protonation and tautomerism in acidic, neutral, and alkaline solution (LH2, LH−, and L2−represent the diprotic, monoanionic, and dianionic forms
+of luminol, respectively).
+Fig. 4. Luminol chemiluminescence reaction scheme.
+mann [41]. In dipolar aprotic solvents such as dimethylsulfoxide
+(DMSO) containing O2, or in moderate-strong alkaline protic
+solvents (pH ∼8–11) such as water or lower alcohols and in
+presence of a strong-mild oxidant (in most cases H2O2) and a
+suitable catalyst such as a metal ion or some kind of oxidore-
+ductase enzyme, the excited 3-aminophthalate dianion (3-APA*)
+returns to the ground state (3-APA) by releasing energy in the
+form of light (Fig. 4). When the reaction occurs in protic media,
+the 3-aminophthalate dianion is produced in almost quantitative
+fashion [40,42–46].
+In aqueous solutions the light observed ranges between blue-
+violet and blue-green (Fig. 5), although the spectral range of
+emission is often rather broad and the observed maximum is
+dependent on several parameters of the reaction [39,44] such as
+the presence of blood itself which strongly absorbs at 420 nm
+and may provide an inner-ﬁlter effect, thus shifting the observed
+maximum emission of luminol chemiluminescence to about
+455 nm [47].
+For the luminol reaction the exact role of the catalyst, which
+is required when the reaction is carried out in basic aqueous
+solution, and the reaction intermediates are not completely char-
+acterised. It is known that a wide range of other transition
+metal catalysts and metal-complexes catalyse the reaction and
+that the optimum conditions of pH for the reaction depends
+on the identity of the catalyst used and varies between pH 8
+and 11 [48] thus suggesting a multiplicity of potential catalysis
+mechanisms.
+2.2. Hemoglobin and its derivatives: biology and catalytic
+role in luminol test
+Hemoglobin (Hb) is the oxygen-carrying molecule found in
+the erythrocytes of all vertebrates and some invertebrates and is
+Fig. 5. Typical chemiluminescence emission spectrum for the reaction of lumi-
+nol with hydrogen peroxide in the presence of hematin.
+
+
+--- PAGE 6 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+901
+Fig. 6. Iron binding molecules in blood: (Panel A) heme molecular structure in oxyhemoglobin with iron in reduced form (Fe2+) coordinated by O2 in the sixth
+coordination position (deoxyhemoglobin has no ligands in this position), and by a histidine on the globin for the ﬁfth coordination position; (Panel B) hematin
+molecular structure with iron in oxidised form (Fe3+) bonding a hydroxide ion (with the histidine and, more generally, the entire globinic portion usually lost).
+responsible for the red colour of blood. Mammalian hemoglobin
+is a tetrameric hemoprotein composed of four protein portions,
+named globins each enclosing a prosthetic heme group, consist-
+ing of a protoporphyrin IX–Fe2+ coordination complex (Fig. 6,
+Panel A) [49]. The ferrous ion is bound in the middle of the
+protoporphyrin IX ring by the four pyrrole nitrogen atoms. Of
+the remaining two axial coordination sites, above and below the
+planar ring of the porphyrin, one is occupied by a histidine on
+the globin (ﬁfth coordination position) while the second axial
+position (sixth coordination position) is available for an exoge-
+nous ligand which, in the case of oxyhemoglobin is O2 (while
+no ligand is present in this position in deoxyhemoglobin).
+Within the body human hemoglobin is protected against
+denaturation by encapsulation in red blood cells and iron ions
+are kept in the ferrous state by several mechanisms, both
+non-enzymatic (globin envelope prevents Fe2+ oxidation and
+erythrocytes reduced glutathione reduces Fe3+ to Fe2+) and
+enzymatic (mainly NADPH-MetHb reductase and NADH cyt b5
+reductase of the erythrocytes catalyze Fe3+ reduction to Fe2+)
+so that methemoglobin (MetHb) formation is hampered [50].
+Hence, the valence of iron is kept the same upon bonding with
+oxygen (oxygenation) or losing oxygen (deoxygenation).
+Once outside the organism and deposited on a substrate,
+blood is subjected to a series of degradation processes [10]
+in which most erythrocytes undergo hemolysis and biological
+molecules are involved in hydrolytic and/or oxidoreductive reac-
+tions primarily catalyzed from their own intracellular enzymes
+(e.g. aseptic autolysis due to catepsins released from dead cells
+lysosomes), or from enzymes of microorganisms populating the
+external environment. Degradation of the polypeptidic portion
+of hemoglobin takes place, the histidine coordinating the iron ion
+is generally lost, and spontaneous oxidation of the Fe2+ ion con-
+tained in the tetrapyrrolic ring of heme prosthetic group to Fe3+
+ion rapidly occurs since, in this condition, cellular iron reduction
+processes lack [16,51–53]. If alkaline conditions are present, the
+Fe3+ is coordinatinated by a hydroxyl group ( OH−). The heme
+prosthetic group containing ferric rather than ferrous iron, with
+the O2 being replaced by the hydroxyl group, is named hematin
+(ferric protoporphyrin hydroxide) (Fig. 6, Panel B) and, corre-
+spondingly, the bloodstain shows a chromatic change from a
+typically red colour to a tawny-brown [49,53]. The processes of
+loss of the polypeptidic shells of hemoglobin and conversion of
+heme prosthetic group into hematin are increased when a lumi-
+nol preparation is sprayed onto the bloodstain due to both the
+presence of an oxidant and the alkaline environment.
+When a luminol formulation is applied on a bloodstain, fer-
+ric heme groups are able to catalyze both the decomposition
+reaction of peroxide and the oxidation of luminol and other
+substrates by peroxide [54–57]. These reactions are thought
+to be allowed by the ability of the hydroxy-ferric-porphyrin
+(OH-Fe3+-P) hematin group to undergo a two-electron oxidation
+to a hydroxy-ferryl-porphyrin radical (OH-Fe4+-P•) (analogous
+to Compound I in enzymes peroxidases, although the radi-
+cal centre can then translocate to the globin), which can then
+return to the ferric porphyrin hematin state in two one-electron
+reduction steps via the hydroxy-ferryl-porphyrin (OH-Fe4+-P)
+hematin group (analogous to Compound II in enzymes peroxi-
+dases) (Fig. 7) [13,19,57–59]. The catalytic process thus cycles
+between these three oxidation states of the hemoglobin, with the
+stable resting state being the ferric hematin. Alternative catalytic
+cycles and oxidising species have been proposed (e.g. see Thorn-
+ton and Maloney [13]), but the above cycle is now accepted by
+the majority of researchers [57,60].
+As these ferric heme derivatives show the same catalytic
+properties and capability of participating in two-electron redox
+cycles as a group of enzymes called peroxidases widely dis-
+tributed especially in vegetables, their activity is termed a
+pseudo-peroxidase or peroxidase-like. This activity is com-
+
+
+--- PAGE 7 ---
+
+902
+F. Barni et al. / Talanta 72 (2007) 896–913
+Fig. 7. Iron redox cycling between different oxidation states when hematin is formed and sixth coordination position is occupied by
+OH (P, porphyrin).
+monly employed as the basis for many presumptive tests for
+blood including luminol [10,40,61–63].
+Thornton and Maloney [13] proposed three other possibilities
+for the peroxidase-like activity of blood apart from the partic-
+ipation of the heme in hemoglobin. Of these, xanthine oxidase
+and true peroxidase were thought to be unlikely by Thornton
+and Maloney as the concentrations of these species in blood is
+very low. The third possibility, catalase, has a pH optimum of
+approximately pH 7.0, signiﬁcantly different from the optimum
+basicpHoftheluminolreactionwhenusedtodetectbloodstains.
+Theythereforeconcludedthatitisthehemegroupinhemoglobin
+which is responsible for the catalysis of luminol chemilumines-
+cence by blood. This conclusion has also been reached by other
+researchers (Fig. 8) [13,63].
+2.3. Redox reaction mechanism
+While the identity of the emitter (3-aminophthalate) has
+been established for many years, the mechanism by which it is
+produced in an excited state has been the subject of many postu-
+lated mechanisms [8,13,20,40,64–68]. A succinct description of
+the current understanding of the probable reaction mechanism
+accounting for a number of ﬁndings from the aforementioned
+authors was given by Barnett and Francis in their recent review
+[5]; based on this work and on the previous research especially
+by Mer´enyi and co-workers during the 1980s [20,64–68], the
+currently most accepted mechanism is presented in Fig. 9.
+Luminol in strongly alkaline solutions is deprotonated to the
+monoanionic and the dianionic forms, with the former being
+prevalent between pH 8 and 14. The deprotonated luminol can
+be oxidised, most likely by the hydroxy-ferryl-porphyrin radical
+(OH-Fe4+-P•) and also by the hydroxy-ferryl-porphyrin (OH-
+Fe4+-P) to form radical intermediates, such as those described
+in the reaction with the true peroxidase enzymes, which can then
+react to give an diazaquinone [20,68]. The diazaquinone can then
+undergo nucleophilic attack from the hydroperoxide ion deriv-
+ing from the deprotonation of hydrogen peroxide (pKa 11.7)
+[20,39,40,47,68]. This is supported by the chemiluminescence
+intensity being dependant upon hydrogen peroxide concentra-
+tion, a factor which has been used analytically to determine this
+species [24,69]. An alternative path involving attack of super-
+oxide (O2−) on the radical may also occur, especially under
+conditions where the radical is in low concentration [20].
+The postulated mechanism following addition of peroxide
+to the diazaquinone (or superoxide to the radical) involves a
+cyclic addition of oxygen from the added hydroperoxide to the
+othercarbonylcarbonformingacyclicanti-aromaticendoperox-
+ide whose bonds are particularly weak. The signiﬁcant amount
+of readily available energy contained in this species is then
+gained by cleavage and subsequent reorganisation of these
+bonds. Since nitrogen is an excellent leaving group because of
+the relevant strength of its own bonds (and as a gas, it is also
+entropically favoured), the formation of the dicarboxylate anion
+by expelling nitrogen gas is favoured. The 3-aminophthalate
+dianion so formed is in an electronically excited triplet state (3-
+APA*) (two unpaired electrons of the same spin) [8]. This then
+undergoes a slow spin-ﬂip process, to an excited singlet state
+(two unpaired electrons of different spin) which in turn decays
+to the ground state with the emission of light [38,40]. Evidence
+for this pathway has been found by studies of diazaquinones
+which showed that these molecules give chemiluminescence on
+reactions with basic hydrogen peroxide without the need for
+catalysts, the emitter being the 3-aminophthalate ion in an elec-
+tronically excited state (3-APA*) for the diazaquinone derived
+from luminol, with similar species being observed in the case of
+related diazaquinones [68].
+Light emission is almost instantaneous when luminol is
+sprayed on hematin, while with blood there can be a build-up
+Fig. 8. Redox cycle showing oxidation of luminol by hydrogen peroxide as catalysed by hematin (FeP represents the hematin iron porphyrin).
+
+
+--- PAGE 8 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+903
+Fig. 9. Postulated reaction mechanism for luminol chemiluminescence.
+to a maximum luminescence over a few seconds, followed by a
+decay in light intensity (Fig. 10). The half-life of the emission is
+rather variable, depending mainly on both the quantity and the
+quality of the catalyst, given constant concentrations of luminol,
+Fig. 10. Time course of the chemiluminescence observed when fresh blood is
+reacted with luminol and hydrogen peroxide.
+the oxidant and the base [39,44,70]. In most cases the half-life of
+chemiluminescence from blood has been observed to be about
+20–40 s, although detectable emission may be viewed for up to
+3 min [47,71].
+In the conditions typical of luminol forensic testing the inten-
+sity of the light is primarily proportional to the concentration of
+the metal ion present, given both the oxidizer and the reductant
+(luminol) at a constant concentration [5,29].
+3. The luminol reaction as a presumptive test for blood
+3.1. Operational use of luminol as a presumptive test for
+blood
+Luminol can be used to detect the presence of minor, unno-
+ticed or hidden bloodstains diluted down to a level of 1:106
+(1 L of blood in 1 L of solution) [18,63,72]. It can disclose dis-
+tribution, allowing bloodstain pattern evaluation occasionally
+enabling the investigators to reconstruct some of the events of
+a crime by visualizing these patterns [73,74]. Other chemical-
+based tests widely employed over the years such as ﬂuorescein,
+tetramethylbenzidine, phenolphthalein (Kastle–Meyer reaction)
+and leucomalachite green (Medinger reaction), and physical
+techniques such as the use of Polilight® (Roﬁn, Dingley, Aus-
+tralia) light source in the forensic detection of blood are useful
+
+
+--- PAGE 9 ---
+
+904
+F. Barni et al. / Talanta 72 (2007) 896–913
+under speciﬁc circumstances, but do not have the high sensitivity
+of luminol [75–77].
+Several preparations of luminol have been described and in
+recent years new preparations, using either patented luminol
+molecule modiﬁcations or luminol blood-dependent chemilu-
+minescence enhancers [13,28], have been proposed to improve
+sensitivity, speciﬁcity and duration of the emission. How-
+ever the two best known formulations for luminol testing,
+the ﬁrst described by Grodsky et al. [18] and the sec-
+ond described by Weber [19], continue to be the most
+extensively used by forensic practitioners due to their good
+performance, simplicity of preparation, low cost and ready
+availability of the ingredients. These protocols are summarised
+in Fig. 11.
+Regardless of the preparation, luminol solution is usually
+directly sprayed in completely dark environments. The light
+obtained can be photographed or ﬁlmed while the luminescent
+areas are marked in order to allow their detection once the light
+emission has faded [63,78]. Previous pre-treatment of the sur-
+faces possessing the stains with 2% hydrochloric acid (HCl),
+recommended by some authors [79,80], seems to decrease sen-
+sitivity, raising the background chemiluminescence level [73],
+and, furthermore, to have detrimental effects for the following
+DNA typing attempts [63].
+Ampliﬁcation of the luminol chemiluminescent emission by
+means of intensiﬁed cameras has been reported in a forensic
+context [13,81] but is not in general use at crime scenes.
+Due to the potential irritant effects of luminol, harmful effects
+of the other compounds employed in both preparations, and to
+the fact that luminol is applied as an aerosol, particular care has
+to be taken in its use (Table 1). Suitable protective equipment
+composed of goggles, respirators, gloves and protective clothes
+should be used by the operators when luminol is sprayed and
+the area investigated should be aerated after luminol application.
+The number of people assisting the operations should be limited
+to those strictly necessary [63].
+Subsequent to bloodstain location and photograph documen-
+tation is the collection of the stains for further laboratory testing.
+The collection method depends on the nature of the substrate on
+which the stain is located. For unmovable objects such as tiles,
+walls or cars the best procedure consists of swabbing the sur-
+face with cotton swabs or other highly absorbing support. Many
+laboratories use the oral-swabs commonly employed to collect
+reference samples in crime cases. This concentrates all of the
+available stain in a small area of the swab. Alternatively, in some
+cases, the stains may be removed from the surface by scraping
+off with a scalpel and collecting the removed material.
+When the stains are diffuse on a wide unmovable area, e.g.
+on a wall surface, it is possible to employ an adsorbent card
+containingpreservativesubstanceswhichprotectthebloodstains
+(proteins and DNA as well) from bacterial and fungal hydrolytic
+and oxidative degradation [63,82,83].
+Formovableobjectssuchasfurniturecomponents,smallpan-
+els, carpets and tools, the best and most conservative procedure
+consists in the collection of the complete object from which the
+stains will be recovered in the laboratory.
+Regardless of how the stains are collected, the essential
+requirements to be met are the recovery of the available blood,
+the collection of a control sample in a tested area not exhibiting
+chemiluminescence and the complete drying of the support used
+for blood collection in order to avoid the microbial and fungal
+degrading action.
+Fig. 11. Commonest forensic luminol formulations. (Panel A) Grodsky et al. luminol formulation protocol (1951) [18]. (Panel B) Weber’s luminol formulation
+protocol (1966) [19].
+
+
+--- PAGE 10 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+905
+3.2. Factors inﬂuencing the use of luminol
+While luminol preparation and application is rather simple,
+interpretation of results is more challenging. Interpretation of
+luminol chemiluminescence characteristics and patterns at the
+crime scene should take into consideration the physical struc-
+ture of the substrate upon which the bloodstains are found, the
+chemical composition of the substrate possessing the stains and
+any other substances present on the substrate.
+3.2.1. Physical nature of substrate
+The ﬁrst issue confronting the forensic practitioner when
+using the luminol test at a crime scene is a consideration of the
+physicalnatureofthesubstratespossessingthestains[51,63,73].
+Substrates can be divided roughly into two groups: absorbent
+materials and non-absorbent materials.
+Absorbent materials encompass substrates with irregular
+porous surfaces such as wood-ﬁnish panelling, walls, and inter-
+stitial spaces between tiles or wood objects which, due to the
+grooves or cracks onto the surface, show superﬁcial absorbent
+properties and are able to keep blood remains, even after vig-
+orous scrubbing, for a long time [63,73]. In this group can be
+included also substrates with much greater absorbing properties
+such as carpeting, leather clothes, fabric clothes, roof-linings,
+blankets, etc.
+Absorbent materials represent fairly easy surfaces to ana-
+lyze because they often can retain signiﬁcant amounts of blood,
+maintaining it in relatively undegraded form even for many
+years, thus giving intense reaction with the luminol test. This
+is primarily due to rapid drying of blood, especially in domes-
+tic or covered environments, thus preventing its degradation by
+environmental biological agents such as bacterial hydrolytic
+enzymes. Moreover, these substrates can protect blood from
+physical or chemical environmental agents such as solar rays,
+moisture and water, or cleaning attempts after the crime has been
+committed [63,73].
+Due to the structure and to the relatively large quantity of
+blood that may be absorbed, absorbent materials are resistant
+to cleaning with bleach and/or soapy water. It is also possible
+to spray multiple applications of the luminol reagent with-
+out the risk of excessively diluting the stains in order to best
+visualize and to successfully photograph the bloodstain pattern
+[63,73].
+Non-absorbent substrates such as non-textured linoleum,
+vinyl, tile, glass, metal and many others, present more difﬁculties
+both in the reagent application and in the quality of chemilu-
+minescence. These substrate surfaces are unable to effectively
+retain and store blood and, moreover, cannot prevent its degra-
+dation especially by physical and chemical agents. As clearly
+demonstrated by Lytle and Hedgecock [73], these surfaces are
+fairly easy to completely clean and a mild washing attempt by
+water and soap lead to the removal of the bloodstains yielding
+almost non-existent reaction with luminol.
+A further complication is that the application of luminol solu-
+tions to non-absorbent surfaces can lead to the bloodstain pattern
+running, due to the limited retention of the resulting solution
+by the smooth surface. This can lead to complete loss of the
+bloodstain pattern [63]. Particular care should therefore be used
+when dealing with these substrates, particularly when they are
+non-horizontal, in order to avoid the loss of the stains. Investi-
+gators should ﬁrst use a minimum amount of luminol solution
+by rapidly spraying, preferably with a nebulizer, the suspected
+area, and avoiding further applications, quickly photograph the
+emission [51,63,73].
+3.2.2. Inﬂuence of interfering substances
+There is a wide range of environmental and pharmaceuti-
+cal, domestic and industrial substances which are able to affect
+luminol blood-induced chemiluminescence. This may be due to
+catalytic activity, their redox properties, or their chemical reac-
+tivity with the luminol mixture or with iron in the bloodstains.
+Examples of such chemicals are the components of several com-
+monly occurring materials such as soils, detergents, bleaches,
+carpet, metal objects, tools, plastic panels, wood, and vegetable
+compounds.
+Compounds which may suppress luminol chemilumines-
+cence are summarised in Fig. 12. Ligands with an high
+afﬁnity/reactivity for a speciﬁc oxidation state of iron such
+as sulﬁde (ferryl ion ligand) or cyanide (ferric ion ligand) or
+compounds acting as anti-oxidising species (standard reduc-
+tion potential, E0′ < E0′ luminol) such as ascorbate, phenolics,
+anilines and thiols [84], may act as molecular traps subtract-
+ing either the catalyst (iron ions) or the reductant (luminol),
+Fig. 12. Classiﬁcation of compounds suppressing or reducing luminol chemiluminescence.
+
+
+--- PAGE 11 ---
+
+906
+F. Barni et al. / Talanta 72 (2007) 896–913
+or may prevent luminol oxidation, respectively. Also quench-
+ing (intermolecular electronic energy transfer) or inner-ﬁlter
+effects (molecule absorbing at the emission wave-length of the
+emitter) from other molecular constituents of the bloodstains
+(heme itself, O2, several aminoacids, etc.) or, more likely, of the
+substrate possessing the evidence should be regarded as pos-
+sible interferents due to their ability to decrease the observed
+chemiluminescent/ﬂuorescent intensity [85].
+However, in practice, most of these substances are unlikely
+to come into contact with blood, with some relevant exceptions
+such as polyphenolic derivatives [69,86,87] like tannins which
+are widely present in wood. Thus these species do not generally
+signiﬁcantly impact on the forensic use of luminol, and false-
+negativeresultshavenotbeendescribedintheforensicliterature.
+The most problematic chemicals for a correct interpretation
+of luminol test results are those which provoke intensiﬁcation or
+a generation of a chemiluminescence emission even if blood is
+not present, leading to false-positive results. Due to the possible
+presence of these substances at the crime scene, the luminol
+test must not be considered sufﬁciently speciﬁc to permit an
+unequivocal identiﬁcation of blood [15,18,51,88,89].
+Those compounds which generate luminol chemilumines-
+cence, or enhance the luminol emission in the presence of
+bloodstains can be divide into three major categories (Fig. 13):
+1. compounds
+showing
+a
+catalytic
+true
+peroxidase
+or
+peroxidase-like activity;
+2. compounds with a high oxidizing capacity towards luminol;
+3. compounds with a complex chemical composition with an
+undeﬁned action mechanism towards luminol mixture.
+The ﬁrst group encompasses inorganic or bioinorganic
+species and undoubtedly is the major source of luminol inter-
+ferences as these compounds often show excellent catalysing
+properties in redox reactions such as that involving luminol
+oxidation and are widely distributed in the environment and
+in plants. In general three main types may be characterized in
+this group: free metal ions, in most cases included in inorganic
+compounds such as rust or soils; biological complexes between
+metal ions and organic components (such as metal–porphyrins,
+and including bacterial or plant pigments) often within protein
+structures; enzymes belonging to the oxidoreductases class such
+as horseradish-peroxidases.
+Iron compounds, especially in the form of Fe2+ and Fe3+,
+are constituents of many inorganic and biological species abun-
+dantly distributed in the environment [90–92]. In soils and
+sediments, iron is the dominant redox-active element by virtue of
+its abundance and favourable reduction potential located mid-
+way in the aqueous regime. Iron is the fourth most abundant
+element on the earth’s crust and is present in several minerals
+such as hematite (Fe2O3), magnetite (Fe2O3), siderite (FeCO3)
+or pyrite (FeS2) which may serve as large reservoirs of electron-
+buffering capacity in soils and whose surfaces catalyze reactions
+that may proceed only slowly, if at all, in bulk solution [93].
+InaqueousaerobicenvironmentsandatneutralpHironcanbe
+found in highly insoluble crystalline and amorphous hydroxide
+andoxideforms[94]includingsuchsubstancesasrust(amixture
+of iron oxides and hydroxides with a variable hydration degree
+and structural formula [Fe2O3·nH2O]), and these compounds
+can also act as catalysts for the luminol reaction [95,96]. Also
+many metal objects and baked clays contain iron.
+Similarly several other metallic ions such as cobalt,
+chromium, nickel, copper, and manganese, which are also found
+in soils or metal objects and some chemical products, have been
+reported, in various experimental studies, as capable of produc-
+ing visible chemiluminescence when exposed to the luminol
+solution [42,83,97–99].
+Ferric or ferrous ions and other metals ions especially
+cobalt, copper, and manganese, are present in some biological
+molecules including redox active prosthetic groups. Examples
+include the heme proteins peroxidases, catalase, cytochromes,
+and non-heme biomolecules such as the iron–sulfur cluster
+enzyme aconitase and the electron transfer proteins rubredox-
+ins and ferredoxins [100,101]. Storage and transfer proteins
+like ferritin or hemosiderin, the main storage forms of iron
+in mammals, as well as transferrin, the iron transferring pro-
+tein into the blood, contain signiﬁcant concentrations of ferric
+ions. In ferritin or hemosiderin iron is incorporated in the min-
+Fig. 13. Classiﬁcation of compounds provoking or enhancing luminol chemiluminescence.
+
+
+--- PAGE 12 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+907
+eral ferrihydrite form, [FeO(OH)]8[FeO(H2PO4)], whereas in
+transferrin it is coordinated to the polypeptidic shell aided by a
+carbonate anion cofactor [102]. Other major examples of metal-
+containing biomolecules in living organisms include the enzyme
+cofactors cobalamin or vitamin B12 (containing Co2+) [103],
+and plants and bacterial pigments containing Mg2+ or Mn2+
+[90,104]. These compounds intrinsically possess, in suitable
+conditions, redox properties of key importance for their chem-
+istry and biology [49,105] and are therefore widely distributed
+in animal, plants and microorganisms.
+Heme containing proteins represent a serious challenge for
+luminol test interpretation as they are capable of efﬁciently
+catalysing the luminol oxidation reaction. A hemoprotein is a
+protein containing a heme prosthetic group, either covalently or
+non-covalently bound to the protein itself [49]. The iron in the
+heme is capable of undergoing oxidation and reduction cycles
+usually involving a reversible change from +2 to +3 oxidation
+states and vice versa, though stabilized ferryl, Fe4+-containing
+compounds, are well known as reaction intermediates in the
+peroxidases [90,104]. Heme-proteins are found in such diverse
+roles as transport (hemoglobin, myoglobin, transferrin, neu-
+roglobin, cytoglobin, and leghemoglobin) [106,107], catalysis
+(peroxidases), active membrane transport and electron transfer
+(cytochromes) [108].
+Peroxidases, found in bacteria, fungi, and animals but most
+widely distributed throughout the plants (e.g. horseradish perox-
+idase and turnip isoperoxidases), are heme-containing enzymes
+(heme b type) belonging to the class of oxidoreductases which
+catalyze the oxidation of a substrate by hydrogen peroxide
+[109–111].Duetotheirbiochemicalpropertiesperoxidaseshave
+been extensively investigated and used for a plethora of ana-
+lytical applications especially in biochemistry and molecular
+biology. When the reducing compound is luminol, peroxi-
+dases are capable of catalyzing its oxidation with a much
+higher efﬁciency than any other catalytic species [49,105] and,
+for this reason, can produce signiﬁcant levels of chemilu-
+minescence, which can be misinterpreted as blood-dependent
+[73,112,113].
+Of particular relevance in the forensic use of luminol are
+the interfering effects from plant peroxidases which are mostly
+abundant in ﬁbrous plant material from fruits and vegetables
+(including the pulp and juice of fruits) but are also found
+with chemical variations among photosynthetic microorganisms
+[69,114]. In the presence of these enzymes, and to a lesser extent
+with other plant compounds such as the Mn2+ in Photosystem
+II [115] and/or the whole chloroplast [116], the luminol test can
+produce false positive indications often showing undetectable
+differences in light emission characteristics from that seen with
+blood [63,114].
+The peroxidase-catalyzed chemiluminescent oxidation of
+luminol involves the initial formation of highly oxidising
+species upon reaction of the oxidant (e.g. H2O2) and peroxi-
+dase. In a similar but better understood fashion to the above
+described hematin catalytic mechanism in bloodstains, the
+ferric-porphyrin prosthetic group of peroxidases undergoes a
+redox cycling between ferric, ferryl, and ferryl radical cation
+states while luminol (mono or bideprotonated form) is con-
+verted to a radical form which undergoes further reaction by the
+mechanisms suggested earlier to yield the electronically excited
+3-aminophthalate dianion [49,70,117–120].
+Commonly encountered examples of the second category
+of interferents, namely compounds with strong oxidizing
+properties towards luminol, are sodium hypochlorite, potas-
+sium permanganate and iodine. These species are present in
+many household and industrial chemical solutions, includ-
+ing insecticides, cleaning agents, disinfectants or antiseptics
+[51,95,121–123].
+Hypohalites of chlorine and bromine (hypochlorite, hypo-
+bromite) and related oxidants such as N-bromosuccinimide,
+1,3-dibromo-5,5-dimethylhydantoin and chloramine-T, are well
+known as oxidants in chemiluminescent reactions. For example,
+the red glow accompanying the reaction between hypochlo-
+rite and hydrogen peroxide, was ﬁrst reported by Mallet in
+1927 [124]. The activity of these compounds as oxidants in
+chemiluminescence reactions has recently been comprehen-
+sively reviewed by Francis and co-workers [125] as powerful
+reagents in a wide range of analytically useful reactions because
+of their relevant oxidising properties.
+Hypochlorite (OCl−), a common component of domestic
+and industrial bleaches, was one of the ﬁrst reagents used
+to induce the brilliant blue emission accompanying the oxi-
+dation of luminol [1] and it has been the subject of several
+qualitative and quantitative studies [126–129]. Hypochlorite is
+classiﬁed as a medium-strong oxidant with a standard reduction
+potential (E0′) of 0.841 V (referring to the reduction reac-
+tion OCl−+ H2O + 2e−→Cl−+ 2OH−) [130] and is capable
+of amplifying the chemiluminescence emission in luminol oxi-
+dation by hydrogen peroxide when both the compounds are
+present in the reaction medium [130]. In 1991, Arnhold et
+al. [69] found a linear relationship between concentration of
+hydrogen peroxide and light intensity in the concentration
+range 5 × 10−8 to 7.5 × 10−6 mol/L with a maximum ampliﬁca-
+tion level (550-fold) at 7.5 × 10−6 mol/L H2O2. The increased
+chemiluminescence of the luminol reaction in the presence of
+hydrogen peroxide and sodium hypochlorite is probably due to
+the hypochlorite being able to generate the diazaquinone inter-
+mediate efﬁciently, with this then rapidly reacting with peroxide.
+The chemiluminescence spectra of these reactions showed a
+wavelength maximum at 431 nm independent of the concentra-
+tion of hydrogen peroxide. This value was similar to published
+chemiluminescence emission maximum for luminol oxidation
+without sodium hypochlorite (425 nm) in other experimental
+systems suggesting that hydrogen peroxide was a necessary
+component in the chemiluminescent oxidation of the luminol
+by sodium hypochlorite [44,131].
+Investigations by Brestel [132] and Gorova et al. [133]
+showed that the luminol redox reaction involving sodium
+hypochlorite had a pathway similar to that described for other
+oxidising species such as sodium perborate or hydrogen perox-
+ide as described in a previous section, although Eriksen et al.
+suggested that hypochlorite can form the diazaquinone without
+the intermediate formation of a radical [64]. Hypochlorite is thus
+one of the most important examples of substantial interfering
+substances, as it is widely distributed throughout the domes-
+
+
+--- PAGE 13 ---
+
+908
+F. Barni et al. / Talanta 72 (2007) 896–913
+tic environment and can cause positive interference with the
+common luminol sprays including Grodsky’s or Weber’s formu-
+lations [18,19]. In addition, it may be used in an attempt to clean
+up a crime scene and remove blood evidence via its oxidation
+and physical elimination [134,135].
+The ﬁnal category of interfering substances covers a range of
+compounds which can be found in materials such as domestic
+and commercial oils, various glues, carpets, sinks, automobile
+seats,paintsandvarnishes,andmanykindsofsoils[63,114,135].
+These substances are often able to catalyse the chemilumines-
+cence almost as effectively as does the blood, but, due to their
+complex chemical composition, the exact mechanism underly-
+ing these interferences is not yet completely understood.
+3.3. Interpretation of luminol test results
+Luminol emission pattern interpretation can involve a quali-
+tative statement of the luminescence pattern characteristics and
+an evaluation of emission spectra characteristics (maximum
+emission wavelength and emission intensity) [114,134,136]. In
+addition attempts can be made to inhibit or at least reduce the
+interferences of chemiluminescence deriving from the reaction
+of luminol with substances other than blood by using chemical
+species followed by an emission intensity measurement [47,71].
+The latter approach however has only been employed success-
+fully for hypochlorite bleach-induced chemiluminescence.
+Generally visual examination is used when the luminol test
+is employed in a forensic situation, rather than instrumental
+detection of the luminescence. An experienced practitioner may
+distinguish the true blood-catalyzed chemiluminescence from
+that produced by other substances by the evaluation of param-
+eters observable to the naked eye such as emission intensity,
+duration and spatial distribution. However this approach may
+also lead to misinterpretation, due to a subjective, informal and
+non-quantitative evaluation, for example, because its intensity is
+qualitatively much weaker than that expected for blood. In other
+circumstances an emission of similar intensity may be thought
+to derive from diluted bloodstains and is accepted. Therefore,
+caution should be exercised when using the test. Any confusion
+which may arise over a stain can usually be resolved by an intel-
+ligent observation and, if necessary, by further testing [73], for
+example, by using a different presumptive test for blood, such as
+the immunochromatographic test for the conﬁrmation of human
+blood presence Hexagon OBTI (Human GmbH, Wiesbaden,
+Germany) [137].
+In practice false positives with metals are rarely a problem
+as these can usually be anticipated or resolved by careful obser-
+vation of the crime scene. Interfering solid substances such as
+metal objects or surfaces that are coated homogeneously with
+these substances (e.g. some varnishes and paints) generally show
+different and distinguishable emission patterns with respect to
+both the spatial distribution and, often, the emission intensity of
+luminescence. Upon reaction with metals both emission kinetics
+and intensity of chemiluminescence are rather characteristic: the
+emission will be twinkling and intense but short, while a luminol
+reaction with blood will produce an intense, long-lasting, even
+glow. Moreover, an interfering chemiluminescence, especially
+from solid object such as a water valve, a knife, a copper pipe,
+a ﬂoor, a carpet or a soil, will reproduce the shape, the com-
+position, the contours and the dimensions of the object while
+luminol emission patterns with blood will appear as spatters,
+wipes, smears, drag marks or even footwear impressions.
+The presence of hypochlorite-based bleaches on non-porous
+surfaces being sprayed is sometimes recognizable and can be
+identiﬁed by an experienced forensic practitioner as it leads to
+bright ﬂashes of chemiluminescence as opposed to the more
+gradual development of chemiluminescence by blood.
+One operational advantage of the luminol test is the ability
+to highlight the presence of scattered, very small droplets of
+blood by the individual ‘sparkles’ of blue chemiluminescence
+produced by each droplet. This makes this test easier to inter-
+pret then the other three common presumptive tests for blood
+(thebenzidine,phenolphthaleinandleuco-malachitechromogen
+tests) [51,77].
+In theory, a quantitative evaluation of emission spectra (max-
+imum emission wavelength and emission intensity) could be
+used to reduce the interferences of chemiluminescence deriving
+from the reaction of luminol with substances other than blood
+by using chemical species. Recently, Quickenden and Creamer
+[114] and Quickenden and Cooper [134] in a series of studies
+have used instrumental methods to examine the emission of light
+from the luminol test in order to investigate the potential to dis-
+criminate between true-positive and false positive results, and
+occasionally false negatives. These studies included investigat-
+ing the potential for distinguishing between human hemoglobin
+and other species on the basis of spectral shifts of the wavelength
+of maximum emission. They also carried out comprehensive
+studies of the luminol chemiluminescence emission elicited
+by a wide range of common potentially interfering substances
+such as vegetable and fruit smears, pulps and juices and house-
+hold/industrial chemicals such as cleaning agents, insecticides,
+glues, paints and varnishes. Of the 250 substances examined,
+they identiﬁed only a small number which produced chemilu-
+minescence comparable to that of hemoglobin (Table 2): turnips,
+parsnips, horseradish, commercial bleach (sodium hypochlo-
+rite), copper metal, some furniture polishes, some enamel paints
+and some interior fabrics from automobiles [136].
+Creamer et al. also studied [135] the serious issue of the
+hypochloriteinterferenceeffectwiththeluminoltest[126].They
+observed that when a person attempts to remove bloodstains by
+washing the area with water or sodium hypochlorite solution,
+depending on the thoroughness of the clean, the effect on the
+luminescence spectrum could range from the complete absence
+of emission to various combinations of blood-initiated emission
+and hypochlorite-initiated emission (each peaking at its separate
+respective wavelength) which might be expected if the cleaning
+process is not complete.
+Finally the same group examined in a recent study a speciﬁc
+kind of crime scene, namely the interior of an automobile, taking
+into consideration both the effect of potential interferences from
+the internal ﬁttings of the vehicle but also the effect of high
+temperature within the vehicle of the efﬁcacy of the test [138].
+The effects of attempts to wash hemoglobin from the interior of
+the vehicles tested using a variety of cleaning methods were also
+
+
+--- PAGE 14 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+909
+Table 2
+Spectral measurements showing the major interferences with the luminol test
+for blood detection expressed as mean peak wavelength shift from hemoglobin
+(nm) and mean intensity (percent of hemoglobin value); errors shown are 95%
+conﬁdence intervals in the mean values
+Interfering substance
+Mean peak
+wavelength shift from
+hemoglobin (nm)
+Mean intensity
+(% of hemoglobin
+value)
+Copper metal
+2 ± 10
+106 ± 10
+Matte-ﬁnish enamel paint
+(Dulux®)
+9 ± 4
+100 ± 10
+125 g/L NaClO aqueous
+solution
+9 ± 4
+84 ± 22
+Gloss acrylic spray paint
+(Taubman®)
+22 ± 3
+81 ± 34
+Turnip pulp
+3 ± 4
+74 ± 35
+Parsnip pulp
+8 ± 5
+56 ± 23
+Roof lining (1992 Ford
+Laser®)
+13 ± 7
+22 ± 11
+Horseradish pulp
+3 ± 4
+20 ± 12
+Wooden-furniture polish
+(Goddard’s®)
+11 ± 23
+20 ± 4
+From Ref. [136]. Copyright © 2003 John Wiley & Sons Ltd. reproduced with
+permission.
+investigated. It was found that there was little interference from
+materials within the three automobiles tested, although some
+surfaces did elicit weak luminol chemiluminescence. Attempts
+to remove hemoglobin with water alone were not successful,
+however soapy water or a proprietary car cleaner removed a
+signiﬁcant proportion of the hemoglobin from the tested surface
+(ca. 90%). Soap and water and cleaners produced better results
+than plain water because they have the ability to solvate the
+globin proteins more effectively.
+The effect of increased car interior temperature lead to
+improved sensitivity and chemiluminescence emission intensity
+of the test and this was hypothesized to be due to thermal con-
+version of hemoglobin to methemoglobin in the presence of
+molecular oxygen.
+3.4. Improvements to luminol formulations
+To minimize luminol interferences and/or to increase the
+yield of the chemiluminescence emission other approaches have
+been investigated over the years. These include the use of deriva-
+tives and analogues of luminol, a variation in the order of mixing
+of the reagents, the pre-treatment of the substrate to be tested
+with chemical substances and, ﬁnally, the addition to the lumi-
+nol mixture preparation of chemical additives which selectively
+react with the putative interfering species reducing their avail-
+ability for the reaction with luminol.
+Ewetz and Thore in 1975 described a modiﬁed luminol-
+perborate assay in which experimental samples were pre-treated
+with a solution of 0.1 M NaOH before adding a luminol prepa-
+ration without perborate, followed by treatment with a solution
+of perborate [88]. They observed a reduced light emission from
+isolated Fe2+ ions to a low constant value independent of concen-
+tration, whereas in hematin compounds the light emission was
+stoichiometrically related to these molecules allowing identiﬁ-
+cation of the two emission proﬁles based on the reaction kinetics.
+This effect could be probably due mainly to the dissociation of
+globin portion of the proteins tested from the prosthetic group
+following the pre-treatment with NaOH [139]. The incubation
+with an alkali solution exposed the hematin making it available
+for the luminol reaction while free Fe3+ is mostly complexed
+withOH−ionstoformFe(OH)3 whichispoorlysoluble.Despite
+this pioneering study being primarily aimed at deﬁning a quanti-
+tative analytical assay for the selective determination of hematin
+compounds in environmental chemistry, it was one of the ﬁrst
+attempts to increase the luminol test selectivity by changing the
+traditional test procedures. However this approach has never
+been successfully applied to the forensic ﬁeld but was restricted
+only to laboratory based analytical applications.
+More recently, several advances in the identiﬁcation of chem-
+icals interfering with the chemiluminescent reaction of luminol
+with hypochlorite have been made, and these provide insight
+into how hypochlorite interferences might be reduced in a foren-
+sic context. Most notably, Arnhold et al. [86], investigating the
+inhibitory action of some biological species towards chemilu-
+minescent reaction in the luminol–H2O2–NaOCl system under
+biological pH conditions, found that several of these species
+could directly interact with NaOCl. Most substances tested such
+as thiourea, cysteine, human serum albumin, ascorbic acid or
+methionine, acted as competitors with luminol for the interaction
+with NaOCl due to either thiol or amino groups, the former being
+easily oxidized by NaOCl, the latter reacting with NaOCl to form
+chloramines. In both cases these functional groups were able to
+scavenge NaOCl, subtracting it from the reaction with lumi-
+nol. Again, despite the interesting ﬁndings no effective attempts
+to use chemical additives to increase the selectivity of luminol
+forensic formulations (Grodsky’s or Weber’s formulations) have
+found widespread application.
+More recently however the successful use of a chemical
+species preventing luminol emission by interfering compounds
+has been reported by Kent et al. in their studies into reducing
+the effect of hypochlorite-containing bleaches [71]. In previous
+analytical chemistry papers, Gray et al. [140], Margerum et al.
+[141], and Antelo et al. [142,143] had described the reaction of
+amines with hypochlorous acid to form chloramines according
+to the following equation:
+RR′NH + HOCl ⇌RR′NCl + H2O
+where R, R′ are H or alkyl, and had showed that the reaction rate
+between hypochlorite and amines is pH dependent and depends
+on the basicity of the amine.
+Kent et al. investigated whether primary and secondary
+amines could inhibit the chemiluminescence due to hypochlo-
+rite under the alkaline conditions typical of forensic luminol tests
+(Grodsky’s or Weber’s formulations), and whether the presence
+of amines had an effect on the heme-catalyzed luminescence
+of luminol [71]. The authors observed an inhibition of bleach-
+induced chemiluminescence by amines, the effect being increas-
+ing with the alkalinity of the amines. The best inhibition effects
+(almost complete inhibition) were obtained with strongly basic
+amines such as 1,2-diaminoethane since these were the most
+effective competitors for hypochlorite under the conditions of
+common forensic sprays (those reported by Grodsky and Weber
+
+
+--- PAGE 15 ---
+
+910
+F. Barni et al. / Talanta 72 (2007) 896–913
+both lead to pH > 10). The amines did not interfere signiﬁcantly
+with the hemoglobin-catalyzed oxidation and only slightly
+reduced the chemiluminescence observed from blood still assur-
+ing a satisfactory intensity and longevity of light emission,
+sufﬁcient to be effectively used in a forensic context. A major
+disadvantage to this approach to reduce hypochlorite effect on
+luminol emission was the toxicity of amines involved. In a fol-
+low up study, King and Miskelly conﬁrmed the above results but
+they also found that the far less toxic amino acid glycine was
+very nearly as effective as an additive as the amines [47].
+In the above studies it was also noted that if the bloodstain
+could be left to air for a period of 1–2 days, the hypochlorite
+would decompose and thus no longer interfere with a standard
+luminol treatment. This effect has also been reported by
+Creamer et al. in 2005 [135] who found that the interference
+effect by bleach decreased if the area to be sprayed were left
+for several days allowing to the bloodstains to thoroughly dry,
+as the hypochlorite decomposes, thus dissipating its effect on
+luminol emission.
+Lastly, a new luminol-based formulation (patented) called
+Bluestar® Forensic (ROC Import Group, Monte Carlo, Monaco)
+was recently developed in an attempt to eliminate some incon-
+veniences (especially low emission intensity, brief lifespan of
+the emission and shortness of the solution life) associated with
+luminol sprays. Recent papers have compared the performance
+of Bluestar® Forensic luminol spray to typical luminol prepa-
+rations (Grodsky’s and Weber’s formulations) [144,145]. These
+papers concluded that Bluestar® Forensic provided convenience
+of preparation (easy to mix in the ﬁeld), that chemiluminescence
+was sufﬁciently intense and long-lasting that it could be visu-
+alised in the presence of some ambient light, and that emission
+intensity was still reasonable when a bloodstain was resprayed.
+Moreover, Bluestar® Forensic was described as a more sta-
+ble formulation since it could be used for several days after
+mixing, possibly due to it containing urea peroxide as a stable
+oxidant. It is claimed that Bluestar® Forensic is not destructive
+to DNA, whereas other Bluestar® Forensic formulations (for
+hunters and for training) can adversely affect DNA analysis (for
+more information, please visit the website http://www.bluestar-
+forensic.com).
+3.5. Sample collection and effect on serological and DNA
+analyses
+Once a bloodstain has been located and photographed it can
+be sampled for further serological and genetic analyses [63,73]
+as described in an earlier section. Once the blood residues have
+been collected the forensic biologist may proceed in two ways:
+further presumptive test for blood detection may be performed in
+order to conﬁrm the human hematic nature of the stains or, more
+likely, direct DNA extraction aimed at DNA typing procedures
+may be carried out [63,72].
+As the luminol test has been employed to detect blood stains
+that otherwise would not have been revealed due to the limited
+amount of the blood present, in most cases it is preferred to
+directly perform DNA typing procedures in order to avoid a par-
+tial loss of the already small amount of blood. Nevertheless over
+the years many attempts have been made to better characterize
+the recovered bloodstains by using both additional presumptive
+tests and DNA typing analyses.
+A major advantage of the luminol test is the lack of signif-
+icant damage to the genetic material, especially when modern
+PCR techniques are employed to analyze microsatellite DNA.
+Only moderate adverse effects have been noted over the years
+when other DNA testing procedures or serological markers were
+commonly used for identiﬁcation purposes.
+Early studies by Specht [15], Proesher and Moody [16], and
+McGrath [17] in the ﬁrst half of the 20th century demonstrated
+the absence of interfering effects between luminol solution and
+other conﬁrmatory tests performed after the luminol test.
+Lytle and Hedgecock in 1978 [73] mentioned the non-dest-
+ructive and preservative properties of the luminol solution to-
+wards other serological assays as it did not prevent subsequent
+identiﬁcation tests or ABO blood grouping analyses. However,
+they did report an interference with the electrophoretic analyses
+aimed at typing of enzymes, such as erythrocyte acid phosphat-
+ase and phosphoglucomutase, which were important at that time.
+Duncan et al. [146], investigating common ﬁngerprint devel-
+oping agents, showed that luminol had no destructive effects on
+catalytic examinations, crystal tests for hemoglobin, species test
+or elution method for the detection of blood group antigens, but
+again noted that it could seriously affect electrophoretic typing
+of enzymes.
+Grispino in 1990 [147], employing a luminol preparation
+according to Specht [15] and a modiﬁed formulation of this
+original solution followed by several blood conﬁrmatory tests,
+found no signiﬁcant detrimental effects on presumptive tests,
+Takayama conﬁrmatory test or species tests. However, a dimin-
+ished ability of ABO blood grouping by absorption elution and a
+complete loss of electrophoretic band patterns in blood enzyme
+typing were observed, likely due to the denaturing action of the
+luminol mixture.
+A comprehensive study by Laux in 1991 [148] conﬁrmed and
+extended these results.
+The minor detrimental effects noted by these authors were
+likely due to the capability of the luminol preparations (and not
+necessarily to the luminol molecule itself) to react with DNA
+or proteins. The presence of mild-strong oxidizing compounds
+such as perborate may provoke oxidative damage to proteins
+[149,150] and, also, on pyrimidine and purine nitrogenous bases
+leading to the fragmentation of the DNA double helix [150].
+The very high pH used for the luminol test (pH ∼11) may
+lead to alkaline hydrolysis of both peptide bonds in proteins
+[151] and N-glycosidic bonds between the 2-deoxyribose and
+the nitrogen base of DNA leading to an abasic site where the
+phosphodiester bond on the polydeoxyribosephosphate strand
+may undergo subsequent hydrolysis [150,152].
+Hochmeister et al. [153], testing for the ﬁrst time the effects
+of presumptive reagent such as luminol, benzidine, phenolph-
+thalein, orthotolidine, leumalachite green, and other chemicals
+on a subsequent DNA typing procedures and on semen stains
+found that evidentiary body ﬂuid stains treated still could be
+successfully typed by restriction fragment length polymorphism
+(RFLP) procedures.
+
+
+--- PAGE 16 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+911
+In the last 15 years, RFLP have been replaced by polymerase
+chain reaction (PCR) coupled to the employment of microsatel-
+lite short tandem repeats (STRs) DNA [154–156] which allows
+forensic biologists to obtain DNA typing results from mini-
+mal amounts of biological material, previously insufﬁcient for
+a successful RFLP procedure [157].
+Cresap et al. [158], investigating the effects of both luminol
+solution and Coomassie Blue on DNA ampliﬁcation by PCR
+reported that the PCR procedure was completely unaffected by
+these assays in a wide range of blood concentrations.
+Since the studies of Cresap et al., the results obtained in
+a number of studies clearly indicated that it was possible to
+recover adequate amounts of DNA suitable for STRs typing by
+the PCR technique from luminol-treated bloodstains. Luminol
+did not adversely affect, at least in a detectable manner, either
+microsatellite DNA stability or DNA extraction methods or PCR
+chemistry. For example, in a comprehensive paper of 1999 Gross
+et al. [159] found that the standard treatment according to Grod-
+sky et al. [18] had no detrimental effects on the PCR testing,
+with the DNA yield and the ability to type the bloodstains using
+PCR-based technologies being mainly dependent on the nature
+of the substrate and the method of cleaning.
+Fregeau et al. [72] investigated whether the commonest blood
+enhancement reagents could interfere with the subsequent DNA
+extraction procedures and with AmpFlSTR® Proﬁler PlusTM
+(Applied Biosystems, Foster City, CA, USA) ﬂuorescent STRs
+DNA analysis. Fresh or aged bloody ﬁngerprints on various
+porous and non-porous surfaces were extracted and typed after
+short-term exposure (less than 54 days) to a range of chemicals
+including luminol on linoleum, glass, metal, pine white-painted
+wood, some kinds of clothing and paper. DNA yields before
+and after treatment indicated a reduction in the quantity of DNA
+recovered from bloody ﬁngerprints by a factor of 2–12 proba-
+bly because of the effect on the integrity of the DNA molecules
+which could potentially compromise DNA typing analysis in
+the case of small stains. Nevertheless they noted no adverse
+effects on the PCR ampliﬁcation of the nine STRs systems sur-
+veyed or of the gender determination marker Amelogenin when
+chemical enhancement of bloodmarks using any of the selected
+compounds was conducted for a term below 54 days of exposure.
+ThisstudydemonstratedthatPCRSTRsDNAtypingprocedures
+were robust and provided excellent and effective results even
+when used after exposure to different enhancement chemicals.
+In a contemporaneous study, Della Manna and Montpetit
+[160] investigated the capability of routinely isolating and
+recovering amounts of DNA suitable for PCR typing from
+luminol-treated latent bloodstains. They noted that adequate
+amounts of DNA suitable for PCR typing at all of the Promega
+PowerPlex® 1.1 (Promega Corporation, Madison, WI, USA)
+loci upon post luminol treated bloodstains could be effectively
+recovered.
+4. Conclusions
+Luminol has always been considered by the international
+forensic community a fascinating but, at the same time, an
+“obscure” chemical compound. Despite of its “age” and the
+numerous attempts to reveal the chemical mechanism of light
+emission, the interferences from substances other than blood and
+how the reaction could be improved for forensic purposes are
+still not completely understood even in experimental controlled
+systems. Nevertheless, despite these issues, luminol continues to
+provoke great interest and to represent a challenge because it has
+revealed itself in practice to be an affordable, sensitive and sim-
+ple detection system for invisible bloodstains detection with few
+detrimental effects on the subsequent DNA recovery and typing.
+However, the undoubted chemical complexity of the emission
+reaction and the presence of several substances interfering with
+the reaction and potentially leading to incorrect results, should
+oblige the forensic practitioner to know these disadvantages in
+order to carefully deal with them and to properly use the “cold
+light” test at the crime scene.
+Acknowledgments
+The authors would like to express their gratitude to Steve
+Gutowski from the Victoria Police Forensic Services Centre in
+Macleod, Victoria, Australia; to Donatella Pietraforte from the
+Cellular Biology and Neuroscience Department of the Supe-
+rior Institute of Health in Rome, Italy; to Ron Nichols from the
+Department of Justice—Forensic Science Laboratory of Walnut
+Creek in California, USA; and to Dimitri Svistunenko from the
+Department of Biological Sciences of the University of Essex,
+UK. All these persons indirectly collaborated at various levels
+to this work providing both valuable bibliography material and
+suggestions, comments and important contributions.
+References
+[1] E. Wiedemann, Ann. Phys. Chem. 34 (1888) 446.
+[2] A.M. Garc´ıa-Campa˜na, W.R.G. Baeyens, L. Cuadros-Rodr´ıguez, F. Al´es
+Barrero, J.M. Bosque-Sendra, L. G´amiz-Gracia, Curr. Org. Chem. 6
+(2002) 1–20.
+[3] J.W. Hastings, C.H. Johnson, Methods Enzymol. 360 (2003) 75–104.
+[4] A. Roda, M. Guarigli, E. Michelini, M. Mirasoli, P. Pasini, Anal. Chem.
+75 (2003) 463A–470A.
+[5] N.W. Barnett, P.S. Francis, Chemiluminescence: Liquid-Phase, Ency-
+clopedia of Analytical Science, second ed., Elsevier Academic Press,
+London, 2005.
+[6] D.A. Skoog, F.J. Holler, T.A. Nieman, Principles of Instrumental Analy-
+sis, ﬁfth ed., Saunders College Publishing, Philadelphia, 1998.
+[7] A.K.Campbell,Chemiluminescence:PrinciplesandApplicationsinBiol-
+ogy and Medicine, Ellis Horwood Ltd., Chichester, 1988.
+[8] J. Lind, G. Mer´enyi, Chem. Phys. Lett. 82 (1981) 331–334.
+[9] L.J. Kricka, Anal. Chem. 67 (1995) 499R–502R.
+[10] R.E. Gaensslen, Sourcebook in Forensic Serology, Immunology, and Bio-
+chemistry, U.S. Department of Justice, Washington, DC, 1983.
+[11] S.K. Gill, Aldrichim. Acta 16 (1983) 59–61.
+[12] A. Schmitz, Uber des hydrazyde der trimensinsaure und der hemimellit-
+saure, Inaug.-Dissert., Heidelberg, 1913.
+[13] J.I. Thornton, R.S. Maloney, Calif. Assoc. Crim. Newslett. (September)
+(1985) 9–16.
+[14] H.O. Albrecht, Z. Physik. Chem. 136 (1928) 321–330.
+[15] W. Specht, Angew. Chem. 50 (1937) 155–157.
+[16] F. Proescher, A.M. Moody, J. Lab. Clin. Med. 24 (1939) 1183–1189.
+[17] J. McGrath, Br. Med. J. 2 (1942) 156–157.
+[18] M. Grodsky, K. Wright, P.L. Kirk, J. Crimin. Law Criminol. Police Sci.
+42 (1951) 95–104.
+[19] K. Weber, Dtsch. Z. Gesamte Gerichtl. Med. 57 (1966) 410–423.
+
+
+--- PAGE 17 ---
+
+912
+F. Barni et al. / Talanta 72 (2007) 896–913
+[20] G. Mer´enyi, J. Lind, T.E. Eriksen, J. Biolumin. Chemilumin. 5 (1990)
+53–56.
+[21] L.J. Kricka, P.E. Stanley, G.H.G. Thorpe, T.P. Whitehead, Proceedings of
+the 3rd International Symposium on Bioluminescence and Chemilumi-
+nescence, Academic Press, New York, 1984.
+[22] T. Nieman, in: J.W. Birks (Ed.), Chemiluminescence and Photochemi-
+cal Reaction Detection in Chromatography, VCH, New York, 1989, pp.
+99–123.
+[23] A.M. Garc´ıa-Campa˜na, W.R.G. Baeyens, Y. Zhao, Anal. Chem. 69 (1997)
+83A–88A.
+[24] J. Yuan, A.M. Shiller, Anal. Chem. 71 (1999) 1975–1980.
+[25] A. Roda, P. Pasini, M. Guardigli, M. Baraldini, M. Musiani, M. Mirasoli,
+Fresenius J. Anal. Chem. 366 (2000) 752–759.
+[26] A.M. Garc´ıa-Campa˜na, W.R.G. Baeyens, Chemiluminescence in Analyt-
+ical Chemistry, CRC Press, Boca Raton, 2001.
+[27] M. Kurihara, T. Hasebe, T. Kawashima, Bunseki Kagaku 51 (2002)
+205–233.
+[28] M. Yamaguchi, H. Yoshida, H. Nohta, J. Chromatogr. A 950 (2002) 1–19.
+[29] N.W. Barnett, P.S. Francis, Chemiluminescence: Overview, Encyclopedia
+of Analytical Science, second ed., Elsevier Academic Press, London,
+2005.
+[30] A.L. Vish, T.E. Yeshion, N. Am. Archaeol. 25 (2004) 153–159.
+[31] A. Tug, Y.D. Alakoc, I.H. Hanci, Forensic Sci. Int. 153 (2005) 156–160.
+[32] H.H. Paradies, Berichte Der Bunsen-Gesellschaft-Phys. Chem. Chem.
+Phys. 96 (1992) 1027–1031.
+[33] S. Budavari, The Merck Index, 12th ed., Merck & Co Inc., Whitehall,
+1996, p. 957.
+[34] R.A.W. Stott, L.J. Kricka, in: J. Schoelmerich (Ed.), J. Proc. Int. Biolumin.
+Chemilumin. Symp. 4th Meeting, John Wiley & Sons Ltd., Chichester,
+1987, pp. 237–240.
+[35] U. Isacson, J. Kowalewska, G. Wettermark, J. Inorg. Nucl. Chem. 40
+(1978) 1653–1656.
+[36] K.E. Haapakka, J.J. Kankare, J.A. Linke, Anal. Chim. Acta 139 (1982)
+379–382.
+[37] G. Mer´enyi, J. Lind, X. Shen, T.E. Eriksen, J. Phys. Chem. 94 (1990)
+748–752.
+[38] E.H. White, in: W.D. McElroy, B. Glass (Eds.), Light and Life, John
+Hopkins Press, Baltimore, 1961, pp. 183–195.
+[39] E.H. White, M.M. Bursey, J. Am. Chem. Soc. 86 (1964) 941–942.
+[40] E.H. White, O. Zaﬁriou, H.H. Kagi, J.H.M. Hill, J. Am. Chem. Soc. 86
+(1964) 940–941.
+[41] K.D. Gundermann, F. McCapra, Chemiluminescence in Organic Chem-
+istry, Springer-Verlag, Berlin, 1987.
+[42] K.D. Gundermann, Angew. Chem. (Int. Edn.) 4 (1965) 566–573.
+[43] H.W. Schneider, J. Chem. Educ. 47 (1970) 519.
+[44] D.F. Roswell, E.H. White, Methods Enzymol. 57 (1978) 409–483.
+[45] B.Z. Shakhashiri, Oxidations of Luminol, Chemical Demonstrations, vol.
+1, University of Wisconsin Press, Madison, 1983, pp. 156–167.
+[46] M.M. Rauhut, in: M. Grayson (Ed.), Kirk-Othmer Concise Encyclopedia
+of Chemical Technology, third ed., John Wiley and Sons Inc., New York,
+1985, pp. 247–248.
+[47] R. King, G.M. Miskelly, Talanta 67 (2005) 345–353.
+[48] A. Larena, M. Valero, E. Bernabeu, Optica Pura Y Aplicada 16 (1983)
+91–96.
+[49] K. Kadish, K.M. Smith, R. Guilard, The Porphyrin Handbook, vol. 8,
+Academic Press, London, 1999.
+[50] H.F. Bunn, B.G. Forget, Hemoglobin: Molecular, Genetic, and Clinical
+Aspects, Saunders WB Co., Philadelphia, 1986, pp. 634–662.
+[51] T.E. Yeshion, in: P.E. Stanley, L.J. Kricka (Eds.), Proceedings of the 6th
+International Symposium on Bioluminescence and Chemiluminescence,
+John Wiley & Sons Ltd., Chichester, 1991, pp. 379–384.
+[52] R.R.J. Grispino, Prosecutor 25 (1991) 28–32.
+[53] K. Kadish, K.M. Smith, R. Guilard, The Porphyrin Handbook, vol. 4,
+Academic Press, London, 1999.
+[54] Z. Genfa, P.K. Dasgupta, Anal. Chem. 64 (1992) 517–522.
+[55] M.A. Motsenbocker, Y. Ichimori, K. Kondo, Anal. Chem. 65 (1993)
+397–402.
+[56] H.K. Chung, P.K. Dasgupta, J.N. Marx, Talanta 40 (1993) 981–988.
+[57] D.A. Svistunenko, Biochim. Biophys. Acta 1707 (2005) 127–155.
+[58] L. Erdey, W.F. Pickering, C.L. Wilson, Talanta 9 (1962) 371–375.
+[59] D. Dolphin, R.H. Felton, Acc. Chem. Res. 7 (1974) 26–32.
+[60] S. Baj, T. Krawczyk, J. Photochem. Photobiol. A 183 (2006) 111–120.
+[61] R.S. Higaki, W.M.S. Philp, Can. Soc. Forensic Sci. J. 9 (1976) 97–102.
+[62] M. Cox, J. Forensic Sci. 36 (1991) 1503–1511.
+[63] D.L. Laux, in: S. James, P.E. Kish, T.P. Sutton (Eds.), Principles of Blood-
+stain Pattern Analysis: Theory and Practice, CRC Press, Boca Raton,
+2005, pp. 369–389.
+[64] T.E. Eriksen, J. Lind, G. Mer´enyi, J. Chem. Soc. Faraday Trans. 77 (1981)
+2125–2135.
+[65] J. Lind, G. Mer´enyi, T.E. Eriksen, J. Am. Chem. Soc. 105 (1983)
+7655–7661.
+[66] G. Mer´enyi, J. Lind, J. Am. Chem. Soc. 102 (1980) 5830–5835.
+[67] G. Mer´enyi, J. Lind, T.E. Eriksen, J. Phys. Chem. 88 (1984) 2320–2323.
+[68] G. Mer´enyi, J. Lind, T.E. Eriksen, J. Am. Chem. Soc. 108 (1986)
+7716–7726.
+[69] J. Arnhold, S. Mueller, K. Arnold, E. Grimm, J. Biolumin. Chemilumin.
+6 (1991) 189–192.
+[70] M.J. Cormier, P.M. Prichard, J. Biol. Chem. 243 (1968) 4706–4714.
+[71] E.J.M. Kent, D.A. Elliot, G.M. Miskelly, J. Forensic Sci. 48 (2003) 64–67.
+[72] C.J. Fregeau, O. Germain, R.M. Fourney, J. Forensic Sci. 45 (2000)
+354–380.
+[73] L.T. Lytle, D.G. Hedgecock, J. Forensic Sci. 23 (1978) 550–562.
+[74] O.J. Pex, Int. Assoc. Bloodstain Pattern Anal. Newslett. (December)
+(2005) 11–15.
+[75] B. Budowle, J.L. Leggitt, D.A. Defenbaugh, K.M. Keys, S.F. Malkiewicz,
+J. Forensic Sci. 45 (2000) 1090–1092.
+[76] N. Vandenberg, R.A. van Oorschot, J. Forensic Sci. 51 (2006) 361–370.
+[77] J.L. Webb, J.I. Creamer, T.I. Quickenden, Luminescence 21 (2006)
+214–220.
+[78] G. Lefebvre, Int. Assoc. Bloodstain Pattern Anal. Newslett. (June) (2005)
+4–7.
+[79] P. Kirk, Crime Investigations, Interscience, New York, 1953, p. 650.
+[80] S.M. Ballou, J. Forensic Sci. 40 (1995) 675–680.
+[81] J.I. Thornton, K. Guarino, F.G. Rios, P.J. Cashman, J. Forensic Sci. 31
+(1986) 254–257.
+[82] L.A. Burgoyne, J. Kijas, P. Hallsworth, J. Turner, 5th International Sym-
+posium of Human Identiﬁcation, Promega Corporation, Madison, 1994.
+[83] L.A. Burgoyne, U.S. Patent 5,496,562 (1996).
+[84] H. Cui, R. Meng, H. Jiang, Y. Sun, X. Lin, Luminescence 14 (1999)
+175–182.
+[85] G. Bottu, J. Biolumin. Chemilumin. 3 (1989) 59–65.
+[86] J. Arnhold, S. Mueller, K. Arnold, K. Sonntag, J. Biolumin. Chemilumin.
+6 (1993) 307–313.
+[87] H. Sakagami, et al., Anticancer Res. 15 (1995) 917–922.
+[88] L. Ewetz, A. Thore, Anal. Biochem. 71 (1975) 564–570.
+[89] B.A. Burke, K. Golestaneh, H. Samson, J. Chem. Educ. 76 (1999) 65–66.
+[90] R.A. Sheldon, Metalloporphyrins in Catalytic Oxidations, CRC Press,
+Boca Raton, 1994.
+[91] G. Stotzky, J.M. Bollag, Soil Biochemistry, vol. 10, CRC Press, Boca
+Raton, 2000.
+[92] S.E. Manahan, Environmental Chemistry, eighth ed., CRC Press, Boca
+Raton, 2005.
+[93] R.M. Cornell, U. Schwertmann, The Iron Oxides: Structure, Properties,
+Reactions, Occurrences and Uses, second ed., Wiley-VCH, Berlin, 2003.
+[94] D.A. Skoog, D.M. West, Fundamentals of Analytical Chemistry, Holt,
+Reinhart and Winston, New York, 1976.
+[95] R. Kraul, H.H. Meyer, Angew. Chem. 54 (1941) 213–215.
+[96] A. Fernandez-Gutierrez, A.M. De La Pena, in: S.G. Schulman (Ed.),
+Molecular Luminescence Spectroscopy, John Wiley & Sons Inc., New
+York, 1985, pp. 463–475.
+[97] W.R. Seitz, D.M. Hercules, Anal. Chem. 44 (1972) 2143–2149.
+[98] H. Ojima, K. Nonoyama, Aichi Kyoiku Daigaku Hokoku Shizen Kagaku
+40 (1991) 21–31.
+[99] J.M. Lin, X. Shan, S. Hanaoka, M. Yamada, Anal. Chem. 73 (2001)
+5043–5051.
+[100] P.F. Lindley, Rep. Prog. Phys. 59 (1996) 867–933.
+
+
+--- PAGE 18 ---
+
+F. Barni et al. / Talanta 72 (2007) 896–913
+913
+[101] R. Wilson, D.J. Schiffrin, Anal. Chem. 68 (1996) 1254–1257.
+[102] R.R. Crichton, Adv. Protein Chem. 40 (1990) 281–363.
+[103] B. Krautler, Biochem. Soc. Trans. 33 (2005) 806–810.
+[104] F. Montanari, L. Casella, Metalloporphyrins Catalyzed Oxidations (Catal-
+ysis by Metal Complexes), Springer-Verlag, Berlin, 1994.
+[105] K. Kadish, K.M. Smith, R. Guilard, The Porphyrin Handbook, vol. 9,
+Academic Press, London, 1999.
+[106] V.G. Maltsev, T.M. Zimina, A.B. Khvatov, B.G. Belenkii, J. Chromatogr.
+416 (1987) 45–52.
+[107] Z. Song, L. Wang, S. Hou, Anal. Bioanal. Chem. 378 (2004) 529–535.
+[108] C. Bonﬁls, S. Charasse, J.P. Bonﬁls, C. Larroque, Anal. Biochem. 226
+(1995) 302–306.
+[109] S. Kimura, M. Ikeda-Saito, Proteins 3 (1988) 113–120.
+[110] W. Kaim, B. Schwederski, Bioinorganic Chemistry: Inorganic Elements
+in the Chemistry of Life, John Wiley & Sons Ltd., Chichester, 1991.
+[111] K.G. Welinder, Curr. Opin. Struct. Biol. 2 (1992) 388–393.
+[112] J.R. Scholmerich, R. Andreesen, A. Kapp, M. Ernst, W. Woods, Biolu-
+minescence and Chemiluminescence: New Perspectives, John Wiley &
+Sons Ltd., Chichester, 1987.
+[113] A.M. Egorov, B.B. Kim, V.V. Pisarev, Y.L. Kapeliuch, I.G. Gazarian,
+in: A.A. Szalay, P.E. Stanley, L.J. Kricka (Eds.), Bioluminescence and
+Chemiluminescence Status Report, John Wiley & Sons Ltd., Chichester,
+1993, pp. 286–290.
+[114] T.I. Quickenden, J.I. Creamer, Luminescence 16 (2001) 295–298.
+[115] I.I. Putrenko, Biochemistry 35 (1996) 2865–2871.
+[116] V.A. Shchubalov, Biokhimiia 40 (1975) 358–367, V.A.
+[117] L.R. Milgrom, The Colours of Life: an Introduction to the Chemistry of
+Porphyrins and Related Compounds, Oxford University Press Inc., New
+York, 1997.
+[118] G.H. Thorpe, L.J. Kricka, Methods Enzymol. 133 (1986) 331–353.
+[119] A. Ivancich, G. Mazza, A. Desbois, Biochemistry 40 (2001) 6860–6866.
+[120] J. Arnhold, Biochemistry (Mosc.) 69 (2004) 4–9.
+[121] W.R. Seitz, D.M. Hercules, in: M.J. Cormier, D.M. Hercules, J. Lee
+(Eds.), Chemiluminescence and Bioluminescence, Plenum Press, New
+York, 1973, pp. 427–449.
+[122] W.R. Seitz, D.M. Hercules, J. Am. Chem. Soc. 96 (1974) 4094–4098.
+[123] J. Shen, L. Chen, W. Gao, Q. Zhou, Lihua Jianyan Huaxue Fence 34
+(1998) 132–134.
+[124] L. Mallet, C. R. Acad. Sci. C 185 (1927) 352–354.
+[125] P.S. Francis, N.W. Barnett, S.W. Lewis, K.F. Lim, Luminescence 19
+(2004) 94–115.
+[126] W.R. Seitz, J. Phys. Chem. 79 (1975) 101–106.
+[127] T.P. Vorob′eva, et al., Processes Involved in Luminol Oxidation
+Accompanied by Chemiluminescence, 1, Mechanism of Oxidation by
+Hypochlorite, Bull. Acad. Sci. USSR Div. Chem. Sci., Moscow, 1976,
+pp. 2043–2048.
+[128] T.P. Vorob’eva, et al., Luminol Oxidation Processes Accompanied by
+Chemiluminescence, 3, Phenomenological Principles of Chemilumines-
+cence in the Luminol-Sodium Hypochlorite System, Bull. Acad. Sci.
+USSR Div. Chem. Sci., Moscow, 1978, pp. 474–478.
+[129] B.A. Rusin, A.L. Roshchin, A.N. Leksin, V.N. Emokhonov, Dokl. Phys.
+Chem. 241 (1978) 638–641.
+[130] D.R. Lide, CRC Handbook of Chemistry and Physics, 80th ed., CRC
+Press, Boca Raton, 2000, pp. 8–27.
+[131] P.D. Wildes, E.G. White, J. Am. Chem. Soc. 95 (1973) 2610–2617.
+[132] E.P. Brestel, Biochem. Biophys. Res. Commun. 126 (1985) 482–488.
+[133] N.J. Gorova, S.N. Lyziova, B.P. Scharonov, O.J. Kankovskij, Biochimika
+52 (1987) 1670–1676.
+[134] T.I. Quickenden, P.D. Cooper, Luminescence 16 (2001) 251–253.
+[135] J.I. Creamer, T.I. Quickenden, L.B. Crichton, P. Robertson, R.A. Ruhayel,
+Luminescence 20 (2005) 411–413.
+[136] J.I. Creamer, T.I. Quickenden, M.V. Apanah, K.A. Kerr, P. Robertson,
+Luminescence 18 (2003) 193–198.
+[137] M.N. Hochmeister, B. Budowle, R. Sparkes, O. Rudin, C. Gehrig, M.
+Thali, L. Schmidt, A. Cordier, R. Dirnhofer, J. Forensic Sci. 44 (1999)
+597–602.
+[138] T.I. Quickenden, C.P. Ennis, J.I. Creamer, Luminescence 19 (2004)
+271–277.
+[139] H.A. Neufeld, C.J. Conklin, R.D. Towner, Anal. Biochem. 12 (1965)
+303–309.
+[140] E.T. Gray, D.W. Margerum, R.P. Huffman, in: F.E. Brinkman, J.M. Bel-
+lama (Eds.), Organometals and Organometalloids: Occurrence and Fate
+in the Environment, American Chemical Society, Columbus, 1978, pp.
+264–277.
+[141] D.W. Margerum, E.T. Gray, R.P. Huffman, in: F.E. Brinkman, J.M. Bel-
+lama (Eds.), Organometals and Organometalloids: Occurrence and Fate
+in the Environment, American Chemical Society, Columbus, 1978, pp.
+278–291.
+[142] J.M. Antelo, F. Arce, M.C. Castro, J. Crugeiras, J.C. Perez-Moure, P.
+Rodriguez, Int. J. Chem. Kin. 27 (1995) 703–717.
+[143] J.M. Antelo, F. Arce, M. Parajo, Int. J. Chem. Kin. 27 (1995) 637–647.
+[144] L. Dilbeck, J. Forensic Ident. 56 (2006) 706–720.
+[145] L.J. Blum, P. Esperanc¸a, S. Rocquefelte, Can. Soc. Forensic Sci. J. 39
+(2006) 81–100.
+[146] G.T. Duncan, H. Seiden, L. Vallee, D. Ferraro, J. Assoc. Anal. Chem. 69
+(1986) 677–680.
+[147] R.R.J. Grispino, Crime Lab. Digest 17 (1990) 13–23.
+[148] D.L. Laux, J. Forensic Sci. 36 (1991) 1512–1520.
+[149] E.R. Stadtman, R.L. Levine, Ann. N. Y. Acad. Sci. 899 (2000) 191–208.
+[150] V.A. Bloomﬁeld, D.M. Crothers, I. Tinoco, Nucleic Acids: Structures,
+Properties, and Functions, University Science Books, Sausalito, 2000.
+[151] G. Walsh, Proteins: Biochemistry and Biotechnology, John Wiley & Sons
+Ltd., Chichester, 2001.
+[152] N. Takeda, M. Shibata, N. Tajima, K. Hirao, M. Komiyama, J. Org. Chem.
+65 (2000) 4391–4396.
+[153] M.N. Hochmeister, B. Budowle, F.S. Baechtel, J. Forensic Sci. 36 (1991)
+656–661.
+[154] J.L. Weber, P.E. May, Am. J. Hum. Genet. 44 (1989) 388–396.
+[155] A. Edwards, A. Civitello, H.A. Hammond, C.T. Caskey, Am. J. Hum.
+Genet. 49 (1991) 746–756.
+[156] J.S. Beckmann, J.L. Weber, Genomics 12 (1992) 627–631.
+[157] J.M. Butler, Forensic DNA Typing: Biology, Technology, and Genetics
+of STR Markers, second ed., Elsevier Academic Press, London, 2005.
+[158] T.R. Cresap, et al., 47th Annual American Academy of Forensic Sciences
+Meeting, Seattle, 1995.
+[159] A.M. Gross, K.A. Harris, G.L. Kaldun, J. Forensic Sci. 44 (1999)
+837–840.
+[160] A. Della Manna, S. Montpetit, J. Forensic Sci. 45 (2000) 886–890.

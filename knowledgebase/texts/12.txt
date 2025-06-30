@@ -1,0 +1,1101 @@
+
+
+--- PAGE 1 ---
+
+Determination of the maximum distance blood spatter travels from a
+vertical impact
+Chris Flighta,*, Max Jonesb, Kaye N. Ballantynea
+a Ofﬁce of the Chief Forensic Scientist, Victoria Police Forensic Services Department, Australia
+b Biological Services Group, Victoria Police Forensic Services Department, Australia
+A R T I C L E 
+I N F O
+Article history:
+Received 27 February 2018
+Received in revised form 10 October 2018
+Accepted 17 October 2018
+Available online 26 October 2018
+Keywords:
+Blood Pattern Analysis
+Impact bloodstain patterns
+Forensic science
+Crime scene
+A B S T R A C T
+Bloodstain evidence can be very powerful evidence in assault related crimes. Determination of the
+distance that blood droplets may travel as a result of an impact into liquid blood may be of signiﬁcance to
+corroborate or disprove a version of events, provide likely scenarios, or help determine the culpability of a
+person in determining their proximity to the blood shedding event. It was the aim of this research to
+determine the potential maximum distance blood droplets travel horizontally following a vertical impact
+into liquid blood. A custom apparatus was designed and constructed to replicate a vertical impact of a
+timber weapon, rotating on a ﬁxed axis at one end, striking a pool of liquid blood. The device was
+positioned at three different levels of elevation to replicate an impact to the head of a person near ground
+level, a seated or kneeling height and standing height. Overall, the results indicated that the application of
+kinetic energy of between 1 and 5 J at a height of 1780 mm led to the blood droplets travelling a maximum
+horizontal distance of 5361 mm (and average maximum distance of 4981 mm). The horizontal distance
+blood droplets may travel upon impact does not appear to follow a linear trend with differing kinetic
+energy, but is affected by the applied force and release height in a curvilinear relationship. The results
+provide a valuable tool to bloodstain pattern analysts and investigators in determining search zones
+within a scene, as well as providing information about the proximity of an individual to an impact event.
+Crown Copyright © 2018 Published by Elsevier B.V. All rights reserved.
+1. Introduction
+Bloodstains can be one of the most common forms of biological
+evidence located at assault related crime scenes. Bloodstains can
+assist us in indicating who was involved in an assault via DNA
+proﬁling, however bloodstain pattern analysis (BPA) may assist in
+determining where and how the blood shedding event occurred.
+With a high proportion of physical assaults that result in death
+coming from blunt force injuries [1], the physical characteristics of
+bloodstains can be powerful evidence. Bevel and Gardner [2] state
+that “bloodstain pattern analysis is based on a very simple theory:
+blood as a ﬂuid will react to external forces in a predictable fashion”.
+This theory sets the premise for BPA, in that the patterns are
+reproducible under similar physical conditions [3] and as such the
+physical characteristics of the bloodstain patterns can reﬂect the
+nature of events that produced them.
+The analysis of the size, shape, location, and distribution of
+bloodstains can assist with information on how they were
+deposited [4] and BPA often plays a role in supporting or refuting
+statements of the victim, suspect or witness [3]. For example,
+determining the volume and impact velocity of small bloodstains
+may assist determining the position of where they originated [5],
+potentially providing information about whether the blood
+staining on a suspect’s clothing could have been deposited as a
+result of rendering ﬁrst aid [6] or being a bystander. In recent times
+the reliability of BPA methodology has been heavily scrutinised by
+the courts and the scientiﬁc community. The National Research
+Council report in 2009 [7] included the suggestion that an
+understanding of the physics of ﬂuid transfer was required for
+bloodstain pattern interpretation and reconstruction and that the
+“uncertainties associated with bloodstain pattern analysis are
+enormous”. The fundamentals of ﬂuid dynamics relating to BPA
+have been explored and certain aspects identiﬁed as requiring
+further work to increase the understanding in this ﬁeld have been
+identiﬁed [8,9]. Subsequently, there has been a signiﬁcant increase
+in BPA research to explore the accuracy and reliability including a
+comparative review of ﬂuid dynamics and BPA [8] that highlight
+the links between them.
+Historically much of the research in BPA has focused on
+determining the area of origin, deﬁned as “the space in three
+dimensions to which the trajectories of spatter can be utilized to
+* Corresponding author at: Ofﬁce of the Chief Forensic Scientist, Victoria Police
+Forensic Services Department, Macleod, Victoria 3085, Australia.
+E-mail address: christopher.ﬂight@police.vic.gov.au (C. Flight).
+https://doi.org/10.1016/j.forsciint.2018.10.015
+0379-0738/Crown Copyright © 2018 Published by Elsevier B.V. All rights reserved.
+Forensic Science International 293 (2018) 27–36
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locat e/f orsciint
+
+
+--- PAGE 2 ---
+
+determine the location of the spatter producing event” [10]. A
+numberof recent studies have focused on improving knowledge and
+accuracy for areas including (but not limited to) position determi-
+nation [5], the dynamics of blood release and formation of cast-off
+patterns [11], numerical models for forward blood droplet trajectory
+predictions [12] and back spatter from gunshots [13].
+A common legal argument exists as to whether the blood-
+staining located on a defendant [4] puts them in close proximity to
+the victim at the time of the assault. Several crime scene cases
+known to the authors of this study involved the defense that the
+blood spatter stains located on the suspect’s clothing was the result
+of being some distance from the assault, not through direct
+involvement. This has led to the identiﬁcation of a gap in practical
+empirical studies measuring the distance that blood droplets can
+travel as a result of a blunt impact (excluding gunshots).
+All recorded results from published peer reviewed studies
+reporting the distances that impacted blood droplets have
+travelled appear to have been incidental or secondary to the
+aim of their research. MacDonnell and Bialousz [14] examined a
+variety of aspects of bloodstain properties and dynamics, being the
+ﬁrst to document the distance that blood travelled from origin
+caused by medium to high velocity impact forces from a motor
+driven device. The maximum distance travelled was stated to be
+3380 mm, but unfortunately little further empirical data was
+provided. Sweet [15] researched the velocity measurements of
+blood droplets from a medium velocity impact source, using a steel
+cylinder, in to a pool of liquid blood. Sweet noted bloodstains
+located on paper 820 mm above and 430 mm away from the impact
+site. Ristenbatt and Shaler [16] reported on the bloodstain pattern
+analysis in a homicide case study where a victim was beaten about
+the upper body. This article reported the maximum height the
+blood recorded was 2700 mm and the maximum distance travelled
+horizontally was 1900 mm, however as a case study the variables
+surrounding the deposition of the blood were unknown and
+inestimable. Slemko [17] in a project titled “The Effects of Droplet
+Velocity and Fabric Composition” reported that the maximum
+distance travelled by blood droplets propelled by a high speed fan
+was recorded to be 3500 mm which was the limit of the test. More
+recently Attinger et al. [18] show ﬁgures with several bloodstains
+of between 1500 mm and 2000 mm from blood source to target,
+Laan et al. [5] reported creating impact spatters at a distance of
+1000 mm and Kabaliuk et al. [12] reported a ﬂight range of about
+1530 mm.
+The current practical study aims to investigate the mean and
+maximum horizontal distances that blood droplets travel follow-
+ing a vertical impact into liquid blood, under controlled conditions.
+Utilising a custom designed impact device, the effect of kinetic
+energy was explored at three different heights to replicate an
+impact inﬂicted to a person positioned lying on the ground, sitting/
+kneeling or when standing. The casework relevancy of these
+results would assist in determining the maximum horizontal range
+that a blood droplet could travel from an impact spatter event,
+allowing an assessment of the likelihood of an individual’s
+proximity to the event. The experimental design was intended
+to replicate a range of situations and variables commonly
+encountered in casework, based on practical constraints and the
+need to control particular factors. This study was designed to
+achieve experimental results useful to casework, rather than to test
+or generate to theoretical or numerical models.
+2. Materials and methods
+2.1. Device design
+An apparatus was designed and built to create a range of
+controlled strikes to impact liquid blood pools using a length
+(1000  90  45 mm) of F17 hardwood timber (Fig. 1) rotating
+about an axle at one end. A timber frame was built around the base
+of a sheet of form ply board (1200  600  20 mm) using pine
+timber (90  45 mm). A metal bracket and several metal corner
+joiners supported a length of pine timber placed centrally and
+vertically at the end of one of the form ply boards. A quarter circle
+shaped piece of marine ply was placed on the opposite side of the
+metal bracket with two pieces of pine secured on the upper sides of
+the form ply to support the threaded metal rod which was inserted
+through the hardwood timber “weapon”.
+A length of F17 hardwood timber was used as the “weapon”
+arm. This timber was speciﬁcally selected to have an even ﬂat edge,
+high strength and high density value. A piece of hard, ﬂat marine
+plywood, with a varnished upper surface, was placed on the base of
+the form ply board where the distal end of the F17 timber striking
+arm was to impact. A hole was drilled horizontally through the
+proximal end of the F17 timber (Fig. 2) through which a threaded
+metal rod was inserted (at the rotating point) providing a perfectly
+level join when the F17 timber arm came together with the impact
+striking surface. Bearing ﬂanges and bearing washers were utilised
+to allow for a smoother movement of the arm with less friction.
+A metal spring (Century brand
+5
+8 61
+2 in. extension) was
+connected to the F17 timber arm via a counter sunk metal eye hook
+(Fig. 2), and attached to another threaded metal rod running
+beneath the ply form board through a hole cut in the form ply
+board (Fig. 3). The placement of the spring ensured that at rest, the
+spring was in the neutral position (i.e. no tension applied).
+The base and legs of the device were made from a second sheet
+of framed form ply, with the same dimensions as the top. Three
+lengths of pine timber (200 mm, 1000 mm and 1800 mm) were
+used as supports to the impacting device (on the upper form ply
+board) at three different impact surface heights (Fig. 4). Two 20 kg
+bags of sand were placed in the base of the apparatus to maintain
+stability and prevent movement of the device upon impact.
+Incremental slots with shaft bearing ﬂanges were positioned on
+the semi-circular bracket at various positions to control the
+starting angle of the F17 timber arm. The F17 timber arm was held
+in place by the stainless steel rod being inserted through the
+bearing ﬂanges. The rod was removed by quickly pulling the
+attached rope releasing the arm and allowing it to travel in a
+downward arc to impact level with the plywood strike surface
+(Fig. 5).
+2.2. Trial pilot study
+A pilot study was conducted to determine the approximate
+distance the blood droplets could travel as well as their direction of
+Fig. 1. Blood striking device.
+28 
+C. Flight et al. / Forensic Science International 293 (2018) 27–36
+
+
+--- PAGE 3 ---
+
+spread, with a number of preliminary tests conducted using pig
+blood. The dimensions of the trial room were 6400  6400  3000
+mm. No blood was observed on the ceiling during or after the
+testing. The spread of blood droplets from impact was determined
+to be in the approximate range between 300 and 360 in front of
+the device.
+The placement of the incremental slots was based on the impact
+velocity and spread of the blood during the pilot study. The initial
+minimum position for the arm (C) was identiﬁed based on the
+smaller spread and distance travelled and the maximum position (G)
+by the smallest droplets. The remaining three increments (D, E and F)
+were placed at equidistant positions on the marine ply bracket
+between the minimum (C) and maximum (G) positions (Fig. 5).
+During further testing, it was noted that the previously
+identiﬁed minimum position (C) was generating a relatively high
+velocity and kinetic force, which resulted in all ﬁve initially
+selected increments producing similar bloodstain sizes and
+distances. Therefore, two incremental slots (A and B) were added
+during the course of testing.
+2.3. Impact force
+Prior to attaching the arm to the device, it was weighed using a
+Mettler Toledo SB32001 DeltaRange electronic scale (including the
+bearings and countersunk metal eye hook) to obtain the total mass
+of 2.1925 kg (m).
+As the F17 timber arm was rotating around a ﬁxed axis,
+calculations were required to determine the angular momentum,
+the ﬁnal velocity of the arm’s centre of mass and the kinetic energy
+that would be transferred from the arm to the liquid blood. A
+Mecmesin BFG 50 N basic force gauge was used to record the force
+(F1) applied to the arm by the spring at each of the seven
+increments (A–G). The displacement of the spring from the rest
+position (x) to increment positions A–G were also recorded. The
+height from the centre of mass (half way between the axis point
+and the distal end of the arm) was marked and the vertical distance
+between the start and the end position of the arm was recorded (h).
+Knowing the distance from axis to the spring anchor point on the
+arm (0.28 m) and the force applied to the arm by the spring at each
+increment, the downward force (Fp) applied to the arm by the
+spring at the centre of mass (0.49 m) could be calculated for each
+increment (0.28F1 = 0.49Fp). Refer to Fig. 5 for visual identiﬁcation
+of key locations.
+Fig. 2. Proximal end of arm with bearings and counter sunk metal eye hook.
+Fig. 3. Spring attachment between the arm and the metal rod.
+Fig. 4. Apparatus at Height 1 (Impact surface 250 mm from ground), Height 2 (Impact surface 1160 mm from ground) and Height 3 (Impact surface 1780 mm from ground)
+prior to the increments being ﬁxed in place.
+C. Flight et al. / Forensic Science International 293 (2018) 27–36 
+29
+
+
+--- PAGE 4 ---
+
+The potential energy in the arm at the increment positions prior
+to release consists of the potential energy of the arm in its centre of
+mass and the energy in the spring, given by the force applied by the
+spring to the centre of mass (Fp) and its displacement (x):
+Energy starting position
+ð 
+Þ ¼ mgh þ Fpx
+The rotational kinetic energy (KE) applied to the liquid blood
+was calculated by using the assumption that the moment of inertia
+of the arm was the same as that of a rod rotating about one end
+with the formula 1/3 mR2.
+Energy ending position
+ð 
+Þ ¼ 1
+6mv2
+Applying the law of conservation of energy to calculate the ﬁnal
+velocity v of the centre of the arm’s mass:
+v ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+6
+m mgh þ Fpx
+ 
+
+r
+After the velocity was calculated the kinetic energy applied to
+the liquid blood could be determined.
+Refer to Table 1 for the velocity and kinetic energy calculations.
+2.4. Blood
+Anticoagulants are necessary to prevent the onset of coagula-
+tion that better represents the physical properties of blood at the
+time of the assault [3] and as such have been used in many
+bloodstain pattern research studies. There are a number of
+different anticoagulants that have been used in BPA studies
+including ethylenediaminetetra-acetic acid (EDTA), which has
+been reported as being suitable to prevent coagulation [19].
+The physical properties of porcine blood, including hematocrit
+range and shear viscosity of whole blood and plasma, closely
+resemble that of human blood [18–20]. Its use up to two weeks old
+has been shown to be similar to the behaviour of freshly spilt
+human blood providing it had been collected directly into EDTA
+anti-coagulant bottles and incubated at 4 C for that period [21]. It
+is however recommended to use the porcine blood as soon as
+possible after its collection to limit the possibility of change within
+the blood properties [22].
+Two litres of fresh pig blood was sourced directly into a 2 l
+plastic container with 3.0 g of EDTA. The blood was transported
+directly to the laboratory in a thermally insulated case and
+placed into a water bath maintained at 37 C [20]. The water
+bath was set to shake to keep the blood moving to prevent
+separation and settling of erythrocytes [22]. Care was taken not
+to deviate from ideal circumstances by controlling the temper-
+ature of the blood, reducing the time the blood was exposed to
+the air, indoor testing to reduce air currents and using a well-
+deﬁned quantity of blood.
+2.5. Experimental test area
+A large enclosed storage shed with a level horizontal concrete
+ﬂoor was used for the experimental testing. The dimensions of the
+test room were 9845 mm wide, 9545 mm long with a minimum
+ceiling height of 4666 mm (pitched roof maximum height of
+5340 mm). All exposed surfaces (walls and ﬂoor) of the experi-
+mental room were lined with plastic drop sheets for health and
+safety reasons and ease of cleaning. The ﬂoor was further lined
+with lengths of butcher paper from roles, which was replaced after
+each test. The apparatus was placed at one end of the room to allow
+Fig. 5. Apparatus with key physics positions identiﬁed.
+Table 1
+Determination of velocity and kinetic energy.
+Increment 
+F1 (N) 
+Spring displacement x (m) 
+Fp (N)
+Height h (m)
+Velocity v (m/s) 
+KE (J)
+A 
+4.84 
+0.005 
+2.77 
+0.005 
+0.58 
+0.12
+B 
+6.55 
+0.018 
+3.74 
+0.057 
+1.88 
+1.29
+C 
+11.33 
+0.060 
+6.47 
+0.146 
+3.11 
+3.53
+D 
+21.28 
+0.149 
+12.16 
+0.290 
+4.69 
+8.05
+E 
+32.48 
+0.237 
+18.56 
+0.403 
+5.98 
+13.06
+F 
+41.80 
+0.319 
+23.89 
+0.465 
+6.94 
+17.63
+G 
+50.29 
+0.390 
+28.74 
+0.477 
+7.66 
+21.46
+30 
+C. Flight et al. / Forensic Science International 293 (2018) 27–36
+
+
+--- PAGE 5 ---
+
+for 7000 mm space in front of the device (in the approximate range
+of a 300–360 arc).
+2.6. Experimental protocol
+For each trial, 1 ml of blood was taken from the pig blood
+container in the water bath container using a 10 ml syringe and
+deposited on the ﬂat plywood impact surface within the strike
+zone (i.e. the area directly impacted by the F17 timber arm outlined
+by marker in Fig. 6). Within seconds of placement, to minimize
+heat loss from the blood, a controlled impact was applied to the
+blood pool by releasing the F17 timber from its starting position at
+each increment. Each impact on the device was video recorded by
+using a GoPro camera on a tripod with a timer on an Apple iPad Air
+displayed.
+After each impact the furthest lying visible single bloodstain
+was located and measured horizontally to the point of origin (distal
+end of the F17 timber) using a Hilti PD42 laser measurer. To ensure
+accurate measurement, a vertical pole from the bloodstain was
+used to guide the position of the laser measurer. A high resolution
+image using a Nikon D300 dSLR camera was also taken from
+directly above the blood stains (Fig. 7). The F17 timber arm and
+strike plate were cleaned of blood residue after each test.
+Five replicates were performed at increments A and B at Height
+1 (250 mm from ﬂoor), and ten replicates for increments C–G. Due
+to results obtained at this initial height, increments F and G were
+not tested at greater heights. Therefore, ﬁve replicates were
+performed for A and B and ten replicates for increments C–E for
+both Heights 2 (1160 mm from the ﬂoor) and 3 (1780 mm from the
+ﬂoor), resulting in a total of 140 impacts across the three heights.
+Visual analysis of the ceiling of the room was also conducted to
+determine if any stains had reached that height. The distance data
+obtained was analysed in real-time during the experiment for
+consistency and variation, with one sample t-tests being used to
+test datasets within each increment to determine if additional
+replicates were required to generate reliable results. Each group of
+replicates was also checked during experimentation for normality,
+skewness and kurtosis, with z-tests being used to determine the
+equality of variances between adjacent groups (increments and
+heights) during testing.
+Statistical analysis was performed in SPSS v21.0 (IBM Corpora-
+tion, Chicago). The consistency of impact time and therefore
+kinetic energy across the repeated experiments was investigated
+using a repeated measure analysis of variance (ANOVA), comparing
+before and after time measurements. A two-way ANOVA was
+conducted to compare the main effects and interaction of the
+ordinal variables height and increment on the furthest distance
+blood travelled.
+3. Results
+3.1. Kinetic energy released during impact
+Thecharacteristicsof thetimberarm, spring and increments were
+measured to calculate the ﬁnal velocity of the arm and the kinetic
+energy imparted to the blood stain upon impact (Table 1). The
+consistency of impact kinetic energy was investigated by measuring
+the time taken for the F17 timber arm to travel from release to impact
+prior to the experiments across 5–10 replicates per increment, and
+the corresponding time post-experiment with 10 replicates per
+increment (Table 2). A repeated measures ANOVA indicated that no
+signiﬁcant differences existed between the pre- and post-experi-
+ment times overall (F2,53 = 0.066, p = 0.798), and that there was no
+differential changes in travel times between increments (F6,53 = 1.35,
+p = 0.252). It can therefore be inferred that the time taken for the F17
+timber arm to travel, and therefore the kinetic energy imparted, was
+consistent throughout the experiment.
+3.2. Experimental test results
+The impact height and kinetic energy imparted both inﬂuenced
+the distance the blood travelled after impact. Impact heights of
+250 mm resulted in distances ranging from 2109 mm to 3404 mm
+(Table 3), with an overall average of 2835 mm across all seven
+increments and 2109 mm from the lower ﬁve. Impact heights of
+1160 mm resulted in distances travelled of 2895 mm–4850 mm,
+with an average of 3732 mm from the lower ﬁve increments.
+Impact heights of 1780 mm resulted in blood droplets travelling
+between 3256 mm and 5361 mm, with an average of 3901 mm.
+Both the height and increment had signiﬁcant effects on the
+distance that the blood travelled (height F2
+123 = 281.92, p < 0.01;
+increment F6
+123 = 58.17, p < 0.01), with height showing a greater
+effect (h2 = 0.43) than the increment (h2 = 0.27). There was also a
+small but signiﬁcant interaction between the height and increment
+(F8
+123 = 6.24, p < 0.01), although this interaction had a minimal
+effect size (h2 = 0.04).
+Fig. 6. 1 ml liquid blood (within the strike zone marked with blue marker pen) on
+the marine ply strike surface.
+Fig. 7. Images of the recording process and results from Height 3 Increment B (furthest recorded bloodstain in experiment).
+C. Flight et al. / Forensic Science International 293 (2018) 27–36 
+31
+
+
+--- PAGE 6 ---
+
+Fig. 8 is a boxplot of the furthest distance travelled by
+increment. The boxes represent the 25th–75th percentiles (the
+interquartile range – IQR) and thick black line the median of each
+group. Whiskers indicate 1.5 the IQR, while dots represent
+outliers greater than 1.5 the IQR. There is clear separation
+between the three heights at the lowest increment, separation
+between Height 1 and Heights 2 and 3 at the second and third
+increments, overlapping between the distributions of distances at
+the higher increments, demonstrating the interaction between
+height and kinetic energy on the distances blood droplets may
+travel upon impact.
+Post-hoc testing with Bonferroni correction indicated that the
+distance travelled by blood impacted at greater height differed
+signiﬁcantly compared to lower heights, with mean distances
+increasing from 2837 mm at Height 1, to 3778 mm at Height 2, to
+4117 mm at Height 3 (all pairwise p-values <0.05). In contrast,
+increasing increments, and therefore the kinetic energy imparted,
+did not show a consistent linear relationship. Post-hoc testing
+demonstrated that Increments B and C had greater distances
+(p < 0.05) than Increments A, D, E, F and G, with the latter
+increments forming a homogenous group with regards to distance
+(all p > 0.05). Spline interpolation (Fig. 9) and regression modelling
+(data not shown) indicated that the distance travelled by blood
+droplets under different kinetic energies follows a cubic trend,
+with low distances at low energies, increasing rapidly when the
+kinetic energy is 1–5 J, and decreasing to previous levels above
+this energy level. Further research, particularly at lower energies,
+may clarify the nature of this curvilinear relationship.
+4. Discussion
+This research was designed to determine the maximum
+horizontal distance blood droplets will travel through the air
+from a vertical impact into liquid blood. Whilst not possible to
+replicate and control many of the variables associated with an
+impact, it is important in any research of this nature to know that
+the blood being used approximates human blood leaving the body.
+To assist in achieving this, fresh pig blood was used with EDTA
+anticoagulant, the blood was kept at a temperature of 37 C prior
+to placement on the impact device. Testing commenced within
+24 h of the collection of the blood and was completed within 72 h.
+Table 2
+Impact time pre-test and post-test.
+Increment 
+Pre-test time average t (s) 
+Post-test time average (s)
+A 
+0.062 
+0.055
+B 
+0.124 
+0.122
+C 
+0.163 
+0.172
+D 
+0.234 
+0.249
+E 
+0.305 
+0.303
+F 
+0.36 
+0.361
+G 
+0.431 
+0.428
+Table 3
+Maximum blood spatter horizontal distance measurements (mm) per increment and height. The maximum distance achieved for each increment is italicized and bold,
+minimum is underlined.
+Height 
+Replicate 
+Increment
+A 
+B 
+C 
+D 
+E 
+F 
+G
+Height 1 
+1 
+2109 
+3057 
+3129 
+2591 
+3160 
+2970 
+2695
+2 
+2768 
+3404a
+2852 
+2573 
+3195 
+2766 
+2586
+3 
+2273 
+3400 
+3295 
+3144 
+2955 
+2753 
+2689
+4 
+2507 
+3375 
+3241 
+2751 
+2693 
+2443 
+2874
+5 
+2314 
+3313 
+3243 
+2630 
+2624 
+2887 
+2545
+6 
+– 
+– 
+3139 
+2890 
+2639 
+2452 
+2627
+7 
+– 
+– 
+3296 
+2627 
+2652 
+3134 
+2673
+8 
+– 
+– 
+3019 
+2976 
+2673 
+2562 
+2745
+9 
+– 
+– 
+3268 
+2702 
+2614 
+2648 
+2544
+10 
+– 
+– 
+3164 
+3257 
+2564 
+2700 
+2735
+Average 
+2394 
+3310 
+3165 
+2814 
+2777 
+2731 
+2671
+Standard deviation 
+252 
+146 
+140 
+243 
+236 
+222 
+102
+Height 2 
+1 
+3103 
+4850b
+4477 
+3775 
+3177
+2 
+3479 
+4599 
+4255 
+3611 
+3206
+3 
+3517 
+4255 
+3992 
+3094 
+3604
+4 
+3267 
+4680 
+3894 
+3018 
+2895
+5 
+3280 
+4526 
+4182 
+3366 
+3459
+6 
+– 
+– 
+4140 
+3254 
+3695
+7 
+– 
+– 
+4540 
+3260 
+3226
+8 
+– 
+– 
+4200 
+3764 
+3511
+9 
+– 
+– 
+4234 
+3514 
+3256
+10 
+– 
+– 
+3972 
+3690 
+3585
+Standard deviation 
+170 
+219 
+208 
+276 
+249
+Height 3 
+1 
+4154 
+4972 
+4128 
+3722 
+3597
+2 
+4368 
+4685 
+4466 
+4062 
+3693
+3 
+3653 
+5155 
+4633 
+3781 
+3462
+4 
+4017 
+4731 
+3789 
+4149 
+3800
+5 
+3742 
+5361c
+4639 
+3406 
+3453
+6 
+– 
+– 
+4248 
+3779 
+3256
+7 
+– 
+– 
+4337 
+3659 
+3705
+8 
+– 
+– 
+4317 
+3286 
+3422
+9 
+– 
+– 
+4225 
+3669 
+3465
+10 
+– 
+– 
+4219 
+3957 
+3893
+Average 
+3987 
+4981 
+4300 
+3747 
+3575
+Standard deviation 
+294 
+285 
+250 
+269 
+197
+Note — dimensions of bloodstains (length  width).
+a 7.2 mm  2.1 mm.
+b 8.2 mm  5.2 mm.
+c 5.8 mm  4.9 mm.
+32 
+C. Flight et al. / Forensic Science International 293 (2018) 27–36
+
+
+--- PAGE 7 ---
+
+The hematocrit and viscosity of the blood would have provided
+greater information regarding the rheology of the blood [18,24],
+although was unfortunately not available at the time.
+A custom built mechanical apparatus was used where liquid
+blood was placed on a hard, ﬂat timber surface and second hard,
+ﬂat F17 timber arm impacted the entire volume of the blood pool.
+The two hard ﬂat surfaces delivered a signiﬁcant proportion of the
+total kinetic energy to the blood to achieve the best case scenario.
+The downward motion of the apparatus was controlled by a spring
+and was locked in place at several different increments to control
+the velocity of the impact and ultimately the kinetic energy. The
+device was set at three different heights — near ground level to
+Fig. 8. Boxplot of the furthest distance travelled by increment.
+Fig. 9. Scatter plot of maximum distance travelled (mm) by the Kinetic Energy (joules) imparted at impact, with spline interpolation lines demonstrating the polynomial
+relationship between kinetic energy and distance.
+C. Flight et al. / Forensic Science International 293 (2018) 27–36 
+33
+
+
+--- PAGE 8 ---
+
+replicate an assault of a person low to the ground (Height 1),
+approximate sitting, crouching or kneeling height (Height 2) and
+standing height (Height 3), as the height can be important
+indicator to a forensic investigator as it may indicate an offensive or
+defensive position [23,25].
+The two hard ﬂat surfaces coming together provided a very
+narrow space for the blood to escape (see Fig. 10) and it appeared
+that the majority of the blood travelled forward or to the side of the
+F17 timber arm in almost a 300–360 arc. Little blood appeared to
+travel back towards the rear of the apparatus, potentially being
+blocked by the arm only leaving the front and sides to escape.
+Within this research, the angular distribution of stains was not
+recorded, as the focus was on distance rather than direction.
+However, it was noted that the majority of most distant stains were
+estimated to be between 300-360 in front of the impact plate.
+Several instances were however noted at more extreme angles,
+indicating that further research regarding the distribution of blood
+droplets may be instructive.
+Prior to this research project being undertaken, the furthest
+recorded distance, identiﬁed by the authors, in a published journal
+was 3380 mm by MacDonnell and Bialousz [14]. It can be
+established from the results of this research project that these
+distances can be expanded to 5360 mm and is more consistent
+with the prediction of James [26] that blood may potentially travel
+up to approximately 6000 mm, although it is unknown how this
+ﬁgure was determined.
+4.1. Kinetic energy
+This research discovered that the change in kinetic energy
+followed a cubic trend with low distances travelled at low energies,
+increasing rapidly when the kinetic energy was increased to
+between 1 and 5 J and decreasing again when above this energy
+level (i.e. above 5 J). When a disruptive external force is applied to
+liquid blood, liquid sheets and ligaments are forced out [5] and
+when the cohesive surface tension forces of the liquid blood/air
+interface are exceeded droplets will separate [11]. Dependent on
+the level of force applied to the liquid blood, the droplets may
+further deform in ﬂight into a “bag- or dumbbell-like shape” before
+breaking up into smaller droplets which may have signiﬁcant
+effects on the overall drag force [12]. Once separated the blood
+droplets follow a trajectory dictated by the velocity and by the
+combined forces of gravity and drag [11,12]. Due to drag, the
+velocity of the blood droplet decreases as it ﬂies through the air [5]
+as the forces of gravity act upon it. A paper by Kabaliuk et al. [12]
+comprehensively details the ﬂuid dynamics of blood droplets
+following an impact.
+The low kinetic energy impacts in this experiment (<1 J) may
+have created less disruption of the liquid blood and therefore
+produced a larger blood droplet sphere with lower initial velocity
+and therefore more inﬂuenced by gravity, and to a lesser extent
+air resistance. The higher kinetic energy impacts applied to the
+blood in this experiment (>5 J) may have led to a larger initial
+velocity of blood droplets reducing the initial inﬂuence of gravity
+[25] but potentially slowing due to deformation into secondary
+droplets and subsequent effects from drag leading to a smaller
+ﬂight range [12]. The medium kinetic energy (between 1 and 5 J)
+appeared to have created a higher velocity than the low kinetic
+energy impact but potentially resulted in less deformation
+allowing the droplets to travel further whilst subjected to the
+forces of gravity and drag.
+4.2. Height
+The height of the impacts appeared to have a more signiﬁcant
+effect on the distance blood droplets travelled than kinetic energy
+alone. The blood from Height 3 travelled further than Height 2,
+which in turn was further than Height 1. Whilst Height 3 obtained
+the greatest distance, the signiﬁcance of height cannot be
+underestimated in the context of an assault:
+ At Height 1, replicating an assault on a person lying at
+approximately ground level, the maximum distance that the
+blood droplets travelled was at Increment B measuring 3404 mm
+from the point of impact (bloodstain dimensions 7.2 mm  2.1
+mm) with an average of 3310 mm.
+ At Height 2, replicating a seated, crouching or kneeling person,
+the maximum distance achieved was 4850 mm (bloodstain
+dimensions 8.2 mm  5.2 mm) with an average of 4582 mm
+achieved at Increment B.
+ At Height 3, replicating a person of average height standing, the
+maximum distance being 5361 mm (bloodstain dimensions
+5.8 mm  4.9 mm) and an average of 4980 mm, again achieved
+at Increment B, these results were as previously identiﬁed the
+furthest of the three heights.
+Based on the ﬁndings and observations of the experimental trials,
+it can be assumed that blood spatter droplets caused through an
+impact having lower trajectories (250 mm heights) will travel
+shorter distances before impacting with the ground. The impacts at
+Height 2, replicating a kneeling or crouching height of a person, and
+Height 3, replicating a standing person, can be expected to create
+moredistant bloodstains duetothe droplets being in ﬂight forlonger
+periods of time before making contact with the ground. These results
+supporttheﬁndings ofdeBruinetal.[25] withthehigherelevationof
+the blood source, the blood droplets would have an increased ﬂight
+time before they make contact with the ground.
+4.3. Practical implications
+When examining a scene of an assault the crime scene
+examiner and/or the bloodstain pattern analyst must determine
+the size of the scene. The general method is to start with the
+outermost stains and work inward, however this relies upon
+Fig. 10. View of the liquid blood on the strike plate during impact from the F17 timber arm (left), and post-impact stain (right). Arrows indicated the approximate 300–360
+arc of the bloodstain travel.
+34 
+C. Flight et al. / Forensic Science International 293 (2018) 27–36
+
+
+--- PAGE 9 ---
+
+knowledge of the potential greatest distance that blood droplets
+may travel in a variety of impact scenarios. Thus, with the
+knowledge that blood droplets can travel up to 5361 mm in an
+indoor environment, this range could assist scene examiners
+with the size of a search zone. It is acknowledged that further
+studies relating to the distribution of the bloodstains resultant
+from an impact into liquid blood at the various heights and
+applications of kinetic energy would add further value to the
+blood stain analyst.
+Other forensic contexts of the results obtained may also include
+(i) establishment of a range that allows an assessment of the level
+of support that the blood stain evidence provides to different
+versions of events, for example if a witness states that the assault
+took place in a certain location but the bloodstain evidence was
+found outside the possible maximum deposition zone, or (ii) using
+the information may help determine proximity to the assault, and
+therefore potential involvement, of a suspect who states that they
+were some distance away, for example 15 m, yet spatter blood-
+stains were located on their clothing.
+4.4. Research limitations
+This research was designed to replicate blood distribution
+caused by impact, such as that occurring during an assault upon a
+person. Such events are highly dynamic, and it is not possible to
+fully replicate all variables that may occur in all possible situations.
+Experimental trials were conducted in controlled conditions to
+ensure consistency and allow comparison between the key
+variables of interest, namely impact height and kinetic energy.
+As such, the inﬂuence of variables such as differing amounts of
+blood, direction of force, the nature of the impact surface (curved/
+pliable), the impact of air currents or temperature, and the
+movement of impacted surface are unknown. As detailed earlier
+the hematocrit and viscosity of the blood were not recorded in this
+experiment and therefore potentially limited the experimental
+results. The tools used to record the research project results were
+also limited due to cost and availability. Such limitations included
+the use of an iPhone 6s the Slo-Mo (slow motion) function on its
+Camera application. Whilst it recorded at 240 frames per second a
+camera with much higher frame rates would have provided more
+accurate information.
+5. Conclusion
+The aim of this study was to identify the maximum horizontal
+distance a blood droplet would travel as a result of a vertical impact
+into liquid blood. Whilst there were several assumptions and
+limitations 
+identiﬁed, 
+the 
+maximum 
+average 
+distance 
+was
+recorded as 4981 mm with the maximum individual recording
+being 5361 mm. These distances provide a range to which blood
+droplets could be expected to travel horizontally as a result of an
+impact into liquid blood with a blunt weapon.
+This research demonstrated that the application of kinetic
+energy between 1 and 5 J resulted in the formation of blood spatter
+stains at the furthermost distances from an impact into liquid
+blood. Kinetic energy levels either side of this range reduced the
+distance the blood travelled. An increase in height of the impact
+point had a signiﬁcant effect on the distance the blood travelled
+with the height corresponding to a standing person recording the
+furthest distance. Combining kinetic energy of between 1 and 5 J
+with Height 3 resulted in the furthest deposit of blood.
+The 
+methodology 
+presented 
+in 
+this 
+study 
+offers 
+useful
+information to bloodstain pattern analysts, crime scene examiners
+and investigators when considering the bloodstain evidence in
+context of the scene and may help establish determining the
+circumstances of the assault event. These results may provide
+assistance with establishing a nexus between the crime scene and
+any offenders involved in the perpetration of the offence, the level
+of involvement of individuals, likely scenarios as to events, or
+evaluating the support the evidence provides to accounts given by
+witnesses and/or suspects.
+Author contributions
+CF, KB and MJ conceived and designed the experiment, CF & KB
+conducted the testing, collected and analysed the data and CF, KB &
+MJ wrote the manuscript.
+Acknowledgements
+The authors would like to thank Scott Harris and Ken Hutton
+for their assistance during the practical experiments, Dr Jan de
+Kinder for assistance with force calculations and to Dr Isaac
+Arthur at the Canberra Institute of Technology for assistance
+during the Graduate Certiﬁcate in Crime Scene Investigation
+program.
+References
+[1] C.G. Mole, M. Heyns, T. Cloete, How hard is hard enough? An investigation of
+the force associated with lateral blunt force trauma to the porcine cranium,
+Leg. Med. 17 (2015) 1–8.
+[2] T. Bevel, R. Gardner, Bloodstain Pattern Analysis With an Introduction to Crime
+Scene Reconstruction, Third edition, CRC Press, Boca Raton, 2008.
+[3] N. Basu, S.K. Bandyopadhyay, Bloodstain pattern analysis — a less explored
+domain, Int. J. Appl. Res. 3 (1) (2017) 200–211.
+[4] M. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K.P. Osborne, The reliability of
+pattern classiﬁcation in bloodstain pattern analysis, part 2: bloodstain
+patterns on fabric surfaces, J. Forensic Sci. 61 (November (6)) (2016).
+[5] N. Laan, K. de Bruin, D. Slenter, J. Wilhelm, M. Jermy, D. Bonn, Bloodstain
+pattern analysis: implementation of a ﬂuid dynamic model for position
+determination of victims, Sci. Rep. 5 (2015) 11461.
+[6] M. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K.P. Osborne, The reliability of
+pattern classiﬁcation in bloodstain pattern analysis, part 1: bloodstain
+patterns on rigid non-absorbent surfaces, J. Forensic Sci. 4 (July (16)) (2016).
+[7] National Research Council, Strengthening Forensic Science in the United
+States: A Path Forward, The National Academy of Sciences, Washington, DC,
+2009.
+[8] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics
+in bloodstain pattern analysis: comparative review and research opportu-
+nities, Forensic Sci. Int. 231 (2013) 375–396.
+[9] P.M. Comiskey, A.L. Yarin, D. Attinger, Hydrodynamics of back spatter by blunt
+bullet gunshot withalinkto bloodstainpatternanalysis,Phys.Rev. Fluids 2 (2017)
+073906.
+[10] OSAC BPA Subcommittee, Terms and Deﬁnitions in Bloodstain Pattern
+Analysis. ASB Technical Report 033, AAFS Standards Board, Washington, DC,
+2017.
+[11] E.M.P. Williams, E.S. Graham, M.C. Jermy, D.C. Kieser, M.C. Taylor, The dynamics
+of blood drop release from swinging objects in the creation of cast-off
+bloodstain patterns, J. Forensic Sci. (2018), doi:http://dx.doi.org/10.1111/1556-
+4029.13855 (in press).
+[12] N. Kabaliuk, M.C. Jermy, E. Williams, T.L. Laber, M.C. Taylor, Experimental
+validation of a numerical model for predicting the trajectory of blood drops in
+typical crime scene conditions, including droplet deformation and breakup,
+with a study of the effect of indoor air currents and wind on typical spatter
+drop trajectories, Forensic Sci. Int. 245 (2014) 107–120.
+[13] P.M. Comiskey, A.L. Yarin, S. Kim, D. Attinger, Prediction of blood back spatter
+from a gunshot in bloodstain pattern analysis, Phys. Rev. Fluids 1 (2016)
+043201.
+[14] H.L. MacDonnell, L.F. Bialousz, Flight Characteristics and Stain Patterns of
+Human Blood, Nile & CJ, New York, 1971.
+[15] M.J. Sweet, Velocity measurements of projected bloodstains from medium
+impact velocity impact force, J. Can. Soc. Forensic Sci. 26 (1993) 103–110.
+[16] R.R. Ristenbatt, R.C. Shaler, A bloodstain pattern interpretation in a homicide
+case involving an apparent stomping, J. Forensic Sci. 40 (1995) 139–145.
+[17] J.A. Slemko, Bloodstains on Fabric — The Effects of Droplet Velocity and Fabric
+Composition, IABPA Newsletter, 2003, pp. 3–11 December.
+[18] D. Attinger, Y. Liu, T. Bybee, K. De Brabanter, A data set of bloodstain patterns
+for teaching and research in bloodstain pattern analysis: impact beating
+spatters, Data Brief 18 (2018) 648–654.
+[19] S. Petricevic, D. Elliot, Bloodstain pattern reconstruction — a hammer attack,
+Can. Soc. Forensic Sci. 38 (1) (2005) 9–19.
+[20] J. Siu, F. Pender, F. Springer, W. Ristenpart, Quantitative differentiation of
+bloodstain patterns resulting from gunshot and blunt force impacts, J. Forensic
+Sci. 62 (September (5)) (2017).
+C. Flight et al. / Forensic Science International 293 (2018) 27–36 
+35
+
+
+--- PAGE 10 ---
+
+[21] M.A. Raymond, E.R. Smith, J. Liesegang, The physical properties of blood —
+forensic considerations, Sci. Justice 36 (1996) 153–160.
+[22] T.C. De Castro, M.C. Taylor, D.J. Carr, J. Athens, J.A. Kieser, Storage life of whole
+porcine blood used for bloodstain pattern analysis, Can. Soc. Forensic Sci. J. 49
+(2016) 1–12.
+[23] N. Hakim, E. Liscio, Calculating point of origin of blood spatter using laser
+scanning technology, J. Forensic Sci. (2016), doi:http://dx.doi.org/10.1111/
+1556-4029.12639.
+[24] S. Kim, Y. Ma, P. Agrawal, D. Attinger, How important is it to consider target
+properties and hematocrit in bloodstain pattern analysis? Forensic Sci. Int. 266
+(2016) 178–184.
+[25] R.D. de Bruin, Improving the point of origin determination in bloodstain
+pattern analysis, J. Forensic Sci. 60 (2) (2011) 409–417.
+[26] S.H. James (Ed.), Scientiﬁc and Legal Applications of Bloodstain Pattern
+Interpretation, CRC Press, Boca Raton, 1999.
+36 
+C. Flight et al. / Forensic Science International 293 (2018) 27–36

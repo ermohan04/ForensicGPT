@@ -1,0 +1,780 @@
+
+
+--- PAGE 1 ---
+
+Implications of two backward blood spatter models based on ﬂuid
+dynamics for bloodstain pattern analysis
+P.M. Comiskeya, A.L. Yarina,*, D. Attingerb
+a Department of Mechanical and Industrial Engineering, University of Illinois at Chicago, 842 W. Taylor St., Chicago, IL 60607-7022, USA
+b Department of Mechanical Engineering, Iowa State University, 2529 Union Dr., Ames, IA 50011-1210, USA
+A R T I C L E 
+I N F O
+Article history:
+Received 14 September 2018
+Received in revised form 11 May 2019
+Accepted 13 May 2019
+Available online 19 May 2019
+Keywords:
+Bloodstain pattern analysis
+Gunshot blood spatter
+Theoretical model
+A B S T R A C T
+Bloodstain pattern analysis (BPA) is an integral part of crime scene investigation. For violent crimes
+involving gunshots, standard practice in police departments worldwide have some physical limitations.
+For instance, the effect of gravity and air drag on trajectories of blood droplets are neglected using current
+reconstruction methods, which results in a well-known overestimation of the height of the source of
+blood. As a consequence, more sophisticated models for blood spatter trajectory reconstruction are being
+developed, two of which are highlighted in the present work. They allow the prediction of bloodstain
+patterns produced from backward spattered blood droplets from blunt and sharp bullets. Our recent
+models attribute the splashing of blood to the Rayleigh–Taylor instability which arises when blood is
+accelerated towards lighter air. This physically-based description comes with the powerful predictive
+capability to correlate features of bloodstain patterns with the speciﬁc bullet and gun that produced
+them, as well as with the body position. The results of the numerical models were compared with four
+experiments simulating blood spatter deposition on a vertical wall through the number of stains
+produced, average stain area, and average impact angle at the surface, and the agreement found is fairly
+good. Moreover, further insight is obtained by probing and explaining the inﬂuence of observable
+parameters on the resulting spatter pattern, with the goal of aiding BPA experts evaluating a crime scene.
+© 2019 Elsevier B.V. All rights reserved.
+1. Introduction
+Bloodstain pattern analysis (BPA) is the inspection of blood
+spatter patterns which were produced due to violent crimes [1].
+The goal of BPA is to provide answers to questions arising from the
+scene of a violent crime such as what caused these patterns.
+Determination of the region of origin of the blood spatter is
+expected from the BPA community [2], however, current techni-
+ques lack a fundamental basis in ﬂuid mechanics [3]. Namely, the
+method of strings, or the trigonometric method, which has been in
+use since as early as the 1950s [4] and is implemented in widely
+distributed software [5–9], neglects physical realities such as
+gravity and air drag [2]. Understandably, this results in signiﬁcant
+well-established errors [10,11], for example, there can be a 50%
+overestimation of the height of the region of origin [12]. Moreover,
+the widely used formula for the determination of the impact angle
+of a blood droplet, sin α = W/L [13], where W is the width of the
+stain and L is the length, has major ﬂaws since the values of sine of
+the impact angle are practically indistinguishable between 75 and
+90. Namely, they vary from 0.97 for 75 and 1 for 90, and is the
+reason that standard BPA practice encourages stains with impact
+angles less than 60 be used for reconstruction [1].
+Adding to the difﬁculty of an accurate reconstruction model of
+blood spatter patterns is the rheological complexity of blood. Blood
+is a non-Newtonian, shear thinning [14–16] complex aqueous
+solution containing various cells and proteins in plasma, and
+begins to coagulate as soon as it is outside of the human body
+[17,18]. Moreover, 
+its rheological behavior depends on 
+the
+hematocrit [14,19], it exhibits viscoelasticity [16,19–21] and
+possesses a yield stress [22]. This rheological behavior is important
+in crime scene reconstruction because it can affect the atomization
+process [23–26], which is diminished in liquids which exhibit
+viscoelastic properties [26–28]. Resultant droplet sizes are also
+inﬂuenced by these effects [29–34] as well as their ﬁnal impact on
+surfaces [31,35,36]. Additionally, blood droplets are spattered at
+body temperature and often are subject in ﬂight to air at a different
+temperature, the effects of which have been investigated [37], but
+never in the context of BPA.
+With some of these challenges in mind, several models have
+been developed to attempt to better recreate crime scenes.
+Including the effect of drag via a probabilistic approach was
+proposed in Refs. [38,39]. Further still, in Ref. [40], both gravity and
+* Corresponding author.
+E-mail address: ayarin@uic.edu (A.L. Yarin).
+https://doi.org/10.1016/j.forsciint.2019.05.026
+0379-0738/© 2019 Elsevier B.V. All rights reserved.
+Forensic Science International 301 (2019) 299–305
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locat e/f orsciint
+
+
+--- PAGE 2 ---
+
+air drag were accounted for which allowed for the region of origin
+of the bloodstains to be determined with about four times the
+accuracy over the method of strings. However, these methods do
+not explain and consider how blood droplets form due to a
+gunshot. Rather, they take existing bloodstain patterns and
+reconstruct blood droplet trajectories without considering the
+physical causes of droplet formation. This was mitigated in Refs.
+[41] and [42] by linking the resultant backward ﬂow ﬁeld of blood
+from a bullet impact to the Rayleigh–Taylor instability, and then, to
+the droplet formation and trajectories, determined by gravity, air
+drag, and droplet-droplet aerodynamic interactions. The Rayleigh–
+Taylor instability arises when denser blood is accelerating towards
+lighter air [43], as is the case of blood backward spatter splashing
+due to a gunshot. Recently, spatter patterns resulting from blood
+droplets in the direction of bullet motion, i.e. forward spatter, was
+explored in detail and shown to be fundamentally different from
+backward spatter [44,45].
+In the present work, the experimental investigations of Refs.
+[41] and [42] were expanded upon and directly compared with
+their respective predictive models. Moreover, the models are
+utilized to offer further insight by predicting the locations of the
+stain area corresponding to a 50% cumulative distribution and the
+geometric centroid of the stains as a function of distance to
+impingement. The experiments are described in Section 2, a brief
+overview of the predictive models is given in Section 3 along with
+the comparison with the data and further insights, and ﬁnally,
+conclusions are drawn in Section 4.
+2. Experimental investigations
+The experiments in this paper are a subset of an open source
+data set of high-resolution (600 DPI) scanned images of blood
+spatter from a gunshot [46]. There, the experimental conditions
+are 
+described 
+in 
+detail, 
+and 
+allows 
+the 
+forensic 
+science
+community to test their models on publicly available data.
+Backward spattered blood droplets due to a gunshot were
+created at the Izaak Walton League Park indoor shooting range
+in Ames, Iowa, USA. While the indoor shooting range provided
+quiescent air for the experiments, the environmental conditions
+varied with the time of the year of the speciﬁc experiments.
+Relative humidity was measured between 44% and 76%, with a
+precision of 5% and room temperature was between 14.5 and
+23.5 C. The riﬂe used was a 0.223 cal Rock River Arms, LAR-15
+1600 barrel M-4, ﬁt with a Yanki YHM Phantom 223 suppressor
+ﬁring two different types of bullets, one hollow point, and the
+other full metal jacket. The hollow point bullet was a BEE
+0.224 cal with a 0.223 Remington casing, 26.5 grain BLC-2
+powder, and Winchester Small Riﬂe Primer. The full metal jacket
+bullet was a 5.56 mm caliber Federal Ammunition XM193 with a
+mass of 55 grain. The velocity of the hollow point bullet was
+measured with a chronograph as 897 m/s, and the full metal
+jacket bullet was measured to be 922 m/s.
+The bullets were shot at either a closed hollow cavity or
+polyurethane foam sheet ﬁlled with 10–13 mL of swine blood. For
+the experiments conducted with the soaked foam target, the blood
+was anticoagulated with ACD and had 41% hematocrit. The
+temperature of the blood injected into the foam was 35  2 oC.
+For the experiments where blood was contained in a closed hollow
+cavity, the blood was used at room temperature and anti-
+coagulated with heparin and had 38–39% hematocrit. In each
+case, the blood was drawn two days before the experiment was
+conducted. A schematic of the experimental setup is depicted in
+Fig. 1.
+Having 
+in 
+mind 
+the 
+effect 
+of 
+expanding 
+muzzle 
+gases
+interacting with blood droplets in ﬂight [47], the experimental
+setup was designed such that the bullet penetrated through a sheet
+of cardstock which acted as a diffuser to obstruct the muzzle gases
+from travelling downstream. The substrate which was impacted by
+the blood droplets was smooth cardstock.
+3. Predictive models
+The impact phenomenon of a bullet in which the backward
+spatter of blood results from is a short-term event. Given a bullet
+penetration depth of h  1 cm, and a bullet impact velocity of
+V0  300 m=s, the penetration time is t  33 ms which indicates
+that inertial forces dominate over the viscous ones. The strong,
+short-term impact of 
+a 
+blunt 
+bullet 
+results in 
+an 
+almost
+instantaneous pressure ﬁeld which generates backward ﬂow in
+the framework of potential impulsive ﬂow hydrodynamics with
+pressure being the potential [48–50]. For a Newtonian viscous
+liquid, such an impulsive irrotational potential impact ﬂow sets in
+when the dimensionless group mu/(Lp) 1, where m is the
+viscosity, u is the ﬂuid velocity (in the ﬂow starting from rest), p is
+the pressure acting on ﬂuid, and L is the characteristic length scale.
+On the other hand, penetration of a sharp bullet proceeds under
+dominant inertial forces, and thus, is potential in the ordinary
+hydrodynamic sense. The latter case corresponds to the seminal
+Wagner problem [50,51]. Potential ﬂows are irrotational and
+remain as such for the entire duration of the aforementioned ﬂows
+under the conditions of Kelvin’s Circulation Theorem [48–50].
+Accordingly, the methods developed to predict backward
+splashed blood ﬂow resulting from sharp [41] and blunt bullets
+[42] are based on their corresponding incompressible potential
+ﬂows which satisfy the Laplace equation with appropriate
+boundary conditions. A diagram of the two cases with their
+variable deﬁnitions is shown in Fig. 2.
+For a blunt bullet the initial blood velocity, v, and acceleration,
+A, at the target surface are, respectively,
+v ¼ 2
+pV0
+a
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r2  a2
+p
+ arcsin a
+r
+ 
+ 
+
+; 
+ð1Þ
+A ¼ 2
+p
+V2
+0
+ca
+a
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r2  a2
+p
+ arcsin a
+r
+ 
+ 
+
+; 
+ð2Þ
+where a is the radius of the edge of the blunt bullet, r is the radial
+coordinate with the origin at the axis of symmetry, and c a
+dimensionless factor associated with the time scale of the
+impulsive motion [42].
+Fig. 1. Schematic of the experimental setup used to generate backward spattered
+blood droplets impacting on a vertical substrate. Variables are dependent upon
+which experiment was conducted as speciﬁed in Table 1. The coordinate trihedron is
+located on the ﬂoor, with the X-axis being parallel and coplanar (with respect to the
+Z–X plane) to the path of the bullet which was aimed at the target center.
+300 
+P.M. Comiskey et al. / Forensic Science International 301 (2019) 299–305
+
+
+--- PAGE 3 ---
+
+The factor c is dictated by the time scale of impulsive motion
+[42] which is a function of the impact velocity of the bullet.
+However, this factor most likely does not drastically change from
+bullet to bullet, even though their impact velocities may be
+drastically different. The reason for this is that the timescale of
+impact phenomena with a bullet is very short, regardless of the
+bullet type.
+For the initial moments of penetration of a sharp bullet, the
+initial velocity and acceleration of the blood at the target surface
+are respectively,
+v ¼ u2V0h
+r
+; 
+ð3Þ
+A ¼ u2V2
+0
+r
+; 
+ð4Þ
+where u is the semi-angle of the bullet generatrix, and h is the
+depth of bullet penetration which is a function of the time since
+impact, t. Note that the depth of bullet penetration h can be
+predicted as a function of time t, for example, using Eqs. (17) and
+(18) from Ref. [41].
+Eqs. (2) and (4) describe the acceleration of denser blood at the
+free surface towards lighter air. Such a situation is inherently
+unstable and results in the Rayleigh–Taylor instability [43]. This
+instability results in the characteristic droplet sizes, l, issued
+backward from the free surface, which is given by the following
+expression,
+l ¼
+2p
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+rA=ð3sÞ
+p
+w; 
+ð5Þ
+where r is the density of the blood (1060 kg/m3 [16]), s is its
+surface tension (60.45 mN/m [16]), and w is a dimensionless factor.
+A possible variation of the density and surface tension with
+temperature is not included in the models discussed here, because
+for liquids, surface tension variation in a reasonable temperature
+interval is not large, and, moreover, surface tension s enters Eq. (5)
+as
+ﬃﬃﬃs
+p , which minimizes the effect of temperature even further. The
+density variation with temperature is practically insigniﬁcant.
+The Rayleigh–Taylor instability links the ﬂow ﬁeld of blood in
+the target splashed backward by a gunshot to the generation of
+individual droplets, a link which common BPA techniques such as
+the method of strings, do not contain. This makes the aforemen-
+tioned models [41,42] physical in nature, i.e. linking the blood
+spatter pattern to the bullet shape and the gunshot parameters.
+Note also that in Ref. [42], the spray angle of blood droplets from
+the target with respect to the axis of the bullet was predicted to be
+13 using the hydrodynamic theory of turbulent submerged jets.
+The splashed blood droplet trajectories are predicted by models
+[41,42] using momentum balance equations accounting for the
+effects of gravity and air drag affected by droplet-droplet
+aerodynamic interactions (the latter being a collective effect).
+This collective effect stems from the entrainment of air by the
+leading droplets, the aerodynamic wake of which diminishes air
+drag on the subsequent droplets and can even accelerate them, as
+shown in Ref. [52] and highlighted in Fig. 3. This is similar to a ﬂock
+of geese ﬂying in V-formation where the leading goose experiences
+larger air drag than those behind it and thus essentially pulls the
+others. Eventually, the leading goose will be switched to a position
+in the back of the formation and this results in a ﬂock which can ﬂy
+further [53]. The bullet used to create the velocity history plot of
+Fig. 3 closely resembles a sharp one and as such can help further
+validate the framework of the models. The range of initial velocities
+predicted with Eq. (3) is superimposed on Fig. 3 and shows that the
+calculated values are appropriate. Furthermore, the data used in
+Fig. 3 allows for an average 2D area to be found from the droplets
+which experimentally was 0.084 mm2, whereas assuming a
+circular area with the diameter calculated in Eq. (5), the theory
+predicts an average droplet area of 0.079 mm2.
+For the simulation of the backward spatter of blood on a vertical
+wall (cf. Fig. 1), the cardstock target was discretized into 10 even
+rings spanning the minimum and maximum radial distances from
+the bullet penetration hole. The median distance of each ring from
+the center of the hole is R. For the number of stains, the stains in
+each ring were added together, for the stain area and impact angle,
+they were averaged in each ring. Comparisons of the predicted and
+Fig. 2. Mathematical diagrams of the two problems for the reconstruction of trajectories in backward spatter for (a) the blunt bullet, and (b) the sharp bullet.
+Fig. 3. Average velocity of droplets splashed in backward spatter due to a gunshot
+as a function of time found from particle image velocimetry of a high-speed video
+[52]. The error bars represent standard deviation. The velocity is initially increasing
+because the continued acceleration of ﬂying droplets due to the pulling effect of the
+aerodynamic wake of the leading blood droplets producing a collective effect. The
+initial velocities predicted using Eq. (3) are shown.
+P.M. Comiskey et al. / Forensic Science International 301 (2019) 299–305 
+301
+
+
+--- PAGE 4 ---
+
+measured number of stains resulting from the sharp and blunt
+bullets are shown in Fig. 4.
+The resultant stain area, S, is a function of the droplet ﬁnal
+velocity and size, which is ampliﬁed on impact according to the
+spread factor [29,54,55], as well as the ﬁnal impact angle, α,
+reckoned from the vertical as Ref. [13],
+S ¼ pl2
+j
+4sina; 
+ð6Þ
+where j is the droplet spread factor calculated with the Reynolds
+number of the impacting blood droplet at high shear rates, mShear ¼
+5 mPa  s [16]. Speciﬁcally, the original droplet velocity and size
+are predicted from Eqs. (3) and (5), respectively. After that, the
+trajectories are calculated as described in Ref. [42], and then, the
+spreading factor j is found from Eq. (29) in Ref. [42].
+For the same conditions as in Fig. 4, a comparison of the
+theoretical predictions with the experimental data for the average
+Fig. 5. Average stain area of droplets impacting onto a vertical wall for (a) a sharp bullet and (b) a blunt bullet. Same notations as in Fig. 4.
+Fig. 4. Number of stains on a vertical wall in the case of (a) a sharp bullet and (b) a blunt bullet. The red circles show the theoretical predictions and the triangles correspond to
+the experimental trial numbers in Table 1. (For interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 6. Average impact angle relative to a vertical wall for (a) a sharp bullet and (b) a blunt bullet. Same notations as in Figs. 3 and 4. A value of aAvg ¼ 90o corresponds to
+normal impact.
+302 
+P.M. Comiskey et al. / Forensic Science International 301 (2019) 299–305
+
+
+--- PAGE 5 ---
+
+stain area (it should be emphasized that this is averaged in each
+ring) is shown in Fig. 5.
+The average impact angles predicted and measured under the
+same conditions as in Figs. 4 and 5 are shown in Fig. 6.
+The two predictive models of backward spatter of blood [41,42]
+can offer further insight to better understand various physical
+scenarios which BPA experts can use to quantitatively analyze
+crime scenes. Applying both models with the same parameters
+ﬁtted to the experiments used in Figs. 4–6 and changing the
+distance between the blood source and the vertical cardstock
+target from 25 to 250 cm in steps of 25 cm, allows for cross-
+sections of the evolution of the blood droplet spray to be seen. The
+cumulative stained area was plotted as a function of the area of the
+stains in the spatter, a statistical concept that has been found useful
+to describe beating spatters [56]. Then, the value corresponding to
+50% of the cumulative distribution, denoted as A50 and plotted as a
+function of the vertical substrate location, is shown in Fig. 7.
+The best ﬁt lines of Fig. 7 are useful for interpolating distance
+between those at which data points were taken. An appropriate ﬁt
+was created with the equation,
+A50 ¼ A0 þ ðBÞeexpðlÞlþ1; 
+ð7Þ
+Fig. 7. Area corresponding to 50% of the cumulative distribution of area as a function of the vertical impact substrate distance. Panel (a) is for a sharp bullet and (b) for a blunt
+bullet. The red circles are the results of the theoretical codes and the black line a best ﬁt function. (For interpretation of the references to colour in this ﬁgure legend, the reader
+is referred to the web version of this article.)
+Table 1
+Parameters of the experiments of different blood backward spatter situations. The
+variables are deﬁned in Fig. 1, HP stands for the hollow point bullet, FMJ for the full
+metal jacket bullet, VBlood for the volume of blood used in the target, and the
+blood source corresponds to either a soaked polyurethane foam (a) or a
+hollow cavity (b). For all experiments the bullet impacted the target normally.
+Experiment number 
+Bullet 
+Substrate 
+Blood source d [cm] 
+VBlood [mL]
+Rp11# 
+FMJ 
+Cardstock 
+(a) 
+50 
+13
+Rp12# 
+FMJ 
+Cardstock 
+(a) 
+50 
+13
+Rf13# 
+HP 
+Cardstock 
+(a) 
+50 
+13
+Rf14# 
+HP 
+Cardstock 
+(a) 
+50 
+13
+Rp41 
+FMJ 
+Cardstock 
+(b) 
+10 
+10
+Rp42 
+FMJ 
+Cardstock 
+(b) 
+30 
+10
+Rp43 
+FMJ 
+Cardstock 
+(b) 
+30 
+10
+Rp44 
+FMJ 
+Cardstock 
+(b) 
+30 
+10
+Rp45 
+FMJ 
+Cardstock 
+(b) 
+60 
+10
+Rp46 
+FMJ 
+Cardstock 
+(b) 
+60 
+10
+Rp47 
+FMJ 
+Cardstock 
+(b) 
+60 
+10
+Rp48 
+FMJ 
+Cardstock 
+(b) 
+120 
+10
+Rp49 
+FMJ 
+Cardstock 
+(b) 
+120 
+10
+Rp50 
+FMJ 
+Cardstock 
+(b) 
+120 
+10
+Rp101 
+FMJ 
+Cardstock 
+(b) 
+90 
+10
+Table 2
+Parameters in the best ﬁt correlation of Eq. (7), used for the stain area corresponding
+to 50% of the cumulative distribution of area. The values within the parenthesis
+represent standard error and the last row is the coefﬁcient of determination.
+Sharp bullet 
+Blunt bullet
+A0
+0.269 (0.022) 
+0.190 (0.029)
+B 
+0.877 (0.046) 
+0.616 (0.042)
+C 
+75.219 (1.408) 
+86.481 (2.278)
+D 
+24.033 (1.657) 
+31.643 (3.166)
+R2
+0.978 
+0.959
+Fig. 8. Comparison between experiments and the numerical simulation of A50 for
+the sharp bullet case. The blue triangles represent experimental trials Rp41-Rp50,
+and Rp101 in Table 1, and the red circles and line are the results of the numerical
+simulations shown in Fig. 7(a). (For interpretation of the references to colour in this
+ﬁgure legend, the reader is referred to the web version of this article.)
+Table 3
+Parameters in the best ﬁt correlation of Eq. (8) used for the centroid locations CY.
+The values within the parenthesis represent standard error and the last row
+is the coefﬁcient of determination.
+Sharp bullet 
+Blunt bullet
+C0
+53.591 (4.319) 
+48.273 (5.973)
+F 
+184.433 (36.009) 
+162.898 (22.526)
+G 
+0.028 (0.006) 
+0.0190 (0.004)
+R2
+0.937 
+0.946
+P.M. Comiskey et al. / Forensic Science International 301 (2019) 299–305 
+303
+
+
+--- PAGE 6 ---
+
+where l ¼ Z  C
+ð 
+Þ=D and the values of the parameters are listed in
+Table 2.
+It is interesting to note that in Fig. 7, the sharp bullet produces
+larger droplets and at closer vertical deposition distances than its
+blunt bullet counterpart. The prediction from the numerical
+simulations in Fig. 7 that A50 reaches a maximum at an
+intermediate distance between blood source and vertical target
+spatter was tested against a series of gunshot backspatter
+experiments from Ref. [46]. As Fig. 8 shows, both experiments
+and numerical simulations show a comparable maximum for A50 at
+a distance of about 75–90 cm. This agreement between experi-
+ments and numerical simulations is a sign that the developed
+model captures the relevant ﬂuid dynamics. Moreover, it opens a
+path towards quantitative crime scene reconstruction of the
+relative position of the blood source and the spatter based on a
+statistical examination of the stains.
+The A50 value for each vertical deposition distance acts as a
+border between the small and large droplets. The geometric
+centroids, CY, of those less than or equal to this value as compared
+to those larger than A50, can help facilitate a qualitative analysis
+performed by BPA experts on the distance to the vertical impact
+substrate by comparing to the quantitative analysis below. Plotting
+the lowest bounded centroid (from droplets > A50) and the highest
+bounded centroid (from droplets  A50) as a function of the
+vertical deposition distance is seen in Fig. 9.
+Note that CY becomes the same and equal to approximately
+60 cm for both bullet types after a certain distance. The best ﬁt
+lines of Fig. 8 were found based off of the average of the two
+centroids and a good ﬁt was found with a simple exponential decay
+function,
+CY ¼ C0 þ FeGZ; 
+ð8Þ
+where the parameters are shown in Table 3.
+4. Conclusion
+A series of experiments were conducted by the present group
+and the resultant experimental images with the raw data
+deposited in Ref. [46]. Four of those sets of experimental data
+were chosen and compared with the physically based models for
+sharp [41], and blunt bullets [42]. These models predict that the
+Rayleigh–Taylor 
+instability 
+is 
+responsible 
+for 
+blood 
+droplet
+formation in backward spatter and their initial size distribution.
+The velocity and acceleration distribution in blood in the target are
+found solving the corresponding ﬂuid mechanical problem, thus
+allowing for the prediction of the resulting trajectories of the
+droplets accounting for gravity, air drag and droplet-droplet
+aerodynamic interactions. The number of stains, the average stain
+area, and the average impact angle on the cardstock target
+predicted by the physical models of Refs. [41,42] were compared
+with experimental data and revealed reasonably good agreement.
+Also, the models were used to provide a further insight into the
+phenomena of backward spattered blood by predicting the
+locations of the stain area corresponding to a 50% cumulative
+distribution and the geometric centroid of the spatter pattern. It
+should be emphasized that the proposed empirical formulae of
+Eqs. (7) and (8) have not been extensively tested against a variety of
+gunshot spatter patterns. However, they have originated from the
+experiments and predictions mentioned in this work which
+provides an initial step on the path towards quantitative crime
+scene reconstruction.
+Acknowledgements
+This work was ﬁnancially supported by the United States
+National Institute of Justice (award NIJ 2014-DN-BX-K036 and NIJ
+2017-DN-BX-0171). The authors gratefully acknowledge Dr. David
+P. Baldwin for fruitful discussions on the application of cumulative
+percent area curves.
+References
+[1] T. Bevel, R.M. Gardner, Bloodstain Pattern Analysis with an Introduction to
+Crime Scene Reconstruction, CRC, Boca Raton, 2008.
+[2] S. Weidman, Strengthening Forensic Science in the United States: A Path
+Forward, Committee on Identifying the Needs of the Forensic Sciences
+Community, National Research Council, 2009. http://www.nap.edu/catalog/
+12589.html.
+[3] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics
+in bloodstain pattern analysis: comparative review and research opportu-
+nities, Forensic Sci. Int. 231 (2013) 375–396.
+[4] P.L. Kirk, Afﬁdavit Regarding State of Ohio vs Samuel H. Sheppard, Court of
+Common Pleas, Criminal Branch, No. 64571, 26 April 1955.
+[5] M.B. Illes, A.L. Carter, P.L. Laturnus, A.B. Yamashita, Use of BackTrackTM
+computer program for bloodstain pattern analysis of stains from downward-
+moving drops, J. Can. Soc. Forensic Sci. 38 (2005) 213–218.
+[6] A.L. Carter, The directional analysis of bloodstain patterns: theory and
+experimental validation, J. Can. Forensic Sci. 34 (2001) 173–189.
+[7] R. Kanable, BackTrack going forward, Law Enforcement Technol. 40 (August)
+(2006) 46–48.
+[8] A.L. Carter, J. Forsythe-Erman, V. Hawkes, A.B. Yamashita, Validation of the
+BackTrackTM suite of programs for bloodstain pattern analysis, J. Forensic
+Identif. 56 (2006) 242–254.
+[9] A.L. Carter, M. Illes, K. Maloney, A.B. Yamashita, B. Allen, B. Brown, L. Davidson,
+G. Ellis, J. Gallant, A. Gradkowski, J. Hignell, S. Jory, P.L. Laturnus, C.C. Moore, R.
+Pembroke, A. Richard, R. Spenard, C. Stewart, Further validation of the
+BackTrackTM computer program for bloodstain pattern analysis: precision and
+accuracy, Int. Assoc. Bloodstain Pattern Analysts News 21 (2005) 15–22.
+Fig. 9. The geometric centroid bounded by small and large droplets corresponding to A50. Panel (a) is for a sharp bullet and (b) for a blunt bullet. The red bars are the result of
+the theoretical codes and the black line is the best ﬁt. (For interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this
+article.)
+304 
+P.M. Comiskey et al. / Forensic Science International 301 (2019) 299–305
+
+
+--- PAGE 7 ---
+
+[10] W.F. Rowe, Errors in the determination of the point of origin of bloodstains,
+Forensic Sci. Int. 161 (2006) 47–51.
+[11] K.G. de Bruin, R.D. Stoel, J.C.M. Limborgh, Improving the point of origin
+determination in bloodstain pattern analysis, J. Forensic Sci. 56 (2011) 1476.
+[12] N. Behrooz, L. Hulse-Smith, S. Chandra, An evaluation of the underlying
+mechanisms of bloodstain pattern analysis error, J. Forensic Sci. 56 (2011)
+1136–1142.
+[13] C. Rizer, Police Mathematics, Thomas, Springﬁeld, 1955.
+[14] S. De Gruttola, K. Boomsma, D. Poulikakos, Computational simulation of a non-
+Newtonian model of the blood separation process, Artif. Org. 29 (2005) 949–959.
+[15] S. Charm, G. Kurland, Viscometry of human blood for shear rates of 0-100,000
+sec1, Nature 4984 (1965) 617–618.
+[16] A. Kolbasov, P.M. Comiskey, R.P. Sahu, S. Sinha-Ray, A.L. Yarin, B.S. Sikarwar, S.
+Kim, T.Z. Jubery, D. Attinger, Blood rheology in shear and uniaxial elongation,
+Rheol. Acta 55 (2016) 901–908.
+[17] E.W. Davie, K. Fujikawa, Basic mechanisms in blood coagulation, Ann. Rev.
+Biochem. 44 (1975) 799–829.
+[18] J.J. Hathcock, Flow effects on coagulation and thrombosis, Arterioscler.
+Thromb. Vac. Biol. 26 (2006) 1729–1737.
+[19] S. Chien, R.G. King, R. Skalak, S. Usami, A.L. Copley, Viscoelastic properties of
+human blood and red cell suspensions, Biorheology 12 (1975) 341–346.
+[20] A.L. Copley, R.G. King, S. Chien, S. Usami, R. Skalak, C.R. Huang, Microscopic
+observations of viscoelasticity of human blood in steady and oscillatory shear,
+Biorheology 12 (1975) 257–263.
+[21] M. Brust, C. Schaefer, R. Doerr, L. Pan, M. Garcia, P.E. Arratia, C. Wagner,
+Rheology of human blood plasma: viscoelastic versus Newtonian behavior,
+Phys. Rev. Lett. 110 (2013)078305.
+[22] C. Picart, J.M. Piau, H. Galliard, P. Carpentier, Human blood shear yield stress
+and its hematocrit dependence, J. Rheol. 42 (1998) 1–12.
+[23] S.P. Lin, R.D. Reitz, Drop and spray formation from a liquid jet, Annu. Rev. Fluid
+Mech. 30 (1998) 85–105.
+[24] J. Eggers, E. Villermaux, Physics of liquid jets, Rep. Prog. Phys. 71 (2008)036601.
+[25] A.L. Yarin, Free Liquid Jets and Films: Hydrodynamics and Rheology, Longman
+Scientiﬁc & Technical and John Wiley & Sons, New York, 1993.
+[26] C. Clasen, J. Bico, V.M. Entov, G.H. McKinley, ‘Gobbling drops’: the jetting-
+dripping transition in ﬂows of polymer solutions, J. Fluid Mech. 636 (2009) 5–
+40.
+[27] D.D. Joseph, J. Belanger, G.S. Beavers, Breakup of a liquid drop suddenly
+exposed to a high-speed airsteam, Int. J. Multiph. Flow 25 (1999) 1263–1303.
+[28] F. Mighri, P.J. Carreau, A. Ajji, Inﬂuence of elastic properties on drop
+deformation and breakup in shear ﬂow, Soc. Rheol. 42 (1998) 1477–1490.
+[29] A.L. Yarin, Drop impact dynamics: splashing, spreading, receding, bouncing .
+. . , Annu. Rev. Fluid Mech. 38 (2006) 159–192.
+[30] M. Rein, Phenomena of liquid drop impact on solid and liquid surfaces, Fluid
+Dyn. Res. 12 (1993) 61–93.
+[31] V. Bertola, An experimental study of bouncing Leidenfrost drops: comparison
+between Newtonian and viscoelastic liquids, Int. J. Heat Mass Tranf. 52 (2009)
+1786–1793.
+[32] T. Jiang, J. Ouyang, B. Yang, J. Ren, The SPH method for simulating aviscoelastic drop
+impact and spreading on an inclined plate, Comput. Mech. 45 (2010) 573–583.
+[33] J.J. Cooper-White, R.C. Crooks, D.V. Boger, A drop impact study of worm-like
+viscoelastic surfactant solutions, Coll. Surf. A: Physicochem. Eng. Asp. 210
+(2002) 105–123.
+[34] A. Carre, J.C. Gastel, M.E.R. Shanahan, Viscoelastic effects in the spreading of
+liquids, Nature 379 (2002) 432–434.
+[35] D. Caviezel, C. Narayanan, D. Lakehal, Adherence and bouncing of liquid
+droplets impacting on dray surfaces, Microﬂuid. Nanoﬂuid. 5 (2008) 469–478.
+[36] L. Chen, Z. Li, Bouncing droplets on nonsuperhydrophobic surfaces, Phys. Rev. E
+82 (2010)016308.
+[37] D. Poulikakos, J. Waldvogel, Heat transfer and ﬂuid dynamics in the process of
+spray deposition, Adv. Heat Transfer 28 (1996) 1–74.
+[38] B.T. Cecchetto, Nonlinear Blood Pattern Reconstruction (MS Thesis), The
+University of British Columbia, 2010.
+[39] C.R. Varney, F. Gittes, Locating the source of projectile ﬂuid droplets, Am. J.
+Phys. 79 (2011) 838–842.
+[40] N. Laan, K.G. de Bruin, D. Slenter, J. Wilhelm, M. Jermy, D. Bonn, Bloodstain
+pattern analysis: implementation of a ﬂuid dynamic model for position
+determination of victims, Sci. Rep. 5 (2015) 11461.
+[41] P.M. Comiskey, A.L. Yarin, S. Kim, D. Attinger, Prediction of blood back spatter
+from a gunshot in bloodstain pattern analysis, Phys. Rev. Fluids 1 (2016)
+043201.
+[42] P.M. Comiskey, A.L. Yarin, D. Attinger, Hydrodynamics of back spatter by blunt
+bullet gunshot with a link to bloodstain pattern analysis, Phys. Rev. Fluids 2
+(2017)073906.
+[43] S. Chandrasekhar, Hydrodynamic and Hydromagnetic Stability, Dover, New
+York, 1981.
+[44] P.M. 
+Comiskey, 
+A.L. 
+Yarin, 
+D. 
+Attinger, 
+Theoretical 
+and 
+experimental
+investigation of forward spatter of blood from a gunshot, Phys. Rev. Fluids
+3 (2018)063901.
+[45] P.M. Comiskey, A.L. Yarin, D. Attinger, Hydrodynamics of forward blood
+spattering caused by a bullet of general shape, Phys. Fluids (May) (2019)
+(submitted for publication).
+[46] D. Attinger, Y. Liu, Y. Rao, R. Faﬂak, K. De Brabanter, P.M. Comiskey, A.L. Yarin, A
+data set of bloodstain patterns for teaching and research in bloodstain pattern
+analysis: gunshot backspatters, Data Brief 22 (September) (2019) 269–278.
+[47] M.C. Taylor, T.L. Laber, B.P. Epstein, D.S. Zamzow, D.P. Baldwin, The effect of
+ﬁrearm muzzle gases on the backspatter of blood, Int. J. Leg. Med. 125 (2011)
+617–628.
+[48] G.K. Batchelor, An Introduction to Fluid Dynamics, Cambridge University Press,
+Cambridge, 2002.
+[49] L.G. Loitsyanskii, Mechanics of Liquids and Gases, Pergamon, Oxford, 1966.
+[50] A.L. Yarin, I.V. Roisman, C. Tropea, Collision Phenomena in Liquids and Solids,
+Cambridge University Press, Cambridge, 2017.
+[51] H. Wagner, Über Stoß-und Gleitvorgänge an der Oberﬂäche von Flüssigkeiten,
+ZAMM 12 (1932) 193–215.
+[52] P.M. Comiskey, A.L. Yarin, D. Attinger, High-speed video analysis of forward
+and backward spatter blood droplets, Forensic Sci. Int. 276 (2017) 134–141.
+[53] P.B.S. Lissaman, C.A. Shollenberger, Formation ﬂight of birds, Science 168
+(1970) 1003–1005.
+[54] B.L. Scheller, D.W. Bousﬁeld, Newtonian drop impact with a solid surface,
+AIChE J. 41 (1995) 1357–1367.
+[55] C. Antonini, A. Amirfazli, M. Marengo, Drop impact and wettability: from
+hydrophilic to superhydrophobic surfaces, Phys. Fluids 24 (2012)102104.
+[56] D.P. Baldwin, D.S. Zamzow, S.J. Bajic, E. Strawsine, Investigation of impact
+spatter and the effects of controlled independent variables, International
+Association of Bloodstain Pattern Analysts Training Conference (2013).
+P.M. Comiskey et al. / Forensic Science International 301 (2019) 299–305 
+305

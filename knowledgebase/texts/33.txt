@@ -1,0 +1,1566 @@
+
+
+--- PAGE 1 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Drop Impact on a Solid Surface
+C. Josserand1 and S.T. Thoroddsen2
+1Sorbonne Universit´es, CNRS and UPMC Universit´e Paris VI, UMR 7190, Institut
+D’Alembert, F-75005 Paris, France; email: christophe.josserand@upmc.fr
+2Division of Physical Sciences and Engineering and Clean Combustion Research Center, King
+Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia
+Annu. Rev. Fluid Mech. 2016. 48:365–91
+First published online as a Review in Advance on
+September 21, 2015
+The Annual Review of Fluid Mechanics is online at
+ﬂuid.annualreviews.org
+This article’s doi:
+10.1146/annurev-ﬂuid-122414-034401
+Copyright c⃝2016 by Annual Reviews.
+All rights reserved
+Keywords
+splashing, spreading, bouncing, ﬁngering, air entrapment, roughness,
+repellency, superhydrophobicity
+Abstract
+A drop hitting a solid surface can deposit, bounce, or splash. Splashing arises
+from the breakup of a ﬁne liquid sheet that is ejected radially along the sub-
+strate. Bouncing and deposition depend crucially on the wetting properties
+of the substrate. In this review, we focus on recent experimental and theoret-
+ical studies, which aim at unraveling the underlying physics, characterized
+by the delicate interplay of not only liquid inertia, viscosity, and surface ten-
+sion, but also the surrounding gas. The gas cushions the initial contact; it
+is entrapped in a central microbubble on the substrate; and it promotes the
+so-called corona splash, by lifting the lamella away from the solid. Particular
+attention is paid to the inﬂuence of surface roughness, natural or engineered
+to enhance repellency, relevant in many applications.
+365
+Click here to view this article's
+online features:
+ 
+• Download ﬁgures as PPT slides
+• Navigate linked references
+• Download citations
+• Explore related articles
+• Search keywords
+ANNUAL 
+REVIEWS
+ 
+Further
+
+
+--- PAGE 2 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+1. INTRODUCTION
+The ﬁngering of an ink blot or a coffee stain is familiar to everyone. However, despite 140 years
+of study (Worthington 1876), the underlying rapid dynamics of the impact process eluded expla-
+nation until the past 20 years, when high-speed video technology began to allow time-resolved
+observations of this intriguing phenomenon (Thoroddsen et al. 2008). The increasing pace of sen-
+sor improvements and availability is allowing the study of ever-ﬁner detail and is reinvigorating
+research in this area of study, as demonstrated by the large number of very recent references cited
+herein. This imaging technology is now reaching the diffraction limit of spatial resolution and sub-
+microsecond interframe times (Li & Thoroddsen 2015, Visser et al. 2015). This is being matched
+by increasing computational power and improved numerical algorithms to allow fully resolved
+simulations in the axisymmetric conﬁguration (Thoraval et al. 2012), and fully three-dimensional
+(3D) cases, from ﬁrst contact, should soon follow (Agbaglah et al. 2011).
+We strictly conﬁne our review to impacts on solid surfaces and leave out studies involving
+impacts on pools or ﬁlms of liquid. Moreover, we emphasize recent works [i.e., appearing after
+the earlier review by Yarin (2006) in this journal, which dealt with impacts on both solid and
+liquid surfaces].
+Studies of drop impacts are driven by several areas relevant both in nature and in industry.
+In nature, a drop of water hollows a stone, and splashing produces aerosols, causes erosion, and
+brings the smell of the earth during rain ( Joung & Buie 2015). In industry, there are spray/wall
+interactions in coating, cleaning, cooling, and combustion. Inkjet droplets play an increasing role
+in fabrication, from the soldering of electronics to microarrays in biotechnology.
+Figure 1 presents some iconic images of impacting drops, including sketches by Worthington
+around the dawn of photography. He used an ingenious mechanical contraption, with spark
+a
+b
+c
+d
+e
+Figure 1
+(a) Worthington’s drop-release setup and (b) his sketches of an impacting mercury drop. (c) Reproduction of Worthington’s impact
+conditions for mercury on glass using modern video technology. (d ) Prompt splash for mercury drop impacting superhydrophobized
+glass. (e) Corona splash for ethanol drop on glass. Panels d and e courtesy of Erqiang Li. Readers are also referred to Supplemental
+Videos 1–3 (follow the Supplemental Material link from the Annual Reviews home page at http://www.annualreviews.org).
+366
+Josserand· Thoroddsen
+Supplemental Material
+
+
+--- PAGE 3 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Reynolds number:
+Re = (ρℓDV )/μℓ
+Weber number:
+We = (ρℓDV 2)/γ
+Ohnesorge number:
+Oh = μℓ/√ρℓDγ
+Capillary number:
+Ca = (μℓV )/γ
+Stokes number:
+St = μg / (ρℓDV )
+illumination, triggered by a marble falling in tandem with the drop (Figure 1a). He then sketched
+his ﬂash-illuminated visions of the impact of a mercury drop (Figure 1b), with interesting ﬁnger-
+like spokes on the spreading lamella. However, with modern technology, we have reproduced
+his impact conditions (i.e., 1/15-inch drop diameter and 3-inch impact height) but see no such
+radial spokes (Figure 1c). One possible explanation for the different results involves soot, which
+Worthington used to superhydrophobize his spectacle glass for releasing the drop (soot also works
+well as an oleophobic coating; see Deng et al. 2012). This might have formed a coating on the
+drop; an oxidized layer may have formed; or simply the ﬂash duration was too long and smeared
+out the edge bumps into radial streaks, as suggested in the celebrated review by Rein (1993).
+To deﬁne the different parameters involved in drop impacts, we consider as a prototype the
+normal impact of a spherical liquid drop on a ﬂat solid substrate. The drop diameter is D = 2R,
+and the normal impact velocity is V. The liquid and surrounding gas have densities ρℓand ρg, and
+dynamical (kinematic) viscosities μℓ(νℓ= μℓ/ρℓ) and μg (νg = μg /ρg), respectively. The surface
+tension is denoted by γ and the gravity by g, which is oriented along the vertical direction.
+As stated above, the canonical impact problem depends a priori on ﬁve dimensionless param-
+eters. In fact, considering the balance between gravity and inertia through the Froude number
+Fr = V/√g D, one can show that gravity can be neglected. Indeed, for usual impact conditions, we
+ﬁnd that Fr ≫1 so that only four dimensionless parameters are pertinent for the impact dynam-
+ics, although gravity plays a crucial role in the experiment by accelerating the drop until it reaches
+its impact velocity. In general, the impact dynamics were ﬁrst characterized by the Reynolds and
+Weber numbers, deﬁned with the liquid properties as
+Re = ρℓDV
+μℓ
+and
+We = ρℓDV 2
+γ
+,
+which balance the inertia with the viscous and the capillary forces, respectively. Alternatively, the
+Ohnesorge and capillary numbers are often used in the literature, yielding
+Oh =
+μℓ
+√ρℓDγ =
+√
+We
+Re ,
+and
+Ca = μℓV
+γ
+.
+Additionally, there are the two ratios of the liquid-gas densities and viscosities, ρℓ/ρg and μℓ/μg.
+Instead of the use of the viscosity ratio, it is convenient to introduce the Stokes number to quantify
+the inﬂuence of the gas in the lubrication layer beneath the drop before impact:
+St =
+μg
+ρℓDV = μg
+μℓ
+· 1
+Re .
+Finally, other dimensionless parameters can be present in the dynamics, often hidden in the
+literature, and related to the drop shape (e.g., the aspect ratio of the drop at impact) or the substrate
+properties (in particular, the contact angle θe and roughness distribution).
+2. EARLY CONTACT: CENTRAL BUBBLE AND SKATING ON AIR
+2.1. Central Bubble
+Under atmospheric conditions, a drop impacting perpendicularly to a wall will always entrap a
+small air bubble under its center. The drop approaches the solid surface inside a gas, which must be
+displaced before contact. When the drop gets close to the surface, the lubrication pressure in the
+thin air layer due to the gas viscosity becomes strong enough to deform its bottom into a dimple
+and thus transform a point contact into one along a ring, with a thin disk of air entrapped. The air
+disk contracts rapidly into a central bubble on the substrate to minimize the surface energy. This
+www.annualreviews.org • Drop Impact
+367
+
+
+--- PAGE 4 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+bubble was observed in the snapshots (Chandra & Avedisian 1991, Thoroddsen & Sakakibara
+1998) and under inkjet droplets (Van Dam & Le Clerc 2004), but without clear explanation of
+its formation. Thoroddsen et al. (2005) used high-speed video to directly observe the initial air
+disk and its contraction. Measuring the volume of air in the resulting bubble, they estimated the
+initial average thickness of the air disk in the range δ ∼2–5 µm. The contraction speed was
+successfully modeled with capillary-inertial dynamics by assuming that the layer is uniform but
+increases in thickness during the reduction in radius. This gives an expression for the disc radius
+versus time, R = R0 exp[−C√πσ/ρ
+b t], in close agreement with the measurements. Here the
+constant C ≃0.94, and 
+b is the bubble volume. However, the edge of the contracting air sheet
+thickens. Thus, the disk is not of uniform thickness, which is perhaps most clearly visible in the
+X-ray imaging of Lee et al. (2012). This led Liu et al. (2013) to improve on the above expression,
+adding corrections to the contraction rate.
+Recent advances have used high-speed interferometry to directly measure the radial thickness
+proﬁle of the air disc. Interferometry fringes can easily give radial changes in the layer thickness,
+with a resolution of λ/4 ∼150 nm between a dark and a bright fringe (Driscoll et al. 2010,
+Driscoll & Nagel 2011, Liu et al. 2013). However, more sophisticated methods must be applied
+to obtain absolute thicknesses, including two-color techniques (de Ruiter et al. 2012) and white-
+light interferometry (van der Veen et al. 2012). Two-color techniques can give extraordinary
+subfringe thickness resolution, approximately 30 nm (de Ruiter et al. 2015b). These techniques
+have primarily been applied to low-impact velocities, speciﬁcally the study of bouncing dynamics
+(de Ruiter et al. 2015a). However, with 50-ns laser pulses for each video frame, interferometry
+can be realized at 5 Mfps (Li & Thoroddsen 2015) to obtain the time-resolved evolution of the
+air-layer proﬁle for higher impact velocities (Figure 2c,d).
+The contraction of the air disc into the central bubble also does not come without surprises.
+Thoroddsen et al. (2005) showed that the retracting edge produces capillary waves, which propa-
+gate toward the center. Sometimes the apex of this converging wave touches the substrate at the
+axis of symmetry and pinches off a microdrop within the central bubble (Figure 2). Lee et al.
+(2012) veriﬁed these proposed dynamics using X-ray imaging (Figure 2b). Their images even
+reveal a subsatellite formed inside the bubble inside the drop.
+2.2. Modeling the Air-Layer Thickness
+The deformation of the bottom of the drop, the formation of the dimple, and subsequent en-
+trapment of the air disc are governed by a balance between the drop’s inertia and the lubrication
+pressure in the air, which tries to escape the oncoming drop. The air-layer cushioning was ﬁrst
+modeled by looking at 2D cases (Smith et al. 2003, Korobkin et al. 2008), later adapted to the
+axisymmetric conﬁguration, which exhibits the same scaling (Hicks & Purvis 2010). Here the dy-
+namics assume viscous lubrication pressure in the air layer, which, for small separation distances,
+starts to deform the drop inviscidly. These rapid motions can neglect surface tension, liquid vis-
+cosity, and gravity. The dimensional argument is essentially the following (Mandre et al. 2009):
+The separation distance H between the drop and solid must become small enough so that the
+lubrication pressure in this thin air layer, P ∼μgVR/H 2, becomes strong enough to rapidly decel-
+erate the bottom tip of the drop. There, the horizontal/radial scaling used is
+√
+DH , coming from
+geometrical arguments. The deceleration a occurs over this distance H, in the very short available
+time τ ∼H/V , giving ρℓa ∼ρℓV/τ ∼ρℓV 2/H . Equating these two effects gives a characteristic
+thickness for the start of drop deformation involving the Stokes number, H ∗= R St2/3.
+368
+Josserand· Thoroddsen
+
+
+--- PAGE 5 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+0
+2
+4
+6
+8
+10
+12
+14
+0
+1
+2
+3
+4
+0
+100
+200
+300
+400
+0
+1
+2
+3
+4
+5
+6
+r (μm)
+r/R (×10–2)
+h (μm)
+Drop
+Air
+h/R (×10–3)
+14.7 μs
+14.7 μs
+100 μm
+Air film
+Bubble
+Glass plate
+Bubble
+Drop
+Solid
+22.1
+22.1
+29.5
+29.5
+33.1
+33.1
+40.5
+40.5
+44.2
+44.2
+51.6
+51.6
+58.9
+58.9
+62.6
+62.6
+66.3
+66.3
+73.8
+73.8
+287
+287
+b
+c
+d
+a
+Detector
+Scintillator
+Mirror
+Camera
+X-RAYS
+Air film
+Figure 2
+(a) Examples of interference patterns of the central air disc. Panel a modiﬁed with permission from Liu et al. (2013). (b) X-ray imaging
+setup for the entrapment of an air disc and its contraction into an air bubble, with a subsatellite pinched off at its center (Lee et al.
+2012). (c) Examples of central air-disc shapes during the approach of the drop and contact with the substrate, at impact velocity V =
+1.06 m/s. Panel c adapted from Li & Thoroddsen (2015). (d ) Same proﬁles obtained numerically by Duchemin & Josserand (2011).
+Readers are also referred to Supplemental Videos 4–6.
+This allowed quantitative comparison to experiments. For example, the prediction of the initial
+radius of the contact ring (Hicks et al. 2012)
+Lo = 3.8
+ 4μg
+ρℓV
+1/3
+R2/3
+(1)
+is in reasonable agreement with available data (Liu et al. 2013, Thoroddsen et al. 2005), without
+any adjustable constants, but one must use the bottom radius of curvature of the falling drop
+for R.
+2.3. Gas Compressibility
+Building on the previous incompressible theory (Smith et al. 2003, Korobkin et al. 2008), Mandre
+et al. (2009) found conditions, for higher impact velocities, at which the compressibility of the
+www.annualreviews.org • Drop Impact
+369
+Supplemental Material
+
+
+--- PAGE 6 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+gas comes into play. This effect is included in the lubrication equation for the gas in a low–Mach
+number approximation and is expressed in terms of a compressibility factor
+ϵ =
+Patm
+(RV 7ρ4
+ℓ/μg)1/3 .
+(2)
+If ϵ−1 ≳5, one expects compression of the air disc and smaller values of H∗. This thinning should
+scale as H ∗/(RbSt2/3) = 3.2ϵ1/3. Li & Thoroddsen (2015) recently carried out interferometry
+experiments for ϵ−1 as high as 40, verifying this theory and the corresponding numerics of Mandre
+et al. (2009) for adiabatic compression. The measured disc thickness, at the centerline, is as thin
+as H ∗∼0.5 µm.
+Hicks & Purvis (2013) added more thermodynamics into the equation of state for the gas.
+Furthermore, although their compressible theory is limited to two dimensions, they showed
+that Lo is not dependent on the gas compressibility. This has indeed been borne out by Li
+& Thoroddsen (2015), who found a perfect ﬁt of Lo to Equation 1, over a large range of
+impact values, well into the compressible regime. This ﬁnding contradicts Liu et al.’s (2013)
+earlier results, in which smaller water drops were used and Lo was essentially independent
+of V.
+The air ﬁlm should continue to thin at even higher impact velocities. Indeed, perhaps surpris-
+ingly, single central bubbles are observed in the snapshots of Mehdizadeh et al. (2004) for V as
+high as 40 m/s, where ϵ−1 ≃1,360 (Figure 7). The corresponding air-disc thickness is predicted
+to be H ∗≃15 nm, at which stage one might expect molecular forces to break up the air layer
+before contraction into the bubble.
+2.4. Size of the Entrapped Bubble
+The size of the entrapped air bubble is important in inkjet-based fabrication, as it can have detri-
+mental effects, for example, on uniformity and conductance. For minuscule impact velocities, the
+lubricating air ﬁlm can become unstable and break the axisymmetry, allowing the air to escape (see
+Klaseboer et al. 2000). The lowest velocities can also lead to isolated contacts and spreading with
+minimal air entrapment (Kolinski et al. 2012, de Ruiter et al. 2015a). Bouwhuis et al. (2012) applied
+interferometry to investigate the size of the entrapped air layer and found a maximum, which occurs
+at a moderate impact velocity, at which compressibility can be ignored. This arises because of com-
+petition between the surface tension and inertia of the liquid. For low-enough impact velocities,
+the surface tension minimizes the drop deformation away from a spherical shape and H ∗∼St1/2.
+At higher velocities, inertia dominates, and the dynamic pressure grows as a square of velocity,
+thus draining out more air, which reduces H ∗∼St2/3, in agreement with the ﬁndings of Mandre
+et al. (2009). Between these two considerations is a maximum, with a crossover at Stc ∼Ca3/4
+g
+[where Cag =
+
+μgV
+
+/ γ is the capillary number based on the gas viscosity] or expressed in a
+critical impact velocity V c ∼(μgσ 3 /ρ4
+ℓR4)1/7. For their ethanol drop, with R = 0.9 mm, they get
+V c = 0.25 m/s. Klaseboer et al. (2014) proposed a different power law for the large–impact velocity
+regime, H ∼St1/2, arising from the use of a different velocity potential in the drop than that used by
+Bouwhuis et al. (2012).
+Hendrix et al. (2015) proposed a model unifying three impact conﬁgurations—a drop onto a
+solid, a solid sphere onto a pool (Marston et al. 2011), and a drop onto pool—showing that the
+normalized bubble volume Vb/V drop ∼St4/3. However, for the last conﬁguration, twice as much
+volume is entrapped, or half the impact velocity must be used, owing to the two compliant surfaces
+arising from the added mass of the pool.
+370
+Josserand· Thoroddsen
+
+
+--- PAGE 7 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+2.5. Skating on a Thin Layer of Air or Contact with the Solid Substrate
+One of the interesting questions raised by the above studies is the detailed break of the air layer
+when molecular contact is ﬁrst established with the solid substrate. Motivated by the effect of air
+pressure on splashing, Mandre et al. (2009) suggested that the drop might slide on a continuous
+layer of air and splash without molecular contact. Kolinski et al. (2012) used total internal reﬂection
+to support this notion and coined the phrase “skating on a ﬁlm of air.” This technique observes
+the gracing light reﬂected from a glass surface, when the angle between the incident light and
+glass surface is smaller than a critical angle (48◦for air-glass). However, when the liquid makes
+contact with the glass surface, because of the similar refractive index of the glass and liquid, the
+reﬂection disappears, and the contacts become clearly marked by dark spots. Some signature is
+also observed owing to an evanescent wave, when the air layer becomes a few tens of nanometers,
+allowing measurements of the bottom proﬁle of the drop (Kolinski et al. 2014a,b).
+Following much debate, this issue can be clariﬁed by the following observations. First, the
+contraction of the central disc into the bubble would not occur without a contact line, which must
+be present to allow the reduction in surface energy (Thoroddsen et al. 2005). Second, Driscoll &
+Nagel (2011) used an optical interference technique to show that for higher impact velocities, the
+liquid contact outside the central disk wets the substrate. Their measurements show that if there
+were a thin air layer present, it must be less than 3.5 nm thick. Such a layer would of course be highly
+unstable by van der Waals interactions. Third, Kolinski et al. (2012) clearly demonstrated that
+isolated wetting contacts formed and that increasing the impact velocity causes a larger number of
+contacts along the ring bounding the central disc (see also Kolinski et al. 2014a,b; de Ruiter et al.
+2015a). One can speculate that even higher velocities will show still more numerous contacts and
+a transition to what appears similar to a continuous rupture. The characteristic dark ring marking
+the initial contact radius, seen by Thoroddsen & Sakakibara (1998) and Thoroddsen et al. (2005)
+and more recently by de Ruiter et al. (2015a), is likely a microbubble signature of this initial
+contact. The effects of statistical roughness and isolated asperities remain an open question, as
+discussed by Mani et al. (2010) and Mandre & Brenner (2012). Common features of many of the
+images of the early contact through glass plates are several isolated contacts (e.g., see Liu et al.
+2013). These most likely result from local asperities, which become important when the air-layer
+thickness reaches down to dozens of nanometers. This needs to be further studied with glass
+substrates that have been well characterized before the impact. These details will not change the
+ﬁnal outcome but would give a strong indication of the actual air-layer thickness when it ruptures,
+providing hints at the underlying physics, be they hydrodynamic or molecular in nature.
+Conversely, for the lowest impact velocities, the drops can indeed glide on a ﬁlm of air and
+rebound without contacting the solid substrate, even for hydrophilic surfaces (Kolinski et al.
+2014a). This has been studied in great detail by de Ruiter et al. (2015b), who have shown in careful
+experiments that skating for a water drop is possible only for V < 0.48 m/s. Over a range of
+liquids, this corresponds to a Weber number of We < 4, and the minimum thickness observed is
+hmin ≃200 nm. Furthermore, the scaling for hmin derived from the axisymmetric simulations of
+Duchemin & Josserand (2011) also shows that for impact velocities, of relevance in splashing, the
+thickness becomes subnanometric. One must therefore conclude that air skating under the center
+of the drop is irrelevant for the splashing transition, discussed in the next section.
+3. LATER DYNAMICS: SPREADING AND REBOUNDING
+Later-time dynamics of the impact exhibit different behaviors depending on the impact and
+substrate parameters, ranging from smooth spreading to splashing, jetting, and rebound. The
+www.annualreviews.org • Drop Impact
+371
+
+
+--- PAGE 8 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+24.0
+48.0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+0.5
+0
+1.0
+1.0
+2.5
+1.2 ms
+5.6
+13.0
+4.0
+2.3 ms
+2.5
+2.0
+2.0
+1.5
+1.5
+3.0
+3.5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Time, t (ms)
+R(t)/R1
+R(t)/R1
+a
+b
+11.2
+14.5
+16.6
+Figure 3
+(a) Snapshots of spreading and rebounding dynamics as well as the evolution of the spreading radius with time. Panel a adapted with
+permission from Bartolo et al. (2005). (b) Singular jet formed by retraction after a small drop impacts on a superhydrophobic surface.
+Panel b taken with permission from Bartolo et al. (2006b).
+spreading dynamics are an important aspect in many applications, for instance, for inkjet printing
+in microelectronics (Minemawari et al. 2011) or in forensic science (Hulse-Smith et al. 2005,
+Attinger et al. 2013, Laan et al. 2014). In both cases, the splashing-spreading transition is crucial
+for the printing quality or the determination of the link between the blood pattern and drop
+trajectories.
+3.1. Overall Spreading Dynamics, Rebound, and Jetting
+When no splashing is observed, the drop simply spreads over the surface until it reaches a maximum
+radius. Then, depending on the surface properties, the liquid can recede or remain close to this
+maximum spread (Rioboo et al. 2001). The dynamics are then controlled by subtle balances
+between inertia, viscosity, and capillary forces (Bartolo et al. 2005). In particular, when the impact
+is performed on a (super)hydrophobic surface, the drop’s retraction can lead to partial or complete
+rebound and even to singular jet formation (Renardy et al. 2003, Bartolo et al. 2006b) (Figure 3).
+This occurs through convergence of capillary waves at the apex, which can also entrap bubbles
+in the drop (Huang et al. 2013). Pittoni et al. (2015) have tracked the various bubble-entrapment
+mechanisms.
+These retraction, rebound, and jetting dynamics can be controlled by varying the wettability
+of the solid surface (Bayer & Megaridis 2006, Yokoi et al. 2009). This is particularly the case when
+372
+Josserand· Thoroddsen
+
+
+--- PAGE 9 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+the impact is performed on a textured surface. Both the spreading dynamics and the retraction
+are affected depending whether the liquid penetrates the textured surface (the Wenzel state) or
+moves over the structures (the Cassie-Baxter state) (Bartolo et al. 2006b, Kwon et al. 2013, Maitra
+et al. 2014). Furthermore, complex rebound and jetting dynamics can be observed when the drop
+impacts on an deformable solid surface, such as an elastic membrane (Antkowiak et al. 2011), or
+on ﬁbers (Piroird et al. 2009), for instance.
+3.2. Maximum/Residual Spreading Radius and Minimal Thickness
+An important outcome of a drop impact on a solid substrate is the maximum spreading radius.
+This quantity, pertinent in the absence of splash, has applications in inkjet printing (Minemawari
+et al. 2011) and forensic science (Hulse-Smith et al. 2005, Attinger et al. 2013), although the
+crucial quantity in these cases is the residual spreading radius, which can differ from the maxi-
+mum spreading radius. Numerous relations between the maximum spreading radius (or diameter)
+and the impact parameters have been established using physical arguments generally based on
+the balance between inertia and viscous and capillary contributions (Chandra & Avedisian 1991,
+Pasandideh-Fard et al. 1996, Range & Feuillebois 1998, Rioboo et al. 2002, Roisman et al. 2002,
+Clanet et al. 2004, Fedorchenko et al. 2005, Ukiwe & Kwok 2005, Roisman 2009, Vadillo et al.
+2009, Eggers et al. 2010). It is important to emphasize that all these relations show reasonable
+agreement with experiments and numerical simulations despite their quite different formulations.
+Indeed, for the ranges of parameters concerned, the spreading radius does not vary by many orders
+of magnitude, so power-law scalings are hard to identify, and it is difﬁcult to discriminate between
+the different models by quantitative arguments alone. Moreover, no asymptotic relation can be
+tested because of the splashing mechanism that occurs for a large impact velocity, although these
+relations are often presented in such asymptotic forms. In particular, the initial drop radius is often
+neglected, so some of these relations should be corrected by subtracting the initial drop radius.
+However, most of these models distinguish two regimes for the spreading factor β, deﬁned by
+the ratio between the maximum radius and the initial one:
+β = Rmax
+R0
+.
+The ﬁrst is a viscous regime in which the maximal extension of the drop is obtained using a balance
+between the kinetic energy and the viscous dissipation. The spreading factor follows the relation
+β −1 ∝Re1/5, often simpliﬁed to
+β ∝Re1/5.
+The second is an inertial regime in which the spreading factor is determined by a more complex
+balance between the inertia and capillary forces with some correction due to viscous dissipation and
+wettability effects. Many different models have been proposed in this regime, and their pertinence
+remained a question of scientiﬁc debate until recently. A simple scaling analysis comparing the
+initial kinetic energy with the surface energy at the maximum spreading radius would suggest an
+asymptotic regime valid for large Weber numbers, β ∝We1/2. However, as explained above, the
+available Weber numbers for this regime in which no splash is present do not really allow one
+to observe such scaling, and more detailed models have included corrections due to the initial
+surface energy, contact angle, or viscous dissipation. Clanet et al. (2004) developed an alternative
+using a mass conservation argument based on the pancake thickness selected by the capillary wave
+created by the impact and leading to the scaling law β ∝We1/4. This scaling law has had great
+success as it gives good quantitative agreement with experimental data for hydrophobic substrates,
+and it has subsequently been commonly used to ﬁt experimental data. However, we emphasize
+www.annualreviews.org • Drop Impact
+373
+
+
+--- PAGE 10 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Table 1
+Different models for the spreading factor β as a function of the impact parameters
+Model
+Expression
+Comment
+Scheller &
+Bousﬁeld (1995)
+β ∼0.61 (Re2Oh)1/6 = 0.61 Re1/5(We Re−2/5)1/6
+Empirical law based on
+experimental results
+Pasandideh-Fard
+et al. (1996)
+β =
+
+We+12
+3(1−cos θa )+4(We/
+√
+Re)
+Detailed energy balance,
+including contact angle (θa),
+and initial conditions
+Ukiwe & Kwok
+(2005)
+(We + 12)β = 8 + β3 
+3(1 −cos θd) + 4 We
+√
+Re
+
+Extension of the above
+model, with θd the
+dynamical contact angle
+during spreading
+Clanet et al.
+(2004)
+β ∝We1/4
+Mass balance using the
+impact capillary length
+Roisman (2009)
+β ∼0.87 Re1/5 −0.4 Re2/5 We−1/2
+Formula obtained using a
+dynamical model for the
+spreading of the drop
+involving a viscous
+boundary layer
+Eggers et al.
+(2010)
+β = Re1/5 f (P)
+Similar approach to that in
+Roisman (2009); impact
+number P is deﬁned by
+P = We Re−2/5
+that the correction due to the initial radius (typically leading one to consider β −1 instead of
+β for the comparison for low Weber numbers) should be considered and would strongly lower
+the validity of this scaling. Quantitatively, as mentioned above, all these formulas eventually give
+good agreement with experimental and numerical data, so it is hard to discriminate between these
+different approaches. Table 1 presents the most commonly used formulas in the literature to ﬁt
+the experimental/numerical results.
+Recently, dynamical models investigating the time evolution of a thin liquid ﬁlm spreading on
+a solid substrate have provided a general framework for impact spreading that correctly describes
+the two regimes (viscous and inertial) and gives, in particular, a good understanding of the inertial
+regime, reconciling most of the existing models. Yarin & Weiss (1995) ﬁrst proposed the use of
+the thin-ﬁlm approximation in the investigation of the spreading dynamics after impact, and it was
+then adapted to different situations (Fedorchenko et al. 2005, Roisman 2009, Roisman et al. 2009,
+Eggers et al. 2010). A viscous boundary layer correction has recently been considered to the initial
+inviscid model, ﬁrst by Roisman et al. (2009) and Roisman (2009) and later in a similar way by
+Eggers et al. (2010). The velocity in the spreading lamella can be described as a ﬁrst approximation
+by the following inviscid hyperbolic axisymmetric velocity ﬁeld:
+vr = r
+t
+and
+vz = −2z
+t ,
+(3)
+which corresponds to a decreasing pressure ﬁeld with time (vr and vz being the radial and vertical
+velocities, respectively). Such ﬂow suggests that in this regime, the drop surface [deﬁned by z =
+h(r, t)] evolves in a self-similar way:
+h(r, t) = 1
+t2 H
+r
+t
+
+,
+(4)
+374
+Josserand· Thoroddsen
+
+
+--- PAGE 11 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+0
+2
+4
+6
+8
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+r (mm)
+h (mm)
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+0
+0.4
+0.2
+0.6
+0.8
+1.0
+h/hc
+r √hc/Ω0
+b
+a
+Figure 4
+Experimental proﬁle of a drop (a) impacting a solid surface at different times and (b) rescaled following Equation 4, where hc is the
+central height of the interface and 
+0 the square root of the drop volume. Figure adapted with permission from Lagubeau et al. (2012).
+which has been observed both in numerical simulations (Roisman et al. 2009, Eggers et al. 2010)
+and in experiments (Lagubeau et al. 2012) (Figure 4).
+However, such Eulerian ﬂow (Equation 3) is not consistent with the no-slip boundary condition
+on the substrate, so a time-dependent viscous boundary layer develops from the substrate surface
+as the drop spreads. The thickness of this viscous layer obeys the usual scaling laws (lbl ∼√νt),
+and accounting for its dynamics allows for a better understanding of the overall drop spreading.
+For example, the minimal liquid thickness experienced during the spreading (sometimes called,
+by extension, the residual thickness) is as follows:
+hmin ∼D Re−2/5,
+(5)
+as observed numerically and experimentally (see Figure 5a) (Fedorchenko et al. 2005, Roisman
+2009, Eggers et al. 2010, Lagubeau et al. 2012).
+The spreading radius can be described through the value of an impact parameter Pi = We ·
+Re−2/5, following
+β = Re1/5 fc(Pi).
+(6)
+The function fc is expected to behave asymptotically as P1/2
+i
+for small Pi and as a constant for large
+Pi, in agreement with the inertia-capillary and inertia-viscous balance, respectively. Although the
+inertia-capillary asymptotic limit cannot be investigated experimentally, this law conﬁrms that
+it is the inertia-capillary balance that controls the spreading there (β ∝We1/2) rather than the
+alternative one (β ∝We1/4), as shown in Figure 5b, in which experiments with different liquids
+show a good collapse for the spreading factor according to Equation 6. Indeed, the latter law
+would have suggested another impact parameter P′
+i = We · Re−4/5 for which the collapse of the
+results is clearly less good (Eggers et al. 2010, Laan et al. 2014, Lastakowski et al. 2014).
+3.3. Impact on a Small Target
+Impacts on small circular targets, the size of the drop itself, free the spreading lamella from the
+viscous no-slip boundary condition at the solid substrate, thus creating conditions closer to the
+above inviscid theory. This has been done in experiments by Rozhkov et al. (2010) and Villermaux
+& Bossa (2011) focusing on the puncturing of the lamella and fragmentation of its edge. Bakshi et al.
+www.annualreviews.org • Drop Impact
+375
+
+
+--- PAGE 12 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Dmax/D0 Re–1/5
+We Re–2/5
+hc/D
+Re
+b
+a
+0.3
+100
+101
+102
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+10–2
+10–1
+100
+101
+102
+–0.5
+–0.4
+103
+100
+Figure 5
+(a) Minimal ﬁlm thickness during the drop impact, compared to the predicted Re−2/5 law given in Equation 5. Panel a adapted with
+permission from Lagubeau et al. (2012). (b) Spreading factor measured for different liquids and impact velocities, traced following
+Equation 6. The dashed dark gray line represents the ﬁt based on a Pad´e approximant according to the asymptotic limits
+limP≪1 fc(P) ∝P1/2 and limP≫1 fc(P) ∼cste. Panel b adapted with permission from Laan et al. (2014).
+(2007) studied impacts on small spherical targets, varying the substrate curvature. Most recently,
+Vernay et al. (2015) measured the thickness of the free-standing sheet using ﬂuorescence.
+4. SPLASHING: PROMPT VERSUS CORONA SPLASH
+4.1. Splashing Threshold
+As the impact velocity V is increased, eventually the drop will splash (i.e., break up and eject
+smaller pieces). Classically, the splashing threshold was characterized by the so-called splashing
+parameter proposed by Stow & Hadﬁeld (1981) and Mundo et al. (1995), which incorporated the
+inertia, viscous stress, and surface tension in the form
+K = We
+√
+Re.
+(7)
+For impacts at K ≳3,000, one can expect a splash. Many variants of the above power laws exist in
+the literature (see review in Moreira et al. 2010 and Marengo et al. 2011). Motivated by the early
+imaging of Rioboo et al. (2001), the nature of the splash has been split into two categories, prompt
+and corona, shown in Figure 1d,e, respectively. A prompt splash releases droplets directly from
+the breakup of the tip of the advancing lamella, whereas in the corona splash the intact lamella
+rises away from the substrate, forming a bowl-like structure, which subsequently breaks up into
+ﬁne droplets. Much effort has been devoted to ﬁnding the critical values of K for various impact
+conditions (e.g., Vander Wal et al. 2006, Roisman et al. 2015).
+4.2. Inﬂuence of the Surrounding Gas
+The above formulation was proven to be incomplete by the unexpected discovery of Xu et al.
+(2005) that reducing the air pressure, while keeping other parameters unchanged, could suppress
+376
+Josserand· Thoroddsen
+
+
+--- PAGE 13 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+splashing. This seminal discovery has triggered a renewed decade-long search for the underlying
+physics, in particular trying to pin down the role of air and the surface roughness (Tsai et al. 2009,
+2010, 2011). As discussed below, many proposals have appeared, but consensus has yet to emerge.
+The interplay between the surface roughness and gas pressure complicates the interpretation of
+the two splashing types. Xu et al. (2007) devised an ingenious way to study the size distribution of
+the ejected droplets by simply surrounding the impact with a circular sheet of paper. The resulting
+splatters showed different signatures for the two splashing types, with a thin horizontal line of
+spots for the prompt splash and a more vertically spread random distribution for the corona splash.
+However, this technique captured only forward-moving droplets and was limited to droplets larger
+than 100 µm. Direct imaging of the splashed droplets in the prompt splash regime showed that
+the earliest droplets are the smallest and emerge at the highest velocities, with early 5-µm droplets
+emerging at close to 90 m/s, or 104 times their terminal velocity (Thoroddsen et al. 2012) (see
+Supplemental Video 1). They are therefore rapidly decelerated by air drag and can easily become
+airborne. These observed droplet sizes support viscous growth of the thickness of the early lamella.
+Xu et al. (2007) proposed that the prompt splash is produced by the surface roughness, whereas
+the corona splash is created by the air drag at the front of the lamella. This cannot be the whole
+story, as prompt microsplashing has been observed by Thoroddsen et al. (2012) for an impact
+on a smooth glass surface. Latka et al. (2012) proposed that perhaps a single mechanism is at
+play, simply appearing at different spreading locations. They removed the inﬂuence of the corona
+splash by conducting the experiments in a low-pressure helium atmosphere, clearly showing that
+a random surface roughness can reduce splashing by reducing the levitated ﬁlm at the edge of the
+expanding lamella, while increasing prompt splashing.
+Stevens et al. (2014) found an empirical scaling for the splashing boundary on a smooth surface
+using low-viscosity liquids over a range of gas pressures. The scaling highlights the importance of
+the mean-free path of the gas molecules.
+A few studies have looked at splashing on inclined surfaces (Stow & Hadﬁeld 1981) or rapidly
+translating surfaces. Chou et al. (2009) showed strong asymmetry and splashing even in the low–
+Weber number deposition regime, when the impact angle to the vertical direction exceeds 85◦.
+Bird et al. (2009) additionally showed that the corona splash can be suppressed on the lamellar
+stretching side for a very large translational velocity of the substrate.
+4.3. Levitated Lamella
+The drop viscosity dramatically changes the splashing dynamics. For more viscous liquids, the
+lamella lifts away from the substrate (Driscoll et al. 2010, Schroll et al. 2010) and starts gliding
+on a thin sheet of air (Figure 6a). The forces responsible for the levitation of the sheet must arise
+from the dynamics around the rapidly moving contact line. Lubrication in the air under the sheet
+requires a large advancing contact angle, whereas suction in the airﬂow over the top is an inertial
+process. Bischofberger et al. (2013) introduced glycerin vapor into the air, forming spectacular
+Schlieren images (Figure 6c), to identify vortices forming above the leading edge of the lamella.
+Thoroddsen et al. (2010) showed that this levitated lamella can become unstable and can touch
+the solid surface ahead of the contact line, thus not only entrapping a myriad of air bubbles
+when these localized contacts meet the expanding contact line (Figure 6d ), but also rupturing
+the levitated lamella, producing a powerful capillary-driven splash. This bubble entrapment was
+studied in more detail by Driscoll et al. (2010) and Palacios et al. (2012), who observed multiple
+rings of microbubbles. The earliest breakup of the lamellar edge may be assisted by capillary
+instability in the cusp in the neck at which the lamella connects to the drop (Figure 6b and
+Supplemental Video 2) or by sawtooth instability at the contact line (Rein & Delplanque 2008).
+www.annualreviews.org • Drop Impact
+377
+Supplemental Material
+
+
+--- PAGE 14 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+δ
+a
+c
+d
+b
+0.10 ms
+0.10 ms
+0.24
+0.24
+0.59
+0.59
+1.90
+1.90
+Camera
+δ
+LIGHT
+Glass plate
+Mirror
+Corona splash
+Levitated lamella
+Drop
+Lamella
+500 μm
+500
+μm
+200
+μm
+Contact line
+Local contact 
+Figure 6
+Splashing for different viscosities. (a) Comparison of splashing of a low- and high-viscosity liquid. Panel a adapted with permission
+from Driscoll et al. (2010). (b) Images demonstrating that splashing occurs as soon as the lamella appears from the outer wetted region,
+with an azimuthal pattern in the cusp. Panel b adapted with permission from Thoroddsen et al. (2012). (c) Visualization of the airﬂow
+using refractive index variations. Panel c taken with permission from Bischofberger et al. (2013). (d ) Entrapment of bubbles under the
+contact line by localized contacts. Panel d adapted with permission from Thoroddsen et al. (2010). Readers are also referred to
+Supplemental Videos 7–10.
+Stevens et al. (2014) proposed that the delayed emergence of the thinner levitated jet from the
+tip of the lamella is a generic mechanism, occurring even for low-viscosity impacts. They quantiﬁed
+this time delay as a function of viscosity and air pressure. For the prompt splash, the ﬁrst appearance
+of the lamella is thus emerging as a fundamental quantity, followed by the separation of its tip
+from the solid surface. However, immediately following the ﬁrst wetting contact, the emergence
+of the lamella is controlled by the geometry of the drop, and it can splash instantaneously for low
+viscosities (e.g., see Thoroddsen et al. 2012 in which the droplet is shown to emerge immediately
+at a local tangential velocity to the lamellar tip motion). This was earlier studied by Mongruel
+et al. (2009) using multiple-strobe imaging and most recently by Riboux & Gordillo (2015).
+4.4. Recent Theories
+Riboux & Gordillo (2014) formulated a new splashing theory incorporating in part similar ideas for
+an impact on a smooth, partially wetting surface. They scaled the radial growth of the normalized
+wetted area as r =
+√
+3t, with ﬂuid elements ejected at velocity vr =
+	
+3/t. They proposed that the
+liftoff of the lamella has two contributions: the lubrication force of the air upstream of the contact
+line (arising a priori for a dynamic contact angle >90◦) and the suction force due to the ﬂow
+over the edge (given the Bernoulli inviscid mechanism there). The lubrication part depends on
+the contact angle and the mean-free path of the gas molecules, as already suggested in theoretical
+models involving noncontinuum gas correction (Duchemin & Josserand 2012, Mandre & Brenner
+378
+Josserand· Thoroddsen
+Supplemental Material
+
+
+--- PAGE 15 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+2012). Balancing the rising velocity of the tip of the ejecta with the capillary retraction Taylor-
+Culick velocity gives a splashing threshold that compares well with extensive data from Palacios
+et al. (2013), as well as with the reduced-pressure data from Xu et al. (2005), but does not include
+the inﬂuence of the surface wettability or roughness.
+Liu et al. (2015) showed that a strategically placed ring of 75 µm through holes in the substrate
+can suppress splashing, whereas closed pits do not. This ﬁnding suggests that one needs to drain the
+air layer from under the outer edge to stabilize it. They proposed a Kelvin-Helmholtz instability
+at the interface between the thin air layer and the bottom of the drop as being responsible for
+the splashing, but they lacked direct imaging of the proposed instability. Lembach et al. (2010)
+have also shown a higher value for the splashing parameter for impacts on porous substrates.
+Alternatively, a splash can be triggered by an isolated protrusion, as shown by Josserand et al.
+(2005), or a pit, as shown by de Jong et al. (2015). Kim et al. (2014) tested impacts on various
+closed-pit morphologies, also invoking a Kelvin-Helmholtz instability to explain the lower critical
+values of the splashing parameter for larger pit areas.
+Therefore, one can conclude that including the gas pressure in the splashing threshold must
+give rise to different scaling laws, as this effect is absent in the conventional splash parameter
+(Equation 7). In particular, varying the ambient gas pressure leads to a threshold such that the
+splashing is apparently enhanced by the gas viscosity (Stevens 2014, Stevens et al. 2014), sug-
+gesting that an overall criterion including all the parameters is still missing. This is also the
+conclusion of the recent work by Roisman et al. (2015) regarding critical values for the splash-
+ing parameter K (Equation 7). In particular, one should note that the incompressible lubrica-
+tion equation for the gas cannot be enough to model the gas inﬂuence as it would involve
+only the Stokes number, which is independent from the gas pressure because of the Maxwell
+law (only the dynamical viscosity of the gas enters into the Stokes number). Thus, additional
+physical mechanisms, such as gas compressibility, inertia, and noncontinuum effects, have to be
+considered.
+Finally, the above studies also highlight the difﬁculty in distinguishing between the prompt and
+corona splash, as exempliﬁed by Riboux & Gordillo (2014), who showed that the separated lamella
+can stabilize by reattaching to the substrate. In fact, the splashing threshold based on the splashing
+parameter K (Equation 7) has been established without discriminating between the prompt and
+corona splash. Thus, an up-to-date parametric study separating these two dynamics is needed.
+4.5. Fingering
+The splat left behind after impact has a familiar ﬁngering pattern (see Figure 7). The early work of
+Allen (1975) attributed the ﬁngers to the Rayleigh-Taylor instability of the decelerating edge of the
+lamella, which has also been suggested by recent linear stability analysis of a liquid rim (Roisman
+et al. 2006, Agbaglah et al. 2013). However, clear ﬁngering instability was observed from the very
+start of lamellar formation by Thoroddsen & Sakakibara (1998), who also showed that ﬁngers can
+split and merge during spreading. Marmanis & Thoroddsen (1996) dropped colored liquids onto
+thick cotton paper, demonstrating that the number of ﬁngers N scales with a modiﬁed impact
+Reynolds number N ∝(Re1/2
+D We1/4)3/4. Aziz & Chandra (2000) proposed a different formula
+N = Re1/4We1/2/
+√
+48 for molten droplets. Mehdizadeh et al. (2004) extended these measurements
+to much higher impact velocities (∼50 m/s) using a surface moving on a ﬂywheel, which whacks
+the drop in ﬂight. They showed reasonable scaling with the Weber number, N = 1.14We1/2,
+ignoring liquid viscosity. In the robust splashing regime, it becomes challenging to determine
+the number of ﬁngers, as is clearly shown in the snapshots in Figure 7b. The same technique
+was used by Fassmann et al. (2013) to study the sizes of splashed droplets. Visser et al. (2012)
+www.annualreviews.org • Drop Impact
+379
+
+
+--- PAGE 16 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+1 cm
+a
+b
+V = 30 m/s
+V = 10 m/s
+TS =
+140°C
+TS =
+240°C
+c
+30 m/s
+30 m/s
+40 m/s
+40 m/s
+d
+2 mm
+Figure 7
+Splatter patterns. (a) The change in the numbers and shapes of ﬁngering of an ink blot on paper when the impact height is increased.
+Panel a taken with permission from Marmanis & Thoroddsen (1996). (b) Edge splashing for very high impact velocities of 30 and
+40 m/s. Panel b modiﬁed with permission from Mehdizadeh et al. (2004). (c) Drop smacked by a solid plate moving at up to 30 m/s,
+showing the effect of the surface superheat temperature. Panel c taken with permission from Mehdizadeh & Chandra (2006).
+(d ) Fingering of vapor channels for a boiling drop on a heated surface. Panel d adapted with permission from Khavari et al. (2015).
+achieved even higher impact velocities (∼100 m/s) of microdrops by exploiting laser-produced
+jetting (Thoroddsen et al. 2009). Impacts at huge Reynolds numbers have been studied by using
+larger liquid masses released from punctured balloons, but unavoidable external disturbances can
+obscure the impact-induced ﬁngering (Yoon et al. 2007).
+Blood-splatter analysis can be instrumental in forensic sciences (see Hulse-Smith et al. 2005,
+Laan et al. 2014). The combination of the diameter and number of ﬁngers of the dried spatter can
+help pin down the droplet size and trajectory (see Attinger et al. 2013).
+The splashing pattern itself obviously depends on the surface properties. At ﬁrst, the wettability
+of the substrate is crucial for the splashing and breakup of the edge. The larger the contact angle,
+the easier is the splashing (Yokoi 2011) (Figure 8). Whereas the corona splash exhibits a typical
+S-shape ejecting small droplets, the skating thin ﬁlm leads to the formation of ﬁngers as shown in
+Figure 8.
+5. THE EFFECTS OF SUBSTRATE PROPERTIES
+Above we focus on impacts on ﬂat dry surfaces. Allowing modiﬁcation of the substrate opens
+up uncountable variants. The surface can be porous or compliant (Pepper et al. 2008, Gilet &
+Bourouiba 2014); one can add patterned roughness elements, penetrating holes, closed pits, or
+spatially varying wettability. Such modiﬁcations are a particularly active area of study, given the
+myriad of potential applications, from self-cleaning surfaces to enhanced heat transfer during
+spray cooling or anti-icing of airplane wings. This effort is aided by the rapid development of new
+micro- and nanofabrication techniques.
+380
+Josserand· Thoroddsen
+
+
+--- PAGE 17 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+b
+a
+Figure 8
+(a) Fingers and droplet breakup observed in the case of a liquid ﬁlm skating on a solid surface. Panel a taken with permission from
+Driscoll & Nagel (2011). Fingering edge breakup obtained by direct numerical simulation. Panel b taken with permission from Yokoi
+(2011).
+Motivated by the lotus leaf, superhydrophobic surfaces (i.e., hydrophobic and microstructured)
+have been engineered using various pillar arrangements to make an impacting fakir drop bounce
+with a restitution coefﬁcient as high as 0.9 (Richard & Qu´er´e 2000). In early studies, Reyssat et al.
+(2006) and Bartolo et al. (2006a) systematically varied the pillar height h and spacing ℓto ﬁnd the
+critical impact velocity V ∗between the drop fully bouncing or partly wetting the surface (i.e., tran-
+sitions from full to partial repellency). This transition occurs when the impact energy is sufﬁcient
+to stretch the curved free meniscus between the pillars until they touch the substrate, giving
+V ∗=
+	
+δh /ρℓ2.
+However, for even the most repellent surfaces at sufﬁciently high impact velocities, the spread-
+ing edge of the lamella will break up, and only part of the drop can rebound. van der Veen et al.
+(2014) used color interferometry to measure the shape of the meniscus between such pillars. Most
+recently, Antonini et al. (2014) applied X-rays to directly image the meniscus to pin down this
+wetting transition. Recent mushroom-shaped, double-reentrant, superomniphobic surfaces show
+bouncing of fully wettable liquids, such as hexadecane (Tuteja et al. 2008) and even perﬂuorohex-
+ane (Liu & Kim 2014).
+Richard et al. (2002) demonstrated that the contact time of a drop impacting a smooth hy-
+drophobic surface is almost constant, independent of the impact velocity, but grows linearly with
+drop size. Bird et al. (2013) showed that this time can be reduced by a cleverly constructed pattern-
+ing of a superhydrophobic surface, which breaks the drop into smaller pieces. They suggested that
+some leaves and butterﬂy wings have developed such patterns. Moevius et al. (2014) demonstrated
+what they call a pancake rebound (Figure 9b). This occurs when the impacting drop spreads along
+the texture but subsequently rebounds away from it before it can retract, thus retaining the ﬂat-
+tened shape when the liquid leaves the surface. This has the possible advantage of further reducing
+the contact time of the drop with the substrate, which can be important in certain applications,
+such as anti-icing coatings. Coatings are also used to reduce bug-splatter remnants on windshields
+and airplane wings, on which impacts are usually at an angle (Yeong et al. 2014).
+The next level of surface complexity involves modiﬁcations to promote directional rebounding,
+such as splitting the liquid into patterns or segmenting it onto wettable strips. Lee et al. (2010)
+studied impacts on a wettability-patterned surface, consisting of hydrophobized radial spikes,
+emanating from the center of the impact location (Figure 9c). They successfully formed ﬁne
+radial ﬁngers at wavelengths different from the natural instability. Surprisingly, regular liquid
+patterns can be formed for both hydrophilic and hydrophobic line patterns, with the liquid resting
+on and in between the patterns, respectively. Reyssat et al. (2009) showed that variations of the
+www.annualreviews.org • Drop Impact
+381
+
+
+--- PAGE 18 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+3 mm
+0 ms
+0 ms
+0 ms
+1.5
+1.1
+4.2
+3.5
+9.6
+9.3
+15.5
+14.8
+0 ms
+HYDROPHILIC
+HYDROPHOBIC
+1.2
+1.2
+8.3
+4.8
+13.0
+10.5
+Final
+Final
+c
+a
+5 μm
+5 μm
+200 μm
+200 μm
+100 μm
+100 μm
+12 mm
+b
+Figure 9
+Shaping the splatter pattern. (a) Drop impacting on a regular grating ejecting smaller droplets. Panel a taken with permission from
+Brunet et al. (2009). (b) Pancake rebound from a superhydrophobic pillared surface. Panel b adapted with permission from Liu et al.
+(2014). (c) Impacts on radial patterns. In the left column, the radial lines are hydrophilic, whereas in the right column, they are
+hydrophobic. Panel c modiﬁed with permission from Lee et al. (2010).
+postspacing along the surface can move the drops sideways. The impacting drops can also be
+formed into wetting patterns or can be redirected during the rebound (Schutzius et al. 2014).
+Solid substrates can be porous or have isolated holes. Lorenceau & Qu´er´e (2003) impacted
+a drop on a plate with a hole, identifying the critical We as function of Re, for which some
+of the liquid is ejected through the hole. Brunet et al. (2009) impacted a drop onto a regular
+microgrid, with holes in the form of truncated pyramids. The impact pushes through regular
+microdroplets with sizes similar to the individual hole size (Figure 9a). They demonstrated a
+larger critical We if the plate was turned over to form a reentrant surface structure. Similarly, Sahu
+et al. (2015) used porous mats of nanoﬁbers, which have applications in heat exchangers. They saw
+ﬁne jets emerging through the bottom of the mat, about three times faster than the drop impact
+velocity.
+382
+Josserand· Thoroddsen
+
+
+--- PAGE 19 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+5.1. Phase Change During Impact
+For certain applications, it is desired that the drop go through a phase change during impact. This
+can be solidiﬁcation of a molten drop in soldering, or boiling of a drop during fuel-spray/wall
+interactions (Moreira et al. 2010), and in extreme spray cooling of electronic devices. Solidiﬁca-
+tion is fundamental during inkjet soldering of electronics or fabrication of displays (Shinoda et al.
+2009). Bhola & Chandra (1999) studied the solidiﬁcation of parafﬁn wax, identifying the impor-
+tant parameters controlling the process. Aziz & Chandra (2000) examined the solidiﬁcation and
+splashing of molten metal droplets, deﬁning a solidiﬁcation parameter and characterizing when
+solidiﬁcation will not affect spreading.
+Spray cooling can be most effective when it extracts heat into energy of vaporization of the
+spray droplets. Leidenfrost effects (Qu´er´e 2013) are thus important, as they reduce heat transfer
+and enhance bouncing away from the substrate (Ko & Chung 1996). Biance et al. (2006) showed
+that Leidenfrost drops bounce with restitution coefﬁcients exceeding unity, thus extracting energy
+from the vaporization. Antonini et al. (2013) demonstrated rebound due to the sublimation of a
+dry-ice substrate.
+Moita & Moreira (2007) and Moreira et al. (2007) studied oils and petrochemicals fuels, show-
+ing jetting in the nucleate boiling regime. Breakup of the Leidenfrost layer under the drop has
+been studied by Tran et al. (2012) using interferometry. They identiﬁed explosive vertical jetting
+through the spreading lamella and characterized the splashing for heated surfaces, encompassing
+the Leidenfrost regime. Fingering of radial vapor lines during impact boiling was also observed
+in total internal reﬂection images under the drop, at temperatures slightly under the Leidenfrost
+point (Figure 7d) (Khavari et al. 2015).
+5.2. Splashing of Composite Drops
+Liquid suspensions and emulsions are ubiquitous in chemical processing and often form droplets.
+The impact of such droplets is thus of interest, for example, in spray cooling, lubrication, and
+combustion. Prunet-Foch et al. (1998) studied coolant/lubricant oil-water emulsions, sprayed on
+cold-rolling mills used in steel strip manufacturing. The impacts showed ﬁne jetting, attributed
+to oil droplets ejected out of the free surface. Figure 10 shows the impact of a drop containing
+large, heavier, internal perﬂuorohexane droplets, which settle near the bottom of the main drop.
+This forms isolated jets as the impact pressure ﬁeld is focused around the internal smaller droplets,
+showing the importance of the number and location of the inner droplets. Counterjets have been
+observed during the impact of hollow drops (Gulyaev & Solonenko 2013).
+The impact of dense suspensions of small solid particles has been imaged by Marston
+et al. (2013), showing grains ejected at twice the impact velocity of the granular drop. Pe-
+ters et al. (2013) demonstrated that one should use a particle-based Weber number to predict
+the onset of splashing. Interestingly, for bimodal particles, the smaller ones are more readily
+ejected. Splashing of non-Newtonian liquids has thus far not been well studied (Guemas et al.
+2009).
+Naturally, research into the complex phenomenon of drop impact, focused ﬁrst on the simplest
+conﬁgurations, has now shifted to fully attack the complexity of surface structure, complex-liquid
+drops, etc. Below are some of the issues that we believe need to be tackled. With accelerating
+improvements in both high-speed sensor technology and computational power, we expect the
+coming decade to provide even more breakthroughs in the study of drop impact, than have already
+occurred in the last decade since the review of Yarin (2006).
+www.annualreviews.org • Drop Impact
+383
+
+
+--- PAGE 20 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Figure 10
+The impact of a compound drop, with outer drop of viscosity 2 cP and containing 20 inner PP1 droplets, for impact velocity V ≃4
+m/s, drop D ≃4 mm. Frames are shown at t = 0, 0.08, 0.25, and 0.8 ms after ﬁrst contact. Note the repeatability of the ﬁne structure.
+Readers are also referred to Supplemental Video 11. Figure courtesy of Jiaming Zhang & Erqiang Li.
+FUTURE ISSUES
+1. Following the seminal discovery of Xu et al. (2005) that splashing is suppressed by re-
+duced air pressure, many groups have tried to ﬁnd the underlying mechanism. Numerous
+proposals have recently been put forth, some of which could be correct. The main focus is
+now on the levitation of the tip of the lamella as it travels along the substrate (Latka et al.
+2012, Stevens et al. 2014, Riboux & Gordillo 2014, Liu et al. 2015). Improved imaging
+should pinpoint the most promising explanations for the different impact conditions to
+show whether a single uniﬁed splashing theory exists.
+2. One uncertainty in this regard is the fuzzy deﬁnition of the splashing boundary, especially
+in the presence of surface roughness. Random roughness will inherently give random
+results, making it nontrivial to determine the splashing limit (e.g., see the large overlap
+of the splashing and deposition regimes observed in Roisman et al. 2015). High-speed
+microsplashing may also have been overlooked by early researchers (Thoroddsen et al.
+2012). Furthermore, drops larger than the capillary length are easily deformed from the
+spherical shape, and air drag in free fall can ﬂatten them. This invariable affects impact
+outcomes (Thoroddsen et al. 2005, Mishra et al. 2011, Liu et al. 2013) but was not
+characterized in many earlier studies.
+3. Finding and predicting the splashing threshold are worthwhile quests in and of them-
+selves. However, of greater practical importance will be to fully characterize the resulting
+splash. The size and number of the ﬁnest droplets are important, for example, for the gen-
+eration of aerosols. Trajectories of droplets are important for the uniformity of coatings,
+contamination, or rain erosion.
+384
+Josserand· Thoroddsen
+Supplemental Material
+
+
+--- PAGE 21 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+4. Most experiments study only drop silhouettes, and numerics assume axisymmetry. Per-
+haps some instabilities reside in the ﬂow ﬁeld inside the drop, as has recently been shown
+numerically by Thoraval et al. (2012) for the drop-pool ejecta sheet. This poses fresh
+experimental challenges, which may be overcome in the near future.
+5. The overwhelming majority of impact studies are far away from supersonic conditions
+(Lesser & Field 1983, Haller et al. 2002). However, such impacts can arise in applications
+such as sprays from high-pressure fuel injectors. Shock waves and the water-hammer
+pressure give rise to new dynamics. Direct measurements of the very large local forces
+involved might be possible with microscopic sensors. Overall forces can be measured
+using ﬂexible glass substrates (Soto et al. 2014).
+6. Practically, most impacts are oblique to the surface. This conﬁguration deserves more
+attention.
+7. Repeated drop impacts quickly wet the surface and transform the dynamics to impacts
+on liquid ﬁlms, a topic not covered above, but even very thin ﬁlms can have a strong
+effect on impact outcomes.
+DISCLOSURE STATEMENT
+The authors are not aware of any biases that might be perceived as affecting the objectivity of this
+review.
+ACKNOWLEDGMENTS
+It is our pleasure to thank all our collaborators on this fascinating problem of drop impact and, in
+particular, Jun Sakakibara, Erqiang Li, Ivan Vakarelski, Marie-Jean Thoraval, Jeremy Marston,
+Gilou Agbaglah, Zhen Jian, St´ephane Popinet, Pascal Ray, St´ephane Zaleski, and Jiaming Zhang
+for their support through the years. S.T.T. especially thanks Haralambos Marmanis for introduc-
+ing him to the subject. Finally, we thank all our colleagues contacted for the use of their images
+in this review.
+LITERATURE CITED
+Agbaglah G, Delaux S, Fuster D, Hoepffner J, Josserand C, et al. 2011. Parallel simulation of multiphase ﬂows
+using octree adaptivity and the volume-of-ﬂuid method. C. R. Mec. 339:194–207
+Agbaglah G, Josserand C, Zaleski S. 2013. Longitudinal instability of a liquid rim. Phys. Fluids 25:022103
+Allen RF. 1975. The role of surface tension in splashing. J. Colloid Interface Sci. 51:350–51
+Antkowiak A, Audoly B, Josserand C, Neukirch S, Rivetti M. 2011. Instant fabrication and selection of folded
+structures using drop impact. PNAS 108:10400–4
+Antonini C, Bernagozzi I, Jung S, Poulikakos D, Marengo M. 2013. Water drops dancing on ice: how subli-
+mation leads to drop rebound. Phys. Rev. Lett. 111:014501
+Antonini C, Lee JB, Maitra T, Irvine S, Derome D, et al. 2014. Unraveling wetting transition through surface
+textures with X-rays: liquid meniscus penetration phenomena. Sci. Rep. 4:4055
+Attinger D, Moore C, Donalson A, Jafari A, Stone HA. 2013. Fluid dynamics topics in bloodstain pattern
+analysis: comparative review and research opportunities. Forensic Sci. Int. 231:375–96
+Aziz SD, Chandra S. 2000. Impact, recoil and splashing of molten metal droplets. Int. J. Heat Mass Transf.
+43:2841–57
+www.annualreviews.org • Drop Impact
+385
+
+
+--- PAGE 22 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Bakshi S, Roisman IV, Tropea C. 2007. Investigations on the impact of a drop onto a small spherical target.
+Phys. Fluids 19:032102
+Bartolo D, Bouamrirene F, Verneuil E, Buguin A, Silberzan P, Moulinet S. 2006a. Bouncing or sticky droplets:
+impalement transitions on superhydrophobic micropatterned surfaces. Europhys. Lett. 74:299–305
+Bartolo D, Josserand C, Bonn D. 2005. Retraction dynamics of aqueous drops upon impact on nonwetting
+surfaces. J. Fluid Mech. 545:329–38
+Bartolo D, Josserand C, Bonn D. 2006b. Singular jets and bubbles in drop impact. Phys. Rev. Lett. 96:124501
+Bayer IS, Megaridis CM. 2006. Contact angle dynamics in droplets impacting on ﬂat surfaces with different
+wetting characteristics. J. Fluid Mech. 558:415–49
+Bhola R, Chandra S. 1999. Parameters controlling solidiﬁcation of molten wax droplets falling on a solid
+surface. J. Mater. Sci. 34:4883–94
+Biance A-L, Chevy F, Clanet C, Lagubeau G, Qu´er´e D. 2006. On the elasticity of an inertial liquid shock.
+J. Fluid Mech. 554:47–66
+Bird JC, Dhiman R, Kwon H-M, Varanasi KK. 2013. Reducing the contact time of a bouncing drop. Nature
+503:385–88
+Bird JC, Tsai S, Scott SH, Stone HA. 2009. Inclined to splash: triggering and inhibiting a splash with tangential
+velocity. New J. Phys. 11:063017
+Bischofberger I, Mauser KW, Nagel SR. 2013. Seeing the invisible-air vortices around a splashing drop. Phys.
+Fluids 25:091110
+Bouwhuis W, van der Veen RCA, Tran T, Keiji DL, Winkels KG, et al. 2012. Maximal air bubble entrainment
+at liquid-drop impact. Phys. Rev. Lett. 109:264501
+Brunet P, Lapierre F, Zoueshtiagh F, Thomy V, Merlen A. 2009. To grate a liquid into tiny droplets by its
+impact on a hydrophobic microgrid. Appl. Phys. Lett. 95:254102
+Chandra S, Avedisian CT. 1991. On the collision of a droplet with a solid surface. Proc. R. Soc. A 432:13–41
+Chou F-C, Zen T-S, Lee K-W. 2009. An experimental study of a water droplet impacting on a rotating wafer.
+Atom. Spray 19:905–16
+Clanet C, B´eguin C, Richard D, Qu´er´e D. 2004. Maximal deformation of an impacting drop. J. Fluid Mech.
+517:199–208
+de Jong R, Enriquez OR, van der Meer D. 2015. Exploring droplet impact near a millimetre-sized hole:
+comparing a closed pit with an open-ended pore. J. Fluid Mech. 772:427–44
+de Ruiter J, Lagraauw R, van den Ende D, Mugele F. 2015a. Wettability-independent bouncing on ﬂat surfaces
+mediated by thin air ﬁlms. Nat. Phys. 11:48–53
+de Ruiter J, Oh JM, van den Ende D, Mugele F. 2012. Dynamics of collapse of air ﬁlms in drop impact. Phys.
+Rev. Lett. 108:074505
+de Ruiter J, van den Ende D, Mugele F. 2015b. Air cushioning in droplet impact. II: Experimental character-
+ization of the air ﬁlm evolution. Phys. Fluids 27:012105
+Deng X, Mammen L, Butt H-J, Vollmer D. 2012. Candle soot as a template for a transparent robust super-
+amphiphobic coating. Science 107:67–70
+Driscoll MM, Nagel SR. 2011. Ultrafast interference imaging of air in splashing dynamics. Phys. Rev. Lett.
+107:154502
+Driscoll MM, Stevens CS, Nagel SR. 2010. Thin ﬁlm formation during splashing of viscous liquids. Phys. Rev.
+E 83:036302
+Duchemin L, Josserand C. 2011. Curvature singularity and ﬁlm-skating during drop impact. Phys. Fluids
+23:091701
+Duchemin L, Josserand C. 2012. Rareﬁed gas correction for the bubble entrapment singularity in drop impacts.
+C. R. Mec. 340:797–803
+Eggers J, Fontelos M, Josserand C, Zaleski S. 2010. Drop dynamics after impact on a solid wall: theory and
+simulations. Phys. Fluids 22:062101
+Fassmann BW, Bansmer SE, Moeller TJ, Radespiel R, Hartmann M. 2013. High velocity impingement of
+single droplets on a dry smooth surface. Exp. Fluids 54:1516
+Fedorchenko AI, Wang A-B, Wang Y-H. 2005. Effect of capillary and viscous forces on spreading of a liquid
+drop impinging on a solid surface. Phys. Fluids 17:093104
+386
+Josserand· Thoroddsen
+
+
+--- PAGE 23 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Gilet T, Bourouiba L. 2014. Rain-induced ejection of pathogens from leaves: revisiting the hypothesis of
+splash-on-ﬁlm using high-speed visualization. Integr. Comp. Biol. 54:974–84
+Guemas M, Marin AG, Lohse D. 2009. Drop impact experiments of non-Newtonian liquids on micro-
+structured surfaces. Soft Matter 8:10725–31
+Gulyaev IP, Solonenko OP. 2013. Hollow droplets impacting onto a solid surface. Exp. Fluids 54:1432
+Haller KK, Ventikos Y, Poulikakos D, Monkewitz P. 2002. Computational study of high-speed liquid droplet
+impact. J. Appl. Phys. 92:2821–28
+Hendrix MHW, Bouwhuis W, van der Meer D, Lohse D, Snoeijer JH. 2015. Universal mechanism for air
+entrainment during liquid impact.. arXiv:1502.02869v1 [physics.ﬂu-dyn]
+Hicks PD, Ermanyuk EV, Gavrilov NV, Purvis R. 2012. Air trapping at impact of a rigid sphere onto a liquid.
+J. Fluid Mech. 695:310–20
+Hicks PD, Purvis R. 2010. Air cushioning and bubble entrapment in three-dimensional droplet impacts.
+J. Fluid Mech. 649:135–63
+Hicks PD, Purvis R. 2013. Liquid-solid impacts with compressible gas cushioning. J. Fluid Mech. 735:120–49
+Huang Y-L, Wang M-J, Huang J-W, Lin S-Y. 2013. A study on the impact velocity and drop size for the
+occurrence of entrapped air bubbles: water on paraﬁlm. Exp. Therm. Fluid Sci. 48:102–9
+Hulse-Smith L, Mehdizadeh NZ, Chandra S. 2005. Deducing drop size and impact velocity from circular
+bloodstains. J. Forensic Sci. 50:54–63
+Josserand C, Lemoyne L, Troeger R, Zaleski S. 2005. Droplet impact on a dry surface: triggering the splash
+with a small obstacle. J. Fluid Mech. 524:47–56
+Joung YS, Buie CR. 2015. Aerosol generation by raindrop impact on soil. Nat. Commun. 6:6083
+Khavari M, Sun C, Lohse D, Tran T. 2015. Fingering patterns during droplet impact on heated surfaces. Soft
+Matter 11:3298–303
+Kim H, Park U, Lee C, Kim H, Kim MH, Kim J. 2014. Drop splashing on a rough surface: how surface
+morphology affects splashing threshold. Appl. Phys. Lett. 104:161608
+Klaseboer E, Chevaillier JP, Gourdon C, Masbernat O. 2000. Film drainage between colliding drops at
+constant approach velocity: experiments and modeling. J. Colloid Interface Sci. 229:274–85
+Klaseboer E, Manica R, Chan DYC. 2014. Universal behavior of the initial stage of drop impact. Phys. Rev.
+Lett. 113:194501
+Ko YS, Chung SH. 1996. An experiment on the breakup of impinging droplets on a hot surface. Exp. Fluids
+21:118–23
+Kolinski JM, Rubinstein SM, Mandre S, Brenner MP, Weitz DA. 2012. Skating on a ﬁlm of air: drops
+impacting on a surface. Phys. Rev. Lett. 108:074503
+Kolinski JM, Mahadevan L, Rubinstein SM. 2014a. Drops can bounce from perfectly hydrophilic surfaces.
+Eur. Phys. Lett. 108:24001
+Kolinski JM, Mahadevan L, Rubinstein SM. 2014b. Lift-off instability during the impact of a drop on a solid
+surface. Phys. Rev. Lett. 112:134501
+Korobkin AA, Ellis AS, Smith FT. 2008. Trapping of air in impact between a body and shallow water. J. Fluid
+Mech. 611:365–94
+Kwon D, Huh H, Lee S. 2013. Wetting state and maximum spreading factor of microdroplets impacting on
+superhydrophobic textured surfaces with anisotropic arrays of pillars. Exp. Fluids 54:1576
+Laan N, de Bruin KG, Bartolo D, Josserand C, Bonn D. 2014. Maximum diameter of impacting liquid droplets.
+Phys. Rev. Appl. 2:044018
+Lagubeau G, Fontelos MA, Josserand C, Maurel A, Pagneux V, Petitjeans P. 2012. Spreading dynamics of
+drop impacts. J. Fluid Mech. 713:50–60
+Lastakowski H, Boyer F, Biance A-L, Pirat C, Ybert C. 2014. Bridging local to global dynamics of drop impact
+onto solid substrates. J. Fluid Mech. 747:103–18
+Latka A, Strandburg-Peshkin A, Driscoll MM, Stevens CS, Nagel SR. 2012. Creation of prompt and thin-sheet
+splashing by varying surface roughness or increasing air pressure. Phys. Rev. Lett. 109:054501
+Lee JS, Weon BM, Je JH, Fezzaa K. 2012. How does an air ﬁlm evolve into a bubble during drop impact?
+Phys. Rev. Lett. 109:204501
+Lee M, Chang YS, Kim H-Y. 2010. Drop impact on microwetting patterned surfaces. Phys. Fluids 22:072101
+www.annualreviews.org • Drop Impact
+387
+
+
+--- PAGE 24 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Lembach AN, Tan H-B, Roisman IV, Gambaryan-Roisman T, Zhang Y, et al. 2010. Drop impact, spreading,
+splashing, and penetration into electrospun nanoﬁber mats. Langmuir 26:9516–23
+Lesser M, Field JE. 1983. The impact of compressible liquids. Annu. Rev. Fluid Mech. 15:97–122
+Li EQ, Thoroddsen ST. 2015. Time-resolved imaging of a compressible air-disc under a drop impacting on
+a solid surface. J. Fluid Mech. 780:636–48
+Liu TL, Kim CJ. 2014. Turning a surface superrepellent even to completely wetting liquids. Science 346:1096–
+100
+Liu Y, Moevius L, Xu X, Qian T, Yeomans JM, Wang Z. 2014. Pancake bouncing on superhydrophobic
+surfaces. Nat. Phys. 10:515–19
+Liu Y, Tan P, Xu L. 2013. Compressible air entrapment in high-speed drop impacts on solid surfaces. J. Fluid
+Mech. 716:R9
+Liu Y, Tan P, Xu L. 2015. Kelvin–Helmholtz instability in an ultrathin air ﬁlm causes drop splashing on
+smooth surfaces. PNAS 112:3280–84
+Lorenceau E, Qu´er´e D. 2003. Drop impacting a sieve. J. Colloid Interface Sci. 263:244–49
+Maitra T, Tiwari MK, Antonin C, Schoch P, Jung S, et al. 2014. On the nanoengineering of superhydrophobic
+and impalement resistant surface textures below the freezing temperature. Nano Lett. 14:172–82
+Mandre S, Brenner MP. 2012. The mechanism of a splash on a dry solid surface. J. Fluid Mech. 690:148–72
+Mandre S, Mani M, Brenner MP. 2009. Precursors to splashing of liquid droplets on a solid surface. Phys. Rev.
+Lett. 102:134502
+Mani M, Mandre S, Brenner MP. 2010. Events before droplet splashing on a solid surface. J. Fluid. Mech.
+647:163–85
+Marengo M, Antonini C, Roisman IV, Tropea C. 2011. Drop collisions with simple and complex surfaces.
+Curr. Opin. Colloid Interface Sci. 16:292–302
+Marmanis H, Thoroddsen ST. 1996. Scaling of the ﬁngering pattern of an impacting drop. Phys. Fluids
+8:1344–46
+Marston JO, Mansoor MM, Thoroddsen ST. 2013. Impact of granular drops. Phys. Rev. E 88:010201
+Marston JO, Vakarelski IU, Thoroddsen ST. 2011. Bubble entrapment during sphere impact onto quiescent
+liquid surfaces. J. Fluid Mech. 680:660–70
+Mehdizadeh NZ, Chandra S. 2006. Boiling during high-velocity impact of water droplets on a hot stainless
+steel surface. Proc. R. Soc. A 462:3115–31
+Mehdizadeh NZ, Chandra S, Mostaghimi J. 2004. Formation of ﬁngers around the edges of a drop hitting a
+metal plate with high velocity. J. Fluid Mech. 510:353–73
+Minemawari H, Yamada T, Matsui H, Tsutsumi J, Haas S, et al. 2011. Inkjet printing of single-crystal ﬁlms.
+Nature 475:364–67
+Mishra NK, Zhang Y, Ratner A. 2011. Effect of chamber pressure on spreading and splashing of liquid drops
+upon impact on a dry smooth stationary surface. Exp. Fluids 51:483–91
+Moevius L, Liu Y, Wang Z, Yeomans JM. 2014. Pancake bouncing: simulations and theory and experimental
+veriﬁcation. Langmuir 30:13021–32
+Moita AS, Moreira ALN. 2007. Drop impacts onto cold and heated rigid surfaces: morphological comparisons,
+disintegration limits and secondary atomization. Int. J. Heat Fluid Flow 28:735–52
+Mongruel A, Daru V, Feuillebois F, Tabakova SS. 2009. Early post-impact time dynamics of viscous drops
+onto a solid dry surface. Phys. Fluids 21:032101
+Moreira ALN, Moita AS, Cossali E, Marengo M, Santini M. 2007. Secondary atomization of water and
+isooctane drops impinging on tilted heated surfaces. Exp. Fluids 43:297–313
+Moreira ALN, Moita AS, Pan˜ao MR. 2010. Advances and challenges in explaining fuel spray impingement:
+How much of single droplet impact research is useful? Prog. Energy Combust. Sci. 36:554–80
+Mundo C, Sommerfeld M, Tropea C. 1995. Droplet-wall collisions: experimental studies of the deformation
+and breakup process. Int. J. Multiphase Flow 21:151–73
+Palacios J, Hern´andez J, G´omez P, Zanzi C, L´opez J. 2012. On the impact of viscous drops onto dry smooth
+surfaces. Exp. Fluids 52:1449–63
+Palacios J, Hern´andez J, G´omez P, Zanzi C, L´opez J. 2013. Experimental study of splashing patterns and the
+splashing/deposition threshold in drop impacts onto dry smooth solid surfaces. Exp. Therm. Fluid Sci.
+44:571–82
+388
+Josserand· Thoroddsen
+
+
+--- PAGE 25 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Pasandideh-Fard M, Qiao YM, Chandra S, Mostaghimi J. 1996. Capillary effects during droplet impact on a
+solid surface. Phys. Fluids 8:650–59
+Pepper RE, Courbin L, Stone HA. 2008. Splashing on elastic membranes: the importance of early-time
+dynamics. Phys. Fluids 20:082103
+Peters IR, Xu Q, Jaeger HM. 2013. Splashing onset in dense suspension droplets. Phys. Rev. Lett. 111:028301
+Piroird K, Clanet C, Lorenceau E, Qu´er´e D. 2009. Drops impacting inclined ﬁbers. J. Colloid Interface Sci.
+334:70–74
+Pittoni PG, Lin Y-C, Wang R-J, Yu T-S, Lin S-Y. 2015. Bubbles entrapment for drops impinging on polymer
+surfaces: the roughness effect. Exp. Therm. Fluid Sci. 62:183–91
+Prunet-Foch B, Legay F, Vignes-Adler M, Delmotte C. 1998. Impacting emulsion drop on a steel plate:
+inﬂuence of the solid substrate. J. Colloid Interface Sci. 199:151–68
+Qu´er´e D. 2013. Leidenfrost dynamics. Annu. Rev. Fluid Mech. 45:197–215
+Range K, Feuillebois F. 1998. Inﬂuence of surface roughness on liquid drop impact. J. Colloid Interface Sci.
+203:16–30
+Rein M. 1993. Phenomena of liquid drop impact on solid and liquid surfaces. Fluid Dyn. Res. 12:61–93
+Rein M, Delplanque J-P. 2008. The role of air entrainment on the outcome of drop impact on a solid surface.
+Acta Mech. 201:105–18
+Renardy Y, Popinet S, Duchemin L, Renardy M, Zaleski S, et al. 2003. Pyramidal and toroidal water drops
+after impact on a solid surface. J. Fluid Mech. 484:69–83
+Reyssat M, Pardo F, Qu´er´e D. 2009. Drops onto gradients of texture. Europhys. Lett. 87:36003
+Reyssat M, Pepin A, Marty F, Chen Y, Qu´er´e D. 2006. Bouncing transitions on microtextured materials.
+Europhys. Lett. 74:306–12
+Riboux G, Gordillo JM. 2014. Experiments of drops impacting a smooth solid surface: a model of the critical
+impact speed for drop splashing. Phys. Rev. Lett. 113:024507
+Riboux G, Gordillo JM. 2015. The diameter and velocities of the droplets ejected after splashing. J. Fluid
+Mech. 772:630–48
+Richard D, Clanet C, Qu´er´e D. 2002. Contact time of a bouncing drop. Nature 417:811
+Richard D, Qu´er´e D. 2000. Bouncing water drops. Europhys. Lett. 50:769–75
+Rioboo R, Marengo M, Tropea C. 2002. Time evolution of liquid drop impact onto solid, dry surfaces. Exp.
+Fluids 33:112–24
+Rioboo R, Tropea C, Marengo M. 2001. Outcomes from a drop impact on solid surfaces. At. Sprays 11:155–65
+Roisman IV. 2009. Inertia dominated drop collisions. II. An analytical solution of the Navier-Stokes equations
+for a spreading viscous ﬁlm. Phys. Fluids 21:052104
+Roisman IV, Berberovi´c E, Tropea C. 2009. Inertia dominated drop collisions. I. On the universal ﬂow in the
+lamella. Phys. Fluids 21:052103
+Roisman IV, Horvat K, Tropea C. 2006. Spray impact: rim transverse instability initiating ﬁngering and splash
+and description of a secondary spray. Phys. Fluids 18:102104
+Roisman IV, Lembach A, Tropea C. 2015. Drop splashing induced by target roughness and porosity: The
+size plays no role. Adv. Colloid Interface Sci. 222:615–21
+Roisman IV, Rioboo R, Tropea C. 2002. Normal impact of a liquid drop on a dry surface: model for spreading
+and receding. Proc. R. Soc. A 458:1411–30
+Rozhkov A, Brunet-Foch B, Vignes-Adler M. 2010. Impact of drops of surfactant solutions on small targets.
+Proc. R. Soc. A 466:2897–916
+Sahu RP, Sett S, Yarin AL, Pourdeyhimi B. 2015. Impact of aqueous suspension drops onto non-wettable
+porous membranes: hydrodynamic focusing and penetration of nanoparticles. Colloids Surf. A 467:31–45
+Scheller BL, Bousﬁeld DW. 1995. Newtonian drop impact with a solid surface. AIChE J. 41:1357–67
+Schroll RD, Josserand C, Zaleski S, Zhang WW. 2010. Impact of a viscous liquid drop. Phys. Rev. Lett.
+104:034504
+Schutzius TM, Graeber G, Elsarkawy M, Oreluk J, Megaridis CM. 2014. Morphing and vectoring impacting
+droplets by means of wettability-engineered surfaces. Sci. Rep. 4:7029
+Shinoda K, Raessi M, Mostaghimi J, Yoshida T, Murakami H. 2009. Effect of substrate concave pattern on
+splat formation of yttria-stabilized zirconia in atmospheric plasma spraying. J. Therm. Spray Technol.
+18:609–18
+www.annualreviews.org • Drop Impact
+389
+
+
+--- PAGE 26 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Smith FT, Li L, Wu GX. 2003. Air cushioning with a lubrication/inviscid balance. J. Fluid Mech. 482:291–318
+Soto D, De Larivi`ere AB, Boutillon X, Clanet C, Qu´er´e D. 2014. The force of impacting rain. Soft Matter
+10:4929–34
+Stevens CS. 2014. Scaling of the splash threshold for low-viscosity ﬂuids. Eur. Phys. Lett. 106:24001
+Stevens CS, Latka A, Nagel SN. 2014. Comparison of splashing in high- and low-viscosity liquids. Phys. Rev.
+E 89:063006
+Stow CD, Hadﬁeld MG. 1981. An experimental investigation of ﬂuid ﬂow resulting from the impact of a water
+drop with an unyielding dry surface. Proc. R. Soc. A 373:419–41
+Thoraval M-J, Takehara K, Etoh TG, Popinet S, Ray P, et al. 2012. Von K´arm´an vortex street within an
+impacting drop. Phys. Rev. Lett. 108:264506
+Thoroddsen ST, Etoh TG, Takehara K. 2008. High-speed imaging of drops and bubbles. Annu. Rev. Fluid
+Mech. 40:257–85
+Thoroddsen ST, Etoh TG, Takehara K, Ootsuka N, Hatsuki Y. 2005. The air bubble entrapped under a drop
+impacting on a solid surface. J. Fluid Mech. 545:203–12
+Thoroddsen ST, Takehara K, Etoh TG. 2010. Bubble entrapment through topological change. Phys. Fluids
+22:051701
+Thoroddsen ST, Takehara K, Etoh TG. 2012. Micro-splashing by drop impacts. J. Fluid Mech. 706:560–70
+Thoroddsen ST, Takehara K, Etoh TG, Ohl C-D. 2009. Spray and microjets produced by focusing a laser
+pulse into a hemispheric drop. Phys. Fluids 21:112101
+Thoroddsen ST, Sakakibara J. 1998. Evolution of the ﬁngering pattern of an impacting drop. Phys. Fluids
+10:1359–74
+Tran T, Staat HJJ, Prosperetti A, Sun C, Lohse D. 2012. Drop impact on superheated surfaces. Phys. Rev.
+Lett. 108:036101
+Tsai PA, Hendrix MHW, Dijkstra RRM, Shui L, Lohse D. 2011. Microscopic structure inﬂuencing macro-
+scopic splash at high Weber number. Soft Matter 7:11325–33
+Tsai PA, Pacheco S, Pirat C, Lefferts L, Lohse D. 2009. Drop impact upon micro- and nanostructured
+superhydrophobic surfaces. Langmuir 25:12293–98
+Tsai PA, van der Veen RCA, van de Raa M, Lohse D. 2010. How micropatterns and air pressure affect
+splashing on surfaces. Langmuir 26:16090–95
+Tuteja A, Choi W, Mabry JM, McKinley GH, Cohen RE. 2008. Robust omniphobic surfaces. PNAS
+105:18200–5
+Ukiwe C, Kwok D. 2005. On the maximum spreading diameter of impacting droplets on well-prepared solid
+surfaces. Langmuir 21:666–73
+Vadillo D, Soucemarianadin A, Delattre C, Roux D. 2009. Dynamic contact angle effects onto the maximum
+drop impact spreading on solid surfaces. Phys. Fluids 21:122002
+Van Dam DB, Le Clerc C. 2004. Experimental study of the impact of an ink-jet printed droplet on a solid
+substrate. Phys. Fluids 16:3403–14
+van der Veen RCA, Tran T, Lohse D, Sun C. 2012. Direct measurements of air layer proﬁles under impacting
+droplets using high-speed color interferometry. Phys. Rev. E 85:026315
+van der Veen RCA, Hendrix MHW, Tran T, Sun C, Tsai PA, Lohse D. 2014. How microstructures affect air
+ﬁlm dynamics prior to drop impact. Soft Matter 10:3703–7
+Vander Wal RL, Berger GM, Mozes SD. 2006. The splash/non-splash boundary upon a dry surface and thin
+ﬂuid ﬁlm. Exp. Fluids 40:53–59
+Vernay C, Ramos L, Ligoure C. 2015. Free radially expanding liquid sheet in air: time- and space-resolved
+measurement of the thickness ﬁeld. J. Fluid Mech. 764:428–44
+Villermaux E, Bossa B. 2011. Drop fragmentation on impact. J. Fluid Mech. 668:412–35
+Visser CW, Frommhold PE, Wildeman S, Mettin R, Lohse D, Sun C. 2015. Dynamics of high-speed micro-
+drop impact: numerical simulations and experiments at frame-to-frame times below 100 ns. Soft Matter
+11:1708–22
+Visser CW, Tagawa Y, Sun C, Lohse D. 2012. Microdroplet impact at very high velocity. Soft Matter 8:10732–
+37
+Worthington AM. 1876. On the forms assumed by drops of liquids falling vertically on a horizontal plate.
+Proc. R. Soc. 25:261–72
+390
+Josserand· Thoroddsen
+
+
+--- PAGE 27 ---
+
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  92.30.172.63 On: Tue, 24 Jun 2025 17:58:19
+Xu L, Barcos L, Nagel SR. 2007. Splashing of liquids: interplay of surface roughness with surrounding gas.
+Phys. Rev. Lett. 76:066311
+Xu L, Zhang WW, Nagel SR. 2005. Drop splashing on a dry smooth surface. Phys. Rev. Lett. 94:184505
+Yarin AL. 2006. Drop impact dynamics: splashing, spreading, receding, bouncing. Annu. Rev. Fluid Mech.
+38:159–92
+Yarin AL, Weiss DA. 1995. Impact of drops on solid surfaces: self-similar capillary waves, and splashing as a
+new type of kinematic discontinuity. J. Fluid Mech. 283:141–73
+Yeong YH, Burton J, Loth E, Bayer IS. 2014. Drop impact and rebound dynamics on an inclined superhy-
+drophobic surface. Langmuir 30:12027–38
+Yokoi K. 2011. Numerical studies of droplet splashing on a dry surface: triggering a splash with the dynamic
+contact angle. Soft Matter 7:5120–23
+Yokoi K, Vadillo D, Hinch J, Hutchings I. 2009. Numerical studies of the inﬂuence of the dynamic contact
+angle on a drop impacting on a dry surface. Phys. Fluids 21:072102
+Yoon SS, Jepsen RA, Nissen MR, O’Hern TJ. 2007. Experimental investigation on splashing and nonlinear
+ﬁngerlike instability of large water drops. J. Fluids Struct. 23:101–15
+www.annualreviews.org • Drop Impact
+391

@@ -1,0 +1,533 @@
+
+
+--- PAGE 1 ---
+
+Quantitative bloodstain analysis: Differentiation of contact transfer
+patterns versus spatter patterns on fabric via microscopic inspection
+Yuen Cho a, Faye Springer b, Frederic A. Tulleners a, William D. Ristenpart a,c,*
+a Forensic Science Graduate Group, University of California Davis, Davis, CA 95616, USA
+b Sacramento County Laboratory of Forensic Science, Sacramento, CA 95820, USA
+c Department of Chemical Engineering & Materials Science, University of California Davis, Davis, CA 95616, USA
+1. Introduction
+A correct distinction between bloodstain patterns formed by
+‘‘contact transfer’’ and ‘‘spatter’’ can be essential for the accurate
+reconstruction of events at crime scene where such bloodstain
+patterns are found. The Scientiﬁc Working Group on Bloodstain
+Pattern Analysis (SWGSTAIN) deﬁnes a transfer stain as ‘‘a
+bloodstain resulting from contact between a blood-bearing surface
+and another surface’’, whereas spatter stain is deﬁned as ‘‘a
+bloodstain resulting from a blood drop dispersed through the air
+due to an external force applied to a source of liquid blood’’ [1].
+Although these deﬁnitions are clear, the differentiation between
+them is challenging, especially when the bloodstain is on fabric. As
+currently practiced, the interpretations of bloodstain patterns by
+bloodstain pattern analysts are mostly based upon the experience
+level of the analysts and the qualitative characteristics of the
+bloodstain patterns. Because of the analysts’ subjective analysis of
+bloodstain patterns found at the crime scene, however, experts
+often provide different interpretations of the same bloodstain
+pattern evidence. For example, in Indiana v. Camm [2] the state
+called four expert witnesses, all of whom testiﬁed that some of the
+bloodstains on the defendant’s shirt were the result of high-
+velocity impact spatter. In contrast, the defense called their own
+four bloodstain analysis expert witnesses, and these four experts
+testiﬁed that all of the bloodstains on the defendant’s shirt resulted
+from contact transfer. A similar example occurred in the Supreme
+Court of California case People v. McWhorter [3], in which the
+experts called upon to testify by the prosecution and defense had
+different interpretations of the bloodstains found on a paper towel
+collected at the crime scene: the defense expert said the stains
+were ‘‘expectorated’’ (nasal blowing pattern) whereas the prose-
+cutor’s criminalist said the bloodstains were transfer stains.
+Summing matters up, the National Research Council stated in
+their recent report that the interpretations of bloodstain pattern
+analysts ‘‘are more subjective than scientiﬁc’’ [4].
+A key reason for the subjectivity is the lack of quantitative
+methods for characterizing bloodstains on fabrics. Arguably the
+Forensic Science International 249 (2015) 233–240
+A R T I C L E 
+I N F O
+Article history:
+Received 28 August 2014
+Received in revised form 15 January 2015
+Accepted 23 January 2015
+Available online 4 February 2015
+Keywords:
+Stockinette
+BPA
+Textiles
+Cotton
+Polyester
+Drops
+A B S T R A C T
+In crime scene reconstruction, it is often necessary to differentiate ‘‘contact transfer’’ and ‘‘spatter’’
+bloodstain patterns found on clothing. Current methodologies, however, are qualitative and prone to
+context bias. In this work, we demonstrate that microscopic inspection of the stain orientations provides
+a quantitative differentiation of bloodstains resulting from spatter versus contact transfer. Speciﬁcally,
+common knitted fabrics are comprised of parallel rows of left loop legs, in an upward diagonal orientation
+(/), and right loop legs in a downward diagonal orientation (\). Our microscopic examination of more than
+65,000 individual stained loop legs shows that spatter stains are approximately evenly distributed
+between left and right loop legs, but contact transfer stains are unevenly distributed: depending on the
+type of surface contacted, as many as 82% of the stains were preferentially located on the left loop legs. We
+further show that in these fabrics the left loop legs protrude further out than the right loop legs by
+approximately 50 mm, indicating that the observation of left loop legs preferentially stained over right
+loop legs is associated with the topography of the fabric. These ﬁndings suggest that microscopic
+quantiﬁcation of the relative loop leg stain distributions could provide an objective means of
+differentiating contact transfer versus spatter patterns in crime scene reconstruction.
+ 2015 Elsevier Ireland Ltd. All rights reserved.
+* Corresponding author at: Department of Chemical Engineering & Materials
+Science, University of California Davis, Davis, CA 95616, USA. Tel.: +1 530 752 8780.
+E-mail address: wdristenpart@ucdavis.edu (W.D. Ristenpart).
+Contents lists available at ScienceDirect
+Forensic Science International
+jou r nal h o mep age: w ww.els evier .co m/lo c ate/fo r sc iin t
+http://dx.doi.org/10.1016/j.forsciint.2015.01.021
+0379-0738/ 2015 Elsevier Ireland Ltd. All rights reserved.
+
+
+--- PAGE 2 ---
+
+most well-known quantitative methodology in bloodstain pattern
+analysis is the determination of point-of-origin via triangulation
+(cf. Refs. [5,6]), a methodology which depends on understanding
+the complicated physics of drops in ﬂight [7]. This approach does
+not help, however, in the differentiation of spatter versus contact
+transfer on fabrics. Previous research speciﬁcally on bloodstains
+located on fabrics has focused primarily on individual drops
+impacting various types of fabrics at different angles and velocities.
+Karger et al. investigated and characterized the differences
+between contact and ‘‘dynamic’’ (spatter) stains on three common
+types of fabric [8]. They found that individual millimeter scale
+dynamic stains tended to: (i) be more symmetric, (ii) yield more
+‘secondary droplets’ (presumably from splashing), and (iii) appear
+darker overall because they tended to lie closer to the fabric
+surface. In contrast, individual millimeter scale contact transfer
+stains tended to be asymmetric, lack secondary droplets, and were
+paler in color. Although Karger’s observations provide approximate
+guidelines for distinguishing contact transfer and dynamic stains,
+the guidelines are qualitative: for example, different experts can
+argue about how ‘‘symmetric’’ a stain appears. More recently,
+Holbrook examined bloodstains on a wider range of fabrics and
+found that certain fabric characteristics, such as composition and
+absorbency, appear to be factors for the appearance of bloodstains
+on clothing materials [9]. This work also suggested that the shape
+of the stains appeared to be associated with their overall size.
+Stains that were smaller than the width of a single thread tended to
+retain highly circular shapes, whereas stains that were wide
+enough to cover multiple threads were more distorted. Again,
+however, these characterizations are qualitative and thus subject
+to debate amongst analysts. Clearly, quantitative characteristics
+that can serve as objective guidelines for differentiating spatter
+stains and transfer stains are needed.
+The objective of this study is to develop a quantitative
+methodology 
+to 
+differentiate 
+contact 
+transfer 
+from 
+spatter
+bloodstain patterns on the face side of common knitted fabrics.
+We focus here on microscopic examination of bloodstains on the
+‘‘stockinette’’ knitting pattern, which is ubiquitous in modern mass
+produced clothing (e.g., T-shirts, polo shirts, etc.) Stockinette
+patterns involve stitch loops of yarn repeated throughout the fabric
+[10]; each loop contains a loop head, two loop legs and the loop feet
+(Fig. 1a). Importantly, on the face side (i.e., on the side of the fabric
+typically worn away from the body) the loop legs are apparent as
+parallel rows of alternate opposing orientations, upward diagonal
+(/) and downward diagonal (\), cf. Fig. 1b. The key ﬁnding in this
+work is that blood preferentially absorbs into the upward diagonal
+(left) loop legs during contact transfer, whereas spatter is more evenly
+distributed between the two orientations. We further show via
+confocal microscopy that the upward diagonal (left) loop legs
+protrude further outward by about 50 mm compared to the
+downward diagonal (right) loop legs, indicating that the fabric
+topography determines the preferential absorption during contact
+transfer. The results point toward an objective and quantitative
+means of differentiating contact transfer and spatter on fabrics that
+contain similar topographical asymmetries.
+2. Study design and methodology
+2.1. Materials and methods
+Porcine (pig) blood, obtained from freshly killed pigs at the
+Animal Science meat lab on the UC Davis campus, was used for all
+experiments in this study. Standard BD EDTA tubes (ethylenedia-
+minetetraacetic acid) were used as anticoagulant containers. The
+blood samples were stored in a refrigerator at 4 8C shortly after
+collection from the pigs.
+All blood was used within 1–5 days from collection date. Prior
+to an experiment, the blood samples were warmed up to human
+body temperature (37 8C) in a circulating water bath for 30–
+45 min. The blood was then transferred to a pre-warmed atomizer
+(a standard perfume bottle) and left in the water bath for another
+15–20 min until the experiments were performed. The tempera-
+ture of the water bath was monitored to ensure the temperature
+was kept constant throughout the experiments.
+The fabrics were purchased from a local clothing store as white
+T-shirts. Two fabric materials were tested: 100% cotton and 50%
+cotton/50% polyester. White fabrics were chosen to simplify
+visualization of the blood. The stockinette weaving of the two
+fabrics was veriﬁed via microscopic examination to follow the
+same pattern.
+The fabrics were stained with the blood in two distinct manners
+(Fig. 2). For the ‘‘spatter’’ patterns (Fig. 2a each stain pattern was
+formed by a single spray of the atomizer directly onto the fabric.
+The atomizer was held approximately 10 cm above from the fabric
+surface, which was placed horizontally on a bench surface in lab.
+Ten replicates of this procedure were performed with both types of
+fabric (20 trials in total).
+In contrast, the contact transfer bloodstain patterns were
+generated by ﬁrst spraying the blood onto a ‘‘donor’’ surface
+(Fig. 2b). The blood was sprayed from the atomizer in an identical
+fashion as in the spatter replicates (10 cm above the horizontal
+donor surface). Two types of donor surfaces were tested: leather, to
+represent a more pliable surface comparable to human skin, and
+glass, to represent a rigid and smooth surface. Immediately after
+spraying the blood onto the donor surface, the fabric of interest
+was then pressed by hand onto the donor surface to transfer the
+blood via direct contact. Similarly, we performed 10 replicates of
+Fig. 1. (a) A schematic diagram in the Stockinette knitting pattern, as viewed from the face side of the fabric. Note that loop legs sit above the neighboring stitch, and that each
+row appears as a series of alternating loop leg with opposing orientation. Reproduced from reference [10]. (b) Photograph of the face side of 100% cotton plain fabric. Note that
+only the loop legs, of left or right orientation, are clearly visible. Red dashed lines are superimposed to guide the eye. (For interpretation of the references to color in this ﬁgure
+legend, the reader is referred to the web version of this article.)
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240
+234
+
+
+--- PAGE 3 ---
+
+transfer patterns generated from each surface type for each type of
+fabric, yielding an additional 40 trials.
+2.2. Digital photography and microscopy
+After each experiment, all pieces of fabric were allowed to air
+dry completely before proceeding to photography. A CANNON EOS
+7D 18.0 Megapixel digital SLR camera along with four large ﬂood
+lights (to provide even illumination) attached to a copy stand were
+used to capture low magniﬁcation digital images of the overall
+pattern on the fabric.
+Microscopic images of randomly selected areas of each pattern
+were taken by reﬂection microscope (Leica DM 2500 M micro-
+system) at 10 magniﬁcation. The presence or absence of blood was
+easily discernible because of the high contrast with the white fabric.
+A minimum of 20 microscopic images was acquired for each trial
+replicate. For both types of fabric, there were 10 replicates of spatter
+patterns, and 10 replicates of transfer patterns generated from both
+leather and glass respectively, yielding 2  3  10  20 = 1200
+microscopic images.
+Each microscopic image was analyzed by manually counting
+the number of stained left loop legs and the number of stained right
+loop legs. A loop leg that had approximately 75% or more of its
+visible surface area stained with blood was counted as one stained
+loop leg. Smaller specks of blood and partially coated loop legs
+(i.e., with less than 75% coverage) were ignored. We emphasize
+that this deﬁnition was arbitrary, i.e., one could choose a different
+threshold, and that different analysts might perceive the same loop
+leg to be more or less than 75% covered. To test whether analyst-to-
+analyst variation was signiﬁcant, we chose a representative set of
+18 images at random and had ﬁve additional forensic science
+students count the number of stained loop legs in each image. The
+details are presented in the supplementary material, but the
+main ﬁnding was that student analysts with de minimis training
+obtained agreement on their stained loop leg counts on average to
+within 5.7%. As discussed below this variability is small compared
+to the detected percent discrepancies between direct contact and
+spatter.
+2.3. Microscopic analysis of the fabric topography
+A Zeta-20 Optical Proﬁler Microscope System was used to
+examine the topography of the fabric surfaces. The Zeta-20 system
+allowed simultaneous 2D and 3D (confocal) imaging of the surfaces
+and provided a way of quantifying the height variation between
+adjacent loop legs. For each fabric type, ﬁve images of randomly
+selected areas were taken and scanned. In each image, three cross-
+sectional proﬁles lines of equal length were drawn across a
+minimum of 5 alternating loop legs in a row. Thus, 15 rows of loop
+legs per fabric type were analyzed.
+3. Results
+3.1. Microscopic images of spatter versus contact transfer patterns
+Fig. 3 shows representative low magniﬁcation images of spatter
+and contact transfer patterns. Fig. 3a is a representative image of
+spatter pattern formed by a single spray of porcine blood sample
+directly onto the 100% cotton fabric, while Fig. 3b and c shows
+transfer patterns generated by contacting the fabric with blood
+sprayed onto leather and glass respectively. The spatter and
+transfer bloodstain patterns qualitatively look similar and are
+difﬁcult to differentiate simply by visual inspection, at least at
+low magniﬁcation.
+Fig. 2. Schematic diagram of the experimental methodology. (a) Generation of spatter pattern via direct spraying of aerosolized blood. (b) Generation of a contact transfer
+pattern via a two-step process: direct spraying onto a donor surface (leather or glass), and then contact transfer onto the fabric.
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240 
+235
+
+
+--- PAGE 4 ---
+
+Although the stain types are difﬁcult to differentiate at low
+magniﬁcation, at higher magniﬁcation some trends become
+apparent. Fig. 4 shows representative microscopic images of (a)
+spatter stain, (c) transfer stain from leather, and (e) transfer stain
+from glass, respectively. The corresponding magniﬁcations of the
+highlighted areas are shown at right. Note that the two orienta-
+tions of loop legs are clearly visible. In the contact transfer patterns,
+each loop leg tends to be either completely saturated with blood
+or devoid of blood, a characteristic which is distinct from spatter.
+A qualitative observation, most apparent in Fig. 4e and f, is that the
+left loop legs are stained more frequently than the right loop legs. In
+Fig. 4f, for example, there are 9 stained left loop legs but only
+4 stained right loop legs, i.e., 69% of the stained loop legs occurred on
+left loop legs. The same counting method using the 75% coverage
+minimum was used to analyze all 1200 high magniﬁcation images.
+Each image had on average approximately 50 stained loop legs;
+approximately 65,000 individual stained loop legs were counted.
+3.2. Count of ‘‘stained loop legs’’ by orientation
+To see if the qualitative disparity in stained loop leg orientations
+shown in Fig. 4 was robust, we counted the number of stained left
+loop legs and right loop legs in each microscopic image. The
+resulting comparison of stained loop leg orientation between
+spatter patterns and contact transfer patterns is shown for both
+fabric types in Fig. 5. Each histogram shows the absolute count of
+microscopic images that contained a speciﬁed percentage of
+stained left loop legs. Note that each histogram is based on the
+analysis of a total of 20 images  10 replicates = 200 microscopic
+images for each experimental condition, i.e., each speciﬁed pattern
+and fabric type. Since in any given image there are equal numbers
+of left loop legs and right loop legs, one might expect that the odds
+of obtaining stained left loop legs versus stained right loop legs
+would be even, i.e., each histogram would be Gaussian centered
+around 50%. Instead, however, we observe a pronounced tilt in the
+histograms in favor of left loop legs over right. For the direct spatter
+patterns (Fig. 5a and d) the shift is minor: each distribution is
+centered around 55%. In contrast, the contact transfer patterns
+exhibited signiﬁcant preferential staining of left loop legs: for
+leather (Fig. 5b and e) the distributions are centered around 60%
+and 65% respectively for pure cotton and 50/50 cotton/polyester.
+The trend is even more stark for contact transfer on glass (Fig. 5c
+and f), with the distributions centered around 70% and 85% for pure
+cotton and 50/50 cotton/polyester. Notably, similar trends were
+observed for both the 100% cotton and the 50% cotton/50%
+polyester fabrics. We note that there is an increasing trend of more
+images with higher % stained left loop legs from spatter stain
+pattern to transfer pattern and also from leather surface to glass
+surface for transfer patterns.
+These results, and corresponding tests for statistical signiﬁ-
+cance, are summarized in Fig. 6. Here the percent of stained left
+loop legs is averaged over the 10 replicate trials for each condition,
+rather than examined by individual image as in Fig. 5, to test for
+trial reproducibility and statistical signiﬁcance. As shown in Fig. 6,
+the spatter patterns for pure cotton and 50/50 cotton/polyester had
+respectively 53.0  1.9% and 53.7  2.4% stained left loop legs. In
+contrast, the pure cotton fabric had 56.2  2.2% stained left loop legs
+when transferred from leather, and 64.1  3.4% stained left loop legs
+when transferred from glass. Likewise, the 50/50 cotton/polyester
+had 64.3  5.8% when transferred from leather, and an extremely
+high 82.2  4.5% when transferred from glass. Student’s t-test was
+used to determine whether each contact transfer pattern distribution
+differed signiﬁcantly from the corresponding spatter distribution; as
+indicated by the asterisks in Fig. 6, all of the contact transfer patterns
+were statistically signiﬁcantly different compared to the spatter
+patterns. The most similar distribution, for pure cotton transferred
+from leather, had a p-value of 0.00218; the other p-values were
+negligibly small (at 0.00018, 0.00000039 and 0.000000000067). In
+other words, the differences between the spatter and contact transfer
+were statistically robust in all four examined conditions.
+3.3. Analysis of fabric topography
+According to the orientation count results, several general-
+izations can be made: (1) left loop legs are signiﬁcantly more likely
+Fig. 3. Representative low magniﬁcation images of (a) spatter pattern, (b) transfer
+pattern from leather; and (c) transfer pattern from glass. All three patterns are on
+100% cotton fabric.
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240
+236
+
+
+--- PAGE 5 ---
+
+to be stained versus right loop legs on transfer patterns generated
+from both leather and glass donor surfaces and for both types of
+fabrics; (2) stained left loop legs are just slightly over 50% on
+spatter stain patterns for both fabric types; (3) the fabric composed
+of 50% cotton 50% polyester has a noticeably higher percent of
+stained left loop legs than the 100% cotton fabric; (4) transfer
+patterns generated from smooth glass surface have higher percent
+of stained left loop legs than from rough leather surface for both
+fabric types. Put more succinctly, the data in Figs. 4–6 make clear
+that stains preferentially occur in left loop legs during contact
+transfer as opposed to the roughly even distribution that occurs
+during direct spatter. A key question is: why? In other words, what
+differentiates the left loop legs such that blood preferentially
+adsorbs into them during contact transfer?
+One simple explanation would be that the fabric surface is
+asymmetric, such that the left loop legs protrude further out of the
+fabric surface and simply make contact with the blood more
+readily than the right loop legs. To test this hypothesis, we used the
+Zeta-20 Optical Proﬁler to measure the height proﬁle of the fabrics.
+Figs. 7a and 8a are representative 2D images of the fabric surface
+on 100% cotton and 50% cotton/50% polyester as captured by the
+Zeta-20 Optical Microscope System. Height information from the
+proﬁler was extracted from representative cross sections, as
+indicated by the three lines of equal length running across the loop
+legs. The heights at the same relative position on the three lines
+were averaged and a single height proﬁle extracted as a function of
+lateral position along the line. This procedure was repeated on
+images of four other randomly selected areas per each fabric type.
+The resulting average proﬁles are displayed in Figs. 7b and 8b,
+which show plots of the average height with respect to normalized
+lateral position for 100% cotton and 50% cotton/50% polyester
+respectively. On the 2D images, the highest points (maxima) of ﬁve
+loop legs in a given row are labeled as letters A–E, and the
+corresponding ﬁve peaks in the height proﬁles are likewise labeled
+A–E 
+accordingly. 
+The 
+height 
+difference 
+of 
+the 
+maxima 
+of
+neighboring loop legs was found to be on the order of 20 to
+30 mm for the 100% cotton fabric, and closer to 50 mm for the 50%
+cotton/50% polyester fabric. The topographical surface examina-
+tion shows that the left loop legs are noticeably higher than the
+neighboring right loop legs in term of height. The consistent height
+difference between adjacent loop legs in opposing orientations is
+likely to be the explanation for the predominant counts of stained
+left loop legs over right loop legs. In other words, for transfer stain
+patterns, the protruding loop legs come into contact with blood
+Fig. 4. Representative micrographs of 100% cotton fabric showing bloodstains formed either by spatter (a, b) or contact transfer via leather (c, d) or glass (e, f). Images at right
+(b, d and f) are magniﬁed images of selected areas at left. According to our deﬁnition of stained loop leg (a minimum of 75% of an individual loop leg observably stained with
+blood), the images in (b), (d), and (f) have 3, 8, and 9 stained left loop legs and 1, 6, and 4 right loop legs respectively.
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240 
+237
+
+
+--- PAGE 6 ---
+
+droplets ﬁrst such that there are more protruding loop legs stained
+with blood than recessed loop legs. Notably, the height differences
+are correlated with the trends observed in stained loop leg
+orientation: the 50/50 cotton/polyester had both a larger height
+difference and a larger tendency to stain left loop legs preferen-
+tially. 
+Taken 
+together, 
+the 
+data 
+strongly 
+suggest 
+that 
+the
+asymmetry in fabric morphology gives rise to the asymmetry in
+stained loop leg orientation.
+4. Discussion and conclusions
+The microscopic analysis performed here strongly indicates
+that topographical height differences between loop legs in the
+fabric is associated with quantitative orientation counts of loop
+legs. This result could serve as a basis for developing quantitatively
+rigorous methodologies for distinguishing transfer stains from
+spatter stains on a variety of fabric materials, provided they have
+some sort of topographical asymmetry. Although we focused here
+on Stockinette patterns, the methodology developed could be
+extended for use in fabric types with other common knitting
+patterns that have distinct topographical features. As clothing
+materials with bloodstains are commonly found in crime scenes, a
+more quantitative differentiation between spatter patterns and
+transfer patterns would be beneﬁcial to the reconstruction of
+events at crime scenes. One obvious area for improvement involves
+the method of counting stained loop legs. Here we used a manual
+approach, which had a reproducibility between analysts of about
+5.7%. A more rigorous approach would be to use image analysis
+algorithms to automatically analyze the percent coverage of each
+loop leg, i.e., to remove human interpretation completely. The key
+point here, however, is that the detected discrepancies in loop leg
+counts between direct contact and spatter far exceed 5%, strongly
+Fig. 5. Histograms of the number of microscopic images with speciﬁed % stained left loop legs, comparing spatter and contact transfer stains formed on two different types of
+fabrics, 100% cotton and 50% cotton/50% polyester. Each histogram is based on 200 microscopic images (10 replicates per condition, and 20 microscopic images per replicate).
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240
+238
+
+
+--- PAGE 7 ---
+
+suggesting that the results merit further investigation and
+reﬁnement of the image analysis technique.
+Furthermore, the results presented here raise several fascinat-
+ing and pertinent questions. First, how does the disparity in stained
+left versus right loop legs vary with height asymmetry? Here we
+examined only two fabrics, so a more comprehensive survey of
+many fabric types would be helpful to develop a quantitative
+correlation. Second, we performed the contact transfer as soon as
+possible after spraying the blood onto the donor surface (glass or
+leather), but if the blood is left to evaporate for some time then its
+physical properties (e.g., viscosity and interfacial tension) will
+change. ‘‘Drier’’ blood will likely also yield discrepancy between
+stained left and right loop legs, but quantitative corroboration is
+necessary. Third, we performed all contact transfer in this study
+simply by pressing the fabric onto the donor surface by hand, using
+(to the best of our ability) the same applied force each time. Given
+our proposed mechanism, a possibility worth investigating is that
+the pressure exerted during the contact transfer could alter the
+microscopic distribution of stained loop legs. For example one
+possible hypothesis is that a low application of force (i.e., a ‘light
+push’) yields a higher discrepancy between left and right loop legs
+because the recessed legs fail to reach the drops, whereas a high
+application of force (i.e., a ‘heavy push’) minimizes the discrepancy
+by bringing the recessed loop legs in closer contact with the drops.
+Likewise, this study restricted attention to contact transfer
+performed by applying pressure to the fabric normally (orthogo-
+nally) to the donor surface; the effect of shearing motions (i.e.,
+‘brushing or swiping’) tangential to the donor surface remain to be
+examined. The present study will serve as a framework to address
+these more complicated questions, and help put bloodstain pattern
+analysis on a more quantitative footing.
+Acknowledgments
+Support for this research was provided by the National Institute
+of Justice (Award No. 2010-DN-BX-K039). Opinions or points of view
+expressed in this paper represent a consensus of the authors and do
+not necessarily represent those of the U.S. Department of Justice.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found, in the
+online version, at http://dx.doi.org/10.1016/j.forsciint.2015.01.021.
+Fig. 6. Orientation counts of stained left loop legs in spatter and contact transfer
+patterns, formed on 100% cotton and 50% cotton/50% polyester, average over
+10 replicate trials. The error bars represent  one standard deviation. Student’s t-test
+was used to determine p values for the null hypothesis that the contact transfer
+orientation counts were statistically equivalent to the spatter orientation counts.
+*p < 0.01, **p < 0.001.
+Fig. 7. (a) Representative micrograph of the 100% cotton fabric. (b) Corresponding
+average height proﬁle of the three lines shown in (a). Letters A–E denote the
+corresponding positions in (a). The orange dotted lines indicate  1 standard
+deviation. Note the left loop legs (A, C, E) protrude further out than the right loop legs
+(B, D) by roughly 20 to 30 mm. (For interpretation of the references to color in this
+ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 8. (a) Representative micrograph of the 50% cotton 50% polyester fabric. (b)
+Corresponding average height proﬁle of the three lines shown in (a). Letters A–E
+denote the corresponding positions in (a). The orange dotted lines indicate 1
+standard deviation. Note the left loop legs (A, C, E) protrude further out than the right
+loop legs (B, D) by roughly 30–50 mm.
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240 
+239
+
+
+--- PAGE 8 ---
+
+References
+[1] SWGSTAIN, Scientiﬁc Working Group on Bloodstain Pattern Analysis: Recommended
+Terminology. http://www.swgstain.org/documents/SWGSTAIN%20Terminology.pdf.
+[2] Indiana v. David Camm, 812N.E.2d 1127, Ind. App., 2004.
+[3] People v. McWhorter, 47 Cal. 4th 318, 330–332, 2009.
+[4] The National Research Council, Strengthening Forensic Science in the United
+States: A Path Forward, National Academies Press, Washington, DC, 2009.
+[5] C.Willis, A.K. Piranian,J.R. Donaggio, R.J. Barnett, W.F. Rowe,Errors intheestimation of
+the distance of fall and angles of impact blood drops, Forensic Sci. Int. 123 (2001) 1–4.
+[6] W.F. Rowe, Errors in the determination of the point of origin of bloodstains,
+Forensic Sci. Int. 161 (2006) 47–51.
+[7] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics in
+bloodstain pattern analysis: Comparative review and research opportunities,
+Forensic Sci. Int. 231 (2013) 375–396.
+[8] B. Karger, S.P. Rand, B. Brinkmann, Experimental bloodstains on fabric from
+contact and from droplets, Int. J. Legal Med. 111 (1998) 17–21.
+[9] M. Holbrook, Evaluation of blood deposition on fabric: distinguishing spatter and
+transfer stains, IABPA News 26 (2010) 3–12.
+[10] S.J. Kadolph, Textiles, 11th ed., Prentice Hall, New York, 2010.
+Y. Cho et al. / Forensic Science International 249 (2015) 233–240
+240

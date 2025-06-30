@@ -1,0 +1,954 @@
+
+
+--- PAGE 1 ---
+
+An automated approach to the classiﬁcation of impact spatter
+and cast-off bloodstain patterns
+R.M. Arthura,b,*, J. Hoogenboomb, M. Baikerb, M.C. Taylorc, K.G. de Bruinb
+a School of Chemical Sciences, The University of Auckland, Private Bag 92019, Auckland 1142, New Zealand
+b Netherlands Forensic Institute, P.O. Box 24044, The Hague, 2490 AA, Netherlands
+c Institute of Environmental Science and Research Ltd (ESR), Christchurch Science Centre, P.O. Box 29-181, Christchurch 8041, New Zealand
+A R T I C L E 
+I N F O
+Article history:
+Received 23 September 2017
+Received in revised form 26 April 2018
+Accepted 13 May 2018
+Available online 20 June 2018
+Keywords:
+Bloodstain pattern analysis
+Features
+Classiﬁcation
+Feature extraction
+Feature selection
+Automation
+A B S T R A C T
+In the forensic discipline of bloodstain pattern analysis, it has been suggested that there is a blurred
+boundary between characterising the features of a bloodstain pattern and determining the mechanism(s)
+that led to its deposition. This study proposes that bloodstain pattern classiﬁcation can become a distinct
+and logical process by implementing an automated approach. To do this, an automated bloodstain
+pattern recognition system was developed to enable the distinction of two types of spatter bloodstain
+patterns. First, global pattern features based on common bloodstain pattern properties were extracted
+from laboratory-generated impact spatter and cast-off bloodstain patterns. Following this, automated
+feature selection methods were used to identify the combination of features that best distinguished the
+two bloodstain pattern types. This eventually led to the training and testing of a Fisher quadratic
+discriminant classiﬁer using separate subsets of the generated bloodstain patterns. When applied to the
+training dataset, a 100% classiﬁcation precision resulted. An independent dataset comprising of
+bloodstain patterns generated on paint and wallpaper substrates were used to validate the performance
+of the classiﬁer. An error rate of 2% was obtained when the classiﬁer was applied to these bloodstain
+patterns. This automated bloodstain pattern recognition system offers considerable promise as an
+objective classiﬁcation methodology which up to now, the discipline has lacked. With further reﬁnement,
+including testing it over a wider range of bloodstain patterns, it could provide valuable quantitative data
+to support analysts in their task of classifying bloodstain patterns.
+© 2018 Elsevier B.V. All rights reserved.
+1. Introduction
+Recognising patterns based on a sizeable body of knowledge
+that has been stored in the human mind is regarded as a
+prerequisite to human expert decision-making [1]. Humans
+have developed sophisticated methods of sensing and inter-
+preting patterns in the environment. Pattern recognition is
+central to a number of forensic disciplines including bloodstain
+pattern analysis (BPA). The recognition of bloodstain patterns
+relies primarily on the identiﬁcation of the pattern’s diagnostic
+properties and an evaluation of the possible mechanisms by
+which the pattern was deposited. Together these form the
+process bloodstain pattern analysts term pattern classiﬁcation.
+The limitations of pattern classiﬁcation as currently practiced, are
+the qualitative nature of determining the properties of the pattern
+and the subjective judgement required to infer the pattern’s causal
+event [2,3]. It is evident that this process encourages the formation
+of early mechanistic conclusions about the cause of a pattern
+before a full set of observations has been made [4]. This problem is
+exacerbated by the use of standard discipline terminology [5],
+which is largely mechanism-based. In fact, BPA taxonomies [6,7]
+form the backbone of bloodstain pattern classiﬁcation. So the
+boundary between observation and interpretation or reconstruc-
+tion can become blurred [8]. A key reason for this and other
+persisting issues, is the lack of a rigorous and standardised BPA
+methodology [3,8]. Deﬁning a formal BPA methodology is the
+subject of ongoing discussion among BPA practitioners [9–11].
+Computers offer a wide range of capabilities that can both assist
+and emulate human decision-making. Pattern recognition has
+been deﬁned as the study of how computers observe the
+environment, learn to distinguish patterns of interest and make
+reasonable decisions about different categories of patterns [12].
+Pattern recognition systems can be based on identifying the pre-
+* Corresponding author at: The University of Auckland, School of Chemical
+Sciences, Private Bag 92019, Auckland, 1142, New Zealand.
+E-mail address: ravishkaa@gmail.com (R.M. Arthur).
+https://doi.org/10.1016/j.forsciint.2018.05.019
+0379-0738/© 2018 Elsevier B.V. All rights reserved.
+Forensic Science International 289 (2018) 310–319
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+
+
+--- PAGE 2 ---
+
+deﬁned class1 to which an unknown pattern belongs or conversely,
+classes can be learned based on similarities between patterns. The
+design of a pattern recognition system generally consists of the
+following stages: deﬁning pattern classes, data collection, selecting
+the distinguishing features (referred to as feature selection),
+specifying classiﬁcation algorithms and estimating the classiﬁca-
+tion error [14].
+Over the years, pattern recognition systems have evolved to
+become valuable tools that are used to organise or retrieve vast
+amounts of electronic data [15,16], develop computer-aided diagnosis
+systems for the detection of disease [17–19] or to identify signature
+characteristics of ﬂuids [20]. It has become evident, that forensic
+disciplinesaremovingawayfrommanualmethodsofanalysistowards
+more automated computer-based methods of pattern recognition.
+Examples include the comparison of bullets [21], ﬁngerprints [22],
+facial features [23], speech [24] and handwriting [25]. Indeed, certain
+components of pattern recognition systems (e.g. pre-processing,
+feature extraction and classiﬁcation) have beensuccessfullyemployed
+in bloodstain pattern studies [2,26–30].
+However, there does not yet appear to be a comprehensive
+pattern recognition system designed to distinguish different types
+of bloodstain patterns based on measurable pattern properties.
+Therefore, the goal of the present study was to assess the viability
+of developing an automated pattern recognition system capable of
+distinguishing bloodstain patterns. To develop the proposed
+system (see Fig. 1 for an overview), a laboratory-generated
+reference pattern dataset, consisting of two commonly encoun-
+tered bloodstain pattern types, was ﬁrst generated. This included
+30 impact spatter2 and 30 cast off3 bloodstain patterns that were
+speciﬁcally digitised for the study. An image-processing method-
+ology was then used to extract features that were representative of
+common 
+bloodstain 
+pattern 
+properties 
+[26]. 
+Following 
+the
+identiﬁcation of the optimal set of features, a classiﬁer4 was
+trained and tested with separate groups of patterns from the
+reference pattern dataset. The performance of the classiﬁer was
+ﬁnally evaluated with an independent dataset consisting of
+bloodstain patterns that were created on a range of surfaces.
+2. Methods
+2.1. Generating a reference pattern dataset
+2.1.1. Pattern creation
+Human blood from one donor was used immediately upon
+collection togeneratethebloodstainpatternsused inthisstudy.Atotal
+of60bloodstainpatternsconsistingof30impactspatterand 30 cast-off
+bloodstain patterns were created. As an attempt to represent the
+variability expected of such patterns, different methods of pattern
+creation were utilised. For the impact spatter patterns, a modiﬁed
+mousetrap [31] was released onto a pool of 2 ml of blood.
+Alternatively, a similar pool of blood was pipetted onto a wooden
+block, in the centre of the striking area. A hammer was then used to
+strike that pool of blood. Cast-off bloodstain patterns were created
+by dipping various objects (ﬁnger, hammer and knife) in blood, and
+swinging them in either an upwards or downwards direction. In
+both sets of experiments, blood was deposited onto plain white ﬂat
+walls that were made of Trespa (ﬂat panel based on thermosetting
+resins; Jongeneel, Den Haag, The Netherlands). All bloodstain
+patterns were left to dry for 2 hours prior to photography. A separate
+collection of bloodstain patterns was also sourced (Table 1). These
+patterns were termed the independent dataset and consisted of 22
+impact spatterand 20 cast-off bloodstainpatterns that were created
+on either a paint or wallpaper surface. The methods used to create
+these patterns are reported in Laber et. al. [32].
+2.1.2. Digitisation and stitching
+A customised setup was built to enable the acquisition of high
+resolution digital images of all bloodstain patterns that were
+produced in this study (Fig. 2). This setup consisted of a height-
+adjustable tripod which was secured to a sliding platform. The
+platform was positioned perpendicular to the Trespa wall at a
+distance of 210 cm and was able to slide horizontally across the ﬂoor
+at measurable distances. With this setup, a large bloodstain pattern
+(200  100 cm with adhesive scale rulers on all four sides of the
+pattern) could be captured in the form of four RAW images with 40%
+overlap. A Nikon 36.3 MP D810 camera with a Nikon AF-S 60 mm
+macro lens was used to capture the patterns. After photography, the
+4. Split dataset into training 
+& test sets
+5. Feature Selection 
+6. Development of 
+Classifier and Cross 
+Validation
+7. Re-train classifier on 
+entire pattern dataset
+8. Evaluate performance 
+using an independent 
+dataset
+3. Feature Extraction
+2. Data Import and Pre-
+processing
+(a) Training
+(b) Testing
+(c) Evaluate Error
+1. Reference bloodstain 
+pattern dataset generation
+Fig. 1. An overview of the proposed automated bloodstain pattern recognition
+system.
+Table 1
+Bloodstain patterns in an independent dataset created by Laber et al. [32].
+Mechanism used to create the pattern
+Substrate 
+Impact 
+Cast-off
+Paint 
+12 
+11
+Wallpaper 
+10 
+9
+TOTAL 
+22 
+20
+1 A class is deﬁned as a set of objects that are recognised as similar within a given
+context. A class usually has a unique name (class name). The individual objects
+within a class have a label that refers to this name (class label) [13].
+2 A bloodstain pattern resulting from an object striking liquid blood [5].
+3 A bloodstain pattern resulting from blood drops released from an object due to
+its motion [5].
+4 A classiﬁer is an algorithmic rule that assigns a class label to any object in a
+particular object representation [13].
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319 
+311
+
+
+--- PAGE 3 ---
+
+four RAW images corresponding to each of the individual 60
+bloodstain patterns were combined using the digital stitching
+process that is available on Adobe Photoshop CS5 v5.1 (Fig. 3). Green
+circular markers were placed (prior to photography) inside
+designated regions of overlap, forming landmarks that were used
+to assist the digital stitching process. The latter process eventually
+led to the production of single TIFF-format images with a resolution
+of approximately 6.4 pix/mm as measured by ImageJ 1.48 v software
+[33]. To be conservative, it was assumed that a minimum of 9 pixels
+(3  3) was required to resolve an element. This corresponded to an
+element of approximately 0.22 mm2 in area or a circular element of
+approximately 0.5 mm diameter. The entire selection of stitched
+patterns was termed the reference pattern dataset.
+2.2. Classiﬁer development
+2.2.1. Deﬁnitions
+Terms used in this study follow those proposed by Ref. [26]. An
+“element” was deﬁned as a contiguous group of pixels in a digitised
+image of a bloodstained region. A “pattern” was designated as a
+subset of elements that were considered to be related. Both
+elements and patterns were regarded as having properties, for
+example, shape, or size. The measurable part of a property was
+termed a “feature”. Local features represented properties of
+elements and global features represented properties of patterns.
+2.2.2. Data import and pre-processing
+The TIFF-format ﬁles that corresponded to the bloodstain
+patterns in the reference pattern dataset were imported into
+Matlab R2015b [34] using the built-in image reader, and then
+individually pre-processed using the automated image-processing
+methodology outlined in Ref. [26]. Each pattern was pre-processed
+using 
+the 
+following 
+steps: 
+background 
+subtraction, 
+element
+segmentation, morphological operations, labeling and measuring
+elements, ellipse-ﬁtting and feature extraction.
+2.2.3. Feature extraction
+Feature extraction5 was deﬁned as the process of extracting
+quantitative data representative of properties commonly found in
+different bloodstain pattern types (e.g. distribution of element
+shape).Inthisstudy, thesepropertieswere expressedasfeatures (see
+Table 1 of the Supplementary Materials) which were extracted using
+the image-processing methodology outlined in Ref. [26]. This
+automated methodology provided an objective method of analysis
+comparedtothetypicalvisualassessmentof thefeaturesofapattern,
+by a BPA analyst. Feature extraction was performed on each
+bloodstain pattern in the reference pattern dataset and eventually
+led to values corresponding to 11 pattern metrics. A pattern metric
+was considered to be an overall representation of a global feature in
+an individual bloodstain pattern. These values were eventually
+stored in a feature matrix (60 rows  11 columns) where each row of
+the matrix (termed a feature vector) corresponded to a single
+bloodstain pattern and each value in the row corresponded to a
+pattern metric. In pattern recognition literature, the 11-dimension-
+al space occupied bythese feature vectors is referred toas the feature
+space [35]. The pattern metrics stored in the feature matrix were:
+1. Standard deviation of the tail to body ratio
+2. Mean width to length ratio (representing drop impact angle)
+3. Mean area of element to area of convex hull ratio (referred to as
+the ‘convex hull ratio’)
+4. Mean perimeter of inscribed circle to perimeter of element
+ratio (referred to as ‘inscribed circle ratio’)
+5. Mean element area
+6. Standard deviation of element intensity
+7. Standard deviation of the gamma angle
+8. Standard deviation of the orientation angle
+9. Mean Euclidean distance of elliptical elements to a polynomial
+curve
+10. Circularity of the convex hull enclosing all elements of the
+pattern
+11. Element density (i.e. the total number of elements in the
+pattern divided by the area of the convex hull)
+2.2.4. PR dataset generation
+Functions 
+from 
+the 
+Matlab 
+pattern 
+recognition 
+toolbox
+(PRTools) 
+[36] 
+were 
+used 
+to 
+build 
+the 
+bloodstain pattern
+recognition system. Using this toolbox, a ‘PR dataset’ variable
+was constructed. This variable type is deﬁned as a complete
+representation of all the pattern data that has been stored
+electronically. The PR dataset consisted of the data in the feature
+matrix, the relevant class labels for each pattern (i.e. ‘Impact’ or
+‘Cast-off’) and feature labels corresponding to the 11 features that
+were extracted (i.e. ‘Tail to body ratio’, ‘Impact angle’, etc.).
+2.2.5. Deﬁning prior probabilities
+The probability P(v) that a bloodstain pattern belongs to a
+particular class (v) is deﬁned as the class prior [13]. In the context of
+this study, there was an equal probability that a bloodstain pattern in
+the reference pattern dataset was an impact spatter or a cast-off
+bloodstain pattern. On this basis, the class priors were set to 0.5.
+2.2.6. Training and test datasets
+A training dataset is a set of objects that can each be reliably
+assigned to one class and forms the fundamental basis of building a
+classiﬁer [13]. A test dataset is a set of objects that is only used to
+test the performance of a classiﬁer, after the classiﬁer has been
+trained. 24 impact spatter and 24 cast-off bloodstain patterns were
+randomly selected to form the training dataset (80%)6 while the
+remaining 12 bloodstain patterns formed the test dataset (20%).
+Fig. 2. Camera setup on sliding platform in front of the Trespa wall where
+bloodstain patterns were created.
+5 In pattern recognition literature, the term ‘feature extraction’ can also be used
+to describe algorithms that create new features based on transformations or
+combinations of the original feature set [35].
+6 The reference dataset was split according to ratios that are prescribed by the
+Pareto Principle (80:20 ratio).
+312 
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319
+
+
+--- PAGE 4 ---
+
+2.2.7. Feature selection and cross validation
+Feature selection is deﬁned as a set of algorithms that outputs a
+subset of features based on the input feature set. The aim of feature
+selection is to determine those features that perform well under
+the conditions imposed by a certain classiﬁcation system [37–39]
+or to eliminate redundant features [40]. Identifying the ideal
+feature set can be particularly important when there is a large
+number of features to select from (e.g. in text classiﬁcation [15,41]).
+In this study, sequential backward feature selection (BFS) and
+sequential forward feature selection (FFS) were performed on the
+training dataset. With these methods, a sequential search algorithm
+either adds features (FFS) or removes features (BFS) from a
+candidate subset, while a criterion function7 is evaluated by the
+search algorithm in order to determine which combination of
+features best discriminates the classes [42]. 5-fold cross valida-
+tion8
+was simultaneously performed with feature selection
+producing estimates of the expected classiﬁcation error given
+different combinations of features. In this study, the cross
+validation error rates resulting from BFS and FFS were evaluated
+and compared using three different criteria (sum of the estimated
+Mahalanobis distance9, inter-intra distance10 and 1-nearest-neigh-
+bour11). The sequential search algorithm and corresponding
+criterion function producing the lowest error rate were eventually
+used to identify the combination of features optimal for the
+bloodstain pattern classiﬁcation task.
+2.2.8. Building the classiﬁer
+2.2.8.1. Linear discriminant analysis. 
+This study was based on the
+assumption that pattern classes can be distinguished by a
+combination of distinctive properties. This led to the application
+of a Fisher mapping [44] (also known as Linear Discriminant
+Analysis; 
+LDA) 
+which 
+assumes 
+that 
+classes 
+are 
+normally
+distributed, and can be linearly separated by projecting all data
+onto a linear discriminant subspace12. The aim of LDA is to deﬁne
+an orthogonal projection to a line that maximises the distance
+between the mean of each class while minimising the variance of
+each class. In this way, such a projection leads to compact and well-
+separated classes. LDA has been shown to be valuable in face
+recognition applications [45,46] as it achieves a greater between-
+class scatter when there are several classes, thereby simplifying
+classiﬁcation [45]. Using such a method to increase the separation
+between classes is of value to BPA because bloodstain patterns can
+exhibit properties that are common to one or more classes.
+2.2.8.2. Quadratic discriminant classiﬁer. 
+A quadratic discriminant
+classiﬁer (QDC) formed the basis of the bloodstain pattern
+recognition system. A QDC assumes that each pattern class
+follows 
+a 
+normal 
+distribution 
+and 
+establishes 
+a 
+decision
+boundary that maximises the Mahalanobis distance between
+each class mean. Classiﬁcation is thus performed by measuring the
+Mahalanobis distance of an input pattern to the mean of each class
+[47]. The input pattern is then assigned a class label based on the
+shortest Mahalanobis distance to a particular class mean. In order
+to implement this classiﬁer, the Fisher mapping and QDC classiﬁer
+were combined and trained together with the training dataset.
+Following this, the trained Fisher QDC was tested with the test
+dataset. The original class labels were obtained for both training
+and test datasets and compared with the predicted class labels
+produced for each dataset. The estimated classiﬁcation error of the
+Fisher QDC classiﬁer is reported where relevant.
+2.2.8.3. 
+Evaluation 
+of 
+classiﬁer 
+performance. 
+The Fisher QDC
+classiﬁer was ﬁnally trained on the entire reference pattern dataset
+(i.e.atotal of 60patterns)resultingin afullytrainedFisherQDC (herein
+referredtoasthetrainedclassiﬁer). To evaluatethe performance of the
+trained classiﬁer on bloodstain patterns that were not used in its
+Fig. 3. Example of a stitched impact spatter pattern (left) and a stitched cast-off pattern (right) from the reference pattern dataset. Green circular markers act as landmarks for
+stitching. Adhesive scale rulers surround the outer extremities of each pattern.
+7 A criterion function J(X) evaluates the goodness of a subset of features based on
+the ability of a classiﬁer to discriminate the classes in the feature space represented
+by this feature set. A larger value of J indicates a better feature subset [42].
+8 Cross validation functions by randomly splitting the training dataset into ﬁve
+folds, and then repeatedly testing the performance of the prospective classiﬁer on
+each fold when trained on the data in the other four folds [43].
+9 The sum of the estimated Mahalanobis distance criterion function is the sum of
+the distance between a set of points and a distribution. It measures the separation of
+two groups of objects.
+10 The 
+inter-intra 
+distance 
+criterion 
+function 
+[39] 
+with 
+k = number 
+of
+features:W ¼ ðC1þC2Þ
+2
+J ¼ tr W1  COV m
+ð 
+Þ
+ 
+
+Where: 
+C1
+and 
+C2
+is 
+the 
+k-by-k
+covariance matrix of class 1 and 2 respectively; W is the combined within-
+class scatter matrix (also k-by-k); m is a 2-by-k matrix of feature means (one
+row for either class, one column for each feature); COV( . . . ) stands for
+'covariance matrix of 
+. . . ’; tr( . . . ) for the trace function (that is summing
+the elements on the diagonal of a matrix) and J is the resulting inter-intra
+distance value.
+11 The 1-nearest-neighbour criterion function involves classifying each data point
+(in the training data) by assigning it to the true class of its closest neighbour and
+then checking how many classiﬁcation errors have been made.
+12 Variances among groups are assumed to be the same. (i.e. homogeneity of
+covariance).
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319 
+313
+
+
+--- PAGE 5 ---
+
+development, the independent dataset (Table 1) was used as an input
+to the trained Fisher QDC. For each pattern in the independent
+dataset, feature extraction was conducted, resulting in data that
+were stored in a feature matrix. The trained classiﬁer was then used
+to predict the class labels corresponding to each bloodstain pattern
+in the independent dataset. The resulting classiﬁcation precision
+and posterior probabilities were calculated.
+3. Results
+3.1. Feature extraction
+Values corresponding to each of the 11 pattern metrics were
+obtained. The range of values observed for each feature and pattern
+type is shown in Table 2 of the Supplementary Materials.
+3.2. Feature selection
+Forward (FFS) and Backward (BFS) feature selection was
+conducted with cross validation in order to identify the optimal
+feature set and estimate the classiﬁcation error that could arise
+from different combinations of features. Error rates were assessed
+with three different criteria. Fig. 4 with Table 2 shows the cross
+validation error rates that were obtained after features were
+sequentially added after each iteration (FFS). These results were
+similar to those obtained with BFS. Overall, BFS and FFS showed
+that the optimum number of features was between 4 and 5. On the
+basis of these results, ﬁve features were chosen for the classiﬁer.
+These features were mean area, circularity of the convex hull, mean
+inscribed circle ratio, mean convex hull ratio and mean Euclidean
+distance. Scatter plots showing the mean area plotted against each
+of the remaining four features are shown in Figs. 5–8. Note that the
+training and test datasets used after feature selection comprised
+only of values corresponding to these ﬁve features.
+3.3. Building a classiﬁer
+3.3.1. Linear discriminant analysis
+A Fisher mapping was applied to the training dataset resulting
+in the projection of these data onto a line (Fig. 9). It is evident that a
+linear combination of features enabled the separation of the two
+spatter pattern classes.
+3.3.2. Quadratic discriminant classiﬁer (QDC)
+The trained Fisher QDC established a decision boundary
+(Fig. 10), indicating the position of separation between the impact
+spatter and cast-off bloodstain pattern classes. When the test
+dataset was tested by the Fisher QDC, the results demonstrated
+that the Fisher QDC could accurately predict all of the class labels
+corresponding to each bloodstain pattern. The position of the
+decision boundary, however, highlighted a region of overlap
+between both peaks (Fig.10) suggesting the potential for erroneous
+classiﬁcation.
+3.3.3. Evaluation of classiﬁer performance
+The trained classiﬁer accurately predicted the class labels of 23
+bloodstain patterns in the independent dataset which were
+deposited on a smooth painted surface and 17 bloodstain patterns
+deposited on a wallpaper surface. One cast-off bloodstain
+pattern deposited on wallpaper was erroneously classiﬁed,
+representing an overall error rate of 2%. The remaining cast-off
+bloodstain pattern (Cast-off Test 12) had insufﬁcient elements for
+which all features could be measured and was therefore unable to
+be automatically classiﬁed. The predicted class labels and
+posterior probabilities that were generated for each pattern in
+the independent dataset are given in Table 3 of the Supplemen-
+tary Materials.
+4. Discussion
+Sequential feature selection and linear discriminant analysis
+demonstrated 
+that 
+ﬁve pattern 
+features were 
+sufﬁcient 
+to
+distinguish the impact spatter and cast-off patterns in the reference
+pattern dataset in this study. Of these features, mean element area
+was the most effective. Impact spatter patterns often exhibit a high
+proportion of small elements resulting from the production of very
+small droplets as contact is made between the impacting object
+and a blood pool. In this study, this could have been accentuated by
+the nature of the ﬂat surfaces of the mouse trap used to create the
+spatter.
+Fig. 4. Cross validation with forward feature selection using three different criteria. Each successive feature is selected by maximising the criterion (J) (red circle = sum of the
+estimated Mahalanobis distance, blue star = Inter-intra distance, green cross = Nearest neighbour distance). (For interpretation of the references to colour in the text, the
+reader is referred to the web version of this article.)
+314 
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319
+
+
+--- PAGE 6 ---
+
+The remaining four diagnostic features that emerged were
+circularity of the convex hull of the pattern, mean Euclidean
+distance, mean element convex hull ratio and mean element
+inscribed circle ratio. These features added some additional
+discriminating value to the classiﬁer.
+The circularity of the convex hull is a measure of the overall
+distribution of elements in a pattern. The circularity of the convex
+hull for the cast-off patterns in the reference pattern dataset was
+generally lower than that of the impact patterns (Fig. 5). This
+reﬂects the fact that elements in cast-off patterns tend to be
+Table 2
+Features sequentially added (FFS) with the Mahalanobis distance, Inter-intra distance and Nearest-neighbour distance criteria.
+Criterion: 1)Mahalanobis distance 2) Inter-intra distance 
+Criterion: 3) 1-Nearest neighbour distance
+Number of features 
+Feature added 
+Number of features 
+Feature added
+1 
+Area 
+1 
+Area
+2 
+Circularity of the convex hull 
+2 
+Tail to body ratio
+3 
+Inscribed circle ratio 
+3 
+Intensity
+4 
+Convex hull ratio 
+4 
+Width to length ratio
+5 
+Mean Euclidean distance 
+5 
+Convex hull ratio
+6 
+Tail to body ratio 
+6 
+Inscribed circle ratio
+7 
+Intensity 
+7 
+Orientation
+8 
+Density 
+8 
+Density
+9 
+Gamma angle 
+9 
+Circularity of the convex hull
+10 
+Orientation 
+10 
+Gamma angle
+11 
+Width to length ratio 
+11 
+Mean Euclidean distance
+Fig. 5. Mean element area versus circularity of the convex hull.
+Fig. 6. Mean element area versus mean inscribed circle ratio.
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319 
+315
+
+
+--- PAGE 7 ---
+
+distributed in an elongated manner compared to a more circular
+distribution of elements that are radially-dispersed in impact
+patterns (Fig. 11). Because of the high variability in the manner in
+which impact patterns can be created, more work is required to see
+if this feature proves diagnostically useful over a wider range of
+impact mechanisms. Much will depend on whether the entire
+extent of the pattern can be visualised and captured.
+The overall shape of a bloodstain pattern was also measured by
+the mean Euclidean distance of elliptical elements to a least-squares
+ﬁtted polynomial curve. This feature was based on the tendency in
+some patterns for elements to be distributed in a straight or curved
+line. For the impact patterns in the reference pattern dataset, the
+mean Euclidean distance was generally higher than that of the cast-
+off patterns (Fig. 8). This suggests that elliptical elements in impact
+spatter patterns tend to be distributed further away from a ﬁtted
+polynomial curve than in cast-off patterns. This is consistent with
+current classiﬁcation methods which recognise that in cast-off
+events, individual blood droplets are ejected over time and at various
+points along the trajectory of the object being swung. This tends to
+lead to a linear or curvilinear distribution of elements [6]. In the case
+of impact spatter patterns, however, elements tend to be more
+widely dispersed, with elliptical elements generally located at the
+periphery of the pattern [6].
+The element convex hull ratio is a measure of the regularity of the
+element boundary or margin. For elements with smooth boundaries,
+this ratio is expected to be close to 1. For the impact patterns in the
+reference pattern dataset, this ratio was generally lower than for the
+Fig. 7. Mean element area versus mean convex hull ratio.
+Fig. 8. Mean element area versus mean Euclidean distance.
+Fig. 9. Mapping of the training dataset to a linear discriminant subspace showing
+that cast-off (blue crosses) and impact spatter (red stars) patterns could be
+separated into classes. (For interpretation of the references to colour in the text, the
+reader is referred to the web version of this article.)
+316 
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319
+
+
+--- PAGE 8 ---
+
+cast-off patterns (Fig. 7), reﬂecting the fact that the elements in the
+impact patterns had margins that were on average moreirregularthan
+those of cast-off patterns. Impact events typically produce an array of
+liquid sheets and ligaments and other amorphous shaped volumes of
+liquid, many of which eventually equilibrate into spherical drops.
+Depending on their progress towards equilibrium, these volumes of
+liquid can form irregularly-shaped elements. Furthermore, because
+drops can arrive at the target surface over a period of time, there is the
+potential for one drop to land on another, causing micro-splashing and
+theformationofanelementwithalessregularmargin.Theproduction
+of cast-off drops is typically more uniform with drops forming at
+regular intervals from the break-up of ligament strands. This may
+account for the presence of elements with more regular margins.
+The element inscribed circle ratio is a measure of the circularity
+of an element and a secondary measure of the regularity of the
+element margin. This measure compares the shape of the body of
+an element to a circle that is ﬁtted within the boundaries of that
+element. Values closer to one indicate that elements are nearly
+circular in shape. For the impact patterns in this study, this ratio
+was generally higher than for the cast-off patterns (Fig. 6). Impact
+patterns often feature a large number of small near-circular
+elements in proximity to the location of the impact and these were
+evident in many of the impact patterns in this study (Fig. 12). The
+Cast-off
+Impact
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+LDA Projection
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+Density
+Decision 
+boundary of 
+Fisher QDC
+Region of 
+Overlap
+Cast-off
+Impact
+Fig. 10. Fisher mapping with quadratic classiﬁcation of the training dataset (cast-off = blue crosses, impact spatter = red stars). Decision boundary of Fisher QDC shown
+(dotted line) and region of overlap between classes (yellow rectangle). (For interpretation of the references to colour in the text, the reader is referred to the web version of this
+article.)
+Fig. 11. The convex hull of cast-off pattern 16 (circularity = 0.4) and impact pattern 29 (circularity = 0.8).
+Fig. 12. Presence of near circular elements in an impact spatter pattern from the
+reference pattern dataset.
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319 
+317
+
+
+--- PAGE 9 ---
+
+presence of these elements may account for the differences in
+mean element inscribed circle ratio observed for these two pattern
+types.
+The trained classiﬁer misclassiﬁed one of the cast-off blood-
+stain patterns in the independent pattern dataset (Fig. 1 of the
+Supplementary Materials). A closer look at this pattern and its
+corresponding properties provides some useful insights (Table 3).
+The misclassiﬁcation of this pattern appears to be primarily the
+result of the mean element area. This was lower (<2 mm2) than
+those of all the cast-off patterns in the reference pattern dataset
+but within the range exhibited by the impact patterns. This is likely
+to be the result of differences in the method used to create these
+cast-off patterns.
+Pattern linearity is a major diagnostic feature used by
+bloodstain pattern analysts to identify cast-off bloodstain patterns.
+However the inﬂuence of the mean Euclidean distance metric on
+the classiﬁcation of the pattern was apparently insufﬁcient to lead
+to a correct classiﬁcation. Other measures of linearity may need to
+be found to improve the performance of the classiﬁer in identifying
+cast-off patterns.
+The reference pattern dataset in this study only contained a
+small sample of bloodstain patterns and featured a limited range of
+methods used to create the patterns. The classiﬁer was trained on
+bloodstain patterns captured on a smooth Trespa wall surface. It is
+likely that classiﬁcation accuracy will improve given a reference
+pattern dataset with patterns deposited on a wider range of surface
+types. Features such as element convex hull ratio and inscribed
+circle ratio may be among those sensitive to substrate character-
+istics.
+5. Conclusion
+The automated classiﬁer developed in this study demonstrates
+the viability of a quantitative methodology for bloodstain pattern
+classiﬁcation. The ﬁndings showed that the combination of a small
+number of measurable features was capable of distinguishing two
+pattern types with a high level of accuracy.
+In addition to the improved objectivity such a method could
+bring, it is likely that human factors such as contextual bias, that
+are known to affect BPA analyses, could be mitigated.
+With the development of suitable imaging techniques, the
+classiﬁer has the potential to be used at a crime scene to provide a
+trained analyst with objective pattern data to complement his/her
+expert judgement. For example, objective measures of pattern
+characteristics such as element size, shape and distribution could
+be obtained and presented in discriminating combinations. Data to
+help analysts take decisions regarding the need for further analysis
+(e.g. estimating the region of origin13 if an impact spatter pattern is
+suspected) should also be forthcoming.
+To be useful for bloodstain pattern analysts, however, the study
+needs to be extended to a wider range of bloodstain pattern types
+created in a variety of ways on different surfaces and presented in
+three dimensions. A wider pool of features may be required to
+achieve success in discriminating other patterns, particularly those
+that are known to share pattern characteristics.
+Acknowledgements
+The authors wish to extent their gratitude to Linda van de
+Merwe for creating and digitising the bloodstain patterns used in
+this 
+study and 
+to Hannes 
+Habraken 
+(Netherlands 
+Forensic
+Institute) for supporting the development of the experimental
+setup. The authors gratefully acknowledge the advice and support
+that was offered by Dr. ir. Titia Sijen (Netherlands Forensic
+Institute). This work was supported by the Netherlands Forensic
+Institute and the Institute of Environmental Science and Research
+(ESR), New Zealand. This work was also carried out as part of
+doctoral research through The University of Auckland, New
+Zealand.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found, in
+the online version, at https://doi.org/10.1016/j.forsciint.2018.05.019.
+References
+[1] J. Larkin, J. Mcdermott, D.P. Simon, H.A. Simon, Expert and novice performance
+in solving physics problems, Science 208 (4450) (1980) 1335–1342.
+[2] Y. Cho, F. Springer, F. Tulleners, W. Ristenpart, Quantitative bloodstain pattern
+analysis: differentiation of contact transfer patterns versus spatter patterns on
+fabric via microscopic inspection, Forensic Sci. Int. 249 (2015) 233–240.
+[3] R.M. Arthur, S.L. Cockerton, K.G. de Bruin, M.C. Taylor, A novel element-based
+approach for the objective classiﬁcation of bloodstain patterns, Forensic Sci.
+Int. 257 (2015) 220–228.
+[4] E. Bernstein, Science in bloodstain pattern analysis, Int. Assoc. Bloodstain
+Pattern Anal. News (2005) 16–19.
+[5] SWGSTAIN, 
+Scientiﬁc 
+working 
+group 
+on 
+bloodstain 
+pattern 
+analysis:
+recommended terminology, Forensic Sci. Commun. 11 (2009).
+[6] T. Bevel, R.M. Gardner, Bloodstain Pattern Analysis with an Introduction to
+Crime Scene Reconstruction, CRC Press, Boca Raton: FL, USA, 2008.
+[7] S. James, P. Kish, P. Sutton, Principles of Bloodstain Pattern Analysis: Theory
+and Practice, Taylor & Francis Group, Florida, 2005.
+[8] M.C. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K. Osborne, The reliability of
+pattern classiﬁcation in bloodstain pattern analysis, Part 1: bloodstain
+patterns on rigid non-absorbent surfaces, J. Forensic Sci. 61 (4) (2016) 922–
+927, doi:http://dx.doi.org/10.1111/1556-4029.13091.
+[9] R. Gardner, Deﬁning a methodology for bloodstain pattern analysis, J. Forensic
+Identif. 56 (4) (2005) 549–556.
+[10] J. Saviano, Articulating a concise scientiﬁc methodology for bloodstain pattern
+analysis, J. Forensic Identif. 55 (4) (2005) 461–470.
+[11] H. Latham, Using and articulating the scientiﬁc method in bloodstain pattern
+analysis, J. Forensic Identif. 61 (5) (2011) 487–494.
+[12] A.K. Jain, R.P.W. Duin, J. Mao, Statistical pattern recognition: a review, IEEE
+Trans. Pattern Anal. Mach. Intell. 22 (1) (2000) 4–37.
+[13] R.P.W. Duin, E. Pekalska. Pattern Recognition: Introduction and Terminology.
+Available at http://37steps.com/.
+[14] S. Raudys, A.K. Jain, Small sample size effects in statistical pattern recognition:
+recommendations for practitioners, IEEE Trans. Pattern Anal. Mach. Intell. 13
+(3) (1991) 252–264.
+[15] A.K. Uysal, An improved global feature selection scheme for text classiﬁcation,
+Expert Syst. Appl. 43 (2016) 82–92.
+[16] S. Antani, R. Kasturi, R. Jain, A survey on the use of pattern recognition methods
+for abstraction: indexing and retrieval of images and video, Pattern Recognit.
+35 (2002) 945–965.
+[17] Y. Yu, L. Guan, A CAD system for the automatic detection of clustered
+microcalciﬁcations in digitized mammogram ﬁlms, IEEE Trans. Med. Imaging
+19 (2) (2000) 115–126.
+[18] M.N. Gurcan, L. Boucheron, A. Can, A. Madabhushi, N. Rajpoot, B. Yener,
+Histopathological image analysis: a review, IEEE Rev. Biomed. Eng. 2 (2009)
+147–171.
+[19] A.S. Constantinidis, M.C. Fairhurst, A.F.R. Rahman, A new multi-expert decision
+combination algorithm and its application to the detection of circumscribed
+masses in digital mammograms, Pattern Recognit. 34 (2001) 1527–1537.
+[20] N. Kim, Z. Li, C. Hurth, F. Zenhausern, S. Chang, D. Attinger, Identiﬁcation of
+ﬂuid and substrate chemistry based on automatic pattern recognition of
+stains, Anal. Methods 4 (50) (2012) 50–57.
+Table 3
+Values of the ﬁve selected features for the erroneously classiﬁed cast-off bloodstain patterns in the reference pattern dataset.
+Erroneous pattern ID 
+Mean area (mm2) 
+Circularity of the convex hull 
+Mean inscribed circle ratio 
+Mean convex hull ratio 
+Mean Euclidean distance (mm)
+Cast-off Test 11 
+1.95 
+0.0651 
+0.649 
+0.485 
+0.000007
+13 The three-dimensional location from which spatter originated [6].
+318 
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319
+
+
+--- PAGE 10 ---
+
+[21] F.P. Leon, Automated comparison of ﬁrearm bullets, Forensic Sci. Int. 156
+(2006) 40–50.
+[22] A.K. Jain, A. Ross, S. Prabhakar, An introduction to biometric recognition, IEEE
+Trans. Circuits Syst. Video Technol. 14 (1) (2004) 4–19.
+[23] W. Zhao, R. Chellappa, P.J. Phillips, A. Rosenfeld, Face recognition: a literature
+survey, ACM Comput. Surv. 35 (4) (2003) 399–458.
+[24] M. El Ayadi, M.S. Kamel, F. Karray, Survey on speech emotion recognition:
+features, classiﬁcation schemes and databases, Pattern Recognit. 44 (2011)
+572–587.
+[25] R. Plamondon, S. Srihari, On-line and off-line handwriting recognition: a
+comprehensive survey, IEEE Trans. Pattern Anal. Mach. Intell. 22 (1) (2000)
+63–84.
+[26] R.M. Arthur, M. Baiker, P.J. Humburg, J. Hoogenboom, M.C. Taylor, K.G. de Bruin,
+An image-processing methodology for extracting bloodstain pattern features,
+Forensic Sci. Int. 277 (2017) 122–132.
+[27] W. Ristenpart, F. Tulleners, S. Siu, J. Saiﬁ, F. Springer, Quantitative Analysis of
+High Velocity Bloodstain Patterns. U. S. Department of Justice Grant Report,
+(2013) .
+[28] S. Siu, J. Pender, F. Springer, F. Tulleners, W. Ristenpart, Quantitative
+differentiation of bloodstain patterns resulting from gunshot and blunt force
+impacts, J. Forensic Sci. 62 (5) (2017) 1166–1179, doi:http://dx.doi.org/10.1111/
+1556-4029.13418.
+[29] S.L. Chen, C. Yang, C. Zhu, X.C. Yin, Bloody image classiﬁcation with global and
+local features, in: T. Tan, X. Li, X. Chen, J. Zhou, J. Yang, H. Cheng (Eds.), Pattern
+Recognition. CCPR 2016. Communications in Computer and Information
+Science, vol. 663, Springer, Singapore, 2016.
+[30] N. Shoumy, P. Ehkan, S. Yaakob, S. Ali, S. Khatun, Feature extraction for neural
+network pattern recognition for bloodstain analysis, Int. J. Appl. Eng. Res. 11
+(15) (2016) 8583–8589.
+[31] K.G. de Bruin, R. Stoel, J.C.M. Limborgh, Improving the point of origin
+determination in bloodstain pattern analysis, J. Forensic Sci. 56 (6) (2011), doi:
+http://dx.doi.org/10.1111/j.1556-4029.2011.01841.x.
+[32] T. Laber, P. Kish, M. Taylor, G. Owens, N. Osborne, J. Curran, Reliability
+Assessment of Current Methods in Bloodstain Pattern Analysis. U. S.
+Department of Justice Grant Report, (2014) .
+[33] ImageJ, Public domain, http://imagej.nih.gov/ij. (Accessed 26 September
+2014).
+[34] Mathworks, Natick, USA. https://nl.mathworks.com/. (Accessed 26 September
+2014).
+[35] T. Breckon, C. Solomon, Fundamentals of Digital Image Processing — A Practical
+Approach with Examples in Matlab, John Wiley and Sons Ltd., U.S.A, 2011.
+[36] R.P.W. Duin, P. Juszczak, P. Paclik, E. Pekalska, D. de Ridder, D.M.J. Tax, S.
+Verzakov, PRTools 4.1, A Matlab Toolbox for Pattern Recognition, Delft
+University of Technology, 2007.
+[37] A. Jain, D. Zongker, Feature Selection: evaluation, application and small sample
+performance, IEEE Trans. Pattern Anal. Mach. Intell. 19 (2) (1997) 153–158.
+[38] R. Kohavi, George John, Wrappers for feature subset selection, Artif. Intell. 97
+(1997) 273–324.
+[39] A.L. Blum, P. Langley, Selection of relevant features for examples in machine
+learning, Artif. Intell. 97 (1997) 245–271.
+[40] L. Yu, H. Liu, Efﬁcient feature selection via analysis of relevance and
+redundancy, J. Mach. Learn. Res. 5 (2004) 1205–1224.
+[41] Y. Yang, J.O. Pedersen, A comparative study on feature selection in text
+categorization, July, ICML ‘97 Proceedings of the Fourteenth International
+Conference on Machine Learning, 971997, pp. 412–420.
+[42] M. Kudo, J. Sklansky, Comparison of algorithms that select features for pattern
+classiﬁers, Pattern Recognit. 33 (2000) 25–41.
+[43] R. Kohavi, A study of cross-validation and bootstrap for accuracy estimation
+and model selection, Int. Joint Conf. Artif. Intell. 14 (2) (1995) 1137–1145.
+[44] R.A. Fisher, The use of multiple measurements in taxonomic problems, Ann.
+Eugen. 7 (1936) 179–188.
+[45] P.N. Belhumeur, J.P. Hespanha, D.J. Kriegman, Eigenfaces vs Fisherfaces:
+recognition using class speciﬁc linear projection, IEEE Trans. Pattern Anal.
+Mach. Intell. 19 (7) (1997) 711–720.
+[46] D.L. Swets, J. Weng, Using discriminant eigenfeatures for image retrieval, IEEE
+Trans. Pattern Anal. Mach. Intell. 18 (8) (1996) 831–836.
+[47] S. Mika, G. Ratsch, J. Weston, B. Scholkopf, K.R. Muller, Fisher discriminant
+analysis with kernels, Proceedings, IEEE Workshop on Neural Networks for
+Signal Processing (1999).
+R.M. Arthur et al. / Forensic Science International 289 (2018) 310–319 
+319

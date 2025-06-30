@@ -1,0 +1,1396 @@
+
+
+--- PAGE 1 ---
+
+Forensic implications of respiratory derived blood spatter distributions
+David Denison a, Alice Porter b, Matthew Mills c, Robert C. Schroter d,*
+a Royal Brompton Hospital and National Heart & Lung Institute, Sidney Street, London SW3 6NT, United Kingdom
+b Cody Technology Park, Ively Park, Farnborough, Hants GU51 4QS, United Kingdom
+c Nottingham University Hospitals NHS Trust, Queen’s Medical Centre, Nottingham NO47 2UH, United Kingdom
+d Department of Bioengineering, Imperial College London, Exhibition Road, London SW7 2AZ, United Kingdom
+1. Introduction
+Scenes of violent crime are frequently associated with blood
+spatter. The patterns of spatter are often attributed to impact
+spatter, movements of the victim or assailant or cast off from a
+weapon. However, some blood may have originated from the
+respiratory system and been distributed by mechanisms that
+follow different physical processes and the observed distributions
+may require to be interpreted in a different way. Furthermore, it is
+possible for such aerosols to be produced some time after death
+when liquid blood is still present. Founding fathers of pathology,
+such as Morgagni, Hunter and Virchow knew that, after violent
+death, often blood did not clot and acted as if it contained a
+ﬁbrinolysin, although these facts are sometimes overlooked in
+modern times. This paper analyses these phenomena and discusses
+their implications.
+Theobjective was to develop a scientiﬁcally based understanding
+of the probable behaviour of airborne respired blood aerosols and
+whether, ornot, theobservedamountanddistributionofbloodspots
+on clothing of a murder suspect could possibly be the result of
+respired blood as opposed to impact spattered blood [1–6]. We have
+been unable to ﬁnd any clear explanations in the forensic science
+literature or textbooks which provided a reliable scientiﬁcally based
+description of the processes involved in creating respired blood
+aerosols from the nose or mouth, or indeed puncture wounds to the
+chest, of the physical mechanisms underlying their ﬂight char-
+acteristics, or how spots of respired blood captured on clothing
+might be distinguished from, or confused with, spots originating
+from other sources, particularly impact spatter.
+A number of simple human and physical model experiments
+were undertaken that could be considered to be a reasonable
+representation of real situations. Studies were performed that
+could relate to the expulsion of blood from the nose or mouth by
+the conscious action of a subject, or be
+caused to occur
+involuntarily by a subject, alive or dead. It is appreciated that
+the studies reported here may be of relevance, not only to respired
+aerosols via the nose or mouth, but, to the production and fate of
+blood aerosols derived from expiration of air via puncture wounds
+to the upper airway, trachea or chest [7,8].
+In this paper, we consider ﬁrst the experimental studies we
+undertook and then relate these to the known physical processes
+relating to airﬂow generated aerosols. Whilst the experimental
+studies demonstrate that exhaled aerosols can potentially travel
+distances in excess of 1 m, the general question of their motion
+over greater distances was not explored; this was because the
+ﬂight characteristics are strongly dependent on the exhalation
+airﬂow properties and these are can vary greatly. A deﬁnitive study
+of the motion to greater distances would involve a considerable
+research project in its own right, beyond the scope of the principal
+focus of the present work.
+Forensic Science International 204 (2011) 144–155
+A R T I C L E
+I N F O
+Article history:
+Received 3 August 2009
+Received in revised form 13 January 2010
+Accepted 24 May 2010
+Available online 18 June 2010
+Keywords:
+Respired blood spatter
+Respirated blood droplet size
+Blood pattern analysis
+Exhaled blood aerosol transport
+Chest stab wounds
+A B S T R A C T
+The nature of blood aerosols produced in physiological studies of an upright subject expiring small
+volumes through straws, spitting and mouthing sounds, and a semi-prone subject spitting through a
+bloody mouth or snorting through a single nasal oriﬁce and by a simpliﬁed physical model of the
+respiratory system were investigated. Each manoeuvre produced many hundreds of droplets of a range
+of size, the vast majority being less than 1 mm diameter. Droplets under 1 mm dia. travelled over 1 m –
+much further than could be expected if their ﬂight was ballistic, like that of impact spatter. Respired
+blood aerosol properties are explained in terms of established mechanics of airﬂow shear induced
+aerosol production and the ﬂuid mechanics of exhaled air movement.
+ 2010 Elsevier Ireland Ltd. All rights reserved.
+* Corresponding author. Tel.: +44 20 7594 5175.
+E-mail addresses: d.denison@rbht.nhs.uk (D. Denison), vaporter@qinetiq.com
+(A. Porter), m.mills@nuh.nhs.uk (M. Mills), r.schroter@imperial.ac.uk
+(R.C. Schroter).
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+0379-0738/$ – see front matter  2010 Elsevier Ireland Ltd. All rights reserved.
+doi:10.1016/j.forsciint.2010.05.017
+
+
+--- PAGE 2 ---
+
+2. Experimental studies of respiratory generated blood
+aerosols
+Environmental airﬂow patterns are a matter to be considered
+when designing experiments such as those undertaken. The room
+used was without any form of artiﬁcial ventilation and there was
+no detectable airﬂow through gaps around the edge of the door,
+which itself was well removed from the experiment. Thermally
+induced movement of air up or down walls and the like – though it
+can never be totally eliminated – was minimal. The air movement
+speeds of the experiment were very considerably greater than any
+such perturbing air ﬂows. We were completely satisﬁed that there
+were no signiﬁcant extraneous air movements within the room
+and any very slow motions had no detectable inﬂuence on the
+experiments. Whilst conducting the experiments, the investigators
+took great care not to move their arms or legs as additional
+precaution against the introduction of unwanted air movement.
+The experiments involved the transport of droplets larger than
+somewhat smaller than 0.1 mm diameter – that is with settling
+velocities greater than around 0.25 m s1.
+2.1. Study 1: pufﬁng through short, blood coated straws in an upright
+posture
+Whilst in a seated position, a fully conscious normal human
+subject (author DD) gently puffed a brief exhalation through a
+hand-held, short, lightly blood-stained, drinking straw oriented
+horizontally. The straws were either 5.3 cm or 3.3 cm in length and
+6 mm internal diameter.
+Before each exhalation, the inner surface of the straw was
+lightly coated in the subject’s own freshly drawn venous blood by
+dipping, tapping the straw free of all but a thin ﬁlm of blood on the
+inside and wiping the straw clean on the outside. The retained
+volume of blood was estimated, but not measured, to be approx.
+0.15 ml or 10 standard drops of blood.
+The typical puff volume, of approx. 50 ml, was estimated as
+follows. The subject inhaled maximally to total lung capacity and
+then performed the puff repeatedly until he reached residual lung
+volume; both these standard lung volumes are known for the
+subject. Dividing this total exhaled volume by the number of puffs
+gave the average individual puff volume.
+The exhaled blood aerosol was captured on a vertical, A1
+(841 mm  594 mm) sized, paper target placed 1 m from the
+mouth; the paper readily absorbed ink pen writing and also
+impinging blood droplets. The target provided an interception cone
+of approx. 308  458 from the source. Inspection of the deposition
+patterns of incident droplets always indicated a focus of spots
+towards the centre of the target, with virtually none near its edges
+– strongly suggesting that, in essence, all droplets travelling the
+notional target distance were captured on it. The spot counts were
+then determined as described for Study 2.
+The experiment was performed 10 times for each size of straw.
+Each manoeuvre was performed making a quiet effort whilst
+producing a peak mouth pressure, on average, of less than approx.
+25 mm Hg.
+Mouth
+pressure
+measurements
+were
+made
+as
+explained in Study 2 below.
+2.2. Study 2: mouthing sounds and words in the upright seated
+posture through a bloody mouth
+The principal object of this study was to determine whether or
+not an upright seated subject, when expressing a voiceless ‘P’ or ‘S’
+with a blood stained mouth, would generate blood spatters on a
+vertical target placed in front of the face.
+The subject introduced 1 ml of his own freshly drawn venous
+blood into his mouth to coat the mucosal surfaces both in front of,
+and behind, the teeth, for subsequent exhalation via the mouth.
+The resulting aerosolised droplets were partially captured by an
+upright A1 size paper target placed approx. 1 m from the face – as
+described for Study 1. The exhalation protocol was to voicelessly
+expel a ‘P’ (or ‘per’) causing the lips to part transiently or an ‘S’ (or
+‘esse’) through pursed lips and closely opposed teeth with the
+tongue forward close to the palate. Only a small volume of air
+(approx. 50 ml) was required to produce each sound. The
+manoeuvres were all performed whilst making a quiet effort with
+peak mouth pressures typically less than 15 mm Hg, as measured
+by the method described below. Ten runs, each with a clean mouth
+and fresh instillation of blood, were conducted for each sound.
+Following every run, the blood spots on the target were allowed to
+dry and then each spot visible to the trained naked eye was circled
+with a pen and counted. Spots of a diameter greater than 1 mm
+were recorded separately.
+In both mouth and nose studies (Studies 2 and 3), the subject
+spat or blew out the remaining blood. This method, whilst simple,
+was sufﬁcient to remove all but a thin coating of blood on the tissue
+lining – such a residual volume of blood was small in comparison to
+that added for each experiment.
+Additionally, mouth pressure was recorded as the subject
+uttered a series of ‘‘PISS off’s’’ (with particular emphasis on the ﬁrst
+word) of moderate intensity. These words are built up from lip
+movements closely resembling the primary forms involved in
+forming a ‘P’ or ‘S’. The object was to determine if the combined
+actions reﬂected those of the fundamentals.
+For reasons of blood contamination and to avoid distortion of
+the mouth with the pressure line, it was considered inappropriate
+to measure mouth pressure during the actual expiration of blood in
+Studies 1 and 2. In a separate experiment, performed immediately
+beforehand, a fast responding, under damped, pressure transducer
+(1.16 kHz damped natural frequency, with better than 99%
+amplitude response and 08 phase shift at 100 Hz) was placed in
+the subject’s mouth with the sampling point located just behind
+the teeth and the pressure recorded whilst performing repeated
+manoeuvres of the same nature as those used in the blood ejection
+experiments. The pressure recordings were made for a series of
+quiet, moderate and vigorous exhalations.
+2.3. Study 3: spitting, or nasal snorting, of instilled blood in the semi-
+prone posture
+Studies 1 and 2 involved a subject in an upright posture. It is of
+interest to know whether or not a subject lying on the ground could
+produce a respired blood aerosol with similar trajectories and how
+it might be captured on a target observer some distance from the
+source.
+Experiments were performed by the same subject (author
+DD) as in Studies 1 and 2, using only moderate effort, either
+spitting through loosely clenched teeth, or snorting blood
+through the single right nostril whilst lying stretched out and
+semi-prone on his left side. Before each exhalation, 2 ml of his
+own freshly drawn venous blood was instilled into his mouth or
+nostril; remaining blood was removed before the following run
+as explained under Study 2. Positioned close to the semi-prone
+subject was an observer (author MM) acting as a target, kneeling
+on the left knee with left arm outstretched onto the middle back
+of the lying subject and fully covered in conventional scene of
+crime overalls of surface brushed, open weave polypropylene
+fabric.
+Three series of runs, of 5 runs each, were conducted in total.
+Series (A): the subject exhaled via his right nostril, with the
+observer kneeling at arms length and square on to the face of
+the prone body.
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+145
+
+
+--- PAGE 3 ---
+
+Series (B): the subject again exhaled via his right nostril, with
+the observer kneeling at arms length but at the level of the chest
+of the prone body, and facing and rotated towards the head.
+Series (C): the subject and observer were placed as in Series A,
+but the blood was expelled from the mouth.
+All participants (the authors of this article) gave their fully
+informed consent before undertaking each of the above studies (1–
+3). All runs in Studies 1–3 were video recorded.
+2.4. Study 4: use of a simpliﬁed physical nose model
+The above physiological studies, whilst containing the essential
+biological relevance, were not entirely controllable or reproduc-
+ible. Therefore, it was decided to devise an idealised physical nose
+model and experiment which, though it might potentially be
+criticised for its extreme simplicity and remoteness from the real
+biological situation, could be more clearly deﬁned and controlled.
+The model (Fig. 1a) consisted of a short, 4.5 or 6.0 mm diameter
+plastic tube representing the nasal valve and more external parts of
+the nose, connected to a large volume syringe representing the
+lung via a simpliﬁed representation of the nasal cavity (consisting
+of a ﬂat chamber of two parallel diamond-shaped Perspex plates)
+and tubing representing the major airways (Fig. 1b).
+Three drops of fresh human venous blood (total volume approx.
+0.045 ml) were instilled into the nasal valve, or nasal cavity, at one
+of the three positions shown (Fig. 1b). A controlled, small volume of
+air was then rapidly expelled through the system by dropping a
+weight onto the syringe plunger, depressing it in approx. 0.1 s and
+generating a peak transient pressure within the syringe of less than
+approx. 15 mm Hg. This exhalation of air always caused an aerosol
+of blood to be expelled through the nasal tube. Air volumes as small
+as 62.5 ml were exhaled from the model. This was not the lower
+limit of volume capable of aerosolising blood, simply it was the
+smallest volume tested; even this small volume produced copious
+spots on the targets. The resulting blood droplets were captured on
+paper surfaces placed horizontally 20 cm beneath the model and
+vertically at a distance of 50 cm (Fig. 1a). Over 80 individual
+experiments were performed with the nasal tubes pointing
+horizontally or inclined upwards at an angle of 308 or 458.
+3. Results
+3.1. Pufﬁng through short, blood coated straws in an upright posture
+The peak pressures recorded whilst pufﬁng through dry straws
+(Fig. 2) ranged from approx. 20 to 30 mm Hg and each puff lasted
+approx. 0.5 s. On average, a 3.3 cm straw generated 244 captured
+droplets and a 5.3 cm straw generated 298 such droplets (Fig. 3).
+The spot size ranges were comparable to those found in the study
+of mouthing sounds (Study 2).
+[(Fig._1)TD$FIG]
+Fig. 1. The physical model used in Study 4. (a) General view and detailed features of the experimental setup and (b) detailed view of the model nasal cavity and valve showing
+the nature of the resultant aerosol depending on the site of placement of the instilled blood.
+[(Fig._2)TD$FIG]
+Fig. 2. Typical mouth pressure–time tracing during simulation of pufﬁng on a straw
+to expel blood as described in the text.
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+146
+
+
+--- PAGE 4 ---
+
+To investigate if the effort, as judged by the video recorded
+sound level associated with expelling the blood, was a good
+indicator of the number of droplets captured, the sound level, as
+judged by ear listening to the video playback, was ranked as high,
+medium or low for each run. The number of spots in each run, thus
+ranked for sound level, is given in Fig. 4.
+3.2. Mouthing sounds and words in the upright seated posture
+through a bloody mouth
+The number of spots of blood captured on the target for each
+run is shown in Table 1. On average, each ‘P’ produced 271
+captured spots of which 2 were more than 1 mm dia.; each ‘S’
+produced 313 captured spots of which 4 were more than 1 mm dia.
+For the 10 ‘P’ runs, a total of 2060 spots were recorded including 16
+large spots – that is 1 large spot per 128 small spots. For the ‘S’ runs,
+there were 43 large spots in a total of 3196 – that is 1 large spot per
+73 small spots.
+Note that the quiet ‘P’ sounds, used in the experiments with
+blood, were associated with rapidly developed peak pressures
+(Fig. 5) of less than 15 mm Hg; moderate sounds involved peak
+pressures of around 25 mm Hg and the loudest ones were
+associated with peak pressures of less than 35 mm Hg. In all cases
+the manoeuvre was effectively impulsive, lasting for approx. 1 s,
+and pressure fell rapidly at the end.
+The pressure recordings for an ‘S’ were of a different shape
+(Fig. 6), with an initial rapid rise to the peak value followed by a
+progressive fall through the remainder of the manoeuvre as the
+sound was released and sustained. The tracings to the right of the
+dotted line in Fig. 6 were representative of the quiet manoeuvres
+produced
+in
+Study
+2,
+involving
+peak
+pressures
+of
+approx.
+10 mm Hg.
+In uttering the two words (‘‘PISS off’’), a complex pressure
+waveform was produced (Fig. 7). The initial sounding of a ‘P’ was
+associated with a rapid rise in pressure to around 30 mm Hg or
+more with a subsequent rapid fall off; this was then followed
+immediately by a second, but less emphatic peak as the ‘ISS’ was
+enunciated. The ‘off’ involved a disconnected small amplitude
+pressure wave of less than 10 mm Hg for all utterances. The
+pressures associated with each of the component sounds were
+similar to those measured for the individual components as noted
+in Figs. 5 and 6.
+[(Fig._3)TD$FIG]
+Fig. 3. Number of exhaled droplets of blood expelled from a straw captured on a
+target placed approx. 1 m horizontally from the mouth. (a) Straw length = 3.3 cm.
+(b) Straw length = 5.3 cm.
+[(Fig._4)TD$FIG]
+Fig. 4. Ranking of the captured droplet numbers reported in Fig. 3 based on observed
+sound level linked to the manoeuvre as described in the text.
+Table 1
+Captured droplet numbers on targets placed 1 m in front of the subject.
+Run
+Voiceless quiet ‘P’
+Voiceless quiet ‘S’
+Total no.
+No. >1 mm
+Total no.
+No. >1 mm
+1
+323
+2
+1*
+0*
+2
+191
+0
+550
+2
+3
+83
+1
+204
+0
+4
+420
+0
+40
+7
+5
+389
+0
+199
+11
+6
+292
+3
+34
+2
+7
+338
+8
+297
+2
+8
+42
+0
+1139
+6
+9
+117
+0
+256
+2
+10
+164
+2
+377
+10
+* Note: this run involved a misﬁre.
+[(Fig._5)TD$FIG]
+Fig. 5. Mouth pressure recordings for a series of ‘P’s made with differing intensity.
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+147
+
+
+--- PAGE 5 ---
+
+3.3. Spitting, or nasal snorting, of instilled blood in the semi-prone
+posture
+The average total numbers of spots on the overalls for each type
+of manoeuvre are shown in Fig. 8. In all experiments, the great
+majority of spots were less, or much less, than 1 mm diameter.
+Spots were widely distributed on the overalls, but especially to the
+left arm and chest in the nasal exhalations; they were biased to the
+hips and thighs and the right leg for the spitting exhalations; this
+probably reﬂected differences in the primary direction of the
+exhaled stream.
+In Series A, the bulk of the spots were on the left forearm which
+appeared to shield the remaining body regions and the left chest
+took a reasonable density of droplet hits, the remainder of the body
+was relatively balanced between left and right sided hits. In Series
+B, the target was moved down from more the face level to chest
+level and it would appear that the heaviest capture density was left
+chest to waist. The target had possibly moved more into the ﬁring
+line of the nasal exhalation, which would be expected to be more in
+this direction than in Series A. This would also explain the
+generally higher total counts overall. In Series C, the mouth spit
+would have been expected to be more directed to the target than
+was the case for Series A with nasal exhalations. The distribution
+was relatively balanced left to right.
+The deposition distributions in the three series relate reason-
+ably to the relative positioning and means of exhalation. The fact
+that the nearer body parts often had the highest spot counts did not
+diminish the explicitly recorded observation that signiﬁcant
+numbers of spots were found on the more distant body regions
+that were in line with the exhalation and not shielded by other
+parts, more proximal to the source.
+3.4. Use of a simpliﬁed physical nose model
+Drops of blood, placed at the distal tip of the nasal tube (Fig. 1,
+position 1), tended to be propelled only a short distance on
+exhalation, producing only a small amount of spray. The moment
+the exhalation was initiated, a small amount of spray was
+produced, blood predominantly fell out of the tube to the ground
+below creating a few splashes several millimetres diameter.
+When blood was instilled approx. 1 cm behind the tip (position
+2), a different pattern of elimination was observed. The blood ﬁlm
+surface was torn by the airﬂow and the expelled droplets
+transported along with the exhaled air. In all cases, the vertical
+target surface intercepted many hundreds of very small droplets,
+producing spots typically much less than 0.5 mm diameter, many
+being less than 0.1 mm dia., along with some larger spots. Some
+spots, mainly larger ones, were also detected on the horizontal
+target surface. When the nasal tube was inclined upwards, the
+interception distance was observed to be greater than 1 m for
+many droplets, both small and large.
+When blood was instilled further back within the cavity
+(position 3), the blood ﬁlm was again torn by the emerging airﬂow
+into droplets of a range of sizes. However, the larger droplets
+tended to impact on the walls of the cavity upstream of the valve,
+leaving a stream of smaller droplets to emerge as before,
+generating a pattern of interception on the vertical target of
+almost entirely small spots with comparatively few being observed
+on the horizontal target.
+3.5. General
+Whilst the diameter of the droplets producing the individual
+spots could not be measured directly, the captured blood wetted
+the paper surface and thus spread to cover an area larger than the
+originating droplet; in consequence, the measured spot sizes were
+certainly larger than the droplet diameter.
+The typical speed of the exhaled air package varied considerably
+between the four studies on the basis of the estimated exhaled
+volumes and periods. The transient maximum air speed in the
+model studies could have been as high as 20 m s1. This may be
+compared with an estimated speed of around 3.5 m s1 in the
+straw pufﬁng study or about 2 m s1 in the upright spitting and
+prone mouth exhalations, assuming a pursed lip and teeth
+conﬁguration providing an oriﬁce of about 3 cm  0.1 cm. The
+prone nasal study, assuming an oriﬁce similar to the straws, would
+generate a typical exhaled air speed nearer 2 m s1.
+In a separate unpublished study, we ﬁlmed initial blood droplet
+ejection speeds produced by aggressive hitting of a hand-held
+heavy metal bar on a bloody surface designed to model the human
+skull. The study design and choice of weapon were determined by
+the wish to replicate a possible alternative scenario causing the
+[(Fig._6)TD$FIG]
+Fig. 6. Mouth pressure recordings for a series of ‘S’s of varying intensity. The
+recordings to the right of the dotted line were chosen to mimic the utterances used
+in the blood spatter experiments described in the text.
+[(Fig._7)TD$FIG]
+Fig. 7. Mouth pressure recordings for a series of ‘PISS off’s of varying intensity.
+[(Fig._8)TD$FIG]
+Fig. 8. Exhaled blood spatter patterns on an observer near to a semi-prone subject.
+Series A: subject exhaled via right nostril, observer kneeling at arms length and
+square on to face of prone body. Series B: subject exhaled via right nostril, observer
+kneeling at arms length at chest level of prone body, facing and rotated towards the
+head. Series C: the two bodies were placed as in Series A, but the blood was exhaled
+from the mouth.
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+148
+
+
+--- PAGE 6 ---
+
+observed pattern of blood spatter on the clothing of the murder
+suspect [1–5]. The initial velocity of this impact spatter blood was
+measured (from frame by frame video analysis) to be in the region
+of 4 m s1. For purposes of comparison as developed below in the
+present paper, it has been assumed that an aerosol may be expelled
+by either impact or respiratory processes at an initial speed of
+5 m s1.
+4. Underlying physical processes
+4.1. Formation of blood aerosols
+The formation of liquid droplet sprays, or aerosols, by the action
+of air moving over a liquid surface is exceedingly commonplace.
+Sprays formed by the passage of wind over water surfaces,
+cosmetics sprays, therapeutic inhaled liquid aerosols, atomisation
+of fuel in combustion engines and boilers, industrial paint and
+agricultural sprays are all examples of the process, as are
+respiratory derived
+water aerosols resulting from sneezing,
+coughing or spitting. In all cases, the airﬂow entrains drops with
+a spectrum of diameters. In most industrial situations, great care is
+taken to attempt to control the size range and concentration of the
+resultant droplets.
+Despite the ubiquitous nature and importance of such aerosols,
+the underlying physical processes determining their formation are
+not well understood other than at the descriptive level. Mathe-
+matical modelling of the process is still very much a challenge at
+the detailed level (e.g. Ref. [9]) and beyond the scope of this paper.
+One of the principal objectives of much research endeavour is to
+explain the mechanics of water aerosol formation by the action of
+airﬂow, however the same physical laws and processes apply to the
+formation of blood aerosols when resulting from the action of the
+ﬂow of air over a blood wetted surface. The relevant physical
+properties of blood at 37 8C (particularly the bulk viscosity
+{plasma:
+1.2 mN s m2,
+blood
+3–4 mN s m2}
+[10];
+density:
+1.05  103 kg m3
+[11];
+surface
+tension:
+0.055–0.075 N m1
+[11]) are not identical to water, but they are functionally similar
+and the aerosolisation processes of blood can be considered in the
+same way. The two phase nature of blood at the microscopic level
+would not be expected to be of signiﬁcance as it is at a much
+smaller scale than that of the process of interest, just as is the case
+with spray production of multiphase liquids such as paint or solid–
+liquid slurries.
+The formation of a spray of water or blood can be thought of in a
+number of stages, all of which occur very rapidly in a time of the
+order of a millisecond. The whole process is driven by the shearing
+force at the interface of the air ﬂowing over the stationary or
+relatively slow moving liquid surface [9,12,13]. The wall shear
+force causes an instability in the liquid surface that is manifested
+ﬁrst as ripples in the surface; these develop rapidly into deeper
+waves that over-crest and give rise to ligaments of liquid that are
+pulled out by the friction of the airstream. The wind generation of
+waves on the surface of a pond is an easily recognisable example of
+the process.
+As a ligament stretches, it thins and ultimately breaks up into
+several blobs which are rapidly pulled into spherical droplets of a
+range of diameters, but with a statistically reproducible size
+distribution [9,14] which is strongly dependent on the liquid
+density, viscosity and surface tension, but less so on air velocity.
+The droplet size distribution is likely to range from larger than
+1 mm to less than 0.05 mm in diameter.
+4.2. Flight characteristics of respiratory blood aerosols
+Gentle oral or nasal exhalation of a small puff, or package, of
+air on a very cold day provide simple examples of both the
+considerable distance a quiet breath will travel into a still air
+environment and of the retention of very small water droplets
+derived from condensation of the water vapour in the breath
+within the vortex structure of the exhalate. Even at higher exhaled
+ﬂow rates, when the structure is not visually as evident because of
+the turbulence in the motion, the same transport mechanisms
+apply. Were the very small droplets not carried by the air in this
+way, they would come to rest within a few centimetres of the
+mouth.
+The ﬂight characteristics of aerosols such as respired blood,
+entrained in the airﬂow by which they are generated, are
+fundamentally different from those whose ballistic ﬂight is caused
+by impact or cast off. The entrained aerosol blood droplets,
+particularly smaller ones (less than approx. 0.5 mm diameter), will
+travel generally with the air in which they are contained [15,16].
+The droplet ﬂight paths cannot be predicted in the same way as
+droplets – such as impact spatter – ejected into still air.
+Because the respired blood droplets are contained within the
+exhaled breath, they too travel as a slowly diverging package and
+will propagate forwards even through stationary air [15,16]; the
+aerosol does not fan out and radiate as widely as it may do for an
+impact derived spray of blood. Furthermore, the initial ejection
+direction of the respired blood will depend strongly on the nature
+and orientation of the conduit (e.g. a normally shaped, or distorted,
+mouth, nose or wound) near its outlet and the direction of the
+emanating airﬂow in which it is entrained.
+The process by which the package of air will fan out and
+increase in width progressively with distance is destroyed when
+the vortex closely approaches and impinges on a solid wall or
+obstruction in its path; the forward motion is stopped abruptly and
+the vortex destroyed. The entrained droplets are ejected sideways
+to spread over a wider area than that of the unperturbed vortex
+[15] so that the area over which droplets will be captured by the
+wall is also wider than the air package by which they were
+delivered to the obstruction.
+4.3. Initial acceleration of droplets within the mouth, nose or a short
+straw
+Once droplets are stripped off the blood surface, they are pulled
+along by the airﬂow as the result of the viscous drag forces due to
+the local difference in speed between the droplet and the carrier
+air. As they travel along the conduit, they are accelerated towards
+the speed of the air, but may not reach it. The extent to which a
+droplet will reach the carrier air speed within the conduit will
+depend on the droplet size, or inertia, and may be estimated on the
+basis of Stokes’ Law for drag on a sphere [17].
+If air is travelling within a 6 mm dia. tube at a speed of 10 m s1,
+droplets of the size range of interest will increase their velocity
+from rest as shown in Fig. 9 as they travel along the conduit. Only
+the very smallest 0.01 mm droplets reach the carrier velocity
+within a short distance of some 5 mm along the tube; a 0.01 mm
+droplet’s behaviour would therefore be essentially uninﬂuenced by
+the length of the tube. Larger droplets, even as small as 0.05 mm
+dia., continually accelerate along the length of a 30 mm long tube,
+though will never reach the carrier air speed; as the differential
+between droplet and air speeds reduces, so does the level of the
+drag force causing the acceleration. A 0.1 mm droplet will only
+have reached less than 40% of the carrier speed by the time it has
+travelled 30 mm and a 1.0 mm dia. droplet would attain less than
+10% of the air speed. Droplet acceleration will continue for some
+distance beyond the conduit exit whilst the local air velocity is
+high; once speeds match, the droplets become entrained within
+the package and are transported within it.
+The acceleration process for small droplets within a conduit
+that is far wider than the droplet is viscosity dependent and has no
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+149
+
+
+--- PAGE 7 ---
+
+relationship to the mechanism by which a peashooter or gun barrel
+operates. The latter devices work by the action of high pressure on
+the rear of the projectile acting to accelerate it, pushing it along the
+tube without signiﬁcant leakage of the propellant gas or air around
+the sides of the projectile. The acceleration is continually high
+throughout the length of the barrel, not diminishing signiﬁcantly
+as the projectile increases speed.
+4.4. The ﬂight characteristics of spherical drops ﬁred into still air
+A droplet or particle allowed to fall in still air will speed up from
+rest in its downward motion due to the force of gravity causing it to
+accelerate. However, as the droplet moves through the surround-
+ing air, it will experience viscous drag forces acting to slow it down
+in the manner described by Stokes’ Law. Ultimately, it will reach a
+mathematically predictable constant vertical terminal settling
+velocity when the drag and gravitational forces balance.
+Very small droplets (0.01 mm diameter, typical of a water
+fog)
+have
+an
+exceedingly
+small
+terminal
+settling
+velocity
+(3  103 m s1). For progressively larger droplets of increasing
+mass to surface area ratio, the terminal velocity increases rapidly
+with size. Droplets of 0.1 mm dia. (typical of a mist), whilst still
+strongly dominated by the viscous effects of the air, have a settling
+velocity of the order of 0.3 m s1. 1.0 mm drops (small rain drops)
+have a far higher settling velocity of around 30 m s1; their
+aerodynamic behaviour is somewhat different from the smaller
+ones and they are less vulnerable to any environmental airﬂow
+disturbances.
+The ﬂight characteristics of spherical drops ﬁred impulsively
+into still air, rather than simply dropped, also may be calculated
+using well established mathematical ballistic descriptions of their
+behaviour. The ﬂight behaviour of spherical, unit density, droplets
+of a range of size ﬁred into still air at an initial velocity of 5 m s1 at
+angles of 08, 308 or 458 to the horizontal, assuming the viscous drag
+force to be described by the classical Stokes’ Law are illustrated in
+Fig. 10a and b. The initial trajectory of 458 was chosen as this is very
+close to the ideal angle to achieve the maximum horizontal ﬂight
+distance of a large drop; greater or lesser angles produce ﬂight
+paths of shorter range measured along the horizontal at the level of
+ﬁring.
+1.0 mm dia. droplets follow a near parabolic trajectory (Fig. 10a)
+because their motion is dominated by the effects of gravity; they
+can cover signiﬁcant horizontal ranges and also reach signiﬁcant
+heights. Their behaviour is near to that of the traditional cricket
+ball ﬂight.
+Droplets less than approx. 0.5 mm dia. behave very differently
+from larger ones. Their ﬂight is progressively attenuated because of
+the dominant viscous effects and they travel only very small
+distances from the point of ejection. As these droplets reach the
+limit of their forward motion, they settle out reaching their
+terminal velocity in due course. The horizontal distance reached by
+0.1 mm drops, when ﬁred at 5 m s1, is around 10–12 cm whilst
+the vertical travel is less than 8 cm (Fig. 10b). Furthermore,
+apparently paradoxically, small droplets ﬁred upwards at 308
+travel further horizontally than those at 458; this is because they
+are not being slowed down as much by drag due to their vertical
+motion.
+The level of drag exerted on a spherical particle with increasing
+velocity appropriately scaled as the Reynolds number (Re) is very
+well known (see for example Ref. [17]). Stokes’ Law adequately
+deﬁnes the viscous drag on spherical drops or particles travelling at
+speeds where the appropriate velocity scaling, or Re, is less than
+approx. 1. As Re increases, so the drag law changes through the
+intermediate region (for Re in the range of approx. 1–103) to
+Newton’s Law for Re in the range 103–105 and the drag is more
+than would be expected on the basis of Stokes’ Law, with the
+droplet being slowed down more quickly and in a shorter distance
+than indicated in the trajectories in Fig. 10a. In the circumstances
+of present interest, drops may be travelling at speeds governed by
+differing laws at various stages of their ﬂight (thus, for 1.0 mm
+drops projected at an initial velocity of 5 m s1, the initial
+Re = 350; at the same ejection speed, 0.1 mm drops would have
+[(Fig._9)TD$FIG]
+Fig. 9. Droplet velocity as a function of distance along a 30 mm long, 6 mm dia. tube
+when accelerated by airﬂow with a characteristic speed of 10 m s1.
+[(Fig._0)TD$FIG]
+Fig. 10. (a) Computed trajectories of 1.0 and 0.1 mm dia. drops ejected at 5 m s1
+into still air horizontally and upward at angles of 308 and 458. (b) Expanded scale
+showing detailed trajectories of 0.1 and 1 mm droplets for the same conditions as
+in (a).
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+150
+
+
+--- PAGE 8 ---
+
+an Re = 35). However, in all cases the highest Re would be at the
+moment of ejection; it would fall rapidly thereafter as the droplet
+slowed down and the motion would obey Stokes’ Law for the large
+majority of its ﬂight.
+The assumption of the universal applicability of Stokes’ Law is
+an acceptable approach for the calculations above; they would
+overestimate, to a small extent, the distance a droplet would travel
+when ﬁred into still air at a speciﬁed initial velocity and vertical
+angle. For present purposes, it is important not to underestimate
+the distance a drop could travel in still air. By using Stokes’ Law, it is
+possible to indicate safely that such droplets could not travel as far
+as observed experimentally in our expired blood studies, had they
+simply been ‘‘ﬁred’’ into still air by the expiratory process.
+5. Discussion
+5.1. Fluidity of blood
+Care was taken in all the above experimental studies to ensure
+that the subject’s own fresh blood had not clotted detectably and
+thereby lost some of its ﬂuidity. Blood was used within 5 min of
+being drawn, and in the interim period was held in the sterile
+plastic syringe into which it had been collected, without the
+addition of any anticoagulant. Therefore, it is reasonable to assume
+that the physical properties of the blood used in these experiments
+were essentially that of blood expelled from a living subject whilst
+bleeding. The relevant properties of importance in relation to
+aerosol formation would have been essentially normal and not
+functionally dissimilar to those of water.
+The nature of the process by which respired blood is formed
+relies fundamentally upon its ﬂuidity and signiﬁcant clotting
+would be very liable to diminish the ability to produce aerosols
+containing a dispersion of ﬁne droplets. Expiration would be
+expected to shear off less ﬂuid, clotted, structures that were much
+larger in size than those observed and the ligament formation and
+stretching processes would be compromised with a loss of the
+ability to create any signiﬁcant quantity of ﬁne aerosol.
+Indeed, it has been generally assumed in the past, by those
+analysing blood spatter, that any observed spatter patterns that
+might be respired aerosols will have been produced during life, or
+within a very short period of time after death. This judgement is
+based on the presumed inevitable rapid clotting of the blood which
+will have prevented formation of such an aerosol within a short
+time after death. The lack of detection of clotted blood in spatter
+patterns of possibly respired blood has been taken as self-
+supporting evidence for this truism. Conclusions based on this
+assumption of the timing of the observed patterns have been used
+to eliminate or implicate suspects of crimes. However, it is well
+known that blood may, in certain circumstances, retain its ﬂuidity
+for very protracted periods of many hours or even days.
+Whilst for a long time it was widely accepted by most that the
+deceased human may contain blood that is entirely ﬂuid, there was
+some dispute as to the truth of this until the work of Morawitz in
+1906, as quoted by Mole [18], demonstrated that ﬂuid cadaver
+blood was free of ﬁbrinogen and frequently contained a ﬁbrinoly-
+sin. Earlier, Virchow in 1871 [as quoted in Ref. [18]], had noted the
+very important point that capillary blood in the cadaver is always
+ﬂuid and incoagulable. Lenggenhager in 1938 [as quoted in Ref.
+[18]], was perhaps the ﬁrst to ask why the blood in a cadaver is
+never found completely coagulated.
+Mole [18] investigated carefully the conditions which deter-
+mine the ﬂuidity of blood in human cadavers as seen at autopsy as
+well as the properties of the ﬁbrinolysin found in the blood,
+particularly of subjects whose death was sudden and trauma
+related. Based on a study of 61 randomly investigated autopsies, he
+demonstrated that the more sudden the death, the more likely was
+the blood to be found completely ﬂuid. Virtually all the subjects
+showing ﬁbinolytic activity could be described as suffering from
+shock or cardiovascular collapse whilst still alive; the ﬁbrinolysin
+appeared in the blood after death in those who were healthy before
+the incident causing their death. He deduced that the ﬁbrinolysin
+might be produced by the vascular endothelium, consistent with
+the earlier observation of Virchow regarding the incoagulability of
+blood in the capillaries.
+The work of Mole was subsequently conﬁrmed and extended by
+that of Takeichi et al. [19] in the ﬁrst of a series of three papers on
+the ﬂuidity of cadaveric blood after sudden death. Amongst other
+ﬁndings of forensic interest, they demonstrated that ﬁbrinolysis is
+activated by physical exercise or by vasoactive agents such as
+adrenaline or noradrenaline [19] and the onset of the short lasting
+activation process (of less than 1 min) is very rapid, occurring
+within 1 min of secretion of the agent into the blood [20].
+It is therefore unsafe to presume the existence of a respired
+blood aerosol in relation to a crime can only be explained on the
+basis of its production during life or immediately after death.
+Furthermore, the spatter may have originated from any source of a
+bloody nature through, or over which, air has been blown with
+sufﬁcient force at the air–liquid interface. Thus, for instance, it
+could be from stab wounds to the chest or a cut windpipe as well as
+from a normal or distorted mouth or nose.
+5.2. Behaviour of experimentally generated respired aerosols
+Whilst the experimental studies reported in this paper are of a
+very simple nature, they demonstrate collectively the qualitative
+nature of respired blood aerosols and their behaviour and enable
+more objective interpretation of their relevance and signiﬁcance to
+the evaluation of a crime scene. The explanations for the properties
+of such blood aerosols and their spatter properties are in
+agreement with the known behaviour of other aerosols produced
+in different situations.
+The purposes of the various studies were not identical in all
+respects. A number of pertinent questions were addressed. Each
+study stands in its own right; it was not considered appropriate to
+use identical conditions for all experiments.
+The straw experiments (Study 1) demonstrated just how little
+blood was needed and how small a surface could be coated with
+blood to generate a signiﬁcant amount of aerosol. The small
+volume
+of
+air
+required
+was
+also
+demonstrated.
+The
+more
+physiological study (Study 2), involving upright spitting of
+voiceless sounds demonstrated again the small volume of air
+and effort required together with the link to speech. The semi-
+prone study (Study 3) was inevitably different from Studies 1 and 2
+because of posture and the fact that the nose was also used. The
+other studies demonstrated the ability of the ﬁne blood droplets to
+travel a signiﬁcant distance, Study 3 demonstrated similar
+behaviour for both sources of aerosol. The use of the same target
+was not considered an essential requirement for this experiment –
+instead use of a human target was considered helpful for explicitly
+demonstrating how a person might capture such a respired
+aerosol.
+Study 4 demonstrated in a simple unquestionably mechanical
+environment that similar blood aerosols could be created for
+comparable, if not identical, situations. Using the mechanical
+model it was possible to explicitly alter key variables. There could
+be no question as to the small pressures or short timescales
+involved, nor about the small volume of air required. These
+variables had to be estimated in all the human-based experiments.
+The use of different instilled blood volumes was not considered
+a major problem because it was clear that not all blood was
+aerosolised in each experiment. It was considered most important
+to ensure that enough blood was placed in the region likely to
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+151
+
+
+--- PAGE 9 ---
+
+generate the aerosol. It is reasonable to note that the volume of
+blood instilled varied only between 1 and 2 ml. It is reasonable to
+consider this to be a small amount of blood compared to what
+might be expected in any real life situation.
+5.2.1. Mechanism of formation
+Study 4 demonstrated, in a very controlled manner, that a very
+small quantity of blood wetting a surface may be aerosolised by a
+small volume of air forced to ﬂow over it. The equipment used is a
+realistic representation of the critical elements of the respiratory
+system if one is interested in the formation of aerosols in the
+vicinity of either the frontal aspects of the nose or possibly the
+clenched mouth or pursed lips. The detailed nature of the geometry
+and ﬂow conditions far upstream of the site of the blood are not
+important other than to produce a controllable pulse of a known
+volume of air.
+The production of respiration derived aerosols is not dependent
+on
+high
+overall
+driving
+pressures
+being
+generated
+by
+the
+respiratory system. Furthermore, it is not a prerequisite for
+generating such an aerosol that large breaths, or sustained ﬂows,
+are involved in its production. Rather, the process of forming the
+droplets is extremely rapid (of the order of 1 ms [9,13]). The levels
+of shear force caused locally by the airﬂow at the liquid surface
+required to break down the blood liquid surface can be generated
+by short expiratory-like puffs of air.
+5.2.2. Size characteristics of aerosol droplets
+One of the important properties of respired blood aerosols, as
+demonstrated throughout our work, is the smallness of their
+droplet size The aerosol contains a spectrum of droplet size, from
+very small (less than 0.1 mm dia.) to over 1 mm dia. The
+experiments did not permit exact measurements of the diameters
+of the aerosol droplets which, on landing, would have spread to
+some extent through the matrix of the paper targets, which were
+capable of wetting by blood or water. The measured spot diameter
+would therefore be greater than that of the related droplet.
+Consequently, the measurement approach throughout this work
+has been to conservatively over-estimate that parent droplet size.
+Only the most general nature of the droplet size distribution
+was deduced in our studies. The spot detection and counting
+method was limited by the ability of a trained observer to detect
+spots with the naked eye, or a low power hand lens. As a general
+result, only spots larger than approx. 0.1 mm were detected, and
+some of them may have been missed; as a result the spot counts
+resulting from the smallest droplets could have been somewhat
+under-estimated. The larger spots, say over 1 mm diameter, were
+far more easily detected and not missed in the counting process.
+Throughout the present work, it would be reasonable to
+interpret results as indicating that the observed pattern of spatter
+spot numbers and sizes relate to aerosols of a size distribution
+including droplets maybe smaller than 0.1 mm, with few larger
+than 1 mm diameter. The distribution of actual droplet numbers, or
+number density, would, in reality, be more biased towards the
+small size than as measured. Furthermore the targets used would
+not have captured all the droplets that were generated, some
+would have dropped out of the airstream without reaching the
+target.
+The general, sub-millimetre size characteristic of the respired
+blood aerosols is consistent with the size distributions reported
+elsewhere [9] for water aerosols generated by shearing of air over a
+liquid surface.
+The distance travelled by the aerosol droplets (both large and
+very small) can exceed 1 m. Whilst there might be an argument
+that could explain the travel of the largest droplets over such a
+distance based on ballistic theory, this is not the case for the
+smaller droplets. Their travel can only be explained on the basis of
+the assisted transport via the exhaled breath, or puff of air, as
+explained above.
+5.2.3. Volume of blood required to produce a respiratory aerosol
+Studies 1 and 4 also amply demonstrated the large number of
+spots that can be generated from a very small sample of blood
+placed within the nasal tube. If the whole of the instilled blood
+(0.045 ml) used in any run in Study 4 were fragmented into
+droplets of 1 mm diameter, it would produce over 90 droplets;
+were it fragmented into the smaller size of 0.1 mm, it would
+produce over 90,000 droplets. The message is very clear, it requires
+only a very small amount indeed of blood to be aerosolised for it to
+be seen as a spatter pattern of a very considerable number of spots.
+It is easy for an observer to be seduced into thinking of it as a
+sizeable amount of blood from which the spots were formed. The
+amount of blood from which the aerosol is formed demonstrates
+that it is not necessary for a considerable surface to be copiously
+covered in blood, the spray can come from a very small area of
+blood-wetted surface.
+5.2.4. Comparison of the aerosols produced in the various studies
+All the experiments using a human subject (Studies 1–3), were
+inevitably less controlled in some ways than was the case with the
+physical model. However, use of a compliant subject enabled the
+introduction of manoeuvres that would have been difﬁcult to
+simulate in the physical model. The human studies also overcame
+any possible criticism that the real human anatomy and physiology
+were inconsistent with the geometric and dynamic needs for
+aerosol production in the situations of interest.
+In essence, Study 1 (involving pufﬁng through a straw)
+replicated the physical model (Study 4) and demonstrated without
+question that a human subject, when exhaling a short puff of air of
+a similar volume to the smallest investigated in Study 4, could
+produce an expirated blood aerosol. Air blown over a thinly blood-
+coated inner surface of a short straw, that perhaps mimicked a
+bloody nose or a constricted mouth, can produce an aerosol that
+travels over 1 m horizontally. The speed and duration of the airﬂow
+could be relatively small (speed 3.5 m s1; duration 0.5 s) and
+little pressure was required, indicating that it did not require much
+effort to undertake the manoeuvre.
+The resulting spatter pattern on the distant target (Study 1) was
+comprised of spots of a similar size distribution and number to
+those obtained in Study 4, again indicating the similarity of the two
+manoeuvres. Whilst some larger spots were detected on the target,
+numerous small diameter spots were present too and their
+presence could not be predicted on the basis of ballistics. The
+size characteristics of the captured spatter reﬂected those of air
+generated sprays in other situations [9,14].
+The ranked results presented in Fig. 4 demonstrate that,
+although there was a small difference in the average number of
+captured spots between the two straw lengths, length is not a
+major inﬂuence on the amount of aerosol captured. Furthermore,
+expirations of all sound levels were capable of producing copious
+aerosol droplets. The highest and medium sounds clearly produced
+the greater, fairly similar, numbers of captured spots, the low
+sound level produced fewer spots. If sound level is an indicator of
+effort, this implies that even the runs of low effort were able to
+produce a considerable number of droplets, but the perceived
+effort, in the opinion of an onlooker, would not be a simple reliable
+indicator of the likely amount of a respired aerosol generated or
+captured on a person close by.
+Study 2, using scenarios more representative of real life,
+demonstrated that the spatter pattern is as to be expected on the
+basis of the simpler, or more primitive models. Blood exhaled
+through the small mouth oriﬁces used to produce the sounds was
+readily aerosolised. Again, only very small, short exhalations were
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+152
+
+
+--- PAGE 10 ---
+
+required to produce a respiratory aerosol comprising many small
+droplets of considerably less than 1 mm dia., that could travel a
+considerable distance. In both cases there were very many more
+small droplets (less than 1 mm dia.) than large ones, demonstrat-
+ing the ability to produce aerosols that may be categorised as
+essentially of small droplet size.
+Interestingly, although the ‘P’ and ‘S’ involved similar peak
+pressures, the ‘S’ produced somewhat more captured droplets. The
+mouth and lip movements are not the same in the two
+manoeuvres, their close juxtaposition is more sustained in the
+‘S’ and it is likely that this is the reason for the greater production of
+droplets.
+The pressure–time proﬁles of a ‘P’ and ‘S’ were clearly
+independently detectable when expressing the composite ‘piss
+off’ and this suggests that the amount of aerosol produced by
+vocalising such expressions in stressful circumstances may be
+signiﬁcantly increased beyond that of either of the individual
+fundamentals.
+For a semi-prone subject (Study 3), the observed blood spots
+appeared not to be of a noticeably different nature from those
+observed on the paper targets in the other studies. Despite the
+different posture of the subject, the relevant expiratory ﬂow
+manoeuvre could be performed and the resulting blood aerosol
+behaved as expected, with a similar size distribution to that found
+in the other studies. The distribution of the captured spots on the
+overalls of the observer was as expected allowing for partial
+shielding of the torso by the outstretched arm and kneeling
+posture.
+5.2.5. Respiratory aerosol transport mechanism
+The
+expected
+initial
+speed
+of
+expulsion
+of
+the
+aerosol
+(estimated at approx. 1–4 m s1) in all three human studies was
+far too low to expect any but the larger droplets (approx. 1 mm
+dia.) to reach the targets, were they to depend on conventional
+ballistic propulsive travel. The capture of the smaller droplets by
+the targets required them to be transported by some other
+mechanism. An initial speed of 5 m s1 would enable larger
+droplets to travel ballistically well in excess of the distance
+required to hit any of the targets used in these experiments,
+however, such an initial speed would not carry the smaller
+droplets, of less than 1 mm dia., this far – as demonstrated in
+Fig. 10a and b.
+Both rudimentary observation of commonplace actions such as
+pufﬁng out an expiratory bolus of air on a cold winter’s day and
+more exacting studies [15] indicate the clear plausibility of the
+entrainment of the aerosolised blood in the puff of air. This
+structured bolus of air is capable of travelling considerable
+distances, greater than that to the targets used in the present
+studies, and of transporting smaller blood droplets within it.
+Interestingly,
+because
+the
+transport
+mechanism
+favours
+retention of the smaller droplets, it can act as a ﬁltration
+mechanism
+by
+which
+the
+larger
+droplets
+are
+able
+to
+be
+progressively lost, or indeed not be caught up signiﬁcantly in
+the formation of the aerosol. The smaller ones are retained within
+a relatively slowly expanding package and not dispersed in a wide
+arc as might possibly be expected if they were to behave like
+impact spatter. The way in which individual droplets, once
+formed, are accelerated by the viscous drag of the air ﬂowing past
+them favours the smaller droplets reaching the carrier airspeed
+and being transported by the bolus; the larger droplets will not be
+as strongly accelerated towards this speed and thus possess even
+less inertia to propel them to the target. This separation
+mechanism explains the observation in Study 4 that large
+droplets were found on the horizontal target placed near the
+nasal tip, whereas the small droplets were transported to the
+distant vertical target.
+Although the process was not investigated in the present
+experiments, Hunt et al. [15] point out that the forward motion of
+an exhaled vortical structure is vulnerable to being deﬂected in its
+forward path by extraneous sideways air movements such as
+environmental air currents; such currents could signiﬁcantly
+deﬂect, but, neither destroy the vortex nor prevent, its transport of
+entrained aerosol droplets. The manner in which an exhaled
+structured package of air breaks down suddenly by lateral
+dispersion on close approach to an obstacle in its path explains
+the observed spread of captured blood spots on the various targets
+used and why many spots are to be found high up on a target well
+above a horizontal line from the point of origin.
+The fact that respiratory aerosols are prone to ﬁltering out
+larger droplets as they are transported is liable to lead to a
+misinterpretation of captured spatter patterns some distance from
+their origin because of the apparently small mean size and
+distribution. Such patterns may be classiﬁed as small droplet size
+distributions and thus be confused inadvertently with impact
+spatter patterns resulting from higher speed processes.
+5.2.6. Contamination of blood droplets
+Dilution of blood with saliva, air bubbles within droplets, or
+frothing of blood, were not evident in any of the studies reported.
+Neither the straw studies (Study 1) nor the physical model studies
+(Study 4) involved blood being introduced at sites at risk of saliva
+contamination and the aerosolisation process was not liable to
+cause air entrainment within droplets. As would be expected, all
+observed spots showed no signs of such effects.
+The upright spitting and semi-prone studies (Studies 2 and 3)
+involved blood placed in the mouth – in front and immediately
+behind the teeth, or in the nostril and vestibule of the nose. In all
+these studies, the subject did not cause contamination of the blood
+with his saliva, nor was frothing evident. Again, no spots captured
+on the targets showed signs of either saliva contamination or
+evidence of encapsulated air bubbles. It might be expected that
+contamination with saliva or the entrapment of air bubbles in the
+droplets would be more likely if the exhaled blood were derived
+from deeper into the mouth, or the lung airways as is possibly more
+common in cases of respiratory derived spatter.
+Dilution of blood with saliva would not signiﬁcantly alter the
+physical properties of the liquid and thus the production and ﬂight
+characteristics of contaminated or uncontaminated blood droplets
+would not be expected to be discernibly different. Entrapment of
+air within droplets would make individual droplets less dense, they
+would then have a smaller effective aerodynamic diameter and be
+more likely to behave as the experimentally observed smaller
+droplets in the present work.
+5.2.7. Comparison of small volume exhalation droplet transport with
+coughs and sneezes
+Whilst the objective of the current work was to investigate
+small exhalations of air and blood aerosols, it is potentially
+instructive to compare their behaviour with what might be
+expected for large expired volume phenomena, particularly
+coughing and sneezing, which are associated with a relatively
+explosive expulsion of air and liquid droplets on release of a high
+pressure constriction in the respiratory tract. Interestingly, despite
+the relevance of coughing and sneezing to the spread of respiratory
+airborne infection, still little is known about the ﬂuid mechanics of
+these processes [21].
+Coughing is commonly associated with respiratory infection,
+chronic bronchitis and asthma. The process is able to help clear the
+central airways as far peripherally as about the seventh generation
+of bronchial airway and is thus a potentially potent process by
+which airborne infectious material can be spread. Cough is a reﬂex
+mechanism which may be triggered by irritation of the larynx,
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+153
+
+
+--- PAGE 11 ---
+
+bronchial airway irritability or local obstruction or other stimuli.
+Coughing starts with a brief rapid inhalation, usually greater than
+the normal breath volume followed by closure of the glottis for
+200 ms or so which is accompanied by a rapid rise in upstream
+pressure
+to
+around
+75 mm Hg
+through
+diaphragmatic
+and
+expiratory muscle contraction. On opening the glottis, an explosive
+expiration is produced predominantly through the open mouth.
+The initial phase of a cough is a horizontal plume of air from the
+semi-open mouth [21,22]. The peak velocity of airﬂow, reached
+within approx. 0.1 s, depends upon the effort involved and has
+been reported to range from 8 [23] to 13 m s1 [24]. The second
+phase is strongly associated with a nasal exhalation aimed more
+downwards. The ﬁnal phase is again predominantly oral with the
+total process lasting typically less than 1 s. These phases are
+associated with a rapidly diminishing driving pressure and
+resultant ﬂow rate of air. Typical volumes of air exhaled in a
+single cough range from over 1 l to 2 l [24], but depend on effort
+and the initial inhalation volume.
+Sneezing is a reﬂex action caused by irritation of the wall of the
+nasal cavity. As with a cough, a sneeze follows an unusually large
+inhalation and brief closure of the respiratory tract – mainly at the
+level of the soft palate and uvula rather than the larynx – coupled
+with a rapid build up of upstream pressure. When this is released, a
+very high ﬂow rate of air passes through both the mouth and nose
+helping to clear foreign matter. There appear to be no authoritative
+estimates of the exhaled volumes and ﬂow rates via each oriﬁce,
+but speeds of exhalation are reported to be of the order of 50–
+100 m s1 [25].
+Because of the large volume of air exhaled by either a cough or
+sneeze, they are able potentially to expel droplets that originate
+from deeper into the respiratory tract than is possible for the small
+volume
+manoeuvres
+with
+which
+this
+paper
+is
+principally
+concerned. Whilst both large volume actions exhale air from the
+alveolar regions of the lung, how far down into the depths of the
+bronchial tree airborne droplets may be formed cannot be
+predicted readily. Droplet creation will depend upon the transient
+local level of the wall shear force achieved in the peripheral
+generations of bronchi. It is known that the level of wall shear force
+can be high in the more central bronchial airways, but that it
+diminishes rapidly towards the periphery of the airway tree (on
+either inhalation or exhalation) because of the architecture and
+expanding cross-sectional area of the bifurcating bronchial system
+[26,27]. Whilst coughing is conventionally believed to be helpful in
+clearing airways of obstructions as peripherally as approximately
+the seventh to tenth generations, information is not available
+regarding the source of exhaled droplets. The same holds true for
+sneezing.
+Whilst both coughing and sneezing are capable of generating
+aerosols of copious numbers of aqueous droplets by shearing the
+mucosal walls of the respiratory tract, the two processes appear to
+generate somewhat differing numbers. A cough is said typically to
+generate around 3000 droplets [28] whilst a sneeze may be
+associated with 40,000 droplets [29].
+The typical size ranges of droplets are not available though it is
+recognised that individual droplets, in either a cough or sneeze, are
+strongly liable to surface evaporation during their lifespan and
+thus can become very small – of the order of 0.005–0.012 mm dia.
+It is also recognised that the exhaled aerosol is highly heteroge-
+neous in size, containing many much larger droplets; such larger
+droplets are known not to travel through the surrounding air with
+the same characteristics as the smaller ones and tend to drop out of
+the exhaled air envelope under the inﬂuence of gravity [23,30].
+Small volume exhalations, such as those considered in this
+paper, establish a turbulent starting vortex ring which propagates
+as described above transporting the entrained aerosol droplets
+away from the source. The same process is to be found when
+exhaling a larger and longer lasting breath [31], but with an
+attendant jet of exhaled air in its wake. The impulsive starting
+vortex, leading the turbulent jet has been shown to travel
+signiﬁcant distances whilst most of the burden of entrained
+droplets is retained in the leading vortex and the body of the jet.
+Owing to the dynamic nature of the jet formation, with potentially
+changing nose and mouth oriﬁce orientation and shape changes
+during the process, the emerging jet expands with distance in a
+similar, but not identical, way to that classically described for
+turbulent jets emerging into a quiescent environment [17]. The
+smaller diameter droplets are transported very effectively within
+the envelope of the vortex and jet and thus are able to achieve long
+distances from the source, well beyond that predicted on the basis
+of ballistic ﬂight. The mathematical description of the droplet
+transport process is discussed in some detail by Hunt et al. [15].
+6. Conclusions
+Based on the extensive and novel experimental studies
+undertaken in relation to the Sioˆn Jenkins case, it is clear that
+blood can be aerosolised by air being forced through conduits
+whose surfaces are bloody. This mechanism of droplet production
+is different from the processes of impact and cast off. Such respired
+blood could be produced by a person exhaling through a bloody
+mouth or nose. Similarly, lung air venting through a bloody chest
+wound, or elsewhere, could also produce a respired aerosol.
+Blood aerosols can be produced by the exhalation of very small
+volumes, certainly less than 60 ml, of air through a single nostril or
+narrowed jaws, teeth and lips. They can also be produced by use of
+a simple physical model system and by pufﬁng through straws. The
+associated physical exertion and speed of exhalation, whilst not
+measured accurately, were demonstrably not very high.
+The respired aerosols produced in the experiments reported
+contained hundreds to thousands of blood droplets of an estimated
+range of diameters from less than 0.1 mm to more than 1 mm. The
+total amount of blood from which these droplets derived would
+itself have been very small.
+The general similarity of the droplet size ranges in the various
+experiments
+undertaken in
+different
+postures
+and
+exhaling
+through a variety of conduits was noted. The observed size range
+would appear to be characteristic of aerosols generated by the
+shear force of air over a bloody surface.
+Both large and small droplets in the exhaled blood aerosol are
+able to travel signiﬁcant distances of the order of 1 m or more.
+Particularly, the typical observed distances travelled by small
+droplets, transported in the exhaled breath, are considerably
+greater than would be possible if they were propelled ballistically
+through still air. Consequently, the captured deposition patterns of
+respiratory derived aerosols may be confused with other patterns
+caused by airborne blood from other origins.
+Funding source
+The work was funded by the Legal Services Commission.
+Conﬂict of interest statement
+DD acted as an expert witness to the Courts in the R v Sioˆn
+Jenkins trials [2–5]. RCS acted in a similar capacity in trials [3–
+5,7,8]. Fees were received from the Courts and the Legal Services
+Commission.
+References
+[1] R v X Jenkins, Lewes Crown Court (Gage J., June–July 1998).
+[2] R v X Jenkins, Unreported, 21st December 1999 (CA, Case No: 9804720 W3).
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+154
+
+
+--- PAGE 12 ---
+
+[3] R v X Jenkins, 2004, EWCA Crim. 2047.
+[4] R v X Jenkins, Central Criminal Court (Rafferty J., April–July 2005).
+[5] R v X Jenkins, Central Criminal Court (Clarke J., October 2005–February 2006).
+[6] S. Jenkins, B. Wofﬁnden, The Murder of Billie-Jo, John Blake Publishing, London,
+2008.
+[7] R v X Barron, 2009, EWCA Crim. 910.
+[8] R v X Barron, Leeds Crown Court (Holroyde J., November–December 2009).
+[9] P. Marmottant, E. Villermaux, On spray formation, Journal of Fluid Mechanics 498
+(2004) 73–111.
+[10] C.G. Caro, T.J. Pedley, R.C. Schroter, W.A. Seed, The Mechanics of the Circulation,
+Oxford University Press, Oxford, 1978.
+[11] P.L. Altman, D.S. Ditmer (Eds.), Respiration and Circulation, Federation of Ameri-
+can Societies for Experimental Biology, Bethesda, MD, USA, 1971.
+[12] Y.L. Sinai, A model of interfacial stress and spray generation by gas ﬂowing over a
+deep wavy pool, Journal of Fluid Mechanics 179 (1987) 327–344.
+[13] B.E. Gelfand, Droplet breakup phenomena in ﬂows with velocity lag, Progress in
+Energy and Combustion Science 22 (1996) 201–265.
+[14] E. Villermaux, P. Marmottant, J. Duplat, Ligament-mediated spray formation,
+Physical Review Letters 92 (2004) 074501 (4).
+[15] J.C.R. Hunt, R. Delfos, I. Eames, R.J. Perkins, Vortices, complex ﬂows and inertial
+particles, Journal of Flow, Turbulence and Combustion 79 (2006) 207–234.
+[16] I. Eames, J.W. Tang, J.C.R. Hunt, Y. Li, Murder, death and disease, in: Mathematics
+Today, The Institute of Mathematics and its Applications, London, April 2009, pp.
+61–64.
+[17] R.B. Bird, W.E. Stewart, E.N. Lightfoot, Transport Phenomena,
+John Wiley and
+Sons, Inc., London, 1960.
+[18] R.H. Mole, Fibrinolysin and the ﬂuidity of the blood post mortem, Journal of
+Pathology and Bacteriology 60 (1948) 413–427.
+[19] S. Takeichi, C. Wakasugi, I. Shikata, Fluidity of cadaveric blood after sudden death.
+Part I. Post mortem ﬁbrinolysis and plasma catecholamine level, American Journal
+of Forensic Medicine and Pathology 5 (1984) 223–228.
+[20] S. Takeichi, C. Wakasugi, I. Shikata, Fluidity of cadaveric blood after sudden death.
+Part II. Mechanism of release of plasminogen activator from blood vessels,
+American Journal of Forensic Medicine and Pathology 6 (1985) 25–29.
+[21] J.W. Tang, T.L. Liebner, B.A. Craven, G.S. Settles, A Schlieren optical study of the
+human cough with and without wearing masks for aerosol infection control,
+Journal of the Royal Society Interface 6 (2009) S727–S736.
+[22] J.W. Tang, G.S. Settles, Coughing and aerosols, New England Journal of Medicine
+359 (2008) e19.
+[23] J.W. Tang, Y. Li, I. Eames, P.K.S. Chan, G.L. Ridgway, Factors involved in the aerosol
+transmission of infection and control of ventilation in healthcare premises,
+Journal of Hospital Infection 64 (2006) 100–114.
+[24] T.A. Khan, H. Higuchi, D.R. Marr, M.N. Glauser, Unsteady ﬂow measurements of
+human micro environment using time-resolved particle image velocimetry, in:
+Proceedings: Room Ventilation, Coimbra, Portugal, 2004.
+[25] W.F. Wells, Airborne Contagion and Air Hygiene,
+Harvard University Press,
+Cambridge, 1955.
+[26] R.C. Schroter, M.F. Sudlow, Flow patterns in models of the human bronchial
+airways, Respiration Physiology 7 (1969) 341–355.
+[27] C.G. Phillips, S.R. Kaye, R.C. Schroter, A diameter-based reconstruction of the
+branching pattern of the human bronchial tree. Part I. Description and applica-
+tion, Respiration Physiology 98 (1994) 193–217.
+[28] R.M. Des Prez, C.R. Heim, Mycobacterium tuberculosis, in: G.L. Mandell, R.G.
+Douglas, Jr., J.E. Bennett (Eds.), Principles and Practices of Infectious Diseases, 3rd
+ed., Churchill Livingston, New York, 1990, pp. 1877–1906.
+[29] C.S. Cox, The Aerobiological Pathway of Microorganisms,
+John Wiley & Sons,
+Chichester, 1987.
+[30] E.C. Cole, C.E. Cook, Characterization of infectious aerosols in health care facilities:
+an aid to effective engineering controls and preventive strategies, American
+Journal of Infection Control 26 (1998) 453–464.
+[31] G.S. Settles, Fluid mechanics and homeland security, Annual Review of Fluid
+Mechanics 38 (2006) 87–110.
+D. Denison et al. / Forensic Science International 204 (2011) 144–155
+155

@@ -1,0 +1,962 @@
+
+
+--- PAGE 1 ---
+
+Eﬀect of Wetting on Drop Splashing of Newtonian Fluids and Blood
+T. C. de Goede,*,†
+N. Laan,† K. G. de Bruin,†,‡ and D. Bonn*,†
+†Van der Waals-Zeeman Institute, Institute of Physics, University of Amsterdam, Science Park 904, 1098 XH Amsterdam,
+Netherlands
+‡Netherlands Forensic Institute, Laan van Ypenburg 6, 2497 GB The Hague, Netherlands
+ABSTRACT: We investigate the impact velocity beyond which the ejection
+of smaller droplets from the main droplet (splashing) occurs for droplets of
+diﬀerent liquids impacting diﬀerent smooth surfaces. We examine its
+dependence on the surface wetting properties and droplet surface tension.
+We show that the splashing velocity is independent of the wetting properties
+of the surface but increases roughly linearly with increasing surface tension of
+the liquid. A preexisting splashing model and simpliﬁcation are considered
+that predict the splashing velocity by incorporating the air viscosity. Both the splashing model and simpliﬁcation give a good
+prediction of the splashing velocity for each surface and liquid, demonstrating the robustness of the splashing model. We also
+show that the splashing model can also predict the splashing velocity of blood, a shear-thinning ﬂuid.
+■INTRODUCTION
+When impacting a dry, smooth surface, a droplet either spreads
+over the surface (for low-impact velocities) or disintegrates
+into smaller droplets (for high-impact velocities). This so-
+called splashing phenomenon has been the subject of
+numerous studies over the last several decades and is of
+relevance for a wide range of practical applications such as crop
+spraying,1,2 rain drops impacting porous stones,3,4 and forensic
+research.5−7 The splashing velocity vsp is deﬁned as the critical
+value of the impact velocity of the droplet beyond which
+splashing occurs (Figure 1). Many studies have tried to ﬁnd an
+empirical relation between the splashing velocity and ﬂuid
+parameters8−13 and between the splashing velocity and surface
+properties.14−17 In addition, Xu et al.18 showed that the
+atmospheric conditions have a signiﬁcant inﬂuence on droplet
+splashing,13,17,19 implying that the air viscosity is also an
+important parameter. To include the air viscosity, Riboux and
+Gordillo recently proposed a theoretical model for impact and
+splashing on smooth surfaces.20 They postulated that splashing
+occurs because of the breakup of a small liquid ﬁlm that lifts oﬀ
+the surface just after the impact due to the lift force generated
+by the surrounding air. In the model, the ﬂuid and substrate
+properties govern the splashing as well as the air viscosity; in
+ref 20, a quantitative agreement was found between the model
+and experiments on a single substrate.
+Numerous experimental studies have investigated splash-
+ing;8−19 however, the inﬂuence of the wetting properties of the
+surface on splashing has not been considered in detail. It has
+recently been shown that the wetting properties of the surface
+aﬀect droplet spreading at low-impact velocities.21,22 In the
+model of Riboux and Gordillo, the splashing velocity also
+depends on the surface properties.20 The surface tension and
+the wetting properties of the surface are closely linked through
+Young’s law.23 Therefore, the dependence of the splashing
+velocity on surface tension should also be taken into account
+for a droplet of a given size. Furthermore, the splashing model
+has not yet been tested for more complex ﬂuids such as, for
+example, blood. In forensics, being able to determine when
+blood splashes could help in distinguishing between the stains
+that are formed from the droplet impact (impact stain) or the
+stains formed by absorbing blood during contact with a blood
+source (transfer stain).7,24 Blood is a shear-thinning ﬂuid, but
+studies have shown that blood can be approximated as a
+Newtonian ﬂuid when it is subjected to high shear rates.25−27
+Laan et al. showed in 2014 that the spreading of blood is
+similar to the spreading of Newtonian ﬂuids, which was
+attributed to the high shear rate inside the droplet during
+spreading.21 As splashing occurs during spreading (Figure 1b),
+the questions are whether blood can also be approximated as a
+Newtonian ﬂuid during splashing and whether the splashing
+velocity of blood can also be predicted using the splashing
+model for Newtonian ﬂuids of ref 20.
+In this paper, we systematically investigate the eﬀect of
+surface tension of the liquid and the wetting properties of the
+surface on the splashing velocity of the droplet. Using high-
+Received:
+October 31, 2017
+Revised:
+December 11, 2017
+Published: December 13, 2017
+Figure 1. (a) Droplet impact for v < vsp where no splashing occurs.
+(b) Droplet impact for v ≥vsp where splashing occurs.
+Article
+pubs.acs.org/Langmuir
+Cite This: Langmuir 2018, 34, 5163−5168
+© 2017 American Chemical Society
+5163
+DOI: 10.1021/acs.langmuir.7b03355
+Langmuir 2018, 34, 5163−5168
+This is an open access article published under a Creative Commons Non-Commercial No
+Derivative Works (CC-BY-NC-ND) Attribution License, which permits copying and
+redistribution of the article, and creation of adaptations, all for non-commercial purposes.
+Downloaded via 92.30.172.63 on June 24, 2025 at 17:57:37 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+--- PAGE 2 ---
+
+speed camera footage, we measure the splashing velocity of a
+set of Newtonian ethanol−water mixtures and shear-thinning
+blood impacting on diﬀerent surfaces at laboratory conditions.
+We compare the results with the splashing model of Riboux
+and Gordillo.20 We show that the splashing model predicts the
+splashing of both ethanol−water mixtures and blood very well.
+Although the model is consistent with the experimental data,
+the calculation is complex and depends on several parameters
+that have to be inferred from the experimental conditions and
+have to be calculated separately. We therefore use a
+simpliﬁcation, also given by Riboux and Gordillo, valid for
+low Ohnesorge numbers and atmospheric conditions, which is
+the situation that pertains to most practical applications and
+show that it predicts the splashing velocity very well. These
+results show that the splashing velocity is independent of the
+surface wetting properties and that blood can be approximated
+as a Newtonian ﬂuid during splashing.
+■MATERIALS AND METHODS
+To measure the splashing velocity vsp, droplet impacts were recorded
+using a high-speed camera (Phantom Miro M310). The droplets were
+generated from a blunt-tipped needle (needle diameter 0.4 mm) using
+a syringe pump, where the needle was suspended above the substrate
+at a certain height. By systematically increasing the height of the
+needle and checking whether the droplet merely spreads over the
+surface (Figure 1a) or splashes (Figure 1b) for each height, we
+determined the initial droplet diameter D0 and impact velocity v at the
+onset of splashing for each liquid. The ﬂuid parameters of each liquid
+are given in Table 1. Three diﬀerent surfaces were investigated for the
+ethanol−water mixtures: stainless steel, glass (Objektträger, Menzel
+Glaser, Thermo Scientiﬁc), and paraﬁlm. All three surfaces were
+considered smooth, each having an arithmetic average roughness Ra
+below 0.5 μm.22 For blood, the splashing velocity was determined
+from blood droplet impact footage on glass (θst ≈20°; where θst is the
+static contact angle of water21), acrylic glass [poly(methyl
+methacrylate), PMMA; θst ≈70°], Trespa (θst ≈82°), and
+polyoxymethylene (POM; θst ≈79°) surfaces using the data of ref
+21. The density (1055 kg/m3), surface tension (59 mN/m), and
+viscosity (4.8 mPa·s) of the blood used are also given by Laan et al.21
+Both the impacts of Newtonian ﬂuids and blood were measured at 21
+°C and atmospheric pressure. During the experiments with blood, the
+anti-coagulant ethylenediaminetetraacetic acid was added to prevent
+the coagulation of blood.
+■RESULTS AND DISCUSSION
+For each ethanol−water mixture, the contact angle θ on steel,
+glass, and paraﬁlm was measured using the sessile drop
+method.30,31 Because of surface inhomogeneities, a droplet
+deposited on a surface does not have a unique contact angle
+but attains a contact angle that ranges between the advancing
+(θa) and receding (θr) contact angle.32 In Figure 2a, θa is
+plotted as a function of the surface tension. In glass, the
+contact angles of each ﬂuid were too small to be determined.
+Therefore, each ﬂuid is considered to be completely wetting
+the glass surface (θa ≈0°). Do note that the glass used in this
+study has a lower contact angle compared to the glass used in
+the study of ref 21. All liquids have a similar receding angle of
+roughly 20° when deposited on steel. When deposited on
+paraﬁlm, the receding contact angles of all liquids were
+consistently 10° lower than their corresponding advancing
+angle.
+To characterize the diﬀerence in wetting properties of the
+three substrates, Young’s law is used, which describes the force
+balance between the interfacial tensions of the substrate, liquid
+droplet, and the surrounding vapor23,33
+cos( )
+SV
+SL
+LV
+σ
+σ
+σ
+θ
+−
+=
+(1)
+where σLV is the liquid−vapor interfacial tension of the liquid.
+σSV and σSL are the solid−vapor and solid−liquid interfacial
+tensions, respectively. Zisman assumed that the diﬀerence
+between σSV and σSL is a property of the solid that gives the
+surface free energy of the substrate.23,31,34 (σSV −σSL) can be
+determined by ﬁnding the critical surface tension from the
+contact angle measurements: the surface tension at which a
+Table 1. Ethanol Mass Fraction, Density, Surface Tension,
+and Viscosity Values of Water, Ethanol, and Ethanol−Water
+Mixtures Used in This Studya
+wt (%)
+density (kg/m3)
+surface tension (mN/m)
+viscosity (mPa·s)
+0
+997.0
+72.0
+0.89
+5
+989.0
+56.4
+1.23
+10
+981.9
+48.1
+1.50
+15
+975.3
+42.7
+1.82
+20
+968.7
+38.0
+2.14
+40
+935.3
+30.2
+2.85
+60
+891.1
+26.2
+2.55
+80
+843.6
+23.8
+1.88
+100
+789.3
+21.8
+1.20
+aSource: refs 28 and 29.
+Figure 2. (a) Advancing contact angle as a function of surface tension for steel (blue circles), glass (yellow squares), and paraﬁlm (red diamonds)
+substrates. (b) Cosine of θa as a function of surface tension. The blue solid, yellow dashed, and red dotted lines depict the linear ﬁts of the static
+contact angles for water, glass, and paraﬁlm, respectively.
+Langmuir
+Article
+DOI: 10.1021/acs.langmuir.7b03355
+Langmuir 2018, 34, 5163−5168
+5164
+
+
+--- PAGE 3 ---
+
+droplet completely wets the surface. By plotting the cosine of
+the measured contact angles as a function of surface tension
+(Figure 2b), (σSV −σSL) is found by ﬁtting a straight line
+through the data using the least squares method and
+extrapolating the ﬁts to the surface tension for which the
+liquid would fully wet the surface (cos(θ) = 1). Because glass is
+completely wetted by all evaluated liquids, the critical surface
+tension of glass is higher than 71.99 mN/m. For steel and
+paraﬁlm, a critical surface tension of 14 ± 1 and 19 ± 1 mN/m
+is found, respectively. Therefore, liquids wet the paraﬁlm less
+compared to the steel surface.
+The measured splashing velocities of the ethanol−water
+mixtures are plotted as a function of liquid surface tension in
+Figure 3a. The graph shows that the splashing velocity
+increases roughly linearly with the surface tension. For pure
+water droplets, no splashing was observed within the velocity
+range investigated here (0.1 < v < 4.7 m/s). No signiﬁcant
+diﬀerence between the three evaluated surfaces is observed,
+implying that the splashing velocity is independent of the
+wetting properties of the substrate. The same holds for blood
+(Figure 3b), where the splashing velocity remains constant
+(∼3.47 m/s) for all observed substrates. These results suggest
+that the wetting properties of the substrate do not inﬂuence the
+splashing velocity of both ethanol−water mixtures and blood,
+which is the ﬁrst useful conclusion. This is remarkable as the
+droplet is in full contact with the substrate during splash-
+ing.35,36 However, in ref 35, it was also observed that just
+before splashing, the edge of the liquid sheet dewets the
+surface from which the satellite droplets are formed (see Figure
+4a−d).
+Although surface roughness is not considered in this paper,
+it can also inﬂuence splashing.16,17 On rough surfaces, the
+liquid sheet does not detach from the surface prior to breakup,
+giving rise to a diﬀerent splash known as a “prompt splash”.9,17
+The inﬂuence of surface roughness was not considered in the
+splashing model of ref 20. How the surface roughness can be
+incorporated into the splashing model is currently unknown
+and beyond the scope of this paper.
+To describe splashing, in ref 20, the ejection time te (the
+moment a thin liquid sheet appears from the droplet after
+impact) is ﬁrst calculated numerically using the momentum
+balance equation
+Re t
+Re
+Oh
+t
+3
+2
+1.21
+1
+e
+1/2
+2
+2
+e
+3/2
++
+=
+−
+−
+−
+−
+(2)
+where Re
+Rv
+= ρ
+μ
+and Oh
+R
+=
+μ
+ρ σ
+are the Reynolds and
+Ohnesorge numbers, respectively; ρ is the density, μ is the
+viscosity, σ is the surface tension of the liquid (equal to σLV), R
+Figure 3. (a) Measured splashing velocity as a function of surface tension for stainless steel (blue circles) and borosilicate glass (yellow squares).
+The green line depicts the splashing velocity as given by the full splashing model [eq 6], whereas the red dashed line shows the splashing velocity as
+calculated from the simpliﬁed model [eq 14]. (b) Measured splashing velocity of blood (dark blue) for glass (circle), PMMA (square), POM
+(diamond), and Trespa (triangle) compared to the predicted splashing velocity of the full splashing model (open green symbols) and simpliﬁcation
+(open red symbols).
+Figure 4. (a−d) High-speed camera footage of the lifted liquid sheet
+after impact (with t = 0 s, the moment of droplet impact). (e)
+Averaged measured wedge angle α (green circles) as a function of
+time on stainless steel. The error bar is given by the SD. The black
+dotted line is the best linear ﬁt of wedge angle measurements. The
+vertical red lines depict the diﬀerent stages of liquid sheet spreading as
+given in (a−d): the emergence of the liquid sheet from the droplet
+(a), radial expansion (b), formation of liquid ﬁngers at the front of the
+liquid (c), and droplet detachment (d).
+Langmuir
+Article
+DOI: 10.1021/acs.langmuir.7b03355
+Langmuir 2018, 34, 5163−5168
+5165
+
+
+--- PAGE 4 ---
+
+is the radius (D0/2), and v is the impact velocity of the droplet.
+Using the ejection time, the velocity Vt and thickness Ht of the
+thin liquid sheet can be calculated
+V
+vt
+1
+2
+3
+t
+e
+1/2
+=
+−
+(3a)
+H
+Rt
+12
+t
+e
+3/2
+π
+=
+(3b)
+Using the sheet velocity and thickness, the aerodynamic
+lifting force, consisting of the suction (∼KlμgVt) and
+lubrication forces (∼KuρgVt
+2Ht), can then be determined.
+Here, μg and ρg are the viscosity and density of the air,
+respectively. The suction force is caused by the negative
+pressure diﬀerence above the liquid sheet due to the Bernoulli
+principle, whereas the lubrication force is generated by the air
+moving underneath the liquid sheet, creating a positive
+pressure diﬀerence that pushes the lamella upward. Ku and
+Kl are constants. While Ku ≈0.3 was determined in ref 20 by
+numerical calculations, Kl can be calculated using the sheet
+thickness, mean free path of the molecules λ in the
+surrounding air, and wedge angle α, which is the angle
+between the lifted sheet and the surface
+i
+k
+jjjjj
+i
+k
+jjjjj
+y
+{
+zzzzz
+i
+k
+jjjjj
+y
+{
+zzzzz
+y
+{
+zzzzz
+K
+H
+H
+6
+tan
+ln 19.2
+ln 1
+19.2
+t
+t
+l
+2 α
+λ
+λ
+= −
+−
++
+(4)
+According to ref 20, the wedge angle is equal to 60° and
+should be dependent on the wetting properties of the surface.20
+Having determined these parameters, a dimensionless
+number deﬁned as the splashing ratio β is calculated, which
+indicates the magnitude of the aerodynamic forces needed to
+overcome the surface tension to break up the liquid sheet into
+smaller droplets
+i
+k
+jjjjjjj
+y
+{
+zzzzzzz
+K
+V
+K
+V H
+2
+t
+t
+t
+l g
+u g
+2
+1/2
+β
+μ
+ρ
+σ
+=
++
+(5)
+Comparing eqs 2 and 5 to both their own experiments and
+previous work,13,18,37 Riboux and Gordillo determined that the
+value of the splashing ratio should be around 0.14.
+To calculate the splashing velocity from the splashing model
+of Riboux and Gordillo, eq 2 is rewritten as a quadratic
+equation for the splashing velocity vsp, as a function of the ﬂuid
+parameters and the ejection time
+( )
+v
+t
+t
+t
+t
+4.84
+2.42
+R
+R
+R
+sp
+3
+2
+e
+1/2
+3
+4
+2
+e
+1
+e
+3/2
+e
+3/2
+=
++
++
+μ
+ρ
+μ
+ρ
+σ
+ρ
+−
+−
+(6)
+To compare the splashing model with our experiments, eqs
+3a and 3b are substituted into eq 5
+Rt
+v
+K
+t
+v
+3 3
+2
+3
+2
+2
+0
+e
+1/2
+sp
+2
+l g e
+1/2
+sp
+2
+π
+μ
+σβ
++
+−
+=
+−
+(7)
+Using eqs 6 and 7, the ejection time can be determined
+numerically, which in turn can be used to calculate the
+splashing velocity. For both Newtonian ﬂuids and blood, the
+measured droplet radius was averaged. The best ﬁt of the
+splashing model on our data (green line, Figure 3a,b) was
+determined by minimizing the sum of square residuals using
+the splashing ratio as a ﬁt parameter. The obtained best ﬁt
+value is equal to 0.135 ± 0.008, which is close to the value 0.14
+found by Riboux and Gordillo. The error on the splashing ratio
+is determined by calculating the splashing ratio for each ﬂuid
+and taking the SD of all splashing ratios. Previously, the
+splashing model was only veriﬁed for borosilicate glass
+substrates.13,37 Here, we show that the splashing model can
+be universally applied to any smooth surface. Furthermore, the
+splashing model also accurately predicts the splashing
+velocities of blood (Figure 3b), where the splashing ratio of
+blood is nearly identical to the splashing ratio of the ethanol−
+water mixtures (βblood = 0.141 ± 0.001). The fact that blood
+can be described with the splashing model of Riboux and
+Gordillo suggests that blood behaves as a Newtonian ﬂuid
+during splashing, similar to droplet spreading.21
+The wetting properties of the surface should, according to
+Riboux and Gordillo,20 determine the wedge angle α.
+However, Riboux and Gordillo gave no explanation on why
+the value of the wedge angle should be 60°. To investigate the
+time dynamics of the wedge angle during splashing, we
+measure the wedge angle; in our experiments, we let ethanol
+droplets impact a stainless-steel surface at an impact velocity
+comparable to the splashing velocity (v = vsp). Recording the
+impact with the high-speed camera gives the time evolution of
+liquid sheet expansion, which is depicted in Figure 4a−d. We
+observe that after the moment of the sheet ejection (Figure
+4a), the liquid sheet starts to radially expand outward (Figure
+4b). After a certain time, liquid ﬁngers start to form at the edge
+of the sheet (Figure 4c), after which satellite droplets detach
+from the sheet (Figure 4d) and splashing occurs.
+From each recorded frame, we extracted the instantaneous
+wedge angle, which is shown in Figure 4e. In this graph, the
+wedge angle seems to increase linearly with time until the
+moment of ﬁnger formation (Figure 4c). Assuming that the
+wedge angle keeps increasing linearly until droplet detachment,
+we can ﬁt a simple linear function (α = At) to the data of
+Figure 4e and extrapolate the wedge angle to the moment the
+droplets detach from the liquid sheet. Using this method, we
+obtain an average wedge angle of α = 59° ± 8° at the moment
+of droplet detachment (Figure 4d), which is similar to the
+value of the wedge angle postulated by Riboux and Gordillo.
+These results, therefore, show that the wedge angle given in ref
+20 should be the wedge angle at the moment of droplet
+detachment because the angle varies continuously in time. The
+important conclusion from our experiments is that the wedge
+angle does not depend on the surface and the behavior found
+here is therefore universal.
+Although the splashing model of Riboux and Gordillo
+provides a good prediction of the splashing velocity, the
+required calculations are rather complex: substitute eq 6 into
+eq 7, numerically solve for te, and use the result to ﬁnd the
+splashing velocity with eq 6. Furthermore, these calculations
+depend on several unintuitive parameters, for instance α and λ.
+Most practical situations deal with ﬂuids with a low
+Ohnesorge number (Oh ≪1) and take place at atmospheric
+conditions. Riboux and Gordillo also proposed a simpliﬁcation
+for low Oh ﬂuids and found an approximate splash criteria that
+also showed good agreement with previous experiments.10,37
+However, no detailed comparison was made between the
+splashing velocity prediction of both the simpliﬁcation and the
+full-splashing model. It is unknown whether the deviation
+between the full splashing model and simpliﬁcation is small
+enough to provide an accurate splashing velocity prediction
+with simpliﬁcation. Therefore, we will follow the same
+approximations given by Riboux and Gordillo and compare
+Langmuir
+Article
+DOI: 10.1021/acs.langmuir.7b03355
+Langmuir 2018, 34, 5163−5168
+5166
+
+
+--- PAGE 5 ---
+
+the splashing velocity given by both the full splashing model
+and simpliﬁcation.
+If we evaluate eq 2 for low Ohnesorge numbers, the ﬁrst
+term on the left side in the equation dominates, allowing us to
+write the ejection time as a function of the Weber number We
+(
+)
+Oh Re
+We
+Rv
+2
+2
+2
+=
+·
+= ρ
+σ
+as
+t
+We
+0.88
+e
+2/3
+≈
+−
+(8)
+Consequently, the lamella thickness and spreading velocity
+are given by
+V
+v t
+v We
+3
+2
+1.07
+3
+2
+t
+sp e
+1/2
+sp
+1/3
+=
+=
+−
+(9a)
+H
+R
+t
+RWe
+12
+0.83 2 3
+t
+e
+3/2
+1
+π
+π
+=
+≈
+−
+(9b)
+Further simpliﬁcation can be made for the constant Kl [eq
+4]. If Ht is calculated with the measured splashing velocity and
+initial diameter of the drops, an average value of 7.41 × 10−6 m
+is obtained. Because λ ≈10−8 m, the ratio λ/Ht is in the order
+of 10−3. As λ/Ht is small, the second logarithmic term can be
+approximated with the ﬁrst term of the Taylor approximation
+i
+k
+jjjjj
+y
+{
+zzzzz
+H
+H
+ln 1
+19.2
+19.2
+t
+t
+λ
+λ
++
+≈
+(10)
+Because (
+)
+ln 19.2
+19.2
+H
+H
+t
+t
+≫
+λ
+λ
+for
+10
+H
+3
+t ≈
+λ
+−, the above
+term can be neglected, giving a simpliﬁed equation for Kl
+i
+k
+jjjjj
+y
+{
+zzzzz
+K
+H
+6
+tan ( )
+ln 19.2
+10.69
+tan ( )
+t
+l
+2
+2
+α
+λ
+α
+≈
+−
+≈
+(11)
+The ﬁnal assumption is that the lubrication force dominates
+over the suction force under atmospheric conditions,20
+implying that eq 5 can be simpliﬁed to
+i
+k
+jjjjj
+y
+{
+zzzzz
+K
+V
+2
+t
+l g
+1/2
+β
+μ
+σ
+≈
+(12)
+Finally, by substituting the simpliﬁed terms of Vt [eq 9a] and
+Kl [eq 11], β can be rewritten as a function of splashing
+velocity vsp, initial diameter D0, density ρ, surface tension σ,
+wedge angle α, and viscosity of the air μg
+R
+v
+2.22 tan ( )(
+)
+g
+1/6 sp
+5/6
+2/3
+β
+μ
+α
+ρ
+σ
+≈
+(13)
+Thus, it is possible to signiﬁcantly simplify Riboux and
+Gordillo’s splashing model for low Ohnesorge number ﬂuids
+and atmospheric conditions, where the splashing ratio is only
+dependent on the ﬂuid parameters and viscosity of the air, as
+the wedge angle seems to be identical for all smooth surfaces.
+To compare the simpliﬁcation with the experimental data, eq
+13 can be rewritten into a simple analytical expression for the
+splashing velocity
+i
+k
+jjjjjjjj
+y
+{
+zzzzzzzz
+v
+R
+tan ( )
+2.22
+(
+)
+sp
+2/3
+g
+1/6
+6/5
+σ
+β
+α
+μ ρ
+=
+(14)
+Then, the splashing velocity is uniquely determined by
+density, surface tension, and initial diameter of the droplet,
+viscosity of the air, wedge angle, and splashing ratio. The
+simpliﬁcation (red dashed line), when plotted together with
+the experimental data and the full splashing model, as shown in
+Figure 3, shows good agreement. Again, the splashing ratio
+(βsimpl) was used as a ﬁtting parameter, where the best ﬁt value
+of βsimpl of the ethanol−water mixtures is equal to 0.120 ±
+0.008, which is slightly lower than the splashing ratio of the full
+splashing model. This is expected as the suction force term is
+neglected in the simpliﬁcation. For blood (red open symbols;
+Figure 3b), the splashing ratio also decreases (βsimpl,blood =
+0.112 ± 0.001), but still attains a similar value as the splashing
+ratio of the ethanol−water mixtures. The predicted values of
+the full splashing model and the simpliﬁcation are similar,
+which shows that the simpliﬁcation gives a relatively good
+prediction of the splashing velocity for both ethanol−water
+mixtures and blood.
+■CONCLUSION
+To summarize, we systematically investigated the inﬂuence of
+the wetting properties of the surface on the splashing velocity
+of Newtonian ﬂuid and blood (a shear thinning liquid)
+droplets impacting a smooth surface. We showed that the
+wetting properties do not inﬂuence the splashing velocity for
+both Newtonian ﬂuids and blood, indicating that splashing is
+independent of the wetting properties of the surface. Then, we
+compared the experimental data with a preexisting splashing
+model and showed that the model can be universally applied to
+any smooth surface. Furthermore, the splashing model can also
+be used to predict the splashing velocity of blood. By
+measuring the wedge angle, we conﬁrmed that the wedge
+angle used in the splashing model is equal to 60° at the
+moment of droplet detachment from the liquid sheet. Finally,
+we evaluated a simpliﬁcation of the preexisting splashing model
+for low Ohnesorge number ﬂuids at atmospheric conditions.
+We showed that the predictions of the simpliﬁcation are
+comparable to the full splashing model, allowing for an easier
+prediction of splashing of low Ohnesorge number ﬂuids at
+atmospheric conditions for any smooth surface.
+■AUTHOR INFORMATION
+Corresponding Authors
+*E-mail: T.CdeGoede@uva.nl (T.C.d.G.).
+*E-mail: D.bonn@uva.nl (D.B.).
+ORCID
+T. C. de Goede: 0000-0003-0570-2661
+D. Bonn: 0000-0001-8925-1997
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+We would like to thank Detlef Lohse, who pointed us toward
+the work of Guillaume Riboux and José Manuel Gordillo.
+Furthermore, we would also like to thank José Manuel Gordillo
+for the useful communication regarding the splashing model.
+■REFERENCES
+(1) Wirth, W.; Storp, S.; Jacobsen, W. Mechanisms controlling leaf
+retention of agricultural spray solutions. Pestic. Sci. 1991, 33, 411−
+420.
+(2) Bergeron, V.; Bonn, D.; Martin, J. Y.; Vovelle, L. Controlling
+droplet deposition with polymer additives. Nature 2000, 405, 772−
+775.
+Langmuir
+Article
+DOI: 10.1021/acs.langmuir.7b03355
+Langmuir 2018, 34, 5163−5168
+5167
+
+
+--- PAGE 6 ---
+
+(3) Shahidzadeh-Bonn, N.; Rafaï, S.; Bonn, D.; Wegdam, G. Salt
+crystallization during evaporation: impact of interfacial properties.
+Langmuir 2008, 24, 8599−8605.
+(4) Lee, J. B.; Derome, D.; Carmeliet, J. Drop impact on natural
+porous stones. J. Colloid Interface Sci. 2016, 469, 147−156.
+(5) Knock, C.; Davison, M. Predicting the position of the source of
+blood stains for angled impacts. J. Forensic Sci. 2007, 52, 1044−1049.
+(6) Adam, C. D. Experimental and theoretical studies of the
+spreading of bloodstains on painted surfaces. Forensic Sci. Int. 2013,
+229, 66−74.
+(7) Laan, N.; de Bruin, K. G.; Slenter, D.; Wilhelm, J.; Jermy, M.;
+Bonn, D. Bloodstain pattern analysis: implementation of a fluid
+dynamic model for position determination of victims. Sci. Rep. 2015,
+5, 11461.
+(8) Stow, C. D.; Hadfield, M. G. An experimental investigation of
+fluid flow resulting from the impact of a water drop with an unyielding
+dry surface. Proc. R. Soc. London, Ser. A 1981, 373, 419−441.
+(9) Yarin, A. L.; Weiss, D. A. Impact of drops on solid surfaces: self-
+similar capillary waves, and splashing as a new type of kinematic
+discontinuity. J. Fluid Mech. 1995, 283, 141−173.
+(10) Mundo, C.; Sommerfeld, M.; Tropea, C. Droplet-wall
+collisions: experimental studies of the deformation and breakup
+process. Int. J. Multiphase Flow 1995, 21, 151−173.
+(11) Bussmann, M.; Chandra, S.; Mostaghimi, J. Modeling the
+splash of a droplet impacting a solid surface. Phys. Fluids 2000, 12,
+3121−3132.
+(12) Vander Wal, R. L.; Berger, G. M.; Mozes, S. D. The splash/
+non-splash boundary upon a dry surface and thin fluid film. Exp.
+Fluids 2005, 40, 53−59.
+(13) Stevens, C. S. Scaling of the splash threshold for low-viscosity
+fluids. Europhys. Lett. 2014, 106, 24001.
+(14) Stow, C. D.; Stainer, R. D. The physical products of a splashing
+water drop. J. Meteorol. Soc. Jpn. 1977, 55, 518−532.
+(15) Niu Wu, Z. Modélisation et calcul implicite multidomaine
+d’écoulements diphasiques gaz-gouttelettes. Ph.D. Thesis, Université
+Pierre et Marie Curie, Paris, France, 1992.
+(16) Range, K.; Feuillebois, F. Influence of surface roughness on
+liquid drop impact. J. Colloid Interface Sci. 1998, 203, 16−30.
+(17) Latka, A.; Strandburg-Peshkin, A.; Driscoll, M. M.; Stevens, C.
+S.; Nagel, S. R. Creation of prompt and thin-sheet splashing by
+varying surface roughness or increasing air pressure. Phys. Rev. Lett.
+2012, 109, 054501.
+(18) Xu, L.; Zhang, W. W.; Nagel, S. R. Drop splashing on a dry
+smooth surface. Phys. Rev. Lett. 2005, 94, 184505.
+(19) Stevens, C. S.; Latka, A.; Nagel, S. R. Comparison of splashing
+in high-and low-viscosity liquids. Phys. Rev. A: At., Mol., Opt. Phys.
+2014, 89, 063006.
+(20) Riboux, G.; Gordillo, J. M. Experiments of drops impacting a
+smooth solid surface: A model of the critical impact speed for drop
+splashing. Phys. Rev. Lett. 2014, 113, 024507.
+(21) Laan, N.; de Bruin, K. G.; Bartolo, D.; Josserand, C.; Bonn, D.
+Maximum diameter of impacting liquid droplets. Phys. Rev. Appl.
+2014, 2, 044018.
+(22) Lee, J. B.; Laan, N.; de Bruin, K. G.; Skantzaris, G.;
+Shahidzadeh, N.; Derome, D.; Carmeliet, J.; Bonn, D. Universal
+rescaling of drop impact on smooth and rough surfaces. J. Fluid Mech.
+2015, 786, R4.
+(23) Bonn, D.; Eggers, J.; Indekeu, J.; Meunier, J.; Rolley, E. Wetting
+and spreading. Rev. Mod. Phys. 2009, 81, 739.
+(24) Karger, B.; Rand, S. P.; Brinkmann, B. Experimental bloodstains
+on fabric from contact and from droplets. J. Leg. Med. 1997, 111, 17−
+21.
+(25) Merrill, E. W.; Gilliland, E. R.; Cokelet, G.; Shin, H.; Britten,
+A.; Wells, R. E.; et al. Rheology of blood and flow in the
+microcirculation. J. Appl. Physiol. 1963, 18, 255.
+(26) Merrill, E. W.; Pelletier, G. A. Viscosity of human blood:
+transition from newtonian to non-newtonian. J. Appl. Physiol. 1967,
+23, 178−182.
+(27) Merrill, E. W. Rheology of blood. Physiol. Rev. 1969, 49, 863−
+888.
+(28) CRC Handbook of Chemistry and Physics; Haynes, W. M., Ed.;
+CRC press, 2014.
+(29) Vazquez, G.; Alvarez, E.; Navaza, J. M. Surface tension of
+alcohol + water from 20 to 50. degree. c. J. Chem. Eng. Data 1995, 40,
+611−614.
+(30) Bachmann, J.; Ellies, A.; Hartge, K. H. Development and
+application of a new sessile drop contact angle method to assess soil
+water repellency. J. Hydrol. 2000, 231, 66−75.
+(31) Bachmann, J.; Horton, R.; Van Der Ploeg, R. R.; Woche, S.
+Modified sessile drop method for assessing initial soil−water contact
+angle of sandy soil. Soil Sci. Soc. Am. J. 2000, 64, 564−567.
+(32) θa and θr are deﬁned as the largest and smallest contact angle,
+respectively, a drop can attain on a surface for a constant base
+diameter.
+(33) Young, T. An essay on the cohesion of fluids. Philos. Trans. R.
+Soc. London 1805, 95, 65−87.
+(34) Fox, H. W.; Zisman, W. A. The spreading of liquids on low
+energy surfaces. i. polytetrafluoroethylene. J. Colloid Sci. 1950, 5,
+514−531.
+(35) Driscoll, M. M.; Nagel, S. R. Ultrafast interference imaging of
+air in splashing dynamics. Phys. Rev. Lett. 2011, 107, 154502.
+(36) Kolinski, J. M.; Rubinstein, S. M.; Mandre, S.; Brenner, M. P.;
+Weitz, D. A.; Mahadevan, L. Skating on a film of air: drops impacting
+on a surface. Phys. Rev. Lett. 2012, 108, 074503.
+(37) Palacios, J.; Hernández, J.; Gómez, P.; Zanzi, C.; López, J.
+Experimental study of splashing patterns and the splashing/deposition
+threshold in drop impacts onto dry smooth solid surfaces. Exp. Therm.
+Fluid Sci. 2013, 44, 571−582.
+Langmuir
+Article
+DOI: 10.1021/acs.langmuir.7b03355
+Langmuir 2018, 34, 5163−5168
+5168

@@ -1,0 +1,756 @@
+
+
+--- PAGE 1 ---
+
+3D bloodstain pattern analysis: Ballistic reconstruction of the trajectories of blood
+drops and determination of the centres of origin of the bloodstains
+Ursula Buck a,b,*, Beat Kneubuehl a, Silvio Na¨ther a,b, Nicola Albertini c, Lars Schmidt d, Michael Thali a
+a University of Bern, Institute of Forensic Medicine, Buehlstrasse 20, 3012 Bern, Switzerland
+b State Police Bern, Accident Service, Schermenweg 9, 3001 Bern, Switzerland
+c State Police Vaud, Forensic Service, Centre Ble´cherette, 1014 Lausanne, Switzerland
+d State Police Ticino, Forensic Service, Viale Franscini 7, 6500 Bellinzona, Switzerland
+1. Introduction
+For crime scene investigation in cases of homicide or criminal
+assault, the pattern of bloodstains at the incident site is of critical
+importance. The morphology of the bloodstain pattern serves to
+determine the approximate blood source locations in forensic
+crime reconstructions.
+For this approach, up to now, various methods of bloodstain
+pattern analysis have been used [1–5]. The stringing method, the
+tangent method and the virtual stringing method are by the use of
+computer software [6,7]. In the stringing method, the trajectories
+of the blood drops are simpliﬁed as straight lines. The impact
+directions of the bloodstains are reconstructed by afﬁxing strings
+at the position of the bloodstains and pulling them away from the
+surface, on which the bloodstain has spilt, in the approximate
+impact direction. This direction is determined by the directionality
+and relation of the length and width of the elliptical shaped
+bloodstain. The approximate location of the blood source is
+estimated to be where the majority of strings intersect. In the
+tangent method, the ﬂight path of the blood drop is assumed to be a
+hypotenuse of a right-angled triangle. This method is valid only for
+fast-moving blood drops with a ﬂat trajectory before impacting on
+the surface. Due to unknown curvatures of the individual ﬂight
+path, unknown systematic errors in the horizontal value of the
+location of the blood source may occur [2]. The virtual stringing
+method
+is
+equivalent
+to
+the
+traditional
+stringing
+method
+transposed onto the computer.
+In the present work, a ballistic analysis to approximate the
+trajectories of the blood drops, for the determination of the centres
+of origin of the bloodstains, is evaluated.
+2. Materials and methods
+In the following two cases a three-dimensional bloodstain pattern analysis was
+performed.
+Forensic Science International 206 (2011) 22–28
+A R T I C L E
+I N F O
+Article history:
+Received 15 May 2009
+Received in revised form 7 June 2010
+Accepted 8 June 2010
+Available online 3 July 2010
+Keywords:
+Blood stain pattern analysis
+Photogrammetry
+Computer-assisted three-dimensional
+imaging
+Blood drop trajectory reconstruction
+Ballistics
+Virtopsy
+A B S T R A C T
+For crime scene investigation in cases of homicide, the pattern of bloodstains at the incident site is of
+critical importance. The morphology of the bloodstain pattern serves to determine the approximate
+blood source locations, the minimum number of blows and the positioning of the victim.
+In the present work, the beneﬁts of the three-dimensional bloodstain pattern analysis, including the
+ballistic approximation of the trajectories of the blood drops, will be demonstrated using two illustrative
+cases.
+The crime scenes were documented in 3D, using the non-contact methods digital photogrammetry,
+tachymetry and laser scanning. Accurate, true-to-scale 3D models of the crime scenes, including the
+bloodstain pattern and the traces, werecreated.For the determination ofthe areas oforigin ofthe bloodstain
+pattern, the trajectories of up to 200 well-deﬁned bloodstains were analysed in CAD and photogrammetry
+software. The ballistic determination of the trajectories was performed using ballistics software.
+The advantages of this method are the short preparation time on site, the non-contact measurement
+of the bloodstains and the high accuracy of the bloodstain analysis. It should be expected that this
+method delivers accurate results regarding the number and position of the areas of origin of bloodstains,
+in particular the vertical component is determined more precisely than using conventional methods. In
+both cases relevant forensic conclusions regarding the course of events were enabled by the ballistic
+bloodstain pattern analysis.
+ 2010 Elsevier Ireland Ltd. All rights reserved.
+* Corresponding author at: University of Bern, Institute of Forensic Medicine, IRM
+– Buehlstrasse 20, CH-3012 Bern, Switzerland. Tel.: +41 31 631 84 12;
+fax: +41 31 631 38 33.
+E-mail address: ursula.buck@irm.unibe.ch (U. Buck).
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+0379-0738/$ – see front matter  2010 Elsevier Ireland Ltd. All rights reserved.
+doi:10.1016/j.forsciint.2010.06.010
+
+
+--- PAGE 2 ---
+
+2.1. Case 1
+In a homicide case a woman was attacked by her husband with blunt force to the
+head. She was found in a lying position in the bed of their bedroom and died 2 h
+later in hospital due to the fatal head injuries. DNA analysis suggested a hammer as
+the likely injury-inﬂicting instrument. At the scene of the crime a bloodstain pattern
+was found on the ground, wall, ceiling and furniture, as well as bloodstained quilt
+and mattress. The pattern on the ground likely resulted from the work of emergency
+personnel and as such was no considered further.
+The question as to whether the woman was attacked in a sitting or a lying
+position was addressed by the bloodstain pattern analysis.
+2.2. Case 2
+A decomposing male corpse was found in a lying position on the living room ﬂoor
+in an apartment. The approximate time of death was 2 weeks previously. The
+autopsy ﬁndings included several patterned injuries on the head and three
+patterned bone injuries on the skullcap, caused by blunt force.
+Bloodstains in the living room were located on the carpet, walls, ceiling and
+furniture. Bloodstains were also located on the dinette and on the kitchen. A 3D
+match analysis of the cranial bone injuries and the presumed injury-causing tools
+located within the apartment concluded that a pistol was used to hit the victim
+(http://www.virtopsy.com) [8,9].
+The majority of the attacks occurred in the living room. In order to deﬁne other
+locations in which the victim was physically attacked, a bloodstain pattern analysis
+was performed.
+2.3. Basic information about the creation of blood spatter
+Blood drops, which ﬂy through the air, are from the ballistic point of view always
+spherical [10]. Some oscillation at the beginning of ﬂight can be neglected [11]. In
+blood drops produced by blunt force, the diameter of the drops is generally between
+1 and 3 mm [2,4]. When a drop with a deﬁned angle of less than 908 strikes a ﬂat
+surface, an elliptical bloodstain arises.
+The ﬂight distance of blood drops depends on the starting velocity and the cross-
+section stress (relation of mass to the cross-section plane). The (initially unknown)
+starting velocity cannot overstep a value of something around 10 m/s. This value
+can be derived by two physical laws, the ballistic air drag and the surface tension of
+the blood drop. When a drop exceeds a certain velocity the pressure due to the air
+drag overcomes the internal drop pressure due to the surface tension and the drop
+bursts into smaller ones. This threshold velocity depends on the size of the blood
+drop and lies between about 10 m/s (for bigger drops, 6 mm) and 17 m/s (for small
+drops, 2 mm). Blood drops moving on a parabolic like trajectory must have a quite
+smaller velocity because the burst of blood drops due to a too high velocity happen
+only in the immediate vicinity of the source.
+The mass of the blood drop can be estimated approximately by the diameter
+(width of the bloodstain) and the density of blood. This estimation is precise
+enough because a 10% error in the mass leads to a distance error of less than
+1.5%. When the drop obliquely impacts on the surface, the minor axis of the
+elliptical bloodstain can be determined as the diameter of the drop [3]. The
+inﬂuence of air resistance is a known factor because of the spherical shape of the
+blood drop.
+2.4. 3D documentation of the bloodstain pattern and the scene of crime
+For the 3D documentation of the scene of crime [12], including the bloodstain
+pattern and the traces, we employed a digital close-range photogrammetry system
+(Elcovision 10, PMSAG, St. Margreten, Switzerland) and a tachymeter (Leica TPS
+405), or a laser scanner (Leica ScanStation 2, Leica Geosystems, Gladherbru¨ ck,
+Switzerland) (http://www. leica-geosystems.com).
+The digital close-range photogrammetry is a 3D optical coordinate measuring
+system that is used to determine precise 3D coordinates of discrete points of an
+object. Therefore, several pairs of images are taken from different angles so that
+every object point is visible in a photogrammetric image pair. A pair consists of two
+images taken from the left and the right-side of the same part of the object (Fig. 1).
+For taking the photographs, a calibrated digital reﬂex camera Fuji S3 with a focal
+length of 17 and 30 mm is used.
+The tachymeter (other term: total station) is a type of theodolite with an electro-
+optical laser distance-measuring unit. It is used to determine the terrestrial or
+spatial position of points by measuring angles and distances between them. With
+the tachymeter, distances are measured to a reﬂector or directly to an object and the
+measurements are drawn automatically in 3D CAD software (AutoCAD 2006
+software, Autodesk, San Rafael, USA with plug-in ElTheo, PMSAG, St. Margreten,
+Switzerland) on a connected laptop at the scene (Fig. 2a).
+The 3D laser scanner sends laser beams to the investigation environment whilst
+rotating with a horizontal ﬁeld of view of up to 3608 and a vertical ﬁeld of view of up
+to 3108. The scanner measures the distances and angles from the reﬂected laser
+beams and computes the 3D coordinates of all reﬂected objects to generate a 3D
+point cloud consisting of millions of points (Fig. 2b). These point clouds represent
+the crime scene in detail and with high accuracy.
+The photogrammetric analysis is combined with the scanned data or with the
+measurements taken by tachymetry, using reference targets.
+With the point clouds of the laser scans or the tachymetry measurements, a true
+to scale drawing of the traces and the crime scene in 3D is created using the
+AutoCAD 2006 software.
+The shapes of the bloodstains are measured and drawn by photogrammetric
+analysis using the software Elcovision 10 integrated in the AutoCAD platform. The
+result is an accurate, true-to-scale 3D model of the crime scene including the
+bloodstain pattern and the traces represented in 2D situation plans and 3D views
+(Figs. 3 and 4).
+[(Fig._1)TD$FIG]
+Fig. 1. Photogrammetric documentation of the bloodstain pattern, using a digital single-lens reﬂex camera. Reference points are stuck on the wall to support the fusion of the
+photogrammetric analysis with the tachymetry or laser scanning measurements (yellow arrows). One photogrammetric image pair consists of two images taken from the left
+and the right-side of the same part of the object. A blown up detail of the right image (red rectangle) shows well-deﬁned bloodstains.
+U. Buck et al. / Forensic Science International 206 (2011) 22–28
+23
+
+
+--- PAGE 3 ---
+
+2.5. Determination of the directions and angles of impact and the centres of origin
+The direction of impact and the vertical ﬂight path plane in the room can be
+determined by using the angle of impact and the directionality of the bloodstain. The
+angle of impact of the blood drop, which is formed between the direction of the blood
+drop and the ﬂatsurfacethat is struck, is calculated basedon the relationship between
+the length of the major and minor axes of the elliptical bloodstain. In addition, the
+directionality of the bloodstain is ascertained from the longitudinal axis of the ellipse
+and the direction in which the spin points (Fig. 5). In this manner, the directionality
+andlength of the major and minoraxes of the ellipseof all well-deﬁned bloodstains on
+walls, ceilings and on furniture that has not been removed are accurately measured.
+Based on these measurements, the assumed straight line for the ﬂight path of the
+bloodstains is calculated and drawn in the 3D model of the crime scene using CAD
+software. To reduce errors in determinating impact angles, only bloodstains with low
+impact angles have been considered in the analysis [13–15].
+In a top view of the impact directions of the bloodstains, convergence areas are
+shown in groups of straight lines in high concentration, which intersect one
+another.
+These
+convergence
+areas
+are
+possible
+centres
+of
+origin
+for
+the
+corresponding bloodstains. In a side view, the height of the centres of origin is
+determined by ﬁnding the average intersections of only the straight lines of the
+bloodstains which occur at a short distance from the blood source location.
+The photogrammetry software Elcovision 10 in combination with the AutoCAD
+software performs an automatic calculation of all measured ellipses and draws the
+calculated straight lines of the directions of impact of the bloodstains in the 3D
+model of the crime scene. Then the centres of origin are determined automatically
+by software, or manually, based on the produced 3D model.
+2.6. Ballistic determination of the trajectory of the blood spatter
+For the determination of the blood source location, the trajectories of
+bloodstains, which are of a short distance from the blood drop origin, can be
+assumed as straight lines.
+In cases of longer distance, a difference in the vertical component between the
+spatial direction of impact (in the vertical plane) and the expected centre of origin
+arises, because of the curved trajectory of the drop. In these cases a ballistic
+determination of the trajectory of a blood drop is performed in order to show
+whether these bloodstains arise from the determined centre of origin or from a
+different origin.
+[(Fig._2)TD$FIG]
+Fig. 2. 3D documentation of the crime scene. (a) Tachymeter on a tripod, used to measure discrete object points. (b) The laser scanner can be placed on a tripod or directly on
+the ground, as shown in this ﬁgure. With the ‘‘Leica ScanStation 2’’, the scanning of one room from two or three different stations takes about 30 min.
+[(Fig._3)TD$FIG]
+Fig. 3. The analysis of the photogrammetric data and the tachymetry measurements
+resulted in an accurate, true-to-scale 3D model of the crime scene including the
+bloodstain pattern and the traces (case 1).
+[(Fig._4)TD$FIG]
+Fig. 4. A detailed view of the 3D model of the crime scene displays the bloodstain
+pattern on the wall and the furniture (case 1).
+U. Buck et al. / Forensic Science International 206 (2011) 22–28
+24
+
+
+--- PAGE 4 ---
+
+For the ballistic reconstruction of the blood drop trajectory of a speciﬁc
+bloodstain we apply the well-known technique of ballistic trajectory reconstruction
+based on the impact condition, as is used in forensic ballistic analysis. These
+calculations are only made for bloodstains whose spatial impact direction
+contradict the results of the stringing method. For such a blood drop, we know
+the horizontal distance to the expected source area (by the stringing method), the
+impact angle and its mass. These data determine the angle of departure of the blood
+drop within a certain range. We then search for the starting velocity that is
+necessary to have the same starting height as the expected source area. If this
+velocity is much higher than the possible travelling velocity for blood drops as
+explained at Section 2.4, then it is very probable that the bloodstain in question
+cannot come from the expected point and we have to look for another source. In the
+case where the velocity is lower the mentioned limit, it is quite possible that this
+drop came from the expected source.
+Trajectory calculations can be done with any exterior ballistics software which
+contains the air drag coefﬁcient function of the sphere. We calculated our
+trajectories
+using
+ballistics
+software
+(k-ballistics
+4.0,
+Switzerland,
+http://
+www.kneubuehl.com) [16] (Table 1).
+The determined ﬂight paths of the bloodstains are drawn in the 3D model of the
+crime scene using CAD software.
+3. Results
+3.1. Case 1
+All analysed bloodstains were located at four or possibly ﬁve
+centres of origin. All centres were sited above the pillow, two or
+three between 20 and 25 cm above the mattress in the middle of
+the pillow (group 1) and two centres on the right-side of the pillow,
+closer to the wall and up to 10 cm higher (group 2) (Figs. 6 and 7).
+The centres are the possible blood source locations and the groups
+the different locations of the head of the victim.
+The bloodstains of group 2 overlapped the bloodstains of group
+1 (Fig. 8). Therefore, the stains in group 2 arose after those in group
+1, which meant that the head of the victim was ﬁrst sited in the
+centres of group 1 and then lifted and moved to the centres of
+group 2.
+[(Fig._5)TD$FIG]
+Fig. 5. The geometry of a well-deﬁned blood spatter. Based on the directionality (a) and the length of the major and minor axes of the elliptical bloodstain (b), the impact
+direction of the blood drop and the vertical ﬂight path plane in the room are calculated.
+Table 1
+A selection of the results of the ballistic determination of the trajectory of the blood spatters (case 1).
+Bloodstain
+Bloodstain coordinate
+Ellipse
+Centre of origin
+coordinate
+Blood drop
+mass [g]
+Ballistic analysis
+x [m]
+y [m]
+z [m]
+Length [m]
+Width [m]
+x [m]
+y [m]
+z [m]
+v [m/s]
+Elevation
+[mils]
+Dh
+Angle of
+descent [mils]
+25.3
+1.655
+2.528
+0.972
+0.0032
+0.0014
+1.063
+2.231
+0.641
+0.0015
+3.59
+905
+0.339
+285.0
+31.1
+1.830
+2.530
+1.455
+0.0034
+0.0010
+1.027
+2.225
+0.662
+0.0005
+7.30
+884
+0.799
+559.0
+31.2
+1.792
+2.530
+1.448
+0.0076
+0.0012
+1.314
+2.342
+0.776
+0.0010
+5.70
+1040
+0.670
+764.4
+32.1
+1.948
+2.531
+1.506
+0.0038
+0.0008
+1.000
+2.270
+0.697
+0.0003
+8.89
+794
+0.809
+552.7
+32.2
+1.965
+2.530
+1.456
+0.0018
+0.0006
+1.063
+2.231
+0.641
+0.0001
+6.80
+983
+0.815
+78.6
+33.1
+2.059
+2.531
+1.638
+0.0112
+0.0018
+1.000
+2.270
+0.697
+0.0032
+10.20
+791
+0.941
+639.2
+22.1
+1.543
+2.527
+0.723
+0.0078
+0.0040
+1.063
+2.231
+0.641
+0.0352
+2.69
+675
+0.082
+479.7
+27.1
+1.637
+2.527
+0.625
+0.0086
+0.0020
+1.000
+2.270
+0.697
+0.0044
+2.60
+859
+0.071
+976.5
+28.1
+1.707
+2.527
+0.542
+0.0066
+0.0016
+1.292
+2.320
+0.700
+0.0023
+2.01
+958
+0.158
+1157.3
+28.2
+1.954
+2.528
+0.611
+0.0050
+0.0010
+1.027
+2.225
+0.662
+0.0005
+3.41
+720
+0.052
+886.8
+30.1
+1.790
+2.528
+0.899
+0.0066
+0.0016
+1.000
+2.270
+0.697
+0.0023
+5.59
+400
+0.203
+58.3
+34.1
+2.068
+2.234
+0.576
+0.0186
+0.0062
+1.314
+2.342
+0.776
+0.1310
+2.95
+1137
+0.202
+1233.2
+35.1
+2.070
+2.055
+0.414
+0.0130
+0.0040
+1.027
+2.225
+0.662
+0.0352
+3.80
+1195
+0.247
+1277.8
+37.1
+2.078
+1.611
+0.887
+0.0042
+0.0032
+1.000
+2.270
+0.697
+0.0180
+4.49
+558
+0.192
+337.1
+37.2
+2.079
+1.547
+0.772
+0.0032
+0.0018
+1.314
+2.342
+0.776
+0.0032
+3.78
+520
+0.005
+581.4
+37.3
+2.078
+1.423
+0.810
+0.0046
+0.0018
+1.314
+2.342
+0.776
+0.0032
+4.09
+517
+0.034
+529.5
+U. Buck et al. / Forensic Science International 206 (2011) 22–28
+25
+
+
+--- PAGE 5 ---
+
+3.2. Case 2
+Based on the analysed well-shaped bloodstains, the groups of
+centres of origin were determined on two additional locations in
+the apartment, in the kitchen and in the dinette above a chair.
+Group 1 in the kitchen consisted of three centres, marked with
+dark and light blue colour (Fig. 9). The centres were sited in the
+middle of the kitchen at a height of between 160 and 173 cm, the
+dark-blue centres were closer to the fridge and slightly higher than
+the light blue centre.
+Group 2 in the dinette consisted of one centre (green colour),
+which was sited 77 cm above the seat of a chair next to the wall
+(Fig. 10). This indicated that the victim sat on the chair whilst being
+beaten. In fact, because of the low number of blood spatters, and
+their small size, it was presumed that the victim suffered a blow to
+the head at an early stage of the attack.
+4. Discussion
+The approximate areas of origin are mainly used to deduce
+whether the victim was standing, sitting or lying down when the
+bloodstain pattern was created. In this case, the height of the blood
+source locations is of great importance. Using only the classical
+stringing method, in cases of longer distance between the blood
+source location and the bloodstain, a difference in the vertical
+component between the spatial direction of impact and the
+expected centre of origin arises because of the curved trajectory of
+the drop. A principal task of ballistic analysis of the bloodstain
+pattern in these cases is to conﬁrm if these bloodstains are also
+from the determined blood source locations. Therefore, the
+ballistic determination of the curvature of the ﬂight paths of the
+blood drops is of great importance.
+[(Fig._6)TD$FIG]
+Fig. 6. In the aerial view of the scene, different coloured spheres represent the
+convergence areas of the calculated impact directions of the blood spatters (case 1).
+These areas of trajectory intersections are the centres of origin of corresponding
+bloodstains. Two groups of centres of origin were determined based on up to 150
+analysed blood spatters. Both groups were sited above the pillow. The group 1 was
+sited between 20 and 25 cm above the mattress, approximately in the middle of the
+pillow. This group consisted of three centres, marked by green, yellow and blue
+colours. The green and yellow centres were very close together, the blue one was
+slightly higher and closer to the wall. The group 2 consisted of two centres, marked
+in red and sea-green colour, which were sited between 25 and 35 cm above the
+mattress on the right-side of the bed, closer to the wall than the group 1.
+[(Fig._7)TD$FIG]
+Fig. 7. All analysed bloodstains were located at four or possibly ﬁve centres of origin
+(case 1). The 3D model shows the ballistic determined trajectories and the centres
+of origin.
+[(Fig._8)TD$FIG]
+Fig. 8. On account of the overlapping bloodstains (yellow arrows) the group 1 of the centres of origin in the middle of the pillow appeared before the group 2 on the right-side
+of the pillow appeared (case 1).
+U. Buck et al. / Forensic Science International 206 (2011) 22–28
+26
+
+
+--- PAGE 6 ---
+
+This study describes a three-dimensional method of bloodstain
+pattern analysis including the determination of the trajectory of all
+blood spatters, which occur at a far distance from the centre of
+origin. Furthermore, in case 1, the determination of the sequence of
+events, in which order the bloodstains of the different groups of
+areas of origin arose, are ascertained by the overlapping of the
+bloodstains.
+The advantages of the three-dimensional crime scene docu-
+mentation using photogrammetry and laser scanning include the
+short preparation time on site and the high accuracy and resolution
+for even the smallest bloodstains. These efﬁcient methods are
+performed
+without contact,
+and
+if
+necessary
+or
+requested,
+everything that is recorded can be measured and drawn in a
+CAD program.
+In our setup, the ﬁrst photogrammetric images are taken in the
+early stages of the investigation, before the deceased is trans-
+ported, in order to document the bloodstains before they are
+possibly destroyed during the securing of evidence. The complete
+crime scene is documented in 3D, after the securing of evidence.
+Using the photogrammetry and 3D scanning methods, blood-
+stains on vertical, horizontal and oblique surfaces, as well as on
+complex shaped objects, can be analysed.
+To reduce the random measurement error [13–15], elliptical
+shaped bloodstains with low impact angles are analysed and the
+shapes of the ellipses are ﬁrst drawn completely and then the
+length of the major and minor axes are automatically computed by
+the CAD software. Furthermore, the analysis of a large number of
+bloodstains is enabled using the computer-based method, which
+increases the accuracy of the determined origin of bloodstains and
+eliminates the random measurement error.
+The 3D documentation methods are easy to use and mobile. For
+photogrammetric analysis and creation of 3D models, however, a
+[(Fig._9)TD$FIG]
+Fig. 9. CAD drawing of the kitchen in a top view left and perspective view right (case 2). The bloodstains are drawn in red and the determined trajectories of the blood drops
+and the centres of origin of the bloodstains are drawn in dark and light blue colour. The yellow lines represent the determined trajectory of the bloodstains when they are
+misleadingly treated as straight line. The light-blue centre was sited in the middle of the kitchen at a height of about 160 cm and the dark-blue centres were sited closer to the
+fridge and between 165 and 173 cm. This indicates that the victim was struck at least twice on the head in a standing position in the kitchen.
+[(Fig._10)TD$FIG]
+Fig. 10. CAD drawing of the trajectories and the centre of origin of the group of bloodstains in the dinette in a top view left and side view right (case 2). The centre of origin was
+sited above a chair in the presumed position of the head of the victim, when sitting on this chair.
+U. Buck et al. / Forensic Science International 206 (2011) 22–28
+27
+
+
+--- PAGE 7 ---
+
+fair amount of experience is required. For data interpretation and
+the determination of the trajectory of blood drops, advanced
+knowledge in physics and ballistics is necessary.
+In the conventional stringing or virtual stringing methods, the
+height of the areas of origin has always been an inaccurate factor
+because the curvature of the trajectories of the blood drops is not
+taken into consideration.
+The trajectories of bloodstains, which deposit a short distance
+from the blood drop origin, can be assumed as straight lines. But,
+the results of our method showed that for bloodstains which
+deposit at farther distances from the centre of origin, the straight
+line is sited higher than the presumed centre of origin. In the case
+of bloodstains, which are located longer distance from the blood
+drop origin, the straight line was sited up to 2 m higher than the
+ballistically determined trajectory of the blood drop in the area of
+origin of the bloodstains. These results demonstrate that a ballistic
+determination of the trajectories is necessary.
+It should be expected that overall, this new method will deliver
+a more accurate picture of the number and position of the areas of
+origin of bloodstains, the vertical component especially should be
+determined more precisely than using conventional methods.
+The determined blood spatter directions and trajectories, as
+well as the areas of origin of the bloodstains, are rendered into the
+virtual true-to-scale 3D crime scene in order to present the results
+in a measurable manner.
+A general rule to determine which bloodstains should be
+analysed by ballistic calculation is given by the angle between the
+impact direction and the straight line (in ballistics sciences the so-
+called angle of fall). If this angle exceeds 108, ballistic analysis is
+recommended.
+In
+such
+cases,
+the
+difference
+between
+the
+ballistically determined origin of the blood droplet and origin as
+calculated by the straight line method is about 18% of the travelled
+distance.
+To perform such calculations requires a computer program for
+ballistic calculation of trajectories that correctly accounts for air
+drag as well as some knowledge on the part of the investigator
+regarding trajectory reconstitutions. However if a virtual true-to-
+scale 3D crime scene is available, it is not necessary for the
+investigator to physically visit the crime scene.
+5. Conclusions
+The results of the ballistic bloodstain pattern analyses gave
+clues about the areas of origin, the minimum number of blows, the
+positioning of the victim as well as the sequences of events. In both
+cases, relevant forensic conclusions regarding crime reconstruc-
+tion were enhanced by bloodstain pattern analysis based on 3D
+documentation and analysis and the ballistic determination of the
+trajectories.
+Acknowledgements
+The authors especially thank Gerhard Reichen and Andre´ Lu¨thi
+of the State Police Bern, for their exemplary support of this work
+and Lowri Jones for her linguistic support.
+References
+[1] S.H. James, P.E. Kish, T.P. Sutton, Principles of Bloodstain Pattern Analysis: Theory
+and Practice, CRC Taylor & Francis, Boca Raton, FL, 2005, pp. 226–234.
+[2] T. Bevel, R.M. Gardner, Bloodstain Pattern Analysis, CRC, Boca Raton, FL, 2002, pp.
+159–192.
+[3] S.H. James, Scientiﬁc and Legal Applications of Bloodstain Pattern Interpretation,
+CRC, Boca Ration, FL, 1999.
+[4] S.H. James, W.G. Eckert, Interpretation of Bloodstain Evidence at Crime Scenes,
+CRC, Boca Ration, FL, 1998.
+[5] A.L. Carter, The directional analysis of bloodstain patterns theory and experimen-
+tal validation, Can. Soc. Forensic Sci. J. 34 (2001) 173–189.
+[6] A.L. Carter, M. Illes, K. Maloney, et al., Further validation of the BackTrackTM
+computer programme for bloodstain pattern analysis—precision and accuracy,
+IABPA Newslett. (2005) 15–22. http://www.iabpa.org/newslett.htm.
+[7] A. Pace, A.L. Carter, C. Moore, B. Yamashita, Another treatment of three-dimen-
+sional bloodstain pattern analysis, IABPA Newslett. (2006) 4–11. http://www.iabpa.
+org/newslett.htm.
+[8] M.J. Thali, K. Yen, W. Schweitzer, et al., Virtopsy, a new imaging horizon in forensic
+pathology: virtual autopsy by postmortem multislice computed tomography
+(MSCT) and magnetic resonance imaging (MRI)—a feasibility study, J. Forensic
+Sci. 48 (2003) 386–403.
+[9] M.J Thali, M. Braun, R. Dirnhofer, Optical 3D surface digitizing in forensic medi-
+cine: 3D documentation of skin and bone injuries, Forensic Sci. Int. 137 (2003)
+203–208.
+[10] P.A. Pizzola, S. Roth, P.R. De Forest, Blood droplet dynamics-I, J. Forensic Sci. 31 (1)
+(1986) 36–49.
+[11] M.A. Raymond, E.R. Smith, J. Liesegang, Oscillating blood droplets—implications
+for crime scene reconstruction, Sci. Just. 36 (1996) 161–171.
+[12] C. Moore, Three-dimensional models for bloodstain pattern analysis, J. Forensic
+Identiﬁcation 52 (2002) 183–203.
+[13] C. Willis, A.K. Piranian, J.R. Donaggio, R.J. Barnett, W.F. Rowe, Errors in the
+estimation of the distance of fall and angles of impact blood drops, Forensic
+Sci. Int. 123 (2001) 1–4.
+[14] A. Pace, The relationship between errors in ellipse ﬁtting and the increasing
+degree of error in angle of impact calculations, IABPA Newslett. (2005) 12–14,
+http://www.iabpa.org/newslett.htm.
+[15] W.F. Rowe, Errors in the determination of the point of origin of bloodstains,
+Forensic Sci. Int. 161 (2006) 47–51.
+[16] K.G. Sellier, B.P. Kneubuehl, Wound Ballistics and the Scientiﬁc Background,
+Elsevier, Netherlands, 1994, pp. 111–113.
+U. Buck et al. / Forensic Science International 206 (2011) 22–28
+28

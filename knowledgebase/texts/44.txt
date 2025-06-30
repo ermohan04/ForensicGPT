@@ -1,0 +1,2141 @@
+
+
+--- PAGE 1 ---
+
+
+
+--- PAGE 2 ---
+
+Bloodstain Pattern
+Analysis Second Edition
+With an Introduction to
+Crime Scene Reconstruction
+
+
+--- PAGE 3 ---
+
+CRC SERIES IN
+PRACTICAL ASPECTS OF CRIMINAL
+AND FORENSIC INVESTIGATIONS
+VERNON J. GEBERTH, BBA, MPS, FBINA Series Editor
+Practical  Homicide Investigation: Tactics, Procedures, and Forensic Techniques, Third Edition
+Vernon J. Geberth
+The Counterterrorism Handbook: Tactics, Procedures, and Techniques, Second Edition
+Frank Bolz, Jr.,  Kenneth J. Dudonis, and David P. Schulz
+Forensic Pathology, Second Edition
+Dominick J. Di Maio and Vincent J. M. Di Maio
+Interpretation of Bloodstain Evidence at Crime Scenes, Second Edition
+William G. Eckert and Stuart H. James
+Tire Imprint Evidence
+Peter McDonald
+Practical Drug Enforcement: Procedures and Administration, Second Edition
+Michael D. Lyman
+Practical Aspects of Rape Investigation: A Multidisciplinary Approach, Third Edition
+Robert R. Hazelwood and Ann Wolbert Burgess
+The Sexual Exploitation of Children: A Practical Guide to Assessment, Investigation,
+and Intervention, Second Edition
+Seth L. Goldstein
+Gunshot Wounds: Practical Aspects of Firearms, Ballistics, and Forensic Techniques,
+Second Edition
+Vincent J. M. Di Maio
+Friction Ridge Skin: Comparison and Identification of Fingerprints
+James F. Cowger
+Footwear Impression Evidence, Second Edition
+William J. Bodziak
+Principles of Kinesic Interview and Interrogation
+Stan Walters
+Practical Fire and Arson Investigation, Second Edition
+David R. Redsicker and John J. O’Connor
+The Practical Methodology of Forensic Photography, Second Edition
+David R. Redsicker
+Practical Aspects of Interview and Interrogation, Second Edition
+David E. Zulawski and Douglas E. Wicklander
+Investigating Computer Crime
+Franklin Clark and Ken Diliberto
+Practical Homicide Investigation Checklist and Field Guide
+Vernon J. Geberth
+Bloodstain Pattern Analysis: With an Introduction to Crime Scene Reconstruction,
+Second Edition
+Tom Bevel and Ross M. Gardner
+Practical Aspects of Munchausen by Proxy and Munchausen Syndrome Investigation
+Kathryn Artingstall
+Quantitative-Qualitative Friction Ridge Analysis: An Introduction to Basic and Advanced
+Ridgeology
+David R. Ashbaugh
+
+
+--- PAGE 4 ---
+
+CRC PR ESS
+Boca Raton   London   New York   Washington, D.C.
+Bloodstain Pattern
+Analysis Second Edition
+With an Introduction to
+Crime Scene Reconstruction
+Tom Bevel
+Ross M. Gardner
+
+
+--- PAGE 5 ---
+
+This book contains information obtained from authentic and highly regarded sources. Reprinted material
+is quoted with permission, and sources are indicated. A wide variety of references are listed. Reasonable
+efforts have been made to publish reliable data and information, but the authors and the publisher cannot
+assume responsibility for the validity of all materials or for the consequences of their use.
+Neither this book nor any part may be reproduced or transmitted in any form or by any means, electronic
+or mechanical, including photocopying, microﬁlming, and recording, or by any information storage or
+retrieval system, without prior permission in writing from the publisher.
+All rights reserved. Authorization to photocopy items for internal or personal use, or the personal or
+internal use of speciﬁc clients, may be granted by CRC Press LLC, provided that $1.50 per page
+photocopied is paid directly to Copyright Clearance Center, 222 Rosewood Drive, Danvers, MA 01923
+USA. The fee code for users of the Transactional Reporting Service is ISBN 0-8493-0950-
+6/02/$0.00+$1.50. The fee is subject to change without notice. For organizations that have been granted
+a photocopy license by the CCC, a separate system of payment has been arranged.
+The consent of CRC Press LLC does not extend to copying for general distribution, for promotion, for
+creating new works, or for resale. Speciﬁc permission must be obtained in writing from CRC Press LLC
+for such copying.
+Direct all inquiries to CRC Press LLC, 2000 N.W. Corporate Blvd., Boca Raton, Florida 33431. 
+Trademark Notice: Product or corporate names may be trademarks or registered trademarks, and are
+used only for identiﬁcation and explanation, without intent to infringe.
+Visit the CRC Press Web site at www.crcpress.com
+© 2002 by CRC Press LLC 
+No claim to original U.S. Government works
+International Standard Book Number 0-8493-0950-6
+Library of Congress Card Number 2001035882
+Printed in the United States of America  1  2  3  4  5  6  7  8  9  0
+Printed on acid-free paper
+Library of Congress Cataloging-in-Publication Data
+Bevel, Tom
+Bloodstain pattern analysis : with an introduction to crime scene reconstruction / Tom
+Bevel, Ross M. Gardner.--2nd ed.
+p.   cm. -- (CRC series in practical aspects of criminal and forensic investigations)
+Includes bibliographical references and index.
+ISBN 0-8493-0950-6 (alk. paper)
+1. Bloodstains. 2. Forensic hematology. 3. Crime scene searches. I. Gardner, Ross M.
+II. Title. III. Series.
+HV8077.5.B56 2001
+363.25¢62--dc21
+2001035882
+
+
+--- PAGE 6 ---
+
+v
+Contents
+Foreword
+xi
+Preface
+xv
+Editor’s Note
+xix
+Acknowledgments
+xxi
+The Authors
+xxv
+1
+Bloodstain Pattern Analysis: Its Function 
+and a Historical Perspective
+1
+The Function of Bloodstain Pattern Analysis
+1
+The Relationship of Bloodstain Pattern Analysis 
+to Crime Scene Reconstruction
+2
+Historical Perspective of Bloodstain Pattern Evidence
+4
+Early Scientiﬁc References
+6
+Modern Works in Bloodstain Pattern Analysis
+15
+Summary
+17
+References
+17
+2
+Crime Scene Analysis and Reconstruction
+21
+Correlating Crime Scene Analysis to Behavioral Analysis
+23
+Limitations in the Reconstruction of Crime
+26
+Application of the Scientiﬁc Method in the 
+Reconstruction Process
+28
+A Conceptual Model for Analysis
+33
+Collection and the Generalist Attitude
+34
+Evaluation
+34
+Assessment
+36
+Integration
+42
+Event Analysis: A Process for Crime Scene Reconstruction
+45
+Event Flow Charting: Demonstrating the Result
+50
+The Role of Logic in Analysis
+59
+Expectations and Predictions
+59
+
+
+--- PAGE 7 ---
+
+vi
+Bloodstain Pattern Analysis
+Impact of Dynamic Events on Reconstruction
+60
+Deductive vs. Inductive Reasoning
+61
+Informal Fallacies Encountered in Analysis
+62
+Putting the Pieces Together
+64
+References
+65
+3
+Terminology
+69
+Referring to the Discipline
+70
+General Terms Relating to Bloodstain Pattern Analysis
+71
+Grouping Stains
+71
+Angle of Impact
+71
+Arterial Gushing and Spurts
+73
+Atomized Blood/Misting
+74
+Spatter
+75
+Clot
+77
+Capillary Action
+78
+Cast-Off Stains
+80
+Directionality
+81
+Directional Angle
+82
+Drawback/Blowback Effect
+82
+Drip Patterns
+84
+Expiratory Blood
+85
+Fly Spots
+87
+Flight Path
+87
+Impact Site
+88
+Origin/Point of Origin/Area of Origin
+89
+Parent Stain
+89
+Projected Blood
+90
+Ricochet Stain
+91
+Satellite Spatter
+91
+Shadowing/Ghosting/Void
+91
+Skeletonized Stain/Skeletonization
+93
+Spines
+94
+Splash
+95
+Passive Flow
+97
+Pattern Transfer
+97
+Saturation Stain
+100
+Swipe
+102
+Wipe
+102
+Velocity Impact Patterns
+104
+Low-Velocity Stains
+104
+
+
+--- PAGE 8 ---
+
+vii
+Medium-Velocity Impact Spatter
+105
+High-Velocity Impact Spatter
+105
+Summary
+106
+References
+106
+4
+Understanding the Medium of Blood
+107
+General Properties of Blood
+107
+Blood Make-Up
+108
+The Body’s Response to Breaching of the Circulatory System
+109
+Circulatory System Considerations
+111
+Reaction of Liquid Blood to Force
+111
+Droplet Dynamics in Flight
+112
+Droplet Dynamics on Impact
+120
+Contact/Collapse
+121
+Displacement
+122
+Dispersion
+128
+Retraction
+129
+Liquid-to-Liquid Impacts
+131
+Stain Shape and Impact Angle Relationship
+133
+Summary
+135
+References
+135
+5
+Determining Motion and Directionality
+139
+General Sequence of Events
+139
+Droplet Directionality
+140
+Recognizing Blood Trail Motion
+147
+Determining Motion from Wipes and Swipes
+149
+Repetitive Pattern Transfers
+155
+Flows
+157
+Summary
+157
+Reference
+158
+6
+Determining the Point of Convergence 
+and the Point of Origin
+159
+Determining Point of Convergence from Overhead
+159
+Determining Impact Angles
+163
+Stain Measurement
+166
+Determining Point of Origin Using Both Side 
+and Overhead Views
+176
+Graphing Points of Origin 
+179
+
+
+--- PAGE 9 ---
+
+viii
+Bloodstain Pattern Analysis
+Deﬁning Point of Origin with the Tangent Function
+180
+Limitations in Point of Origin Evaluations
+182
+Three-Dimensional Evaluations of Point of Origin
+184
+Stringing Scenes
+184
+Forensic Software Applications
+186
+Automation Efﬁciency or Precision 
+— An Important Distinction
+190
+Summary
+191
+References
+191
+7
+Evaluating Impact Spatter Bloodstains
+193
+Methods of Description
+193
+Understanding the Concept of Preponderant Stain Size
+198
+Distinguishing Spatter from Contact Stains 
+201
+Impact Droplet Size
+204
+Pattern Conﬁguration and Dispersion in Impacts
+206
+Spatter Resulting from Gunshots
+211
+Gunshot Spatter — Forward Spatter and Back Spatter
+211
+Size Ranges of Gunshot Spatter
+213
+Kinetic Energy, Wound Cavitation, and the Creation 
+of Gunshot Spatter
+215
+Gunshot Pattern Shapes and Dispersion
+216
+Expiratory Blood
+219
+Fly Spots
+221
+Summary
+222
+References
+223
+8
+Characteristic Blood Patterns That Aid 
+in Analysis
+225
+Cast-Off Stains
+225
+Pattern Transfers
+230
+Projected Blood
+237
+Flow Patterns
+239
+Voids and Ghosting Patterns
+243
+Pools and Standing Blood
+244
+Blood Dripping into Blood
+251
+Patterns on Clothing and Fabric
+253
+Summary
+255
+References
+257
+
+
+--- PAGE 10 ---
+
+ix
+9
+Documenting Bloodstains
+259
+The Function of Documentation
+259
+Collection
+260
+Detection of Blood
+264
+Presumptive Tests
+264
+Enhancement Techniques
+265
+Bloodstain Pattern Photography 
+269
+Scene and Pattern Sketches
+283
+Written Reports
+286
+Summary
+294
+References
+295
+10
+Documenting the Reconstruction of a Crime
+297
+The Reconstruction Report
+297
+Event Analysis in Outline Format
+299
+Statement Comparison to Event Analysis
+302
+Event Analysis in Narrative Format
+303
+Guidelines for Maintaining Objectivity 
+during Case-Speciﬁc Experiments
+314
+Re-creating Human Anatomy
+315
+Re-creating Event Particulars
+315
+Pitfalls to Re-creation/Reconstruction Attempts
+316
+Case Examples
+316
+Case Experimentation Example #1
+316
+Case Experimentation Example #2
+319
+Summary
+321
+Reference
+321
+11
+Automation Applications in Bloodstain 
+Pattern Analysis and Crime Scene 
+Reconstruction
+323
+Automation Usage Considerations
+323
+Types of Applications
+324
+Tutorial Applications
+324
+Simulation and Computer-Aided Analysis Applications
+325
+Illustration Applications
+328
+Court Acceptance
+335
+Building Demonstrative Presentations 
+Using Computer Resources
+337
+Summary
+344
+
+
+--- PAGE 11 ---
+
+x
+Bloodstain Pattern Analysis
+References
+346
+12
+Presenting Evidence at Trial
+349
+General Concerns
+349
+Maintaining Objectivity
+350
+Settling in and Establishing a First Impression
+351
+Understanding Cross-Examination
+353
+Using Demonstrative Aids in Court
+355
+Summary
+358
+References
+359
+13
+Dealing with the Risk of Bloodborne 
+Pathogens
+361
+Bloodborne Diseases
+361
+Crime Scene Considerations
+362
+Dealing with Accidental Exposures
+364
+Packaging Biohazard Evidence
+365
+Exposure Risks in Training and Experimentation
+365
+Other Sources of Information on Managing Bloodborne 
+Pathogen Risks
+366
+Summary
+366
+References
+367
+Appendix A:
+Weight/Measure Conversion Table
+369
+Appendix B:
+Trigonometric Functions and 
+Their Application in Bloodstain 
+Pattern Analysis
+371
+Accuracy, Precision, and Signiﬁcant Digits
+375
+References
+377
+Appendix C:
+Stop-Motion Photography Techniques
+379
+Reference
+380
+Index
+383
+
+
+--- PAGE 12 ---
+
+xi
+Foreword
+Bloodstain Pattern Analysis: With an Introduction to Crime Scene Reconstruc-
+tion, Second Edition, is a very clearly and concisely written text. In fact, it is
+the most complete and comprehensive handbook to date from the perspective
+of the investigator on the subject of bloodstain spatter analysis. 
+The authors have provided the reader with an articulate and practical
+guide to the interpretation of bloodstain patterns and crime scene analysis
+reconstruction. This second edition text has become the basis for stan-
+dardization of blood spatter analysis. Bloodstain Pattern Analysis: With an
+Introduction to Crime Scene Reconstruction has heightened the need for
+universal rules that deﬁne this discipline by stressing the underlying sci-
+entiﬁc basis and how best to objectively apply this knowledge to cases in
+the ﬁeld.
+The text provides speciﬁc details on crime scene analysis and reconstruc-
+tion in explaining the scientiﬁc methodology involved in the process. The
+authors provide an excellent historical perspective to acquaint the reader with
+the signiﬁcant chronology of the application of this technique. The authors
+also provide excellent information on distinguishing crime scene analysis
+from behavioral analysis and discuss the considerations involved in the recon-
+struction of the crime. There is an entire chapter dedicated to the important
+subject of proper terminology to be utilized in these analyses. Bloodstain
+Pattern Analysis explains the complex mechanics of blood spatter analysis
+with chapters that address the dynamics of reconstruction, such as determin-
+ing motion and directionality, convergence and the point of origin, evaluating
+impact spatter bloodstains, the characteristic patterns of blood which aid in
+analysis and the proper documentation of blood stains and the reconstruc-
+tion of a crime. The authors have included two chapters on software appli-
+cations and demonstrative evidence for court presentation. Most signiﬁcant
+in the Second Edition is the addition of over 100 photographs, which graph-
+ically illustrate the dynamics of bloodstain patterns, practical applications,
+case histories and excellent appendices.
+The authors bring over 50 years of practical experience to this text. Tom
+Bevel, my friend and colleague for many years, is a retired police Captain
+from Oklahoma City, Oklahoma. Bevel is the owner of TBI, a forensic edu-
+
+
+--- PAGE 13 ---
+
+xii
+Bloodstain Pattern Analysis
+cation and consulting company. He is also an associate professor in the
+Masters of Forensic Science program at the University of Central Oklahoma.
+Captain Bevel (Ret.) holds a Master’s Degree in Criminal Justice and has
+extensive training in the area of criminal investigation both in the United
+States and Europe. Bevel has numerous professional afﬁliations and has acted
+as a police consultant in over 41 different states and 8 foreign countries. He
+has personally participated in over 3000 criminal investigations in which
+bloodstain spatter evidence was the issue and has testiﬁed in numerous trials
+as an expert witness. 
+Ross Gardner served for The United States Army Criminal Investigation
+Command (USACIDC) for over 24 years as a felony criminal investigator
+and is now the Chief of Police for a small suburban Atlanta Police Depart-
+ment. He holds a Master’s Degree in Computer and Information Resource
+Management and has extensive training in the area of criminal investigation
+through the United States Military. He served as an adjunct professor for
+Central Texas College in the Police Science program. He is also certiﬁed as a
+Senior Crime Scene Analyst with the International Association of Identiﬁca-
+tion and has published as a recognized expert in the ﬁeld of bloodstain
+pattern analysis. Special Agent (Ret.) Gardner, who is a consultant in crime
+scene analysis, bloodstain pattern analysis, and crime scene investigation also
+has numerous professional afﬁliations. Gardner has qualiﬁed as an expert in
+bloodstain pattern analysis and crime scene reconstruction in both state and
+federal courts.
+In my textbook Practical Homicide Investigation: Tactics, Procedures, and
+Forensic Techniques, Third Edition, I point out that, “Solving homicides, espe-
+cially those without witnesses, is extremely more difﬁcult to solve because
+your main witness, the deceased, is dead. One must develop the ability to
+‘absorb’ the crime scene, and be able to read the uncollectible nuances of the
+event.” The interpretation and analysis of bloodstain patterns within the
+crime scene oftentimes provides the investigator with the critical information
+to reconstruct the crime. Used properly, bloodstain pattern analysis can help
+establish speciﬁc events associated with the crime.
+I personally believe that without practical scene experience there is a
+deﬁciency in crime scene reconstruction. Seasoned practice necessitates
+that the practitioner have the ability to “absorb” the crime scene, and be
+able to read the uncollectible nuances of the event. This is what we refer
+to as “scene experience” as opposed to strict “laboratory” mentality. Tom
+Bevel and Ross Gardner both have this “scene experience” as well as the
+necessary knowledge to evaluate and apply the scientiﬁc methodology to
+the reconstruction process. 
+Bloodstain Pattern Analysis: With an Introduction to Crime Scene Recon-
+struction, Second Edition is a masterful blend of practical scene knowledge
+
+
+--- PAGE 14 ---
+
+xiii
+and the application of scientiﬁc methodology to the process of crime scene
+reconstruction. It is organized in such a manner to allow the reader quick
+and easy reference into speciﬁc areas of blood spatter. 
+Vernon J. Geberth, M.S., M.P.S.
+Series Editor
+
+
+--- PAGE 15 ---
+
+
+
+--- PAGE 16 ---
+
+xv
+Preface
+The goal of forensics and crime scene reconstruction is simply to seek the
+truth. The analyst has no other agenda. In pursuing this end, we revisit what
+we hope is a not-too-distant past and attempt to recreate the events that
+unfolded. The task is anything but simple and the tools employed are all of
+the forensic disciplines.
+Each area of forensics provides insight and a glimpse into this past. Each
+has its place in evaluating the aftermath of crime — the physical evidence.
+In the most classical sense, the majority of the forensic disciplines provide
+information as to the “who” of crime. Fingerprints, serology, and trace and
+ﬁber evidence allow the analyst to associate people or objects with a crime
+scene. Forensic pathology, on the other hand, has always been the primary
+link to the “what” of crime, providing insight to some of the events that
+occurred during the incident.
+Bloodstain pattern analysis is a discipline that has certainly reawakened
+to its role in modern forensics as another method of illuminating the “what”
+of crime. Used properly, it helps establish speciﬁc events associated with
+violent crimes. In this capacity, bloodstain pattern analysis acts as a critical
+bridge between classical forensics and crime scene reconstruction.
+Although certainly not a young discipline, bloodstain pattern analysis is
+just beginning to recognize some of the universal rules that deﬁne it. We still
+see aggressive discussions between analysts over what they can or cannot
+infer from a speciﬁc stain. More often than not these arguments consume
+our objectivity, leading us to a darker side of forensics, where subjective
+analysis reigns. To ﬁght this tendency, our continuing goal must be to under-
+stand the discipline, its underlying scientiﬁc basis, and how best to objectively
+apply this knowledge to cases in the ﬁeld. The investigator’s mission is to
+always illuminate the truth, not shroud it in shadows.
+The authors of this book come from two distinctly different backgrounds,
+although both have a high level of experience in “on scene” crime scene
+evaluation: one is a career civilian law enforcement ofﬁcer, and the other is
+a retired Criminal Investigator for the U.S. Army. Both are nationally and
+internationally respected in their ﬁelds. Two very different roads led them to
+the same destination. Interestingly enough, those roads crossed outside the
+
+
+--- PAGE 17 ---
+
+xvi
+Bloodstain Pattern Analysis
+city of London, at the Metropolitan Police Detective Training School. There
+both authors, although several years apart, attended the Scenes of Crime
+Ofﬁcer (SOCO) course.
+The English approach to crime scenes, at the very least, is one of the
+most methodical in the world. The SOCO course teaches students to under-
+stand and incorporate all forensic evidence in the evaluation of a crime. It
+places responsibility for understanding the interrelationship of that evidence
+on none other than a generalist, the crime scene investigator.
+Perhaps then it is the SOCO course that serves as the wellspring of the
+authors’ shared passion and belief: conduct crime scene evaluations using a
+holistic approach. Inherent in this thought is that case resolution is critically
+dependent on proper crime scene analysis. However, case resolution is not
+just a matter of proving someone guilty. The investigator seeks the truth, no
+matter what it may be. This demands a consideration of all evidence available
+and the correlation of such evidence in an attempt to identify reasons for
+contradictory results when they happen to occur.
+In the criminal justice system it is not uncommon to encounter a lawyer
+who adamantly believes, no matter what the nature of the testimony, that
+the investigator established in his or her own mind the innocence or guilt of
+a subject before completing the crime scene evaluation. It appears incom-
+prehensible to counsel that the investigator can take the often subjective
+information reported and conduct an objective investigation. Such a reaction
+should not surprise us, because the idea of objectivity is relatively foreign to
+trial law. No matter what the underlying truth, lawyers (both the prosecution
+and defense) highlight the information that best serves their positions and
+attempt to diminish that which works against them.
+The crime scene analyst, however, can ill afford to pursue his or her end
+with the same mindset. Choosing what evidence one will or will not consider
+in the analysis is heresy. Unfortunately, that trap is far too easy to fall into.
+Within the scene lies the evidence, which, if properly analyzed, provides
+everyone with an ability to deﬁne speciﬁc facts and certainly infer others.
+Based on the totality of this information, it may well be possible to determine
+the most probable events surrounding the situation. Even if one is unable to
+deﬁne the overall event, proper analysis still allows for the elimination of
+certain events, which alone adds clarity.
+No single forensic discipline has the potential to provide as much clarity
+regarding the occurrences at a crime scene as does bloodstain pattern analysis.
+That cannot, however, lead to an expectation that the bloodstain evidence
+will stand alone. In the right hands, however, bloodstain pattern analysis is
+an extremely effective tool for deﬁning the truth.
+Bloodstain pattern analysis is not for the casual investigator, who intends
+only to graze the surface, ﬁnd a quick answer, and move on. The bloodstain
+
+
+--- PAGE 18 ---
+
+xvii
+pattern analyst is truly one who reconstructs crime scenes. As such, he or
+she must understand all the forensic disciplines. The analyst must be able to
+objectively apply each category of evidence to the situation, inferring as little
+as possible, but recognizing the whole. In this fashion, the evidence establishes
+a knowledge base from which the analyst reaches the “truth.”
+In part, the oath of ofﬁce for a U.S. Army Criminal Investigation Special
+Agent states: “I shall at all times seek diligently to discover the truth, deterred
+neither by fear nor prejudice…” We dedicate this book to the men and women,
+analysts and investigators alike, who recognize and understand the impor-
+tance of their roles as objective truth seekers.
+
+
+--- PAGE 19 ---
+
+
+
+--- PAGE 20 ---
+
+xix
+Editor’s Note
+This textbook is part of a series entitled “Practical Aspects of Criminal and
+Forensic Investigations.” This series was created by Vernon J. Geberth, New
+York City Police Department Lieutenant Commander (Ret.), who is an
+author, educator, and consultant on homicide and forensic investigations.
+This series has been designed to provide contemporary, comprehensive,
+and pragmatic information to the practitioner involved in criminal and
+forensic investigations by authors who are nationally recognized experts in
+their respective ﬁelds.
+
+
+--- PAGE 21 ---
+
+
+
+--- PAGE 22 ---
+
+xxi
+Acknowledgments
+In considering a project of this nature, it is rarely the efforts of the authors
+alone that ensure success. We would like to offer thanks and acknowledgment
+to the following individuals for their support and efforts:
+Rudi Jaehser of Frankfurt, Germany, for his untiring efforts in leading Ross
+through the bowels of the Frankfurt University library those many late eve-
+nings.
+Regina Dearborn, for her expert translations of many of the articles discussed
+in Chapter 2. Without her skill in German and her ability as a legal translator
+many of these articles would have remained unknown.
+Toby Wolson of Miami, Florida, for his support in providing excellent examples
+of the roadmapping concept.
+Sgt. Ron Wortham with the Oklahoma City Police Department, who designed
+and constructed equipment used in bloodstain pattern research, the results
+of which appear in this text.
+Jouni Kiviranta of the Helsinki Police, whose outstanding photography skills
+produced many of the enclosed ﬁgures.
+Dr. Martin Fackler of Florida, for his support and critical eye. Dr. Fackler readily
+shared his knowledge and research with us, providing important information
+for Chapter 7.
+Leonard Conn, formerly with the University of Oklahoma Police Department,
+who assisted in building equipment for both the stop-motion photography
+of blood impacting at various angles and the high-speed photographs of a
+bullet impact into a bloody target. Examples of both are included in this book.
+Vernon Geberth, who believed in our ability and helped bring the project to
+fruition. Without his support the book would still be a dream.
+Victoria Miller of Miller Forensic Computing, for her unselﬁsh loan of a full-
+function copy of No More Strings III© for a separate project. Her help and
+support ultimately led to the inclusion of many critical parts of Chapter 6.
+Dr. Alfred Carter of Carleton University, Ottawa, for remaining patient and calm
+in the face of Ross’ repetitive need for physics instruction and for his per-
+mission to use images from the FCO software Backtrack Images®, TRACKS®,
+and Backtrack/Win®. A special thanks goes out to Dr. Carter for no reason
+other than no other single scientist or member of academia has given as much
+to this discipline as he has.
+
+
+--- PAGE 23 ---
+
+xxii
+Bloodstain Pattern Analysis
+Dr. Kenneth Beard of Urbana-Champaign, Illinois, whose original research led
+to our 5-year search to better understand droplet impacts. Much of our
+understanding from Chapter 4 would not exist without Dr. Beard’s initial
+assistance.
+Don Coffey of the U.S. Army Criminal Investigation Command, for sharing his
+approach and knowledge on dealing with pattern transfers.
+John Anderson, Sheriff of El Paso County, Colorado, for his untiring support
+and friendship. Whenever the project took a detour or seemed off track, John
+would offer a word of encouragement or support. Finally, he reminded us
+that nothing good is ever gained without some level of risk.
+Dr. Ronald O. Gilcher, M.D., and Arlene Wilson with the Oklahoma Blood
+Institute, who over many years have provided much information about
+blood components and the processing involved in blood products provided
+for research.
+The members of the Metropolitan Police Forensic Crime Laboratory, London,
+England, who allowed us to use still images from their outstanding video
+“Blood in Slow Motion.”
+To all the students from the basic bloodstain pattern schools conducted by Tom
+and Ross. Their constant demand for more and more knowledge causes their
+teachers to continue to grow within this discipline. The same is true of all of
+the students of the Basic Crime Scene Reconstruction course. From each and
+every class we have gained knowledge and learned new techniques.
+Lt. Travis Witcher (Ret.) of the Oklahoma City Police Department, for securing
+funding from outside sources that allowed Tom to attend training under
+MacDonell and Bunker and at Hendon Police College in England. Lt. Witcher
+required at the end of this training that Tom start his own research and
+training to pass on the knowledge gained to OCPD ofﬁcers. We can all beneﬁt
+from the insight in his comment, “Teaching will force you to really learn the
+discipline.” His wisdom is more than evident and serves as a challenge for
+each of us.
+William Turner, formerly of the USACIDC, who sparked a ﬂame in Ross by
+sharing the knowledge he gained from a Corning Institute bloodstain pattern
+course. Bill probably has no idea of the events he set in motion, but we thank
+him anyway.
+The many instructors of the Scenes of Crime Ofﬁcer course, Metropolitan Police
+Detective Training School, Hendon, England. Their insight and knowledge
+are responsible in large part for forging Tom and Ross’ shared passion.
+Three units of the Oklahoma City Police Department and their respective mem-
+bers through the years: Technical Investigations, the Forensic Lab, and Homi-
+cide. All of them helped focus this discipline and develop Tom’s “scene sense.”
+Thank you for your never-ending support.
+Scott Hector, whose computer and late night efforts helped create many of the
+illustrations/ﬁgures used in the book.
+The following agencies and individuals, for supplying various photographs in
+support of the project: Henry Muse, E-Systems; Lt. William D. Gifford,
+Anchorage Police Department; Donald R. Schuessler, Department of Public
+
+
+--- PAGE 24 ---
+
+xxiii
+Safety, Eugene, Oregon; Tom J. Grifﬁn and Barie Goetz, Colorado Bureau of
+Investigation; John Graham, Arvada Police Department, Colorado; Helena
+Komuleinen, curator of the Finnish National Gallery; Lt. Johnny Kuhlman,
+Oklahoma City Police Department; the Edmond Police Department, Okla-
+homa; Doug Perkins, Oklahoma State Bureau of Investigation; Ray Clark,
+Oklahoma City Police Department; Heikke Majamma, National Bureau of
+Investigation, Helsinki, Finland; Peter Barnett; Dr. Daniel Davis; The Journal
+of Forensic Identiﬁcation; Mark Nelson, Springdale Police Department, Arkan-
+sas; T. Daniel Gilliam, Larimer County Sheriff’s Department, Fort Collins,
+Colorado; David Stiles, Texarkana Police Department, Arkansas; Louis Laurel,
+State of Texas Attorney General’s Ofﬁce; Don Blake and Bill May, Norman
+Police Department, Oklahoma; Mike McGuffey, Covington Police Depart-
+ment, Kentucky; Claire Dawnson-Brown, Travis County District Attorney’s
+Ofﬁce, Texas; Iris Dalley, OSBI, Oklahoma City, OK; Steve Chancellor,
+USACIDC; Sandra M. Roberts, Eugene Police Department, Oregon; David
+Stiles, Texarkana, Arkansas.
+The International Association of Bloodstain Pattern Analysts, the Rocky Moun-
+tain Association of Bloodstain Pattern Analysts, and the Association for
+Crime Scene Reconstruction, for establishing an environment in which we
+can all grow.
+There are many more individuals who may not be named here. All have
+contributed to this discipline in some fashion, which in turn assisted in the
+writing of this book. We salute them for their individual efforts, insight, and
+resulting research in support of bloodstain pattern analysis and crime scene
+reconstruction.
+
+
+--- PAGE 25 ---
+
+
+
+--- PAGE 26 ---
+
+xxv
+The Authors
+Captain Tom Bevel (Ret.) is the owner of TBI, a forensic education and
+consulting company. He is also an associate professor in the Masters of
+Forensic Science program at the University of Central Oklahoma, Edmond,
+Oklahoma. He retired after 27 years with the Oklahoma City Police Depart-
+ment. His last assignment was the Commander of the Homicide, Robbery,
+Missing Persons, and the Unsolved Homicide units.
+Captain Bevel holds a Master of Arts degree in Administration of Crim-
+inal Justice from the University of Central Oklahoma. He is a graduate of the
+Scenes of Crime Ofﬁcer course, Hendon, England; the Technical Investiga-
+tions course, Central U.S. Police Institute, Oklahoma State University at
+Oklahoma City; the FBI National Academy; and the Post-Graduate Medical-
+Legal course, London Medical College, London, England.
+Captain Bevel is a Fellow of the Association for Crime Scene Recon-
+struction (ACSR) and the American College of Forensic Analysts; a Distin-
+guished Member of the International Association of Bloodstain Pattern
+Analysts (IABPA); a Regional Representative for the International Associ-
+ation for Identiﬁcation (IAI); a member of the Editorial Board for the
+Journal of Forensic Identiﬁcation; and a member of the Southwestern Asso-
+ciation of Forensic Scientists (SWAFS) and the American Academy of
+Forensic Sciences (AAFS).
+Captain Bevel has served as a crime scene consultant in more than 41
+U.S. states and 8 foreign countries. He has been qualiﬁed as an expert in
+crime scene reconstruction and bloodstain pattern analysis in both state and
+federal courts.
+Special Agent Ross M. Gardner (Ret.) worked for the U.S. Army Criminal
+Investigation Command (USACIDC) as a felony criminal investigator for more
+than 20 years. He retired as a Command Sergeant Major and Special Agent in
+1999 after serving in U.S. Army law enforcement for more than 24 years and
+is now the Chief of Police of a small suburban Atlanta police department.
+Special Agent Gardner holds a Master’s degree in Computer and Infor-
+mation Systems Management from Webster University, a Bachelor’s degree
+in Criminal Justice from Wayland Baptist University, and an Associate’s
+
+
+--- PAGE 27 ---
+
+xxvi
+Bloodstain Pattern Analysis
+degree in Police Science from Central Texas College. He graduated ﬁrst in
+his class at the Scenes of Crime Ofﬁcer course, New Scotland Yard, Hendon,
+England. From 1988 to 1996 he served as an adjunct professor of the police
+science program at Central Texas College. He is a former President of the
+Rocky Mountain Association of Bloodstain Pattern Analysts (RMABPA) as
+well as the Association for Crime Scene Reconstruction (ACSR) and served
+as the Chairman of the Education Committee for both the RMABPA and the
+International Association of Bloodstain Pattern Analysts (IABPA).
+Special Agent Gardner is certiﬁed by the International Association for
+Identiﬁcation (IAI) as a Senior Crime Scene Analyst, a rating he has held for
+10 years. He is an active instructor and consultant throughout the United
+States in crime scene analysis, bloodstain pattern analysis, and crime scene
+investigation, teaching to a variety of groups, from police and investigative
+organizations to trial counsel professional development groups. Special Agent
+Gardner has qualiﬁed as an expert in bloodstain pattern analysis and crime
+scene reconstruction in both state and federal courts.
+
+
+--- PAGE 28 ---
+
+1
+Bloodstain Pattern Analysis: 
+Its Function and a 
+Historical Perspective
+And Cain quarreled with Abel his brother: and it came to pass, when they
+were in the ﬁeld, that Cain rose up against Abel his brother, and slew him.
+And the Lord said unto Cain, Where is Abel, thy brother? And he said,
+I know not: Am I my brother’s keeper?
+And the Lord said, What hast thou done? The voice of thy brother’s
+blood crieth unto me from the ground. And now art thou cursed from the
+earth, which hath opened her mouth to receive thy brother’s blood from
+thy hand. When thou tillest the ground, it shall not henceforth yield unto
+thee her strength; and a vagabond shalt thou be on the earth.1
+Genesis 4:10
+Reading these passages one might wonder, was God really unaware of what
+transpired between Cain and Abel? Was He then convinced of the crime only
+by the presence of Abel’s blood? This seems unlikely, given the nature of the
+Judeo-Christian God. Rather, it would appear that God was reminding Cain
+that no matter what Cain’s denial, the physical evidence of the deed spoke
+in as strong, if not a more convincing, voice. In these few short paragraphs,
+we ﬁnd the historical basis and very likely the ﬁrst usage of bloodstain pattern
+analysis in a judicial setting.
+The Function of Bloodstain Pattern Analysis
+What is the function of bloodstain pattern analysis? Like any forensic science
+or discipline, bloodstain pattern analysis seeks to deﬁne the facts surrounding
+some incident that is in question. The examination of the physical nature of
+1
+
+
+--- PAGE 29 ---
+
+2
+Bloodstain Pattern Analysis
+bloodstains provides information speciﬁc to the events that occurred during
+the incident.
+We often refer to what the analyst evaluates as the “static aftermath” of
+an event.2 Dispersion, shape characteristics, volume, pattern, the number of
+bloodstains, and their relationship to the surrounding scene are part of this
+aftermath. This information provides the investigator with a window to the
+past. Clarity is not a guarantee, for it is possible the information present in
+the bloodstains will fail to illuminate any of the issues in question. Often,
+however, the analyst ﬁnds direct and convincing information that makes the
+role of the fact ﬁnder much easier.
+The information we are likely to discover through an examination of the
+bloodstains includes:
+•
+The direction a given droplet was traveling at the time of impact
+•
+The angle of impact
+•
+The probable distance from the target from which the droplet origi-
+nated
+•
+The nature of the force involved in the bloodshed and the direction
+from which that force was applied
+•
+The nature of any object used in applying the force
+•
+The approximate number of blows struck during an incident
+•
+The relative position in the scene of the suspect, victim, or other
+related objects during the incident
+•
+Sequencing of multiple events associated with an incident
+•
+In some instances, which hand delivered the blows from a beating
+The Relationship of Bloodstain Pattern Analysis 
+to Crime Scene Reconstruction
+Crime scene reconstruction demands that we evaluate all physical and testi-
+monial evidence to derive some conclusion as to what occurred. As Geberth
+reminds us, for homicide investigations, case resolution hinges on “careful
+and intelligent [italics added] examination of the scene.”3 Much as does the
+reporter, the investigator attempts to deﬁne the who, what, when, where,
+how, and why of a crime to assist in reconstructing the events. There is an
+unfortunate problem associated with this process: there is no standard by
+which we can test our ultimate conclusions. An archaeologist once made an
+analogy about this difﬁculty. Discussing a dig and the conclusions drawn
+from it, he said, “It’s something like putting together a jigsaw puzzle without
+having access to the boxtop. You really don’t know what the picture is sup-
+posed to look like.”4 The investigator’s box top is not available either. Despite
+
+
+--- PAGE 30 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective
+3
+this limitation, crime scene analysis and crime scene reconstruction attempt
+to deﬁne the nature of actions that are so dynamic that even if we had a
+videotape of the incident, they might not be fully understood.
+In their most classic use, the majority of forensic disciplines provide the
+investigator with information regarding the “who” of the crime. Blood typ-
+ing, DNA evaluations, ﬁngerprint evidence, and hair examinations help us
+decide who was or was not present at the scene. In this concept of “who,” we
+also include areas such as forensic chemistry, biology, geology, and trace
+evidence examinations, because they help associate items to our player and
+to the scene. This, too, ultimately serves the function of deﬁning the “who”
+of the reconstruction.
+Our answers to “what,” the actions that occurred during the crime, are
+sought most often through the application of forensic pathology. As Dr.
+James Luke stated: “From the standpoint of forensic pathology, the two
+major parameters that form the basis of any case investigation are (1) iden-
+tiﬁcation and documentation of the postmortem ﬁndings present, and (2)
+interpretation of those ﬁndings in the context of the circumstances  [italics
+added] of death.” 5
+In the past two decades, bloodstain pattern analysis has reawakened to
+its role in documenting these circumstances. Bloodstain analysis brings to
+the investigation the ability to deﬁne those events that could or could not
+have occurred during the course of bloodshed. Once identiﬁed, these facts
+are considered in light of all other evidence as a means of corroborating or
+refuting statements, confessions, or investigative theories.
+Thus bloodstain pattern analysis mirrors in many ways the role of foren-
+sic pathology. Once again quoting Dr. Luke, “It is the responsibility of the
+forensic pathologist ﬁnally to construct a scaffolding of factual information
+against which witnesses’ and suspects’ statements can be evaluated.”6 Blood-
+stain evidence in this role (acting as a scaffolding or part of the lattice) cannot
+stand apart from other evidence.7 Reconstruction demands that we consider
+all evidence. Viewed from a holistic approach, all the evidence available
+should lead those who view it to a preferably similar conclusion.
+This concept of a generally agreed-upon conclusion should not be a
+foreign thought, particularly when considering bloodstain patterns. They
+are, after all, graphically oriented. For example, in describing a pattern
+transfer as “consistent with” something, any analyst should be able to point
+to some physical characteristic of the stain and then to the correlating item
+that created it. The analyst should then be able to create some generalized
+reproduction of the pattern using the item. If this is done, another analyst
+cannot simply ignore this information. Granted, we may discover a second-
+ary method of creation, but this simply adds a responsibility to discover
+which is the more likely event. If a stain is observable and reproducible, it
+
+
+--- PAGE 31 ---
+
+4
+Bloodstain Pattern Analysis
+is difﬁcult for two analysts to rationally argue their beliefs from mutually
+exclusive positions. When this occurs it is very likely the result of subjective
+analysis on the part of one or both. Unfortunately, subjective analysis is a
+fact of life. To help preclude subjectivity, the analyst should attempt to
+achieve several things.
+First, the analyst must understand all areas of forensic science and must
+have been directly exposed to crime scenes. Tom Grifﬁn of the Colorado
+Bureau of Investigation often remarks that analysts need a “scene sense.” This
+sense gives the analyst a more rounded perception, taking into consideration
+the many subtleties and interrelationships found at scenes. Evidence viewed
+from the conﬁnes of a white-walled laboratory is far too sterile. It leaves the
+viewer lacking a realistic perspective of crimes and crime scenes. It is this
+perspective that makes up “scene sense.” As the SOCO course at the Hendon
+Detective Training School teaches, we gain much from viewing evidence in
+situ. This is true not only from a case perspective, but also for the long-term
+development of the investigator.
+Do not construe the necessity for understanding these disciplines as
+meaning the analyst is an expert in all of them. Far from it — crime scene
+analysts are generalists. They have, much as does a manager, the knowledge
+to take the experience and expertise of the other team members and put them
+all together. This process is at the heart of crime scene reconstruction. As we
+will constantly remind the reader, it is not enough that the analyst can
+reconstruct the bloodstain evidence. A reconstruction that fails to consider
+all known evidence is no reconstruction at all.
+Second, analysts must understand their discipline. Bloodstain pattern
+analysis is far from being a static ﬁeld. Our understanding changes every day
+due to research and experimentation. As we base bloodstain pattern analysis
+on the application of physical laws to blood, there are certain universal rules
+we can apply. These rules are as true today as they were when ﬁrst observed.
+Understanding these universal applications, and then seeking those areas that
+require further study, should be the lifetime goal of every analyst.
+Historical Perspective of Bloodstain Pattern Evidence
+In seeking an understanding of bloodstain pattern analysis, it is important
+to look at its evolution. In his 1992 book, Blood Evidence, Craig Lewis wrote:
+“The science of bloodstain pattern analysis, a ﬁeld in which the only textbook
+in existence was written by MacDonell, was little known.”8 This viewpoint,
+although inaccurate, is not uncommon. Out of ignorance, authors, judges,
+and investigators continue to proclaim the discipline as something “new.”
+
+
+--- PAGE 32 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective
+5
+To those who spend time at scenes of violent crime, it seems unimagin-
+able to ignore the presence of blood or not to ask some simple questions as
+to its relationship to the crime. Bloodstain pattern analysis, as we will see, is
+anything but new. It is only in the last several years that we have discovered
+some of the more important historical documents relating to bloodstain
+pattern analysis. The existence of these documents alters the somewhat biased
+view held by our investigative predecessors.
+The mere presence of blood, excluding any formal analysis, has long
+been held as evidence of foul play. For example, in the development of early
+Germanic law, tribal code (private, as compared to state) was often created.
+One of the surviving documents of this nature is the Sachsenspeigel, com-
+piled as a record of Saxon custom. A knight named Ritter Repkow wrote
+the document during the period 1220–1235. Common Law II, 63, Article
+1-3 dealt in part with the raising of the “hue and cry” and the necessity of
+proving one’s innocence for acting against a criminal caught in the act. He
+who had acted was required to prove an incontestability of the criminal’s
+deed.9 Examples of this proof, although not quite beyond a reasonable doubt
+included “a criminal caught red handed.”10 The Sachsenspeigel, with its
+detailed illustrations, makes reference to the criminal having been caught
+with blood on his hand.
+The work of William Shakespeare, although not the typical reference
+material of the criminalist, is ﬁlled with references to blood and the preju-
+dicial nature with which its discovery is viewed. Shakespeare’s various works,
+written between 1582 and 1616, like those of any author, reﬂect the percep-
+tions of his time. For example, in Act II, Scene II of Macbeth, after stabbing
+King Duncan, Macbeth says:
+What hands are here! Ha! they pluck out mine eyes. Will all great Neptune’s
+ocean wash this blood Clean from my hand?11
+Although of little concern to modern bloodstain analysis, the Sach-
+senspeigel and Shakespeare’s plays do reﬂect the consideration of bloodstains
+as a basic issue, preceding the formal development of forensic science. They
+also reﬂect the prejudicial manner in which bloodstains are often viewed. An
+interesting artistic example of the prejudicial nature of bloodstains hangs in
+the Central Art Archives of Finland. The work is entitled Fratricide, by Akseli
+Gellen-Kallela (circa 1897). It shows a young man with a bloodied sword and
+clothing as his mother points to numerous stains on his clothing (Figure 1.1).
+Another author whose writings reﬂect man’s inquisitive nature with
+blood evidence is Sir Arthur Conan Doyle. In 1887 Doyle wrote A Study in
+Scarlet, introducing the world to his brilliant character Sherlock Holmes. In
+
+
+--- PAGE 33 ---
+
+6
+Bloodstain Pattern Analysis
+this story, the master of deduction concerns himself not only with discovering
+a reliable reagent test for blood, but also within the examination of “gouts
+and splashes of blood, which lay all around.”12 Again, we see artistic indica-
+tions that those concerned with the early investigation of crime considered
+the relationship of bloodstains to such crime.
+Early Scientiﬁc References
+Having considered several literary references, it seems appropriate to turn
+our attention to the scientiﬁc evaluation of bloodstain patterns. We intend
+to discuss some of the more critical and insightful research conducted over
+the last century; however, there are many references that may not be men-
+tioned or discussed in detail. The analyst should recognize this and consider
+seeking these historical references for greater enlightenment.
+Figure 1.1 Fratricide by Akseli Gellen-Kallela (1897), a painting owned by the
+Anteneum, the Antell Collection, and the Central Art Archives of Finland,
+photographed by Hannu Aaltonen. Beyond the issue of his bloody sword, the
+pattern transfer and blood spots on the young man’s garments speak his guilt to
+his mother. (Photo courtesy of National Art Archives, Helsinki, Finland.)
+
+
+--- PAGE 34 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective
+7
+In Germany and Austria, the universities at Kiel and Vienna appear to
+have been academic hotbeds of activity in bloodstain pattern analysis. Two
+signiﬁcant authors of the time were Eduard Piotrowski and Ernst Ziemke,
+followed soon after by Dr. Balthazard of France.
+The primary periodical in which many of the continental authors
+expressed themselves was the Vierteljahresschrift für gerichtliche und offentli-
+che Medizin (Quarter-Year Writings for Forensic Medicine), published in Ger-
+many. Although much of the concern between 1850 and 1940 dealt with the
+identiﬁcation of blood, scattered throughout these discussions are references
+to patterns observed at scenes.
+Before proceeding, it is important to note that in German the term
+Blutspritzen was widely used by various authors. This term is translated most
+often as “blood sprinkles.”13 There is, however, no absolute translation and
+the terms sprinkle, spatter, splash, or spurt are all acceptable usage.14 It
+becomes difﬁcult, then, to always understand the speciﬁc context intended
+by any author. A caution is in order when considering the translations
+offered here.
+In 1856, J. B. Lassaigne wrote “Neue Untersuchungen zur Erkennung
+von Blutﬂecken auf Eisen und Stahl” (New Examination to Differentiate
+Bloodspots from Iron and Steel). In the latter section of his paper, Las-
+saigne discusses marks that appeared similar to bloodstains but were
+caused by insects.15
+Although Lassaigne made it clear he believed “crushing” of dead ﬂies
+created such stains, he implied that he found such stains at scenes and
+associated their presence with the presence of ﬂies. Based on the description,
+these stains seem similar to what we might refer to today as “ﬂy specks.”
+Unfortunately, the translation and overall description of Lassaigne cannot
+satisfy the issue. Had Lassaigne found “ﬂy specks”? Was he then establishing
+a causal connection without considering the regurgitation of blood by ﬂies
+at bloodstained scenes? Whatever the case, Lassaigne’s observations establish
+his attention to detail and concern for differentiating such stains from
+normal bloodstains.
+In 1863, John and Theodric Beck wrote “Elements of Medical Jurispru-
+dence.” The article, as reviewed by Herbert MacDonell, discussed various
+cases in which bloodstain pattern analysis was utilized. Speciﬁc references
+were made to the “situation” of wounds, and as MacDonell noted, the authors
+also used the term “blood sprinkles.” The latter term tends to indicate a
+German inﬂuence, although the article originated in Philadelphia.16
+In 1880, Dr. Henry Faulds published “On Skin-Furrows of the Hand,”
+describing bloody ﬁngerprints and their likely use to identify the criminal.17
+In 1882, Professor Charles M. Tidy of London published “Legal Medi-
+cine,” in which he stated:
+
+
+--- PAGE 35 ---
+
+8
+Bloodstain Pattern Analysis
+Few things hold so important a place as, or involve investigations of a greater
+nicety, than determining the precise nature of various [blood] spots or stains
+found on fabrics, instruments…”18
+Perhaps one of the most impressive treatises written on the subject of
+bloodstain pattern analysis is Ueber Entstehung, Form, Richtung und Ausbre-
+itung der Blutspuren nach Hiebwunden des Kopfes (Concerning Origin, Shape,
+Direction, and Distribution of Bloodstains Following Blow Injuries to the Head),
+written by Eduard Piotrowski of the University of Vienna in 1895.
+Dr. Piotrowski’s application of science to his observations and evalua-
+tions of bloodstains is unequaled in the known writings of the time. He
+reconstructed his scenes to model those in question, controlled and adjusted
+various variables to determine their speciﬁc effect on his experiments, and
+used live rabbits as victims! Although the latter issue would not sit well with
+many modern groups, Dr. Piotrowski recognized the dynamic nature of what
+he was studying.
+Dr. Piotrowski considered this dynamic nature and used it as one of his
+variables. Calling the concept a “complicertern morde,” he used multiple meth-
+ods of attack against his study subjects (rabbits), thereby ensuring himself
+that he was considering all possibilities and their effects.19
+In considering this complicertern morde, Dr. Piotrowski properly recog-
+nized the bodily reactions of his subjects when struck. In the following
+example he observed small stains “similar to dots” that radiated out from the
+rabbit’s head, and he concluded:
+As far as their position is concerned, they spread out in a radiating pattern.
+The center of this outward radiating droplet [pattern] was the nostrils
+and mouth from which the accumulated blood was forced out… [expi-
+ratory blood].20
+Evident to Piotrowski was the correlation between the location of the
+stain’s tail and the direction the droplet was traveling at impact. He also
+recognized the causative factors of cast-off stains. He included in his evalu-
+ation of the ﬁrst the effect of a parabolic arc on the resulting stain. In the
+latter, he isolated not only the fact that blood ﬂung from a weapon would
+create a speciﬁc stain, but also correlated this with stain directionality, giving
+him an ability to deﬁne the direction in which the weapon was being moved.21
+In this work’s concluding statement, Dr. Piotrowski commented: “… the
+formation, shape, and distribution of bloodstains follow speciﬁc rules and
+that these, allowing for many modiﬁcations considering the nature of the
+case, are not to be underestimated and are of great value in the judgment.”22
+In 1901 Jürgen Thorwald, writing to describe the efforts of Professor A.
+Florence, stated:
+
+
+--- PAGE 36 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective
+9
+[Florence] had worked out a whole system for classifying bloodstains caused
+by dripping, splashing, spurting, or grazing contact. Round stains, or
+roundish jagged stains, for example, indicate that blood fell vertically;
+oblong stains result from impact at various angles.23
+Thorwald based his discussion on Florence’s article “Les Taches de Sang au
+Laboratoire de Medicine Legale de Lyon.” This article originally appeared in
+the Archives de Anthropolgie Criminelle in 1901.
+In 1904, Hans Gross wrote Handbuch für Untersuchungsrichter als System
+der Kriminalistik, in which he provided a detailed discussion of not only the
+evaluation of bloodstains, but also their collection and documentation.24
+Gross felt bloodstains were of critical importance in the investigation and
+thus devoted some 30 pages of the book to his considerations of blood and
+bloodstain patterns in the investigative process.
+In 1914, Haberda wrote “Eine besondere Form von Blutspritzen” (A
+Special Form of Bloodstain), discussing a speciﬁc pattern observed in airway
+injuries. He described such stains as droplets of various shapes that contained
+small air bubbles mixed with the blood. Beyond his consideration for this
+particular stain, Haberda offers many insightful lessons that are still appli-
+cable. Consider the following:
+The discovery of quantity, spread, form, and arrangement of bloodstains at
+a blood spattered crime scene can be of high importance. Evaluation
+requires many years of experience, usually learned little by little through
+practice, but never from books. Never the less, experts are often not careful
+enough when it comes to the necessary evaluation.
+Forced by precise questions of police, jurisdictional or governmental
+authorities, the experts sometimes answer too exclusively and draw the
+wrong conclusions about the bloodstains on a corpse or in the surrounding
+crime scene.25
+We would agree wholeheartedly that oftentimes analysts make conclusions
+that are far too exclusive.
+Haberda also made reference to bloody ﬁngerprints, clothing pattern
+impressions, and his particular stain — the “foamy bloodstain.” In describing
+the shapes of stains that might be encountered, Haberda wrote:
+Even though the distance of the fall, or the angle with which the blood hits
+the ground inﬂuences the shape of bloodstains, which are for example more
+or less round, bear paw like, club or bottle like…26
+How similar to modern descriptions are Haberda’s? Round and bear paw
+are still adjectives used to describe stains, whereas elliptical has replaced terms
+
+
+--- PAGE 37 ---
+
+10
+Bloodstain Pattern Analysis
+such as club or bottle-like. There can be little doubt Haberda was observing
+and classifying the very characteristics we still look for today.
+Ernest Ziemke is another author of interest. His work is found in
+Gerichtsärztliche und polizeiärtzliche Technik, a book edited by Theodor
+Lochte in 1914. Chapter 7, entitled “Die Untersuchung von Blutspuren” (The
+Examination of Blood Tracks), was written by Dr. Ziemke and includes 14
+pages of text with numerous pictures; it details various stains and the infor-
+mation represented by those stains. Ziemke dealt with a wide range of issues
+affecting bloodstain pattern analysis.
+In the chapter preamble, Dr. Ziemke states:
+Blood tracks [effects or evidence] are the most important tracks that stay
+behind after a crime is committed. Very often they alone have been of
+signiﬁcant enough importance for the conviction of the suspect, and have
+been the focal point in a trial with only circumstantial evidence. … Their
+evaluation should be efﬁcient, because during an investigation it may be
+hard to foresee what might be of importance later during a court trial.27
+In discussing the search for blood, for both serological and bloodstain
+pattern evidence, Dr. Ziemke offers that:
+The suspect, his clothes, all items he carries, or which are in his pockets
+should be carefully examined for bloodstains.28
+This is sound advice that some of the best bloodstain pattern analysts in
+the country continually stress and teach today. Far too often such minute
+traces are simply overlooked by investigators.
+In discussing pattern analysis and the conclusion drawn, Dr. Ziemke
+comments:
+Very important conclusions can be drawn from the arrangement, location,
+size, and form of bloodstains. … Based on our own experience and exper-
+iments we want to point out that it is necessary to be cautious and not draw
+conclusions from a single or very few blood tracks. This happens quite
+often. … Only when a large number of bloodstains are examined and com-
+pared, is it possible to exclude errors [in logic].29
+Dr. Ziemke provided detailed descriptions of various types of blood-
+stains. His terminology followed that of Piotrowski, but he added terms such
+as “thorn apple shaped” to refer to the bear claw stain. He acknowledged that
+secondary droplets (wave cast-off stains) in these instances would indicate
+the direction of motion of the blood droplet. He included ﬁgure examples
+of cast-off blood and drip patterns in which he described how to deﬁne
+
+
+--- PAGE 38 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective 11
+directionality. Figure 1.2 is an example of one of these illustrations. In closing
+his discussion of bloodstain patterns, he stated:
+When the examination of bloodstains is done efﬁciently and carefully, and
+if all possibilities are exhausted, shape, location, and the site of the blood-
+stain can give important details about the circumstances of the deed, even-
+tually even be of importance for the conviction of the suspect.30
+Dr. W. F. Hesselink, writing in 1931, considered various issues related
+to bloodstain analysis in his article “Blutspuren in der kriminalistischen
+Praxis.” For example, Hesselink considered the subsequent condition of the
+dried stains on clothing as a manner of differentiating whether such clothing
+had been worn or in use since the deposit of the stains. He also considered
+a method of dissolving the bloodstain to determine its relative age when
+compared to some other stain. Hesselink eventually concluded this tech-
+nique was inaccurate, indicating that the manner in which each droplet
+dried and coagulated would affect the results. He also considered whether
+a suspect would or would not be stained in a violent murder, making the
+following observations:
+The answer depends upon two main circumstances: one, if many blood-
+stains are found at the scene, and two, what instrument was used. Regard-
+ing this I did several experiments. When using the hammer, the liquid
+squirts in all four directions, and will also cover the suspect. If a stick is
+Figure 1.2 Illustrations from Dr. Ziemke’s chapter (see Ref. 27) on bloodstain
+patterns that relate to deﬁning directionality of the stain. The two ﬁgures
+(Ziemke’s Figures 42 and 43) demonstrate a drip effect from walking and running.
+Ziemke added the arrows to show the directionality evident in the stains.
+
+
+--- PAGE 39 ---
+
+12
+Bloodstain Pattern Analysis
+used, the blood squirts left and right, and the suspect might not show any
+blood marks. When a forward bent ﬁle is used, the blood squirts only to
+the front. The foreground [of an illustration] shows many spatter while
+only a few went towards the subject. While the suspect of a bloody murder,
+performed with a hammer, usually will be bloodstained, the suspect, in
+case of death caused by hitting with a bent ﬁle might have few or no
+bloodstains on the clothes.31
+Hesselink then described the use of a pattern transfer he discovered,
+stating:
+In one murder, I found a blood spot on the bedroom ﬂoor. First, it did not
+look too informative, but when I examined it later with a very strong light,
+I found remarkable prints of about 14 shoe nails.32
+Hesselink sought to deﬁne not only the nature of the stains found, but
+also the manner of the event creating the stains. He then correlated the
+information with other forensic evidence, resulting in a partial reconstruc-
+tion of his scene and the crime. His recognition of the importance of blood-
+stain pattern analysis for this purpose is reﬂected in his closing statement:
+Therefore, when examining blood, the blood investigation [to identify a
+substance as blood] itself is not as important as the clariﬁcation of sur-
+rounding circumstances.33
+In 1931, Henry T. F. Rhodes, a criminologist in England, member of the
+International Academy of Criminology, and an admirer of the great crimi-
+nologist Edmund Locard, published Some Persons Unknown. The book was
+a compilation of case studies with a history of the scientiﬁc development of
+criminology. Although Rhodes did not discuss the use of bloodstain patterns
+in and of itself, he discussed in depth the development of the identiﬁcation
+of blood in forensic investigation. He commented on the ever-increasing
+discrimination required by the court in terms of making identiﬁcation of
+blood. Rhodes stated this manifested itself in the change of accepted testi-
+mony from “it looks like blood,” to “yes, it is blood,” to “yes, it is blood and
+it is human.” At the time of publication the four categories of blood, which
+ultimately became known as the ABH/ABO grouping system, had just been
+discovered. Rhodes recognized this advancement as a signiﬁcant investigative
+tool with which to primarily exclude individuals as suspects.34
+Rhodes followed his ﬁrst book with a second entitled Clues and Crime.
+Published in 1933, the theme of the book was consideration of how science
+assisted in the detection of crime. Rhodes did not comment himself on
+
+
+--- PAGE 40 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective 13
+bloodstain patterns but gave speciﬁc mention to the efforts of Hans Gross
+in bloodstain pattern analysis.35
+In their writings it is obvious that Hesselink and Rhodes clearly viewed
+blood from different perspectives. Rhodes understood what Gross was pur-
+suing in the area of bloodstain patterns, but he felt the scientiﬁc individual-
+ization through the blood grouping systems of the time was of greater
+signiﬁcance. Hesselink, on the other hand, felt the individualization and
+identiﬁcation was secondary and that the patterns themselves were of greater
+signiﬁcance. Today we recognize that both were correct. The individualiza-
+tion of blood stains without consideration of the pattern itself or vice versa
+is tantamount to reading a book but skipping chapters.
+In 1939, at the XXII Congress of Forensic Medicine, one of the most
+insightful papers relating to bloodstain pattern analysis was presented by Dr.
+Victor Balthazard, R. Piedelievre, Henri Desolille, and L. Derobert. Entitled
+“Etude des Gouttes de Sang Projecte,” the proposed purpose of the research
+was to pinpoint characteristic elements of a bloodstain which might “give
+decisive hints” as to its origin.36
+Balthazard et al. felt it necessary not only to examine the resulting spatter
+and stains, but also to understand the manner in which blood exits wounds,
+the trajectories of such blood, and the manner in which the blood droplet
+changed to become the resulting stain. Like Piotrowski, Balthazard recog-
+nized the importance of the dynamics involved in bloodshed and realized
+bloodshed could not always be mimicked under laboratory conditions. To
+provide more realistic data, Balthazard utilized rabbits to produce actual
+bleeding injuries.37
+Balthazard’s consideration of the length-to-width ratio of a stain as a
+function of impact angle is one of the most important contributions of his
+work. Analysts repeat his experiment in nearly every 40-hour bloodstain
+pattern analysis course taught today. In considering impact angle estimations,
+however, Professor Balthazard cautioned:
+In practical application, it [impact angle evaluations] should not be
+looked after for an illusionary accuracy. Nevertheless, this curve permits
+an estimate of the impact angle with an acceptable accuracy, sufﬁcient for
+practical purposes.38
+Another important consideration was determining the point of origin.
+Balthazard furthered the cause and process for making such estimations.
+His group’s efforts established the basis for current “stringing” techniques.
+Yet, in considering the issue of the unknown parabola of the droplet, Balt-
+hazard stated:
+
+
+--- PAGE 41 ---
+
+14
+Bloodstain Pattern Analysis
+Practically these methods can only be applied in a limited manner. [For
+instance] sometimes it is necessary to ﬁnd out whether a victim, at the
+moment he was injured, stood on his feet or was lying.39
+Finally, Balthazard’s group considered the nature of the target on which
+a droplet fell. They found that many deformations would be possible, given
+various target characteristics. In summary, Balthazard stated:
+These modiﬁcations [deformations caused by the target] are sometimes
+obvious, but we must constantly remember that on an apparently homo-
+geneous target, uneven areas can occur which may cause slight disﬁgu-
+rations.40
+It is likely that world events in Europe prevented further signiﬁcant
+development of Balthazard’s research. Nevertheless, his group’s efforts were
+not completely lost. In 1941, John Gohringer, a U.S. citizen studying for
+his medical degree at the Institute of Forensic Medicine, University of
+Heidelberg, wrote as his inaugural dissertation, “Kann aus dem Bild auf
+verschiedenen Unterlagagen die Fallohe und Richtung des gefallenen
+Tropfens Ermittelt Werden?” (Is It Possible to Establish the Falling Height
+and Directionality of a Dropped Down Drop of Blood from the Appearance
+of the Stain on Various Targets?). Much of Dr. Gohringer’s inspiration
+developed from Balthazard’s research. An interesting historical note: Dr.
+Gohringer completed his studies in December 1941 and was subsequently
+held as an internee by the German government for 7 months before he was
+released to Vienna. He later returned to the U.S., where he practiced med-
+icine. In 1992, Dr. Gohringer spoke before the International Association of
+Bloodstain Pattern Analysts (IABPA) Training Conference in Colorado
+Springs, and shared some of his thoughts on the history of bloodstain
+pattern analysis.41
+Dr. Paul Leland Kirk, of Berkeley, California, also added immeasurably
+to the knowledge of bloodstain pattern analysis. Dr. Kirk, a Professor of
+Criminalistics and Biochemistry, was active in assisting law enforcement
+organizations in the U.S. from 1935 to 1967. Kirk’s book, Crime Investigation,
+published in 1953, included a chapter entitled “Blood: Physical Investigation,”
+in which he discussed the application of bloodstain pattern analysis to crim-
+inal investigations.42
+Another source for Kirk’s beliefs on the subject is his afﬁdavit ﬁled in
+the Court of Common Pleas, Criminal Branch, in the case of the Ohio v.
+Samuel H. Sheppard.43 This document provides immense insight to his
+approach to bloodstain analysis.
+In the Sheppard case, Dr. Kirk considered the drying times of blood and
+the evaluation of blood trails as evidence. He speciﬁcally sought to evaluate
+
+
+--- PAGE 42 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective 15
+plausible causes for such trails. Further, he identiﬁed a void in the bedroom
+of Mrs. Sheppard that others missed, which established the most likely posi-
+tion of the attacker. He then correlated the cast-off patterns found in the
+room to the position of this void. Dr. Kirk clearly utilized a whole-scene
+approach.*
+In 1960, Dr. Jozef Radziki of Warsaw, Poland, published “Slady Krwi w
+Praktyce Sledczej” (Bloodstain Prints in the Practice of Technology).
+Although a full translation is not yet available, MacDonell had portions
+translated for inclusion in the IABPA library. In this work, Dr. Radziki estab-
+lished three basic groups of bloodstains, based on their mechanisms of cre-
+ation. They are:
+1.
+Bloodstains resulting directly from extravasation — drops, gushes,
+and pools of blood
+2.
+Bloodstains resulting from the application of various instruments —
+spatter, cast-offs, and patterns resulting from direct contact
+3.
+Bloodstains resulting from the wiping or removal of blood
+As with previous authors, Dr. Radziki cautioned that a critical consider-
+ation were the characteristics of the target surface, because blood stains
+created under similar circumstances but falling to different targets might well
+result in dissimilar stains. Another interesting point made by Dr. Radziki
+included his assertion that “how” an instrument was employed would clearly
+affect the nature and distribution of the resulting spatter. Dr. Radziki also
+discussed arterial bloodstain patterns in depth.4
+Modern Works in Bloodstain Pattern Analysis
+Having dealt with a “historical” view of bloodstain pattern analysis, we arrive
+at a more recent history. Following Dr. Kirk’s efforts throughout the 1960s
+was what might be considered the modern renaissance of the discipline. The
+number of authors writing on this subject increased dramatically, profes-
+sional associations related to the ﬁeld were established, and the discipline as
+a whole took on a far more accepted status in court.
+Many proclaim Herbert MacDonell as the father of modern bloodstain
+pattern analysis. Whether this is accurate depends on your individual per-
+spective. What cannot be denied is that Herbert MacDonell brought about
+a distinct reawakening of this discipline.
+* We must make one point when considering this document. Whereas Dr. Kirk’s knowledge
+and consideration of bloodstain analysis are unquestionable, we feel his reconstruction in
+the Sam Sheppard case is difﬁcult to defend. He managed to interweave extremely subjec-
+tive information into his opinion of what was or was not a fact.
+
+
+--- PAGE 43 ---
+
+16
+Bloodstain Pattern Analysis
+In 1970, after conducting extensive research, MacDonell and Lorraine
+Bialousz coauthored Flight Characteristics and Stain Patterns of Human Blood.
+Because the two were working under a Law Enforcement Assistance Admin-
+istration (LEAA) grant, the LEAA published the report. The LEAA document
+remained available for nearly 12 years before going out of print. In 1982, the
+revised paper was released as Bloodstain Pattern Interpretation. MacDonell
+subsequently completed a third work on the subject in 1993, entitled Blood-
+stain Patterns.
+In 1983, Dr. Henry Lee, Peter Deforest, and Dr. R. E. Gaensslen wrote
+Forensic Science: An Introduction to Criminalistics.45 Included in this work is
+a 12-page section dedicated to explaining bloodstain patterns.
+In 1983, the IABPA was formed. The association’s stated purpose is to
+promote the general knowledge, techniques, and understanding of bloodstain
+pattern evidence.*
+In 1986, the Journal of Forensic Sciences published two papers by Peter
+Pizzola, Steven Roth, and Peter Deforest, entitled “Blood Droplet
+Dynamics — I and II.” The group sought to examine the dynamics of liquid
+droplets in ﬂight and photographed droplet impacts, providing a more accu-
+rate understanding of the action often referred to as “wave cast-off.” In “Blood
+Droplet Dynamics — II,” Pizzola et al. clearly demonstrated that motion in
+the target could mimic characteristics of an impact at an angle greater than
+that which occurred. Their ﬁndings are extremely important in our efforts
+to understand dynamic scenes of crime.46
+In 1989, William Eckert and Stuart James published Interpretation of
+Bloodstain Evidence at Crime Scenes. Although the book received a very crit-
+ical review in the Journal of Forensic Science, it was the ﬁrst attempt in almost
+seven years to tackle bloodstain pattern analysis as a single reference text.
+The following year, the International Association for Identiﬁcation (IAI)
+accepted bloodstain pattern analysis as a tentative discipline, removing it as
+a subcategory of crime scene analysis. That same year, we wrote Bloodstain
+Pattern Analysis: Theory and Practice — A Laboratory Manual.
+In 1998, James and Eckert published the second edition of Interpretation
+of Bloodstain Evidence at Crime Scenes with CRC Press, signiﬁcantly adding
+to its value. Prior omissions were corrected and the text remains a valuable
+reference.
+James followed this work with Scientiﬁc and Legal Applications of Blood-
+stain Pattern Interpretation. James put together an impressive group of con-
+tributors, including Alfred Carter, Ph.D., William Fischer, Carol Henderson,
+Paul Erwin Kish, Maria Saccoccio, and T. Pualette Sutton. The text was
+* In support of this role, each year the IABPA hosts training seminars dealing with blood-
+stain pattern analysis and other related forensic disciplines.
+
+
+--- PAGE 44 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective 17
+directed toward trial counsel in an effort to help lawyers better understand
+how to apply bloodstain pattern analysis in criminal trials.
+Summary
+Whatever we might say of bloodstain pattern analysis, it has a rich history;
+one that indicates the consideration of bloodstains in solving crime predates
+even modern forensics. As to the issue of being a “new” discipline, the
+examination and consideration of bloodstain patterns and their historical
+acceptance in forensics is well documented. Long recognized for its ability
+to support the evaluation of scenes of crime, bloodstain pattern analysis
+serves the investigator by illuminating “what happened.” It cannot tell us in
+all cases “who,” but as Piotrowski and Hesselink discussed, the ability to deﬁne
+the “situation” or “circumstances” of the crime is often just as important.
+Working with an understanding of all areas of forensics and with expe-
+rience in evaluating crime scenes, the investigator can often use bloodstain
+pattern analysis to reconstruct the events surrounding a given incident. More
+and more, this process of crime scene reconstruction is being tested in our
+judicial system, but it is only through the application of quality objective
+analyses that the discipline can hope to serve its intended function. As ana-
+lysts, our purpose must always be to guard against subjective analysis.
+As we wrote in 1990, “each day, blood from scenes of a crime cries out to
+investigators.” The use of proper bloodstain pattern analysis simply enhances
+the criminalist’s ability to be an active listener to this very vocal witness.47
+References
+1. Anon., The Bible, Genesis, 4:10.
+2. MacDonell, Herbert L., Bloodstain Pattern Interpretation, Laboratory of
+Forensic Science, Corning, NY, 1982, p. 4.
+3. Geberth, Vernon J., Practical Homicide Investigation, 2nd ed., Elsevier, New
+York, 1990, p. 12.
+4. Anon., From a Public Television program. Our apologies to the author and
+show, as they were not identiﬁed.
+5. Ressler, Robert K. (et al., Sexual Homicide: Patterns and Motives, Lexington
+Books, Lexington, MA, 1988, p. 155.
+6. Ibid., p. 162.
+7. Bevel, Tom and Gardner, Ross M., Bloodstain Pattern Analysis: Theory and
+Practice — A Laboratory Manual, TBI Inc., Oklahoma City, OK, 1990, p. 1.
+8. Lewis, Craig A., Blood Evidence, Berkeley Books, New York, 1992, p. 168.
+
+
+--- PAGE 45 ---
+
+18
+Bloodstain Pattern Analysis
+9. Hinckeldey, Christopher, Criminal Justice through the Ages, Druckerei Shulis,
+Heilbron, Germany, 1981, p. 55.
+10. Ibid., p. 74.
+11. Ibid., p. 922.
+12. Doyle, Arthur C., The Original Illustrated Strand Sherlock Holmes, Words-
+worth Editions, Hertfordshire, England, 1990, p. 21.
+13. MacDonell, Herbert L., Segments of History: The Literature of Bloodstain
+Pattern Interpretation, International Association of Bloodstain Pattern Analysts
+News, Volume 8, Number 1, March 1992.
+14. Dearborn, Regina, Personal communications, January 1993.
+15. Lassaingne, J. B., Neue Untersuchung zur Erkennung von Blutﬂecken auf
+Eisen und Stahl, Viertaljahresschrift für gerichtliche und öffentliche Medicin,
+1856, pp. 285–289.
+16. MacDonell, International Association of Bloodstain Pattern Analysts News,
+op. cit.
+17. Ibid.
+18. Ibid.
+19. Piotrowski, Eduard, Über Entstehung, Form, Richtung und Ausbreitung der
+Blutspuren nach Hiebwunden des Kopfes, Golos Printing, Elmira Heights, NY,
+1992, p. 8 (German version).
+20. Ibid., p. 18 (German version).
+21. Ibid., p. 16 (German version).
+22. Ibid., p. 32 (English version).
+23. As quoted by MacDonell, Herbert L., Segments of History: The Literature of
+Bloodstain Pattern Interpretation, International Association of Bloodstain Pat-
+tern Analysts News, Volume 8, Number 4, December 1992.
+24. Gross, Hans, Dr., Handbuch für Untersuchungsrichter als System der Krimi-
+nalistik, J. Swietzer Verlag, Munich, Germany, 1904.
+25. Haberda, H., Eine besondere Form von Blutspritzen, Viertaljahresschrift fur
+gerichtliche und offentliche Medizin, Volume 47, Supplement IX, 1914, pp.
+380–381.
+26. Ibid., p. 381.
+27. Lochte, Theodor and Ziemke, Ernest, Gerichtsärztliche und polizeiartzliche
+Technik, J. F. Bergmann, Wiesbaden, Germany, 1914, p. 152.
+28. Ibid., p. 153.
+29. Ibid., pp. 157–158.
+30. Ibid., p. 164.
+31. Hesselink, W. F., Blutspuren in der kriminalistischen Praxis, Zeitschrift fur die
+angewandte Chemie, Volume 44, Number 31, 1931, pp. 653–654.
+32. Ibid., p. 655.
+
+
+--- PAGE 46 ---
+
+Bloodstain Pattern Analysis: Its Function and a Historical Perspective 19
+33. Ibid.
+34. Rhodes, Henry T. F., Some Persons Unknown, John Murray, London, 1931,
+pp. 193–208.
+35. Rhodes, Henry T. F., Clues and Crime, John Murray, London, 1933, p. 58.
+36. Balthazard, Victor, Piedelievre, R., Desolilles, Henri, and Derobert, L., Etude
+des Gouttes de Sang Projecte, XXII Congres de Medicine Legale, Paris, France,
+June 1939, p. 1.
+37. Ibid., p. 6.
+38. Ibid., p. 8.
+39. Ibid., p. 25.
+40. Ibid., p. 27.
+41. MacDonell, Herbert L., Eulogy for Dr. Gohringer presented by H. MacDonell
+to the International Association of Bloodstain Pattern Analysts Training Con-
+ference, November 12, 1999.
+42. Kirk, Paul L., Crime Investigation Physical Evidence and the Police Laboratory,
+Interscience Publishers, Inc., New York, 1953, p. xii.
+43. Kirk, Paul L., Afﬁdavit Regarding the State of Ohio vs. Samuel H. Sheppard,
+Court of Common Pleas, Criminal Branch, No. 64571, 26 April 1955.
+44. Radziki, Jozef, Slady Krwi w Praktyce Sledczej, (Bloostain Prints in Practice
+of Technology) Wydawnictwo Zakladu Kryminalistyki, Komendy Glowenj
+MO, Warsaw, Poland, 1960.
+45. Lee, Henry L., Deforest, Peter, and Gaensslen, R. E., Forensic Science: An
+Introduction to Criminalistics, McGraw-Hill, New York, 1983.
+46. Pizzola, P. A., Roth, S., and Deforest, P. R., Blood Droplet Dynamics — II,
+Journal of Forensic Sciences, JFSCA, Volume 31, Number 1, January 1986, p. 58.
+47. Bevel, Tom and Gardner, Ross M., Bloodstain Pattern Analysis: Theory and
+Practice — A Laboratory Manual, TBI, Inc., Oklahoma City, OK, 1990, p. 4.
+
+
+--- PAGE 47 ---
+
+
+
+--- PAGE 48 ---
+
+References
+1 Chapter 1. Bloodstain Pattern Analysis:
+Its Function and a Historical Perspective
+1. Anon., The Bible, Genesis, 4:10.
+2. MacDonell, Herbert L., Bloodstain Pattern
+Interpretation, Laboratory of Forensic Science, Corning,
+NY, 1982, p. 4.
+3. Geberth, Vernon J., Practical Homicide Investigation,
+2nd ed., Elsevier, New York, 1990, p. 12.
+4. Anon., From a Public Television program. Our apologies
+to the author and show, as they were not identified.
+5. Ressler, Robert K. (et al., Sexual Homicide: Patterns
+and Motives, Lexington Books, Lexington, MA, 1988, p. 155.
+6. Ibid., p. 162.
+7. Bevel, Tom and Gardner, Ross M., Bloodstain Pattern
+Analysis: Theory and Practice — A Laboratory Manual, TBI
+Inc., Oklahoma City, OK, 1990, p. 1.
+8. Lewis, Craig A., Blood Evidence, Berkeley Books, New
+York, 1992, p. 168.
+9. Hinckeldey, Christopher, Criminal Justice through the
+Ages, Druckerei Shulis, Heilbron, Germany, 1981, p. 55.
+10. Ibid., p. 74.
+11. Ibid., p. 922.
+12. Doyle, Arthur C., The Original Illustrated Strand
+Sherlock Holmes, Wordsworth Editions, Hertfordshire,
+England, 1990, p. 21.
+13. MacDonell, Herbert L., Segments of History: The
+Literature of Bloodstain Pattern Interpretation,
+International Association of Bloodstain Pattern Analysts
+News, Volume 8, Number 1, March 1992.
+14. Dearborn, Regina, Personal communications, January 1993.
+15. Lassaingne, J. B., Neue Untersuchung zur Erkennung von
+Blutflecken auf Eisen und Stahl, Viertaljahresschrift für
+gerichtliche und öffentliche Medicin, 1856, pp. 285–289.
+
+
+--- PAGE 49 ---
+
+16. MacDonell, International Association of Bloodstain
+Pattern Analysts News, op. cit.
+17. Ibid.
+18. Ibid.
+19. Piotrowski, Eduard, Über Entstehung, Form, Richtung und
+Ausbreitung der Blutspuren nach Hiebwunden des Kopfes,
+Golos Printing, Elmira Heights, NY, 1992, p. 8 (German
+version).
+20. Ibid., p. 18 (German version).
+21. Ibid., p. 16 (German version).
+22. Ibid., p. 32 (English version).
+23. As quoted by MacDonell, Herbert L., Segments of
+History: The Literature of Bloodstain Pattern
+Interpretation, International Association of Bloodstain
+Pattern Analysts News, Volume 8, Number 4, December 1992.
+24. Gross, Hans, Dr., Handbuch für Untersuchungsrichter als
+System der Kriminalistik, J. Swietzer Verlag, Munich,
+Germany, 1904.
+25. Haberda, H., Eine besondere Form von Blutspritzen,
+Viertaljahresschrift fur gerichtliche und offentliche
+Medizin, Volume 47, Supplement IX, 1914, pp. 380–381.
+26. Ibid., p. 381.
+27. Lochte, Theodor and Ziemke, Ernest, Gerichtsärztliche
+und polizeiartzliche Technik, J. F. Bergmann, Wiesbaden,
+Germany, 1914, p. 152.
+28. Ibid., p. 153.
+29. Ibid., pp. 157–158.
+30. Ibid., p. 164.
+31. Hesselink, W. F., Blutspuren in der kriminalistischen
+Praxis, Zeitschrift fur die angewandte Chemie, Volume 44,
+Number 31, 1931, pp. 653–654.
+32. Ibid., p. 655.
+
+
+--- PAGE 50 ---
+
+33. Ibid.
+34. Rhodes, Henry T. F., Some Persons Unknown, John Murray,
+London, 1931, pp. 193–208.
+35. Rhodes, Henry T. F., Clues and Crime, John Murray,
+London, 1933, p. 58.
+36. Balthazard, Victor, Piedelievre, R., Desolilles, Henri,
+and Derobert, L., Etude des Gouttes de Sang Projecte, XXII
+Congres de Medicine Legale, Paris, France, June 1939, p. 1.
+37. Ibid., p. 6.
+38. Ibid., p. 8.
+39. Ibid., p. 25.
+40. Ibid., p. 27.
+41. MacDonell, Herbert L., Eulogy for Dr. Gohringer
+presented by H. MacDonell to the International Association
+of Bloodstain Pattern Analysts Training Conference,
+November 12, 1999.
+42. Kirk, Paul L., Crime Investigation Physical Evidence
+and the Police Laboratory, Interscience Publishers, Inc.,
+New York, 1953, p. xii.
+43. Kirk, Paul L., Affidavit Regarding the State of Ohio
+vs. Samuel H. Sheppard, Court of Common Pleas, Criminal
+Branch, No. 64571, 26 April 1955.
+44. Radziki, Jozef, Slady Krwi w Praktyce Sledczej,
+(Bloostain Prints in Practice of Technology) Wydawnictwo
+Zakladu Kryminalistyki, Komendy Glowenj MO, Warsaw, Poland,
+1960.
+45. Lee, Henry L., Deforest, Peter, and Gaensslen, R. E.,
+Forensic Science: An Introduction to Criminalistics,
+McGraw-Hill, New York, 1983.
+46. Pizzola, P. A., Roth, S., and Deforest, P. R., Blood
+Droplet Dynamics — II, Journal of Forensic Sciences, JFSCA,
+Volume 31, Number 1, January 1986, p. 58.
+47. Bevel, Tom and Gardner, Ross M., Bloodstain Pattern
+Analysis: Theory and Practice — A Laboratory Manual, TBI,
+Inc., Oklahoma City, OK, 1990, p. 4.
+
+
+--- PAGE 51 ---
+
+4 Chapter 4. Understanding the Medium of
+Blood
+Figure 4.25 Stain shape and impact angle. The orderly
+collapse of the droplet
+onto the target produces characteristic shapes depending on
+the angle of impact.
+The less acute the angle (e.g., 90°), the more circular the
+stain. The more acute
+the angle (e.g., 20°), the more elliptical the resulting
+stain. 5. Ibid., p. 441. 6. Ibid., p. 442. 7. Ibid., p.
+441. 8. Ibid. 9. Ibid., p. 449. 10. Ibid. 11. Ibid., pp.
+449–452. 12. Ibid., p. 490. 13. Huetinick, Linda, Physics,
+Cliff Notes, Lincoln, NE, 1993, p. 49. 14. McDonald, James
+E., The Shape of Raindrops, Scientiﬁc American, Volume 190,
+Number 2, February 1954. 15. Ibid. 16. Carter, A. L.,
+Personal communications, July 1992. 17. Strand, Fleur L.,
+Physiology: A Regulatory Systems Approach, Macmillan, New
+York, 1978, pp. 239–241. 18. Peterson, Ivars, Raindrop
+Oscillations — Raindrops Do More Than Just Fall; They Also
+Appear to Oscillate during Their Downward Plunge, Science
+News, Volume 127, pp. 136–137. 19. Ryan, Robert T., The
+Behavior of Large, Low-Surface-Tension Water Drops Falling
+at Terminal Velocity in Air, Journal of Applied
+Meteorology, Volume 15, Number 2, February 1976. 20. Ibid.
+21. Pizzola, P. A. (et al.) Blood Droplet Dynamics — I,
+Journal of Forensic Sciences, Volume 31, Number 1, January
+1986, p. 44. 22. MacDonell, Herbert L., Bloodstain Pattern
+Interpretation, Laboratory of Forensic Science, Corning NY,
+1982, p. 4. 23. Ibid., p. 8. 24. Gardner, Ross M.,
+Deformation Levels of Blood Droplets Created by Impact,
+Presented to the International Association of Bloodstain
+Pattern Analysts, Albuquerque, NM, November 9, 1996. 25.
+van Netten, A. A. and Dewey, J. M., Bloodspatter 2 Final
+Report, DMA Report 97/2, Dewey McMillin and Associates
+Ltd., Victoria, BC, Canada, March 1997. 26. Peterson,
+Ivars, op. cit. 27. Beard, Kenneth V., Personal
+communications, September 1989. 28. Gardner, op. cit. 29.
+Raymond, Anthony, Science and Justice, July 1996. 30.
+Gardner, op. cit. 31. Ibid. 32. Ibid. 33. TRACKS © is a
+copyright name of software created by Forensic Computing of
+Ottawa, Canada. 34. MacDonell, op. cit., p. 4. 35. Eckert,
+William G. and James, Stuart H., Interpretation of
+Bloodstain Evidence at Crime Scenes, Elsevier, New York,
+1989, p. 15. 36. Bevel, Tom and Gardner, Ross M.,
+Bloodstain Pattern Analysis: Theory and Practice — A
+Laboratory Manual, TBI Inc., Oklahoma City, OK, 1990, p. 9.
+
+
+--- PAGE 52 ---
+
+37. Gardner, Ross M., Bloodstain Droplet Dynamics and
+Oscillation Damping, Presentation at the 76th Annual
+Training Conference of the International Association of
+Identification, St. Louis, MO, July 1991. 38. Pizzola, op.
+cit. 39. Balthazard, V. (et al.), Etude des Gouttes de Sang
+Projecte, Report presented to the 22nd Congress of Legal
+Medicine, Paris, June 1939, p. 17. 40. MacDonell, op. cit.,
+p. 7. 41. Carter, Alfred and Podworny, Edward J., Computer
+Modelling of Trajectories of Blood Droplets and Bloodstain
+Pattern Analysis with a PC Computer, 2nd Annual IABPA
+Training Conference, Dallas, TX, December 1989. 42.
+MacDonell, Herbert L., Bloodstain Patterns, Golas Printing,
+Elmira Heights, NY, 1993, pp. 9–11. 43. Metropolitan Police
+Laboratory, “Blood in Slow Motion,” Droplet Dynamic Video,
+London, England, 1991. 44. Ibid.
+
+
+--- PAGE 53 ---
+
+6 Chapter 6. Determining the Point of
+Convergence and the Point of Origin
+1. Carter, Alfred, BackTrack/Strings® User Manual, Forensic
+Computing of Ottawa, Canada, 1992, p. 17.
+2. Wolson, Toby, Documentation of Bloodstain Patterns,
+Presentation to the International Association of Bloodstain
+Pattern Analysts (IABPA), Colorado Springs, CO, September
+25, 1992.
+3. MacDonell, Herbert L., Bloodstain Pattern
+Interpretation, Laboratory of Forensic Science, Corning,
+NY, 1982.
+4. Balthazard, Victor, Piedelievre, R., Desoille, Henri,
+and Derobert, L., Etude des Gouttes de Sang Projecte, XXII
+Congres de Medicine Legale, Paris, France, June 1939, p.
+25.
+5. MacDonell, Herbert L., Balthazard Was Great but He
+Didn’t String Us Along, Int. Assoc. of Bloodstain Pattern
+Analysts News, Volume 11, Number 1, March 1995, p. 10.
+
+
+--- PAGE 54 ---
+
+7 Chapter 7. Evaluating Impact Spatter
+Bloodstains
+1. MacDonell, H. and Bialousz, Lorraine F., Flight
+Characteristics and Stain Patterns of Human Blood, National
+Institute of Law Enforcement and Criminal Justice, LEAA
+Report PR-71, U.S. Government Printing Office, Washington,
+D.C., November 1971, pp. 20–21.
+2. Ibid., p. 20.
+3. Ibid., p. 21.
+4. Bevel, Tom and Gardner, Ross M., Bloodstain Pattern
+Analysis: Theory and Practice — A Laboratory Manual, TBI
+Inc., Oklahoma City, OK, 1990, p. 18.
+5. Parker, N. Leroy (et al.), Summary Report of the
+Bloodstain Analysis Research Group, Florida Department of
+Law Enforcement, Tallahassee, 1982, p. 65.
+6. Ibid., p. 66.
+7. Ibid., pp. 57 and 66.
+8. Bunker, Judy, Presentation to the Rocky Mountain
+Association of Bloodstain Pattern Analysts, April 22, 1991.
+9. MacDonell, H., Bloodstain Pattern Interpretation,
+Laboratory of Forensic Science, Corning, NY, 1982, p. 3.
+10. Ryan, Robert T., The Behaviour of Large,
+Low-Surface-Tension Water Drops Falling at Terminal
+Velocity in Air, J. Appl. Meteorol., Volume 15, Number 2,
+February 1976.
+11. Pex, James O. and Vaughan, Charles H., Observations of
+High Velocity Bloodspatter on Adjacent Objects, Journal of
+Forensic Sciences, Volume 32, Number 6, November 1987, pp.
+1587–1594.
+12. Beard, Kenneth V., Personal communication, September
+1989.
+13. Gardner, Ross M., Deformation Levels of Blood Droplets
+Created by Impact, Presented to the International
+Association of Bloodstain Pattern Analysts, Albuquerque,
+NM, November 9, 1996.
+14. MacDonell, Herbert, L., Bloodstain Patterns, Golas
+
+
+--- PAGE 55 ---
+
+Printing, Elmira Heights, NY, 1993, p. 61.
+15. Eckert, William G. and James, Stuart H., Interpretation
+of Bloodstain Evidence at Crime Scenes, Elsevier, New York,
+1989, p. 55.
+16. MacDonell, H., Bloodstain Pattern Interpretation,
+Laboratory of Forensic Science, Corning, NY, 1982, p. 70.
+17. MacDonell and Bialousz, op. cit., p. 21.
+18. Laber, Terry L. and Epstein, Barton P., Experiments and
+Practical Exercises in Bloodstain Pattern Analysis,
+Minnesota B.C.A. Forensic Science Laboratory, St. Paul, MN,
+November 1983, p. 38.
+19. Ibid.
+20. Pex and Vaughn, op. cit., p. 1588.
+21. Fackler, Martin L., Col. (Ret.), M.D., Presentation to
+the International Association of Bloodstain Pattern
+Analysts, Colorado Springs, CO, September 24, 1992.
+22. Fackler, Martin L., Col. (Ret.), M.D. (et al.),
+Emergency War Surgery, U.S. Government Printing Office,
+Washington, D.C., 1988, pp. 13–32.
+23. Fackler, Martin L., Personal communications, August
+1995.
+24. Fackler, Martin L., Col. (Ret.), M.D. (et al.),
+Emergency War Surgery, U.S. Government Printing Office,
+Washington, D.C., 1988, p. 17.
+25. Fackler, Martin L., Col. (Ret.), M.D., Presentation to
+the International Association of Bloodstain Pattern
+Analysts, Colorado Springs, CO, September 24, 1992.
+26. Ibid.
+27. MacDonell, Herbert L., Bloodstain Patterns, Golas
+Printing, Elmira Heights, NY, 1993, p. 64.
+
+
+--- PAGE 56 ---
+
+8 Chapter 8. Characteristic Blood
+Patterns That Aid in Analysis
+Figure 8.36 A close-up photograph of the detail in Stain A.
+Many clothing stains
+are critical, so there must be no question in the jury’s
+minds as to their location. 8. Lee, Henry C., Gaensslen, R.
+E., and Pagliaro, Elaine M., Bloodstain Volume Estimation,
+International Association of Bloodstain Pattern Analysts
+News, Volume 3, Number 2, October 1986, pp. 47–55. 9.
+Slemko, Joseph, Bloodstains on Fabric: The Effects of
+Droplet Velocity and Fabric Composition, Presentation to
+the IABPA, Houston, Texas, November 9, 1999. 10. Ibid.
+
+
+--- PAGE 57 ---
+
+9 Chapter 9. Documenting Bloodstains
+1. Lee, Henry C. (et al.), The Effect of Presumptive Test,
+Latent Fingerprint and Other Reagents and Materials on
+Subsequent Serological Identification, Genetic Marker and
+DNA Testing in Bloodstains, J. Forensic Identiﬁcation,
+Volume 39, Number 6, November/December 1989, pp. 339–358.
+2. Svensson, Arne, Wendel, Otto, and Fisher, Barry A. J.,
+Techniques of Crime Scene Investigation, 3rd ed., Elsevier,
+New York, p. 173.
+3. Sahs, Paul T., DAB: An Advancement in Blood Print
+Detection, J. Forensic Identiﬁcation, Volume 42, Number 5,
+September/October 1992, p. 412.
+4. Anon., Blood Detection, Document provided by the Rocky
+Mountain Association of Bloodstain Pattern Analysts, 1988.
+5. Gimeno, Fred E. and Rini, Gary A., Fill Flash Photo
+Luminescence to Photograph Luminol Bloodstain Patterns, J.
+Forensic Identiﬁcation, Volume 39, Number 3, 1989, p. 149.
+6. Hetzel, Richard L., Luminol as an Investigative Tool,
+The Detective, Fall 1990.
+7. Ibid.
+8. Perkins, Doug, Personal communications, 1995.
+9. Gimeno, op. cit.
+10. Gimeno, Fred E. and Rini, Gary A., Fill Flash Color
+Photography to Photograph Luminol Bloodstain Patterns, J.
+Forensic Identiﬁcation, Volume 39, Number 5, 1989.
+11. Wolson, Toby L., Bloodstain Pattern Documentation
+Workshop, Presentation to the International Association of
+Bloodstain Pattern Analysts, Colorado Springs, CO,
+September 26, 1992.
+12. Epstein, Barton P., Examination of Bloody Clothing,
+Presentation to the International Association of Bloodstain
+Pattern Analysts, Colorado Springs, CO, September 25, 1992.
+13. Bunker, Judy, Documenting and Reconstructing Blood
+Scenes, Presentation to the Rocky Mountain Association of
+Bloodstain Pattern Analysts, Advanced Bloodstain Pattern
+course, Jefferson County, CO, April 22, 1991.
+
+
+--- PAGE 58 ---
+
+14. Ibid.
+
+
+--- PAGE 59 ---
+
+12 Chapter 12. Presenting Evidence at
+Trial
+Figure 12.4 The foam core model. Although not used as often
+due to the avail
+ability of software programs, such models are still
+effective tools. 3. Dershowitz, Alan, As quoted by William
+F. Buckley, Jr., in “Simpson Lawyer Ambiguous on Verdict,”
+United Press Syndicate, June 9, 1996. 4. Arizona
+Prosecuting Attorneys’ Advisory Council and Arizona Law
+Enforcement Officers’ Advisory Council, Courtroom
+Demeanor, Phoenix, AZ, 1982, pp. 21.01–21.15.

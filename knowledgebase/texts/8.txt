@@ -1,0 +1,718 @@
+
+
+--- PAGE 1 ---
+
+High-speed video analysis of forward and backward spattered blood
+droplets
+P.M. Comiskeya, A.L. Yarina,*, D. Attingerb
+a Department of Mechanical and Industrial Engineering, University of Illinois at Chicago, 842 W. Taylor St., Chicago, IL 60607-7022, USA
+b Department of Mechanical Engineering, Iowa State University, 2529 Union Dr., Ames, IA 60011-1210, USA
+A R T I C L E 
+I N F O
+Article history:
+Received 8 March 2017
+Received in revised form 16 April 2017
+Accepted 23 April 2017
+Available online 1 May 2017
+Keywords:
+Bloodstain pattern analysis
+Forward spatter
+Backward spatter
+Gunshot
+High-speed video analysis
+Particle image velocimetry
+A B S T R A C T
+High-speed videos of blood spatter due to a gunshot taken by the Ames Laboratory Midwest Forensics
+Resource Center (MFRC) [1] are analyzed. The videos used in this analysis were focused on a variety of
+targets hit by a bullet which caused either forward, backward, or both types of blood spatter. The analysis
+process utilized particle image velocimetry (PIV) and particle analysis software to measure drop
+velocities as well as the distributions of the number of droplets and their respective side view area. The
+results of this analysis revealed that the maximal velocity in the forward spatter can be about 47  5 m/s
+and for the backward spatter – about 24  8 m/s. Moreover, our measurements indicate that the number
+of droplets produced is larger in forward spatter than it is in backward spatter. In the forward and
+backward spatter the droplet area in the side-view images is approximately the same. The upper angles of
+the close-to-cone domain in which droplets are issued in forward and backward spatter are, 27  9 and
+57  7, respectively, whereas the lower angles of the close-to-cone domain are 28  12 and 30  18,
+respectively. The inclination angle of the bullet as it penetrates the target is seen to play a large role in the
+directional preference of the spattered blood. Also, muzzle gases, bullet impact angle, as well as the
+aerodynamic wake of the bullet are seen to greatly inﬂuence the ﬂight of the droplets. The intent of this
+investigation is to provide a quantitative basis for current and future research on bloodstain pattern
+analysis (BPA) of either forward or backward blood spatter due to a gunshot.
+Published by Elsevier Ireland Ltd.
+1. Introduction
+Working for project No. 06-S-02 for the Midwest Forensics
+Resource Center (MFRC), T.L. Laber, B.P. Epstein, and M.C. Taylor
+took 
+a 
+series 
+of 
+over 
+500 
+high-speed 
+videos 
+of 
+common
+bloodletting mechanisms [2]. The set of videos includes blood
+spatter formation due to a gunshot, blood spatter due to a blunt
+object such as a hammer, or blood drop formation from a single
+droplet and is located on the MFRC website [1]. In literature, the
+videos have been referred to before [3–5], and are routinely used in
+bloodstain pattern analysis (BPA) presentation and training classes.
+However, a quantitative analysis of this dataset is still unavailable,
+especially for the scenario of blood spatter due to a gunshot.
+Accordingly, the aim of the present work is in quantitative analysis
+of blood spatter induced by a gunshot to facilitate the BPA
+community tools for scientiﬁc analysis of a crime scene event.
+Blood is a complex non-Newtonian ﬂuid which is shear-
+thinning [6–8], exhibits viscoelastic behavior [8–11] and possesses
+a yield stress [12]. It is an aqueous suspension which contains
+plasma and particles such as white and red blood cells, and
+platelets. Blood starts to coagulate when it leaves the body or
+under conditions of increased shear stress [13]. The rheology of
+blood could affect the atomization process [14–16] which is of
+fundamental importance for BPA because it determines the
+distribution of drop sizes and velocities [17], thus the resulting
+blood spatter. The atomization is diminished by the effects of
+viscoelasticity [18–20], and the resulting size of the impacting
+droplets can be heavily inﬂuenced by viscosity and elasticity of
+liquid [21–26]. Therefore, an accurate crime scene reconstruction
+from any crime involving blood spatter must account for the
+rheological behavior of blood.
+The uncertainties of different BPA techniques can be signiﬁcant,
+up to a 50% overestimation of the height of the origin of a blood
+spatter [5]. A better understanding of the mechanisms of
+blood droplet formation and ﬂight is required. The ﬁrst theoretical
+steps in this direction are already available [27]. Such efforts would
+be signiﬁcantly facilitated by a thorough analysis of the available
+* Corresponding author.
+E-mail address: ayarin@uic.edu (A.L. Yarin).
+http://dx.doi.org/10.1016/j.forsciint.2017.04.016
+0379-0738/Published by Elsevier Ireland Ltd.
+Forensic Science International 276 (2017) 134–141
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+
+
+--- PAGE 2 ---
+
+experimental data, e.g. high-speed videos [4]. It should be
+emphasized that some experimental simpliﬁcations do not neces-
+sarily reﬂectthe realcrimescenesituations.Forexample,oftentimes,
+human blood is substituted for swine blood for safety reasons, and
+because of expected similarities in size and concentration of blood
+cells, and in rheology [5,27], albeit it is deﬁnitely not a perfect
+substitute [28]. Moreover, blood spatter found in some crime scenes
+could be affected by the dynamic effect of muzzle gases from a
+ﬁrearm which are signiﬁcant, especially when the gun is close to its
+target [29]. Crime scene reconstruction after a gunshot is often
+simpliﬁed by neglecting gravity and air drag, resulting in what is
+called a straight-line assumption, or the method of strings [30–34].
+Unsurprisingly, this assumption can be quite inaccurate [5,35,36]
+and as a result, there is a permanent drive for more realistic models
+[17,27,37–39]. Accordingly, in BPA research, it is imperative to
+analyze all available sources of data. The MFRC videos are a treasure
+trove of valuable information for numerous situations. As a result of
+their untapped nature, they have gone relatively undetected as many
+groups have attempted their own high-speed video analysis for their
+speciﬁc problems at hand. This has the consequence of building
+solutions which might work only for a limited set of problems. To
+avoid such limitations, a general pattern must be analyzed, which is
+the goal of the present work.
+2. Experimental video analysis
+The MFRC videos were produced from experiments performed
+primarily at the Minnesota Bureau of Criminal Apprehension
+Forensic Science Laboratory, in Minnesota, USA, with some
+performed at the Christchurch Laboratory of the Institute of
+Environmental 
+Science 
+and 
+Research, in 
+Christchurch, 
+New
+Zealand [2]. The camera used to record the experiments was a
+Photron Fastcam-SA1 High-Speed Digital Video camera with most
+videos using either a Tamron 90 mm macro lens, Micro Nikkor
+55 mm, or Micro Nikkor 105 mm lens. Proper lighting was speciﬁc
+to each experiment which resulted in a variety of apertures and
+shutter speeds used to produce the highest quality videos possible.
+Room temperature human blood with an anti-coagulant was used
+within 72 h of the draw date for every experiment.
+Of the series of over 500 videos, over 200 are posted on the
+MFRC Blood Pattern Analysis Videos webpage, 19 of them are
+directly related to blood spatter due to a gunshot, and four of those
+show different muzzle discharges [1]. The targets consisted of a
+blood soaked sponge, fabric covering the sponge, tape encompass-
+ing the entire sponge, and a silicone-encased sponge. The targets
+were placed at distances in the 1–182 cm range from the muzzle of
+the gun. Of the 19 videos available for blood spatter induced by a
+gunshot, ﬁve were chosen for a quantitative analysis with particle
+image velocimetry (PIV) in the present work because they either
+contained both forward and backward spatter, or, their spatter
+pattern was resolved enough (in time and space) for an accurate
+analysis. The ﬁve experiments used in this analysis are described in
+Table 1.
+Each frame of the high-speed videos were taken at time
+intervals of 0.1 ms. In the present work, PIV analysis was conducted
+to characterize the motion of the blood droplets. The PIV method
+relies on recording the positions of ﬂuid particles (here droplets)
+for two time instances in quick succession of the order of a
+millisecond. Statistical correlation of the two images with the
+position of the particles allows for the determination of the
+velocity ﬁeld that is the spatial distribution of velocities. Here, PIV
+is conducted from approximately the time the bullet impacted the
+sponge to two milliseconds in each experiment. The program used
+for PIV was PIVlab 1.41 which is an application built for the
+numerical computing language MATLAB [40]. The analysis was
+done with a Fast Fourier Transform (FFT) algorithm with four
+interrogation passes from 64, 32, 16, and ﬁnally 8 square pixels. A
+linear interpolator was used with a Gauss 2  3-point sub-pixel
+estimator and the contrast of each image was automatically locally
+enhanced before processing. A region of interest mask of
+100  200 pixels was drawn about a centimeter from the target
+for back spatter, and half a centimeter from the target for forward
+spatter. The dimensions for the region of interest were chosen so
+that it would be sufﬁciently large enough to capture the created
+spray of blood droplets, yet not too large as to increase the
+likelihood of a false reading by including phantom vectors. The
+location of the region of interest away from the target was dictated
+by the distance at which droplets became recognizable, as it was
+centered about the splash of blood droplets. Post-processing vector
+validation was performed, in which physically impossible vectors
+were deleted as outliers.
+Each experiment was also analyzed for the area of each droplet,
+measured as the area of the droplet in ﬂight as seen directly from
+frames of the high-speed videos, and the number of droplets
+located within a region of interest. This was done using ImageJ [41],
+utilizing the particle analysis toolset. A rectangular region of
+interest, 100  200 pixels large, was placed at approximately the
+same respective location as done in the PIV tests. Each experiment
+was analyzed at approximately 2 ms, a time which was chosen
+because the droplets became very easily distinguishable from the
+background. Automatic local thresholding was performed on each
+image following the method of Phansalkar et al. [42] with a
+thresholding radius of 15 pixels, k = 0.25, and r = 0.5. This converted
+each image into a binary image which was then analyzed with the
+particles toolset. There were no pixel-size limiting or circularity-
+based restrictions imposed on the analysis.
+3. Results and discussion
+The PIV technique described in Section 2 was employed to ﬁnd
+the velocity magnitude at the midplane of the region of interest,
+parallel to the target face. For each time interval between the
+frames of interest, the velocity magnitude along this midplane was
+averaged and then these velocities were plotted against the time
+reckoned from the bullet impact on the target. For the bare sponge
+experiments number 7Aa1 and 7Ab1 from Table 1, this process
+results in Fig. 1. These two experiments are directly comparable
+with one another because they differ only in the caliber of bullet
+used and both experiments resulted in forward and backward
+spatter.
+Fig. 1 shows that the larger caliber bullet used in experiment
+7Ab1 results in an overall larger average velocity for both
+Table 1
+Experiments from the MFRC used in this analysis. The experiment number corresponds to a part of the title of a particular video on the MFRC website.
+Experiment number 
+Bullet caliber 
+Target type 
+Target distance [cm]
+7Aa1 
+.22 
+Bare sponge 
+182
+7Ab1 
+.44 
+Bare sponge 
+182
+7Cb3 
+.44 
+Tape-covered sponge 
+182
+7Db1 
+.44 
+Silicone-covered sponge 
+182
+7Db2 
+.44 
+Silicone-covered sponge 
+182
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141 
+135
+
+
+--- PAGE 3 ---
+
+forwardand backward spattered droplets. The difference is
+apparent from the ﬁrst data point of the analysis at a time from
+the bullet impact in the 0.4–0.5 ms range, all the way to the end of
+the experiment. For either caliber, the forward spattered velocity
+is larger than that of the backward spattered velocity, even
+though in Fig. 1a, the velocity gap is only noticeable starting at the
+0.8–0.9 ms mark from the bullet impact time, which may be due
+to a large number of droplets difﬁcult to resolve. A larger forward
+spatter velocity makes physical sense due to the entraining effect
+of the bullet traveling in the direction of the blood spatter. It is
+also interesting to note that as the time from the bullet impact
+increases, the standard deviation of the data, as indicated by the
+error bars, decreases due to a more uniform ﬂow ﬁeld in the
+corresponding part of the region of interest. The trend of the steep
+gradient upward and steady decrease in average velocity (cf.
+Fig. 1) indicates that at the onset of the analysis which was at
+0.4 ms after the bullet impact, the blood droplets are accelerated.
+This means (from the second law of Newton applied to an
+individual droplet) that droplets analyzed at the onset of the PIV
+analysis practically do not experience air drag but on the contrary,
+are pulled forward by the aerodynamic wake of the fast moving,
+small-sized, preceding droplets from the initial splash. This is
+similar to the aerodynamic interaction of birds ﬂying in V
+formation [43]. After about 0.6–0.9 ms, the blood droplets ﬁnally
+begin to slow down due air drag, since at the later stage droplets
+have already sufﬁciently separated and their mutual aerodynamic
+interaction has been diminished. It should be emphasized that
+not only in forward spatter droplets are initially accelerated but
+also 
+in 
+the 
+backward 
+spatter 
+(cf. 
+Fig. 1). 
+Therefore, 
+this
+acceleration cannot be attributed to the aerodynamic effect of
+bullet preceding droplets in forward spatter but to the mutual
+entrainment of droplets described above.
+The tape-covered sponge of experiment 7Cb3 only produced
+forward spattered droplets and the results from the PIV analysis
+are shown in Fig. 2. Since the same bullet caliber and shooting
+distance as in experiment 7Ab1 were used, the results in Fig. 2 can
+be directly compared to the forward spatter case of Fig. 1b.
+Covering the sponge with tape prevents the onset of backward
+spatter. Due to the spread of the error bars, an accelerated droplet
+motion due to the aerodynamic wake of the preceding droplets is
+still plausible, however, it is not directly seen in Fig. 2. The
+magnitude of the average velocity is approximately that of the
+forward spattered case shown in Fig. 1b. The trend of a decrease in
+the error bar spread at longer time is still seen, albeit to a lesser
+extent.
+The two experiments with silicone-covered sponges, 7Db1 and
+7Db2, were conducted using the same caliber of bullet and the
+same 
+shooting 
+distance. 
+The 
+results 
+for 
+the 
+7Db1 
+and
+7Db2 experiments are presented in Fig. 3.
+Even though experiments 7Db1 and 7Db2 were conducted under
+exactly the same conditions as indicated in Table 1, 7Db1 only
+resultedin forward spatter, whereas7Db2 revealedbothforwardand
+backward spatter. This sheds light on the complexity of performing
+repeatable BPA experiments: it means that for this set of
+Fig. 1. PIV results for experiment 7Aa1 are shown in panel (a), and for experiment 7Ab1 in panel (b). The red dashed line with circular data points represents the results from
+forward spatter, and the solid blue line with square data points is for backward spatter. The error bars are the standard deviations of the sets of data. Note that the data points
+are slightly offset from their corresponding time reckoned from the bullet impact moment in order to more easily distinguish the error bars. (For interpretation of the
+references to color in this ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 2. PIV result for the forward spattered blood data of experiment 7Cb3. The error
+bars are the standard deviation of the set of data.
+136 
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141
+
+
+--- PAGE 4 ---
+
+experiments, there are some uncontrolled factors which result in
+two very different outcomes. Upon careful inspection of the high-
+speed videos, it seems that the silicone-encased sponge in
+experiment 7Db2 held more blood. Even more critically, the
+blood seems to have pooled to the backside of the target where
+backward 
+spatter 
+would 
+form. 
+Therefore, 
+the 
+presence 
+of
+backward spatter in only one of these trials could simply be
+explained by the undocumented blood ﬁlling process of the
+silicone-encased sponge, or by gravity-driven transport of blood.
+Regardless of this deﬁciency, Fig. 3b still reveals the important
+result of a faster average blood velocity for forward spattered
+droplets versus backward spattered droplets.
+It should be emphasized that the PIV results shown in Figs. 1–3
+do not contain data with the initial velocities of the droplets. All
+data points were taken starting at 0.4 ms after the bullet impacted
+the target (except for experiment 7Db1 where data started at
+0.5 ms due to the inability to accurately resolve the droplets at an
+earlier moment of time – the early frames are completely blurry).
+The analysis was only conducted for the time interval when the
+droplets became clear enough to get accurate results. Droplets
+were formed before 0.4 ms, but with the current high-speed
+videos, PIV cannot be utilized to measure their velocity. The high-
+speed videos seem to show at least two regimes of the expulsion of
+droplets, the ﬁrst of which has not been measured by PIV here. The
+ﬁrst regime is a very fast moving spray which occurs almost
+instantaneously after the impact. After about 0.4 ms, the second
+regime begins to take place where the web of blood issued
+from the target consists of recognizable droplets moving at a
+much slower pace. An example of these two regimes can be seen in
+Fig. 4 which is a frame taken from the high-speed video of
+experiment 7Aa1.
+As described in Section 2, the number of droplets was counted
+with the particle analysis toolset of ImageJ within a region of
+interest replicating the one used in the PIV analysis. The results for
+the number of droplets in each experiment are shown in Fig. 5.
+For the three experiments which contained both forward and
+backward spattered droplets, there were always more forward
+spattered droplets. In comparing experiments 7Aa1 and 7Ab1,
+which differ only in the caliber of the bullet, experiment 7Ab1,
+corresponding to the larger caliber, produced more droplets in
+both forward and backward spatter. It also seems as if the
+experiments with an open-faced bare sponge produce more
+droplets overall when accounting for the experimental incon-
+sistencies of 7Db1 and 7Db2.
+Using the particle analysis toolset of ImageJ, the side view area
+of each individual droplet can also be determined. An average of all
+these values in each experiment is shown in Fig. 6
+For 
+the 
+experiments 
+which 
+revealed 
+both 
+forward 
+and
+backward spattered droplets, there is an insigniﬁcant difference
+between the average side view area of droplets in the case of a
+bare sponge. The silicone-covered sponge in experiment of
+7Db2 resulted in much larger backward spattered droplets, albeit
+Fig. 3. Droplet velocities for experiment 7Db1 shown in panel (a), and 7Db2 shown in panel (b). The red dashed lines with circular data points represent the results for
+forward spatter, and the solid blue line with square data points is for backward spatter. The error bars are the standard deviations of the set of data. Note that the data points
+are once again slightly offset from their corresponding time from impact value in order to more easily distinguish the error bars. (For interpretation of the references to color
+in this ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 4. Cropped image of the backward spatter region of experiment 7Aa1 at 0.1 ms
+after the bullet impact [1]. The two labels, R I and R II, represent the two regimes
+found. The ﬁrst regime, R I, is where recognizable droplets which are relatively large
+and travel relatively slowly begin to form; they were analyzed by PIV. Note, that as
+time goes on, the boundary between R I and R II moves towards the right of the
+image and at about 0.4 ms, individual droplets in R I are easy to resolve.
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141 
+137
+
+
+--- PAGE 5 ---
+
+that might be due to the blood pooling towards that direction in
+the sponge as discussed above.
+Using the data from the high-speed videos of each experiment
+at 0.5 ms after the bullet impact, the maximum angular spread of
+the forward and backward spatter was established by drawing
+tangents to the issued drop clouds near the target faces and
+reckoning their angles from the bullet axis. This resulted in the
+average upper angles of the close-to-cone domain in which
+droplets are issued for the forward and backward spatter of 27  9
+and 57  7, respectively, whereas the lower angles of the close-to-
+cone domain are 28  12 and 30  18, respectively. The detailed
+information on these angles is given in Fig. 7, with the lower semi-
+angles shown as negative.
+Fig. 7 shows that backward spattered droplets have a wider
+spread angle than the forward spattered ones. The bare sponge
+experiments 7Aa1 and 7Ab1 revealed an almost symmetric upper
+and lower angles of the spatter domains in forward and backward
+spatter. Such symmetry is less prominent in the other experiments
+which indicates that covering a sponge with silicone or tape results
+in an uneven distribution of droplets. This is important because
+the initial droplet cloud signiﬁcantly determines their further
+trajectories and shows that the effect of victim’s clothes may be
+crucial for crime scene reconstruction. It should be emphasized
+that blood droplets were seen to form from the target periphery
+not penetrated by the bullet and continued to be formed long after
+the bullet left the target. The above-mentioned angles correspond
+to 0.5 ms after the bullet impact. However, they vary in time, albeit
+not too much, i.e. staying close to the values shown in Fig. 7.
+The effect of muzzle gases on the blood spattered droplets is
+more pronounced in experiments where the distance between the
+muzzle of the gun and target was short. An example of this is
+shown 
+in 
+a 
+high-speed 
+video 
+not 
+analyzed 
+above, 
+whose
+experiment number was 7Aa7 which was a .22 cal bullet impacting
+a blood-impregnated sponge at 50 cm. Several frames of this video
+are shown in Fig. 8.
+While the motion of the muzzle gases is difﬁcult to discern in
+the still images, it is clearly visible in the video. The effect of the
+muzzle gases is the following: as time progresses, the droplets do
+not only move outward from the surface of the sponge, but are also
+entrained by muzzle gases impinging onto the sponge and turn
+towards the left, which is against gravity and against backward
+spatter motion. This phenomena has been discussed in literature
+before [29], and clearly should not be ignored.
+Two more observations worth noting were made when viewing
+the selection of MFRC videos. Both of them are revealed in the
+forward spattered section of experiment 7Db2, of which a series of
+four video frames are shown in Fig. 9.
+First, note that the angle of the bullet coming out of the target is
+not normal to the target face. The forward spattered droplets seem
+to follow the axis of penetration and as a result, they travel at a
+downward angle of inclination. Note that this trend is opposite to
+what is seen for backward spattered droplets in Fig. 8. For that
+Fig. 5. The number of droplets in the PIV region of interest for each experiment. The
+red bars with negatively sloped crosshatching are for the forward spatter and the
+blue bars with positively sloped crosshatching are for backward spattered. (For
+interpretation of the references to color in this ﬁgure legend, the reader is referred
+to the web version of this article.)
+Fig. 6. Average side view area of the droplets in all experimental cases. The red
+triangles represent forward spattered droplets and the blue squares represent the
+backward spattered ones. The error bars show the standard deviation. For
+experiment 7Db1, the error bar for the area about 0.75 mm2 is too wide to be
+included in full in this frame. (For interpretation of the references to color in this
+ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 7. Spread angles of the close-to-cone domain in which droplet clouds are issued
+at 0.5 ms. The dashed line is the axis of symmetry of the bullet, the red bars
+correspond to the forward spatter and the blue bars to the backward spatter. (For
+interpretation of the references to color in this ﬁgure legend, the reader is referred
+to the web version of this article.)
+138 
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141
+
+
+--- PAGE 6 ---
+
+experiment, the bullet traveled horizontally, parallel to the ﬂoor,
+and therefore impacted the sponge target at an angle. The
+backward spattered droplets are then issued normally to the face
+of the target, not in preference with the axis of the bullet as seen in
+forward spatter in Fig. 9.
+The ﬁnal important observation in Fig. 9 is that the issued blood
+droplets do not continue to travel as their initial trajectory would
+tend to suggest. For example, looking at the top grouping of
+droplets in Fig. 9b, notice that they move downward towards the
+centerline of where the bullet was in Fig. 9c, and then they
+continue to move in that direction as indicated in Fig. 9d. The same
+phenomena happen with the bottom grouping of droplets in
+Fig. 9b, except in reverse. This means that the droplets initially
+traveling upwards, end up projected downwards, and vice versa for
+the group initially traveling downwards. The process may be
+difﬁcult to visualize with only four frames of experiment 7Db2, but
+it is clearly visible in the MFRC video online. This phenomena can
+occur because of two possibilities. First, it might be that the
+aerodynamic wake forming behind the bullet is causing the
+droplets to spiral about the axis of penetration, a process which
+would be very difﬁcult to see from this viewpoint and might
+manifest itself as this artifact. Second, the low pressure zone
+within the wake of the bullet may be causing the droplets to travel
+opposite to their initial direction. With the current set of MFRC
+videos, it is impossible to accurately deduce a reason. It should be
+emphasized that in the other videos used in this analysis which
+Fig. 8. Frames from experiment 7Aa7 where panel (a) corresponds to 2.4 ms, (b) 6.4 ms, (c) 7.9 ms, and (d) 9.4 ms after the horizontally traveling bullet impacted the inclined
+sponge [1].
+Fig. 9. Frames from the forward spattered portion of experiment 7Db2 [1]. Panel (a)
+is 0.2 ms, (b) 0.8 ms, (c) 1.1 ms, and (d) 1.5 ms after the bullet impacted the silicon-
+encased sponge target.
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141 
+139
+
+
+--- PAGE 7 ---
+
+contained forward spatter, this phenomena were only observed in
+experiment 7Db2.
+4. Conclusion
+Five different videos from the MFRC were quantitatively
+analyzed with PIV and droplet detection software. The videos
+are freely available to the public [1] as well as the droplet detection
+software used which was ImageJ. A toolset called analyze particles
+was used after the image was converted to binary with the use of a
+standard, automatic local thresholding method. The PIV software
+was PIVlab 1.41 which is a free application that works within the
+MATLAB environment [40]. The average velocity of both forward
+spattered and backward spattered droplets, number of droplets,
+and average side view area were found.
+When comparing experiment numbers 7Aa1 and 7Ab1, it was
+observed that a larger caliber bullet results in more, faster, and larger
+droplets in both forward and backward spatter. Covering the blood-
+impregnated sponge target with tape, as was done in experiment
+7Cb3, reduced the amount of droplets created, and only produced
+forward spatter. These droplets were of about the same size as in the
+experiment with a comparable bullet size, 7Ab1. The average spread
+angles of the close-to-cone domain of the droplet cloud in the
+forward and backward spatter for the upper domain were measured
+as 27  9 and 57  7, respectively, whereas for the lower domain
+they were 28  12 and 30  18, respectively. Encasing the sponge in
+silicone produced mixed results which may be attributed to the
+blood ﬁlling process of the sponge. It was also noted that the blood
+spatter experiments clearly produced two regimes of spatter. In one
+of the regimes, a ﬁne mist which traveled rapidly and was created
+immediately after the bullet impacted the target. In another regime
+larger droplets propagated much slower, and within this regime the
+analysis contained in this work was performed. The inclination angle
+of the spattered blood droplets was seen to be inﬂuenced by the
+impact angle of the bullet which is not the case for backward
+spattered droplets. Additionally, the effect of muzzle gas was
+prominent and the aerodynamic wake of the bullet may inﬂuence
+the trajectory of the blood spatter.
+It was found that in both forward and backward spatter, the
+droplets analyzed with PIV were moving with an acceleration. This
+is because those droplets which constitute a dense cloud
+practically do not experience air drag, and on the contrary are
+pulled forward by the aerodynamic wake of the preceding droplets
+spattered initially, at earlier time moments. This effect is similar to
+the aerodynamic interaction of birds ﬂying in V formation. Only at
+the later stage when droplets are sufﬁciently separated, their
+mutual aerodynamic interaction has been diminished and they
+started to experience aerodynamic drag and decelerate. The MFRC
+video database, despite its limits in space and time resolution,
+contain an immense information that can facilitate the develop-
+ment of BPA models.
+Note that the videos analyzed were chosen from the entire
+MFRC database because they were of high enough quality to
+extract reliable information on the physical mechanisms of
+backward and forward blood spatter. It should be emphasized
+that there is no known recording of the volume of blood which was
+used in each experiment. From viewing the videos, however, it is
+clear that a sufﬁcient amount of blood was soaked into the sponge
+target because blood stains several times larger than the impacting
+bullet are clearly visible. Nevertheless, in this work we showed that
+even with such limited accompanying information, the database is
+a rich source for the exploration of the physical mechanisms of
+blood spatter aimed in the present work.
+The physical aspects of the process which we were able to
+establish in this work facilitate and conﬁrm the foundations of the
+detailed numerical models recently developed in Ref. [27], which
+describe in detail velocities, sizes and trajectories of blood drops
+formed in back spatter after a gunshot, as well as their impact
+angles and velocities, and the stain size they form.
+Funding
+Financial support for this work was provided by the United
+States National Institute of Justice (award NIJ 2014-DN-BX-K036).
+References
+[1] Ames Laboratory Midwest Forensics Resource Center, MFRC Blood Pattern
+Analysis Videos. https://www.ameslab.gov/mfrc/bpa-videos. (Accessed Janu-
+ary 2017).
+[2] T.L. Laber, B.P. Epstein, M.C. Taylor, High speed digital video analysis of
+bloodstain pattern formation from common bloodletting mechanisms, I.A.B.P.
+A. News (June) (2008) 4–12.
+[3] S.K. Bandyopadhyay, N. Basu, Review of common bloodstain patterns
+documented at a crime scene in the event of blunt force hit, Am. J. Comput.
+Sci. Inf. Technol. 3 (2015) 45–63.
+[4] W. Ristenpart, F. Tulleners, S. Siu, J. Saifu, F. Springer, Quantitative Analysis of
+High Velocity Bloodstain Patterns, National Institute of Justice Final Technical
+Report, (2013), pp. 1–86 April.
+[5] N. Behrooz, L. Hulse-Smith, S. Chandra, An evaluation of the underlying
+mechanisms of bloodstain pattern analysis error, J. Forensic Sci. 56 (2011)
+1136–1142.
+[6] S. De Gruttola, K. Boomsma, D. Poulikakos, Computational simulation of a non-
+Newtonian model of the blood separation process, Artif. Org. 29 (2005)
+949–959.
+[7] S. Charm, G. Kurland, Viscometry of human blood for shear rates of
+0–100,000 sec1, Nature 4984 (1965) 617–618.
+[8] A. Kolbasov, P.M. Comiskey, R.P. Sahu, S. Sinha-Ray, A.L. Yarin, B.S. Sikarwar, S.
+Kim, T.Z. Jubery, D. Attinger, Blood rheology in shear and uniaxial elongation,
+Rheol. Acta 55 (2016) 901–908.
+[9] S. Chien, R.G. King, R. Skalak, S. Usami, A.L. Copley, Viscoelastic properties of
+human blood and red cell suspensions, Biorheology 12 (1975) 341–346.
+[10] A.L. Copley, R.G. King, S. Chien, S. Usami, R. Skalak, C.R. Huang, Microscopic
+observations of viscoelasticity of human blood in steady and oscillatory shear,
+Biorheology 12 (1975) 257–263.
+[11] M. Brust, C. Schaefer, R. Doerr, L. Pan, M. Garcia, P.E. Arratia, C. Wagner,
+Rheology of human blood plasma: viscoelastic versus Newtonian behavior,
+Phys. Rev. Lett. 110 (2013) 078305.
+[12] C. Picart, J.M. Piau, H. Galliard, P. Carpentier, Human blood shear yield stress
+and its hematocrit dependence, J. Rheol. 42 (1998) 1–12.
+[13] J.J. Hathcock, Flow effects on coagulation and thrombosis, Arterioscler.
+Thromb. Vasc. Biol. 26 (2006) 1729–1737.
+[14] S.P. Lin, R.D. Reitz, Drop and spray formation from a liquid jet, Annu. Rev. Fluid
+Mech. 30 (1998) 85–105.
+[15] J. Eggers, E. Villermaux, Physics of liquid jets, Rep. Prog. Phys. 71 (2008)
+036601.
+[16] A.L. Yarin, Free Liquid Jets and Films: Hydrodynamics and Rheology, Longman
+Scientiﬁc & Technical and John Wiley & Sons, Harlow, New York, 1993.
+[17] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics
+in bloodstain pattern analysis: comparative review and research opportu-
+nities, Forensic Sci. Int. 231 (2013) 375–396.
+[18] C. Clasen, J. Bico, V.M. Entov, G.H. McKinley, ‘Gobbling drops’: the jetting-
+dripping transition in ﬂows of polymer solutions, J. Fluid Mech. 636 (2009)
+5–40.
+[19] D.D. Joseph, J. Belanger, G.S. Beavers, Breakup of a liquid drop suddenly
+exposed to a high-speed airstream, Int. J. Multiph. Flow 25 (1999)
+1263–1303.
+[20] F. Mighri, P.J. Carreau, A. Ajji, Inﬂuence of elastic properties on drop
+deformation and breakup in shear ﬂow, Soc. Rheol. 42 (1998) 1477–1490.
+[21] A.L. Yarin, Drop impact dynamics: splashing, spreading, receding, bouncing .
+. . , Annu. Rev. Fluid Mech. 38 (2006) 159–192.
+[22] M. Rein, Phenomena of liquid drop impact on solid and liquid surfaces, Fluid
+Dyn. Res. 12 (1993) 61–93.
+[23] V. Bertola, An experimental study of bouncing Leidenfrost drops: comparison
+between Newtonian and viscoelastic liquids, Int. J. Heat Mass Tranf. 52 (2009)
+1786–1793.
+[24] T. Jiang, J. Ouyang, B. Yang, J. Ren, The SPH method for simulating a viscoelastic
+drop impact and spreading on an inclined plate, Comput. Mech. 45 (2010)
+573–583.
+[25] J.J. Cooper-White, R.C. Crooks, D.V. Boger, A drop impact study of worm-like
+viscoelastic surfactant solutions, Coll. Surf. A: Physicochem. Eng. Asp. 210
+(2002) 105–123.
+[26] A. Carre, J.C. Gastel, M.E.R. Shanahan, Viscoelastic effects in the spreading of
+liquids, Nature 379 (1996) 432–434.
+[27] P.M. Comiskey, A.L. Yarin, S. Kim, D. Attinger, Prediction of blood back spatter
+from a gunshot in bloodstain pattern analysis, Phys. Rev. Fluids 1 (2016)
+043201.
+140 
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141
+
+
+--- PAGE 8 ---
+
+[28] U. Windberger, A. Bartholovitsch, R. Plasenzotti, K.J. Korak, G. Heinze, Whole blood
+viscosity, plasma viscosity and erythrocyte aggregation in nine mammalian
+species: reference values andcomparison of data, Exp. Physiol.88(2003) 431–440.
+[29] M.C. Taylor, T.L. Laber, B.P. Epstein, D.S. Zamzow, D.P. Baldwin, The effect of
+ﬁrearm muzzle gases on the backspatter of blood, Int. J. Legal Med. 125 (2010)
+617–628.
+[30] M.B. Illes, A.L. Carter, P.L. Laturnus, A.B. Yamashita, Use of BackTrackTM
+computer program for bloodstain pattern analysis of stains from downward-
+moving drops, J. Can. Soc. Forensic Sci. 38 (2005) 213–217.
+[31] A.L. Carter, The directional analysis of bloodstain patterns: theory and
+experimental validation, J. Can. Soc. Forensic Sci. 34 (2001) 173–189.
+[32] R. Kanable, BackTrack going forward, Law Enforc. Technol. (August) (2006) 40.
+[33] A.L. Carter, J. Forsythe-Erman, V. Hawkes, A.B. Yamashita, Validation of the
+BackTrackTM suite of programs for bloodstain pattern analysis, J. Forensic
+Identif. 56 (2006) 242–254.
+[34] A.L. Carter, M. Illes, K. Maloney, A.B. Yamashita, B. Allen, B. Brown, L. Davidson,
+G. Ellis, J. Gallant, A. Gradkowski, J. Hignell, S. Jory, P.L. Laturnus, C.C. Moore, R.
+Pembroke, A. Richard, R. Spenard, C. Stewart, Further validation of the
+BackTrackTM computer program for bloodstain pattern analysis: precision and
+accuracy, Int. Assoc. Bloodstain Pattern Anal. News 21 (2005) 15–22.
+[35] W.F. Rowe, Errors in the determination of the point of origin of bloodstains,
+Forensic Sci. Int. 161 (2006) 47–51.
+[36] K.G. de Bruin, R.D. Stoel, J.C.M. Limborgh, Improving the point of origin
+determination in bloodstain pattern analysis, J. Forensic Sci. 56 (2011)
+1476–1482.
+[37] N. Behrooz, Bloodstain pattern analysis for determination of point of origin, B.
+S., thesis, University of Toronto, 2009.
+[38] C.R. Varney, F. Gittes, Locating the source of projectile ﬂuid droplets, Am. J.
+Phys. 79 (2011) 838–842.
+[39] N. Laan, K.G. de Bruin, D. Slenter, J. Wilhelm, M. Jermy, D. Bonn, Bloodstain
+pattern analysis: implementation of a ﬂuid dynamic model for position
+determination of victims, Sci. Rep. 5 (2015) 11461.
+[40] W. Thielicke, E.J. Stamhuis, PIVlab-Time Resolved Digital Particle Image
+Velocimetry Tool for MATLAB (v 1.41), (2014), doi:http://dx.doi.org/10.6084/
+m9.ﬁgshare.1092508.
+[41] C.A. Schneider, W.S. Rasband, K.W. Eliceiri, NIH image to ImageJ: 25 years of
+image analysis, Nat. Methods 9 (2012) 671–675.
+[42] N. Phansalkar, S. More, A. Sabale, M. Joshi, Adaptive local thresholding for
+detection of nuclei in diversly stained cytology images, Communications and
+Signal Processing (ICCSP), 2011 International Conference on. IEEE (2011)
+218–220.
+[43] P.B.S. Lissaman, C.A. Shollenberger, Formation ﬂight of birds, Science 168
+(1970) 1003–1005.
+P.M. Comiskey et al. / Forensic Science International 276 (2017) 134–141 
+141

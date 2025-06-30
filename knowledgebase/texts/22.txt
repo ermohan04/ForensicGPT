@@ -1,0 +1,627 @@
+
+
+--- PAGE 1 ---
+
+Robust estimation for area of origin in bloodstain pattern analysis via directional
+analysis
+M. Illes *, M. Boue´
+Trent University, Department of Forensic Science, Canada
+1. Introduction
+The estimation of a blood source origin is one of the most
+essential pieces of evidence that can be extracted from a
+bloodletting crime scene. When a force is applied to a blood
+source, single bloodstains will ﬂy through the air until striking a
+target surface. A bloodstain pattern area of origin is the three
+dimensional location of that blood source. Estimating the location
+by directional analysis consists of retracing the trajectories of a
+group of selected (upward directional) bloodstains that originated
+from this area. The trajectories are determined through trigono-
+metric identities that relate the width and length of a stain (more
+precisely, of an ellipse that is carefully ﬁtted to the stain) to the
+impact angle of the droplet and to the glancing angle of the
+bloodstain (the angle measured on the wall between the main axis
+of the stain and the vertical) [1]. Once the trajectories emanating
+from each stain have been retraced, obtaining the estimate of the
+origin is a simple procedure. The x and y coordinates of the
+estimate correspond to the arithmetic mean1 of the x and y
+coordinates, respectively, of all the points on the x–y plane (the
+top-view) where the retraced trajectories intersect (see Fig. 1).
+When viewed from the side (on the x–z plane), and ﬁxing the x
+coordinate of the origin, an upper limit for the z coordinate is
+obtained as the mean of the z values of the trajectories at that ﬁxed
+level of x (see Fig. 2).
+The method of directional analysis as described above has been
+well documented and validated in the literature (see [1–5] and the
+references therein). Nevertheless, considering the sensitivity of the
+mean to the presence of outliers, it is natural to ask whether the
+method can be made more robust by modifying the averaging
+procedure. In this paper we focus our attention on two robust
+alternatives: the trimmed mean and a deterministic version of the
+RANSAC algorithm. We analyze and compare the performance of
+these statistics under two different settings. In the ﬁrst setting
+(Case A), we consider impact patterns where all upward moving
+stains have been measured, and we take random samples of size 20
+from all of the stains. In this situation the variance of the
+estimation is greatly reduced for all patterns when using the
+trimmed mean, with a small improvement in accuracy. Moreover,
+when stains were excluded from the samples according to the
+criteria for stain selection identiﬁed in [2], the reduction in
+variance was less pronounced in most cases, supporting the
+conclusion that those criteria can indeed help identify stains which
+affect the accuracy of the estimation negatively. We also study the
+more realistic setting (Case B) where only a small set of stains has
+been deliberately selected and measured by a bloodstain analyst
+Forensic Science International 226 (2013) 223–229
+A R T I C L E 
+I N F O
+Article history:
+Received 8 May 2012
+Received in revised form 15 January 2013
+Accepted 25 January 2013
+Available online 19 February 2013
+Keywords:
+Bloodstain pattern analysis
+Impact pattern
+Forensic science
+Statistics
+Directional analysis
+Area of origin
+A B S T R A C T
+Directional analysis provides quantitative data supporting the three-dimensional estimation of the area of
+origin for impact bloodstain pattern analysis. The ﬁnal stage of directional analysis consists of calculating
+the point of origin via the arithmetic mean of top-view intersecting points and side-view heights of the
+virtual trajectories of single stains within the impact pattern. Given the sensitivity of the mean to the
+presence of outliers (droplets that have been inﬂuenced by gravitational force and aerodynamic drag), it is
+natural to ask whether directional analysis can be made more robust by modifying the averaging
+procedure. In this paper we focus our attention on two robust alternatives to the arithmetic mean: the
+trimmed mean and a deterministic version of the RANSAC algorithm. Our results suggest that the trimmed
+mean is a practical robust alternative to the arithmetic mean, whereas the deterministic RANSAC procedure
+is not. Since there can be no guarantee that stain selection can be free of outliers, the trimmed mean can be
+used as an aide in their detection. Moreover, our analysis reveals that the trimmed mean can also be used to
+detect outliers among the points of intersection of trajectories. Outliers of this type occur as the intersection
+points of trajectories emanating from stains with nearly vertical paths.
+ 2013 Elsevier Ireland Ltd. All rights reserved.
+* Corresponding author at: Department of Forensic Science, Trent University,
+1600 West Bank Drive, Peterborough, Ontario, Canada K9L 1Z7.
+Tel.: +1 705 748 1011x7227; fax: +1 705 748 1003.
+E-mail address: mikeilles@trentu.ca (M. Illes).
+1 Henceforth we refer to the arithmetic mean simply as the mean.
+Contents lists available at SciVerse ScienceDirect
+Forensic Science International
+jou r nal h o mep age: w ww.els evier .co m/lo c ate/fo r sc iin t
+0379-0738/$ – see front matter  2013 Elsevier Ireland Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.forsciint.2013.01.030
+
+
+--- PAGE 2 ---
+
+following standard selection procedures [2,3]. In this case we
+obtain no signiﬁcant difference in the mean errors of estimation
+resulting from all three methods.
+2. Methodology
+2.1. Blood stain pattern data
+The data used in this paper are from impact patterns created
+within a laboratory environment for past experiments, so that the
+true location of the source is known for each pattern. In Case A
+(patterns labeled as A1–A5 here), the data used were originally
+created and collected for analysis in [2]. Data for Case B (patterns
+labeled as B1–13 here) were originally created and collected for
+analysis in [4,5] and other similar research projects. The reader is
+referred to those papers for details in the methodology for pattern
+creation in each case. In each setting, information for all stains used
+here was initially collected and stored using BackTrack/WinTM and
+BackTrack/ImagesTM. Using those packages, we obtained informa-
+tion on the retraced trajectories for all stains. After storing all the
+Fig. 1. Intersection of trajectories using Back TrackTM top-view.
+Fig. 2. Estimation of z using Back TrackTM side-view.
+M. Illes, M. Boue´ / Forensic Science International 226 (2013) 223–229
+224
+
+
+--- PAGE 3 ---
+
+retraced trajectories in the appropriate format, we then performed
+all our calculations using the statistical language R [6].
+2.2. Methods of estimation
+The following three methods for computing the source of origin
+from the retraced trajectories will be compared. In what follows,
+we denote the estimated source of origin as CP = (CPx,CPy,CPz). We
+recall that CPz represents an upper bound for the true z coordinate.
+1. Arithmetic mean. This method corresponds to the basic top-
+view/side-view directional analysis procedure described in the
+introduction. Here the x and y components of all crossing points
+of trajectories on the x–y plane are averaged (component by
+component) to obtain CPx and CPy. Then CPz is calculated as the
+mean on the x–z plane (the side view) of the z values on the
+projected trajectories at x = CPx.
+2. Trimmed mean. We consider the same top-view/side-view
+directional analysis as in (1), but in both steps we use the
+trimmed mean for averaging the coordinates. A trimmed mean
+is computed by removing a percentage of the largest and
+smallest observations and averaging the values that remain. In
+contrast with the arithmetic mean, it is a measure of central
+tendency that is robust in the presence of outliers. The results
+presented here use a trimming percentage of 10%. We note that
+we also used the 20% trimmed mean, with very similar results to
+those discussed here.
+3. A deterministic version of RANSAC. The RANSAC2 algorithm is a
+method of parameter estimation in the presence of outliers
+developed and used for problems in computer vision. Its use for
+bloodstain pattern analysis was introduced in [7], where they
+use computer vision methods (namely, multiple-view geome-
+try) as a different approach to source of origin estimation. Here
+we discuss the use of a RANSAC-like algorithm when estimating
+the source via directional analysis. Because in this context the
+number of stains used by the analyst is typically small, the usual
+random sampling and termination rule are not necessary, and
+the algorithm is greatly simpliﬁed, resulting in a deterministic
+version which performs a ﬁxed number of operations. This can
+be done efﬁciently using R.3 The algorithm we consider is the
+following:
+i. Fix a value d > 0 (called the distance threshold).
+ii. Repeat i) and ii) below for every pair of intersecting trajectories
+(two is the minimal number of trajectories required to make an
+estimate):
+i. Estimate 
+the 
+source 
+of 
+origin 
+CP 
+from 
+the 
+top-view
+intersection of the two trajectories, together with the
+average of the z coordinates of the pair of lines at the
+intersection.
+ii. Select the elements from the entire set of trajectories whose
+distance from the trajectory to CP is less than d (these
+elements form the consensus set CS for this pair, and are
+considered ‘‘inliers’’).
+iii. The CS with the largest number of inliers is selected as optimal,
+and the source is recomputed using all the trajectories in the CS.
+In the presence of ties, the optimal CS is taken at random from
+all the tied CSs.
+The distance threshold considered in this paper is d = 2 (chosen
+arbitrarily as a value that is neither too large nor too small). Values
+of d = 1, 2.5, and 3 were also considered, with very similar results. A
+modiﬁcation where the distance threshold is allowed to vary is
+discussed below.
+2.3. Procedure
+Case A: random samples. For each one of the ﬁve impact patterns
+A1–A5, a ﬁrst set of 10,000 random samples of size 20 was selected
+from all available stains for that pattern, with 10 stains taken from
+each side of the pattern. The same sample was used to estimate the
+source via the three methods listed in Section 2.2. A second set of
+10,000 random samples from each pattern was also selected. Stains
+qualifying as undesirable according to the outlier and zone criteria
+outlined in [2] were not included in this second set of samples.
+Once again, the source was estimated via the three methods using
+the same sample. The error of each estimate was calculated as the
+Euclidean distance between the known source of origin and the
+estimated source of origin. We note that henceforth we will refer to
+the second set of samples as the set with no outliers, with the clear
+understanding that some outliers are still present in the data set,
+except that these have not been identiﬁed a priori by us as obvious
+outliers or undesirable stains using the criteria stated in [2].
+Case B: samples selected by bloodstain analysts. For each one of
+the thirteen selected sets of stains from patterns B1–B13, the
+source was estimated via the three methods listed in Section 2.2
+and the error of the estimation was calculated.
+3. Results and discussion
+3.1. Case A: random samples.
+Table 1 allows us to compare the variability in estimation for
+patterns A1–A5 for the three methods considered. The variable
+being plotted and summarized is the error of the estimates (the
+Euclidean distance between the known source of origin and the
+estimated one). A visual examination of the boxplots in the ﬁrst
+column indicates that the trimmed mean is the measure that is
+most robust to the presence of outliers, producing estimates with
+the smallest variation and smallest maximum error for all patterns.
+The reduction in variability is less pronounced when stains
+identiﬁed as outliers are not included in the samples, which further
+supports the use of those criteria for the identiﬁcation of
+undesirable stains. Although the Ransac procedure also reduces
+variability and maximum error in some cases, it does not perform
+well consistently, as can be seen in the boxplots for patterns A3–
+A5, and therefore we do not consider it further as a satisfactory
+robust alternative.
+The maximum errors and variability are quantiﬁed in the
+second column of the table. The trimmed mean has the smallest
+standard deviation and the smallest maximum error for all
+patterns. The largest difference is observed for pattern A4 with
+all stains, where the standard deviation using the arithmetic mean
+is sixteen times larger than when using the trimmed mean
+(between 15.7 and 16.3 times larger, with 95% conﬁdence), and the
+maximum error is reduced from 517 cm to 12 cm. The smallest
+improvement is for pattern A1 after outliers have been removed,
+and yet the standard deviation for the arithmetic mean is still
+signiﬁcantly larger at 1.28 times that of the trimmed mean
+(between 1.25 and 1.30 times larger, with 95% conﬁdence),
+although with no improvement on maximum error. We remark
+that although the error of estimation is known to increase as the
+true distance to the wall increases, we did not observe a
+relationship between the magnitude of improvement in standard
+deviation and the true distance to the wall.
+When taking all patterns and samples into account, we found
+that the trimmed mean also improves the average error of
+estimation slightly. An average improvement of 2.8 cm is obtained
+when sampling from all stains ((2.6, 2.9) with 95% conﬁdence), and
+an average improvement of 2.3 cm is obtained after removing
+obvious outliers ((2.1, 2.4) with 95% conﬁdence). Although this
+2 RANSAC stands for RANdom Sample and Consensus algorithm.
+3 For a complete discussion of RANSAC, the reader is referred to [8].
+M. Illes, M. Boue´ / Forensic Science International 226 (2013) 223–229 
+225
+
+
+--- PAGE 4 ---
+
+Table 1
+Summary of variability and maximum error in estimation for Case A.
+M. Illes, M. Boue´ / Forensic Science International 226 (2013) 223–229
+226
+
+
+--- PAGE 5 ---
+
+improvement does not seem important when averaging through
+all patterns and samples, its real importance comes to light when
+examining each pattern separately (pairing sample by sample), as
+we now discuss.
+Table 
+2 
+summarizes 
+the 
+results 
+when 
+comparing 
+the
+estimations using the arithmetic mean and those using the
+trimmed mean, paired sample by sample. The variable being
+summarized is the difference between the error of estimation
+using the mean minus the error of estimation using the trimmed
+mean based on the same set of stains. The fact that the median
+differences are either negative or very close to zero reveals that
+in about half the samples the trimmed mean actually increases
+the error of the estimation: when no real outliers are present,
+‘‘good’’ stains are removed from the sample and this smaller
+sample results in a loss of accuracy. The largest loss is for
+pattern A5, with a difference of 12.5 cm. Being the pattern that is
+farthest from the wall (x = 43.1), estimation with fewer stains
+affects this pattern the most.
+Nevertheless, even the biggest loss in accuracy is not very large,
+especially when compared to the large improvements observed in
+the presence of outliers. Careful examination of the sets of stains
+where these huge differences took place allows us to understand
+the reason behind those differences.
+On the one hand, the presence of a single stain that is an
+extreme outlier can affect the estimation dramatically. Exactly
+how it is that an outlier affects the estimation can be seen in Fig. 3,
+where ﬁve stains taken from pattern A1, together with their
+retraced trajectories, are viewed on the y–z plane. Stain 5 stands
+out as a clear outlier, resulting in a trajectory pointing in a
+completely different direction than the rest. A blood stain analyst
+adhering to accepted practices would discard such a stain from
+any estimation (it is in fact one of the stains discarded for the
+second set of samples from that pattern). The fact that discarding
+that stain is the right choice is made apparent by the sampling
+results of this pattern: every sample where the trimmed mean
+improved the estimation in more than 20 cm included this
+particular stain.
+On the other hand, our analysis revealed that the trimmed
+mean can also improve the estimation dramatically when
+outliers occur, not among stains, but among points of intersec-
+tion of trajectories. These outliers happen in patterns where at
+least two stains with nearly vertical paths (one on each side of
+the pattern) are present. When two stains have very similar
+gamma angles, both pointing straight down through the y–z
+center, the intersection of their retraced trajectories is a point
+completely apart from all other intersections. When taking the
+mean, this point pulls the estimation away from the true source
+of origin.
+As an extreme example we examine the worst sets of stains
+from pattern A5, all of which include the same two stains: stain 36
+and stain 152. There are some reasons to consider stain 36 as a
+possible outlier, but we found no reason to regard stain 152 as one.
+Indeed, this is a situation where the problem is not caused by a
+single stain; the problem arises from the presence of both stains
+together. In particular, stains 36 and 152 have nearly vertical paths
+(with gamma angles of 354 and 358 degrees, respectively), so that
+the intersection of their retraced trajectories is a point completely
+away from all other intersections (x = 4397, y = 124, z = 3482).
+The resulting estimate for area of origin includes a value of
+CPx = 33, which would clearly be deemed absurd by any blood
+stain analyst, calling for further exploration of the data. However,
+for less extreme cases where the estimate is inaccurate but does
+not stand out as absurd, the phenomenon can be detected by the
+use of the trimmed mean.
+3.2. Case B: samples selected by bloodstain analysts
+We have seen that when considering random samples of stains,
+the trimmed mean performs better than both the arithmetic mean
+and the Ransac method when estimating source of origin via
+directional analysis. Be that as it may, we also need to analyze how
+the methods compare when the stains have been chosen with care
+by a bloodstain analyst, since that is how estimations are done in
+practice. Patterns B1–B13 are used for that purpose, and the results
+can be found in Table 3. With a single sample from each pattern,
+the only comparison that is possible here is the one between the
+average errors of estimation for each method. Note that the
+average error obtained with the Ransac method is larger than that
+of the mean, and that there is practically no difference between the
+average errors obtained for the mean and the trimmed mean. In
+fact, after adjusting for the effect of the true horizontal distance
+from the source to the wall (taking into account that the error of
+the estimation increases as the distance to the wall increases), we
+found no signiﬁcant difference between the mean true errors for all
+three methods (P > 0.2).
+We also evaluated the performance of another variation of the
+Ransac method – one that uses a criterion for ﬁnding the optimal
+consensus set (CS) that could not be applied earlier in the context
+of thousands of samples. This second criterion is often employed in
+cluster analysis when trying to ﬁnd the natural number of clusters
+in a data set [9], and it involves looking for the number of clusters
+at which there is a knee, peak or dip in the plot of the evaluation
+measure against the number of clusters (here we use the sum of
+squared errors (SSE) as the evaluation measure). More precisely,
+instead of ﬁxing a distance threshold arbitrarily, different values of
+the distance threshold are considered, and the size of the largest
+consensus set for each value is plotted against the SSE obtained
+from the estimation using that set. The optimal CS is then chosen as
+that one where there is a knee, peak or dip in the plot. When there
+is more than one CS to choose from, one can either pick the one
+with the lowest SSE, or obtain the estimate as the average of the
+estimates from all the candidate consensus sets.
+Table 2
+Summary for differences between error of estimation using the mean minus error of estimation using the trimmed mean for the same sample.
+Pattern 
+Min. 
+Median 
+Mean 
+Max. 
+True x
+All Stains 
+A1 
+8.4 
+0.99 
+0.69 
+78.2 
+25.9
+A2 
+6.3 
+0.26 
+0.36 
+47.3 
+17.8
+A3 
+5.8 
+0.39 
+5.3 
+115.5 
+34.2
+A4 
+6.0 
+0.14 
+6.76 
+515.6 
+27.7
+A5 
+12.5 
+1.42 
+2.15 
+131.6 
+43.1
+No outliers 
+A1 
+6.8 
+0.60 
+0.83 
+6.22 
+25.9
+A2 
+5.1 
+0.16 
+0.53 
+12.4 
+17.8
+A3 
+5.7 
+0.03 
+6.89 
+272.1 
+34.2
+A4 
+6.0 
+0.23 
+4.81 
+149 
+27.7
+A5 
+10.7 
+1.23 
+0.037 
+81.6 
+43.1
+M. Illes, M. Boue´ / Forensic Science International 226 (2013) 223–229 
+227
+
+
+--- PAGE 6 ---
+
+As an example, let us consider impact pattern B13 (a pattern
+with 20 stains). We obtained different estimations for the origin
+using a distance threshold varying from 10 cm (the CS is the
+complete set) to 1.6 cm (the CS has only 10 trajectories), calculating
+the SSE for each estimation. The plot of the cardinality of the
+consensus set against the SSE is found in Fig. 4. We observe a knee
+when the CS size is 17, so we pick that consensus set as the optimal
+one, and base our ﬁnal estimation on it (clearly, the observation of a
+knee in the plot is highly subjective). With an error of only 0.6 cm,
+the estimation is in fact better than the original estimation (with
+error of 3.8 cm) and better than the trimmed mean estimation (with
+error of 2.6 cm). Unfortunately, the improvements using this
+technique were not consistent throughout the patterns. The lack
+of consistency, together with the extra computational burden of the
+method, disqualiﬁes Ransac as a robust alternative to the standard
+directional analysis estimation using the mean. Although we do not
+see it as a practical alternative, Ransac has allowed us to conﬁrm that
+a small number of well-selected stains can give a very accurate
+estimation of the source of origin.
+4. Conclusions
+From the calculations in Case A, we found that in the context of
+the source of origin estimation via directional analysis, the
+trimmed mean is a robust alternative to the arithmetic mean,
+whereas the Ransac method is not. Yet when applied to thirteen
+sets of stains that have been selected from a pattern by bloodstain
+analysts (Case B), the trimmed mean provided neither signiﬁcant
+nor practical improvement in the estimation. This lack of
+improvement is a reﬂection of the absence of outliers in those
+sets of stains: when an analyst selects stains adhering to standard
+practices in the ﬁeld (upward directional stains), extreme outliers
+are rare, so that among thirteen sets of stains we did not observe a
+single one. Since there is no guarantee that every selection can be
+Fig. 3. Stain 5 stands out as a clear outlier among nearby stains.
+Table 3
+Comparison of errors for Case B.
+Pattern 
+Mean 
+Trim 
+Ransac
+B1 
+13.23 
+14.1 
+15.22
+B2 
+10.46 
+10.03 
+7.68
+B3 
+11.77 
+12.65 
+9.55
+B4 
+2.66 
+2.57 
+3.49
+B5 
+10.95 
+10.75 
+17.45
+B6 
+8.87 
+9.19 
+7.22
+B7 
+5.07 
+5.12 
+4.53
+B8 
+15.31 
+14.38 
+19.2
+B9 
+3.84 
+3.38 
+3.29
+B10 
+8.45 
+8.43 
+11.06
+B11 
+5.01 
+5.47 
+8.0
+B12 
+22.44 
+23.13 
+28.87
+B13 
+3.82 
+2.56 
+0.38
+Average 
+9.37 
+9.36 
+10.46
+10 
+12 
+14 
+16 
+18 
+20
+5
+10
+15
+20
+25
+Ransac
+ 
+ patt ern B13
+CS size
+SSE
+Fig. 4. SSE for consensus sets of different sizes.
+M. Illes, M. Boue´ / Forensic Science International 226 (2013) 223–229
+228
+
+
+--- PAGE 7 ---
+
+free of outliers, particularly in more complex pattern analysis,
+such as the use of multiple surfaces, the trimmed mean can be
+used as an aide in the detection of outliers4. Indeed, a large
+difference between the estimation using the mean and that one
+using the trimmed mean can alert the analyst to the possible
+presence of an outlier (be it as a single stain or as an intersection
+point), calling for a closer examination of the data. If no strong
+reason for discarding a stain or an intersection point as outliers is
+found, then all stains and intersection points should be used and
+the estimation differences should be taken as an indication of the
+large variability in the data, so that caution must be exercised
+when interpreting results.
+The results presented here are relevant to the forensic
+scientiﬁc community by way of validation of methods. Recent
+publications and court cases have challenged the robustness,
+validity, accuracy and reliability of many disciplines within the
+ﬁeld 
+of 
+forensic 
+science 
+[10]. 
+The 
+statistical 
+comparison
+of the methods for calculating a point for area of origin
+estimation supports the robustness of directional analysis and
+highlights the importance of stain selection in the process of
+estimation.
+References
+[1] A.L. Carter, The directional analysis of bloodstain patterns: theory and experi-
+mental validation, Can. Soc. Forensic Sci. J. 34 (2001) 173–189.
+[2] M. Illes, M. Boue´, Investigation of a model for stain selection in bloodstain pattern
+analysis, Can. Soc. Forensic Sci. J. 44 (2011) 1–12.
+[3] J.K. Wells, Investigation of Factors Affecting the Region of Origin Estimate in Blood-
+stain Pattern Analysis, M.Sc. Thesis, University of Canterbury, Christchurch, 2006.
+[4] A.L. Carter, Further validation of the BackTrackTM computer program for blood-
+stain pattern analysis – precision and accuracy, Int. Assoc. Bloodstain Pattern
+Analysts News 21 (2005) 15–22.
+[5] A.L. Carter, J. Forsythe-Erman, V. Hawkes, M. Illes, P. Laturnus, G. Lefebvre, B.
+Yamashita, Validation of the BackTrackTM suite of programs for bloodstain pattern
+analysis, J. Forensic Iden. 56 (2006) 242–254.
+[6] R Development Core Team, R: A Language and Environment for Statistical
+Computing, R Foundation for Statistical Computing, Vienna, Austria, 2011, ISBN
+3-900051-07-0, http://www.R-project.org.
+[7] J. Wright, A. Wagner, S. Rao, Y. Ma, Homography from coplanar ellipses with
+application to forensic blood splatter reconstruction, 2006, in: IEEE Computer
+Society Conference on Computer Vision and Pattern Recognition, 2006, 1250–1257.
+[8] M. Fischler, R. Bolles, Random sample consensus: a paradigm for model ﬁtting
+with applications to image analysis and automated cartography, CACM 24 (1981)
+381–395.
+[9] P. Tan, M. Steinbach, V. Kumar, Data Mining, Pearson Education Inc., Boston, MA, 2006
+.
+[10] NAS, Strengthening Forensic Science in the United States: A Path Forward,
+National Academy of Sciences, Washington, 2009, S-16.
+4 Although the trimmed mean is not programmed directly in BackTrackTM, it is
+easy to select the most extreme trajectory crossings manually from the top-view
+and discard them from the estimation.
+M. Illes, M. Boue´ / Forensic Science International 226 (2013) 223–229 
+229

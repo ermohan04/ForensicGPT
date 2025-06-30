@@ -1,0 +1,893 @@
+
+
+--- PAGE 1 ---
+
+Surface coatings including ﬁngerprint residues can signiﬁcantly alter
+the size and shape of bloodstains
+Samira Shiria, Kenneth F. Martinb, James C. Birda,*
+a Department of Mechanical Engineering, Boston University, Boston, MA 02215, USA
+b Biomedical Forensic Sciences, Graduate Medical Sciences, Boston University School of Medicine, Boston, MA 02118, USA
+A R T I C L E 
+I N F O
+Article history:
+Received 8 June 2018
+Received in revised form 6 November 2018
+Accepted 10 December 2018
+Available online 19 December 2018
+Keywords:
+Bloodstain pattern analysis
+Surface coating
+Human blood drop impact
+Drying
+Terminal velocity
+Clotting
+A B S T R A C T
+When conducting a blood pattern analysis (BPA) the size, shape, distribution, and location of bloodstains
+found at a crime scene may be critical in forming a hypothesis as to what transpired during a bloody
+event. Prior studies have demonstrated that the size and shape of a bloodstain on a smooth surface are
+determined from impact dynamics and to a lesser degree by the target material itself. Yet, these studies
+have relied on clean surfaces, and it is unclear whether the presence of microscopic coatings and residues
+could signiﬁcantly alter the size or shape of the dried stain. Here, in the present work, experiments are
+conducted to demonstrate that various coatings, such as the sebaceous residue from a latent ﬁngerprint,
+can dramatically alter the size and shape of the stain from the moment of impact through the drying
+process. These experiments also highlight that a drop impacting a tilted superhydrophobic-coating glass
+substrate can cause the blood drop to completely recoil without leaving a stain. Relying on a combination
+of high-speed and time-lapse photography, the speciﬁc stages in the stain evolution responsible for the
+deviations from the current models are identiﬁed. At a relatively low impact velocity, the stain sizes on
+the coated glass surfaces were 35–72% smaller than on the clean glass surface. At a higher impact velocity,
+the stains on the coated surfaces were not only smaller, but also contained drop spatter around the
+primary stain that was not observable in the absence of the microscopic coatings. The reduction in
+bloodstain size did not appreciably change when a chemical was added to deactivate the anticoagulant
+and allow the blood to clot.
+© 2018 Elsevier B.V. All rights reserved.
+1. Introduction
+For over a century, blood pattern analysis (BPA) has been used
+by forensic scientists with the intention of reconstructing crime
+scenes [1–8] using the evidence in court to either provide missing
+details or to challenge or support a witness's testimony. In
+situations where blood spatter is present, the size of blood stains
+are often associated with the force involved, whereas the shape
+and location of the stains can provide insight into an approximate
+area of origin [9]. Here detectives use a stringing technique to ﬁnd a
+region of origin by assuming blood drops follow straight lines [10],
+an assumption that can overestimate the height by tens of
+centimeters [11,8]. Within the last decade, methods have been
+developed to back out the in-ﬂight parabolic trajectories of the
+drops that account for gravitational and drag effects [12]. To apply
+these methods, accurate estimate for the initial drop size and
+impact velocity are required.
+Numerous studies have been carried out to relate the drop
+size 
+and 
+impact 
+velocity 
+to 
+the 
+ﬁnal 
+size 
+and 
+shape 
+of
+bloodstain [13–17]. 
+These 
+studies 
+typically 
+relate 
+impact
+conditions with the number of spines radiating from the dried
+drop [13] or—in the absence of spines—with the stain size
+itself [15]. These relations appear to depend predominantly on
+the impact conditions [16], with some corrections based on the
+target properties [14,17]. Thus, under the same impact conditions,
+the bloodstain size might differ if the target were glass as opposed
+to polycarbonate. It is noteworthy that in almost all experiments
+investigating bloodstains, the target is cleaned before impact.
+However, at a crime scene, a surface may have unknown coatings
+or contaminants which may be invisible to the eye. For example, a
+window pane may be coated with ﬁngerprints, a kitchen counter
+with a microscopic layer of oil, or a storefront with commercially-
+available, superhydrophobic, anti-grafﬁti paint [18]. Here, a natural
+question 
+arises: 
+can 
+the 
+presence 
+of 
+microscopic 
+coatings
+fundamentally alter the size or shape of the dried stain?
+This study investigates the effect of microscopic coatings on the
+ﬁnal bloodstain size and shape from the vertical impact of a single
+drop of human blood. Coatings used here include natural
+* Corresponding author.
+E-mail address: jbird@bu.edu (J.C. Bird).
+https://doi.org/10.1016/j.forsciint.2018.12.008
+0379-0738/© 2018 Elsevier B.V. All rights reserved.
+Forensic Science International 295 (2019) 189–198
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locat e/f orsciint
+
+
+--- PAGE 2 ---
+
+secretions deposited as ﬁngerprints, vegetable oil, and a super-
+hydrophobic coating. Experiments were conducted at impact
+velocities both below and above values when splashing might be
+expected to occur. The study also explored the inﬂuence of clotting
+in the ﬁnal stain formation. In all experiments, high-speed and
+time-lapse photography were combined to document the inﬂu-
+ence of the coatings from the ﬁrst milliseconds of impact to the
+ﬁnal hours of drying. The experimental ﬁndings are contrasted
+with existing models to highlight that caution should be used
+when conducting bloodstain pattern analysis on surfaces that
+might be coated or contaminated.
+2. Material and methods
+To test effect of microscopic coatings on a bloodstain size and
+shape, systematic experiments were conducted in a laboratory
+environment. In these experiments, different coatings were
+prepared on glass slides as outlined in Section 2.1. Drops of blood
+impacted each of these surfaces. Section 2.2 reports the physical
+properties of the human blood used in the experiments. The blood
+contained anticoagulants to prevent clotting between experi-
+ments. To see inﬂuence of clotting on the bloodstain pattern, in
+some experiments the anticoagulant was deactivated following
+the protocol outlined in Section 2.3.
+The drop impact setup and procedure are described in
+Section 2.4. In each experiment, a single human blood drop was
+released onto one of the prepared glass slides from a ﬁxed height to
+set the impact velocity. By imaging the drop with both high-speed
+and time-lapse photography, the drop dynamics leading to the
+ﬁnal stain were measured and quantiﬁed.
+2.1. Surface preparation
+Five different sets of surfaces were used in this study, all
+starting with cleaned glass slides (VWR1 Plain Micro Slides). The
+ﬁrst set of glass slides was cleaned and left uncoated to be used as a
+control. To ensure there were no pre-existing oils or organic
+residues, a three-solvent method was used. In this method, the
+glass slide was ﬁrst rinsed with acetone, then with isopropanol,
+and ﬁnally with methanol, after which it was dried with
+pressurized air. These slides are referred to as ‘clean’.
+The second set of glass slides was coated with the natural
+secretions from a ﬁngerprint by a ﬁnger tapping across the slide.
+The commission of a crime can present an extremely stressful
+situation for many individuals, resulting in excessive sweating [19].
+This situation may lead a suspect to deposit enough secretions to
+form a comprehensive surface coating with minimal contact. The
+coated surfaces were viewed under oblique lighting to conﬁrm the
+residue was present.
+The third set of surfaces were partially coated with ﬁngerprint
+residue to create a binary surface, referred henceforth as a ‘half
+clean–half ﬁngerprint’ coating. To prepare this coating, a glass slide
+is ﬁrst cleaned with solvents. Half of the slide is then covered with
+Scotch tape to serve as a mask and the edge of the tape is identiﬁed
+on the reverse side of the slide with permanent ink. Natural
+secretions that form ﬁngerprints are deposited onto the masked
+slide by repeatedly tapping a ﬁnger along the surface. When the
+tape is subsequently removed, there is a sharp boundary between
+the portion of the glass that has been exposed to ﬁngerprint
+secretion and the portion that has not. The tape does not appear to
+leave a residue when it is removed from the glass; indeed this clean
+removal has been documented in the microdevice fabrication
+literature [20].
+The forth set of glass slides was coated with vegetable oil. To
+create a thin uniform coating, 50 mL of vegetable oil was deposited
+on a clean glass slide with a micropipette. A second clean glass slide
+was placed over the oil, and the slides were translated relative to one
+another to promote a uniform coverage of the oil. When the slide
+were separated, conservation of mass suggests that both were slides
+were coated with a 5–10mm-thick layer of vegetable oil.
+The ﬁfth set of target substrates consisted of a commercially-
+available superhydrophobic coating (Ultra-Ever Dry1) applied to
+glass slides. By deﬁnition, superhydrophobic surfaces combine
+chemical hydrophobicity with micro/nano-textured roughness.
+This roughness can trap air to create a surface that is so
+hydrophobic that impacting water drops contact the surface and
+rapidly bounce off [21,22]. Both a bottom and top coat were applied
+on to cleaned glass slides, and once fully dried, water drops were
+placed on the surface to ensure the coating was superhydrophobic.
+2.2. Human blood characterization
+Many recent blood impact studies have relied on swine
+blood [13,7,17]. However when drawing inferences to bloodstains
+in crime scenes, using human blood is preferable [23,24]. In the
+current experiments, whole human blood is drawn and certiﬁed by
+a third-party company (Lampire Biological Laboratories) with a
+standard sodium citrate anticoagulant. All experiments and
+measurements were performed within one week of the blood
+being drawn, and no signs of degradation were apparent.
+The fresh human blood was stored in a refrigerator at 5 C. Prior
+to conducting each set of experiments, the blood was placed in a
+water bath set at 37 C to approximate human body temperature
+and stirred with a vortex mixer to ensure a uniform blood cell
+suspension.
+Existing models for the impact dynamics of blood depend on
+the blood viscosity m, density r, and surface tension g and
+therefore representative values of these parameters needed to
+acquired [14,25]. The viscosity of blood depends on its tempera-
+ture, as well as the volume fraction of red blood cells, often referred
+to as the hematocrit [26,27]. For the blood in this study, the
+hematocrit was approximately 47%, determined by directly
+measuring the blood cell sediments and comparing it to the total
+volume of blood. The viscosity of this blood at 37 C was measured
+to be m = 4.2 mPa s. This representative measurement was obtained
+with a vibrational viscometer oscillating at a constant frequency of
+30 Hz and amplitude of less than 1 mm. Although it is known that
+blood is a shear-thinning liquid, bloodstain experiments and
+models have indicated that accounting for this complex ﬂuid
+behavior is generally unnecessary [17,24]. The role of temperature
+on blood viscosity has been documented [28]. For completeness,
+the blood viscosity is the current study is measured over a range of
+temperatures and plotted in Fig. 1a. Here the conﬁdence at each
+temperature is indicated with a standard deviation s above and
+below the mean. The other measured properties for the blood used
+in the experiments are tabulated in Fig. 1b. To ﬁnd the density of
+the blood, blood samples were weighed at known volumes,
+resulting in a measured density of r = 1021 8 kg m3. The surface
+tension of the blood was measured to be g = 61.1 0.9 mN m1
+using a standard pendant drop method [29].
+Another potentially important material property is the contact
+angle u between the blood and the surface. For the oil-coated glass,
+the contact angle between the blood, oil, and air can be calculated
+precisely with Young's equation [30] since both the surface tension
+of the blood in air and the surface tension of oil in air can be
+measured independently. For the other coatings, the less precise,
+but reasonably accurate, sessile drop method is used [31].
+2.3. Enabling blood to clot
+Most of the experiments carried out in this study were
+conducted with the blood sample unaltered. However because
+190 
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198
+
+
+--- PAGE 3 ---
+
+this blood contains anticoagulant, the blood does not clot as it
+spreads 
+and 
+dries 
+on 
+the 
+surface. 
+To 
+evaluate 
+if 
+clotting
+signiﬁcantly effects bloodstain patterns on the tested coatings,
+experiments were also conducted with the anticoagulant deacti-
+vated. There are several possible chemicals that will act as an
+anticoagulant. In the current experiments, human blood with a
+sodium citrate anticoagulant was chosen, as it can be deactivated
+by adding a 1:59 ratio of 0.5 molar calcium chloride solution [32].
+The material properties of this mixture are not expected to vary
+signiﬁcantly from the properties of the blood itself. Measurements
+from pendent drop experiments indicate that the surface tension
+decreases to g = 60.7  0.9 mN m1, a volume fraction calculation
+suggests that the density decreases to r = 1020  8 kg m3, and
+from Grunberg–Nissan mixing rule [33], the mixture viscosity is
+estimated to decrease to m = 4.1 mPa s.
+2.4. Blood impact experiments
+To explore the inﬂuence of the surface coatings on the ﬁnal
+bloodstains, a series of drop impact experiments are carried out
+(Fig. 2). After the human blood was resuspended and warmed, it
+was placed into a syringe located at a height h above the prepared
+surface. The radius of the released drop was selected to be either
+R = 1.0  0.1 mm or R = 2.0  0.1 mm. This size was controlled with
+the diameter of the syringe needle, and because any dried blood on
+the needle might alter the drop size, a new needle was used before
+each experiment. Upon detaching from the needle, the drop would
+fall onto the target surface, accelerating under the inﬂuence of
+gravity. Impact velocity adjustments U were made by changing the
+height h at which drops were released.
+The impact dynamics from a side perspective were captured
+with a high-speed camera (Photron SA-5) ﬁlming at 10 000 frames
+per second. From these images, the size R and velocity U could be
+calculated for each individual blood drop at the moment of impact.
+A second high-speed camera (Photron SA-X2) was synchronized to
+take simultaneous images from a top-down perspective (Fig. 2).
+The combination of vantage points allowed for a more complete
+measurement of the droplet shape as it impacted and spread along
+the surface, including measurements of processes that might break
+symmetry. Within a minute after impact, the sample was carefully
+moved to a back-lit platform, and images were captured every
+minute for three hours with a Nikon DSLR camera (Fig. 2).
+3. Results and discussion
+3.1. Bloodstains on clean glass
+The results from the experiments on the clean glass are
+presented and discussed ﬁrst, as bloodstains on these surfaces
+have been studied in the past [9] and can provide a baseline from
+which to evaluate the other surfaces. Blood drops of two sizes
+(R = 1 mm and 2 mm) were released from four heights: h = 10 cm,
+20 cm, 100 cm, and 200 cm. The measured impact velocity ranged
+from U = 1.5 m s1 to 6.1 m s1, consistent with gravitational
+acceleration resisted by air drag (Fig. 3a). Note that even when
+released from 200 cm, the drops are expected to be below their
+terminal velocity Ut when they impact the substrate. Terminal
+velocity can be estimated by balancing the weight of the drop and
+the drag force with the coefﬁcient of drag approximated to be 0.47
+(black lines on left-side of Fig. 3a). These terminal velocities are
+similar to what has been measured for rain drops [34].
+Fig. 3b shows images of the blood stains that result from these
+blood drops after they impact and dry on the glass surface. Each
+bloodstain is circular with a ﬁnal size rf that depend on the initial
+size R and release height h. More generally, the ﬁnal stain size on a
+given surface is considered to depend on the initial drop diameter
+2R, impact velocity U, density r, viscosity m, and surface tension g.
+Through dimensional analysis, the parameter space can be reduced
+such that the spreading factor β = rf/R depends only on two
+variables, the Reynolds number, Re  rU(2R)/m and the Weber
+number We  r(2R)U2/g.
+The results in Fig. 3b are consistent with several existing
+models, two of which are directly compared (Fig. 3c). The ﬁrst
+expression [15] is based on an energy balance and predicts that for
+horizontal surfaces
+rf
+R ¼ b ¼
+We þ 12
+3ð1  
+cos 
+uÞ þ 4We Re1=2
+  
+!1=2
+; 
+ð1Þ
+where u is the equilibrium contact angle. Another expression [16]
+is written in terms of a Padé approximant, an approximation that is
+written in terms of a ratio of two power series. These series are
+advantageous in that they typically converge rapidly relative to
+other standard approximations, and therefore can be more
+Fig.1. The properties of the Human blood used in the experiments. (a) The dynamic
+viscosity m of 
+the blood decreases with temperature. Repeated viscosity
+measurements for the sample, which had a hematocrit of 47%, were taken to
+calculate a standard deviation s (shaded region). (b) A table illustrates the values of
+the blood density r, surface tension g, and contact angles u on the various surfaces.
+Fig. 2. Experimental setup. A blood drop of radius R is released from a syringe at
+height h above the target substrate. The dynamics were ﬁlmed simultaneously with
+two high-speed cameras at different vantage points. After impact, the sample was
+moved to a back-lit stand and was photographed every minute as it dried. In
+addition to the substrate coating, the size of drop R and release height h were varied
+between experiments.
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198 
+191
+
+
+--- PAGE 4 ---
+
+accurate for a given number of terms. This approximation suggests
+that the extent that blood drop spreads follows:
+rf
+R ¼
+We1=2
+1:24 þ We1=2 Re1=5 : 
+ð2Þ
+To compare the current experimental results with these
+previous model predictions, the Reynolds and Weber numbers
+were calculated using the impact velocity and drop size observed
+with high-speed camera along with the measured liquid properties
+(Section 2.2). Fig. 3c shows the predictions from the ﬁrst model,
+Eq. (1), plotted with blue diamonds. The measured spreading factor
+corresponds to the horizontal axis and the predicted value
+corresponds to the right vertical axis. Similarly, the predictions
+from the second model, Eq. (2), are plotted with red squares so that
+the predicted values correspond to the left vertical axis. If the
+predicted measurements were the same as what was observed,
+these points would fall on the black line. Fig. 3c demonstrates that
+although these models are not identical, both predict the observed
+spreading factor within 10% of the clean glass experimental
+measurements.
+3.2. Low impact bloodstains on microscopic coatings and residues
+We next explore the bloodstains on all ﬁve surfaces in low
+impact conditions. The images taken one hour after impact show
+that when bloodstains formed on the various coatings they were
+remarkably different from those that formed on the clean glass
+(Fig. 4). A dotted circle with the size of the clean glass stain had
+been added to each image to highlight this difference. In these
+images, drops with 1-mm radius were released from h = 20 cm and
+drops with 2-mm radius were released from h = 10 cm. Because the
+impact velocity scales as U / h1/2, doubling the height for the
+smaller drops leads to a similar Weber number for both drop sizes
+in the experiments, here approximately We = 160.
+There are a few noteworthy features in these stains. Not only do
+the ﬁngerprint and oil coatings lead to smaller bloodstains, but
+these stains are irregular and fragile. In particular, they more easily
+delaminate and fracture during drying. For the case of the half
+clean-half ﬁngerprint coated glass, the bloodstain captures the
+asymmetry of the surface coating. On the clean half, the drop dries
+with the same shape and size as if it were on a fully clean surface.
+Whereas on the coated half, the bloodstain is more compact and
+shares similarities with those on the surfaces fully coated by oil and
+ﬁngerprint residues. For the case of superhydrophobic coating,
+when the surface was ﬂat, the blood dries as a beaded up drop,
+whereas when the surface was tilted by a small amount (7), even
+less volume is left behind. Finally, a keen observer will note that a
+ring stain surrounds the principal stain for the larger drop on the
+ﬁngerprint coated glass (Fig. 4, 2nd from left, bottom row). This
+ring is reminiscent of a coffee stain [35] and suggests that the
+contact line may have been temporarily stuck or pinned at that
+position as it dried.
+Additional insight into how these ﬁnal stains developed can be
+gained by evaluating images of the stains taken at both the
+millisecond and minute timescale. Fig. 5 shows a series of high-
+speed images taken at the time of impact for the larger drops that
+developed the stains in Fig. 4 (bottom row). Each column
+corresponds to a particular time t measured in millisecond relative
+to the time of impact (t = 0). Each row corresponds to a different
+surface with either a top-view perspective (Fig. 5a) or side-view
+perspective (Fig. 5b). The images show that the drops are spherical
+with a radius of R = 2 0.1 mm as they impact the surfaces at
+U = 1.5  0.1 m s1, leading to a Weber number of We  160. The
+drops 
+rapidly 
+spread 
+out, 
+reaching 
+a 
+maximum 
+radius 
+of
+approximately rmax = 6 mm in approximately 5 ms. At this point,
+the ﬂattened drop is thicker along its perimeter than center. For the
+blood drop on the clean glass, the drop stays at this size, but the
+thickness proﬁle adjusts so that the thickness decreases from the
+center outward.
+By contrast, on the ﬁngerprint-coated surface, the drop begins
+to retract after reaching a maximum radius (Fig. 5). Indeed, on the
+half clean-half ﬁngerprint substrate, the stain retracts only on
+the ﬁngerprint-coated portion. A similar retraction is observed on
+the oil-coated glass. On the superhydrophobic surface, the
+retraction dynamics are so extreme, that the blood drop forms
+an upward jet within 25 ms after impact. When the super-
+hydrophobic-coated glass is ﬂat, the blood drop adheres to the
+surface and the drop returns to the surface intact. However, when
+the superhydrophobic surface is slightly tilted, the majority of the
+blood drop can bounce off of the impact spot within a fraction of a
+second, leaving only a small speck of blood behind (Fig. 5b). To be
+clear, these types of spreading and retraction dynamics after
+impact are well known for simple liquids, such as water [36,37].
+Fig. 3. Comparison of the size of dried human bloodstains on a clean glass surface
+with the published predictions. (a) The impact velocity U increases with release
+height h and drop size R. Theoretical predictions (curves) for drop sizes of R = 1
+(small circles) and 2 mm (large circles) indicate that the drops in the experiments
+have not reached terminal velocity Ut. (b) The shape of the dried bloodstain on the
+glass surface is circular with a ﬁnal size rf that depends on the initial size R and
+release height h. The scalebar of 5 mm applies to all images. (c) The spreading
+factors rf/R = β for the experiments are plotted in terms of the dimensionless groups
+of Weber number We, Reynolds number Re, and contact angle u = 15 (measured
+value for clean glass) so that they can be directly compared with two published
+predictions (black line). Note that the square points correspond to prediction based
+on the left axis and the diamond points correspond to prediction based on the
+right axis.
+192 
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198
+
+
+--- PAGE 5 ---
+
+Fig. 4. Top-down view of the ﬁnal dried bloodstains on the glass surfaces with the various coatings. Each row corresponds to the same set of impact conditions. The blue
+dotted circle was added to indicate the size of the stain relative to that on clean glass. All the glass surfaces were ﬂat, except for the far right images, which were slightly
+inclined (7). The scalebar of 5 mm applies to all images.
+Fig. 5. High speed images of the initial impact dynamics of the blood drops. (a) A top view perspective illustrates how the contact radius r depends on time t and is affected by
+the various surface coatings. (b) Simultaneous images from the side view provide additional perspective. Here R = 2.0  0.1 mm and U = 1.5  0.1 m s1. The scalebar of 5 mm
+applies to all images.
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198 
+193
+
+
+--- PAGE 6 ---
+
+What is less clear is their relevance to forensic science and the ﬁnal
+conﬁguration of a bloodstain.
+To see how the coatings affect the longer-time stain formation,
+comparisons are made between the top-view images of the drops
+over timescales of minutes to hours (Fig. 6). Overall, the stain sizes
+and shapes do not appear to substantially change during the drying
+process. An exception occurs on the ﬁngerprint-coated glass, as
+there appears to be a stick-slip dynamic between the images taken
+at 30 and 60 min. Speciﬁcally, the contact line for this drop
+suddenly retracts as the drop dries, leaving behind a faint ring of
+dried blood (Fig. 6, second row).
+The drying dynamics on the clean glass is similar to what has
+been previously documented [38]. Within 10 min of being on the
+surface, the drop changes color as it solidiﬁes and appears to form a
+thicker rim region. Within 30 min, the drop has completely dried,
+and cracks have formed along the rim. On the coated surfaces, the
+drop takes longer to completely dry, perhaps because it is thicker,
+as indicated by the darker color when backlit (Fig. 6).
+Taken together, the short and long-time dynamics indicate
+that 
+stain 
+size 
+on 
+these 
+microscopic 
+coatings 
+(Fig. 
+4) 
+is
+predominantly set within the ﬁrst tenth of a second. The early-
+time spreading and retraction can be quantiﬁed by measuring the
+contact radius r over time t. Fig. 7a plots this contact radius,
+normalized by the initial drop radius, for the drops illustrated in
+Fig. 5. Note that during the spreading phase, the dynamics are
+indistinguishable and the differences in the stain size appear to
+be related to the speed at which the extended droplet retracts. The
+ﬁnal spreading factor β is also included for comparison. The
+retraction speed and timescale are consistent with a mechanism in
+which the contact lines recede to lower the surface energy while
+being resisted by the liquid inertia [39,40]. This mechanism
+indicates that the contact angle u of the coating is likely an
+important parameter when predicting the ﬁnal stain size. Recall
+Fig. 6. Time series of the drying process for the blood drops depicted in Fig. 5. All drops were in their ﬁnal conﬁguration after 2 h. Note that the line visible in the half clean-half
+ﬁngerprint binary coating is on the opposite side of the glass slide and used to identify the edge of the coating. The scalebar of 5 mm applies to all images.
+Fig. 7. Plot of the contact radius r(t) and ﬁnal spreading factor β for the blood
+drops depicted in Figs. 5 and 6 . (a) The normalized contact radius r(t)/R spreads to a
+maximum value rmax/R ms after impact. Subsequently, the drop can recede and
+eventually reaches a ﬁnal spreading factor β. (b) The ﬁnal spreading factor rf/R = β
+depends on the measured contact angle u of the coating (closed symbols) and is
+plotted along with the prediction from current theories (Eq. (1), blue line and
+Eq. (2), red line). The model is in closer agreement with the maximum extent that
+the blood spreads (open symbols) than the ﬁnal stain size (closed symbols).
+194 
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198
+
+
+--- PAGE 7 ---
+
+that contact angles between each of the surfaces, blood, and air
+were measured and tabulated in Fig. 1b.
+The spreading factor β of the blood stain decreased monotoni-
+cally with increasing contact angle u for the different microscopic
+coatings (Fig. 7b, closed symbols). Although this wettability
+measure is often neglected when predicting bloodstain size, it is
+included in some models, such as Eq. (1). Yet the inﬂuence of
+contact angle in the current results appears much greater than
+might be expected from this model. To illustrate this point, results
+from the models (the ones that adequately predicted the ﬁnal stain
+size for the clean glass slides in Fig. 3c) are plotted alongside the
+data in Fig. 7b. Note that these models predict that the drop will
+spread out to approximately three times its initial radius for any
+contact angle. The bloodstain on the clean glass slide spreads out to
+this size, but the other ﬂat coatings result in ﬁnal stain diameters
+that are 35–72% smaller.
+The primary source of discrepancy between these models and
+the current results is likely the tacit assumption that droplet
+spreads to a particular size and remains at this size as it dries. In
+other words, the ﬁnal bloodstain size rf is identical to its maximum
+size rmax. Had this constraint held for the current results and the
+ﬁnal stain were the same as the maximum spreading radius, the
+spreading factor would have been much closer to the predictions
+(Fig. 7b, open symbols). It should be noted that this assumption is
+completely appropriate for the clean glass slide, and likely
+appropriate for other clean surfaces. Indeed, if this assumption
+was not made and the drops were completely free to adopt a ﬁnal
+conﬁguration that minimized energy, they would form spherical
+caps based on their initial size and contact angle. In this case, the
+spreading factor would be completely independent of the impact
+conditions and depend only on the surface conditions.
+One reason why blood drops might stay at their maximum
+spreading size on a clean surface is that the contact line becomes
+pinned. It is well known that colloidal particle can jam at a contact
+line, preventing it from receding [41,42]. If this is the case, it makes
+the authors’ choice of forensically-relevant coatings all the more
+noteworthy, as they prevent the blood drop contact line from
+pinning, at least initially. A reduction in contact line pinning is also
+consistent with a reduction in adhesion between the dried blood and
+the coatings. The dried blood on the oil-coated glass can be readily
+displaced and can completely detach from the superhydrophobic
+surface with a slight external force, such as a gentle breeze. The blood
+drops on the ﬁngerprint-coated glass appears to have more
+adherence, but still noticeably less than on the clean glass surface.
+3.3. High impact bloodstains on microscopic coatings and residues
+It is natural to inquire whether the effects of the coatings that
+were observed at relatively low impact conditions (Fig. 7) extend to
+higher impact conditions as well. In particular, it is noteworthy that
+the impact conditions for the larger blood drop (R = 2 mm) released
+at h = 100 cm (impacting the surface at U = 4.5  0.2 m s1), are
+substantial enough for splashing to be expected [43], yet no clear
+evidence of splashing is observed for the stain on the clean glass
+surface (Fig. 3b).
+Fig. 8 illustrates the ﬁnal bloodstain conﬁgurations when the
+drops impact the various surfaces at this higher release height and
+directly compares them to the bloodstains released from the lower
+height. Here R = 2.0  0.1 mm and higher height leads to an impact
+velocity of U = 4.5  0.2 m s1 and Weber number of We  1400. The
+presence of the coatings has an even larger effect at this higher
+impact speed. The principle stain is smaller on the coated glass
+surfaces than on the clean glass and more irregular. Indeed on the
+oil-coated and superhydrophobic-coated glass, small droplets
+surround the principle stain (denoted with arrows in Fig. 8).
+High-speed imaging of initial impact dynamics of these stains
+illustrates the drop on the clean surface spreads to a maximum size
+and the contact line remains pinned (Fig. 9). By contrast, the contact
+lines on the coated surfaces retract to varying degrees, similar to
+what was observed for the lower impact conditions. However, unlike
+what was observed for the lower impact conditions, the initial
+spreading of the high impact drops differs between the different
+coatings. In particular, spines and ligaments develop on the oil-
+coated and superhydrophobic-coated glass and breakup to form the
+tiny surrounding droplets (Fig. 9). On the superhydrophobic surface,
+holes nucleate in the center of the ﬁlm as it begins to retract. As these
+holes expand, more ligaments are formed, although many of these
+recoalesce to form a principle drop.
+Over the drying timescale, the drop shapes changes only
+slightly, with the exception again being the stain on the
+ﬁngerprint-coated glass (Fig. 10). As the drop on the ﬁngerprint-
+coated glass dries, the contact line appears to ﬁrst stick and then
+slip, creating small ﬂakes of dried blood that are loosely connected
+to the surface. The drops appear to fully dry within an hour.
+Fractures occur for the drops on the coated surfaces, which may be
+due to a combination of them being thicker and less well adhered
+to the surface.
+The differences in the bloodstain sizes between the low and
+high impact conditions for the various coatings offers a way to
+Fig. 8. Comparison of bloodstain patterns at lower and higher release heights h for the various coatings. The dried stains can develop highly irregular shapes, and numerous
+tiny droplets surround the principle stains on the bottom left two images (highlighted with arrows). Here the initial drop sizes are all the same with radius R = 2.0  0.1 mm
+and release heights are h = 10 and h = 100 cm. The scalebar of 5 mm applies to all images.
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198 
+195
+
+
+--- PAGE 8 ---
+
+assess whether the ideas of contact line pinning in the last section
+continue to be consistent with the data. With the assumption that
+the contact line becomes pinned when the drop reaches its
+maximum extent, the higher impact velocity should lead to a larger
+stain, as illustrated with bloodstains on the clean glass (Fig. 8, ﬁrst
+column). If no contact line pinning occurs, then the stain size
+should be independent of the impact velocity. This claim seems
+consistent with the size of the bloodstains on the oil-coated glass
+(Fig. 8, third column). Interestingly, the size of the stain on the
+ﬁngerprint-coated surface increases with the impact velocity, but
+is smaller than the clean glass, suggesting a contact line pinning
+that is between the two extremes.
+3.4. Role of clotting on bloodstains
+The ﬁnal section of this study explores whether the bloodstain
+conﬁgurations on the various coatings would be signiﬁcantly
+modiﬁed if the blood were able to clot. Most laboratory experi-
+ments of bloodstains include anticoagulant to keep the blood from
+clotting 
+between 
+experiments; 
+however, 
+if 
+the 
+results 
+are
+Fig. 10. Longer time dynamics of bloodstain drying process for blood drops depicted in Fig. 8. In all coated surfaces not only were the stains smaller than the clean surface, but
+drop spatter was observed around the primary stain. The scalebar of 5 mm applies to all images.
+Fig. 9. High-speed images of the initial impact dynamics for the blood drops illustrated in Fig. 8. The top-view perspective illustrates how the surface coatings modify certain
+dynamics, such as crown splashing and spine formation, characteristic of the faster impact velocity. Here R = 2.0  0.1 mm and U = 4.5  0.2 m s1 leading to a Weber number of
+We  1400. The scalebar of 5 mm applies to all images.
+196 
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198
+
+
+--- PAGE 9 ---
+
+signiﬁcantly inﬂuenced by the presence of the anticoagulant, they
+would be less applicable to a crime scene where bloodstains can
+clot. To provide evidence that the results in this manuscript extend
+to blood that can clot, the anticoagulant is deactivated following
+the procedure outlined in Section 2.3 
+and the low impact
+experiments are repeated with R = 2 mm and h = 10 cm on the ﬁve
+surfaces (Fig. 11).
+The ﬁnal dried bloodstains demonstrated that the presence of
+these coatings noticeably reduced the size of the bloodstain
+relative to the clean glass regardless of whether the blood was able
+to clot. Given that the high-speed images indicate that most of the
+stain reduction occurs within a fraction of a second upon impact, it
+is not particularly surprising that clotting—which typically is
+associated with longer time periods—has a negligible effect.
+Nevertheless, there are some aspects of the bloodstains that differ
+between the activated and deactivated anticoagulant experiments
+that warrant closer inspection. In particular, the stain on the
+ﬁngerprint-coated glass appeared to undergo a sudden retraction
+on the hour time-scale (Fig. 6). One might think that clotting might
+prevent the pinned contact line from retracting on this timescale,
+and indeed no evidence of a stick-slip condition is observed. Yet the
+size of the ﬁnal stain is similar for the two anticoagulant cases
+(Fig. 11a, second column), suggesting the possibility that the blood
+did not pin on the ﬁnger-coated glass in the ﬁrst place.
+The notion that the contact line of the bloodstains with the
+deactivated anticoagulant are less likely to pin than with the
+activated anticoagulant is supported by additional stain features in
+Fig. 11. When the stain fragments, the fragments appear closer
+together when clotting can occur. Additionally, the small stain left
+on 
+the 
+tilted 
+superhydrophobic 
+surface 
+vanishes 
+with 
+the
+deactivated anticoagulant. Multiple tests were done to demon-
+strate that this effect was repeatable. The high-speed images of the
+impact show that this drop completely detaches from the interface
+(Fig. 11b), demonstrating that it is possible for a drop of blood to
+impact a coated surface without leaving a visible trace.
+A 
+ﬁnal 
+curious 
+discrepancy 
+between 
+the 
+activated 
+and
+deactivated anticoagulant bloodstains is the stain proﬁle and
+crack pattern on the clean glass (Fig. 11a, ﬁrst column). For the
+human blood with the activated anticoagulant, there is a rim
+surrounding the stain that is darker than the interior, suggesting
+that it might be thicker. Along this rim, there are regularly-spaced
+radial cracks. These crack patterns are similar to those described by
+Brutin et al. [38]. In contrast, the human blood with the deactivated
+anticoagulant has a rim that is lighter than the interior, suggesting
+that it might be thinner. Rather than form cracks at constant angles
+from the center, a single crack is observed at a constant radius. This
+observation suggests that the anticoagulant may fundamentally
+alter the drying process, which could have implications to blood
+drying studies beyond forensics. It is important to note, that the
+present evidence relies on experiments with blood that has been
+previously spiked with anticoagulant, which could potentially
+differ from fresh blood. Nevertheless, the presence of clotting itself
+does not appear to negate the results from this paper.
+4. Conclusions
+To investigate the effect of microscopic coatings on a bloodstain
+size and shape, systematic drop impact experiments were
+conducted using dual-view high-speed imaging and time-lapse
+photography. Three nearly invisible coatings were applied to glass
+slides: natural secretions of a ﬁngerprint, vegetable oil and a
+superhydrophobic coating. In contrast to prior studies in which
+surface conditions were essentially immaterial to the staining
+process, the results of this study illustrate that the effects of these
+speciﬁc coatings on bloodstains can be dramatic. At low impact
+velocity, the stain size relative to the clean glass reduced by 35% for
+ﬁngerprint coated glass, 49% for oil coated glass, and 72% for ﬂat
+superhydrophobic coated glass. When the superhydrophobic
+coated glass was tilted slightly, the blood drop could leave the
+surface with a minuscule stain (96% reduction) or no stain at all. At
+the higher impact velocity, not only was the stain smaller than the
+clean surface, but drop spatter was observed around the primary
+stain. High-speed imaging revealed that size differences were
+largely due to drop receding dynamics within the ﬁrst milliseconds
+of impact and suggests that these coatings may have prevented the
+stain from pinning to the surface at the point of maximum
+spreading. This reduction in contact line pinning appears to allow
+the stain to continue shrinking during the drying stage. When the
+anticoagulant in the human blood drops was deactivated to allow
+for clotting—a process likely to occur in actual crime-scene
+Fig. 11. Images illustrating the effect of blood clotting on the ﬁnal stain pattern (a). Regardless of whether the anticoagulant is activated or deactivated, the coatings have a
+similar effect on the bloodstains. The conditions are identical to those in Fig. 4 bottom row (here repeated in top row for comparison). Note a few distinct differences that are
+repeatable and potentially signiﬁcant—including the complete absence of a stain on the tilted superhydrophobic surface. (b) High-speed images of the blood drop, with the
+deactivated anticoagulant, completely bouncing off of the tilted superhydrophobic-coated glass and leaving no stain. The scalebar of 5 mm applies to all images.
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198 
+197
+
+
+--- PAGE 10 ---
+
+situations—the results were similar to those for blood with active
+anticoagulant. Since the stain size and shape can be critical in
+conducting a bloodstain pattern analysis, our results highlight the
+need for forensic analysts to exercise caution when evaluating
+bloodstains on surfaces that might contain superhydrophobic
+coatings or oil residues, including latent ﬁngerprint residue.
+Author contributions
+J.C.B. and K.F.M. conceived the research. S.S. designed and
+fabricated the experimental setup and carried out the experi-
+ments. S.S. and J.C.B. contributed to the development of the theory,
+conducted the analyses, and all the authors wrote the manuscript
+together.
+Acknowledgements
+The project was supported by the Boston University Dean's
+Catalyst Award. The authors thank Armela Murrizi for assistance in
+measuring blood viscosity.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be
+found, in the online version, at https://doi.org/10.1016/j.for-
+sciint.2018.12.008.
+References
+[1] P. Comiskey, A. Yarin, D. Attinger, High-speed video analysis of forward and
+backward spattered blood droplets, Forensic Sci. Int. 276 (2017) 134–141.
+[2] R. Chen, L. Zhang, D. Zang, W. Shen, Blood drop patterns: formation and
+applications, Adv. Colloid Interface Sci. 231 (2016) 1–14.
+[3] N.K. Osborne, M.C. Taylor, M. Healey, R. Zajac, Bloodstain pattern classiﬁcation:
+accuracy, effect of contextual information and the role of analyst character-
+istics, Sci. Justice 56 (2) (2016) 123–128.
+[4] U. Buck, B. Kneubuehl, S. Näther, N. Albertini, L. Schmidt, M. Thali, 3D
+bloodstain pattern analysis: ballistic reconstruction of the trajectories of blood
+drops and determination of the centres of origin of the bloodstains, Forensic
+Sci. Int. 206 (1–3) (2011) 22–28.
+[5] M. Illes, M. Boué, Robust estimation for area of origin in bloodstain pattern
+analysis via directional analysis, Forensic Sci. Int. 226 (1–3) (2013) 223–229.
+[6] C.R. Varney, F. Gittes, Locating the source of projectile ﬂuid droplets, Am. J.
+Phys. 79 (8) (2011) 838–842.
+[7] C. Knock, M. Davison, Predicting the position of the source of blood stains for
+angled impacts, J. Forensic Sci. 52 (5) (2007) 1044–1049.
+[8] A. Carter, The directional analysis of bloodstain patterns theory and
+experimental validation, Can. Soc. Forensic Sci. J. 34 (4) (2001) 173–189.
+[9] T. Bevel, R.M. Gardner, Bloodstain pattern analysis with an introduction to
+crime scene reconstruction, CRC Press, 2008.
+[10] S.H. James, P.E. Kish, T.P. Sutton, Principles of bloodstain pattern analysis:
+theory and practice, CRC Press, 2005.
+[11] K.G. de Bruin, R.D. Stoel, J. Limborgh, Improving the point of origin
+determination in bloodstain pattern analysis, J. Forensic Sci. 56 (6) (2011)
+1476–1482.
+[12] N. Laan, K.G. De Bruin, D. Slenter, J. Wilhelm, M. Jermy, D. Bonn, Bloodstain
+pattern analysis: implementation of a ﬂuid dynamic model for position
+determination of victims, Sci. Rep. 5 (2015) 11461.
+[13] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact
+velocity from circular bloodstains, J. Forensic Sci. 50 (1) (2005) JFS2003224-10.
+[14] C.D. Adam, Fundamental studies of bloodstain formation and characteristics,
+Forensic Sci. Int. 219 (1–3) (2012) 76–87.
+[15] C.D. Adam, Experimental and theoretical studies of the spreading of
+bloodstains on painted surfaces, Forensic Sci. Int. 229 (1–3) (2013) 66–74.
+[16] N. Laan, K.G. de Bruin, D. Bartolo, C. Josserand, D. Bonn, Maximum diameter of
+impacting liquid droplets, Phys. Rev. Appl. 2 (4) (2014) 044018.
+[17] S. Kim, Y. Ma, P. Agrawal, D. Attinger, How important is it to consider target
+properties and hematocrit in bloodstain pattern analysis? Forensic Sci. Int. 266
+(2016) 178–184.
+[18] M. Lettieri, M. Masieri, Surface characterization and effectiveness evaluation of
+anti-grafﬁti coatings on highly porous stone materials, Appl. Surf. Sci. 288
+(2014) 466–477.
+[19] G.E. Folk, A. Semken, The evolution of sweat glands, Int. J. Biometeorol. 35 (3)
+(1991) 180–186.
+[20] J.W. Park, B. Vahidi, A.M. Taylor, S.W. Rhee, N.L. Jeon, Microﬂuidic culture
+platform for neuroscience research, Nat. Protoc. 1 (4) (2006) 2128.
+[21] D. Richard, C. Clanet, D. Quéré, Surface phenomena: contact time of a bouncing
+drop, Nature 417 (6891) (2002) 811.
+[22] S. Shiri, J.C. Bird, Heat exchange between a bouncing drop and a super-
+hydrophobic substrate, Proc. Natl. Acad. Sci. U. S. A. (2017) 201700197.
+[23] C. Willis, A.K. Piranian, J.R. Donaggio, R.J. Barnett, W.F. Rowe, Errors in the
+estimation of the distance of fall and angles of impact blood drops, Forensic
+Sci. Int. 123 (1) (2001) 1–4.
+[24] F. Smith, C. Nicloux, D. Brutin, Inﬂuence of the impact energy on the pattern of
+blood drip stains, Phys. Rev. 3 (1) (2018) 013601.
+[25] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics
+in bloodstain pattern analysis: comparative review and research opportu-
+nities, Forensic Sci. Int. 231 (1–3) (2013) 375–396.
+[26] G.B. Thurston, Viscoelasticity of human blood, Biophys. J. 12 (9) (1972)
+1205–1217.
+[27] S. Chien, S. Usami, H.M. Taylor, J.L. Lundberg, M.I. Gregersen, Effects of
+hematocrit and plasma proteins on human blood rheology at low shear rates, J.
+Appl. Physiol. 21 (1) (1966) 81–87.
+[28] E. Merrill, E. Gilliland, G. Cokelet, H. Shin, A. Britten, R. Wells Jr., Rheology of
+human blood, near and at zero ﬂow: effects of temperature and hematocrit
+level, Biophys. J. 3 (3) (1963) 199–213.
+[29] J. Andreas, E. Hauser, W. Tucker, Boundary tension by pendant drops, J. Phys.
+Chem. 42 (8) (1938) 1001–1019.
+[30] T. Young, An essay on the cohesion of ﬂuids, Philos. Trans. Royal Soc. 95 (1805)
+65–87.
+[31] R.J. Good, M. Koo, The effect of drop size on contact angle, J. Colloid Interface
+Sci. 71 (2) (1979) 283–292.
+[32] M. Rånby, S. Ramström, P.-O. Svensson, T. Lindahl, Clotting time by free
+oscillation rheometry and visual inspection and a viscoelastic description
+of the clotting phenomenon, Scand. J. Clin. Lab. Invest. 63 (6) (2003)
+397–406.
+[33] L. Grunberg, A.H. Nissan, Mixture law for viscosity, Nature 164 (4175) (1949)
+799.
+[34] G.B. Foote, P. Du Toit, Terminal velocity of raindrops aloft, J. Appl. Meteorol. 8
+(2) (1969) 249–253.
+[35] R.D. Deegan, O. Bakajin, T.F. Dupont, G. Huber, S.R. Nagel, T.A. Witten, Capillary
+ﬂow as the cause of ring stains from dried liquid drops, Nature 389 (6653)
+(1997) 827.
+[36] A.L. Yarin, Drop impact dynamics: splashing, spreading, receding, bouncing,
+Annu. Rev. Fluid Mech. 38 (2006) 159–192.
+[37] C. Josserand, S.T. Thoroddsen, Drop impact on a solid surface, Annu. Rev. Fluid
+Mech. 48 (2016) 365–391.
+[38] D. Brutin, B. Sobac, B. Loquet, J. Sampol, Pattern formation in drying drops of
+blood, J. Fluid Mech. 667 (2011) 85–95.
+[39] P.-G. De Gennes, F. Brochard-Wyart, D. Quéré, Capillarity and gravity,
+Capillarity and Wetting Phenomena, Springer, 2004, pp. 33–67.
+[40] D. Bartolo, C. Josserand, D. Bonn, Retraction dynamics of aqueous drops upon
+impact on non-wetting surfaces, J. Fluid Mech. 545 (2005) 329–338.
+[41] R.D. Deegan, O. Bakajin, T.F. Dupont, G. Huber, S.R. Nagel, T.A. Witten, Contact
+line deposits in an evaporating drop, Phys. Rev. E 62 (1) (2000) 756.
+[42] B.M. Weon, J.H. Je, Self-pinning by colloids conﬁned at a contact line, Phys. Rev.
+Lett. 110 (2) (2013) 028303.
+[43] T.C. de Goede, N. Laan, K. de Bruin, D. Bonn, Effect of wetting on drop splashing
+of Newtonian ﬂuids and blood, Langmuir 34 (18) (2018) 5163–5168.
+198 
+S. Shiri et al. / Forensic Science International 295 (2019) 189–198

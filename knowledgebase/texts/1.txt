@@ -1,0 +1,516 @@
+
+
+--- PAGE 1 ---
+
+Data Article
+A data set of bloodstain patterns for teaching and
+research in bloodstain pattern analysis:
+Gunshot backspatters
+Daniel Attinger a,n, Yu Liu b, Ricky Faﬂak a, Yalin Rao c,
+Bryce A. Struttman b, Kris De Brabanter b,c,
+Patrick M. Comiskey d, Alexander L. Yarin d
+a Mechanical Engineering, Iowa State University, 50010 Ames, IA, USA
+b Department of Computer Science, Iowa State University, 50010 Ames, IA, USA
+c Department of Statistics, Iowa State University, 50010 Ames, IA, USA
+d Department of Mechanical and Industrial Engineering, University of Illinois at Chicago, 842 W. Taylor St.,
+Chicago, IL 60607-7022, USA
+a r t i c l e i n f o
+Article history:
+Received 10 September 2018
+Received in revised form
+9 November 2018
+Accepted 12 November 2018
+Available online 20 November 2018
+a b s t r a c t
+This is a data set of blood spatter patterns scanned at high reso-
+lution, generated in controlled experiments. The spatter patterns
+were generated with a riﬂe or a handgun with varying ammuni-
+tion. The resulting atomized blood droplets travelled opposite to
+the bullet direction, generating a gunshot backspatter on a poster
+board target sheet. Fresh blood with anticoagulants was used; its
+hematocrit and temperature were measured. The main parameters
+of the study were the bullet shape, size and speed, and the dis-
+tance between the blood source and target sheet. Several other
+parameters were explored in a less systematic way. This new and
+original data set is suitable for training or research purposes in the
+forensic discipline of bloodstain pattern analysis.
+& 2018 Published by Elsevier Inc. This is an open access article
+under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Contents lists available at ScienceDirect
+journal homepage: www.elsevier.com/locate/dib
+Data in Brief
+https://doi.org/10.1016/j.dib.2018.11.075
+2352-3409/& 2018 Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+n Corresponding author.
+E-mail address: attinger@iastate.edu (D. Attinger).
+Data in Brief 22 (2019) 269–278
+
+
+--- PAGE 2 ---
+
+Speciﬁcations table
+Subject area
+Legal Medicine, Engineering
+More speciﬁc subject area
+Forensics – Bloodstain Pattern Analysis (BPA)
+Type of data
+Images of 68 backspatters from a gunshot, each in an individual folder
+with text ﬁle listing the experimental conditions
+How data was acquired
+Blood spattered backward from a bullet impact, as described in the
+manuscript. Spatters were collected on cardstock poster board, and
+scanned with a ﬂatbed scanner
+Data format
+Images were scanned at 600 dots per inch (about 42.3 µm per pixel) and
+saved as a .jpg with minimum compression (10% compression max)
+Experimental factors
+Spatter images with dimensions of maximum 1.36 m  1.1 m, scanned in
+a piecewise manner and reassembled with image processing software
+Experimental features
+Blood volume of 2.5–175 mL was either contained in a closed cavity or
+soaking a porous foam (sponge). Blood source was impacted normally by
+a bullet travelling horizontally; bullet velocities ranged between 285 and
+987 m/s. Horizontal distances between the vertical target and blood
+source ranged from 10 cm to about 120 cm; fewer spatters on horizontal
+targets. Muzzle gases have been screened out with a diffuser plate for
+most spatters, to minimize their interaction with the backspatter;
+Data source location
+Ames, IA. Physical Targets have been preserved
+Data accessibility
+Electronic data set is with this article, as a set of ﬁve split .zip ﬁles
+Value of the data
+ The data set can be used by researchers. One research purpose is to test crime scene reconstruction
+models [1–3]. Brieﬂy, these models pursue at least two purposes. First, they classify patterns with
+respect to their generation mechanism (e.g. beating vs. shooting [4]). Second, they determine the
+region of origin of the blood spatter [5,6]. Recently, the US National Academies emphasized [7] the
+need to develop more accurate bloodstain pattern analysis methods, with stronger ﬂuid dynamics
+foundations. Accessibility to large amounts of bloodstain patterns produced under controlled
+conditions is thus important for the development of the needed science base. The data in this
+manuscript addresses the above issues by systematically documenting the experimental condi-
+tions. Data of this manuscript can also inform studies investigating conditions for the presence of
+spatter stains on the ﬁrearm or the shooter [8,9].
+ The data helps dissemination of blood spatters for teaching and instructional purposes. Indeed,
+generation and transport of blood spatters is cumbersome. A large space, the size of a habitation
+room, is needed to generate a realistic blood spatter; and care should be taken to have reproducible
+and realistic experimental conditions. Shooting comes with its own strict safety rules, and is best
+done at an indoor shooting range to prevent draft from atmospheric winds. Blood sourcing and
+handling is not trivial either. Blood needs to be used under strict safety conditions because of the
+risk of blood-borne diseases and pathogens. Since travelling across borders is common for BPA
+instructors, both alternatives of travelling with blood spatters through customs or having the blood
+spatters prepared at the site and time of the workshop involve logistic efforts, costs and safety
+risks. Also blood ages within days [10]. All the experiments here use blood drawn less than 3 days
+before the experiment and spiked with anticoagulant. This database provides BPA instructors with
+a safe set of spatters ready to be printed at high resolution for their classes.
+ This data set is new and original, and the data has not been published elsewhere.
+ The experimental design and methods described in this manuscript can be readily reproduced and
+used to generate additional blood spatters. Note that there is still no consensus on which
+experimental setup is best to simulate the complexity of gunshot spatters in realistic conditions,
+where blood is located within a complex structure involving body tissues and blood vessels,
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+270
+
+
+--- PAGE 3 ---
+
+covered by skin. Head of calves have been used [11], a human cadaver ﬁlled with blood [12], foams
+or sponges soaked in blood [4,13], or cavities ﬁlled with blood have been used [14]. Experiments
+reported here used both soaked foams and cavities ﬁlled with blood as the blood source, and the
+information on which blood source was used is speciﬁed.
+1. Data
+Blood spatters are a subset of bloodstain patterns, with stains generated when an impacting object
+causes drops to go airborne [1–3] before hitting the surface of a solid object called the target. Gunshot
+backspatters are spatters where blood is atomized by a bullet, in a direction opposite to that of the
+bullet [2]. Discussion and physical description on the dynamics of a ﬂuid impacted by a high-speed
+projectile can be found in Ref. [15]. Those events of atomization and airborne transport are rarely
+observable in a crime scene, and distinguish spatters from other bloodstain patterns, such as transfers
+where stains are produced by contact between the blood source and the target. Fig. 1 shows a typical
+gunshot blood spatter, as provided in this work.
+Fig. 2 describes the geometry and setup used to generate the spatters. Most spatters were pro-
+duced on a vertical target, with the bullet hole indicating the bullet impact location. The travel
+direction of the bullet was perpendicular to both the blood source and the target. For such a system,
+the visible location of the bullet hole and the orientation of the image – the image width corre-
+sponding to the horizontal direction of the experiment – deﬁnes the geometry. For the cases where
+muzzle gases were allowed to interact with the spatter process, the barrel of the gun was perpen-
+dicular to the cardstock target, and at the same distance from the blood source as the target, centered
+into a cutout of about 1 in. in size. The cutout in the cardstock is also visible in the scans, and
+determines the geometry of the spatter. Few spatters were produced on horizontal targets, where the
+angle between the bullet trajectory and a horizontal line was varied between 0° and 60°.
+The conditions of each experiment are documented in a text ﬁle located in the same directory as
+the spatter image. For spatters on a vertical target, the conditions are summarized in Table 1, with the
+range of each parameter, and the reason for documentation of each parameter. Fig. 3 provides a
+synthetic view of the main variables investigated, the velocity of the impact that atomized the blood,
+and the distance between blood source and spatter target. For spatters on a vertical target, each test
+was denoted using the nomenclature described in Fig. 3. For spatters on a horizontal target, each test
+was denoted using the nomenclature in Table 2. The investigated conditions are summarized in
+Table 2. Some spatters names end with a number in parenthesis which our research team has used as
+an alternate name. Note that some spatters have been described in a general manner and compared
+to numerical models in Refs. [16,17].
+Fig. 1. Example of blood spatter Rp42, with scale on top. The size of the target cardstock board is 140 cm  110 cm, left. The
+high resolution of the stain edges is well visible, as well as the bullet hole in the middle picture, top left. Image segmentation
+software such as the one used in Ref. [16] can count and measure more than 10,000 individual spots in the image, within a few
+minutes of processing time.
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+271
+
+
+--- PAGE 4 ---
+
+The scanned images of the spatters are provided electronically in the appendix. Some of the
+spatters contain well over 10,000 stains, each produced by the same single bullet. The high resolution
+of the stain edges is well visible. Image segmentation software such as the one used in Ref. [16] can
+count and measure more than 10,000 individual spots in the image, within a few minutes of
+processing time.
+2. Experimental design, materials and methods
+Most backward spatters were generated at the Izaak Walton League Park indoor shooting range
+(Ames, Iowa, USA) and a few spatters at an indoor range used by the Fort Dodge (Iowa, USA) Police
+Depatment. The air was quiescent.
+The riﬂe was held in position with an ad hoc metallic structure. The handgun was mounted in a
+ﬁxed position with a Ransom rest (Master Combo Series, Ransom International Corp.). Ammunition
+and gun description is in Table 3.
+Most blood spatters were generated on ﬂat cardstock poster board sheets (UCreate, Walmart Inc.,
+each 22 in.  28 in.). Targets of larger sizes were assembled by juxtaposing several poster board
+sheets using masking tape at the back of the joints. The smooth side of the cardstock was used. An
+Fig. 2. Description of the experimental geometry used to generate spatters on a vertical cardstock target (a) and on a horizontal
+one (b). Picture (c) shows the preparation of a vertical backspatter from a handgun, using a cavity ﬁlled with blood and the
+muzzle gas diffuser.
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+272
+
+
+--- PAGE 5 ---
+
+Table 1
+Description of the variables documented. Ranges of parameters are indicated, and parameters that have been systematically varied during the investigation are in bold. Most commonly
+used values of parameters are underlined.
+Parameter and unit
+Reason for documentation
+Range or typical values, and uncertainty
+Gun and bullet
+Bullet shape, speed and diameter inﬂuence atomization;
+muzzle gas can interfere with backspatter [18]
+Riﬂe or Handgun; bullets with pointy, round or ﬂat nose, and dia-
+meters between 5.66 and 9 mm. In most experiments the muzzle
+gases have been suppressed by adding a diffuser between gun and
+blood source.
+Geometry
+Spatial information needed for reconstruction
+Horizontal distance between blood source and vertical target (cm):
+10–120 7 2 cm
+Height of blood source above horizontal target: 50–70 cm
+Image scale, DPI (dots per inch)
+Spatial information needed for reconstruction
+600
+Blood temperature, T (°C)
+Blood physical properties depend on temperature [19]
+14.5–37 7 1
+Relative humidity, %
+Evaporation rates [20] might affect stain shape or structure
+39–70 7 5
+Hematocrit, %
+Physical properties of blood depend on hematocrit [19]
+37–46 7 1
+Type of target
+Controls the spreading, deformation and splashing of the drops
+[19,21–23]
+Smooth cardstock poster board (1.2/1.56), butcher paper (5.8/7.35). In
+parenthesis is Ra/RMS roughness, both in μm.
+Blood source
+Might inﬂuence atomization
+Cavity ﬁlled with blood (2.5–10 7 1 ml), polyurethane foam soaked in
+(10–15 7 1 ml) blood, or sponge soaked in blood (175 7 10 mL)
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+273
+
+
+--- PAGE 6 ---
+
+Table 2
+Description of the spatters on horizontal targets. The ﬁrst position denotes the gun (H standing for handgun, and R, for riﬂe);
+the second position indicates the initial inclination angle δ between bullet trajectory and the horizontal (e.g., a0 denotes a zero
+bullet inclination angle δ ¼ 0°), and the third position describes the horizontal distance D from the gun barrel exit to the blood
+source in cm. The height H is measured from the center of the blood source to the ﬂoor. For example, H-a0-D300 stands for a
+horizontal cardstock target (placed on the ﬂoor) with an initial bullet inclination angle δ ¼ 0° and a distance from the gun
+barrel exit to the target of 300 cm. Trial numbers for each test case were appended at the end of the experimental nomen-
+clature, e.g., as 1 and 2. Muzzle gases were either allowed to interact with the spatter or suppressed with a diffuser plate.
+The asterisk denotes spatters analyzed in our earlier study on the ﬂuid dynamics of backspatters [17].
+Spatter
+designation
+δ
+[deg]
+D
+[cm]
+Gun
+Bullet
+H
+[cm]
+Muzzle gases
+interacting
+with spatter
+Blood
+source
+H-a0-D300-1
+0
+300
+Glock 23
+Gold Dot (ﬂat)
+67.5
+Yes
+Sponge
+H-a0-D300-2*
+0
+300
+Glock 23
+Gold Dot (ﬂat)
+67.5
+Yes
+Sponge
+H-a0-D200-1 (93)
+0
+200
+Smith & Wesson 9 mm
+AE9AP (round tip)
+63
+No
+Cavity
+R-a0-D200-2 (96)
+0
+200
+Rock River Arms riﬂe
+0.223’’
+AE223 (pointy)
+63
+No
+Cavity
+R-a0-D200-3 (102)
+0
+200
+Rock River Arms riﬂe
+0.223’’
+AE223 (pointy)
+63
+No
+Cavity
+H-a0-D200-4 (106)
+0
+200
+Smith & Wesson 9 mm
+AE9AP (round tip)
+63
+No
+Cavity
+H-a30-D270-1
+30
+270
+Glock 23
+Gold Dot (ﬂat)
+66.5
+Yes
+Sponge
+H-a30-D270-2
+30
+270
+Glock 23
+Gold Dot (ﬂat)
+66.5
+Yes
+Sponge
+H-a45-D200-1
+45
+200
+Glock 23
+Gold Dot (ﬂat)
+67.5
+Yes
+Sponge
+H-a45-D200-3
+45
+200
+Glock 23
+Gold Dot (ﬂat)
+66.5
+Yes
+Sponge
+H-a60-D150-1*
+60
+150
+Glock 23
+Gold Dot (ﬂat)
+66.5
+Yes
+Sponge
+H-a60-D150-2*
+60
+150
+Glock 23
+Gold Dot (ﬂat)
+66.5
+Yes
+Sponge
+H-a60-D150-3
+60
+150
+Glock 23
+Gold Dot (ﬂat)
+66.5
+Yes
+Sponge
+Fig. 3. Synthetic view of the spatters on vertical targets. X-axis is the horizontal distance between blood source and cardstock
+target; Y-axis is velocity of the bullet. Blood spatters are designated with symbols R (riﬂe), H (handgun), p (pointy bullet), f (ﬂat
+tip bullet), r (round tip bullet). Symbols after spatter number are m (muzzle gases interacting with spatter), h (horizontal
+spatter), # (blood source in soaked foam). The asterisk denotes spatters analyzed in an earlier study on the ﬂuid dynamics of
+backspatters [16].
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+274
+
+
+--- PAGE 7 ---
+
+optical proﬁlometer (Zygo Newview 6300) measured the roughness of the target, with results
+reported in Table 1. Spreading correlations, which link drop sizes, stain sizes and impact velocities
+together, have been characterized on this substrate according to the methods in Ref. [19].
+The blood source was either a foam or sponge soaked with blood, or a closed blood ﬁlled cavity
+reservoir. The latter was prepared as follows. A section of paper was peeled back from one side of
+foam board (Elmer's, USA). The foam board in a central cylindrical section (either one or two in. in
+diameter) was then removed; the cavity was ﬁlled with blood. Clear packaging tape was utilized to
+afﬁx the paper back over the blood-ﬁlled cavity. This latter setup became the source of choice because
+of apparent improved reproducibility of the spatters, in comparison with the ones obtained with the
+soaked foam or sponge. The type of blood sources are in Table 2 and Fig. 3, with details in the text ﬁles
+describing the individual spatters provided as supplementary documentation.
+Spatters on vertical targets were generated as follows: A cardstock target was used to collect the
+backward spattered drops and was placed vertically between the muzzle of the gun and the target
+(see Fig. 3a). The bullet trajectory was parallel to the ground at a height of typically 50–70 cm.
+Spatters on horizontal targets were generated according to the geometry described in Fig. 3b and [17],
+and summarized in Table 2.
+To suppress or at least minimize the interaction of the muzzle gases with the back spatter process,
+a high-density ﬁberboard diffuser plate pierced with a hole twice the diameter of the bullet was
+placed between the gun and the target. For a few spatters, interaction with muzzle gases was allowed
+by removing the diffuser plate; for vertical spatters, the gun barrel was placed at the same distance
+from the blood source as the cardstock target, in a cutout made at the center of the cardstock target.
+Table 3
+Guns and bullets used in the experiments with manufacturer number. Velocities are either as per manufacturer data
+(and preceded with the symbol “”) or measured with a chronograph at the shooting range. The grain is a measure of mass,
+and can be converted to SI units as 1 grain ﬃ64.8 mg. Pictured ruler has cm units.
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+275
+
+
+--- PAGE 8 ---
+
+The experiments utilized ethically-sourced swine blood with an anticoagulant of either heparin or
+ACD. The blood was drawn less than 72 h prior to any experiment. The blood was placed on a rocker
+and was at room temperature. Hematocrit was measured with a dedicated centrifugation device (STI,
+HemataStat-II). Room temperature and relative humidity were measured with a Mannix PTH8708
+temperature-humidity pen.
+The choice of swine blood can be explained as a compromise between safety and relevance to BPA
+in a public university laboratory. Indeed, human blood is a biohazard, requiring extensive testing and
+handling precautions to avoid risks such as HIV (human immunodeﬁciency virus) and hepatitis B and
+C, which can be deadly if untreated. Artiﬁcial blood is still in a development phase, and it is not clear
+Table 3 (continued )
+H
+Smith & Wesson
+.
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+276
+
+
+--- PAGE 9 ---
+
+whether it will ever be able to match all the complex – and still partly unknown [24] – characteristics
+of actual blood [3]. Among available animal blood, swine blood is the closest to human blood in terms
+of comparable physical properties [25], such as hematocrit range, shear viscosity of whole blood and
+plasma, and erythrocyte aggregation behavior. Since swine blood has not been associated with risks
+of HIV or hepatitis B, it is a safer substitute to human blood. Thus, swine blood was drawn from
+healthy pigs screened for zoonotic diseases at the Ames USDA facilities. Blood was stored refrigerated
+when not in use and allowed to reach room temperature before use. Personal protection equipment
+for the biohazard while producing the spatters included coveralls, gloves, face shields, surgical masks,
+and goggles, while gloves were used for manipulating dried spatters, e.g. during scanning.
+After the spatter was produced, the target was removed from the holding ﬁxture and the bloodstains
+were allowed to dry. Spatters were then digitized with a ﬂatbed scanner at 600 DPI. That resolution is
+slightly better than what has been obtained with high-end photography [4], and allows a clear deﬁnition
+of the edges of most stains. The use of a scanner also avoids issues of parallax, which are often present on
+crime scene photographs. The spatters were scanned in a piecewise manner, by cutting the tape joining
+the poster board sheets (tape was at their backside), because the maximum scanning area of the scanner
+was European A3 format (297 mm  420 mm), signiﬁcantly smaller than the largest target posters. Poster
+board sheets were never cut in that process. Scans were assembled using the image processing software
+Adobe Photoshop, and saved as high-quality JPG's. A sticker was placed at the center of each sheet, to allow
+precise assembly of the scans. Adobe Photoshop was used to remove most marks that were not stains,
+such as the sticker, tape, or pencil marks. On vertical targets, the bullet hole or the cutout for the barrel is
+visible. That hole and the fact that in the experiments with vertical targets, gravity goes vertically from top
+to the bottom of the scanned image fully describes the geometry of the spatter generation, because bullets
+travelled horizontally and normally through the vertical target and blood source. In experiments with
+horizontal spatters, the top of the scanned image correspond to the location of the blood source.
+Acknowledgements
+The authors acknowledge ﬁnancial support from the US National Institute of Justice, United States
+(award no. NIJ 2014-DN-BX-K036). This work was also partially funded by the Center for Statistics and
+Applications in Forensic Evidence (CSAFE), United States through Cooperative Agreement No.
+70NANB15H176 between NIST and Iowa State University, which includes activities carried out at
+Carnegie Mellon University, University of California Irvine, and University of Virginia. We acknowl-
+edge the contribution of Ofﬁcer Darin Van Ryswyk and Sgt Christopher O’Brien who performed the
+shootings; the help of Sungu Kim, Prashant Agrawal, John Polansky and Reetam Das to perform the
+experiments; useful discussions with William Ristenpart, Craig Moore and Kevin Winer; and the
+roughness measurements by Ashraf Bastawros and Bishoy Dawood.
+Transparency document. Supporting information
+Transparency data associated with this article can be found in the online version at https://doi.org/
+10.1016/j.dib.2018.11.075.
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the online version at https://doi.
+org/10.1016/j.dib.2018.11.075.
+References
+[1] S.H. James, P.E. Kish, T.P. Sutton, Principles of Bloodstain Pattern Analysis: Theory and Practice, CRC Press, 2005.
+[2] T. Bevel, R.M. Gardner, Bloodstain Pattern Analysis with an Introduction to Crime Scene Reconstruction, CRC Press, Boca
+Raton, FL, USA, 2008.
+[3] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics in bloodstain pattern analysis: comparative
+review and research opportunities, Forensic Sci. Int. 231 (2013) 375–396.
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+277
+
+
+--- PAGE 10 ---
+
+[4] S. Siu, J. Pender, F. Springer, F. Tulleners, W. Ristenpart, Quantitative differentiation of bloodstain patterns resulting from
+gunshot and blunt force impacts, J. Forensic Sci. (2017).
+[5] A.L. Carter, The directional analysis of bloodstain patterns: theory and experimental validation, J. Can. Soc. Forensic Sci. 34
+(2001) (173-173).
+[6] F. Camana, Determining the area of convergence in bloodstain pattern analysis: a probabilistic approach, Forensic Sci. Int.
+231 (2013) 131–136.
+[7] Strengthening Forensic Science in the United States: A Path Forward, Committee on Identifying the Needs of the Forensic
+Sciences Community, National Research Council, The National Academies Press, Washington, DC. https://doi.org/10.17226/
+12589, 2009.
+[8] B. Karger, R. Nüsse, H.D. Tröger, B. Brinkmann, Backspatter from experimental close-range shots to the head: 2. Micro-
+backspatter and the morphology of bloodstains, Int. J. Leg. Med. 1997 (110) (1997) 27–30.
+[9] S.N. Kunz, H. Brandtner, H.J. Meyer, Characteristics of backspatter on the ﬁrearm and shooting hand–an experimental
+analysis of close-range gunshots, J. Forensic Sci. 60 (2015) 166–170.
+[10] T.C. de Castro, M.C. Taylor, D.J. Carr, J. Athens, J.A. Kieser, Storage life of whole porcine blood used for bloodstain pattern
+analysis, Can. Soc. Forensic Sci. J. 49 (2016) 26–37.
+[11] M. Grabmuller, P. Cachee, B. Madea, C. Courts, How far does it get? The effect of shooting distance and type of ﬁrearm on
+the simultaneous analysis of DNA and RNA from backspatter recovered from inside and outside surfaces of ﬁrearms,
+Forensic Sci. Int. 258 (2016) 11–18.
+[12] C. Rossi, L.D. Herold, T. Bevel, L. McCauley, S. Guadarrama, Cranial backspatter pattern production utilizing human
+cadavers, J. Forensic Sci. 63 (2018) 1526–1532.
+[13] B.G. Stephens, T.B. Allen, Back spatter of blood from gunshot wounds, Obs. Exp. Simul. J. Forensic Sci. 28 (1983) 437–439.
+[14] P.M. Comiskey, A.L. Yarin, D. Attinger, Theoretical and experimental investigation of forward spatter of blood from a
+gunshot, Phys. Rev. Fluids 3 (2018) 063901.
+[15] A.L. Yarin, I.V. Roisman, C. Tropea, Collision Phenomena in Liquids and Solids, Cambridge University Press, Cambridge, 2017.
+[16] P.M. Comiskey, A.L. Yarin, D. Attinger, Hydrodynamics of back spatter by blunt bullet gunshot with a link to bloodstain
+pattern analysis, Phys. Rev. Fluids 2 (2017) 073906.
+[17] P.M. Comiskey, A.L. Yarin, S. Kim, D. Attinger, Prediction of blood back spatter from a gunshot in bloodstain pattern
+analysis, Phys. Rev. Fluids 1 (2016) 043201.
+[18] M.C. Taylor, T.L. Laber, B.P. Epstein, D.S. Zamzow, D.P. Baldwin, The effect of ﬁrearm muzzle gases on the backspatter of
+blood, Int. J. Leg. Med. 125 (2011) 617–628.
+[19] S. Kim, Y. Ma, P. Agrawal, D. Attinger, How important is it to consider target properties and hematocrit in bloodstain
+pattern analysis? Forensic Sci. Int. 266 (2016) 178–184.
+[20] D. Brutin, B. Sobac, B. Loquet, J. Sampol, Pattern formation in drying drops of blood, J. Fluid Mech. 667 (2011) 85–95.
+[21] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact velocity from circular bloodstains, J. Forensic
+Sci. 50 (2005) 54–63.
+[22] B.L. Scheller, D.W. Bousﬁeld, Newtonian drop impact with a solid surface, AICHE J. 41 (1995) 1357–1367.
+[23] V. Balthazard, R. Piedelievre, H. Desoille, L. Derobert, Etude des gouttes de sang projete, in: XXIIe congres de medicine
+legale de langue francaise, Paris, 1939.
+[24] A. Kolbasov, P. Comiskey, R.P. Sahu, S. Sinha-Ray, A.L. Yarin, B.S. Sikarwar, S. Kim, T.Z. Jubery, D. Attinger, Blood rheology in
+shear and uniaxial elongation, Rheol. Acta 55 (2016) 901–908.
+[25] U. Windberger, A. Bartholovitsch, R. Plasenzotti, K.J. Korak, G. Heinze, Whole blood viscosity, plasma viscosity and ery-
+throcyte aggregation in nine mammalian species: reference values and comparison of data, Exp. Physiol. 88 (2003)
+431–440.
+D. Attinger et al. / Data in Brief 22 (2019) 269–278
+278

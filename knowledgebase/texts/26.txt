@@ -1,0 +1,1636 @@
+
+
+--- PAGE 1 ---
+
+Fundamental studies of bloodstain formation and characteristics
+Craig D. Adam *
+Faulds Laboratories, Department of Chemical and Forensic Sciences, Keele University, Keele, Staffordshire ST5 5BG, UK
+1. Introduction
+A 
+detailed 
+understanding 
+of 
+blood 
+dynamics 
+and 
+stain
+formation is an essential prerequisite to the interpretation of
+both individual bloodstains and spatter patterns. Within the
+literature there is a fairly large body of work on both the spreading
+of liquids following droplet impact and on the splash features that
+may also be formed in those circumstances. In only a few notable
+cases has blood been the subject of such study and the forensic
+context been considered. Consequently there is a need, not only for
+a review of recent theoretical developments relevant to blood
+dynamics, but also for a systematic study of bloodstain formation
+and the application of current theories to model and hence
+understand the key characteristics of such stains. The work to be
+described here aims to examine the stains formed following the
+impact on paper of blood droplets in the millimetre size range and
+travelling at a variety of angles and velocities. The spreading and
+splash features are then interpreted following a review of
+theoretical models and some conclusions drawn as to how such
+an understanding may beneﬁt the examination of bloodstains in
+the forensic context.
+2. A review of the modelling of spreading and splash
+The fundamental problem of explaining and predicting the
+spread of liquid following perpendicular impact on a smooth
+horizontal surface has received much attention in the literature;
+for example, see the review in Ref. [1]. The development of
+mathematical 
+models 
+has 
+progressed 
+alongside 
+high 
+speed
+imaging experiments which reveal the mechanisms whereby the
+impact of a spherical droplet leads to a circular, disc-shaped stain
+[2]. These show that the impact creates a lamella or boundary layer
+of liquid in contact with the surface which spreads rapidly in a
+radial direction while the majority of the droplet remains
+spherical. This stage is followed by the rim of the lamella swelling
+as liquid ﬂows outward from the spherical reserve to create a
+largely-ﬂat, disc-like entity with a swollen rim. The material within
+the rim may then recede inwards until equilibrium is attained. On
+surfaces of low wettability this means that the diameter of the ﬁnal
+stain is likely to be less than that attained during the spreading
+phase. On the other hand, where there are surface-speciﬁc forces
+that enhance wetting 
+and are 
+independent of the 
+impact
+conditions, the ﬁnal stain diameter can be greater than that
+generated after the maximum spreading has occurred. Images of
+these stages are given, for example, in Ref. [2]. Although detail of
+these processes depends on a number of factors which include the
+nature of the surface and properties of the liquid, the formation
+Forensic Science International 219 (2012) 76–87
+A R T I C L E 
+I N F O
+Article history:
+Received 24 August 2011
+Received in revised form 20 November 2011
+Accepted 12 December 2011
+Available online 5 January 2012
+Keywords:
+Forensic
+Bloodstain
+Blood dynamics
+Blood splash
+Blood spatter
+A B S T R A C T
+A detailed understanding of blood droplet impact dynamics and stain formation is an essential
+prerequisite to the interpretation of both individual bloodstains and spatter patterns. The current
+literature on theoretical models for the spreading and splashing of liquid drops on surfaces relevant to the
+forensic context of bloodstain formation has been reviewed. These models have been evaluated for a
+paper substrate using experimental data obtained as function of droplet size, impact velocity and angle. It
+is shown that for perpendicular impact there are fairly simple mathematical models for the spreading
+diameter and the number of scallops or spines formed around the stain though these have quite limited
+ranges of validity in their basic form. In particular, predictions for the diameter are best for small droplets
+impacting at high velocity and the number of spines saturates for higher impact velocities. In the case of
+spreading, a modiﬁcation to the energy conservation model is found to provide excellent agreement with
+experimental stain diameters across a wide range of impact velocities. For non-perpendicular impact, the
+width of stains is found to depend principally on the normal component of impact velocity and may be
+predicted by an appropriate modiﬁcation to the expression for the perpendicular case. Limitations in the
+calculation of impact angle from the stain aspect ratio are identiﬁed and a theoretical basis for the
+prediction of spines around an elliptical stain is proposed. Some key issues for future research are
+identiﬁed which include a systematic, quantitative study of the effect of surface properties on bloodstain
+formation.
+ 2011 Elsevier Ireland Ltd. All rights reserved.
+* Tel.: +44 1782 733854; fax: +44 1782 712378.
+E-mail address: c.d.adam@keele.ac.uk.
+Contents lists available at SciVerse ScienceDirect
+Forensic Science International
+jou r nal h o mep age: w ww.els evier .co m/lo c ate/fo r sc iin t
+0379-0738/$ – see front matter  2011 Elsevier Ireland Ltd. All rights reserved.
+doi:10.1016/j.forsciint.2011.12.002
+
+
+--- PAGE 2 ---
+
+and dynamics of the lamella remains the key to understanding the
+ﬁnal size of the stain. It should be acknowledged that, although
+blood is a non-Newtonian ﬂuid, all studies to date have assumed it
+behaves as if its viscosity were constant throughout the spreading
+and splashing process and this approximation has also been
+adopted in this work.
+The models that have been developed to explain these effects
+are based on fundamental physical processes adapted in some
+cases with empirical factors so as to best describe observations on a
+wide variety of liquids and droplet size, impacting over a range of
+impact velocities. For the present purposes however, attention will
+focus on those models that predict the behaviour of a low viscosity
+ﬂuid such as blood impacting as droplets of diameter the order of a
+millimetre. It is also preferable that the model has the minimum
+empirical adjustment and that is justiﬁed according to some
+physical origin.
+2.1. Modelling spread following perpendicular impact
+The spreading of liquid droplets following perpendicular
+impact appears a simple process but is one that has and
+continues to be subject to on-going study. Nevertheless, one of
+the simplest and most successful models is that of Pasandideh-
+Fard et al. [3] which is based on energy conservation consider-
+ations originally proposed by Chandra and Avedisian [2]. This
+equates the sum of the initial kinetic energy of the falling droplet
+(KE1) together with its surface energy (SE1) to the sum of the ﬁnal
+surface energy of the circular stain (SE2) and the energy
+dissipated in the viscous deformation of the liquid on spreading
+(W). Thus from [3]:
+KE1 þ SE1 ¼ SE2 þ W
+1
+2
+prd3
+6
+  
+!
+v2 þ pgd2 ¼ pgD2
+4
+ð1  cos ueÞ þ
+p
+3
+ﬃﬃﬃﬃﬃ
+Re
+p
+rv2dD2
+(1)
+In this expression a droplet of diameter d gives rise to a stain of
+maximum spreading diameter D following impact at velocity v. The
+relevant properties of the liquid are the density r, the viscosity h
+and the surface tension g while the equilibrium contact angle of
+the liquid with the surface is given by ue. The dimensionless
+Reynolds number Re relating some of these quantities is given by:
+Re ¼ rvd
+h
+The last term in Eq. (1) is both the most important and the most
+difﬁcult to determine so approximations have to be made, in
+particular with respect to the thickness of the expanding lamella. It
+is this aspect that authors have differed in their approaches (e.g.
+[2], [3]). The ﬁnal result is often expressed as the ratio b of the
+maximum spreading diameter D to that of the droplet d. Thus from
+Eq. (1) we get:
+b ¼ D
+d ¼
+We þ 12
+3ð1  cos ueÞ þ 4WeRe1=2
+ 
+1=2
+(2)
+Here, the dimensionless Weber number We is deﬁned as:
+We ¼ rv2d
+g
+Since the main mechanism for the spread of larger droplets
+impacting at higher velocities is conversion of kinetic energy to
+viscous deformation in forming the stain, both surface energy
+terms may be neglected in these circumstances to give a simpliﬁed
+version of Eq. (2) [3]:
+b ¼ D
+d ¼ 1
+2 Re1=4
+(3)
+It should be noted that while Eq. (2) implies that stain size
+reduces to the realistic scenario of a constant value as the impact
+velocity deceases to zero, this is not the case for Eq. (3), implying
+that is has a lower limit on its validity. By viewing Eq. (3) as a
+limiting form of Eq. (2) shows that while surface tension has some
+signiﬁcance in deﬁning the spread of a bloodstain at low impact
+velocities, this factor is of little relevance at the higher velocities
+typical of most stains found in casework. In the form of Eq. (3), the
+model has been applied previously [4] to explain the diameters of
+bloodstains formed on a variety of non-porous surfaces. The
+variation in stain size ascribed to differences in surface roughness
+was small but distinct. Nevertheless in all cases this simple model
+gave approximate agreement with experimental data obtained
+over a limited number and range of impact velocities though no
+correction for air resistance was applied. By including an empirical
+correction factor of 1.11 the model was adjusted to the mean
+behaviour across all four surfaces in this work. However, as the
+comparison between theory and experiment was not displayed
+using the linear relationship of Eq. (3), systematic differences
+between the model and the data were not discussed.
+This energy conservation model (Eq. (2)) has been compared
+against other models [5] and reﬁned further to provide an albeit
+small correction for the fact that the spreading lamella is not
+strictly cylindrical and that consequently the thickness of the rim
+needed to be revised to more correctly model the surface energy of
+the stain. The equilibrium contact angle ue was also replaced by the
+advancing contact angle ua to provide an additional, minor
+correction. This is of little signiﬁcance except at very low impact
+velocities and in this work the value of the equilibrium contact
+angle has been used where necessary. The resulting energy balance
+equation may be now written as:
+ðWe þ 12Þb ¼ 8 þ b3 3ð1  cos uaÞ þ
+4ﬃﬃﬃﬃﬃ
+Re
+p
+We
+ 
+
+(4)
+More recently [6] further experimental measurements have
+validated this model against liquids with a range of viscosities and
+the importance of this correction veriﬁed. Although both these
+modiﬁcations have greatest impact at lower impact velocities,
+their relevance to the spreading of bloodstains has not yet been
+assessed. The models represented by Eqs. (2)–(4) are described
+graphically for blood in Fig. 1. The abscissa is taken as the non-
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+10.0
+8.0
+6.0
+4.0
+2.0
+0.0
+beta (= D/d)
+Re1/4
+Liming fo
+ 
+rm for high
+ 
+We (Eq
+ 
+n 3)
+P-F mo
+ 
+del (Eq
+ 
+n 2)
+P-F with U-K
+ 
+correcon (Eq
+ 
+n 4)
+Fig. 1. Basic models for the spreading diameter of a circular blood-stain.
+C.D. Adam / Forensic Science International 219 (2012) 76–87 
+77
+
+
+--- PAGE 3 ---
+
+dimensional parameter Re1/4 as this presents Eq. (3) in a linear
+fashion and the other two as deviations from that linearity. The
+range of this graph goes from a vanishingly small impact velocity to
+that approaching a 2 m drop under gravity. The more parame-
+terised models (Eqs. (2) and (4)) imply that stains should have sizes
+less than that predicted by Eq. (3) and that the relationship
+between b and Re1/4 deviates from linearity except at the highest
+velocities.
+It should be noted that there are other models for spreading that
+have been successfully validated by experimental measurement;
+some of these are reviewed in Ref. [6]. Many do depend however on
+constants which are found empirically. The models shown in Fig. 1
+have both the advantage of mathematical simplicity and limited
+empirical adjustment.
+2.2. Modelling splash following perpendicular impact
+The generic term splash is usually applied to those features
+around the circumference of a stain where thin ﬁngers or spines of
+liquid are thrown outward beyond the rim to give a crown-like
+appearance sometimes termed corona splash. In general splash
+features are associated with higher impact velocities. However at
+lower speeds the circumference may assume a wave-like appear-
+ance (often termed scalloped) similar to splash but where no liquid
+is ejected from the main body of the stain. Interestingly, in
+reviewing previously published work it appears that this distinc-
+tion does not seem to have been addressed as relevant to
+theoretical models of splashing. Finally, at the lowest impact
+velocities stains from perpendicular impact have a smooth circular
+rim. The condition that marks the transition to splash features on
+the stain may be mathematically deﬁned and is termed the splash
+threshold [7]. This is based on empirical data which show
+correlation with surface roughness measurements so would not
+necessarily transfer across to other surface characteristics that
+might suppress splashing such as elasticity.
+The origin of both spine and scallop features (Fig. 2) has
+generally assumed to be due to Rayleigh–Taylor instability in the
+ﬂuid ﬂow due to the rapid deceleration of the liquid on hitting the
+lower density air around the stain [8]. This causes wave-like
+undulations around the circumference with a wavelength depen-
+dant on the deceleration, surface tension and density of the liquid.
+Hence the number of scallops or spines observed will depend on
+how many wavelengths ﬁt around the rim of a particular diameter
+of stain. Such arguments were presented [9] to show that these
+may be predicted using:
+N ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+WeRe1=2
+48
+r
+(5)
+The form of this equation appears to support – through the
+factor WeRe1/2 – the much earlier empirical result [7] which
+attempted to predict whether splashing will take place for a
+particular liquid impacting on a surface under speciﬁc conditions.
+Here the splashing threshold is given by [7]:
+WeRe1=2 > K 
+(6)
+where K is characteristic of a particular surface and has been
+shown to correlate well with roughness. Note that strictly Ref. [7]
+gives the square of this expression (We2Re) as the threshold and
+indeed some authors have used the square root as the criterion! All
+these are equivalent though the absolute values of K will differ in
+each case. The combination of these two Eqs. (5) and (6) appears to
+suggest that for a particular surface there will be a minimum
+number of spines observable around any stain. Despite the form of
+Eq. (5), it has been shown [10] that better agreement with
+experimental data is given by:
+N ¼ 1:14We1=2
+(7)
+where the factor of 1.14 was empirically derived to produce the
+best agreement with experimental results. Splash features around
+bloodstains have been shown [4] to follow Eq. (7) to some extent
+with the factor further modiﬁed to be more or less unity. However
+deviations from this model could not be identiﬁed as the data were
+not presented in a linear fashion. In a subsequent publication [11]
+it was shown how measurements on stain size interpreted using
+Eq. (3) could be combined with this interpretation of splash
+features (Eq. (7)) to derive estimates for both the impact velocity
+and size of a blood droplet. This provides a potentially powerful
+tool in bloodstain interpretation.
+The implication of these results is that until the impact
+conditions – principally a sufﬁciently high velocity – satisfy Eq. (6),
+true splash will not be observed. However, at lower impact speeds,
+scallops or a smooth edge will be the outcome. Whenever such
+features are observed, their number is best predicted by Eq. (7)
+[10]. More recently [12] it has been suggested that there are two
+possible mechanisms for splash. So-called corona splash is driven
+by the impact on the air around the stain and predominates on
+smooth surfaces. However, the dependence of this mechanism on
+air pressure throws doubt on the validity of the Rayleigh–Taylor
+mechanism which is driven by the density difference between the
+liquid and the surrounding air, in favour of the Kelvin–Helmholtz
+mechanism which depends on corresponding velocity difference.
+Fig. 2. Examples of scallop (top) and spine (bottom) features on bloodstains arising
+from a 4.21 mm diameter droplet impacting perpendicularly on to paper.
+C.D. Adam / Forensic Science International 219 (2012) 76–87
+78
+
+
+--- PAGE 4 ---
+
+On rougher surfaces so-called prompt splash may result which
+depends on the texture of the surface. In general both mechanisms
+are likely to be present to varying degrees and this may reduce the
+transferability of Eq. (7) across a wide range of surfaces.
+Finally, brief attention will be given to the effect of the
+characteristics and properties of the surface itself on spreading and
+splashing behaviour. In addition to roughness which has been the
+subject 
+of 
+most 
+attention 
+in 
+the 
+literature, 
+the 
+elasticity,
+wettability and porosity of the surface are likely to be signiﬁcant
+factors in cases where the surface is not a relatively smooth, rigid
+and non-porous substrate [6].
+Although it does not appear to have a very signiﬁcant effect on
+spreading [1,4], surface roughness is recognised as a factor in
+determining the splashing threshold. This is particularly the case
+for low levels of roughness where an increase in roughness reduces
+the splashing threshold and thereby promotes splashing. Con-
+versely a highly polished surface will suppress such phenomena by
+increasing the threshold [1]. These qualitative links between
+surface texture and splash features have long been recognised
+within the forensic context. Porosity in the surface will encourage
+dissipation of energy through the removal of liquid from the stain.
+The elasticity of the surface has been found to affect the splashing
+threshold [13]. While a rigid surface has a fairly low threshold this
+increases as the elasticity increases since more of the energy on
+impact is taken up as elastic energy in the surface.
+2.3. Non-perpendicular impact
+In contrast to perpendicular impact, studies of the dynamics of
+liquid droplets impacting on an inclined surface are far fewer in
+number and consequently fundamental aspects of the formation of
+stain characteristics are more poorly understood. Bloodstains
+resulting from angular impact are considerably more complex in
+appearance than those just discussed. They show distinct variation
+in shape, size and splash features with respect to impact conditions
+(Fig. 3).
+It was shown some time ago that the basic shape of the stain is
+predominantly elliptical though this may show some elongation in
+the forward direction. Measurement of the axial ratio (W/L) leads
+to a good estimate of the impact angle u, conventionally measured
+from the surface, according to the accepted formula:
+sin u ¼ W
+L
+(8)
+A commentary on this early work has recently been published
+[14]. Although it appears that this formula works satisfactorily in
+practice and is justiﬁed to some extent on geometric grounds,
+surprisingly there is no published detailed analysis of its reliability
+across a full angular and impact velocity range. A semi-quantita-
+tive study using high speed photography discussed some of the
+characteristics of such stains and in particular has veriﬁed that
+impact on an inclined surface produces similar stain features to
+those found following perpendicular impact onto a moving
+substrate [15].
+Most interest in recent years has centred around the splashing
+of droplets on inclined surfaces often using moving belts or
+rotating cylinders to generate the necessary tangential velocity
+component. Once again high speed photography has been used to
+investigate the mechanisms underpinning these phenomena. In
+particular, it has been shown that the normal component vn
+(vn = v sin u) of impact velocity and hence the corresponding Ren
+and Wen numbers, determine the formation of splash features
+[16,17]. Hence, following the work of Ref. [10], the basis of an
+expression for the number of spines will be:
+N ¼ 1:14We1=2
+n
+¼ 1:14We1=2 sin u 
+(9)
+This shows that as the impact angle is decreased the maximum
+number of spines produced will be reduced. It also appears
+reasonable that the transverse spreading of the stain which should
+be largely unaffected by the impact angle also depends on vn and
+hence the elliptical stain width W would be given by modifying
+Eqs. (1)–(3) appropriately, for example:
+W ¼ d
+2 Re1=4
+n
+¼ d
+2 Re1=4 sin1=4 u 
+(10)
+Further, the tangential component vt of velocity (vt = v cos u) is
+responsible for either enhancing or suppressing splash around the
+rim of the elliptical stain thereby causing the observed asymmetry
+in splashing [18]. An expression has been derived [17] that deﬁnes
+the splashing thresholds in both the forward and backward
+directions of a stain formed on impact. Since the ratio of the
+tangential and normal velocity components is given by:
+vt
+vn
+¼ cotan u
+Fig. 3. Examples of stains following non-perpendicular impact from a 0.8 m drop
+height: (a) u = 808; (b) u = 608; (c) u = 408; and (d) u = 208.
+C.D. Adam / Forensic Science International 219 (2012) 76–87 
+79
+
+
+--- PAGE 5 ---
+
+this expression may be written as:
+WenRe1=2
+n
+½1  kRe1=2
+n
+cotan u
+2 > K 
+(11)
+The constant k is of order one while K depends on the surface
+roughness. It is clear that Eq. (6) is a special case of this result for
+perpendicular impact. When the negative sign is taken the
+splashing threshold is reduced as the tangential velocity compo-
+nent suppresses splash while for the positive sign enhancement
+occurs and the threshold is raised. This result explains why splash
+features are enhanced in the forward direction and increasingly
+suppressed in the backward direction as the impact angle is
+reduced from 908 (Fig. 3). Around the circumference of the stain the
+component of vt acting in the direction of spine formation will
+change thereby generating a gradual movement of the threshold
+for the onset of splash from the back direction round the rim
+towards the forward direction as the impact angle decreases (see
+Fig. 3). In addition there will be fewer spines in total as the angle is
+reduced since the normal component of impact velocity is
+decreasing (Eq. (9)).
+It is clear from geometrical considerations that the impact point
+of the droplet on an inclined surface is not in the centre of the
+consequent elliptical stain; rather it lies towards the back side of
+the stain and increasingly so as the incident angle decreases [16].
+Since this is source of the rapidly moving lamella which is
+responsible for the characteristics if the stain, it implies that any
+spines should be directed towards this point. The spread of the
+lamella from the contact point is asymmetric as the difference in
+the velocities of the front and back edges of the lamella increases as
+the impact angle decreases. When the radial velocity of the back
+edge tends to zero it has reached its maximum extent [16].
+In the only related study in the context of blood [19], empirical
+relationships were derived for the area of the elliptical stain and
+the number of spines in terms of the impact angle. These were seen
+as a general case of the equations used in Ref. [4] for the speciﬁc
+instance of perpendicular impact on a surface. More recently [20]
+experimental data from the angular impact of water droplets on a
+PVC surface was used to validate the application of Eq. (3) (for
+We < 1000) to relate the area of the elliptical stain to the incident
+droplet diameter. The implication of the outcome of this work is
+that the area of a stain depends only on the initial droplet diameter
+and the impact velocity, not on the impact angle. Nevertheless it
+was also indicated that, for low impact angles (u < 218), the
+tangential velocity component tends to override any transverse
+spreading of the droplet [20].
+There is one splash feature which is only observed following
+non-perpendicular impact. This is a single cast-off feature. Since
+this always appears in the forward direction, it will be termed a
+cast-forward feature for clarity (see Fig. 3(d)). This may vary in
+appearance from a small relatively wide protuberance to a very
+long slender strand which may display wave cast-off structure
+[15]. It originates from a small amount of the liquid not being
+retained within the stain but continuing to move forward across
+the surface on impact. This appears to not have received any
+theoretical attention in the literature but should not be regarded as
+a spine but as a quite separate splash feature.
+3. Experimental methods and materials
+The basic experimental technique for producing bloodstains under speciﬁed
+impact conditions is fairly straightforward though care needs to be taken at various
+points to ensure the reproducibility of results. Human blood was obtained as a
+single sachet from the UK National Blood Transfusion Service and either used when
+fresh or after freezing and subsequent overnight defrosting in a refrigerator.
+Appropriate safety precautions were taken throughout its use. All samples were
+agitated and brought to room temperature before use. Each sample was used for
+only a short period before a fresh amount of blood was taken from the refrigerator.
+These procedures were found to produce consistent results. Paper was chosen as a
+model substrate due to its uniform surface quality which has a low roughness and
+absorption, yet is not non-porous. Surface dependant effects were thereby
+minimised during the formation of stains and for this substrate it was considered
+justiﬁable to take the ﬁnal stain diameter as the maximum spreading diameter D.
+A glass separating funnel ﬁtted with a tap acted as a reservoir for the blood and
+was secured to a Kaiser rePro photographic camera (copy) stand that allowed
+smooth variation in drop height over a wide range. Plastic nozzles were ﬁtted to the
+reservoir as required to provide appropriately sized droplets. Droplets could be
+produced reliably by careful control of the tap. All stains were produced on standard
+photocopy paper taped to rigid cutting-mats which could be easily moved across to
+a separate camera stand for immediate imaging. The cutting-mats were either
+placed on the base of the camera stand or on an adjustable inclined plane to
+generate the required angular impact. Imaging was carried out using a Motic digital
+camera and images were analysed with Motic Images Plus 2.0 imaging and analysis
+software. Calibration was achieved by an x–y scale placed alongside the stains prior
+to imaging. Circular stain diameters and the length and breadth of elliptical stains
+were measured by manual ﬁtting of either a circular or elliptical outline to each
+stain displayed on the computer screen. Splash features were examined manually in
+a similar fashion. For perpendicular impact a second method was used for this latter
+measurement based on measuring the angle subtended by a group of well-formed
+and regularly spaced scallops or spines around the circumference of the stain and
+scaling that number up to the full circumference. Due to axial symmetry these
+features should be regularly spaced and only disrupted by minor perturbations
+during impact. By ignoring those parts of the stain outline and using only a
+sequence of unperturbed spines and scallops it was found that there was less scatter
+in the ﬁnal data. Angles were measured using an appropriate tool in the Motic
+software.
+Droplet volumes were obtained gravimetrically as an average of ﬁfty droplets,
+assuming a typical density for blood of 1060 kg m3 then converted to diameters by
+assuming a spherical shape. Although oscillation of the droplet may take place
+when it is released [21], these die away quite rapidly [7] though the decay rate is
+slower for larger droplets. For blood droplets in the size range used in this work it
+has been shown that oscillations are not detectable after a fall of 0.4 m [21]. Other
+studies using high-speed photography has shown that, on impact, droplets have a
+spherical shape to a good degree of approximation [22]. For the perpendicular
+impact experiments, three droplet sizes were used and for each around 35 separate
+measurements made across the range of drop heights from 0.01 to 1.90 m. Angular
+impact experiments were made for one droplet size only (4.21 mm diameter) at 108
+intervals from 908 down to 208 with around 12 separate drop heights at each angle
+over the same height range. The heights were selected to ensure that the impact
+velocity range was explored at uniform intervals. In all cases ﬁve repeat stains were
+produced and an average for each measurement calculated. The approximate
+equilibrium contact angle for a blood droplet on photocopier paper was measured
+using the sessile drop method and yielded a value of 828  38.
+It was essential to obtain accurate measurement of impact velocity so a separate
+set of calibration experiments was carried out using a set of optical gates linked to a
+Pasco measurement system. This enabled the impact velocity and the time to
+impact to be obtained over an appropriate range of drop heights for all three droplet
+sizes. To achieve the desired ﬂexibility when analysing the later data sets, these
+results were used to ﬁt kinematic equations incorporating air resistance, which
+were subsequently used to obtain the correct impact velocity for any speciﬁed drop
+height. It was found that the effects of air resistance were best modelled by a term
+quadratic in velocity typical of turbulent ﬂow. The velocity v and time t data were
+used to determine the air resistance coefﬁcient, expressed as the equivalent
+terminal velocity vT for a particular droplet size, using [23]:
+vðtÞ ¼ vTtanh
+gt
+vT
+ 
+
+(12)
+To determine the impact velocity for any particular height, the time to impact
+was calculated from the drop height using:
+yðtÞ ¼ v2
+T
+g ln cosh gt
+vT
+ 
+
+ 
+
+(13)
+The time was then used to calculate the impact velocity using Eq. (12). Fig. 4
+shows the velocity versus drop height characteristics for each of the three blood
+droplets sizes.
+All measurements were stored within Excel spreadsheets where all the data
+processing and analysis was carried out. Finally, values for the viscosity
+(h = 0.0044 Pa s) [4] and surface tension (g = 0.062 N m1) [24,25] of human blood
+were taken from the literature. Although the precise values adopted are not crucial
+to the detailed interpretation of the results, it is pertinent to comment on the
+viscosity in particular. As a non-Newtonian ﬂuid the viscosity of blood is shear-
+dependent, reducing in magnitude as the shear is increased. The shearing forces
+experienced during the spreading of the stain are unknown and so whatever value is
+adopted will be an estimate with some associated uncertainty. The average
+viscosity of 0.0044 Pa s quoted in Ref. [4] is identical to the mean value found in a
+separate study [26] across a large sample of healthy adults measured under
+conditions of moderate shear. The standard deviation across the sample given for
+this study was 0.0006 Pa s which implies a relative standard deviation (RSD) of 14%.
+C.D. Adam / Forensic Science International 219 (2012) 76–87
+80
+
+
+--- PAGE 6 ---
+
+It is reasonable to suppose that, as the blood used in this present work came from
+the UK Blood Transfusion Service, it originated from a healthy adult, providing
+justiﬁcation for using this particular value here. Finally, as the stain diameter is a
+function of the viscosity to the power of a quarter (Eq. (3)), a RSD of 14% would give a
+consequent RSD in D, arising from this uncertainty in the viscosity, of around 3.5%.
+4. Results
+The stains were found mostly to be highly reproducible.
+Standard errors expressed as a percentage of the measurement
+were in a range up to 1% with an average of 0.6% for measurements
+of stain diameters on perpendicular impact and nearer to an
+average of 0.8% for widths and lengths on non-perpendicular
+impact. In the latter case the uncertainty was at the higher end of
+this range for the more oblique impact results. In counting scallops
+and spines the absolute standard error was around 1 for
+perpendicular impact. Uncertainty was higher for non-perpendicular
+impact as the magnitude of the features could be very small and
+harder to deﬁne.
+4.1. Perpendicular impact
+Initially, to assess the spreading behaviour of all three droplet
+sizes, the circular stain diameter D has been plotted against v1/4,
+and compared with the basic theoretical predictions from Eq. (3).
+This is presented in Fig. 5.
+In all cases the data appear to follow two separate linear trends
+– one for lower velocities and the other for higher velocities. All
+tend towards following the line indicated by the basic model
+(Eq. (3)) only at the very highest velocities with the data for the
+smallest droplet showing the best agreement over the largest
+range while that of the largest droplet falls short of the model over
+almost all the range of these measurements. Overall the basic
+model falls far short in following the trends both in gradient and
+intercept of all three sets of experimental data. For all three sets of
+measurements there is a distinct bend in the graph at the point
+where the two linear trends meet. In order to explore this in more
+detail a second graph was produced. This time each stain was
+allocated one of the three categories: no splash; scalloped; spines.
+These designations were made subjectively. The criterion invoked
+to distinguish between the last two was the nature of the curvature
+at the features. For scallops there should be a clear convex outline
+while for spines this should have developed into a discontinuity or
+point from which liquid may splash outward. These data are given
+in Fig. 6.
+Inspection of Fig. 6 reveals that the bend in the data appears to
+occur at the point where scallop features start to appear. This
+means that for stains exhibiting either scallops or spines, Eq. (3)
+appears to form the basis of an appropriate model whereas for
+stains with no features around the circumference this model does
+not provide a ﬁt to these data.
+Bearing in mind that Eq. (6) is believed to deﬁne the splashing
+threshold, the values of the two characteristic quantities WeRe1/2
+and We have been determined from these data and are given in
+Table 1. These appear to show that a value of K  26,500 is
+appropriate for the formation of spines around bloodstains on
+paper while the onset of scallops is governed rather by the We
+number alone with a value of 240 being suggested here. It is worth
+noting 
+that 
+the 
+spine 
+threshold 
+could 
+arguably 
+be 
+given
+alternatively by We  560 on the basis of these data.
+As is suggested by Eq. (7), the number of spines or scallops
+around each stain plotted against We1/2 should result in a straight
+line graph that is independent of droplet size. Examination of Fig. 7
+shows that this appears to be true for We1/2 < 35 or so. However,
+for larger values, the data veers away from this trend to follow a
+path of lower gradient. For comparison the line satisfying N = We1/2
+is included in this graph and appears to follow the trend of these
+data extremely well suggesting that in this case the empirical
+coefﬁcient in Eq. (7) should be around unity, as was found
+previously for blood [4]. It was noted that the point at which the
+data deviates from this trend does not correspond particularly to
+the transition from scallops to spines so its origin seems
+unconnected with these characteristics of the stain. The implica-
+tion is that as the impact velocity (and hence We) increases further
+the number of spines appears to saturate. This hypothesis has been
+previously suggested though not experimentally veriﬁed [10] and
+appears to be supported by Fig. 8 which shows the length occupied
+by a spine around the circumference of the stain as a function of
+We1/2. For lower impact speeds (and We1/2) this quantity increases
+quite rapidly and corresponds to the linear section of Fig. 7.
+However for larger values of We1/2 where Fig. 7 deviates from the
+We1/2 law, the length per spine tends to a constant value in the
+range 1.3–1.6 mm with some small differences in that limit
+dependant on the droplet size.
+It was also observed from these data that the number of spines
+occurring at the splash threshold is independent of droplet size and
+equal to 20–22 across all three cases. This is in fair agreement with
+the prediction of Eq. (5):
+Nmin ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+26; 500
+48
+r
+ 23:5
+0.0
+5.0
+10.0
+15.0
+20.0
+25.0
+0.0 
+0.2 
+0.4 
+0.6 
+0.8 
+1.0 
+1.2 
+1.4 
+1.6
+D mm
+v1/4 (m s-1 )1/4
+d =  3.28 m m
+d =  4.21 m m
+d =  5.15 m m
+equaon 
+ 
+3 (3.28 mm)
+equaon 
+ 
+3 (4.21 mm)
+equaon 
+ 
+3 (5.15 mm)
+Fig. 5. Experimental stain diameters as a function of v1/4 for all three droplet sizes.
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+2.0
+1.5
+1.0
+0.5
+0.0
+impact velocity m s-1
+height m
+5.15 mm diameter
+ 
+droplet
+4.21 mm diameter
+ 
+droplet
+3.28 mm diameter
+ 
+droplet
+free -fa ll (n o air re sistance)
+Fig. 4. Velocity versus drop height for the three blood droplet sizes.
+C.D. Adam / Forensic Science International 219 (2012) 76–87 
+81
+
+
+--- PAGE 7 ---
+
+In contrast, the minimum number of scallops appeared to
+increase slightly with increasing droplet size, from a value of 12 to
+around 15 for the largest droplet. In summary, while the form of
+Eq. (7) is appropriate to predict both the number of scallop and
+spine features, the threshold criterion (Eq. (6)) appears valid for
+spine formation speciﬁcally.
+4.2. Non-perpendicular impact
+Firstly, the hypothesis that the transverse spreading of the stain
+is determined by the perpendicular component of the impact
+velocity (Eq. (10)) was examined by plotting the stain width W
+against v1=4
+n
+for each impact angle to produce graphs analogous to
+Fig. 5. These are shown together in Fig. 9. The prediction of Eq. (10)
+is provided for comparison.
+It is clear that for impact angles from 908 down to 408 the
+dependency is identical and follows the trend set by perpendicular
+impact. This is an important result in determining the principal
+factor responsible for the width of an elliptical stain. However for
+the lowest impact angles of 308 and 208 there is only agreement for
+the very lowest velocities with the stain widths increasing at a
+slightly lower rate than predicted over most of the range examined
+here. This suggests that when the tangential velocity component vt
+is high it may override the effect of vn to some extent as was
+previously suggested [20].
+Next the validity of Eq. (8) for the calculation of impact angle
+from the stain dimensions was investigated, particularly as a
+function of impact speed. These results are given in Fig. 10. The
+horizontal dotted lines deﬁne the impact angles set in each
+experiment. These graphs show some quite subtle variations
+across both the speed and the impact angle ranges examined here.
+In general the accepted formula (Eq. (8)) will underestimate and
+rarely overestimate the impact angle. It appears to be most reliable
+at impact speeds above 3 ms1 – equivalent to drop heights
+above 0.5 m – and for angles below 608–708. For angles around
+808 and for low impact speeds the formula appears to underesti-
+mate the angle by up to 78 or so. This result is important as it
+suggests there are systematic as well as random uncertainties in
+the use of Eq. (8) in the interpretation of blood spatter patterns.
+Initial interpretation of the features around elliptical stains may
+be made qualitatively by assessing the type of feature at the front
+and back edges of the stain as a function of the perpendicular and
+0.0
+5.0
+10.0
+15.0
+20.0
+25.0
+0.6 
+0.8 
+1.0 
+1.2 
+1.4 
+1.6
+D mm
+v1/4 (m s-1)1/4
+no splas
+ 
+h featur
+ es
+scallops
+spines
+Fig. 6. Experimental stain diameters as a function of v1/4 categorised according to the presence of splash features.
+Table 1
+Experimental threshold values for scallops and spines.
+Droplet d (mm) 
+We 
+WeRe1/2
+Scallops 
+Spines 
+Scallops 
+Spines
+3.38 
+224 
+593 
+7860 
+26,499
+4.21 
+213 
+536 
+7780 
+24,656
+5.15 
+272 
+568 
+11,109 
+27,909
+0
+10
+20
+30
+40
+50
+0.0
+10
+ 
+.0
+20
+ 
+.0
+30
+ 
+.0
+40
+ 
+.0
+50
+ 
+.0
+60
+ 
+.0
+Spine number N
+We1/2
+small
+mediu 
+m
+large
+modiﬁed equaon
+ 
+7
+Fig. 7. Spine/scallop number against We1/2 for all droplet sizes.
+C.D. Adam / Forensic Science International 219 (2012) 76–87
+82
+
+
+--- PAGE 8 ---
+
+tangential velocity components to produce a ‘‘map’’ of scallops,
+spines and cast-forward (Fig. 11). Features at the forward edge of
+the stain are on the right while those at the back are on the left of
+this ﬁgure. A radial line outward from the origin corresponds to a
+constant impact angle. A key outcome of this is that the cast-
+forward feature occurs only when the impact angle is below 458
+(implying that vt > vn) and at lower impact velocities.
+Next the total number of scallops and spines around the
+elliptical stains may be interpreted by comparing the total number
+of such features with the basic theoretical prediction of Eq. (9).
+These data are displayed in Fig. 12 where the solid line represents
+Eq. (9) evaluated for perpendicular impact with the constant factor
+amended to unity following the interpretation in Fig. 7.
+This shows that as expected the data for 908 impact agrees with
+that displayed in Fig. 7 while there is a systematic decrease in the
+total number of spines as the impact angle decreases down to 408
+below which no spines are formed for this range of impact speeds.
+For each angle however the variation with We1/2 remains
+approximately linear. This behaviour is, of course, expected as
+the splashing threshold will decrease as u decreases at a rate given
+by the angular factor contained in WenRe1=2
+n
+. The rate at which
+spines are suppressed from the stain will show a similar angular
+dependence though the detail of this depends on the effect of the
+tangential component of velocity as it acts around the stain
+circumference as indicated speciﬁcally for the forward and
+backward extremes in Eq. (11). Nevertheless the general direction
+of the trend will be given by the factor in front of the bracket in
+Eq. (11) and hence the change in the proportion of spines seen will
+be given approximately by:
+WenRe1=2
+n
+WeRe1=2 ¼ sin5=2 u
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+0 
+10 
+20 
+30 
+40 
+50 
+60
+πD/N (mm)
+We1/2
+small - scallops
+ 
+small - spines
+large  - scallops
+ 
+large  - spines
+mediu 
+m - scallop 
+s 
+mediu 
+m - spines
+Fig. 8. Length per spine around the circumference of stains as a function of We1/2.
+0
+5
+10
+15
+20
+0.0 
+0.2 
+0.4 
+0.6 
+0.8 
+1.0 
+1.2 
+1.4 
+1.6
+W mm
+vn
+1/4 (m s-1)1/4
+90 deg
+80 deg
+70 deg
+60 deg
+50 deg
+40 deg
+30 deg
+20 deg
+equ aon 10
+Fig. 9. The transverse width of stains W as a function of v1=4
+n
+.
+10
+20
+30
+40
+50
+60
+70
+80
+6
+5
+4
+3
+2
+1
+0
+Angle from stain axial rao θ (degrees)
+Impact speed
+ 
+v ms-1
+80 deg
+70 deg
+60 deg
+50 deg
+40 deg
+30 deg
+20 deg
+Fig. 10. Comparison of the impact angle calculated from the stain axial ratio with
+those set in each experiment, as a function of impact speed.
+0
+1
+2
+3
+4
+5
+6
+-6 
+-4 
+-2 
+0 
+2 
+4 
+6
+Normal component of impact velocity vn m s-1
+Tangenal compon
+ 
+ent of impact ve
+ 
+locity vt m s-1 (+ implies
+ 
+same di recon as spre ad)
+scallop
+ 
+s
+spin
+ 
+es
+no spl ash featu res
+cast-forward
+Fig. 11. Velocity map of splash features around elliptical stains.
+C.D. Adam / Forensic Science International 219 (2012) 76–87 
+83
+
+
+--- PAGE 9 ---
+
+This implies that a correction may be applied to the form of
+Eq. (9) to give:
+N  We1=2
+n
+sin5=2 u ¼ We1=2 sin7=2 u 
+(14)
+This expression is represented for each of the impact angles in
+the form of dashed lines in Fig. 12. While these do not provide a full
+explanation of the experimental measurements it is clear that they
+do explain the general variation with angle particularly for higher
+numbers of spines. These predictions should deﬁne to some extent
+the maximum number of spines and this is borne out by Fig. 12. It is
+worth noting that the form of Eq. (14) is close to the empirical
+dependency on sin3 u for angular impact data found previously
+[19]. Indeed the multiplicative correction factor needed to bring
+Eq. (14) into best-ﬁt agreement with these data is found to be 0.88
+which is similar to the factor of 0.76 found by these authors for
+their system.
+The effect of the tangential velocity component on splash
+threshold deﬁned by Eq. (11) may be evaluated against the
+experimental 
+measurements 
+by 
+plotting 
+WeRe1/2/K 
+against
+cotan u/Re1/2. This relationship is shown in Fig. 13 where each
+point represents the presence or absence of splash features on a
+stain. The threshold itself is deﬁned by a solid line where the
+arbitrary constant k has been adjusted to best ﬁt the data (k = 6.5).
+It is apparent that in the forward direction – representing the front
+of the elliptical stain – this model predicts the threshold from non-
+splash to splash features quite well. However, in the backward
+direction it is far less successful, particularly as the magnitude of
+the tangential component increases. In this region the suppression
+of splash around the back of the stain appears to occur more readily
+than is suggested by Eq. (11). However it can be difﬁcult to assess
+the presence of closely-spaced yet very small spines around the
+back edge of some of these stains and this may have led in a few
+cases to the conclusion of suppression when it may have not in fact
+have occurred.
+In summary, these investigations have shown that the width of
+the elliptical stain depends on impact conditions in the same way
+(Eq. (10)) as does the diameter of a circular stain, except for low
+0
+5
+10
+15
+20
+25
+30
+35
+40
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+Total spine number: expt N; theory Wen
+1/2sin5/2θ
+Wen
+1/2
+90 deg 
+90 deg th
+80 deg 
+80 deg th
+70 deg 
+70 deg th
+60 deg 
+60 deg th
+50 deg 
+50 deg th
+40 deg 
+40 deg th
+Fig. 12. Variation of total spine number versus theoretical predictions for elliptical stains.
+0
+1
+2
+3
+4
+5
+6
+-0.16 
+-0.12 
+-0.08 
+-0.04 
+0.00 
+0.04 
+0.08 
+0.12 
+0.16
+WeRe1/2/K
+cot
+ an θ/Re1/2
+scallo
+ ps
+spines
+no splash featu
+ res
+cast-forward
+thresh
+ old k = 6.
+ 5
+Fig. 13. The interpretation of the splashing threshold for angular impact stains.
+C.D. Adam / Forensic Science International 219 (2012) 76–87
+84
+
+
+--- PAGE 10 ---
+
+impact angles of 308 or less when it overestimates the magnitude.
+The conventional formula for calculating impact angle from the
+aspect ratio of a stain (Eq. (8)) will generally underestimate and
+rarely over-estimate that angle. It works best for higher impact
+speeds and for impact angles below 708. The formation of spines
+around an elliptical stain is principally determined by the impact
+point and the perpendicular component of velocity. However since
+the effect of the splash threshold changes with impact angle and
+the tangential component of the velocity may act to suppress spine
+formation, fewer spines are observed than predicted by Eq. (9). It
+has been shown that the consequent inclusion of a trigonometric
+factor in this expression, based on the splashing threshold,
+provides 
+a 
+theoretical 
+basis 
+to 
+support 
+previous 
+empirical
+justiﬁcation [19] relating spine number to impact conditions for
+such bloodstains.
+5. Discussion
+5.1. Spreading behaviour for perpendicular impact
+The results for perpendicular impact have revealed the
+following points as far as bloodstain formation on paper is
+concerned. The model for stain diameter expressed as Eq. (3) most
+accurately describes stains formed from smaller droplets travelling
+at higher speeds. For larger droplets and lower impact velocities
+this expression overestimates diameters. This is not out of line
+with previous work as most studies have been on droplets at the
+lower end or below the size range investigated here (Table 2).
+However the fact that all experimental stain diameters are
+lower than the size predicted by an energy balance model suggests
+that some energy is being dissipated in a manner not already
+accounted for. Such differences cannot be explained simply by
+incorporating some constant multiplicative correction factor to
+Eq. (3), for example to compensate for any uncertainty in the
+viscosity. As discussed earlier this model does not account for
+surface characteristics such as roughness, elasticity, wettability
+and porosity all of which could account for energy loss to some
+extent. To investigate the effect of this factor in general on the stain
+size, an additional term may be incorporated into the derivation of
+Eq. (4). The reasonable assumption that the energy loss will depend
+on stain area leads to the simplest form of expression since it
+means that an empirical term such as BD2 needs to be included
+where B is an arbitrary constant. Consequently Eq. (1) becomes:
+1
+2
+prd3
+6
+  
+!
+v2 þ pgd2 ¼ BD2 þ pgD2
+4
+ð1  cos uaÞ þ
+p
+3
+ﬃﬃﬃﬃﬃ
+Re
+p
+rv2dD2
+Since this already contains the term dependant on D2 describing
+the surface energy associated with advancing contact angle, the
+ﬁrst two terms on the RHS may be combined into a single term
+represented by the constant term A in the consequent revised
+version of Eq. (4) as:
+ðWe þ 12Þb ¼ 8 þ b3
+A þ
+4ﬃﬃﬃﬃﬃ
+Re
+p
+We
+ 
+
+(15)
+Here A will have a minimum value of 2.6 (assuming ue = 828)
+corresponding to B = 0 which may then increase as additional
+energy is lost due to surface-speciﬁc properties. This equation may
+be readily evaluated to yield b using the iterative form:
+b ¼ D
+d ¼
+We þ 12  ð8=bÞ
+A þ 4ðWe=
+ﬃﬃﬃﬃﬃ
+Re
+p
+Þ
+  
+!1=2
+(16)
+By taking the experimental value of D as an initial estimate, this
+converged quickly to a constant, predicted value of b in two
+iterations. The magnitude of A was varied until best agreement was
+obtained with the experimental data according to the minimisa-
+tion of the sum of the squares of the residual differences criterion.
+The results of this calculation are given in Fig. 14.
+The overall agreement of this model with the experimental
+measurement of stain diameter is very good over the very wide
+impact velocity range shown here and appears best for the data
+from the medium-sized droplet. The suspected discontinuity
+mentioned earlier that coincides with the onset of scallops around
+the stain is not, of course, built into this simple model and so is not
+reproduced though it is likely to involve a small step change in the
+energy dissipation. The best-ﬁt values for A were found to be 7.6,
+9.0 and 12.6 for the small, medium and large droplets respectively
+which reﬂects some dependency on droplet size. Further reﬁne-
+ment of this model is possible but would need to be validated
+across measurements from a wide range of types of surface in order
+to properly account for the surface properties discussed previously.
+5.2. Splashing behaviour on perpendicular impact
+These results show that the accepted expression for splashing
+threshold (Eq. (6)) appears to correlate well with the formation of
+spines for bloodstains on paper and may be used to estimate a
+lower or upper limit on impact conditions for an individual stain.
+Although there appear to be different thresholds governing the
+formation of scallops and of spines and we would argue that these
+are distinct though related features, this differentiation does not
+appear to have been discussed in the literature. Indeed confusion
+over which feature was being referred to may have led to apparent
+discrepancies in splashing thresholds between some authors.
+Further to this, Eq. (7), with a small adjustment to the scaling
+factor, appears to provide a good explanation for the number of
+spines/scallops observed around a stain as long as the impact
+Weber number is below 1000, corresponding to an impact
+velocity of 4 m s1 or a drop height of 0.8 m for a droplet of
+Table 2
+Examples of liquid droplet diameters used by other workers.
+Reference 
+Droplet diameters (mm) 
+Liquid
+[2] 
+1.5 
+n-Heptane
+[3] 
+2.05 
+Water; water + surfactant
+[11] 
+0.55, 1.30 
+Water
+[4] 
+3.0, 3.7, 4.3 
+Blood
+[5] 
+2.5, 2.7, 3.6 
+Water; formamide
+This work 
+3.28, 4.21, 5.15 
+Blood
+0.0
+5.0
+10.0
+15.0
+20.0
+25.0
+10.0
+8.0
+6.0
+4.0
+2.0
+0.0
+Stain diameter D (mm)
+Re1/4
+d = 3.28 mm
+d = 4.21 mm
+d = 5.15 mm
+equaon 16
+ 
+: d = 3.28 mm
+equaon 16
+ 
+: d = 4.21 mm
+equaon 16
+ 
+: d = 5.15 mm
+Fig. 14. Comparison of experimental data with the revised model for stain diameter.
+C.D. Adam / Forensic Science International 219 (2012) 76–87 
+85
+
+
+--- PAGE 11 ---
+
+diameter 4.21 mm. Above this value this formula gives an
+overestimate as the length per spine around the circumference
+seems to approach a limiting value. This may be due to closely
+spaced spines being energetically unfavourable on account of the
+consequent high curvature of the liquid edge between them. This
+work shows that this limit depends to some extent on droplet size,
+with smaller droplets having a lower limit, though it is likely that it
+will be affected also by surface characteristics.
+These observations on both the spreading and spine formation
+in circular stains imply that there are quite signiﬁcant lower and
+upper limits on the validity of the method of determining both
+droplet volume and impact velocity through the simultaneous
+solution of Eqs. (3) and (7) [11].
+5.3. Spreading behaviour for non-perpendicular impact
+The stain areas have been calculated using the experimental
+data to enable comparison between those for angular impact and
+those for perpendicular impact with the same impact speed. It has
+been suggested [20] that the area remains unchanged as the angle
+decreases from 908 and the speed remains constant. However it is
+not clear whether these authors have provided a proper theoretical
+basis for this and taken account of the effect of the curvature of the
+elliptical stain in calculating the viscous dissipation energy term in
+Eq. (1) prior to using it to evaluate area. The stain area has also been
+used previously in the empirical investigation of angular impact
+data [19].
+The areas measured in this current work are presented for
+comparison in Fig. 15. The perpendicular and non-perpendicular
+areas are certainly in excellent agreement for stains up to around
+135 mm2 but thereafter there is some additional spreading of up to
+10% in those due to non-perpendicular impact. These larger stains
+correspond to drop heights above 0.3 m (impact velocities above
+2.4 m s1). What is most unexpected is that there appears to be no
+obvious angular dependence to the comparison of these stain areas
+since the scatter of points for those at the lowest impact angles
+intermix with those from much higher angles. It was noted earlier
+from Fig. 9 that stain widths for those lowest angles are less than
+predicted theoretically so for the areas to increase in these cases, the
+stain lengths must show some increase over what is expected.
+Further, all stains at 208 impact and many at 308 and 408 have a cast-
+forward feature, yet the consequent loss of blood does not seem to
+affect the elliptical area of the stain itself to any signiﬁcant extent.
+The derivation of Eq. (8) is based on simple geometrical
+principles which assume the spreading is proportional to the
+geometric proﬁle of the droplet on impact at a particular angle. For
+angles of 408 and above we have shown that the transverse
+spreading 
+is 
+explained 
+only 
+by 
+the 
+perpendicular 
+velocity
+component. This however is the only deﬁnitive outcome as both
+the results for the stain aspect ratio (Fig. 10) and stain area (Fig. 15)
+reveal small but systematic discrepancies from the basic relation-
+ships. These suggest that there is a need for the development of a
+model for the spreading of elliptical stains analogous to that for
+circular stains (Eq. (2)).
+5.4. Splashing behaviour for non-perpendicular impact
+Although this is the more complex aspect to understand, it is
+potentially the most useful for interpretation. Figs. 11 and 13
+provide a semi-quantitative picture of the factors affecting the
+formation of the splash and other features observed around these
+stains while Fig. 12 shows that there is some theoretical basis to
+the angular dependence of spine formations despite the difﬁculty
+in some instances in the practical counting of these features.
+Indeed this is likely to be a key limiting factor in using the pattern
+of spines around the perimeter to interpret elliptical stains.
+Nevertheless, theoretical work to develop a model for the angular
+distribution of spines around a stain as a function of impact
+velocity and droplet size, as an extension to the derivation [17] of
+Eq. (11), remains to be done. This should include study of the
+transition from classic spine/scallop formation to the generation of
+the cast-forward feature at low velocity and low impact angles
+which is likely to prove most useful to case-work interpretation.
+5.5. A strategy for the interpretation of single bloodstains
+Finally, it is useful to consider the implications of this work for
+the interpretation of a single bloodstain, in particular whether the
+droplet volume and impact velocity may be deduced, and also
+what limitations and issues remain to be investigated. Despite the
+fact that these models for spreading and splashing have been
+investigated, developed and validated for stain formation on a
+paper substrate, they do provide some generic implications for the
+application and range of validity of such approaches to the
+interpretation of stains in general.
+Initial inspection should look for suppression of spines along
+part of the circumference which would indicate the impact angle
+was not perpendicular and facilitate measurement of the length
+and breadth of the stain. For perpendicular impact, determination
+of pD/N coupled with Fig. 8 will show whether the measurements
+lie in the region of validity of Eq. (7) or not. If pD/N lies in the
+constant region then this strong correlation between spreading
+and the number of spines appears to preclude calculation of d and v
+from the data. However, Fig. 8 indicates some dependence on
+droplet size which may enable estimation of d directly. For pD/N
+below this range, Eq. (7) is valid (with an appropriate constant
+multiplicative factor). Where spines or scallops are visible then the
+stain diameter is given approximately by Eq. (3) or more accurately
+by Eq. (16), particularly if the droplet size is large, and hence by
+combining these measurements d and v may be calculated.
+If no scallops or spines are observed on the stain then Eq. (6) will
+set an upper limit on WeRe1/2 and it is essential that Eq. (16) is used
+to interpret the diameter. These measurements could allow for the
+calculation of limiting estimates only, for d and v.
+For non-perpendicular impact determination of the impact
+angle 
+from 
+stain 
+dimensions 
+may 
+be 
+followed 
+using 
+the
+conventional formula (Eq. (8)). Bearing in mind the difﬁculty in
+reliably counting spines from such stains, combining such
+information with Eq. (14) and the interpretation of the stain
+width using Eq. (10) would enable the calculation of d and v. It is
+suggested that this approach is more reliable than using stain area
+as previously suggested [19] though the accuracy may be limited
+0
+50
+100
+150
+200
+250
+250
+200
+150
+100
+50
+0
+experimental area of ellipcal stain mm2
+area of equivalent
+ 
+perpendicular impact stain mm2
+80 deg
+70 deg
+60 deg
+50 deg
+40 deg
+30 deg
+20 deg
+exact equivalence
+Fig. 15. Comparison of experimental stain areas for non-perpendicular and
+perpendicular impact at the same speed.
+C.D. Adam / Forensic Science International 219 (2012) 76–87
+86
+
+
+--- PAGE 12 ---
+
+for low impact angles. For elliptical stains where no spines are
+present, comparison with a ‘‘splash map’’ such as Fig. 11 may
+indicate the range of the impact velocity though further work is
+needed to validate whether this approach is independent of
+droplet size i.e. can such a diagram be produced in terms of
+components of WeRe1/2 say, rather than the velocity only?
+Combining this information with stain breadth interpreted using
+Eq. (10) may enable estimates of d and v to be obtained.
+These comments are predicated on a proper understanding on
+how the fundamental equations need to be modiﬁed to account for
+the surface properties of a wider range of substrates such as those
+that might be found routinely in casework. Such surfaces may
+exhibit different characteristics of roughness, elasticity, wettability
+and porosity, and systematic studies of the effect of such properties
+on the spreading and splashing of blood remain to be done.
+6. Conclusions
+From a review of the literature and the analysis of the
+experimental work described in this article on the spreading
+and splashing of blood droplets on paper surfaces, it has been
+concluded that there are fundamental mathematical expressions
+that may form the basis of more detailed modelling of such stains.
+These enable us to understand the characteristics of bloodstains
+according to the principles of physics and mathematics thereby
+putting the interpretation of bloodstain patterns on a sound
+theoretical basis. For perpendicular impact it has been shown that
+the interpretation of a single stain may yield useful information on
+its impact conditions, though only within a very limited range of
+velocities would calculation of the droplet size and impact speed
+be achievable to a good degree of accuracy. For non-perpendicular
+impact, current models are more approximate and a rigorous
+theoretical examination of such systems remains to be done.
+Nevertheless, for elliptical stains similar outcomes may be
+obtained by using the stain width and an estimate of the number
+of spines but again this would be over a limited range of speeds and
+angles. Further, theoretical work to explain the mechanism for the
+formation of the cast-forward feature on low angle, low velocity
+impact stains would be of signiﬁcant beneﬁt to interpretation.
+Finally, systematic, quantitative studies of the relationships
+between surface properties and bloodstain characteristics are an
+essential prerequisite to completing our fundamental understand-
+ing of this important area of forensic science.
+References
+[1] M. Rein, Phenomena of liquid drop impact on solid and liquid surfaces, Fluid Dyn.
+Res. 12 (1993) 61–93.
+[2] S. Chandra, C.T. Avedisian, On the collision of a droplet with a solid surface, Proc. R.
+Soc. Lond. A 432 (1991) 13–41.
+[3] M. Pasandideh-Fard, Y.M. Qiao, S. Chandra, J. Mostaghimi, Capillary effects during
+impact on a solid surface, Phys. Fluids 8 (3) (1996) 650–659.
+[4] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact
+velocity from circular bloodstains, J. Forensic Sci. 50 (1) (2005) 1–10.
+[5] C. Ukiwe, D.Y. Kwok, On the maximum spreading diameter of impacting droplets
+on well-prepared solid surfaces, Langmuir 21 (2005) 666–673.
+[6] D.C. Vadillo, A. Soucemarianadin, C. Delattre, D.C. Roux, Dynamic contact angle
+effects onto the maximum drop impact spreading on solid surfaces, Phys. Fluids
+21 (2009) 12202.
+[7] C.D. Stow, M.G. Hadﬁeld, An experimental investigation of ﬂuid ﬂow resulting
+from the impact of a water drop with an unyielding dry surface, Proc. R. Soc. Lond.
+A 373 (1981) 419–441.
+[8] R.F. Allen, The role of surface tension in splashing, J. Colloid Interface Sci. 51 (2)
+(1975) 350–351.
+[9] R. Bhola, S. Chandra, Parameters controlling solidiﬁcation of molten wax droplets
+falling on a solid surface, J. Mater. Sci. 34 (1999) 4883–4894.
+[10] N.Z. Mehdizadeh, S. Chandra, J. Mostaghimi, Formation of ﬁngers around the
+edges of a drop hitting a metal plate with high velocity, J. Fluid Mech. 510 (2004)
+353–373.
+[11] L. Hulse-Smith, M. Illes, A blind trial evaluation of a crime scene methodology for
+deducing impact velocity and droplet size from circular bloodstains, J. Forensic
+Sci. 52 (1) (2007) 65–69.
+[12] L. Xu, Liquid drop splashing on smooth, rough and textured surfaces, Phys. Rev. E
+75 (2007) 056316.
+[13] R.E. Pepper, L. Courbin, H.A. Stone, Splashing on elastic membranes: the impor-
+tance of early time dynamics, Phys. Fluids 20 (2008) 082103.
+[14] H.L. MacDonell, Credit where it’s due, J. For. Ident. 61 (3) (2011) 210–221.
+[15] P.A. Pizzola, S. Roth, P.R. De Forest, Blood droplet dynamics – II, J. Forensic Sci. 31
+(1) (1986) 50–64.
+[16] S. Sikalo, E.N. Ganic, Phenomena of droplet surface interactions, Exp. Therm. Fluid
+Sci. 31 (2006) 97–110.
+[17] J.C. Bird, S.S.H. Tsai, H.A. Stone, Inclined to splash: triggering and inhibiting a
+splash with tangential velocity, New J. Phys. 11 (2009) 063017.
+[18] L. Courbin, J.C. Bird, H.A. Stone, Splash and anti-splash: observation and design,
+Chaos 16 (2006) 041102.
+[19] C. Knock, M. Davison, Predicting the position of the source of blood stains for
+angled impacts, J. Forensic Sci. 52 (5) (2007) 1044–1049.
+[20] J. Cui, X. Chen, F. Wang, X. Gong, Z. Yu, Study of liquid droplets impact on dry
+inclined surface, Asia-Pac. J. Chem. Eng. 4 (2009) 643–648.
+[21] M.A. Raymond, E.R. Smith, J. Liesegang, Oscillating blood droplets – implications
+for crime scene reconstruction, Sci. Justice 36 (3) (1996) 161–171.
+[22] D.C.D. Roux, J.J. Cooper-White, Dynamics of water spreading on a glass surface, J.
+Colloid Interface Sci. 277 (2004) 424–436.
+[23] G. Sposito, An Introduction to Classical Dynamics, Wiley, New York, 1976.
+[24] J. Rosina, E. Kvasnak, D. Suta, H. Kolarova, J. Malek, L. Krajci, Temperature
+dependence of blood surface tension, Physiol. Res. 56 (Suppl. 1) (2007) S93–S98.
+[25] M.A. Raymond, E.R. Smith, J. Liesegang, The physical properties of blood – forensic
+considerations, Sci. Justice 36 (3) (1996) 153–160.
+[26] R.S. Rosenson, A. McCormick, E.F. Uretz, Distribution of blood viscosity values and
+biochemical correlates in healthy adults, Clin. Chem. 42 (8) (1996) 1189–1195.
+C.D. Adam / Forensic Science International 219 (2012) 76–87 
+87

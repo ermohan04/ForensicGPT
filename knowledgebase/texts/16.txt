@@ -1,0 +1,1040 @@
+
+
+--- PAGE 1 ---
+
+The effect of fabric mass per unit area and blood impact velocity on
+bloodstain morphology
+L. Dickena, C. Knocka,*, D.J. Carra,1, S. Beckettb
+a Centre for Defence Engineering, Cranﬁeld University at the Defence Academy of the United Kingdom, Shrivenham, SN6 8LA, United Kingdom
+b Cranﬁeld Forensic Institute, Cranﬁeld University at the Defence Academy of the United Kingdom, Shrivenham, SN6 8LA, United Kingdom
+A R T I C L E 
+I N F O
+Article history:
+Received 25 July 2018
+Received in revised form 1 May 2019
+Accepted 2 May 2019
+Available online 9 May 2019
+Keywords:
+Bloodstain analysis
+Absorbent surfaces
+Yarn linear density
+Micro-computed tomography
+Scanning electron microscopy
+Wicking
+A B S T R A C T
+This paper discusses the effects of thickness, mass per unit area, sett, yarn linear density and twist of
+calico fabrics (100% cotton, plain woven) on the morphology of passive bloodstains. Horse blood was
+dropped vertically onto three calico fabrics with different mass per unit areas (85.1 g/m2, 163.5 g/m2 and
+224.6 g/m2). Six different impact velocities were used (1.7 ms1, 2.9 ms1, 4.1 ms1, 4.9 ms1, 5.1 ms1 and
+5.4 ms1). The dry bloodstains were largest on the calico with the lightest mass per unit area. The low
+yarn linear density and large inter-yarn spaces meant that the blood could wick into the yarns from all
+directions and along the intra-yarn spaces. The calico with the middle mass per unit area had the smallest
+mean dry bloodstain area for four out of the six velocities. The twist level for this calico was greater than
+for the calicos with a heavier or lighter mass per unit area. This reduced the amount of wicking which
+occurred along the yarns due to the tighter yarn structure. The calico with the heaviest mass per unit area
+had the highest yarn linear density resulting in a thicker fabric, so the blood could not as easily penetrate
+into the fabric. This resulted in a thicker wet blood layer remaining on the fabric surface, where it
+gradually wicked vertically into the yarns under gravity. Less wicking along the yarns occurred, resulting
+in a smaller bloodstain than on the fabric with the lightest mass per unit area. The correlation between
+impact velocity and mean dry bloodstain area was greater for the calicos with the medium and heaviest
+mass per unit area than for the calico with the lightest mass per unit area. For the calicos with the
+medium and heaviest mass per unit area, the distance the blood spread laterally at impact, which
+increased with the increase in impact velocity, had a greater inﬂuence on the dry bloodstain area than the
+amount of wicking.
+© 2019 Elsevier B.V. All rights reserved.
+1. Introduction
+Although bloodstain pattern analysis (BPA) has been used by
+crime scene investigators for over a century [1], questions have
+been raised on the scientiﬁc validity of the work [2]. The premise
+of BPA is that the pattern that blood creates when impacting a
+surface will enable the observer to gain an idea of the events
+which occurred to cause the bloodshed. However, the wide
+variety of creation mechanisms, drop sizes, impact velocities and
+target surfaces indicate the complexity of BPA [3]. The reliability
+of pattern classiﬁcation of ﬁve bloodstain patterns on non-
+absorbent rigid surfaces [4] and fabric surfaces [5] by expert BPA
+analysts 
+has 
+been 
+considered. 
+On 
+non-absorbent 
+surfaces
+incorrect classiﬁcations were made 13.1% of the time [4] and
+on fabric surfaces incorrect classiﬁcations were made 23.4% of the
+time [5].
+As such, more research is being undertaken on the understand-
+ing of the interaction of blood with a variety of surfaces. Work has
+been carried out on non-absorbent surfaces (e.g. steel and plastic
+[6]) and partially absorbent surfaces (e.g. paper and wood [7–9]).
+Equations have resulted that use the bloodstain size and number of
+spines 
+to back-calculate the impact velocity and 
+assist 
+in
+determination of the origin of the bloodstain [7–9].
+Bloodstains on household and clothing fabrics often found at
+crime scenes are also being researched. To understand bloodstains
+on fabrics, it is important to consider wetting and wicking. Wetting
+and wicking are the mechanisms by which liquids move into and
+through a fabric [10]. Wetting occurs when the surface energy of a
+solid overcomes the surface tension of a liquid, allowing the liquid
+to spread on the surface [10]. Once a fabric has been wetted,
+wicking can occur. Wicking is the spontaneous transport of a liquid
+into a porous system by capillary forces. The rate at which the
+* Corresponding author.
+E-mail address: c.knock@cranﬁeld.ac.uk (C. Knock).
+1 Present address: Defence and Security Accelerator, Porton Down, Salisbury,
+Wiltshire, SN4 0PQ, United Kingdom.
+https://doi.org/10.1016/j.forsciint.2019.05.001
+0379-0738/© 2019 Elsevier B.V. All rights reserved.
+Forensic Science International 301 (2019) 12–27
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+
+
+--- PAGE 2 ---
+
+wicking occurs is dependent on the dimensions of the capillaries
+within the substrate, and the viscosity of the liquid [11].
+Fibre content and fabric structure affect the wetting and
+wicking properties of a fabric [12,13]. A 65% polyester/35% cotton
+plain woven fabric produced larger bloodstains than either 100%
+cotton or 100% polyester plain woven fabrics. De Castro et al.
+[12,13] hypothesised that this may be in part due to the random
+mixture of cotton staple and cut polyester ﬁbres which are spun
+together in a blend. This may have created larger interstitial spaces
+which resulted in more capillary action. Differences in capillary
+forces within 100% cotton plain woven and single jersey knitted
+fabrics may have resulted in the larger parent bloodstain area for
+the former [12].
+When otherwise identical 100% cotton plain weave fabrics were
+manufactured from yarns which were either ring, rotor open end or
+Murata vortex air jet spun, porcine blood wicked only into the
+fabric woven from ring spun yarn [14]. When porcine blood was
+dropped vertically on to a commercially woven bed sheet, the
+elliptical bloodstains created were attributed to the warp yarns
+being ring spun, which wicked blood, and the weft yarns being
+Murata vortex spun, which did not. Therefore, even fabrics which
+appear identical may not result in similar bloodstains if the yarn
+manufacturing technique is different.
+Scanning bloodstains with the use of a micro computed
+tomography (mCT) scanner provided a greater insight into the
+internal structure of bloodstains on fabric [15]. For 100% cotton rib
+knit fabric sideways wicking (i.e. wicking along the yarns in the
+length and width of the fabric) dominated at the fastest impact
+velocity (5.3 ms1), resulting in larger, shallower bloodstains [15].
+However, for 100% cotton drill fabric, little variation was seen as
+the velocity increased from 2.9 ms1 to 5.3 ms1. A suggested
+explanation was that the small capillary spaces for the drill fabric
+resulted in the blood not spreading regardless of velocity.
+Previous work has had inconsistent methodology which
+precludes the ability to compare and conglomerate the research.
+There is often inconsistency in the treatment of the fabric prior to
+experimentation, for example not stated [16,17], from a second-
+hand store so unknown [18] and sometimes laundered, although
+not always for the same number of cycles [19,20]. In a number of
+articles, the fabric properties (e.g. mass per unit area, thickness,
+sett, yarn linear density and twist) are not provided [16,17,19,21].
+Whilst work has been published on the effects of fabric and
+ﬁbre content on bloodstain morphology, the effect of mass per unit
+area has not been extensively studied. The aim of the current work
+was to understand the effects of fabric mass per unit area and blood
+impact velocity on the resultant parent bloodstain formed on three
+100% cotton plain woven fabrics.
+2. Materials and methods
+2.1. Materials
+To ensure the research was relevant to BPA, the fabrics used
+were ‘household textiles’. Three rolls of calico fabric (100% cotton,
+plain woven), each with a different mass per unit area (85.1 g/m2
+(light), 163.5 g/m2 (medium) and 224 g/m2 (heavy)) were obtained
+from a fabric supplier2 in order to study the effect of the different
+mass per unit areas on passive bloodstains (Table 1).
+Dimensionally stable fabrics were created by washing the
+fabrics for six cycles in a domestic washing machine3 before line
+drying [22]. The fabrics were ironed under the same conditions
+using a PSP-202E digital steam press on the cotton setting to
+remove creases. 100 mm  100 mm specimens (n = 90) were cut
+from the fabrics, minimising repetition of warp and weft yarns, and
+were conditioned to 20  2 C and 65  4% R.H. for 24 h [23].
+Fabric thickness (mm) [24], mass per unit area (g/m2) [25] and
+sett [26] were measured. Yarn linear density was estimated by the
+removal of ten 1 m long yarns from the fabric and weighing them
+using an Oxford A2204 balance accurate to four decimal places. The
+twist level and yarn type were provided by the fabric supplier4
+(Table 1). SEM images of the fabrics at 50 magniﬁcation and the
+warp and weft yarns at 75 magniﬁcation are available in the
+electronic Supplementary material.
+Deﬁbrinated 
+horse 
+blood 
+sourced 
+from 
+Southern 
+Group
+Laboratory5 was used to create the bloodstains. The blood was
+stored below 4 C, and used within one week of delivery.
+2.2. Method
+The horse blood was heated to 37 C in a water bath to simulate
+a blood-letting event at body temperature. Blood drops were
+formed in a Pasteur pipette and dropped from six different heights
+onto the fabrics, which were placed on a hard plastic surface. Blood
+was dropped from each height sequentially, but the order of
+specimens within a drop height was randomised. All drops were
+ﬁlmed using a Phantom V12 high-speed video (6273 fps and
+exposure 70 ms). The high-speed video was subsequently analysed
+using Phantom Camera Control software6 to measure the droplet
+diameter and impact velocity for each drop height (Table 2). The
+mean diameter of the drops for all experiments was 3.3  0.17 mm.
+Five repeats were taken at each velocity on each fabric resulting in
+a total of 90 specimens.
+Bloodstains were photographed using a Nikon D3300 camera
+under the following conditions: wet (30 s following the drop
+event) and dry on the technical face and on the technical rear of the
+fabric (24 h later).
+Dry specimens were analysed using a Nikon XTH225 micro
+Computed Tomography (mCT) scanner7 (Table 3). For the mCT
+scans, the fabric specimens were cropped to a width just greater
+than the parent bloodstain to increase the resolution of the scans,
+and mounted on a foam block. Foam was used as it was a different
+density from the fabric, and so the scanned image of the foam could
+easily be removed from the CT data during post-processing. The
+mCT scanner was used to investigate the internal structure of the
+bloodstains as materials of different densities attenuate X-rays
+Table 1
+Mean fabric properties and standard deviations where available (n = 5).
+Light calico 
+Medium calico 
+Heavy calico
+Thickness (mm) 
+0.38  0.03 
+0.46  0.02 
+0.56  0.03
+Mass per unit area (g/m2) 
+85.1  1.54 
+163.5  2.26 
+224.6  1.56
+Sett (yarns per 10 mm) 
+27  23 
+25  26 
+26  26
+Yarn type 
+Ring spun 
+Ring spun 
+Ring spun
+Warp: 
+Weft: 
+Warp: 
+Weft: 
+Warp: 
+Weft:
+Twist (turns per m) 
+650 
+650 
+756 
+756 
+650 
+624
+Linear density (tex) 
+14 
+18 
+33 
+31 
+43 
+47
+2 Whaleys Bradford Ltd, Harris Court, Great Horton, Bradford, West Yorkshire,
+BD7 4EQ http://www.whaleys-bradford.ltd.uk/.
+3 Samsung Ecobubble at 40C cotton cycle.
+4 Whaleys Bradford Ltd, Harris Court, Great Horton, Bradford, West Yorkshire,
+BD7 4EQ http://www.whaleys-bradford.ltd.uk/.
+5 E-H Cavendish Courtyard, Sallow Road, Weldon North Industrial Estate, Corby,
+Northants www.sglab.co.uk.
+6 https://www.phantomhighspeed.com/resourcesandsupport/phantomre-
+sources/pccsoftware page accessed 27th September 2018.
+7 Nikon Metrology UK, Tring Business Centre, Icknield Way, Tring, Hertfordshire,
+HP23 4JX.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+13
+
+
+--- PAGE 3 ---
+
+differently. The iron in the blood is the densest material on the
+blood-soaked fabric, and therefore the iron-rich bloodstains can be
+seen as separate from the less dense fabric background.
+The mCT data was manually reconstructed in CT pro 3D8
+(Table 3). The reconstructed data was then analysed in VGStudio
+Max9 and a 2D image of the 3D reconstruction of the bloodstain
+saved. Two-dimensional cross-sections were saved with a slice
+distance of 0.05 mm. Cross sections were obtained through the
+depth of the fabric in the warp and weft directions (Fig. 1).
+The densest areas in the CT scans, where there is the most iron
+present, can be seen as the brightest areas within the cross-
+sections and 2D image of the 3D reconstruction. Fig. 2 is a
+representation of the different ways in which the blood may be
+seen in the mCT cross-sections.
+The areas of the wet and dry technical face and technical rear of
+the parent bloodstains were obtained using the in-built tools in
+ImageJ10 . Brieﬂy, the image was converted to binary so the parent
+bloodstain was black against the white background. The area of the
+bloodstain was measured using the ‘analyse particles’ function. The
+outline of the measured area was compared to the original
+photograph to ensure spatter not connected to the parent
+bloodstain was not included in the measurement.
+Two specimens from each fabric and velocity combination were
+examined using a Hitachi SU3500 SEM with the EDAX TEAM
+microanalysis system11 (15 kV, 60 Pa). Background images were
+taken of the fabric (50) and of a yarn removed from the fabric
+(75) as well as of the dry bloodstains (42 and 250).
+To determine whether the blood drop impact velocity or fabric
+mass per unit area had a statistically signiﬁcant effect on the wet
+and dry bloodstain areas, an analysis of variance (ANOVA) (IBM
+SPSS statistics version 22) was carried out. Statistical results are
+only reported in the results section if signiﬁcant. Tukey’s HSD test
+identiﬁed which variables or levels contributed towards any
+signiﬁcant effects. To ensure that these statistical tests were viable,
+equality of variances and normality of data were checked.
+3. Results and discussion
+The resultant bloodstains from the passive blood drops were
+examined to compare the interaction between the blood and the
+fabric among the different fabrics and velocities.
+Overall, the light calico produced the largest mean dry
+bloodstain area, and the medium the smallest, although this is
+not true across all velocities (Fig. 3). For the medium and heavy
+calico, a straight line ﬁtted to the mean data using a least square ﬁt
+gave a strong correlation for both wet (medium: R2 = 0.98; heavy:
+R2 = 0.92) and dry (medium: R2 = 0.93; heavy: R2 = 0.94) bloodstain
+area with velocity. The correlation was lower for the light calico
+(wet: R2 = 0.6; dry: R2 = 0.74). Univariate analysis of variance
+(ANOVA) revealed impact velocity affected wet bloodstain area
+(F17,72 = 49.314, p  0.01) and dry bloodstain area (F17,72 = 37.459,
+p  0.01), the details of which are given in Table 4.
+The results showed four groupings of velocities (Tables 4 and 5).
+The specimens from 1.7 ms1 had dry bloodstains which were
+small and dense, and so the specimens from this velocity were
+looked at separately from the other velocities. The specimens from
+2.9, 4.1 and 4.9 ms1 were grouped together as all fabrics had a
+gradual increase in mean dry bloodstain area with velocity. The
+medium calico had the smallest mean dry bloodstain area and the
+light the largest. Within a fabric, the bloodstains appeared visually
+similar. The specimens from 5.1 ms1 were looked at separately
+from the other velocities as the medium calico had the largest
+mean dry bloodstain area, and the light calico the smallest, which
+only occurred at this velocity. Lastly, the specimens from 5.4 ms1
+were also looked at separately from the other velocities. This
+velocity resulted in a large increase in mean dry bloodstain area for
+the light and heavy calicos.
+3.1. Impact velocity 1.7 ms1
+At an impact velocity of 1.7 ms1 the blood spread laterally on
+the technical face of the fabric following the initial impact, with
+little satellite stain and ligament formation (Fig. 4a–c). The blood
+then retracted to form a small bloodstain (Fig. 5a).
+The small distance the blood spread laterally at impact resulted
+in the blood remaining pooled on the surface of all fabrics in the
+wet bloodstain photographs (Fig. 5). The blood pooled on the
+surface of the fabric refers to the blood which remained on the
+surface of the fabric following impact, and then either wicked into
+the fabric or dried on the surface of the fabric.
+A key ﬁnding in the current work was the effect of the
+differences between the light, and the medium and heavy calicos
+on the bloodstains resulting from the 1.7 ms1 impacts. On the
+light calico the blood which was pooled on the surface of the fabric
+was likely to enter the inter-yarn spaces, as these were largest for
+the light calico owing to the differences in yarn linear density
+among the three fabrics. In the CT cross-sections (Fig. 6a and b),
+both the warp (marked ‘A’) and weft (marked ‘B’) yarns are soaked
+in iron-rich blood. Once the blood was pooled in the inter-yarn
+spaces, the blood would have been able to wick into the yarns from
+all sides, ﬁlling the intra-yarn spaces. The volume of blood on the
+fabric surface, and in the inter-yarn spaces, then provided a
+reservoir for the blood to wick along the yarns after wetting. The
+lower linear density of the warp yarns (14 tex) than the weft yarns
+(18 tex) increased the amount of wicking in the former (Figs. 6c,
+marked ‘C’ and 8 a marked ‘A’). The lower yarn linear density meant
+less blood was required to wet the yarn, and then ﬁll the volume of
+the yarn, so the blood was able to wick further.
+On the medium and heavy calicos more blood dried on the
+surface of the fabric than for the light calico (Fig. 7a–c). Compared
+to the light calico, the higher yarn linear density and smaller inter-
+yarn spaces of the medium and heavy calico meant it was more
+difﬁcult for the blood to ﬁll the inter-yarn spaces and surround the
+yarns. The blood pooled on the surface of the fabric and then
+wicked vertically through the yarns under gravity from the
+technical face towards the technical rear. This resulted in both
+the warp (marked ‘A) and weft (marked ‘B’) yarns being soaked in
+iron-rich blood (Fig. 8), with blood also remaining on the surface of
+the fabric (Fig. 8, marked ‘C’). Although blood was unlikely to have
+penetrated the fabric as a result of the impact [27], the blood
+wicked through to the technical rear of the fabric prior to the
+bloodstain drying (Fig. 7e and f). Although the blood was in the
+intra-yarn spaces, it did not wick along the yarns to the same
+Table 2
+The drop heights and subsequent velocities measured from the high-speed video.
+Drop height (mm) 
+Mean velocity and standard deviation (ms1)
+200 
+1.7  0.01
+500 
+2.9  0.06
+1000 
+4.1  0.04
+1500 
+4.9  0.04
+2000 
+5.1  0.2
+2500 
+5.4  0.2
+8 CT pro is 3D CT reconstruction software [33].
+9 VGStudio Max enables the visualisation, examination and processing of CT data
+[34].
+10 ImageJ is a public domain Java image processing programme (https://imagej.
+nih.gov/ij/docs/intro.html page accessed 27th September 2018).
+11 https://www.edax.com/products/eds/team-eds-system-for-the-sem 
+Page
+accessed 27th September 2018.
+14 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 4 ---
+
+extent as the light calico. This was owing to the amount of time it
+would take to fully wet the high linear density yarns of the medium
+and heavy calico as the blood was only soaking through from the
+technical face of the fabric. When investigating spatter bloodstains
+on three 100% cotton knitted fabrics with different yarn linear
+densities, as with the current work on calico, it was found the
+smallest bloodstains were on the fabric with the greatest yarn
+linear density [28]. The greater the yarn linear density, the more air
+spaces there are between the ﬁbres, therefore the more blood
+which is required to fully wet the yarns, before wicking can occur.
+The blood remaining on the surface of the fabric would dry before
+much wicking along the yarns was able to occur. 1.7 ms1 is the
+only velocity where the heavy calico specimens had the smallest
+mean dry bloodstain area (Fig. 3). As the predominant method by
+which the bloodstains are being created on the medium and heavy
+calico at this velocity is wicking vertically into the fabric under
+gravity, the greater yarn linear density of the heavy than either the
+medium or light calico would reduce the ability of the blood to
+wick into the heavy calico.
+On all three fabrics for 1.7 ms1 impacts the blood which
+remained on the surface of the fabric dried in the manner of the
+coffee ring effect (Fig. 8a–c, marked ‘B’) [29,30]. The coffee ring
+effect occurs in many colloidal ﬂuids when the solutes move to the
+pinned edge of the liquid drop to compensate for evaporative
+losses [31]. This results in a higher concentration of particulates at
+the edge of the drop than the centre, and is evidenced by a ring of
+dense blood surrounding the parent bloodstain.
+As a larger volume of blood remained on the surface of the
+medium and heavy calicos than the light calico, the coffee ring
+effect was more pronounced. The coffee ring effect occurred more
+extensively for 1.7 ms1 impacts as blood pooled on the surface of
+all fabrics following impact and dried before wicking occurred.
+Fig. 2. A representation of the different ways the blood-soaked yarns appeared in the mCT cross-sections. (A) is a representation of a completely blood-soaked yarn, where the
+yarn was the same density throughout. (B) is a representation of a partially blood-soaked yarn, where there were some areas which were denser than others, and therefore
+where more iron is present (typically towards the technical face of the fabric). (C) is a representation of a blood-coated yarn, where the dense iron-rich blood was only present
+around the outside of the yarn, and the centre of the yarn remained blood free.
+Table 3
+The values at which all three masses of calico were scanned in the micro CT scanner and reconstructed.
+Scanning values 
+Reconstruction
+Target 
+Voltage (kV) 
+Current (mA) 
+Exposure (ms) 
+Projections 
+Frames per projection 
+Beam hardening 
+Noise reduction
+Tungsten 
+120 
+30 
+500 
+1080 
+2 
+1 
+1
+Fig.1. Direction of the 2D images saved from the CT data. Cross-sections were saved
+at a slice distance of 0.05 mm in each of the warp and weft directions.
+Fig. 3. Mean wet and dry bloodstain area at each velocity for all fabrics.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+15
+
+
+--- PAGE 5 ---
+
+Table 4
+The mean bloodstain area and statistical differences among the fabrics (light: 85.1 g/m2; medium: 163.5 g/m2; heavy: 224.6 g/m2) for each velocity.
+Velocity category
+(ms1)
+Mean dry bloodstain area and
+standard deviation (mm2)
+Statistics
+1.7 
+L: 27.6  4.4 
+Technical face wet and dry bloodstain areas statistically signiﬁcantly smaller than all other velocities.
+M: 23.4  4.7
+H: 21.7  3.2
+2.9 
+L: 41.4  3.6 
+Technical face wet and dry bloodstain area for 2.9 ms1 statistically signiﬁcantly smaller than 4.9 ms1,
+5.1 ms1 and 5.4 ms1.
+M: 30.9  5.6
+H: 35.6  7.8
+4.1 
+L: 44  6.9 
+Technical face wet bloodstain area for 4.1 ms1 and 4.9 ms1 is statistically signiﬁcantly smaller than 5.4 ms1.
+Technical face dry bloodstain area for 4.1 ms1 statistically signiﬁcantly smaller than 5.4 ms1.
+M: 34.4  3.9
+H: 40.1  6.3
+4.9 
+L: 48.7  12 
+Technical face wet bloodstain area for 4.9 ms1 is statistically signiﬁcantly smaller than 5.4 ms1.
+M: 42.8  5.7
+H: 45.7  4.5
+5.1 
+L: 42.5  3.4 
+Technical face wet and dry bloodstain area statistically signiﬁcantly smaller than 5.4 ms1.
+M: 47.5  8.8
+H: 45.5  4.3
+5.4 
+L: 59.7  6.4 
+Technical face wet bloodstain area statistically signiﬁcantly larger than all other velocities.
+M: 43.3  4.1 
+Technical face dry bloodstain area statistically signiﬁcantly larger than 1.7 ms1, 2.9 ms1, 4.1 ms1 and
+5.1 ms1.
+H: 53.5  7.3
+Table 5
+A summary of the way in which blood is interacting with each fabric (light: 85.1 g/m2; medium: 163.5 g/m2; heavy: 224.6 g/m2) for each velocity category.
+Velocity
+category
+(ms1)
+Light calico 
+Medium calico 
+Heavy calico
+1.7 
+- Blood pooled on the surface of the fabric when wet, ﬁlling
+the inter-yarn spaces (Fig. 5a)
+- Blood surrounded yarns and wicked into the yarns from all
+sides
+- Pooled blood provided a reservoir for blood to wick along
+the intra-yarn spaces (Fig. 6a and b)
+- Bloodstain dried in the manner of the coffee ring effect
+(Fig. 8a)
+- Blood remained pooled on the surface of the fabric (Fig. 5b and c)
+- Blood wicked vertically through the yarns under gravity
+- Only a small amount of wicking along the intra-yarn spaces
+- Large volume of blood dried on the surface of the fabric (Fig. 8b and c)
+2.9, 4.1 and
+4.9
+- No wet blood pooled on the fabric technical face (Fig. 9a)
+- Blood penetrated the fabric at impact through to the
+technical rear (Fig. 9g)
+- Wicking occurred along the intra-yarn spaces and removed
+iron-rich blood from the centre of the bloodstain (Fig. 10a and
+b)
+- Very little blood dried on the surface of the fabric (Fig. 9d)
+- Blood remained pooled on the surface in
+specimens from 2.9 and 4.1 ms1 (Fig. 9b)
+- Blood wicked vertically into the warp and
+weft yarns (Fig. 10d and e)
+- Wicking along the intra-yarn spaces impeded
+owing to the greater twist than for the light
+and heavy calicos
+- Blood remaining pooled on the surface
+in specimens from 2.9 and 4.1 ms1
+(Fig. 9c)
+- Blood dried before penetrating through
+the thickness of the yarns (Fig. 10 g and h)
+- A large volume of blood dried on the
+surface of the fabric (Fig. 9f)
+5.1 
+- No wet blood pooled on the fabric technical face
+- Blood penetrated the yarns at impact – very little blood in
+the inter-yarn spaces (Fig. 11a–c)
+- With no blood pooled on the surface further wicking along
+the intra-yarn spaces could not take place.
+- No wet blood pooled on the fabric technical
+face
+- Blood penetrated the yarns at impact
+(Fig. 11d–f)
+- Blood penetrated through to the technical
+rear of the fabric (Fig. 12e)
+- Some wicking occurred along the intra-yarn
+spaces.
+- No wet blood pooled on the fabric
+technical face
+- Blood penetrated the yarns at impact
+(Fig. 11g–i)
+- Less blood available for lateral spreading
+- Greater yarn linear density of the heavy
+calico meant blood could not wick easily
+along the yarns
+5.4 
+- No wet blood pooled on the fabric technical face (Fig. 13a)
+- Large amount of spreading on the technical face at impact
+- Penetration through to the technical rear at impact (Fig. 13g)
+- Blood wicked into the warp yarns, but only coated the weft
+yarns (Fig. 14a and b)
+- Once the blood was either in or around the yarns, it then
+wicked along the intra-yarn spaces.
+- Small amount of blood remained on the
+surface following impact (Fig. 13b)
+- Blood penetrated through to technical rear at
+impact (Fig. 13h)
+- Blood coating the warp and weft yarns
+(Fig. 14d and e) — Small amount of wicking
+occurred
+- Wicking limited owing to blood drying on the
+surface and the greater twist of the medium
+calico.
+- Small amount of blood remained on the
+surface following impact (Fig. 13c)
+- No penetration through to the technical
+rear of the fabric at impact (Fig. 13i)
+- Blood spread laterally across the surface
+of the fabric
+16 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 6 ---
+
+3.2. Impact velocities 2.9, 4.1 and 4.9 ms1
+On the light calico there was a large increase in mean dry
+bloodstain area from 27.6 mm2 at 1.7 ms1 to 41.4 mm2 at 2.9 ms1
+(Fig. 3) owing to the increase in lateral spreading following impact
+due to the increase in velocity. This increase in lateral spreading
+resulted in no blood remaining pooled on the surface of the light
+calico (Fig. 9a). The blood instead penetrated the yarns through to
+the technical rear of the light calico (Fig. 9g, marked ‘A’) some of
+which occurred closely following impact, with wicking further
+increasing the technical rear bloodstain area [27]. The amount of
+blood which penetrated to the technical rear following impact has
+previously been found to increase with an increase in impact
+velocity from 1.9 ms1 to 4.2 ms1 (7.2 mm2–18.6 mm2) [27].
+For the light calico, the CT scans of all the bloodstains at this
+velocity showed neither the warp nor weft yarns contained a large
+amount of iron-rich blood (Fig. 10a and b), with only a patchy area
+in the centre of the bloodstain (marked ‘A’). At the edge of the
+bloodstain there is iron-rich blood primarily on the warp yarns
+(marked ‘B’). Once the blood penetrated the intra-yarn spaces of
+the light calico, wicking occurred along them to remove the
+particulates (red blood cells, white blood cells and platelets) from
+the centre of the bloodstain towards the edge, removing any blood
+which was originally pooled in the inter-yarn spaces (Fig. 10c,
+Fig. 4. Typical example of a blood drop impacting the light calico at 1.9 ms1 (images from work undertaken for Ref. [27] but not used in the publication).
+Fig. 5. Typical example of a wet bloodstain on each calico formed at 1.7 ms1. Scale is 10 mm.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+17
+
+
+--- PAGE 7 ---
+
+marked ‘C’). Any particulates which remained in the centre of the
+bloodstain were spread out owing to the larger dry bloodstain
+areas at these velocities than at 1.7 ms1. The amount of wicking
+which was occurring at 2.9, 4.1 and 4.9 ms1 on the light calico
+resulted in similar mean dry bloodstain areas at these three
+velocities (41.4, 44.0 and 48.7 mm2 respectively) and reduced the
+correlation of mean dry bloodstain area and velocity.
+The dry bloodstains formed on the light (thinnest) calico
+specimens from impact velocities of 2.9, 4.1 and 4.9 ms1 had a
+larger mean area than the medium and heavy calico specimens
+(Fig. 3, Table 4). However, there was only one statistically signiﬁcant
+difference in dry bloodstain area among the fabrics at any of these
+three velocities. From an impact velocity of 2.9 ms1 (F2,12 = 3.951,
+p  0.05), the light calico was statistically signiﬁcantly larger than
+the medium calico. A larger bloodstain on a thinner fabric was also
+seen when bloodstains on a blend (65% polyester/35% cotton) plain
+woven fabric were compared to those on 100% cotton and 100%
+polyester fabrics which had greater thickness and mass per unit area
+[12]. Although ﬁbre content may also have had an effect in this
+previous work, it was suggested that the large bloodstain size was
+caused by the blood spreading laterally over the fabric, rather than
+over and through the fabric [12].
+For the medium and heavy calico, blood remained pooled on the
+surface of the fabric when the blood impacted at a velocity of
+2.9 ms1 or 4.1 ms1 (Fig. 9b and c). At an impact velocity of
+4.9 ms1 no blood remained pooled on the fabric surface owing to
+the greater distance the blood spread laterally at impact. The
+increase in lateral spreading also increased the mean dry
+bloodstain area with velocity (Fig. 3, Table 4).
+Although the blood could not penetrate the medium calico as
+easilyas the lightcalicoowing tothe smaller inter-yarn spaces, all the
+CT scans of the medium calico bloodstains at this velocity showed
+Fig. 6. The CT data from a typical example of a light calico specimen formed at 1.7 ms1.
+18 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 8 ---
+
+iron-rich blood did wick into both the warp and weft yarns. This
+occurred primarily on the sections of the yarns which were on the
+technical face of the fabric (Fig.10d and e, marked ‘A’). The blood was
+therefore penetrating the yarns from the reservoir pooled on the
+surface of the fabric. However, the high twist level of the medium
+calico (756/756) compared to the heavy calico (650/624) impeded
+the wicking of the blood along the intra-yarn spaces, resulting in the
+smallest mean dry bloodstain area at each of these velocities.
+The mCT cross-sections for all the heavy calico specimens at this
+velocity indicated very little iron-rich blood in the centre of the
+bloodstain (Fig. 10g and h). Any iron-rich blood in the centre of the
+bloodstain (marked ‘A’) is primarily on the warp yarns, and the
+blood has not soaked all the way through to the centre of the yarns
+(Fig. 10g, ‘A’). This is possibly due to the higher linear density for
+the heavy than the light and medium calicos. The blood dried
+before penetrating to the centre of the yarns, shown by the volume
+of dry blood which remained on the surface of the fabric (Figs. 9f,
+marked ‘A’, Fig. 10i marked ‘B’), ﬁlling the inter-yarn spaces
+(Fig. 10i, marked ‘C’). At an impact velocity of 4.2 ms1 it has
+previously been found that no blood penetrated through to the
+technical rear of the heavy calico at impact, while blood did
+penetrate both the medium and light calicos [27].
+3.3. Impact velocity 5.1 ms1
+5.1 ms1 was the only velocity where the largest mean dry
+bloodstain area was on the medium calico, and the smallest on the
+light calico (Fig. 3, Table 4). The difference in mean dry bloodstain
+area at 5.1 ms1 was not statistically signiﬁcant (the difference
+between the medium and light calico was only 5 mm2).
+For all specimens from an impact velocity of 5.1 ms1 both the
+warp (marked ‘A’) and weft (marked ‘B’) yarns were almost
+completely soaked in iron-rich blood (Fig. 11a, b, d, e, g and h),
+where the full shape of the yarn is seen (Fig. 2). Less blood was visible
+on the surface of the yarns at 5.1 ms1 (Fig. 11c, f, i) than at 4.1 ms1
+(Fig.10c, f, i). As the blood was able to penetrate the intra-yarn spaces
+for all three fabrics at this velocity, regardless of the yarn linear
+density, this would suggest that the increase in velocity to 5.1 ms1
+enabled the blood to penetrate into the yarns at impact, ﬁlling the
+intra-yarn spaces. Evidence for a higher velocity forcing blood to
+penetrate into the intra- and inter- yarn spaces has previously been
+seen when passive bloodstains on a 100% cotton rib knit fabric were
+examined using a mCT scanner [15]. In this previous work, the
+bloodstains formed from a velocity of 5.3 ms1 reached their
+maximum extent closer to the technical face of the fabric than the
+middle velocity (4.5 ms1), with a mean maximum cross-sectional
+area larger than either of the other two velocities investigated in this
+previous work (3.2, 4.5 ms1) [15]. The higher velocity appeared to
+therefore be forcing the blood intothe intra-and inter-yarnspaces,as
+occurred on the calico fabrics from an impact velocity of 5.1 ms1.
+Onthelightcalicothemeandrybloodstainareadecreasedfrom48.7
+mm2 at 4.9 ms1 to 42.5 mm2 at 5.1 ms1. The coefﬁcient of variation
+(CV) for the light calico at 5.1 ms1 (8%) was lower than at 4.9 ms1
+(25%). This was possibly due to a greater amount of wicking at 4.9 ms1
+increasing the variability in the dry bloodstain area. The amount of
+wicking in a specimen would be dependent on variations within the
+Fig. 7. A typical example of a dry bloodstain on each calico formed at 1.7 ms1. ‘B’ indicates the coffee ring effect in part of the bloodstains. Scale is 10 mm.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+19
+
+
+--- PAGE 9 ---
+
+Fig. 8. A typical example of a cross-section in the warp and weft directions on the medium and heavy calico formed at 1.7 ms1. ‘A’ indicates an example blood-soaked warp
+yarn, ‘B’ an example blood-soaked weft yarn and ‘C’ the blood remaining on the surface of the fabric.
+20 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 10 ---
+
+fabric and yarns [32] and therefore would differ between specimens.
+When the area of the bloodstain is more dependent onwicking than on
+the distance the blood spread laterally at impact, greater variability
+among specimens within that velocity will be seen. The reduced
+wicking at 5.1 ms1, indicated by less variability among specimens,
+resulted in the smaller mean dry bloodstain area at this velocity.
+The mean dry bloodstain area on the heavy calico decreased
+slightly despite the increase in impact velocity from 45.7 mm2 at
+4.9 ms1 to 45.5 mm2 at 5.1 ms1. There is little evidence of dense
+blood on the surface of the heavy calico in the dry bloodstains
+(Fig. 12c). This was due to the blood penetrating the yarns rather
+than remaining on the surface of the fabric. Although the blood was
+Fig. 9. A typical example of a technical face wet and dry and technical rear dry bloodstain on each calico formed at 4.1 ms1. Scale is 10 mm.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+21
+
+
+--- PAGE 11 ---
+
+then in the intra-yarn spaces, the high yarn linear density of the
+heavy calico precluded wicking.
+The medium calico was the only fabric where the mean dry
+bloodstain area increased with the increase in velocity from 42.8
+mm2 at 4.9 ms1 to 47.5 mm2 at 5.1 ms1. The CV also increased
+from 13% to 19% suggesting a greater amount of wicking was
+occurring, as this would increase the inconsistency of the dry
+bloodstain area among specimens [32]. The largest technical rear
+Fig. 10. A typical example of a CT cross section in the warp and weft directions and an SEM image (42) on each calico formed at 4.1 ms1.
+22 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 12 ---
+
+bloodstain on the medium calico was seen on the specimens from a
+velocity of 5.1 ms1 (Fig. 12e). Blood penetrated the yarns through
+to the technical rear of the medium calico across the entire
+bloodstain and then wicked along the yarns as the blood was
+already in the intra-yarn spaces. The lower yarn linear density for
+the medium than the heavy calico meant more wicking occurred in
+the former.
+3.4. Impact velocity 5.4 ms1
+The light calico specimens had the largest mean dry bloodstain
+area and the medium the smallest from a velocity of 5.4 ms1
+(Fig. 3, Table 4). The difference in mean dry bloodstain area among
+fabrics 
+at 
+5.4 ms1
+was 
+statistically 
+signiﬁcantly 
+different
+(F2,12 = 9.32, p  0.01). The mean dry bloodstain area for the light
+calico (59.7 mm2) was signiﬁcantly larger than the medium
+(43.3 mm2). The mean dry bloodstain area for the heavy calico
+(53.5 mm2) was not signiﬁcantly different.
+For the light calico specimens from 5.4 ms1, the blood spread a
+large distance following impact as shown in the increase in mean
+wet bloodstain area from 43.6 mm2 at 5.1 ms1 to 64.9 mm2 at
+5.4 ms1. The distance the blood drop spread on the surface of the
+fabric following impact depended on the kinetic energy at impact.
+The kinetic energy was converted to surface energy causing the
+spreading [20]. The increase in impact velocity from 1.7 ms1 to
+5.4 ms1 resulted in an increase in kinetic energy of over 900%,
+hence resulting in more spreading on the surface of the fabric.
+No blood remained pooled on the surface of the light calico
+specimens from 5.4 ms1 impacts (Fig. 13a). A large amount of
+blood penetrated through to the technical rear of the fabric
+(Fig. 13g). Iron-rich blood penetrated through the entire thickness
+of the warp yarns (Fig. 14a, marked ‘A’) while only coating the weft
+yarns (Fig. 14b, marked ‘B’). The predilection for the warp yarns
+owing to their lower linear density (14 compared to 18 tex) can be
+seen around the edge of the dry technical face (Fig. 13d marked ‘A’)
+and technical rear (Fig. 13g marked ‘A’) bloodstain and the 2D
+image of the 3D CT reconstruction (Fig. 13j). As the warp yarn on
+the light calico was soaked in blood it was possible for the blood to
+wick along the intra-yarn spaces within the yarns, increasing the
+bloodstain area.
+Fig. 11. A typical example of a CT cross section in the warp and weft directions and an SEM image (42) on each calico formed at 5.1 ms1. ‘A’ indicates the blood soaked warp
+yarns, and ‘B’ the blood soaked weft yarns.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+23
+
+
+--- PAGE 13 ---
+
+The mean technical rear bloodstain area for the medium calico
+decreased from 27.8 mm2 at 5.1 ms1 to 15.1 mm2 at 5.4 ms1.
+However, the specimens from an impact velocity of 5.4 ms1 were
+the only specimens on the medium calico where the blood
+completely penetrated to the technical rear of the fabric (Fig. 13h,
+marked ‘B’). The blood coated the warp and weft yarns (Fig.13d and
+e, marked ‘A’) rather than penetrating through to the centre of
+them. Therefore, the blood on the technical rear of the medium
+calico was forced through the inter-yarn spaces and around the
+yarns at impact, as the higher twist level of the medium calico
+reduced the ability of the blood to penetrate into the yarns
+themselves. Some blood also remained pooled on the surface of the
+medium calico (Fig. 13b). The blood on the surface dried before
+being able to fully wick into the intra-yarn spaces, therefore
+reducing the amount of wicking which occurred along them. The
+greater yarn twist of the medium than the heavy and the light
+calicos reduced the ability of the blood to wick into and along the
+intra-yarn spaces, reducing the dry bloodstain area.
+For the heavy, as for the medium calico, iron-rich blood coated
+both the warp and weft yarns (Fig. 14g and h), although blood did
+not completely penetrate through to the technical rear of the fabric
+(compare Fig. 13i–h). The blood remained more on the surface of
+the heavy calico than either the medium or light calicos owing to
+the higher yarn linear density. This is evidenced by a greater
+amount of iron-rich blood towards the technical face of the fabric
+in the mCT cross-sections (Fig. 14g and h) and the ring of dense
+blood which occurred on the surface of the fabric (Fig. 13l).
+Therefore, with the increase in impact velocity to 5.4 ms1 the
+blood spread laterally across the surface of the heavy calico, as
+opposed to penetrating through to the technical rear of the fabric
+as for the medium calico. This resulted in a larger mean dry
+bloodstain area for the heavy than the medium calico.
+3.5. All velocities
+A summary of the differences in results between the different
+impact velocities and fabrics is given in Table 5.
+4. Conclusions
+Passivebloodstainswerecreatedonthreemassperunitareas(light:
+85 g/m2, medium: 164 g/m2 and heavy: 225 g/m2) of 100% cotton plain
+woven calico. Six drop heights were used, resulting in six impact
+velocities (1.7, 2.9, 4.1, 4.9, 5.1 and 5.4 ms1). The use ofmCTenabled the
+internal structure of the bloodstains to be assessed. This provided an
+understanding of where the blood was within the bloodstain, and
+whetherithadpenetratedorcoatedtheyarns,whichwasimperativeto
+understanding the interaction of the blood and the fabric.
+The bloodstains varied depending on the type of fabric and the
+velocity with which the blood impacted. Overall, dry bloodstain
+area increased with impact velocity, although this was not
+consistent across all three fabrics. The light calico generally had
+the largest mean dry bloodstain area but had a lower correlation
+with velocity. This was due to the low yarn linear density of the
+light calico which reduced the volume the blood had to ﬁll;
+therefore the blood wicked further along the yarns. The correlation
+with velocity was greater for the medium and heavy calicos. Less
+wicking along the intra-yarn spaces occurred, and so the dry
+bloodstain area was more dependent on the distance the blood
+spread laterally following impact, which increased with the
+Fig. 12. A typical example of a dry technical face and technical rear bloodstain on each calico formed at 5.1 ms1. Scale is 10 mm.
+24 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 14 ---
+
+Fig. 13. A typical example of a wet and dry technical face and dry technical rear bloodstain (scale: 10 mm) and 2D of the 3D CT reconstruction on each calico formed at
+5.4 ms1.
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+25
+
+
+--- PAGE 15 ---
+
+increase in impact velocity. At a slow impact velocity (1.7 ms1) the
+blood pooled on the surface of the fabric wicked slowly into the
+warp and weft yarns under gravity, while at a faster impact velocity
+(e.g. 4.1 ms1) the particulates were more spread out within the
+bloodstain, resulting in very different CT scans between fast and
+slow impact velocities. This is important to note for forensic
+science, as in some circumstances it may be possible to ascertain
+something of the area of origin of the bloodstain on the basis of a
+fast or slow impact velocity.
+For forensic science, it is also important to note that fabric mass
+per unit area needs to be taken into account when analysing
+bloodstains on fabrics. When comparing bloodstains between two
+fabrics of identical ﬁbre content and weave structure, the fabric
+with the lower mass per unit area may produce a larger bloodstain
+than that of the higher mass per unit area irrespective of the
+velocity with which the blood impacted.
+Ethical statement
+All applicable international, national and institutional guide-
+lines for the care and use of animals were followed.
+Declarations of interest
+None.
+Fig. 14. A typical example of a CT cross section in the warp and weft directions and an SEM image (42) on each calico formed at 5.4 ms1.
+26 
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27
+
+
+--- PAGE 16 ---
+
+Appendix A. Supplementary data
+Supplementary material related to this article can be found, in the
+online version, at doi:https://doi.org/10.1016/j.forsciint.2019.05.001.
+References
+[1] S.H. James, P.E. Kish, T.P. Sutton, Principles of Bloodstain Pattern Analysis:
+Theory and Practice, CRC Press, Florida, 2005.
+[2] National Research Council, Strengthening Forensic Science in the United
+States: A Path Forwards, The National Academic Press, Washington, D.C, 2009
+Available on line at https://www.ncjrs.gov/pdfﬁles1/nij/grants/228091.pdf
+(accessed 16/05/2019).
+[3] T. Bevel, R.M. Gardner, Blood Pattern Analysis with an Introduction to Crime
+Scene Reconstruction, third ed., CRC Press, Florida, 2008.
+[4] M.C. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K.P. Osborne, M. Sc, G. Owens, N.K.
+P. Osborne, The reliability of pattern classiﬁcation in bloodstain pattern
+analysis, part 1: bloodstain patterns on rigid non-absorbent surfaces, J.
+Forensic Sci. (2016) 1–6, doi:http://dx.doi.org/10.1111/1556-4029.13091.
+[5] M.C. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K.P. Osborne, The reliability of
+pattern classiﬁcation in bloodstain pattern analysis, part 2: bloodstain
+patterns on fabric surfaces, J. Forensic Sci. 61 (2016) 1461–1466, doi:http://
+dx.doi.org/10.1111/1556-4029.13091.
+[6] B.A.J. Larkin, C.E. Banks, Bloodstain pattern analysis: looking at impacting
+blood from a different angle, Aust. J. Forensic Sci. 45 (2013) 85–102, doi:http://
+dx.doi.org/10.1080/00450618.2012.721134.
+[7] L. Hulse-Smith, M. Illes, A blind trial evaluation of a crime scene methodology
+for deducing impact velocity and droplet size from circular bloodstains, J.
+Forensic 
+Sci. 
+(2007) 
+65–69, 
+doi:http://dx.doi.org/10.1111/j.1556-
+4029.2006.00298.x.
+[8] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact
+velocity from circular bloodstains, J. Forensic Sci. 50 (2005) 54–63, doi:http://
+dx.doi.org/10.1520/JFS2003224.
+[9] C. Knock, M. Davison, Predicting the position of the source of blood stains for
+angled impacts, J. Forensic Sci. 52 (2007) 1044–1049, doi:http://dx.doi.org/
+10.1111/j.1556-4029.2007.00505.x.
+[10] A. Patnaik, R.S. Rengasamy, V.K. Kothari, A. Ghosh, Wetting and wicking in
+ﬁbrous materials, Text. Prog. 1 (2006) 1–105, doi:http://dx.doi.org/10.1533/
+tepr.2006.0001.
+[11] E. Kissa, Wetting and wicking, Text. Res. J. 66 (1996) 660–668, doi:http://dx.
+doi.org/10.1177/004051759606601008.
+[12] T.C. de Castro, M.C. Taylor, J.A. Kieser, D.J. Carr, W. Duncan, Systematic
+investigation of drip stains on apparel fabrics: the effects of prior-laundering,
+ﬁbre content and fabric structure on ﬁnal stain appearance, Forensic Sci. Int.
+250 (2015) 98–109, doi:http://dx.doi.org/10.1016/j.forsciint.2015.03.004.
+[13] T.C. De Castro, D.J. Carr, M.C. Taylor, J.A. Kieser, W. Duncan, Drip bloodstain
+appearance on inclined apparel fabrics: effect of prior-laundering, ﬁbre
+content and fabric structure, Forensic Sci. Int. 266 (2016) 488–501, doi:http://
+dx.doi.org/10.1016/j.forsciint.2016.07.008.
+[14] X. Li, J. Li, S. Michielsen, Effect of yarn structure on wicking and its impact on
+bloodstain pattern analysis (BPA) on woven cotton fabrics, Forensic Sci. Int. 276
+(2017) 41–50, doi:http://dx.doi.org/10.1016/j.forsciint.2017.04.011.
+[15] L. Dicken, C. Knock, S. Beckett, T.C. de Castro, T. Nickson, D.J. Carr, The use of
+micro computed tomography to ascertain the morphology of bloodstains on
+fabric, Forensic Sci. Int. 257 (2015) 369–375, doi:http://dx.doi.org/10.1016/j.
+forsciint.2015.10.006.
+[16] B. Karger, S.P. Rand, B. Brinkmann, Experimental bloodstains on fabric from
+contact and from droplets, Int. J. Leg. Med. 111 (1998) 17–21, doi:http://dx.doi.
+org/10.1007/s004140050104.
+[17] Y. Cho, F. Springer, F.A. Tulleners, W.D. Ristenpart, Quantitative bloodstain
+analysis: differentiation of contact transfer patterns versus spatter patterns on
+fabric via microscopic inspection, Forensic Sci. Int. 249 (2015) 233–240, doi:
+http://dx.doi.org/10.1016/j.forsciint.2015.01.021.
+[18] M. Holbrook, Evaluation of blood deposition on fabric: distinguishing spatter
+and transfer stains, Int. Assoc. Bloodstain Pattern Anal. News 26 (2010) 3–12.
+[19] J. Slemko, Bloodstains on fabric — the effects of droplet velocity and fabric, Int.
+Assoc. Bloodstain Pattern Anal. News 19 (2003) 3–11.
+[20] E.M.P. Williams, M. Dodds, M.C. Taylor, J. Li, S. Michielsen, Impact dynamics of
+porcine drip bloodstains on fabrics, Forensic Sci. Int. 262 (2016) 66–72, doi:
+http://dx.doi.org/10.1016/j.forsciint.2016.02.037.
+[21] H.F. Miles, R.M. Morgan, J.E. Millington, The inﬂuence of fabric surface
+characteristics on satellite bloodstain morphology, Sci. Justice 54 (2014) 262–
+266, doi:http://dx.doi.org/10.1016/j.scijus.2014.04.002.
+[22] British Standards Institution, Textiles — Domestic Washing and Drying
+Procedures for Textile Testing BS EN ISO 6330, (2012) .
+[23] British Standards Institution, Textiles — Standard Atmospheres for Condition-
+ing and Testing BS EN ISO 139, (2005) .
+[24] British Standards Institution, Textiles — Determination of Thickness of Textiles
+and Textile Products BS EN ISO 5084, (1997) .
+[25] British Standards Institution, Textiles — Woven Fabrics — Determination of
+Mass Per Unit Length and Mass Per Unit Area BS 2471, (2005) .
+[26] British Standards Institution, Textiles — Woven Fabrics — Construction —
+Methods of Analysis Part 2: Determination of the Number of Threads Per Unit
+Length BS EN 1049-2, (1994) .
+[27] L.Dicken, C. Knock, D.J. Carr and S. Beckett, Investigating bloodstain dynamics
+at impact on the technical rear of fabric. Accepted for publication in Forensic
+Sci. Int.
+[28] J. Wu, S. Michielsen, R. Baby, Impact spatter bloodstain patterns on textiles, J.
+Forensic Sci. (2018), doi:http://dx.doi.org/10.1111/1556-4029.13951.
+[29] D. Brutin, B. Sobac, B. Loquet, J. Sampol, Pattern formation in drying drops of
+blood, 
+J. 
+Fluid 
+Mech. 
+667 (2011) 
+85–95, 
+doi:http://dx.doi.org/10.1017/
+S0022112010005070.
+[30] B.A.J. Larkin, C.E. Banks, Exploring the effect of speciﬁc packed cell volume
+upon bloodstain pattern analysis: blood drying and dry volume estimation, J.
+Can. Soc. Forensic Sci. 48 (2015) 167–189, doi:http://dx.doi.org/10.1080/
+00085030.2015.1083161.
+[31] R.D. Deegan, O. Bakajin, T.F. Dupont, G. Huber, S.R. Nagel, T.A. Witten, Capillary
+ﬂow as the cause of ring stains from dried liquid drops, Nature 389 (1997) 827–
+829, doi:http://dx.doi.org/10.1038/39827.
+[32] A.B. Nyoni, D. Brook, Wicking mechanisms in yarns — the key to fabric wicking
+performance, J. Text. Inst. 97 (2006) 119–128, doi:http://dx.doi.org/10.1533/
+joti.2005.0128.
+[33] Metris, CT Pro User Manual, (2008) .
+[34] Volume Graphics, VGStudio Max 3.0, (2014) .
+L. Dicken et al. / Forensic Science International 301 (2019) 12–27 
+27

@@ -1,0 +1,1006 @@
+
+
+--- PAGE 1 ---
+
+An automated method for the generation of bloodstain pattern metrics from 
+images of blood spatter patterns
+Rosalyn Rough a,b,*, Oliver Batchelor b, Richard Green b, Andrew Bainbridge-Smith b
+a Institute of Environmental Science and Research Ltd (ESR), Christchurch Science Centre, P.O Box 29-181, Christchurch, New Zealand
+b Department of Computer Science and Software Engineering, Faculty of Engineering, University of Canterbury, Private Bag, Christchurch 4800, New Zealand
+A R T I C L E  I N F O
+Keywords:
+Bloodstain pattern analysis
+Automated
+Quantitative
+Metrics
+Segmentation
+A B S T R A C T
+An improved automated bloodstain pattern analysis method has been developed and validated, which utilises 
+computer vision techniques to identify bloodstains on a plain background within a digital image. The method 
+generates metrics relating to the individual stains as well as the overall pattern, including bloodstain pattern 
+specific metrics such as the gamma angle, circularity, solidity, area of convergence, stain density and pattern 
+linearity. This method provides an objective approach to the analysis of bloodstains and bloodstain patterns and 
+can generate a wealth of quantitative data that is currently not obtainable using manual techniques or other 
+image-based programs currently utilised in the discipline. This method will be useful to analysts and researchers 
+investigating the application of quantitative methods to bloodstain pattern analysis.
+1. Introduction
+Bloodstain Pattern Analysis (BPA) is a discipline of forensic science 
+that is concerned with the study of the size, shape and distribution of 
+bloodstains deposited onto surfaces at bloodletting events, particularly 
+crime scenes. With knowledge of the underlying principles of fluid 
+mechanics, the physical characteristics of the stains can be analysed and 
+used to assist with the reconstruction of the events that led to the 
+bloodshed [1–3]. One of the key tasks in BPA is the classification of 
+spatter patterns. Spatter patterns are groups of small circular and 
+elliptical shaped bloodstains that have been formed as the result of some 
+external force being applied to a source of liquid blood [4]. The current 
+terminology of the different classes of spatter patterns in BPA relate to 
+the mechanism of the force that caused them. Common types of spatter 
+patterns present at crime scenes include impact (caused by an object 
+striking liquid blood), swing cast-off (caused by blood released from a 
+bloodstained object due to its swinging motion), and expirated (caused 
+by the generation of droplets due to the force involved with the expul­
+sion of blood from the mouth, nose or lungs) [4]. The application of 
+these forces on the liquid blood results in its breakup into smaller 
+droplets that travel through the air away from the blood source. When 
+these predominately spherical droplets land onto nearby surfaces they 
+collapse and spread on the target forming circular and elliptical shaped 
+bloodstains.
+BPA can be a valuable tool in investigations; however, the subjec­
+tivity of the discipline has been criticised [5,6] and disagreements be­
+tween trained analysts have been documented in some high-profile cases 
+[7,8]. A lack of empirical data and scientific foundations was cited as 
+areas needed for improvement [5]. These criticisms have raised doubt 
+over the reliability of the evidence that is often delivered in courtrooms. 
+In response, reliability and black box studies have been undertaken to 
+investigate the accuracy and reliability of bloodstain pattern classifica­
+tion. These studies have shown that some spatter patterns can have high 
+error rates for classification [9–11]. This is not unsurprising as the me­
+chanical process involved in the formation of spatter stains is the same 
+regardless of the initial force applied. As a result, there are overlapping 
+characteristics between different types of spatter patterns (for example, 
+the range of stain sizes in a pattern) which can lead to ambiguity or 
+misclassification. Studies have also shown some analysts are not always 
+consistent with their classifications, classifying the same pattern 
+differently when unknowingly presented with it a second time [12]. The 
+inference being that there is a subjective approach to the classification 
+process. There have been calls for more systematic guidelines within the 
+discipline to assist with the classification task, but currently there is still 
+no agreed criteria about what features are required to make a classifi­
+cation and the decision is left to the analyst based on their training, 
+experience and level of confidence.
+To reduce the subjectivity, quantitative methods have been 
+* Correspondence to: 27 Creyke Road, Ilam, Christchurch 8041, New Zealand.
+E-mail address: rosalyn.rough@esr.cri.nz (R. Rough). 
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+https://doi.org/10.1016/j.forsciint.2024.112200
+Received 17 January 2024; Received in revised form 8 August 2024; Accepted 17 August 2024  
+Forensic Science International 363 (2024) 112200 
+Available online 20 August 2024 
+0379-0738/© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+
+--- PAGE 2 ---
+
+investigated to assist with BPA. Earlier research has applied image 
+processing techniques to the analysis of digital images of bloodstains to 
+automatically fit ellipses to the bloodstain shape and determine the 
+impact angle and orientation angle from the minor and major axes. 
+However, the described methodologies were applied to images of single 
+bloodstains [13–15] or the procedure required input from the analyst to 
+select the appropriate stains within a pattern [16,17]. More recently, 
+researchers have utilised the quantitative techniques of Matlab [18–20]
+or ImageJ [21–23] to the analysis of digital images of bloodstain pat­
+terns. While both methods can easily extract the number of stains and 
+give a measurement regarding their size, other BPA specific metrics are 
+not available such as the directionality of the stain (represented 
+numerically as the gamma angle), and the impact angle.
+1.1. Gamma and impact angles
+When a droplet lands on a target at an angle, the resultant stain is 
+elliptical with the major (long) axis in alignment with the direction of 
+travel. Furthermore, as the blood droplet collapses and spreads across 
+the target a volume of the liquid can form a small wave that follows the 
+direction of travel of the droplet. This wave can spill over from the 
+contact line (the edge of the blood in the main parent stain) resulting in 
+thin protrusions extending from the end of the parent elliptical stain 
+[24]. Depending on the angle, droplet size and surface features, the 
+protrusions can be single (referred as a tail), multiple (referred to as 
+spines) and/or fully detach from the parent stain (see Fig. 1). The 
+presence of these tails or spines on one side of an elliptical stain is 
+considered a reliable indicator for the direction of travel along the major 
+axis, and by combining the orientation angle with the direction, the 
+gamma angle can be determined. For example, a stain on a 45-degree 
+angle with a right direction will have a gamma angle of 45 degrees. 
+However, if the same stain’s directionality was left the gamma angle 
+would be 225 degrees (see Fig. 2) [1].
+Whilst the gamma angle can give information about the general di­
+rection a blood drop was travelling, the trajectory of the droplet can be 
+estimated by including information on the angle the droplet impacted a 
+target surface. It has been previously demonstrated that there is a rela­
+tionship between the width to length ratio of an elliptical stain and the 
+angle of impact (α) of the droplet to the target. Perpendicular impacts 
+result in circular stains, more oblique angles result in more elongated 
+elliptical stains. This relationship is shown in Eq.1 [25]. 
+α = arcsin Width
+Length
+(1) 
+An accurate impact angle estimation relies on an accurate width and 
+length measurement. One of the challenges faced by BPA analysts is 
+accurately measuring the elliptical shape of the parent stain when the 
+tails and spines lengthen the final stain. Analysts are trained to ignore 
+these protrusions when estimating the length of the ellipse [26]. By 
+combining the estimated impact and gamma angles a straight-line tra­
+jectory of the droplet can be determined. It is noted that the other 
+influencing forces such as gravity and drag are ignored during this 
+estimation.
+Determining these angles for various stains can assist with grouping 
+stains together as part of the same pattern/event and also can be used to 
+limit the positions of the blood source within a geometric space and 
+therefore assist with reconstruction of events at a scene. Most analysis at 
+crime scenes is still undertaken manually and each spatter pattern can 
+contain hundreds to thousands of stains. So, whilst the gamma and 
+impact angles are considered important features there is currently 
+neither the time nor the resources to collect data on every individual 
+stain.
+In 2017 image processing techniques were applied to develop a 
+methodology that can automatically extract bloodstain pattern features 
+from digital images [18]. Using Matlab R2015B the digital image of an 
+impact pattern was imported, the background subtracted, and the ob­
+jects of interest (stains) segmented using the Triangle thresholding al­
+gorithm. To overcome the challenge of fitting accurate ellipses to stains 
+with spines, the researchers applied erosion and dilation morphological 
+operations to remove small protrusions and background noise. Stains 
+greater than 10 pixels in both the original binarised image and the 
+eroded/dilated image were then mapped, linked and relevant mea­
+surements computed using Matlab regionprops [18]. In this research the 
+direction of the stains was determined by locating the centroid of the 
+ellipse from the eroded/dilated image within the bounding box of the 
+original stain. This along with the orientation angle was used to calcu­
+late the gamma angle. Other BPA specific features were also computed. 
+These included shape features of the individual stains (tail to body ratio, 
+width to length ratio, area of stain to area of convex hull ratio (regularity 
+measure), ratio of perimeter of inscribed circle to perimeter of stain, 
+stain size and stain intensity. Five pattern features were also calculated: 
+overall directionality, convergence, linearity, circularity of pattern, 
+stain density.
+Subsequently this methodology was applied to a limited number of 
+laboratory generated impact and cast-off patterns [27] and the results 
+analysed. A combination of five of the above-described features were 
+found to be optimal for distinguishing between these two classes of 
+patterns. Although demonstrating a promising approach to the appli­
+cation of an automated system to the analysis of spatter patterns, Matlab 
+licences are expensive and not all researchers and BPA analysts have 
+easy access to this platform. Furthermore, the fixed thresholding values 
+did not work well when the methodology was applied to further labo­
+ratory generated spatter patterns created in our research facilities and 
+the system was slow to analyse patterns with thousands of stains [28].
+We present an Automated Bloodstain Pattern Analysis method 
+(ABPA method) that improves on the previous methodology described 
+[18], increasing the detection of the small stains present in the patterns, 
+and computing more suitable BPA specific metrics that have been 
+developed based on the results of prior research [27,28] and on an un­
+derstanding of the fluid mechanics underpinning the formation of blood 
+spatter patterns. This application has been implemented in Python, 
+importing modules including numpy, matplotlib, and Open CV for easy 
+implementation of image segmentation and analysis. Python has the 
+benefit of being a free open-source language that is readily available to 
+researchers, academics and analysts, making the method more acces­
+sible than Matlab.
+2. Pattern images
+During the development of the proposed ABPA method high- 
+resolution images of impact, cast-off and expirated bloodstain patterns 
+Fig. 1. Stains with tails and spines indicating right and upward directionality.
+Fig. 2. Schematic representation of bloodstain gamma angles.
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+2 
+
+
+--- PAGE 3 ---
+
+were used. The patterns were laboratory generated using porcine blood, 
+and a food safe blood substitute (42.5 % w/v liquid honey, 20 % w/v 
+water-based dye, 10 % w/v pasteurised egg white, and 27.5 % w/v de- 
+ionised water). Surface tension and viscosity were not measured. The 
+patterns were created on paper targets, with a wide range of variables 
+including volume of blood, variations of force applied and various ob­
+jects or expirated mechanisms used. The resulting patterns ranged from 
+singular stains to up to thousands of stains depending on the variables 
+used. A Canon EOS 5Ds with a 24–70 mm lens was used to photograph 
+the bloodstain patterns. For each photo the same settings were used: 
+8688 ×4888 pixels resolution, 70 mm zoom, diaphragm opening of f5.6, 
+shutter speed of 1/125 s and automatic ISO and focus, resulting in all 
+images having a resolution of 7.9 pixels per mm. Multiple images were 
+taken for each pattern to capture all the stains and these were stitched 
+together using photo stitching software (PTGui version V10.0.17). In 
+order to stitch these images together, pins or stickers were placed in the 
+images to act as reference points. Therefore, in addition to the blood­
+stains, most images had markers as well as rulers around the edge to 
+show the scale.
+3. Development of automated bloodstain pattern analysis 
+method
+The methodology presented in this paper takes a digital image of a 
+bloodstain pattern, identifies the individual bloodstains, calculates 
+metrics for each individual stain and metrics for the overall pattern. 
+Improvements to both the segmentation of the stains and the methods 
+for calculating bloodstain metrics have been implemented.
+3.1. Cropping of images
+To segment the bloodstains, it was assumed that the image had a 
+lighter background to the bloodstains and no other objects were in the 
+image apart from circular stickers used for stitching. This is a reasonable 
+assumption for research purposes. Any rulers present in the images were 
+therefore required to be removed. An automatic cropping function 
+previously developed [28], was incorporated into the methodology to 
+achieve this. However, this method assumes there are four rulers, on all 
+four edges, so for images with less than four rulers the rulers were 
+required to be manually cropped.
+3.2. Stain segmentation
+As part of the cropping process the image was first blurred with a 
+Gaussian blur and converted to grey scale. A novel approach to the 
+detection of the bloodstains in the images was then developed. Rather 
+than using Triangle or Otsu thresholding which have been used in prior 
+research [14,18,28] and which rely on the entire image having a 
+consistent histogram, the grey scale image was converted to binary with 
+adaptive thresholding. Adaptive thresholding calculates the threshold 
+value for smaller regions of the image determined by a block size which 
+leads to different threshold values for regions which have changes in 
+lighting, reducing the effect of shadows and noise [29]. The adaptive 
+thresholding method applied was based on the Gaussian mean value of a 
+block in the image then a constant offset parameter was applied. The 
+block size was set at 99 pixels for all images. The binary image was 
+produced by setting all pixels with values below the threshold to black 
+and all pixels with values above the threshold to white resulting in white 
+stains on a black background.
+An opening morphology operation (erosion followed by dilation) to 
+reduce noise and remove some protrusions that are not significant, was 
+then performed on the binary image as described in [28]. Circular 
+stickers added to assist with image stitching were removed by incor­
+porating the Hough circle transform algorithm [30] as detailed in [28]. 
+Finally, each stain or polygon was found by finding the contours of the 
+image using the Suki border algorithm [31]. Stain less than 5 pixels were 
+not counted due to the uncertainty of them being true stains versus 
+background noise.
+3.3. Bloodstain metrics
+Ten different outputs were developed and computed for each indi­
+vidual stain in the image. These, along with the four developed pattern 
+metrics are summarised in Table 1.
+Each stain was designated an identification number and the X and Y 
+positions for the centroid were computed. The area of the bloodstain was 
+simply a count of all the pixels in the stain boundary. The inputted scale 
+value (pixels per mm) was used to covert this value to area in mm2. The 
+pixel count was retained as this was found to be a useful metric when 
+sorting and applying thresholds to the outputted data. The intensity was 
+measured by the normalised average grey scale value of the pixels in the 
+stain and was used as a measure of lightness for the stains. The solidity (a 
+measure of boundary smoothness or regularity) of the stains was 
+determined by the ratio of the area of the stain to the area of the convex 
+hull of the stain. Smooth edged stains with no protrusions will have a 
+solidity value close to 1.
+3.4. Ellipse fitting
+The remaining five bloodstain metrics required the fitting of an el­
+lipse for calculation. As discussed, any tails or protrusions will falsely 
+elongate the length of any fitted ellipse, and therefore these need to be 
+removed prior to any ellipse fitting. Rather than using an erosion and 
+dilation operation that has been used in prior research, a novel solution 
+to the task of removing the tails was developed. This involved identi­
+fying the concave points along the stain boundary, then starting from the 
+furthest point away from the centroid, the algorithm stepped around the 
+stain in both directions measuring the distance between the two points. 
+When the ratio of this distance to the maximum width or height of the 
+bloodstain was greater than 0.3 and one of these points was a concave 
+point, the end of the tail is identified. All points between these two 
+points were removed so the tail was removed. The ellipse was then fitted 
+to the resulting polygon using the least squares method [32].
+The size of the width and length of the ellipse was then measured. 
+The shape of the ellipse was represented in the circularity metric, 
+calculated as a ratio of the ellipse width and length. A stain with a 
+circularity measure of 1 is circular, a stain with a circularity close to 0 is 
+very elongated.
+The orientation angle of the stain was measured clockwise from 
+vertical from the centre of the bloodstain with the range of between 
+0 and 179 degrees. As discussed, to determine the gamma angle the 
+horizontal direction of the stain is also required. To determine the 
+horizontal direction of each stain a convex hull of the contour line was 
+applied and the furthest point on the contour from the centre of the stain 
+was determined to be the end of the tail. Differences in the X co- 
+Table 1 
+Summary of bloodstain and pattern metrics computed by the ABPA method.
+Property
+Feature
+Stain/pattern
+Position
+X,Y co-ordinates
+Stain polygon
+Size
+Size (pixels)
+Stain polygon
+Size
+Size mm2
+Stain polygon
+Lightness
+Intensity
+Stain polygon
+Shape
+Solidity
+Stain polygon
+Shape
+Ellipse width and height
+Fitted stain ellipse
+Shape
+Circularity
+Fitted stain ellipse
+Orientation
+Orientation angle
+Fitted stain ellipse
+Shape
+Direction
+Fitted stain ellipse
+Orientation
+Gamma angle
+Fitted stain ellipse
+Shape
+Linearity
+Pattern
+Distribution of stains
+Density of stain number
+Pattern
+Proportion of staining
+Density of stain area
+Pattern
+Shape
+Convergence
+Pattern
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+3 
+
+
+--- PAGE 4 ---
+
+ordinates between the centre of the stain and the furthest point away 
+were calculated with negative values indicating a left direction. For 
+stains with left directionality, the gamma angle equates to the angle of 
+the stain plus 180 degrees.
+For stains that are not particularly elliptical, determining a reliable 
+directionality is difficult, if not impossible as tails and protrusions are 
+usually not formed, and the leading edge of the stain cannot be identi­
+fied. Therefore, a threshold ratio of 0.86 was set (which equates to 
+approximately 60-degree angle of impact) as stains made at impact 
+angles above this do not usually display tails or protrusions. Thus, 
+directionality was not calculated for stains which had a width to length 
+ratio greater than 0.86 to ensure only reliable directionality measure­
+ments were calculated.
+3.5. Pattern metrics
+Three pattern metrics were selected for computation: linearity, 
+convergence and distribution of stains. The linearity was chosen as a 
+mathematical representative of how linear or not a pattern was. It is 
+expected that patterns such as cast-off will have a more linear shape than 
+radiating patterns from a stationary source of blood such as an impact, 
+and therefore may be a useful measurement for discrimination. The 
+linearity was calculated by plotting all the stain centroids and fitting 
+them to a two-degree polynomial curve using numpy’s “polyfit” function 
+with an output graph [33].
+A small area of convergence in a pattern indicates that the stains 
+originated from a small area, suggesting a stationary source of blood, 
+and is expected to be observed in impact patterns (and expirated pat­
+terns). To identify the area of convergence, a line following the major 
+axis of the ellipse was extended back to the edge of the image for all 
+stains with fitted ellipses. A sliding window algorithm over these line 
+segments found all of the intersections. A density matrix was calculated 
+with the Gaussian kernel density estimator described in [34] with 25 
+bins and then plotted using a heat map. A box was fitted around the area 
+that contained 60 % of the intersections and the co-ordinates of this box 
+were computed.
+A convex hull was applied to the entire pattern to calculate the total 
+area of the pattern. The distribution of the stains was then calculated in 
+two different ways, the first was simply the total number of stains 
+divided by the pattern area, and secondly, the total area of the stains 
+divided by the pattern area which gave a proportion of the pattern that 
+was stains.
+3.6. User interface
+A user interface was developed to increase usability of the applica­
+tion. This enables the user to select which annotations to display, which 
+pattern metrics to compute, and which results to export.
+The user interface also enables the analyst to zoom in on a selected 
+stain when the row representing that stain is selected, creating a link 
+between the data and the selected stain. This allows the results to be 
+checked against the physical characteristics of the stain to ensure ac­
+curacy. Batch processing was also made available so an entire folder of 
+images can be processed with no further user interaction.
+3.7. Outputs
+A digital image of a spatter pattern is used as the input along with the 
+known resolution of the image (in pixels per mm). The method delivers 
+the individual bloodstain metrics as a comma separated file (containing 
+one line for each stain and columns for each metric) and an annotated 
+image with selected features displayed. The overall pattern metrics are 
+delivered as a further comma separated file, and three graphs are pro­
+duced to display convergence, linearity and distribution of the stains. 
+The co-ordinates for all boundary pixels for each stains are also pro­
+duced in a separate comma separated file, with each row representing 
+Fig. 3. Screenshot showing user interface with stain 1927 selected for an impact pattern. The stain boundary is annotated in pink and the fitted ellipse annotated in 
+green. Metrics are listed on the left.
+Fig. 4. Workflow of developed ABPA method.
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+4 
+
+
+--- PAGE 5 ---
+
+the co-ordinates for each stain. This workflow is represented in Fig. 4.
+4. Results
+The proposed ABPA method was applied to 132 cast-off, 208 impact 
+and 132 expirated patterns that were generated in the laboratory as 
+previously described in Section 2, and the outputted results scrutinised 
+by a trained BPA analyst.
+4.1. Segmentation
+All bloodstains that were able to be visually identified by the analyst 
+in the outputted image file were annotated by the method. This included 
+very small stains less than 0.5 mm in diameter. However some false 
+positives were detected, such as staple holes and shadows at the edge of 
+some images. Any markings from rulers not completely cropped out 
+would also be identified as stains as would any non-circular pins present 
+in the image.
+4.2. Comparison with ImageJ
+Three patterns from each class (expirated, cast-off and impact) rep­
+resenting a variety of different stains numbers, sizes and intensities were 
+analysed with both ImageJ (using the auto thresholding function) and 
+the proposed ABPA method and the number of stains identified with 
+each were compared. As ImageJ did not have a minimum stain size, a 
+count of stains greater than 4 pixels was calculated for the ImageJ results 
+for comparisons which are noted in Table 2. It is noted that there was a 
+big difference between stain numbers for impact pattern 14 and expi­
+rated pattern 87 between the two methods, with the proposed ABPA 
+method detecting more stains than ImageJ. When qualitatively 
+comparing the binary output of ImageJ with the pattern overlay output 
+of the ABPA method it is apparent that ImageJ is not detecting all of the 
+stains in the image.
+For impact 14 a larger volume of blood was used resulting in larger 
+and darker stains within the pattern. As a result, the thresholding for 
+ImageJ is not detecting the smaller and fainter stains (Fig. 6). Likewise, 
+for the expirated pattern 87, due to the blood substitute being a paler 
+colour and then further diluted with saliva during the spitting action to 
+create the pattern, many of the stains are pale and these are not all being 
+detected by ImageJ.
+The propsed ABPA method also coped better with shadows and un­
+even lighting. For expirated pattern 53 (Fig. 7) the shadowing on the 
+lower portion of the image was counted as stains in ImageJ, and was 
+largely ignored with the proposed ABPA method. This is represented in 
+the total stain count of 8383 with ImageJ, reducing by nearly half to 
+4773 when stains less than 5 pixels are removed. This is much more 
+comparable to the 4613 stains identified with the ABPA method. This 
+result also validates our decision to limit noise by having a minimum 
+stain size of 5 pixels for the proposed ABPA method.
+4.3. Comparison with Matlab method
+The impact pattern analysed with the Matlab method in [18] was 
+made available to the authors and was analysed with our developed 
+ABPA method. The proposed ABPA method detected 1623 stains of 10 
+pixels or greater, much more than the 420 labelled elements identified in 
+the original research paper. The improved segmentation process is likely 
+to account for the increase in stains detected, as well as the ability of the 
+proposed ABPA method to count and measure all stains not just those 
+with fitted ellipses.
+Overall, the results indicate that the proposed ABPA method has a 
+reliable and sensitive stain segmentation method that copes well with 
+shadows and uneven lighting, and different intensity stains and is an 
+improvement on both the automated thresholding of ImageJ and the 
+previous Matlab developed methodology.
+4.4. Ellipse fitting and bloodstain metrics
+Ellipses were fitted well to well-formed elliptical and spherical 
+stains. However, as the method attempted to fit ellipses to all stains there 
+were times when very large ellipses were overlayed onto stains, 
+particularly for ones that had flowed, or were overlapping with other 
+stains. Examples are shown in Fig. 8. Currently the only solution to 
+remove these is to identify these stains using the user interface and 
+Table 2 
+Comparison of number of stains identified.
+Pattern ID
+Class
+Total stains 
+ImageJ
+>4 pixels 
+ImageJ
+Total stains ABPA
+16c
+castoff
+110
+98
+103
+103
+castoff
+12
+11
+11
+133
+castoff
+344
+233
+281
+14
+impact
+2747
+1769
+3315
+13
+impact
+442
+277
+335
+77
+impact
+1144
+1090
+1133
+87
+expirated
+241
+176
+575
+9
+expirated
+11006
+7843
+7780
+53
+expirated
+8383
+4773
+4613
+Fig. 5. Lower half of impact pattern 14 (original cropped image), with small 
+area slecetd by red box.
+Fig. 6. Close up of area outlined by the red box in Fig. 5 for (a) ImageJ 
+binarised output and (b) annotated image of ABPA method. Note less stains 
+have been identified in (a) (ImageJ) compared to (b) (ABPA method).
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+5 
+
+
+--- PAGE 6 ---
+
+remove their data from the file once it has been saved. Some stains did 
+not have enough points around their contour to fit an ellipse. This 
+resulted in empty values for the width, height, direction, angle and 
+gamma angle, however other metrics such as area and position were still 
+able to be measured. The bloodstain metrics for the 11 stains in cast-off 
+pattern 103 are displayed in Table 3.
+4.5. Pattern metrics
+The pattern metric outputs for the three different patterns (impact 
+14, cast-off 103 and expirated 9) are displayed in Table 4.
+For the linearity, the centroids of the stains were plotted and a 2- 
+degree polynomial was fitted to the points (see Fig. 10). The measure 
+of how well the points fitted to the curve were represented by the 
+calculated R2 value. The R2 values for both the impact and expirated 
+patterns were very low indicating the centroid points did not fit well to a 
+curved line. The R2 value for the cast-off pattern was higher which is 
+expected as this pattern type is more linear than the other two which are 
+radiating patterns. As not all cast-off patterns produced stains in a 
+strongly linear distribution a large range of R2 values (ranging from 0.1 
+to 0.99) were noted for these types of patterns.
+Likewise, both density measurements (ratio of the stain number to 
+pattern area and ratio of stain area to pattern area) is lowest for cast-off 
+which is expected as this pattern has a smaller number of stains. The 
+Fig. 7. (a) Expirated pattern 53 original cropped image (b) binarised ImageJ output. Note shadowing at the lower left of image has been detected by ImageJ.
+Fig. 8. showing examples of fitted ellipses to compound stains (a,b), flows (c) and well-formed stains (d). The boundary of the stain is marked in pink, with the fitted 
+ellipse in green. For (d), the ellipses have fitted well to the main portion of the stain and the tails have been ignored as intended.
+Table 3 
+Example of bloodstain metrics output (from cast-off pattern 103).
+Id
+Position 
+X
+Position Y
+Area 
+px
+Area 
+mm
+Width 
+ellipse
+Height 
+ellipse
+Angle
+Gamma
+Direction
+Solidity
+Circularity
+Intensity
+0
+2422
+8343
+44
+0.705
+5.389
+11.152
+178.467
+178.467
+(’right’, 
+’down’)
+0.936
+0.483
+0.427
+1
+370
+6949
+6
+0.104
+0.929
+0.434
+2
+943
+6556
+86
+1.378
+6.347
+21.639
+177.972
+177.972
+(’right’, 
+’down’)
+0.8
+0.293
+0.259
+3
+943
+6487
+523
+8.388
+11.456
+51.01
+0.389
+0.389
+(’right’, ’up’)
+0.802
+0.225
+0.178
+4
+1091
+4899
+128
+2.059
+6.7
+31.227
+3.172
+183.172
+(’left’, ’down’)
+0.843
+0.215
+0.234
+5
+30
+4851
+101
+1.626
+10.559
+12.652
+80.98
+260.98
+(’left’, ’down’)
+0.923
+0.835
+0.324
+6
+1094
+4782
+1565
+25.076
+19.693
+129.393
+1.52
+181.52
+(’left’, ’down’)
+0.765
+0.152
+0.16
+7
+4
+2586
+18
+0.296
+4
+7
+90
+90
+?
+0.725
+0.571
+0.366
+8
+380
+2314
+83
+1.33
+6.737
+16.687
+5.165
+5.165
+(’right’, ’up’)
+0.912
+0.404
+0.205
+9
+1053
+2000
+366
+5.872
+12.379
+36.851
+178.874
+178.874
+(’right’, 
+’down’)
+0.868
+0.336
+0.144
+10
+1824
+1981
+431
+6.906
+13.886
+40.185
+177.683
+357.683
+(’left’, ’up’)
+0.876
+0.346
+0.125
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+6 
+
+
+--- PAGE 7 ---
+
+expirated pattern has the highest density measurement, which again is 
+consistent with this pattern having the largest number of stains. How­
+ever, these density measurements appear to be lower than expected for 
+expirated and impact and this is likely to be due to the area of the convex 
+hull of the pattern being measured larger than it truly is due to false 
+positives near the edges of the target. As such it is likely that the density 
+measurements for expirated and impact in particular are lower than the 
+true values.
+The convergence box calculated for cast-off 103 was much larger 
+than for the other two patterns reflecting the fact that cast-off patterns 
+are not expected to have an area of convergence because the source of 
+the blood is not stationary. Fig. 9 shows the convergence heat maps for 
+impact 14 and expirated 9, and the centre of these heat maps accurately 
+represent the differing positions of the blood source when these patterns 
+were created (close to the bottom of the target for impact and centrally 
+for expirated). For some cast-off patterns with limited stain numbers the 
+convergence was unable to be computed as there were no intersecting 
+directional lines.
+The convergence metric was the longest pattern metric to calculate 
+particularly for patterns with many stains as this created many in­
+tersections between the different stains directional paths which had to 
+be identified and counted.
+5. Conclusions
+Our main goal was to increase the objectivity of BPA by developing a 
+method that could be used to extract quantitative data, including BPA 
+specific metrics, quickly and reliably from digital images of spatter 
+bloodstain patterns.
+The developed ABPA method described in this paper is an 
+improvement on methodologies described in prior research relating to 
+quantitative BPA. We have demonstrated that the proposed ABPA 
+method has a reliable and sensitive stain segmentation methodology 
+that copes well with shadows and uneven lighting, as well as different 
+stain intensities, and is an improvement on both ImageJ and the previ­
+ously reported Matlab developed method [18]. More stains and less 
+background noise and/or false positives were identified with the pro­
+posed ABPA method compared to the previously described methodolo­
+gies. However, some false positives such as staple holes or marks from 
+rulers were still identified as stains.
+With regards to the BPA specific metrics, a novel approach to 
+ignoring tails and fitting ellipses was established resulting in accurate 
+ellipse fitting and therefore accurate impact angle calculations for the 
+elliptical stains. A reliable approach to determining the location of the 
+tail or spines on the stains and therefore their directionality was also 
+developed. Using the directionality and the orientation angle, the BPA 
+specific gamma angle was calculated for all stains with a circularity 
+below 0.86. However, there were some challenges with irregular shaped 
+stains (such as compound stains and flows) and the method struggled to 
+fit accurate ellipses to these stains. Implementing a methodology to 
+identify overlapping ellipses would improve the outputs of the ABPA 
+Table 4 
+Pattern metrics for 3 different patterns.
+Impact 14
+Cast-off 103
+Expirated 9
+Linearity - 
+Polyline fit
+2.82e−05 x^2–0.194 
+x + 1.122e+04
+0.0006217 
+x^2–0.5498 x +
+4378
+3.512e−05 
+x^2–0.2742 x +
+3425
+R^2
+0.0022
+0.1084
+0.0017
+Distribution - 
+ratio stain 
+number to 
+convex hull 
+area
+3.87E−05
+1.01E−06
+1.92E−04
+ratio stain area 
+to convex 
+hull area
+4.49E−03
+3.08E−04
+1.25E−02
+Convergence - 
+point of 
+highest 
+density
+(3124.0, 12098.0)
+(1085.7, 
+4797.2)
+(3564.0, 2915.0)
+box of %60 of 
+intersections
+lower left (x,y): 
+(2556.1,11572.1) 
+Width: 3691.9 
+Height: 1051.9
+lower left (x,y): 
+(771.6,1884.5) 
+Width: 628.2 
+Height: 3883.6
+lower left (x,y): 
+(2970.0,1855.0) 
+Width: 594.0 
+Height: 1590.0
+Fig. 9. Heat map of convergence for (a) Impact pattern 14 and (b) Expirated 
+pattern 9.
+Fig. 10. Linearity map for (a) Impact pattern 14 and (b) Cast-off pattern 103.
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+7 
+
+
+--- PAGE 8 ---
+
+method in the future. Improvements could also be made to the density 
+calculations which currently seem overinfluenced by outliers in a 
+pattern, which greatly increase the overall pattern size, thus reducing 
+the density.
+A user interface was also developed which linked stain data to the 
+identified stains in the image, allowing for individual stains to be 
+identified within the image and scrutinised against their calculated 
+metrics. This interface can be used to identify those false positives and 
+irregular shaped stains with poorly fitted ellipses. Their metrics can then 
+be manually removed from the pattern outputs.
+The method coped well with all of the laboratory generated pattern 
+images it was applied to (132 cast-off, 208 impact and 132 expirated 
+patterns). These images range in overall size, shape and orientation as 
+reflected by the differing target sizes used for the different pattern types. 
+It was determined from the ABPA method that the number of stains 
+present in these patterns ranged from 1 to over 9500 stains. Generally, 
+patterns were processed within a few minutes, with patterns containing 
+thousands of stains taking longer to calculate the convergence metric 
+due to the sheer volume of intersections of the directional lines of the 
+stains.
+Having demonstrated that the developed ABPA method can cope 
+with a range of pattern types and produces accurate and reliable stain 
+and pattern metrics it is hoped further researchers will utilise the 
+method. By using Python and open source computer vision libraries no 
+licenses are required to run the method which is also seen as a benefit as 
+it improves accessibility to other analysts and researchers. It is envi­
+sioned that the data generated from the dataset of the three spatter 
+pattern classes used during this validation process will now be statisti­
+cally analysed, with the intention of potentially discovering measurable 
+stain and pattern features that will be diagnostic for classifying different 
+pattern classes.
+CRediT authorship contribution statement
+Richard Green: Writing – review & editing, Supervision. Andrew 
+Bainbridge-Smith: Writing – review & editing, Supervision. Rosalyn 
+Marie Rough: Writing – original draft, Validation, Methodology, 
+Conceptualization. Oliver Batchelor: Software, Methodology.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgements
+The authors gratefully acknowledge Dr Ravishka Arthur for access to 
+her implementation and impact pattern for validation. The authors 
+would also like to acknowledge the contribution of the late Dr Michael 
+Taylor for supporting this research and offering valuable advice. This 
+work was supported by the Institute of Environmental Science and 
+Research (ESR), New Zealand. This work was also carried out as part of 
+doctoral research through the University of Canterbury.
+References
+[1] T. Bevel, R.M. Gardner, Bloodstain pattern analysis with an introduction to crime 
+scene reconstruction, CRC Press, Boca Raton, FL, USA, 2008.
+[2] S. James, P. Kish, P. Sutton, Principles of bloodstain pattern analysis: theory and 
+practice, taylor and francis group, Florida (2005).
+[3] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics in 
+bloodstain pattern analysis: comparative review and research opportunities, 
+Forensic Sci. Int. 231 (2013) 375–396.
+[4] ASB Technical Report 033, Terms and Definitions in Bloodstain Pattern Analysis, 
+First Edition, 2019.
+[5] National Research Council, Strengthening Forensic Science in the United States: A 
+Path Forward, ed. C.o.A.a.T.S.N.R.C. Commitee on Identifying the Needs of the 
+Forensic Science Community. 2009, Washington, DC: The National Academy of 
+Sciences. (b) Strengthening Forensic Science in the United States: A Path Forward, 
+Committee on Identifying the Needs of the Forensic Sciences Community, National 
+Research Council, The National Academies Press, Washington, DC. 2009. https:// 
+doi.org/10.17226/12589.
+[6] Collof, P. Blood Will Tell, Propublica, 2018, 〈https://www.propublica.org/article 
+/bloodstain-pattern-analysis-jury-wrongful-conviction-acquitted-exonerated〉.
+[7] Indiana v. David Camm, 812 N.E.2d 1127 (Ind. App., 2004).
+[8] People v. McWhorter, 47 Cal. 4th 318, 330–332 (2009).
+[9] M.C. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K. Osborne, The reliability of 
+pattern classification in bloodstain pattern analysis, part 1: bloodstain patterns on 
+rigid non-absorbent surfaces, J. Forensic Sci. 61 (4) (2016) 922–927.
+[10] M.C. Taylor, T.L. Laber, P.E. Kish, G. Owens, N.K. Osborne, The reliability of 
+pattern classification in bloodstain pattern analysis—part 2: bloodstain patterns on 
+fabric surfaces, J. Forensic Sci. 61 (6) (2016) 1461–1466.
+[11] R.A. Hicklin, K.R. Winer, P.E. Kish, C.L. Parks, W. Chapman, K. Dunagan, T. 
+A. Busey, Accuracy and reproducibility of conclusions by forensic bloodstain 
+pattern analysts, Forensic Sci. Int. 325 (2021) 110856.
+[12] Ristenpart, W., Tulleners, F., Siu, S., Saifi, J., and Springer, F. (2013). Quantitative 
+analysis of high velocity bloodstain patterns. NCJ Number 241744.
+[13] P. Joris, W. Develter, E. Jenar, P. Suetens, D. Vandermeulen, W. Van de Voorde, 
+P. Claes, Calculation of bloodstain impact angles using an active bloodstain shape 
+model, J. Forensic Radiol. Imaging 2 (4) (2014) 188–198.
+[14] K. Boonkhong, M. Karnjanadecha, P. Aiyarak, Impact angle analysis of bloodstains 
+using a simple image processing technique, Sonklanakarin J. Sci. Technol. 32 (2) 
+(2010) 169.
+[15] N.J. Shoumy, P. Ehkan, S.N. Yaakob, M.S. Ali, S. Khatun, Feature extraction for 
+neural network pattern recognition for bloodstain analysis, Int. J. Appl. Eng. Res. 
+11 (15) (2016) 8583–8589.
+[16] P. Joris, W. Develter, E. Jenar, P. Suetens, D. Vandermeulen, W. Van de Voorde, 
+P. Claes, HemoVision: an automated and virtual approach to bloodstain pattern 
+analysis, Forensic Sci. Int. 251 (2015) 116–123.
+[17] A.R. Shen, G.J. Brostow, R. Cipolla, Toward automatic blood spatter analysis in 
+crime scenes, IET Conf. Crime. Secur. (2006) 378–383.
+[18] R.M. Arthur, P.J. Humburg, J. Hoogenboom, M. Baiker, M.C. Taylor, K.G. de Bruin, 
+An image-processing methodology for extracting bloodstain pattern features, 
+Forensic Sci. Int. 277 (2017) 122–132.
+[19] S. Siu, J. Pender, F. Springer, F. Tulleners, W. Ristenpart, Quantitative 
+differentiation of bloodstain patterns resulting from gunshot and blunt force 
+impacts, J. Forensic Sci. 62 (5) (2017) 1166–1179.
+[20] Y. Liu, D. Attinger, K. De Brabanter, Automatic classification of bloodstain patterns 
+caused by gunshot and blunt impact at various distances, J. Forensic Sci. 65 (3) 
+(2020) 729–743.
+[21] T. Stotesbury, M. Illes, A. Vreugdenhil, Investigation of physical effects of Acid 
+Yellow 7® enhancement on dark and non-porous surfaces in impact pattern area of 
+origin estimation, Can. Soc. Forensic Sci. J. 45 (1) (2012) 22–35.
+[22] T.C. De Castro, D.J. Carr, M.C. Taylor, J.A. Kieser, W. Duncan, Drip bloodstain 
+appearance on inclined apparel fabrics: Effect of prior-laundering, fibre content 
+and fabric structure, Forensic Sci. Int. 266 (2016) 488–501.
+[23] K. Boos, A. Orr, M. Illes, T. Stotesbury, Characterizing drip patterns in bloodstain 
+pattern analysis: An investigation of the influence of droplet impact velocity and 
+number of droplets on static pattern features, Forensic Sci. Int. 301 (2019) 55–66.
+[24] P.A. Pizzola, S. Roth, P.R. De Forest, Blood droplet dynamics—I, J. Forensic Sci. 31 
+(1) (1986) 36–49.
+[25] V. Balthazard, R. Piedelievre, H. Desoille, L. DeRobert, Study of projected drops of 
+blood, Ann. Med. Leg. Criminol. Police Sci. Toxicol. 19 (1939) 265–323.
+[26] M. Reynolds, M.A. Raymond, New bloodstain measurement process using 
+Microsoft Office Excel 2003 autoshapes, J. Forensic Identif. 58 (4) (2008) 453.
+[27] R.M. Arthur, J. Hoogenboom, M. Baiker, M.C. Taylor, K.G. De Bruin, An automated 
+approach to the classification of impact spatter and cast-off bloodstain patterns, 
+Forensic Sci. Int. 289 (2018) 310–319.
+[28] Barnaby, C., and Green, R. (2018, November). Blood Stain Segmentation. In 2018 
+International Conference on Image and Vision Computing New Zealand (IVCNZ) 
+(pp. 1-9). IEEE.
+[29] 〈https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html〉.
+[30] D.H. Ballard, Generalizing the hough transform to detect arbitrary shapes, Pattern 
+Recognit. 13 (2) (1981) 111–122.
+[31] S. Suzuki, Topological structural analysis of digitized binary images by border 
+following, Comput. Vis., Graph., Image Process. 30 (1) (1985) 32–46.
+[32] A. Fitzgibbon, M. Pilu, R.B. Fisher, Direct least square fitting of ellipses, IEEE 
+Trans. Pattern Anal. Mach. Intell. 21 (5) (1999) 476–480.
+[33] Accessed 19 Oct 2022 Numpy API References 〈https://numpy.org/doc/stable/refer 
+ence/generated/numpy.polyfit.html〉.
+[34] T. Ledl, Kernel density estimation: theory and application in discriminant analysis, 
+Austrian J. Stat. 33 (3) (2004) 267–279.
+R. Rough et al.                                                                                                                                                                                                                                  
+Forensic Science International 363 (2024) 112200 
+8 

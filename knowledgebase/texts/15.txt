@@ -1,0 +1,2325 @@
+
+
+--- PAGE 1 ---
+
+Experimental validation of a numerical model for predicting the
+trajectory of blood drops in typical crime scene conditions, including
+droplet deformation and breakup, with a study of the effect of indoor
+air currents and wind on typical spatter drop trajectories
+N. Kabaliuk a, M.C. Jermy a,*, E. Williams b,c, T.L. Laber d, M.C. Taylor b
+a Department of Mechanical Engineering, University of Canterbury, Private Bag 4800, Christchurch 8041, New Zealand
+b Christchurch Science Centre, Institute of Environmental Sciences and Research, 27 Creyke Road, Christchurch 8041, New Zealand
+c Department of Sport and Exercise Science, Faculty of Science, University of Auckland, Private Bag 92019, Auckland 1142, New Zealand
+d Minnesota Bureau of Criminal Apprehension, 1430 Maryland Ave. East, St. Paul, MN 55106, United States
+Forensic Science International 245 (2014) 107–120
+A R T I C L E 
+I N F O
+Article history:
+Received 17 April 2014
+Received in revised form 14 September 2014
+Accepted 1 October 2014
+Available online 18 October 2014
+Keywords:
+Bloodstain pattern analysis
+Numerical modeling
+Droplet breakup
+Droplet oscillation
+Drag
+Trajectory
+A B S T R A C T
+Bloodstain Pattern Analysis (BPA) provides information about events during an assault, e.g. location of
+participants, weapon type and number of blows. To extract the maximum information from spatter
+stains, the size, velocity and direction of the drop that produces each stain, and forces acting during ﬂight,
+must be known.
+A numerical scheme for accurate modeling of blood drop ﬂight, in typical crime scene conditions,
+including droplet oscillation, deformation and in-ﬂight disintegration, was developed and validated
+against analytical and experimental data including passive blood drop oscillations, deformation at
+terminal velocity, cast-off and impact drop deformation and breakup features. 4th order Runge–Kutta
+timestepping was used with the Taylor Analogy Breakup (TAB) model and Pilch and Erdman’s (1987)
+expression for breakup time. Experimental data for terminal velocities, oscillations, and deformation
+was obtained via digital high-speed imaging. A single model was found to describe drop behavior
+accurately in passive, cast off and impact scenarios.
+Terminal velocities of typical passive drops falling up to 8 m, distances and times required to reach
+them were predicted within 5%. Initial oscillations of passive blood drops with diameters of
+1 mm < d < 6 mm falling up to 1.5 m were studied. Predictions of oscillating passive drop aspect ratio
+were within 1.6% of experiment. Under typical crime scene conditions, the velocity of the drop within the
+ﬁrst 1.5 m of fall is affected little by drag, oscillation or deformation.
+Blood drops with diameter 0.4–4 mm and velocity 1–15 m/s cast-off from a rotating disk showed low
+deformation levels (Weber number < 3). Drops formed by blunt impact 0.1–2 mm in diameter at
+velocities of 14–25 m/s were highly deformed (aspect ratios down to 0.4) and the larger impact blood
+drops (1–1.5 mm in diameter) broke up at critical Weber numbers of 12–14. Most break-ups occurred
+within 10–20 cm of the impact point. The model predicted deformation levels of cast-off and impact
+blood drops within 5% of experiment. Under typical crime scene conditions, few cast-off drops will break
+up in ﬂight. However some impact-generated drops were seen to break up, some by the vibration, others
+by bag breakup.
+The validated model can be used to gain deep understanding of the processes leading to spatter stains,
+and can be used to answer questions about proposed scenarios, e.g. how far blood drops may travel, or
+how stain patterns are affected by winds and draughts.
+ 2014 Elsevier Ireland Ltd. All rights reserved.
+* Corresponding author. Tel.: +64 3 364 2987; fax: +64 3 364 2078.
+E-mail address: mark.jermy@canterbury.ac.nz (M.C. Jermy).
+Contents lists available at ScienceDirect
+Forensic Science International
+jou r nal h o mep age: w ww.els evier .co m/lo c ate/fo r sc iin t
+http://dx.doi.org/10.1016/j.forsciint.2014.10.020
+0379-0738/ 2014 Elsevier Ireland Ltd. All rights reserved.
+
+
+--- PAGE 2 ---
+
+1. Introduction
+Violent crimes involving bloodshed may result in the formation
+of a number of blood drops that move through air and eventually
+impact onto a surface producing a group of bloodstains (or
+bloodstain pattern). This is termed blood spatter [2].
+It has been shown that stain shape can be correlated with the
+drop impact angle on a target surface (the Sine law: [3–5]). The
+‘sine law’ is routinely used in the analysis of crime scene bloodstain
+patterns. A number of attempts have been made to correlate stain
+characteristics (size and morphology) to the volume and impact
+velocity of the blood drop. These studies have all focused on stains
+formed as a result of blood dripping from a wound or bloodied
+object (weapon) under the action of gravity ([6–9]; [63]). These
+approaches have important limitations: the reproducibility in
+counting of spines and the limited number (or absence) of spines
+for low velocity impacts on some surfaces. Interpretation of the
+stain morphology is sometimes difﬁcult, for example due to impact
+surface irregularities or porosity. Further research is needed for
+other types of bloodstains and target surfaces.
+A common analysis done at a crime scene is the estimation of
+the position of the blood source in an impact spatter event. If two
+or more drop trajectories can be determined, the point at which
+they intersect is the probable location of the victim at the time the
+wound was inﬂicted. To determine the trajectory of an individual
+drop from analyzing stain characteristics certain assumptions need
+to be made.
+The stringing method [10] assumes the drop trajectory is a
+straight line. Gravitational and drag forces are assumed to have a
+negligible effect on the direction of ﬂight while the droplet is
+airborne. 
+The 
+Backtrak1
+(http://people.physics.carleton.ca/
+carter/) and Hemospat1 (http://hemospat.com/research.php)
+software programs are based on the straight line trajectory
+approximation. Straight line blood drop trajectory approximation
+also underlies the tangent method [11]. These approaches,
+however, were shown to produce considerable errors in area of
+origin determination, unless the trajectories are very short and the
+velocities relatively high [12–14].
+Another method of blood source determination proposed by
+Podworny and Carter [15] assumes parabolic trajectories of
+spherical drops. Buck et al. [16] and Buck and Kneubuehl [17]
+argued that this method is adequate for reconstructive purposes.
+To assess the accuracy of trajectory reconstruction methods, it
+is necessary to have an in-depth understanding of the physics of
+blood droplet ﬂight and impact. This paper deals with predictions
+of the ﬂight of droplets, for which the initial conditions are known.
+In order to accurately predict the trajectory (ﬂight path) of a
+blood drop to calculate its origin, the initial state of the drop (size,
+shape and velocity) must be known and the forces acting during
+ﬂight should be considered.
+Depending on the mechanism of formation, a ﬂuid drop may be
+non-spherical 
+and 
+experience 
+shape 
+oscillations 
+under 
+the
+inﬂuence of surface tension. Drop oscillations are damped
+exponentially in time by the drop ﬂuid viscosity [18,19].
+As the drop travels through air it experiences inertial,
+gravitational and aerodynamic drag forces. The latter is propor-
+tional to drop projected area (the area facing the incident ﬂow), the
+drag coefﬁcient and the dynamic pressure exerted by the external
+ﬂuid (air) ﬂow.
+Surface tension forces at the free surface act to minimize the
+drop’s surface energy and shape it into the smallest possible
+surface area, a sphere. When subject to external ﬂuid ﬂow
+however, a drop deforms to balance normal and shear stresses on
+its surface [20]. The level of drop deformation depends on the
+intensity of the deforming aerodynamic force.
+Alteration of drop shape changes its drag properties. Distortion
+toward an oblate shape increases the projected area and drag
+coefﬁcient (relative to the case of a spherical drop of the same
+volume). This may lead to a signiﬁcant alteration in drop trajectory
+[21], which is of importance to the point of origin determination.
+Under certain critical conditions a drop may reach a severe state
+of deformation, a so-called ‘liquid disc’. The drop may further
+deform into a hollow sphere or bag, a hollow sphere with a jet or
+exhibit more irregular deformation and ﬁnally disintegrates (or
+breaks up) into smaller ‘child’ drops [22,23].
+This raises two questions: (i) Under typical crime scene
+conditions, do the deformation and oscillation of blood drops
+appreciably affect their trajectory? (ii) Is mid-air breakup into
+smaller drops possible in typical crime scene conditions?
+This paper aims to address these issues by developing and
+validating a numerical code for accurate and detailed blood drop
+ﬂight modeling. Special attention is given to blood drops produced
+as a result of passive dripping, cast-off and impact. The numerical
+simulation described here provides a reliable and non-laborious
+method for understanding and predicting the ﬂight characteristics
+of spatter drops.
+2. Mechanisms of spatter drop generation
+The external force which causes the victim’s blood to break up
+into airborne drops may be gravity (drip or passive stains), blunt
+force impact (impact patterns), centripetal acceleration (cast-off)
+or bullet impact (gunshot spatter patterns).
+The characteristics of typical blood drop formation and ﬂight in
+the ﬂuid dynamics framework are described below. Further
+discussion of the physics of drop formation is given in Jermy
+and Taylor [24] and Attinger et al. [25]. Further to the material in
+those sources, an estimate of the range of drop sizes, velocities and
+key non-dimensional parameters is given below.
+Table 1
+Blood drop characteristics in BPA, where rair = 1.2 kg/m3, vair ¼ 1:51  105 m2=s are air density and kinematic viscosity at 20 8C; r = 1056 kg/m3, m = 4 mN s/m2, s = 56 mN/m
+are blood density, high-shear-rate viscosity and surface tension, respectively, at 37 8C.
+Mechanism 
+d, mm 
+V, m/s 
+Re 
+We 
+Weavg
+Bo 
+Oh
+Passive dripping [6,55] 
+3–7 
+<7 
+<3200 
+<7 
+1 
+<9 
+0.01
+Cast-off [8,11,56] 
+0.5–4 
+1.5–20 
+50–5300 
+0.02–34 
+6 
+0.05–3 
+0.01–0.02
+Impact [8,56,57] 
+0.2–2 
+1.5–30 
+20–4000 
+0.01–39 
+6 
+0.01–0.7 
+0.01–0.04
+Gunshot [4,6] 
+0.05–1a
+15–45b
+50–2000 
+0.24–43 
+10 
+<0.2 
+0.02–0.07
+a Because of the lack of experimental data on gunshot related spatter, the size and velocity of the gunshot-induced drops have been estimated. Drop volume (and hence
+diameter) was based on the reported gunshot spatter stain sizes (areas) and estimated stain thickness (calculated as a constant, 102–103, times erythrocyte dimensions).
+b In some instances gunshot spatter may be affected by ﬁrearm muzzle gases [58]. In this case the relative velocity between the gases in fast movement and the drop should
+be used for Weber number calculation. This would depend on the proximity to the ﬁrearm to the blood source and ﬁrearm used. The reported data on the range of magnitudes
+of relative velocities associated with gunshot is lacking in BPA literature however. To avoid speculation the data from [6] was used instead to provide a reference drop velocity
+range for gunshot spatter of around 30.5 m/s. The relative velocity may considerably exceed this value.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+108
+
+
+--- PAGE 3 ---
+
+Passive, 
+cast-off, impact and gunshot-induced drops are
+characterized in Table 1 according to dimensionless numbers
+relevant to drop formation and ﬂight:
+- Reynolds number (Re ¼ Vdo=vair, which is the ratio of inertial to
+viscous forces acting on a drop),
+- Weber number (We = rairV2do/s, the ratio of inertial and
+interfacial tension forces),
+- Bond number (Bo ¼ rgd2
+o=s, the ratio of drop weight to
+interfacial tension forces) and
+- Ohnesorge number (Oh ¼ m=
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+rdos
+p
+, the ratio of viscous to
+interfacial tension forces).
+Where d0 and V are blood drop diameter and velocity; rair and
+mair are air density and kinematic viscosity; r, m and s are blood
+density, viscosity and surface tension, respectively.
+The Weber number is as an indicator of the degree of drop
+deformation [23]. The drop can be considered effectively spherical
+for We < 1, whereas more pronounced deformation is associated
+with We > 1–3 and at We higher than 13 the drop breaks up [26].
+The average Weber number, Weavg, is based on the average blood
+drop diameter and velocity.
+Fig. 1 shows blood drop sizes and velocities plotted together
+with the experimental data on terminal velocities of water drops
+from [27], which were expected to be a good approximation for
+blood drops at terminal velocity conditions.
+Passive drops, the largest of the types considered, rarely reach
+terminal velocity under crime scene conditions1 (such as a living
+room, for example) (see Fig. 1) and, consequently, experience
+lower levels of aerodynamic deforming force and thus deform to a
+lesser extent during ﬂight. These, in addition, are prone to high-
+amplitude initial oscillations [18].
+Cast-off and impact drops may begin their ﬂight with velocities
+much greater than their terminal velocities and possess high levels
+of deformation (as indicated by We > 3). In this light, in order to
+correctly predict deformation effects on drop trajectory it is not
+sufﬁcient to assume the drag coefﬁcient is the same as that of a
+drop at terminal velocity. An accurate approach should infer the
+level of drop distortion based on the degree of the distorting
+aerodynamic force expressed in terms of, for example, Weber
+number. This will change as the droplet moves. The potentially
+high Weber numbers of cast-off and impact drops (We > 13)
+suggest the possibility of drop breakup during ﬂight.
+The high levels of cast-off and impact drop deformation in ﬂight
+may affect drop trajectory, and thus blood origin estimation.
+Gunshot drops, the smallest of those considered, show potential
+for signiﬁcant deformation during ﬂight based on high Weavg.
+Breakup is predicted for bigger drops (d > 0.1–0.5 mm) where
+they 
+possess 
+higher 
+velocities 
+(>30 m/s). 
+Smaller 
+gunshot
+drops (d < 0.1 mm) are expected to experience negligible defor-
+mation (We < 3) despite their relatively large velocities and may
+be approximated as rigid spheres when predicting their trajecto-
+ries.
+Initial drop oscillation and deformation during ﬂight may have
+signiﬁcant effects on the overall drag force. These factors need to be
+considered in order to accurately predict blood drop origin and
+drop trajectories prior to impact on a surface.
+This paper describes the development of a numerical scheme to
+accurately predict blood drop behavior during ﬂight. The proposed
+scheme incorporates the effects of inertial, gravitational and
+aerodynamic drag forces on drop ﬂight. The variation in drag
+force as a result of shape oscillation and deformation due to
+aerodynamic forces are also features of this scheme. The most
+likely mechanisms of drop breakup during ﬂight are also
+included.
+The proposed scheme can predict drop ﬂight characteristics and
+paths in both ‘forward’ (from the drop origin till its impact on a
+surface) and ‘backward’ (from the drop position on the target
+surface to its origin) modes, and in both 2D and 3D cases. Among
+the output parameters are drop 3D coordinates and velocity along
+the ﬂight trajectory, impact angle and velocity, range and height of
+drop ﬂight.
+This paper deals with the description and validation of the
+numerical model for ‘‘forward’’ blood drop trajectory prediction,
+where the initial size and velocity are known. The feasibility of
+the ‘‘backward’’ trajectory prediction, where the trajectory is
+tracked back from a dry stain, will be addressed in future
+publications.
+3. Numerical scheme description
+To compute the trajectory of a drop, time was divided into steps.
+The forces on the drop (including gravity, air resistance and
+buoyancy) were estimated at each time-step. The change in
+velocity and distance traveled were calculated for each time-
+step and droplet position and speed updated before the next
+time-step.
+3.1. Equation of drop motion and numerical solution
+Blood drops were modeled using a Lagrangian approach, by
+applying Newton’s Second Law to an individual drop traveling
+through air with density rair:
+ma
+! ¼ F
+!
+g þ F
+!
+b þ F
+!
+d
+(1)
+Here m ¼ ðp=6Þd3
+0r is the mass of a blood drop with density r
+and 
+equilibrium 
+(undistorted) 
+diameter 
+d0:F
+!
+g ¼ mg
+!; F
+!
+b ¼
+ðp=6Þd3
+0rair g
+! and F
+!
+d ¼ ð1=2ÞCdArairV
+!
+rel V
+!
+rel
+
+ are gravitational,
+buoyancy and air resistance forces respectively. The buoyancy
+force is negligible, for a blood drop in air, but is nevertheless
+included. A is the drop’s projected area that faces the ﬂow, and
+Cd = f(Re) is its drag coefﬁcient as a function of Reynolds number
+ðRe ¼ Vreld0=vairÞ:V
+!
+rel ¼ v
+!  u
+! is the drop velocity (relative to the
+air), where u
+! is the incident (free) stream velocity, whereas, v
+! ¼
+ðvx; vy; vzÞ is the drop intrinsic velocity with angles to x-, y- and z-
+axes a, b and g respectively (see Fig. 2).
+0
+10
+20
+30
+40
+50
+6
+4
+2
+0
+Drop velocity, m/s
+Drop diameter,
+ 
+ mm
+passive
+ 
+ dripping
+cast-off
+impac
+ 
+t
+gunshot
+Gunn and
+ 
+ Kinzer,
+ 
+ 1949
+Fig. 1. Blood drop velocities versus sizes relative to the terminal velocity data for
+water drops (Gunn and Kinzer, 1949).
+1 It should be noted that from terminal velocity experiments drops as large as
+10 mm in diameter survive their terminal velocity conditions without disintegra-
+tion ([27]). In addition, for water drops, van Boxel [59] showed that only small drops
+(d < 1 mm) would reach 95% of their terminal velocities when falling less than 2 m
+from rest (at the point of formation). Larger drops need larger distances to reach
+terminal conditions. For example, for a 2 mm drop to attain 95% of its terminal
+velocity of 6.49 m/s it needs to fall 5.8 m.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120 
+109
+
+
+--- PAGE 4 ---
+
+For the components of drop acceleration Eq. (1) gives the
+following2,3:
+ax;z ¼ dvx;z
+dt
+¼  1
+2m CdArairV
+!
+relx;z V
+!
+rel
+
+
+(2)
+and
+ay ¼ dvy
+dt ¼  gðr  rairÞ
+r
+ 1
+2m CdArairV
+!
+rely V
+!
+rel
+
+
+(3)
+The sign of the drop relative velocity V
+!
+rel was inverted in the
+equations for drop acceleration for the reverse (‘‘backward’’)
+projection using the symmetry of Newton’s second law with
+respect to inversion of time (a substitution of time direction from t
+to t).
+The set of ﬁrst-order ordinary differential equations (ODEs) for
+drop 
+velocity 
+components 
+(Eqs. 
+(2) 
+and 
+(3)) 
+were 
+solved
+numerically at each time step using the fourth-order Runge–Kutta
+algorithm implemented in the C++ programming language. The
+same routine was employed to ﬁnd the solution of the equations
+for the drop Cartesian coordinates. The computing time required
+for each simulation was typically 10 s with the time step
+Dt = 103–105 s. The time step was determined based on a
+solution convergence criterion of six orders of magnitude (106).
+For drop oscillations modeling each period of oscillations (T) was
+represented by at least 100 time steps (Dt = T/100).
+4. Drop deformation models
+The blood drop was considered to deform into an oblate or
+prolate spheroid (ellipsoid of revolution about its minor or major
+axes) [20] when subjected to a deforming aerodynamic force
+(Fig. 3).
+The level of drop deformation during ﬂight is believed to be
+inﬂuenced by both the intensity and the rate of change of the
+applied aerodynamic forces. A drop responds differently in the case
+of slow, gradual loading (as in free fall), compared to sudden or
+impulsive loading (e.g. shock wave disturbance).
+In practice, the aerodynamic loading of the drop varies as its
+relative velocity changes during accelerated motion. In light of this
+three alternative models for the modeling of drop distortion during
+ﬂight were incorporated in the present scheme.
+Two of these included correlations for the aspect ratio of a
+deformed drop (AR), as a measure of its distortion, at steady
+terminal conditions, when drag force on a drop is balanced by its
+weight 
+with 
+either 
+AR ¼ ½4=17ðð17Bo=4Þ þ 1Þ1=2 þ ð13=17Þ
+3=2
+[28], where Bo ¼ rgd2
+0=4s; or AR ¼ ð1 þ 0:07We1=2Þ
+3 [23] with
+We ¼ rairV2
+reldo=s.
+The models were assumed to be suitable for relatively large
+drops that are moving with velocities lower than their terminal
+velocities (e.g. passive drops) as an extreme case of maximum
+possible deformation.
+The third model for drop deformation was based on the Taylor
+Analogy Breakup (TAB) model for low-Weber number sprays [29].
+The model is based on an analogy between an oscillating and
+π
+y
+z
+x
+v 0y
+ 
+v 0x 
+v 0z 
+γ0 
+β 0 
+α 0
+H 
+L
+Z 
+,
+z
+y 
+x
+d0 
+Fig. 2. Drop trajectory segment (left) and force balance segment diagram (right): initial drop velocity vo with initial inclination angles ao, bo and go; L, H and Z are the lengths of
+drop trajectory along coordinate axes.
+Fig. 3. Diagram of a deformed drop with the diameters of major (perpendicular to
+the direction of drop motion) and minor (parallel) axes of the deformed drop dmax
+and dmin and its shape at equilibrium (the volumes of an undisturbed and deformed
+drop 
+are 
+Vo ¼ ðp=6Þd3
+0
+and 
+V ¼ ðp=6Þd2
+maxdmin
+respectively. 
+From 
+volume
+conservation 
+considerations 
+(assuming 
+no 
+signiﬁcant 
+evaporation 
+occurs):
+d3
+0 ¼ d2
+maxdmin. 
+The 
+aspect 
+ratio 
+and 
+cross-sectional 
+(projected) 
+area 
+of 
+a
+deformed drop are AR ¼ dmin=dmax ¼ d3
+0=d3
+max and A ¼ p
+4 d2
+max ¼ p
+4 d3
+0=d3
+max).
+2 The model considered translational motion of axisymmetric drops, thus the lift
+force was neglected. The majority of blood drops imaged in the course of this study
+ﬁtted these criteria. Lift force is important for the case of irregularly deformed drops
+and rotational motion.
+3 In general, for a particle during its accelerating (transient) motion, the
+additional virtual mass force and Bassett history force should also be considered
+[60]. However, due to the relatively high density ratio of blood (or water) to that of
+air (831 < r/rair < 880) the virtual mass term may be neglected. The Basset history
+term is not generally negligible, however, due to its complexity, difﬁculty in
+implementation and more pronounced effects for the movement at high
+acceleration, it was not considered. Evaluation of the magnitude of Basset force
+in different multiphase ﬂow applications can be found in Liang and Michaelides
+[61]. These authors found that the Basset force may be neglected in the particle
+equation of motion only when the ﬂuid to particle density ratio is very high (gas
+bubbles in liquids) and the particle diameter is greater than 1 mm. For movement
+with high acceleration however, the Basset term can exceed the Stokes’ term by as
+much as a factor of two. These conditions are not thought to be met for typical BPA
+drops.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+110
+
+
+--- PAGE 5 ---
+
+distorting drop and a spring mass system. The droplet distortion is
+represented as a one-dimensional harmonic oscillation under the
+deforming aerodynamic force, restoring surface tension force and
+damping viscous force.4 The droplet deformation in the direction of
+ﬂow is expressed in terms of the dimensionless distortion
+y = 2Ddmin/(do/2), where Ddmin describes the deviation of the
+minor drop diameter (or the one parallel to the direction of the
+ﬂow or drop relative velocity) from its undisturbed value do (see
+Fig. 3).
+The equation of motion of the deformation and a general
+solution are5
+d2y
+dt2 þ 4Cdm
+rd2
+dy
+dt þ 8Cks
+rd3 y ¼ 4C frairV2
+rel
+Cbrd2
+and
+yðtÞ ¼ Wec
+þ et=tD
+ðyo þ WecÞcosvt þ 1
+v
+dyo
+dt þ yo  Wec
+tD
+ 
+
+sinvt
+ 
+
+Here Wec ¼ Weðc f =ckcbÞ ¼ ðrairV2
+reld=2sÞðc f =ckcbÞ, natural fre-
+quency 
+and 
+damping 
+time 
+of 
+drop 
+oscillations 
+are v ¼
+fð8Cks=rd3Þ  ð1=t2
+DÞg
+1=2
+and tD = (rd2/2Cdm) . Cb = 1/2, Cd = 10,
+Ck = 8 and Cf = 2/3 (gradual loading) or 1/3 (sudden loading) are
+empirical model parameters. The initial values of distortion yo and
+distortion rate of change dyo/dt are usually taken to be equal to zero
+[30]. 
+The 
+drop 
+aspect 
+ratio 
+and 
+projected 
+area 
+are 
+thus
+AR ¼ ð1  0:5yÞ3=2
+
+and A = pd2/4(1  0.5y) respectively.
+The numerical representation of the drop distortion and
+distortion rate used for the code development are given in
+Appendix A.
+4.1. Drag coefﬁcient of a deformed drop
+There are a number of possibilities of how to express the drag
+coefﬁcient as a function of drop shape and Re number [21,30–32].
+An initially spherical drop in an external ﬂow at critical conditions
+reaches a maximum deformation when it takes the form of a disk
+(so-called ‘liquid disk’). The drag coefﬁcient of a deformed drop can
+be estimated by interpolating between that of a sphere CS ph
+D
+and of
+a disk CDisk
+D
+[21,32]: CD ¼ AR CS ph
+D
+þ ð1  ARÞCDisk
+D
+. For a sphere
+AR = 1, whereas, for a thin disk AR  0.
+The empirical expressions for the drag coefﬁcient of a solid
+sphere and disk for wide range of Reynolds numbers used in this
+study can be found in [20,33] and are given in Appendix B.
+5. Drop breakup models
+As soon as the maximum deformation is reached and the
+droplet is disk-like, a drop may further deform and ﬁnally
+disintegrate into smaller or child drops [23]. Two breakup
+mechanisms, namely bag-type at 12  We  50 and vibrational
+at We  12 breakup, are characteristic for typical blood drops. Two
+other mechanisms, multimode and shear breakup, may occur for
+gunshot drops if conditions of We > 50 are encountered.
+Two alternative models for drop breakup modeling were built
+into the developed numerical scheme to estimate the level of drop
+deformation prior to the breakup.
+The ﬁrst was based on the experimental ﬁndings of [23] for
+drops disintegrating after a shock wave disturbance. In the
+proposed model a drop was considered to undergo breakup when
+the droplet Weber number is larger than a critical Weber number
+Wecr = 12(1 + 0.077Oh1.6) ([1,32]; [23].
+The model suggests that the maximum cross-sectional drop
+deformation is dmax = do(1 + 0.19We0.5). The instantaneous cross
+stream drop diameter dc is estimated as a function of time t of drop
+deformation from the liquid disk distortion up to a drop breakup in
+a form dc = (dmax  do)0.625(t/t) + do, where t ¼ ðdo=VrelÞ
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r=rair
+p
+is the characteristic time of drop breakup for Oh < 0.1. It is
+assumed that the maximum drop deformation is reached at
+ti = 1.6t. After that, a drop undergoes further irregular deformation
+(into a liquid bag, for example) and ﬁnally disintegrates. The time
+of drop breakup from the beginning of the deformation to drop’s
+ﬁnal disintegration is represented as tbup = 6t(We  12)0.25 for
+12 < We  18 and tbup = 2.45t(We  12)0.25 for 18  We < 45 at
+Oh  1 [1].
+The deformed drop aspect ratio and projected area are AR ¼
+d3
+o=d3
+c and A ¼ ðp=4Þd2
+c correspondingly. Thus the model allows
+estimation of the instantaneous drop deformation at a time after
+the drop breakup condition had been met, hence allowing a
+prediction of when ﬁnal breakup occurs.
+For 
+the 
+typical 
+case 
+of 
+bag-type 
+breakup, 
+actual 
+drop
+disintegration was expected to occur anytime in the second
+half of the interval from ti to tbup. In the numerical implementation
+of the model, a random time of breakup in a characteristic
+time frame is calculated using random number generator rand() in
+C++.
+The ﬁnal drop cross-sectional diameter was calculated subse-
+quently. Using this distortion value, a ﬁnal drop velocity and
+coordinates were calculated.
+Another drop breakup model employed was based on the
+breakup model which is part of the TAB model. For this the
+amplitude of undamped drop oscillations was ﬁrst calculated with
+A ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ðyn  WecÞ2 þ ðð1=vÞðdy=dtÞnÞ
+2
+q
+where yn and (dy/dt)n are the
+dimensionless drop deformation and deformation rate at nth time
+step. Drop breakup was considered to be possible only if
+WeC + A > 1 and y 	 1.
+The drop was assumed to maintain its level of deformation
+(aspect ratio) as soon as it reached its critical deformation, up until
+the completion of the breakup.
+If the condition for drop disintegration was met, the lifetime of
+an 
+unstable 
+drop 
+was 
+calculated 
+alternatively 
+as
+tbu p ¼ 0:82
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+3rd3o=8s
+p
+
+[29] and tbu p ¼ p
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+rd3o=16s
+p
+[34] or accord-
+ing to [1] discussed earlier. Pilch and Erdman’s expression for the
+drop breakup time was found to be the most accurate in predicting
+blood drop breakup.
+If tbup  Dt the breakup was considered to occur during the
+current time step. However, if tbup > Dt the breakup would not
+occur during the current time step and the drop distortion and
+distortion rate are recalculated on the next time step n + 1
+(Appendix A).
+6. Experimental methodology
+6.1. Blood used
+For the study of blood drops falling from up to 8 m, healthy
+donor human blood with EDTA anticoagulant was used. Blood
+density 
+was 
+determined 
+by 
+the 
+weighing 
+method 
+to 
+be
+1028 
+ 25 kg/m3. Blood viscosity and surface tension were not
+4 The important limitation of the TAB model is that only the longest-lived
+fundamental (spheroidal or prolate-oblate) mode of drop oscillations is accounted
+for. This is reasonable as the low-viscosity drop oscillations are generally limited to
+the ﬁrst few harmonics due to rapid damping of higher harmonics. Several non-
+linear TAB model extensions have been recently developed by Schmehl [32] and
+claimed to be more accurate in large drop distortion prediction. These may be used
+for blood drop applications if higher level of accuracy is required.
+5 The equation of motion of the deformation for the case of ‘‘backward’’ drop
+motion had the sign of the ﬁrst time derivative from drop distortion y reversed.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120 
+111
+
+
+--- PAGE 6 ---
+
+measured. It was expected, however, that due to the fact that the
+blood used was of a healthy donor its viscosity and surface tension
+were within the range reported for healthy humans [35–37].
+To investigate the early stage of passive blood drop ﬂight for
+drops 
+falling 
+up 
+to 
+1.5 m 
+porcine 
+blood, 
+sourced 
+from 
+a
+slaughterhouse was used as a human blood substitute. Blood
+from the same sample was used for impact spatter experiments.
+The blood was treated with ACD (acid citrate dextrose) anticoagu-
+lant at a concentration of 7 mg/ml. Measured blood density and
+surface tension were 1033 
+ 20 kg/m3 and 61.7 
+ 0.8 mN/m corre-
+spondingly. Blood viscosity was measured to 4.6 
+ 0.1 mN s/m2 at
+high shear rate (1000 s1) and to 21.3 
+ 0.6 mN s/m2 at low shear rate
+(10 s1). Blood density was measured by a weighing syringe method.
+Surface tension measurements were performed on a KSV Contact
+Angle and Surface Tension Meter. Blood viscosities were measured at
+a shear rate of 1000 s1 with a rotational rheometer HAAKE Rotovisco
+RV 20 with NV coaxial cylinders. ACD treated abattoir porcine blood
+with density, surface tension and high-shear rate viscosity of
+1054 
+ 25 kg/m3, 63.8 
+ 1.6 mN/m and 5.0 
+ 0.7 mN s/m2 respec-
+tively was used for the cast-off experiments The blood used for each
+of the experiments was warmed to 36 
+ 1 8C and agitated by a
+magnetic heater-stirrer before testing. It was stored at 4 8C and used
+within 4 days.
+6.2. Blood drop generation and imaging
+High-speed imaging was used to study passive, cast-off and
+impact blood drop ﬂight characteristics. A Photron SA1.1 high
+speed digital (CMOS) cameras with a Nikon 55mm f/2.8 AIS Micro-
+NIKKOR macro lens were used to capture high resolution (with ﬁne
+details) images of blood drops at high frame rates, the number or
+frequency of images or frames taken per second (fps). Camera
+settings and image magniﬁcation levels (distance calibration,
+number of image pixels per 1 mm) employed for the imaging
+experiments performed are summarized in Table 2. Photron
+FASTCAM Viewer Ver.3.0 (Photron Ltd.) software was used to
+operate the camera.
+6.3. Passive drops
+To study blood drops at velocities close to terminal, drops in the
+range of 3–5 mm in diameter were produced using Pasteur
+pipettes with different tip sizes. The drops were then released from
+a number of heights indoors to limit the effects of air currents and
+winds on drop ﬂight. Ambient temperature was 21 
+ 1 8C. Each
+meter of drop ﬂight (starting at 2 m of fall) was imaged. The fall
+distance of the drops was measured with a tape measure to within
+
+5 cm. A set of close-up videos of drops were also captured to
+measure drop diameters. Each test was repeated three times. The
+experimental set up was back- and side-lit from both sides by 0.5–
+2 kW incandescent lamps. A distance calibration (pixels/mm) was
+made using an image of a 1 m long ruler. The ruler was mounted
+vertically in the ﬁeld of view of the camera. Both the ruler and falling
+drops were expected to be within the camera depth of ﬁeld.
+For the study of initial blood drop oscillations a Gilson Minipuls
+3 M312 (Gilson Ltd.) peristaltic pump was used to draw the liquid
+from a reservoir ﬂask to the experiment. A constant ﬂow rate of
+0.10 
+ 0.02 ml/s (measured by weighing) was maintained. Blood
+drops were formed by dripping from a number of stainless steel
+objects to produce a range of drop sizes. These included a 21G
+Ø0.8 mm blunt hypodermic needle, SWAGELOCK1 hose connector
+with a 5 mm outer tube diameter, a kitchen knife and a 100 mm
+diameter cylinder. The objects were at ambient temperature of
+19.0 
+ 0.5 8C.
+The drops were allowed to fall 1.5 m in total. Owing to the
+image magniﬁcation necessary to accurately determine drop size
+and shape, 10 cm of drop ﬂight was imaged at a time. Drop fall
+distance was measured to 
+5 cm. Drop images upon its formation,
+and after 20, 50, 100 and 150 cm of fall were taken with 10–15
+repeats. The set up was back-lit with 8 LED lights.
+6.4. Cast-off drops
+Cast-off drops were generated from a 60 cm diameter ﬂat
+rotating stainless steel disk [38]. The disk rotated clockwise about
+its symmetry axis, with the plane of the disk vertical. The speed of
+rotation was regulated by a single phase AC motor with a variable
+speed drive, with tangential velocity in the range of 1–20 m/s
+within 0.5 m/s.
+A KNF Flodos diaphragm pump NF 60 was used to eject 2 ml of
+blood on the rotating disk surface for each experimental trial. The
+blood was fed onto the disk surface, at the lower part of the disk
+1 cm from the edge.
+The drops back-lit with eleven high-intensity LED lights were
+imaged in ﬂight. The drops were observed to move in the plane of
+the disk with maximum deviation of about 
+1–1.5 cm. The camera
+was focused on the plane of the disk. Only the drops that stayed in
+focus until they left the ﬁeld of view were analyzed.
+A set of experiments with close-up imaging were performed to
+study the initial phase of cast-off drop ﬂight including shape
+oscillations. The recorded trajectory during close-up imaging was
+limited to less than 4 cm. It was experimentally difﬁcult to
+determine drop sizes and track any shape changes over a meaningful
+length of trajectory and number of oscillation periods for the smaller
+cast-off drops generated at the higher tangential velocities (>6–7 m/
+s). Thus the study was limited to the lower tangential velocities.
+Additional experiments were dedicated to capturing longer drop
+trajectories to allow a comparison with the numerical predictions. The
+typical ﬁeld of view for these experiments was about 55 cm  55 cm
+which corresponded to 60–70 cm length of imaged drop trajectory.
+However, the resolution was decreased to about 30 cm  30 cm (or
+40 cm of drop trajectory) at disk tangential velocities higher than
+15 m/s in order to accurately determine blood drop size.
+6.5. Impact drops
+The generation of blood drops as a result of a blunt force impact
+was studied. A pneumatic cylinder (actuator) drove a piston and
+Table 2
+Camera settings and typical image magniﬁcation used for passive, cast-off and impact blood drop imaging.
+Experiment 
+High-speed camera settings 
+Typical image magniﬁcation,
+pixels/mm
+Frame rate, fps 
+Resolution, pixels 
+Shutter speed, s
+Passive drops falling up to 8 m 
+5000 
+256  1024 
+1/6000 
+0.8–1 (close-up)
+14–16 (drop ﬂight)
+Initial passive drop oscillations 
+5400 
+1024  1024 
+1/75,000 
+8–10
+Cast-off drops 
+5400 
+1024  1024 
+1/75,000 
+9–15 (close-up)
+2 (drop ﬂight)
+Impact spatter 
+5400 
+1024  1024 
+1/75,000 
+5–9
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+112
+
+
+--- PAGE 7 ---
+
+the attached rod to vertically impact a target surface. The target
+was a 5 cm diameter polyurethane block with a ﬂat impact surface.
+The actuator and target were ﬁrmly mounted on a durable 6 cm
+thick wooden bench. The stroke length was about 7 cm. The rod tip
+was ﬁtted with a 2 cm diameter steel tip, similar to a 16 oz. claw
+hammer head. The impactor tip speed at time of impact varied
+from 9 to 14 m/s.
+2.0 
+ 0.2 ml of blood was applied on the target for each
+experiment. A 32 cm  32 cm region close to the point of impact
+was imaged. The drops were back-lit with 5 LED lights.
+The impact of the tip onto the pool of blood caused the blood to
+disintegrate into a dense mist of drops, moving radially outward
+from the impact center. Only drops which passed through a 5 mm
+wide vertical slit between the point of impact and imaged region
+were recorded to eliminate drop movement perpendicular to the
+camera object plane.
+The images of all passive and cast-off drops were processed
+using MATLAB1
+based 
+particle identiﬁcation 
+and 
+tracking
+software. 
+After 
+conversion 
+to 
+grayscale, 
+the 
+images 
+were
+binarized (recognized as bright objects on dark background)
+using a threshold value of 80–100 gray levels.6 The drop image
+properties such as coordinates, diameter and aspect ratio were
+measured. The droplets were then tracked over time using [39]
+implementation of the IDL particle tracking algorithms developed
+by [40]. Drop velocity was calculated from a drop displacement
+(D) during two subsequent frames and video frame rate (FR) as
+D  FR. Impact blood drop images were processed using ImageJ, a
+public-domain Java image processing and analysis program. The
+drop ﬂight paths were manually recreated with ROI Manager in
+ImageJ.
+7. Veriﬁcation and validation
+The developed numerical code was veriﬁed and validated
+against a number of analytical and experimental datasets of
+spherical and deformable drop ﬂight, with particular attention to
+sizes and velocities relevant for typical blood drops.
+A number of subroutines of the developed code needed to be
+validated, namely:
+(1) drop velocity and coordinates calculation;
+(2) drag coefﬁcient of a deformed drop representation;
+(3) drop deformation, oscillation and breakup modeling.
+The accuracy of the drop equation of motion solution and drop
+deformation representation was sufﬁcient for the validity of the
+developed numerical code for blood drop trajectory prediction
+within model assumptions (i.e. axisymmetric drop, translational
+motion, prolate-oblate oscillations, no evaporation or cross-winds,
+etc.).
+The description of the validation process was accompanied with
+empirical 
+observations 
+on 
+passive 
+blood 
+drop 
+deformation,
+oscillations and terminal velocities, cast-off drop deformation
+and oscillations and impact drop deformation and breakup of value
+to BPA community.
+7.1. Validation of drop velocity and coordinates calculation and
+deformed drop drag coefﬁcient representation
+In order to verify the accuracy of drop velocity components and
+coordinates calculation subroutines of the program it was tested
+against simpliﬁed cases of undeformed (spherical) drop ﬂight with
+and without air resistance. The numerical results were found to
+match exactly the analytical solutions of the kinematic equations
+of drop motion without air resistance for:
+(1) a projectile launched horizontally from height H with initial
+velocity components vox ¼ vo; voy ¼ 0 : vx ¼ vo; vy ¼ gt; x ¼ vot;
+y ¼ gt2=2; with ﬁnal ﬂight time T ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2H=g
+p
+and range L ¼ voT;
+(2) a projectile launched under the initial angle to horizon ao and
+velocity 
+vo : vx ¼ vocosao; vy ¼ vosinao  gt; x ¼ vot cos ao þ
+xo; y ¼ vosin ao  gt2=2;
+(3) spherical drop ﬂight at terminal conditions (when drag force is
+balanced by the drop weight) in ambient air with terminal
+velocity vt ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð4dog=3CdÞððr  raÞ=raÞ
+p
+, Cd = 0.5.
+The drag coefﬁcient interpolation used for deformed drop
+representation was probed against experimentally obtained drag
+coefﬁcients and aspect ratios of water drops at terminal velocity
+from Pruppacher and Pitter [41] (Fig. 4). This showed the good
+accuracy of the interpolation formula used.7
+7.2. Validation of the models for drop deformation, oscillations and
+breakup
+7.2.1. Passive blood drop deformation at terminal velocity
+The models of drop deformation (based on Green [28],
+[23] 
+and 
+the 
+TAB 
+model) 
+reproduced 
+empirical 
+terminal
+velocities and deformation levels of water drops within less
+than 10% for drops up to 5 mm in diameter (Fig. 5). The most
+accurate ﬁt to the experimental data was provided by the TAB
+model with an aerodynamic force coefﬁcient Cf = 2/7 over the
+entire range of drop diameters studied. The models based on
+Green [28] and [23] predicted terminal velocities higher than
+reported experimentally for water drops with diameters >6 mm.
+The TAB model and that based on [28] provided a good
+approximation of drop deformation levels at terminal conditions
+for a wide range of drop sizes. The HF model, however,
+overestimated drop deformation for drops less than 8 mm in
+diameter.
+The validity of the code when predicting blood drop ﬂight at
+conditions close to terminal was tested against experimental data
+on drops falling from up to 8 m.
+From close-up drop images, falling drop diameters with standard
+deviations were 3.31 
+ 0.01 mm (‘small’), 4.44 
+ 0.05 mm (‘medium’)
+and 4.94 
+ 0.04 mm (‘large’). The error in drop diameter measurement
+associated with image pixelation and thresholding was estimated to be
+0
+0.5
+1
+1.5
+2
+2.5
+5000
+4000
+3000
+2000
+1000
+0
+Cd
+Re
+Cd from Pruppacher and
+ 
+ Pitter
+ 
+ (1970
+ 
+)
+Cd of a spher 
+e
+Cd of a dis c
+Inte rpolat ed Cd
+Fig. 4. Interpolated and experimentally obtained [41] drag coefﬁcients for drops at
+terminal velocities with the sphere and disk drag coefﬁcients from Clift et al. [20]
+and Massey et al. [33].
+6 Kabaliuk [62] contains additional information on the effect of threshold values
+on the measured drop diameter.
+7 The 
+interpolation 
+is 
+valid 
+provided 
+the 
+validity 
+of 
+drop 
+deformation
+representation irrespective of the speciﬁcs of drop movement (or drop type in
+BPA context).
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120 
+113
+
+
+--- PAGE 8 ---
+
+
+3 pixels (or 
+0.2 mm) for close-up images. The accuracy of drop
+diameter determination for drop ﬂight videos was limited by image
+resolution, which amounted to 1 pixel size (or 
+1 mm).
+The velocity of the falling drops was observed to increase from
+about 5–6 m/s at 2 m of fall to 8–9 m/s at 9 m. The time-dependent
+evolution of falling drop velocity for the larger drops studied was
+plotted in Fig. 6. Scatter of 
+3–4 m/s observed in the raw data was
+associated with an uncertainty in drop location (center of mass)
+determination from pixilated and thresholded images of 
+5 m/s.
+Drop fall analogous to that studied experimentally was
+modeled using the developed code. The experimentally measured
+blood drop size and density were used for computation. As the
+viscosity and surface tension of the blood were not measured,
+published values of human blood viscosity of 4 mN s/m2 (at high
+shear rate) and surface tension of 62 mN/m ([35,37]) were used.8
+All the models for drop deformation during ﬂight (based on
+Green [28],[23] and TAB) performed well when predicting drop fall
+velocity and consequently drop deformation levels which affect
+drag force and drop trajectory (or velocity in the case of drop fall).
+Numerical velocity predictions were within 5% of the mean of the
+experimental data.
+Numerical simulation for the case of a spherical blood drop (‘‘No
+deformation’’ dataset) with a drag coefﬁcient dependent on
+Reynolds number predicted higher drop velocities compared to
+the 
+models 
+with 
+drop 
+deformation, 
+and 
+higher 
+than 
+the
+experimental mean, although within the scatter of experimental
+data. The discrepancy, however, was observed only for fall
+distances higher than about 4 m.
+When the drag force was entirely neglected (‘‘No drag’’ dataset),
+the predicted velocities deviated substantially from those of a
+droplet experiencing drag by the time it had fallen 1.5 m. It is rare
+for a passive blood drop to fall (vertically) much more than 1.5 m at
+a crime scene. Such a short travel distance (and time of ﬂight)
+would not allow a passive drop to experience any signiﬁcant drag
+force effects and deformation to alter its ﬂight velocity (and thus,
+impact velocity) under typical crime scene conditions.
+7.2.2. Initial oscillations of passive blood drops
+The 
+early 
+stage 
+of 
+passive 
+blood 
+drop 
+ﬂight 
+was 
+also
+experimentally and numerically studied. Initial oscillation ampli-
+tude and damping rate for drops falling up to 1.5 m were
+investigated.
+The drops formed from the objects tested ranged from 1 to
+6 mm in diameter (see Table 3). Blood dripping from the
+hypodermic needle and kitchen knife generally produced uni-
+form-size drops (main or primary drops). For the case of a dripping
+hose connector and cylinder, the primary drop was followed by one
+or rarely two (or more) smaller droplets (termed ‘accompanying
+drops’ or ‘satellite drops’). Initial oscillations of the needle, knife,
+hose connector and cylinder primary drops as well as uniform-
+sized hose connector satellite drops were investigated.
+The primary drops were tracked as soon as the breakup from
+the ligament was commenced and the body of a drop could be
+differentiated from the residual liquid adhering to the dripping
+surface. Upon formation the drops experienced shape oscillations
+with axisymmetric mode predominating.
+The satellite drops studied were formed as a result of the break-
+off a highly elongated liquid ligament (length to width ratio of
+about 10) from the residual liquid and its subsequent strong
+contraction. The presence of a horizontal oscillation mode (see
+[42]) was noticed for the ﬁrst ten to ﬁfteen frames (or about 5 mm).
+This may be attributed to the mode-coupling phenomena noted by
+[47].
+Most of the passive blood drops possessed a prolate shape upon
+detachment, whereas the drops formed from the cylinder were
+oblate (at the time of recognition).
+Fig. 5. Comparison of numerical and empirical terminal velocities and corresponding deformation levels for water drops. The lower four data sets represent numerical
+predictions. [50–54]
+0
+3
+6
+9
+12
+0 
+2.5 
+5 
+7.5 
+10
+Drop velocity, m/s
+Distance
+ 
+ of  fall
+ 
+, m
+Expe
+ 
+rimental
+ 
+ data 
+ Dataset
+ 
+ extremes
+No drag forc e 
+No deformati on, Cd=f(Re)
+AR from Gree n (1975)
+AR
+ 
+ fr om Hsia
+ 
+ng and
+ 
+ Faet
+ 
+h (1995 )
+TAB model
+Green 
+ (1975)
+ 
+,
+Hsia ng and  Faet h 
+(1995) an d TAB 
+models
+ 
+ 
+No drag
+No defor
+ 
+matio
+ 
+n
+Fig. 6. Empirical and numerical fall velocity of a Ø4.94 mm passive blood drop. The
+dataset extreme line was ﬁtted through the measured velocity data extreme points.
+The black points are the moving average of the processed data.
+8 It should be pointed that a change in simulated blood drop viscosity over the
+range of its natural variability caused no detectable difference in blood drop fall
+velocity (less than 1/10,000%). A decrease in drop surface tension from 62 to 55 mN/
+m led to a less than 2% decrease in drop fall velocity. Measured blood density was
+slightly lower than published values. However, from the simulation a 3% increase in
+drop density from measured 1028 to 1063 kg/m3 (upper level for human blood)
+increased drop velocity only by about 1%.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+114
+
+
+--- PAGE 9 ---
+
+Aspect ratios of the representative oscillating drops were
+plotted in Fig. 7 for the initial stages of ﬂight where drop
+deformation by aerodynamic forces is less prominent due to low
+Weber numbers (We << 1). 
+The drops oscillated 
+around a
+spherical shape (AR  1) with viscous damping reducing the
+amplitude and the shape tending to spherical over time.
+The mean error in drop aspect ratio determination from ellipse-
+ﬁtting was less than 1%. It should be noted that the ﬁtting error for
+the ﬁrst ten frames of the strongly deformed satellite droplet
+reached 3%, but reduced for the following images. The uncertainty
+in drop location determination from the high-speed images was
+
+1 mm.
+The primary drops experienced moderate- to small-amplitude
+oscillations with the dimensionless drop distortion y < 0.4 and
+j1  ARj  0.3. The satellite drops oscillated with higher ampli-
+tudes (y  0.8 and j1  ARj  0.9).
+A comparison of the measured period and frequency of drop
+oscillations with theoretical predictions by ([43]; cf. [44]) for
+small-amplitude oscillations of a low-viscosity liquid drop in air is
+provided in Fig. 8. The oscillation frequency and decay time for the
+fundamental harmonic are v ¼ fð64s=rd3
+oÞ  ð20m=rd2
+oÞ
+2g
+1=2
+and
+tD ¼ ðrd2
+o=20mÞ. Surface tension increases drop oscillation fre-
+quency as s1/2. The effect of an increase in drop density is mainly
+due to an increase the oscillation decay time and to a decrease in
+oscillation frequency proportionally to r1/2. The drop viscosity m
+decreases the natural oscillation frequency and damps the
+oscillations. As blood is a non-Newtonian ﬂuid its viscosity
+depends on the shear rate of the ﬂow. To deﬁne the apparent
+viscosity of an oscillating blood drop in an air ﬂow, the ﬂow pattern
+and shear rates within the drop must be determined. The latter is a
+complex problem and was out of scope of this study.
+Larger drops studied were observed to oscillate with lower
+frequencies and thus had longer periods. The frequency and period
+of oscillation of the largest drop studied (5.83 mm in diameter,
+from the cylinder) was about 134.7 
+ 0.4 Hz and 47 
+ 3 ms
+respectively, whereas the needle drops (half as large) had an
+oscillation frequency three times higher of 435 
+ 1 Hz and a shorter
+oscillation period of 14 
+ 2 ms. Empirical and theoretical oscillation
+frequencies (and periods) were in good agreement. This is in
+concordance with the ﬁndings of [45] that the asymptotic behavior
+of small and moderate low-viscosity drop oscillations can be well
+predicted by the linear theory [44].
+The 
+shift 
+in 
+oscillation 
+frequency 
+of 
+the 
+satellite 
+drop
+oscillations may be associated with the decrease in oscillation
+frequency of the fundamental mode with increasing amplitude
+[46,47]. Indeed energy transfer between the fundamental and
+higher modes (mode coupling) during high-amplitude oscillations
+changes the energy balance of the fundamental mode. Another
+possible explanation is the error in drop size estimation, which is
+critical during rapid oscillations.
+As the velocity of a passive drop increases (We 	 1) with the
+distance of fall, aerodynamic effects on drop deformation become
+more pronounced. The equilibrium drop aspect ratio shifts from
+that of a spherical drop (AR = 1) toward the values for an oblate
+spheroid (AR < 1). This was observed experimentally for the
+passive blood drops. The deformations naturally were more
+pronounced for the larger drops which also showed a non-
+elliptical proﬁle with ﬂattening at the bottom surface facing the
+ﬂow (Fig. 9). It should be noted that the hose drops still showed
+some oscillations after 1.5 m of fall.
+A comparison between the experimental and numerical data on
+drop oscillation from the moment of drop formation is presented in
+Fig. 10 for the hose connector drops.
+The analytical solution for the free drop oscillation around a
+spherical shape [48] AR ¼ ½1 þ Aoet=tDsinðvtÞ
+3 is shown in
+Fig. 10. It models passive blood drop oscillation accurately up to
+the third period. The parameter A0 = 0.08 was used to match
+experimentally observed drop oscillation data.
+As the Weber number of drop ﬂight exceeded 0.4 at 0.15 s of fall,
+drop behavior deviated from that predicted by the free oscillation
+theory. As the drop velocity increased due to the action of gravity
+the drop started to deform under the increased aerodynamic
+loading and oscillated around an equilibrium deformed shape.
+With further gradual rise in the aerodynamic loading the drop
+further deformed. The amplitude of oscillation was damped with
+time by viscous forces.
+0
+0.5
+1
+1.5
+2
+0 
+0.0 1 
+0.0 2 
+0.03
+AR
+Fall  distance, m
+satel lite  drop
+needle drop
+knife  drop
+connect or drop
+cylinder drop
+satellite dro
+ 
+p
+needle dro
+ 
+p
+knife drop
+connector
+ 
+ drop
+cylinde
+ 
+r dro
+ 
+p
+Fig. 7. Initial oscillations of passive blood drops observed experimentally.
+0
+10
+20
+30
+40
+50
+0
+50
+100
+150
+200
+250
+300
+0
+2
+4 
+6
+Period of oscillations, ms
+Oscillation frequency, Hz
+Drop diameter,
+ 
+ mm
+oscillation frequ
+ 
+ency
+ 
+ (Lamb,
+ 
+ 1932
+ 
+)
+period
+ 
+ of  oscill 
+ati ons  (Lamb,
+ 
+ 1932
+ 
+)
+satellite drop
+needle
+ 
+ drop
+knife  drop
+con
+ 
+nect or drop
+cylinder drop
+Fig. 8. Frequency and period of passive blood drop oscillations.
+Fig. 9. Passive blood drop shapes and aspect ratios after 1.5 m of fall: (a) satellite, (b)
+needle and (c) hose connector drops. Standard deviation of the aspect ratio
+measurements was 
+0.3.
+Table 3
+Passive blood drop diameters for initial blood drop oscillation study. The error in
+drop diameter measurement due to image pixilation and thresholding was 
+1 pixel
+(or 
+0.11 mm).
+Dripping object 
+Drop diameter,
+mm
+Standard deviation,
+mm
+Needle 
+2.83 
+0.01
+Knife 
+3.96 
+0.11
+Hose connector
+Primary 
+5.34 
+0.06
+Satellite 
+1.25 
+0.08
+Cylinder 
+5.83 
+0.15
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120 
+115
+
+
+--- PAGE 10 ---
+
+The simulation of the initial drop oscillation based on the TAB
+model and empirical data on drop sizes, properties, initial
+distortion levels and rates provided accurate prediction of the
+passive drop behavior during ﬂight beginning from the moment of
+its formation.
+Measured blood drop density and surface tension values were
+incorporated into the TAB model. Variations in the blood surface
+tension and density in the range of the instrumental errors had
+negligible effect on the numerical results. The value of apparent
+drop viscosity was selected from the measured and published data
+[35,36] by matching the experimental and numerical oscillation
+decay times. The viscosity value of 10 mN s/m2 (for the shear rate
+of 10 s1) provided the most satisfactory data ﬁt and was used for
+simulations.
+The maximum relative error in drop aspect ratio values
+predicted numerically to that observed experimentally was about
+1.6% for the ﬁrst period of drop oscillation which may be associated
+with the errors in the assumed shape of the newly formed drop.
+The empirical levels of drop deformation after about 0.5 s (or
+1.5 m) of fall were slightly lower (5%) than those calculated
+numerically with the TAB model based on the critical Weber
+number Wecr = 12 for shock loading [23,26] with Cf = 1/3. To
+improve the agreement the value of Cf = 2/7, corresponding to
+slightly higher Wecr = 14, reasonable for a gradual increase in the
+aerodynamic loading, was employed in the computation. The TAB
+model with Cf = 2/7 performed well for all the primary drops
+studied experimentally. The relative errors in drop fall velocity and
+distance between the numerical approximation and experimental
+data was generally smaller than 0.5%.
+The steady state solution (without drop shape oscillation and
+initial 
+distortion) 
+for 
+falling 
+passive 
+blood 
+drops 
+was 
+also
+investigated. It should be noted that the deviation between the
+numerical solutions for an initially deformed, oscillating drop and
+the one for initially spherical, non-oscillating drop was negligibly
+small (<1/1000%) when predicting the evolution of drop fall
+velocity, distance and time. This may suggest that the effect of
+drop initial oscillation and distortion from sphericity on its ﬂight
+characteristics is negligibly small. Thus for all problems, other than
+the initial drop shape oscillation prediction, a passive blood drop can
+be modeled by an initially undisturbed non-oscillating drop
+undergoing deformation during ﬂight under the aerodynamic forces.
+7.2.3. Cast-off drop deformation and oscillations
+Blood 
+drops 
+cast-off 
+from 
+a 
+rotating 
+disk 
+served 
+as 
+a
+complementary validation case. Drop oscillations and deformation
+levels were examined.
+The cast-off drops studied ranged in size from 0.4 to 4 mm in
+diameter and possessed velocities of 1–15 m/s. The uncertainty in
+drop diameter measurement due to image pixilation and thresh-
+olding was less than or equal to 
+0.11 mm for close-up images or
+
+0.5 mm for longer drop trajectory videos. The uncertainty in drop
+velocity measurements was 
+0.4 m/s and less than 
+2 m/s respec-
+tively.
+A liquid mass adheres to the surface of the disk by interfacial
+tension forces. If these forces are weaker than the centripetal force
+required to keep it rotating at the disk speed, the mass will break
+up into drops which ﬂy off tangentially. Gravity also acts.
+The blood deposited on to the lower disk surface was observed
+to move to and accumulate on the disk edge. As blood accumulated
+at the edge, the weight of the adhering mass and the centripetal
+force required to keep it rotating with the disk increased. When the
+interfacial force was no longer sufﬁcient, an adhering drop started
+to elongate and formed a liquid neck. The orientation of the liquid
+neck axis of symmetry changed during disk rotation and as the
+liquid mass increased. During the early stages of drop formation
+the axis was oriented perpendicularly to the tangent to the disk
+circumference at the point of drop contact. Later it further
+elongated and tilted from being perpendicular to the disk tangent.
+When the liquid neck narrowed enough it broke up in one or
+several places generally producing a primary drop and one or more
+accompanying or satellite drops. After the drop detached, some
+quantity of liquid was left adhering to the disk surface. As long as
+the liquid ﬂow rate was sufﬁcient this liquid would undergo
+subsequent similar stages of drop formation (see Fig. 11).
+At lower disk velocities (up to about 6 m/s) the drops tended to
+detach from the lower part of the rotating disk whereas at higher
+rotational speeds (and thus higher centripetal forces required for
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+1.2
+1.3
+1.4
+0 
+0.2
+0.
+ 
+4 
+0.6
+AR
+Time, s
+ Experime
+ 
+ntal  dat a
+TAB model
+Raylei gh, 1892
+TAB model
+ 
+ (no 
+ osc 
+illation)
+Fig. 10. Experimental and numerical results for the initial oscillation of a 5.34 mm
+diameter passive blood drop. Initial distortion yo and distortion rate ˙yo used for the
+simulation were 0.076 and 55 s1 correspondingly).
+Fig. 11. Superimposition of cast-off drop images. The disk rotates clockwise.
+y = 0.420
+ 
+6x2 - 2.1704x
+ 
+ + 2.827
+ 
+1
+R² = 0.836
+ 
+6
+0
+0.5
+1
+1.5
+2
+2.5
+3
+0
+1
+2
+3
+4
+We
+Drop diameter,
+ 
+ mm
+Experiment
+Fig. 12. Weber number for the 0.4–4 mm cast-off drops studied.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+116
+
+
+--- PAGE 11 ---
+
+adhesion) the detachment region extended to the whole disk
+perimeter.
+Once released, the primary and accompanying cast-off drops
+continued to move away from the disk with velocities similar to
+the tangential velocity of the disk. The initial trajectory was
+tangential to the disk.
+While in ﬂight the drops experienced shape oscillations due to
+the unbalanced surface tension forces at the time of release. Most
+of the primary cast-off drops detached with a prolate spheroidal
+shape (with j1  ARj0 < 0.2). They oscillated with moderate to
+small amplitude with the dimensionless drop distortion (y < 0.4
+and j1  ARj  0.3) and damping rates within the range seen in
+passive dripping. This suggested that the initial oscillations of this
+type of drops may be successfully modeled with the numerical
+scheme that performed well for the passive blood drops oscillation
+simulation discussed above.
+The size of the primary drops cast off from the disk decreased as
+the rotational velocity increased. The ligament length, on the
+contrary, increased with the speed of rotation. The longer
+ligaments, consequently, produced higher numbers of smaller
+diameter satellite drops.
+As the relatively larger cast-off drops formed at lower velocities,
+and drops that possessed higher velocities were signiﬁcantly
+smaller in size, the initial Weber numbers of the cast-off drops
+remained low (<3). Moreover, as each drop was formed it would
+decelerate (and thus the We number of its ﬂight would decrease)
+due to the combined action of air resistance and gravitational force.
+Such low Weber numbers for cast-off drops (see Fig. 12) indicate
+low deformation levels during ﬂight which are unlikely to
+inﬂuence the drop’s ﬂight path and/or velocity at the moment
+of impact on a surface. Breakup in ﬂight is highly unlikely.
+0
+0.5
+1
+1.5
+2
+-1 
+-0.5 
+0 
+0.5 
+1
+Y, m
+X, m
+disk
+We = 0.4
+Cd=f(R e) (W
+ 
+e = 0.4)
+TAB (We = 0.4)
+We = 2
+TAB (We = 2)
+Cd=f(R e) (W
+ 
+e = 2)
+0.8
+1
+1.2
+0.2 
+0.6 
+1
+Fig. 13. Empirical (bold solid and dashed black lines) and numerical cast-off blood drop trajectories at We = 0.4 and 2.
+Fig. 14. Highly deformed impact drops observed: a–d = 1.4 mm, AR = 0.67, We = 9.7; b – 0.9 mm, 0.86, 5.6; c – ‘liquid bag’ 1.54 mm, 0.75, 10.4; d – 0.68 mm, 0.92, 4.6; e –
+0.9 mm, 0.86, 5.8; f – 1.6 mm, 0.37, 9; g – ‘liquid bag’ 1.5 mm, 0.6, 8.4.
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+0 
+2.5
+5
+7.
+ 
+5 
+10 
+12.5 
+15
+Drop aspect ratio
+We number
+Experimen
+ 
+tal  dat
+ 
+a
+Brandes
+ 
+ et  al.  (2 002 )
+Fig. 15. Aspect ratios versus Weber numbers for impact drops studied.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120 
+117
+
+
+--- PAGE 12 ---
+
+Experimental and numerical trajectories of cast-off blood drops
+for representative We numbers of 0.4 and 2 were compared
+(Fig. 
+13). 
+The 
+Weber 
+number 
+of 
+0.4 
+(black 
+dashed 
+line)
+corresponded to a 1.46 mm drop with an initial velocity of
+3.8 m/s, which detached from the disk rotating at 4 m/s. We = 2
+(black solid line) was the highest We for which adequately long
+trajectories were captured experimentally. This corresponded to a
+0.48 mm blood drop cast off from the disk rotating at 15 m/s with
+the velocity upon detachment of 14.8 m/s.
+Numerical 
+solutions 
+were 
+computed 
+with 
+the 
+spherical
+(Cd = f(Re)) model and deformable (TAB model) blood drop
+trajectories for comparison. Both models provided an accurate
+prediction of the observed drop ﬂight giving evidence of their
+validity, at least over the length of trajectories studied, for cast-off
+drop ﬂight modeling.
+The simulation was sensitive to the initial input data such as
+drop size, velocity and angle to the horizontal line which were
+measured with ﬁnite uncertainties. In order to corroborate the
+accuracy of the model, both drop trajectory and velocity evolution
+over the duration of imaging were compared to the experimental
+results. The maximum relative errors in drop position and velocity
+were less than 2%, which is within the experimental uncertainties.
+When the trajectory predictions from the TAB model and the
+Cd = f(Re) model for a spherical (undeformed) drop were continued
+until the moment of drop impact onto a horizontal surface (y = 0)
+for the low We number ﬂight, the predicted drop height and range
+(vertical and horizontal distances traversed since separation, 0.8
+and 1.5 m respectively) were within 1 cm and the impact velocity
+was within less than 0.6%. For the higher We the numerical solution
+for a deformable drop predicted a shift in drop trajectory from that
+of a spherical drop, with faster drop deceleration. The latter
+resulted in a smaller ﬂight range and lower impact velocity. The
+deviation, however, was less than 4% (2.2 cm) for the ﬂight range
+studied (1.53 m) and 0.1% for the velocity at impact.
+It is, however, an item for future work to investigate the
+possibility of the formation of bigger cast-off drops from real
+sharp- and blunt-tip weapons at higher swing velocities which
+would possess higher We numbers and deformation levels.
+7.2.4. Impact drop deformation and breakup
+Impact drops studied ranged from 0.1 mm (limited by the
+image resolution and magniﬁcation) up to 2 mm in diameter (see
+Fig. 14 for examples). Measured initial drop velocities were 14–
+25 
+ 0.5 m/s.
+Drop aspect ratios were plotted against ﬂight Weber numbers
+(Fig. 15). The aspect ratio (AR) and We numbers plotted are the
+average values over the ﬁrst 3–5 frames of drop ﬂight. Error bars
+for the aspect ratio values are equal to two standard deviations.
+The uncertainties in We were calculated from the uncertainties of
+drop size and velocity.
+The correlation for the aspect ratios of drops at terminal
+velocities 
+AR ¼ 0:9951 þ 2:51  102do  3:644  102d2
+o þ
+5:303  103d3
+o  2:492  104d4
+o ([49] based on Gunn and Kinzer,
+1979) was plotted over the experimental data points and provided
+a good representation of the deformation levels of drops formed as
+a result of a blunt force impact. In other words, the deformational
+response of an impact drop was concordant with that of a falling
+drop under steady aerodynamic loading at terminal velocity. The
+behavior of drops at terminal velocity was shown earlier to be
+accurately predicted by all three deformation models employed,
+with the best ﬁt provided by the TAB model.
+About seven vibrational and eight bag-type secondary drop
+breakup cases were observed for the impact spatter (Fig. 16). The
+breakup was possible due to the presence of relatively big spatter
+blood drops (1–1.5 mm) which, upon formation, possessed high
+velocities and thus Weber numbers (11–15) larger than the critical
+Weber number (8–12) for drop breakup commencement ([1]; [26];
+[23]). Most of the breakup cases occurred close to the impact point,
+within the ﬁrst 10–20 cm of the spatter ﬂight.
+The drops were initially observed to deform into ‘liquid disks’
+with aspect ratios of 0.3–0.4.
+The latter was in good agreement with the critical deformation
+level for drop breakup of y  1 (or AR  0.35) postulated in the TAB
+model.
+The maximum cross-sectional drop diameter (dmax) predicted
+by the [23] model was mostly within 5% of that measured
+experimentally (see Table 4). Drops no. 2 and 8, however,
+possessed slightly asymmetrical distortion which affected size
+and aspect ratio measurements and resulted in the discrepancy
+between experimental and numerical dmax (by about 13%) and
+discussed latter breakup time tbup.
+After the maximum drop deformation was reached, drops
+further deformed into a bag- or dumbbell-like shaped depending
+on the mode of breakup. The drops then disintegrated into smaller
+or child droplets. The vibrational drop breakup in the majority of
+cases resulted in the parent drop dividing into two approximately
+equally sized child drops, whereas bag disintegration produced a
+number of different sized droplets. Pilch and Erdman’s [1]
+Fig. 16. Examples of vibrational (a) and bag (b) impact blood drop breakup (drop movement is from left to right).
+Table 4
+Empirical and numerical blood drop bag breakup time tbup and maximum cross-stream diameter dmax comparison.
+# 
+d, mm 
+V, m/s 
+We 
+Empirical
+dmax, mm
+dmax (Hsiang
+and Faeth,
+1992), mm
+Empirical
+tbup, ms
+tbup [1], ms 
+tbup [29], ms 
+tbup [34], ms
+1 
+1.16 
+25.44 
+14.4 
+1.99 
+1.98 
+6.4 
+6.4 
+3.6 
+5.1
+2 
+1.02 
+27.58 
+15.1 
+1.57 
+1.78 
+4.8 
+4.9 
+3 
+4.2
+3 
+1.10 
+30.28 
+19.6 
+2.13 
+2.02 
+3.9 
+3.9 
+3.1 
+4.4
+4 
+1.15 
+29.66 
+19.6 
+2.12 
+2.12 
+4.2 
+4.1 
+3.4 
+4.8
+5* 
+1.75 
+24.08 
+19.6 
+3.49 
+3.38 
+7.3 
+7.7 
+6.3 
+9.0
+6 
+1.59 
+27.27 
+21.6 
+3.02 
+3.01 
+6.1 
+6.2 
+5.4 
+7.7
+7 
+1.45 
+28.38 
+22.6 
+2.81 
+2.75 
+4.4 
+4.9 
+4.6 
+6.6
+8* 
+2.20 
+25.85 
+28.4 
+3.87 
+4.41 
+10.2 
+12.4 
+8.4 
+12.2
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+118
+
+
+--- PAGE 13 ---
+
+expression approximated the breakup time within about 10% of
+the experimental values, whereas [29], Reitz and Diwakar’s [34]
+expressions predicted either lower or higher breakup time by as
+much as about 25%.
+8. Conclusions
+A numerical code for accurate modeling of blood drop ﬂight was
+developed. Gravitational and aerodynamic drag forces as well as
+in-ﬂight drop deformation, oscillations and possible secondary
+break-up were incorporated.
+The validity of the code when predicting passive blood drops
+ﬂight with velocity close to terminal was investigated by
+comparing numerical predictions and experimental data on blood
+drops falling from up to 8 m. All the models for drop deformation
+during ﬂight performed well when predicting drop deformation
+levels and, consequently, drop fall velocity. Numerical velocities
+were within 5% of the mean of the experimental data. It was found
+that the deformation effects on passive blood drop trajectory may
+be neglected for fall distances less than 1–1.5 m which is
+characteristic for typical crime scene conditions.
+Typical 
+passive 
+blood 
+drops 
+with 
+diameters 
+of
+1 mm < d < 6 mm on early stages of ﬂight (falling up to 1.5 m)
+were also experimentally and numerically studied. The simulation
+of the initial drop oscillation based on the TAB model provided
+accurate prediction of the passive drop behavior. The relative error
+in drop aspect ratio values predicted numerically to that observed
+experimentally was within 1.6%. Variations in the blood surface
+tension and density in the range of the instrumental errors had
+negligible effect on the numerical passive drop oscillations and
+trajectories. A blood viscosity of 10 mN s/m2 (for the low shear rate
+of 10 s1) provided the most satisfactory data ﬁt and was
+recommended for passive blood drop oscillations modeling.
+It was also suggested that the effects of drop initial oscillation
+and distortion from sphericity on its ﬂight characteristics are
+negligibly small, and a passive blood drop can be accurately
+represented by an initially undisturbed non-oscillating drop
+undergoing deformation during ﬂight for all problems other than
+the initial drop shape oscillation modeling.
+The Weber numbers of the cast-off drops studied did not exceed
+3 indicating low deformation levels present and high unlikelihood
+of drop disintegration which is unlikely to alter their ﬂight path
+and/or velocity at the moment of impact on a surface and thus the
+area (or volume) of origin determination. The developed numerical
+model provided an accurate prediction of the observed cast-off
+drop trajectories over the length of ﬂight studied.
+Future work is, however, required to investigate the possibility
+of the formation of larger cast-off drops from real sharp- and blunt-
+tip weapons at higher swing velocities and, thus, higher Weber
+numbers and deformation levels.
+The impact blood drops studied possessed high levels of
+deformation (with aspect ratios as low as 0.4) and were observed
+to breakup in the vibrational and bag-type modes at Wecrit  12–14
+within ﬁrst 10–20 cm of ﬂight.
+It was shown that impact drop deformation at the studied
+conditions can be accurately described with the correlations for
+falling drops. The later were accurately represented by the
+developed model. The drop breakup model based on [23] predicted
+the critical empirical impact drop deformation levels within 5%.
+Pilch and Erdman’s [1] expression for the time of drop breakup was
+found to be the most accurate when predicting impact blood drop
+breakup.
+The deformation levels and breakup possibility and modes of
+gunshot spatter drops require additional investigation. The range
+of sizes and velocities of the gunshot spatter drops and, thus, high
+Weber numbers and deformation is of major interest.
+Acknowledgements
+We would like to thank to the Freshpork NZ Ltd. for supplying
+porcine blood for this study. We thank Therese de Castro, Margaret
+Dodds, Ken Morison, Milad Soltanipour Lazarjan and Pavlo
+Kokhanenko for support and encouragement. We are grateful to
+Bart P. Epstein for valuable and pleasant discussions. The technical
+stuff of the Mechanical Engineering Workshop and Laboratories
+contributed essential advice and inspiration. N.K. was funded by a
+University of Canterbury Doctoral Scholarship and E.W. by an ESR
+Scholarship.
+Appendix A. Numerical representation of the drop distortion
+and distortion rate used for the code development
+The drop distortion and distortion rate on the next computa-
+tional time step n + 1 were calculated based on the distortion yn
+and distortion rate (dy/dt)n on the previous time step n as
+ynþ1 ¼ WeC þ eDt=tD
+
+ðyn  WeCÞcosvDt þ 1
+v
+dy
+dt
+ 
+n
+þ yn  WeC
+tD
+ÞsinvDt
+
+
+and
+dy
+dt
+ 
+nþ1
+¼ WeC  ynþ1
+tD
+þ veDt=tD
+(
+1
+v
+dy
+dt
+ 
+n
+þ yn  WeC
+tD
+ 
+
+cosvDt
+ ðyn  WeCÞsinvDt
+)
+:
+The 
+drop 
+aspect 
+ratio 
+and 
+projected 
+area: 
+ARnþ1 ¼
+ð1  0:5ynþ1Þ
+1:5 and Anþ1 ¼ pd2
+0=4ð1  0:5ynþ1Þ.
+Appendix B. Empirical expressions for the drag coefﬁcient of a
+solid sphere and disk
+Drag coefﬁcient of a rigid spherical particle [20]:
+Cs ph
+D
+¼ 3
+16 þ 24
+Re, for Re  0.01;
+Cs ph
+D
+¼ 24
+Re ð1 þ 0:3115Reð0:820:05xÞÞ, for 0.01 < Re  20;
+Cs ph
+D
+¼ 24
+Re ð1 þ 0:1935Re0:6305Þ, for 20 < Re  260;
+Cs ph
+D
+¼ 10ð1:64351:1242xþ0:1558x2Þ, for 260 < Re  1.5  103;
+Cs ph
+D
+¼ 10ð2:4571þ2:5558x0:9295x2þ0:1049x3Þ, 
+for 
+1.5  103 < Re 
+1.2  104;
+Cs ph
+D
+¼ 10ð1:9181þ0:637x0:0636x2Þ, for 1.2  104 < Re  4.4  104;
+Cs ph
+D
+¼ 10ð4:339þ1:5809x0:1546x2Þ, for 4.4  104 < Re  3.38  105;
+Cs ph
+D
+¼ 29:78  53x, for 3.38  105 < Re  4  105;
+Cs ph
+D
+¼ 0:1x  0:49, for 4  105 < Re  106;
+Cs ph
+D
+¼ 0:19  8104
+Re , Re > 106 where x = log10Re.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120 
+119
+
+
+--- PAGE 14 ---
+
+Drag coefﬁcient of a rigid disk perpendicular to the ﬂow [33]:
+Cdisk
+D
+¼ 24
+Re, for Re < 1;
+Cdisk
+D
+¼ 10ð0:005070:05161x4þ0:16082x2þ0:01987x20:9735xþ1:39573Þ
+with
+x = log10Re for 1  Re  2000 and x = log102000 for Re > 2000.
+References
+[1] M. Pilch, C. Erdman, Use of break-up time data and velocity history data to predict
+the maximum size of stable fragments for acceleration-induced break-up of a
+liquid drop, Int. J. Multiphase Flow 13 (1987) 741–757.
+[2] SWGSTAIN BPA Terminology, 2009. Scientiﬁc Working Group on Bloodstain
+Pattern Analysis (SWGSTAIN) website (accessed 25.7.10).
+[3] V. Balthazard, R. Piedlievre, H. Desoille, L. DeRobert, Etude des gouttes de sang
+projete (Study of projected drops of blood), in: Annual Medecine Legale Criminol
+Police Science Toxicology, 22nd Congress of Forensic Medicine, Paris, France,
+1939, pp. 265–323.
+[4] H.L. MacDonell, L.F. Bialousz, Flight Characteristics and Stain Patterns of Human
+Blood, 
+Law Enforcement Assistance Administration, National Institute of Law
+Enforcement and Criminal Justice, 1971.
+[5] H.L. MacDonell, Bloodstain Patterns 1997, Laboratory of Forensic Science, New
+York, 1982.
+[6] T.L. Laber, Diameter of a bloodstain as a function of origin: distance fallen, and
+volume of a drop, Int. Assoc. Bloodstain Pattern Analysts News 2 (1) (1985) 12–16.
+[7] A.Y. Wonder, Blood Dynamics, Academic Press, London, 2001.
+[8] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact
+velocity from circular bloodstains, J. Forensic Sci. 50 (1) (2005) 1–10.
+[9] H.L. MacDonell, K. DeLige, On Measuring the Volume of very small Drops of Blood
+and Correlation of this Relationship to Bloodstain Diameter, International Asso-
+ciation of Bloodstain Pattern Analysts, 1989.
+[10] P.L. Kirk, Afﬁdavit Regarding State of Ohio V. Samual Sheppard, Court of Common
+Pleas, Criminal Branch, No. 64571, 1955, April 26.
+[11] T.R. Bevel, M. Gardner, Bloodstain pattern analysis with an introduction to crime
+scene reconstruction, in: Practical Aspects of Criminal & Forensic Investigations,
+3rd ed., CRC Press, Boca Raton, 2008.
+[12] N. Behrooz, Bloodstain Pattern Analysis of Determination of Point of Origin, (BSc
+dissertation), 
+Department of Mechanical and Industrial Engineering, University
+of Toronto, 2009.
+[13] K.G. de Bruin, R.D. Stoel, J.C.M. Limborgh, Improving the point of origin determi-
+nation in bloodstain pattern analysis, J. Forensic Sci. 56 (2011) 1476–1782.
+[14] J.K. Wells, Investigation of Factors Affecting the Region of Origin Estimate in
+Bloodstain Pattern Analysis, (MSc dissertation), 
+Mechanical Engineering De-
+partment, University of Canterbury, 2006.
+[15] E.J. Podworny, A.L. Carter, Computer modelling of the trajectories of blood
+droplets and bloodstain pattern analysis with a PC computer, in: 2nd Training
+Conference in International Association of Bloodstain Pattern Analysis, 1989.
+[16] U. Buck, B. Kneubuehl, S. Nather, N. Albertini, L. Shmidt, M. Thali, 3D bloodstain
+pattern analysis: ballistic reconstruction of the trajectories of blood drops and
+determination of the centres of origin of the bloodstains, Forensic Sci. Int. 6114
+(2010) 1–7.
+[17] U. Buck, B. Kneubuehl, Response to 3D bloodstain pattern analysis: ballistic
+reconstruction of the trajectories of blood drops and determination of the centres
+of origin of the bloodstains, Forensic Sci. Int. 220 (2012) 41.
+[18] M.A. Raymond, E.R. Smith, J. Liesegang, Oscillating blood droplets – implications
+for crime scene reconstruction, Sci. Justice 36 (1996) 161–171.
+[19] R.M. Gardner, Deﬁning the diameter of the smallest parent-stain produced by a
+drip, J. Forensic Ident. 56 (2) (2006) 210–221.
+[20] R. Clift, J.R. Grace, M.E. Weber, Bubbles Drops and Particles, Academic Press, 1978.
+[21] G. Luxford, Experimental and Modelling Investigation of the Deformation, Drag
+and Break-up of Drizzle Droplets Subjected to Strong Aerodynamic Forces in
+Relation to SLD Aircraft Icing, (PhD Thesis), 
+Cranﬁeld University, 2005.
+[22] S.A. Krzeczkowski, Measurement of liquid droplet disintegration mechanisms,
+Int. J. Multiphase Flow 6 (1980) 227–239.
+[23] L.-P. Hsiang, G.M. Faeth, Drop deformaion and breakup due to shock wave and
+steady disturbances, Int. J. Multiphase Flow 21 (1995) 545–560.
+[24] M.C. Jermy, M.C. Taylor, The mechanics of bloodstain pattern formation, in: J.
+Kieser, M.C. Taylor, D. Carr (Eds.), Forensic Biomechanics (Developments in
+Forensic Science), Wiley, 2013, pp. 99–136 (Chapter 5) ISBN 9781119990116.
+[25] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics in
+bloodstain pattern analysis: comparative review and research opportunities,
+Forensic Sci. Int. 231 (2013) 375–396.
+[26] A. Wierzba, Deformation breakup of liquid drops in a gas stream at nearly critical
+Weber numbers, Exp. Fluids 9 (1990) 59–64.
+[27] R. Gunn, G.D. Kinzer, The terminal velocity of fall for water droplet in stagnant air,
+J. Meterol. 54 (1949) 243–248.
+[28] A.W. Green, An approximation for the shape of large raindrops, J. Clim. Appl.
+Meteorol. 14 (1975) 1578–1583.
+[29] P.J. O’Rourke, A.A. Amsden, The TAB Method for Numerical Calculation of Spray
+Droplet Breakup. SAE Technical Paper 872089, 1987.
+[30] A.B. Liu, D. Mather, R.D. Reitz, Modeling the Effects of Drop Drag and Breakup on
+Fuel Sprays. SAE Technical Paper 930072, SAE, 1993.
+[31] A. Haider, O. Levenspiel, Drag coefﬁcient and terminal velocity of spherical and
+nonspherical particles, Powder Technol. 58 (1989) 63–70.
+[32] R. Schmehl, Advanced modeling of droplet deformation and breakup for CFD
+analysis of mixture preparation, in: 18th Annual Conference on Liquid Atomiza-
+tion and Spray Systems, ILASS 2002, 2002, 1–10.
+[33] B.S. Massey, Mechanics of Fluids, 6th ed., Chapman Hall, 1989.
+[34] R.D. Reitz, R. Diwakar, Structure of high-pressure fuel sprays, society of automo-
+tive engineers technical paper 870598, SAE Trans. 96 (5) (1987) 492–509.
+[35] S. Casson, G. Kurland, Viscometry of human blood for shear rates of 0–
+100,000 s1, Nature 206 (1965) 617–618.
+[36] G.D.O. Lowe, J.C. Barbenel, in: G.D.O. Lowe (Ed.), Plasma and Blood Viscosity.
+Clinical Blood Rheology, vol. 1, CRC Press, Boca Raton, FL, 1988, pp. 11–44.
+[37] J. Rosina, E. Kvasˇnˇa´k, D. Sˇuta, H. Kola´rˇova´, J. Ma´lek, L. Krajcˇi, Temperature
+dependence of blood surface tension, Physiol. Res. 56 (1) (2007) S93–S98.
+[38] E. Williams, M.C. Taylor, The development and construction of a motorized blood
+droplet generation device (BDGD) for detailed analysis of blood droplet dynamics,
+J. Bloodstain Pattern Anal. 29 (1) (2013).
+[39] D. Blair, E. Dufresne, The Matlab Particle Tracking Code Repository, from http://
+physics.georgetown.edu/matlab/ (accessed November 2012).
+[40] J.C. Crocker, D. Grier, E.R. Weeks, Particle Tracking Using IDL from http://
+www.physics.emory.edu/weeks/idl/ (accessed November 2012).
+[41] H.R. Pruppacher, R.L. Pitter, A semi-empirical determination of the shape of cloud
+and rain drops, J. Atmos. Sci. 28 (1971) 86–94.
+[42] F.Y. Testik, A.P. Barros, L.F. Bliven, Field observations of multimode raindrop
+oscillations by high-speed imaging, Am. Meteorol. Soc. 63 (2006) 2663–2668.
+[43] S. Chandrasekhar, The oscillations of a viscous liquid globe, Proc. Lond. Math. Soc.
+9 (1959) 141.
+[44] H. Lamb, Hydrodynamics, Cambridge University Press, 1932.
+[45] E. Becker, W.J. Hiller, T.A. Kowalewski, Experimental and theoretical investigation
+of large amplitude oscillations of liquid droplets, J. Fluid Mech. 231 (1991) 189–
+210.
+[46] J. Tsamopoulos, R.A. Brown, Non-linear oscillations of inviscid drops and bubbles,
+J. Fluid Mech. 127 (1983) 519–537.
+[47] O.A. Basaran, Nonlinear oscillations of viscous liquid drops, J. Fluid Mech. 241
+(1992) 169.
+[48] L. Rayleigh, On the instability of cylindrical ﬂuid surfaces, Philos. Mag. 34 (207)
+(1892) 177–180.
+[49] E. Brandes, G. Zhang, J. Vivekanandan, Experiments in rainfall estimation with a
+polarimetric radar in a subtropical environment, J. Clim. Appl. Meteorol. 41 (2002)
+674–685.
+[50] K.V. Beard, C. Chuang, A new model for the equilibrium shape of raindrops, J.
+Atmos. Sci. 44 (1987) 1509–1524.
+[51] A.C. Best, Empirical formulae for the terminal velocity of water drops falling
+through the atmosphere, Quart. J. Meteor. Soc. 76 (1950) 302–311.
+[52] E.E. Gossard, R.G. Stauch, D.C. Welsh, S.Y. Matrosov, Cloud layer particle identiﬁ-
+cation, and rain rate proﬁles from Z. RV measurements by Doppler radars, J.
+Atmos. Ocean. Technol. 9 (1992) 108–119.
+[53] M. Thurai, V.N. Bringi, Drop axis ratios from a 2D-video disdrometer, J. Atmos.
+Ocean. Technol. 22 (2005) 963–975.
+[54] W.G. Uplinger, A new formula for raindrop terminal velocity. Preprints 20th Radar
+Metheorology Conference, Am. Meteorol. Soc. Boston (1977) 389–391.
+[55] N. Kabaliuk, M.C. Jermy, K. Morison, T. Stotesbury, M.C. Taylor, E. Williams, Blood
+drop size in passive dripping from weapons, Forensic Sci. Int. 228 (2013) 75–82.
+[56] L. Hulse-Smith, M. Illes, A blind trial evaluation of a crime scene methodology for
+deducting impact velocity and droplet size from circular bloodstains, J. Forensic
+Sci. 52 (1) (2007) 65–69.
+[57] M.J. Sweet, Velocity measurements of projected bloodstains from a medium
+velocity impact source, J. Canadian Soc. Forensic Sci. 26 (3) (1993) 103–110.
+[58] M.C. Taylor, T.L. Laber, B.P. Epstein, D.S. Zamzow, D.P. Baldwin, The effect of
+ﬁrearm muzzle gases on the backspatter of blood, Int. J. Legal Med. 125 (5) (2011)
+617–628.
+[59] J.H. van Boxel, Numerical model for the fall speed of raindrops in a rainfall
+simulator, in: Workshop on Wind and Water Erosion, Ghent, Belgium, November
+17–18, (1997), pp. 77–85.
+[60] E.E. Michaelides, Particles, Bubbles and Drops – Their Motion, Heat and Mass
+Transfer, World Scientiﬁc Publishers, New Jersey, 2006.
+[61] L. Liang, E.E. Michaelides, The magnitude of Basset forces in unsteady multiphase
+ﬂow computations, J. Fluids Eng. 114 (1992) 417–419.
+[62] N. Kabaliuk, Dynamics of Blood Drop Formation and Flight, 
+(PhD Thesis),
+University of Canterbury, Christchurch, New Zealand, 2014.
+[63] E.S. Ross, The study of bloodstain patterns resulting from the release of blood
+drops from a weapon, in Chemistry, The University of Auckland, Auckland, 2006.
+N. Kabaliuk et al. / Forensic Science International 245 (2014) 107–120
+120

@@ -1,0 +1,1611 @@
+
+
+--- PAGE 1 ---
+
+Experimental and theoretical studies into the release of blood droplets
+from weapon tips
+Craig D. Adam
+School of Chemical and Physical Sciences, Lennard-Jones Laboratories, Keele University, Keele, Staffordshire ST5 5BG, UK
+A R T I C L E 
+I N F O
+Article history:
+Received 4 May 2019
+Received in revised form 13 August 2019
+Accepted 19 August 2019
+Available online 22 August 2019
+Keywords:
+Forensic
+Bloodstain pattern analysis
+Blood spatter
+Blood droplet
+Swing cast-off
+Surface tension
+A B S T R A C T
+The formation and release under gravity of blood droplets from simulated weapon tips has been
+investigated experimentally and the results analysed and interpreted using established theoretical
+models for detached pendent drops. Droplets were produced from a series of conical nozzles,
+manufactured with a range of cone angles and including a set of un-bored conical tips, under conditions
+where the tip was either non-wetted or pre-wetted with blood. For the former, radius-limited case,
+detached droplet volumes were found to agree well with the predictions of both the pendent drop weight
+and drop shape models. For pre-wetted tips, droplet volumes were found to increase with increasing
+cone angle and to be independent of whether the blood ﬂow was through an oriﬁce at the tip or across the
+tip surface itself for un-bored tips. Such angle-limited, detached droplet volumes were predicted well by
+applying the same contact angle correction factor as for a ﬂat surface. The maximum droplet volume,
+formed from a horizontal ﬂat surface, was found to be around 150 mL for horse blood. Similar theoretical
+approaches were then extended to droplets released under centrifugal force appropriate to swing cast-off
+activity and evaluated using previously published experimental data. Order of magnitude agreement for
+droplet diameters was fairly good but, more importantly, these were found to be proportional to the
+inverse of the tangential velocity thereby supporting a model where the blood droplet is released directly
+from a blood mass itself, such as a ligament, rather than from being pinned to some surface feature or
+oriﬁce on the weapon. This work provides a sound theoretical and experimental understanding of blood
+droplet release under these conditions that can underpin both future research and the interpretation of
+blood evidence in case-work.
+© 2019 Elsevier B.V. All rights reserved.
+1. Introduction
+Over recent years there have been many published studies
+exploring the science underpinning bloodstain pattern analysis.
+Amongst this literature, many of these [1–9] have focused on the
+dynamics of blood droplets, surface impact and stain formation,
+including impact angle and surface texture effects, whilst others
+have investigated 
+pattern 
+formation 
+itself, 
+for 
+example 
+by
+analysing droplet trajectories and the methodologies used in
+case-work examination and interpretation [10–15]. In contrast,
+there are fewer examples where the initial formation of the blood
+droplets themselves has been studied, for example on weapon tips,
+and speciﬁcally the factors which govern the volume of the droplet
+released whether under passive (drip from a static source) or active
+(for example, from swing cast-off) conditions [16–18]. Studies of
+these factors, for the most part, have focused on experimental
+investigations rather than exploration of the theoretical basis for
+droplet formation and the veriﬁcation of such mathematical
+models against those experimental data.
+This present work was designed to ﬁll this gap in the literature
+by reviewing and developing current understanding of the
+mechanisms underpinning the formation and adhesion of blood
+droplets at oriﬁces and on surfaces – the pendent drop – and the
+conditions under which droplets are released, either under gravity
+alone or under the centrifugal force generated during swing cast-
+off. To test and evaluate such a quantitative, theoretical approach, a
+series of experiments was carried out to obtain data on the
+relationship between the size, shape and properties of the oriﬁce
+or surface and the volume of blood droplets formed on passive
+release. This was achieved by using bored and un-bored conical
+brass tips machined at a variety of angles as models for weapon tips
+of differing sharpness. In this study particular attention was paid to
+the degree of wetting of the surface by the blood and the
+consequent size of the detached droplet. In addition, quantitative
+data already published, from model swing cast-off studies [12,16],
+has been used in a similar fashion to evaluate mathematical
+models for the active release of blood droplets.
+E-mail address: c.d.adam@keele.ac.uk (C.D. Adam).
+http://dx.doi.org/10.1016/j.forsciint.2019.109934
+0379-0738/© 2019 Elsevier B.V. All rights reserved.
+Forensic Science International 303 (2019) 109934
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locat e/f orsciint
+
+
+--- PAGE 2 ---
+
+Although casework applications relate almost exclusively to
+human blood, blood droplets and bloodstains, in the research
+context other sources of blood are frequently used [1–18]. In
+addition to many examples of the use of porcine blood in blood
+dynamics studies, more recently, deﬁbrinated horse blood has
+been utilised due to its commercial availability. In this present
+work, the experimental data and its interpretation are carried out
+in the context of horse blood while, in explaining the theoretical
+aspects and in discussions, comparison with human blood and,
+where appropriate, porcine blood are made.
+2. Theory of droplet formation
+Although the basic physical principles underpinning the
+formation of a pendent drop and its subsequent release are fairly
+straightforward, there are several modiﬁcations and reﬁnements
+of this theory that are necessary to obtain mathematical models
+that fully support experimental ﬁndings. In this section, these
+will be reviewed with a view to focusing on those aspects which
+are of direct use in providing an understanding of beneﬁt to the
+context of forensic blood evidence. A good introduction and
+overview of much of the basic ﬂuid dynamics theory is provided
+by Middleman [19].
+2.1. The balance of forces approach and the drop-weight method
+Historically, the need for a detailed understanding of the
+pendent drop arose through it being the basis of methods for the
+determination of the surface tension of a liquid. Hence, Tate’s Law
+was formulated [19] which balances the weight of the pendent
+drop against the surface tension force around the interface
+between the neck of the liquid and the oriﬁce supplying it. As
+the drop grows in size there will be a maximum weight that can be
+supported by the ﬁnite surface tension force, at which point the
+drop detaches from the oriﬁce. As the size of the droplet detached
+in this fashion is determined by the size of the oriﬁce, such droplets
+are termed ‘radius-limited’.
+It was realised many years ago [20,21] that the volume of the
+detached droplet is in fact less than that of the maximum pendent
+drop volume since the fracture point occurs across the neck region
+of the liquid that forms in the ﬁnal stages before detachment,
+rather than at the junction with the oriﬁce itself. Consequently an
+empirical correction factor was suggested by Rayleigh [20] which
+was later reﬁned by Harkins and Brown [21] to become the
+theoretical basis of an acknowledged standard method for surface
+tension measurement — the ‘drop-weight method’. Although
+originally provided as a curve deﬁned by discrete experimental
+data points, there have been several attempts to ﬁt analytical
+functions to this correction factor so providing a more convenient
+form for the user [22–24]. More recently an equivalent correction
+curve has been derived from theoretical considerations and
+provided with a simple analytical form [25]. In all these cases
+only the lower section of the curve has been studied.
+It is important to reﬂect on some of the detailed assumptions
+built into this model when wishing to extrapolate it to the wider
+range of scenarios appropriate to blood droplet formation. For an
+oriﬁce of radius R and a liquid of density r and surface tension g,
+we may balance the forces as:
+2pRgcosu ¼ rgVp
+ð1Þ
+Here Vp is the volume of the pendent drop and u is the contact
+angle between the liquid surface and the thin wall of the oriﬁce
+around the, assumed circular, contact line between liquid and
+oriﬁce. The maximum stable drop volume will be found when the
+surface tension force is at a maximum. This occurs when the
+contact angle is zero which requires the liquid surface to neck from
+the pendent drop towards the oriﬁce. Hence, we can write Tate’s
+Law as:
+Vp ¼ pa2R 
+ð2Þ
+where a ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2g=rg
+p
+is deﬁned as the capillary length for the liquid.
+Note that this constant is sometimes deﬁned alternatively without
+the factor of 2 in the expression. Using appropriate values of g and
+r for human blood [6], the capillary length for human blood may be
+evaluated as:
+a ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2  0:062
+1060  9:81
+r
+¼ 3:453  103m
+To obtain the detached droplet volume V, we need to include
+the empirical Harkins and Brown correction factor F, [20] to Tate’s
+Law, to get:
+V ¼ pa2RF
+R
+V1=3
+ 
+
+ð3Þ
+The H–B correction factor is tabulated normally as a function
+of R/V1/3 and less commonly in terms of R/a*. For small oriﬁces the
+function F approaches unity from below as R/V1/3 tends to zero,
+while, as R/V1/3 increases, the correction factor decreases towards
+a minimum of 0.6 at R/V1/3 0.85 before rising to around 0.65
+and then ﬁnally dropping away again as R/V1/3 becomes greater
+than 1.5. Using Eq. (3), the surface tension of a liquid may be
+calculated by measuring the volume/mass of the detached
+spherical droplet for a known oriﬁce size.
+In the context of blood droplet formation, this idealised
+cylindrical oriﬁce is of limited use as blood may drip from wounds
+of all shapes and sizes or from weapons, body surfaces or other
+items at the crime scene where the blood directly gathers on the
+surface before a pendent drop is formed at some appropriate
+point. Droplet formation on the underside of a solid surface is
+theoretically similar to the dripping that takes place from an
+oriﬁce of sufﬁciently large diameter such that the pendent droplet
+reaches its maximum volume before it is able to pin itself to the
+circumference of the oriﬁce itself. In these cases the pendent drop
+formation is said to be ‘angle-limited’ rather than ‘radius-limited’
+since the liquid surface on the droplet runs continuously into the
+liquid surface at the large oriﬁce or, equivalently, on to the solid
+surface itself.
+The important consequence for these cases is that the pendent
+drop volume will depend on the contact angle with the surface of
+the solid material or the liquid at the mouth of the oriﬁce itself. In
+the former case, the wetting ability of the liquid on that surface is
+critical while in the latter case the expectation is that the drop
+surface will spread outwards, rather than neck inwards, to achieve
+zero contact angle and hence maximum surface tension support
+for the pendent drop. It should also be noted that even when the
+drop is pinned to the mouth of a small oriﬁce, the thickness of the
+oriﬁce wall and the hydrophobic/hydrophilic nature of the material
+from which it is made will determine whether the pining occurs to
+the inside wall (the hydrophobic case) or to the outside wall (the
+hydrophilic case).
+The largest pendent drops will occur in angle-limited situations
+and, for the case of a zero contact angle, the detached droplet will
+have the maximum possible volume for a free liquid droplet. An
+estimate of this ‘maximum droplet volume’ was provided by
+Campbell [26] in the context of condensing metal vapours on solid
+electrodes. Here it was assumed that the threshold for the
+detaching droplet occurs when the pendent drop forms a
+hemispherical shape tethered to the surface by a liquid bridge
+that meets the surface at zero contact angle. Since the hemispher-
+ical volume reforms 
+into a 
+spherical droplet shortly after
+2 
+C.D. Adam / Forensic Science International 303 (2019) 109934
+
+
+--- PAGE 3 ---
+
+detachment, Campbell’s resulting formula applied to human blood
+(using a* given previously) provides an estimate of the diameter d
+of this spherical droplet of maximum volume, given by:
+d ¼ 22=3
+ﬃﬃﬃﬃﬃﬃ
+3g
+rg
+s
+¼ 1:944  a ¼ 6:71mm 
+ð4Þ
+This corresponds to a maximum detached droplet volume of
+158 mL for human blood.
+2.2. The calculation of the droplet proﬁle — the pendent drop method
+To overcome the difﬁculties in dealing with the H–B correction,
+an alternative approach was developed based on calculating the
+proﬁle of pendent drop under the combined forces of gravity,
+surface tension and the pressure difference across the drop surface
+using the axisymmetric solution of the Young–Laplace equation
+[27]. Thus, not only could the theoretical proﬁle shapes be
+compared with those observed experimentally for the pendent
+drop prior to detachment, but the proﬁle for maximum volume
+could be calculated as well. However, until numerical solutions of
+the differential equation using digital computers became available
+from the 1970s, the applicability and detail that could be drawn
+from these calculations were limited. Nevertheless, novel sit-
+uations such as the formation of pendent drops on conical tips [28]
+were tackled using this method.
+Following on from work on radius-limited pendent droplets
+[29,30], a detailed study of both radius and angle-limited drops was
+reported [31] and later investigated in greater detail [32,33]. These
+latter studies include tabulated data on radius-limited detached
+droplets as well as the variation in maximum pendent droplet
+volume as a function of contact angle on ﬂat horizontal surfaces. The
+relationship between surface shape and droplet formation has been
+studied to a much lesser extent. Most notably, pendent drops on solid
+conical tips have been the subject of droplet proﬁle calculations
+basedontheLaplacemethod,onthebasisofazerocontactanglewith
+the tip surface [34]. Parallel experimental studies were undertaken
+using what were regarded as ‘perfectly wetting’ liquids [35].
+2.3. Prediction of detached droplet volumes
+Building on these theoretical developments, some of the
+calculations most relevant to the current work will now be
+discussed. First the approach developed here for the prediction of
+detached droplet volumes from an oriﬁce will be presented.
+Eq. (3) was devised originally for the calculation of the surface
+tension of a liquid from measurements of the detached droplet
+volume V. As such, the H–B correction function F is calculated using
+the measured value for V. In this current work, it is the prediction of
+V itself that is of interest and its comparison with that measured
+experimentally so Eq. (3) cannot be used directly. Consequently, an
+alternative method for deducing the appropriate correction factor
+was needed. This was based on an iterative calculation where the
+uncorrected volume was used as an initial estimate of the true
+detached volume in the calculation of F, leading to a calculation of a
+fresh estimate of V which is closer to the true value. This process
+was continued using the new estimate to re-calculate the
+correction factor until applying a further iteration did not
+signiﬁcantly change the value of the detached volume. The so-
+called convergence criterion was taken to be when the volume
+remains unchanged to four signiﬁcant ﬁgures.
+To generate these corrected volumes, Eq. (3) may be written in
+iterative form as:
+Vnþ1 ¼ pa2RF
+R
+V1=3
+n
+  
+!
+ð5Þ
+where V1 ¼ pa2R and n speciﬁes the number of the iteration. The
+relevant detached droplet volume V was calculated by incorporat-
+ing the appropriate value of F. It was found that the iteration
+converged well, within two to six iterations, to a ﬁnal value of V, by
+using the uncorrected volume V1 as the ﬁrst estimate. To calculate
+F at each iterative step, the tabulated values of the function [23]
+were preferred to the analytical form [25], partly as they extended
+to larger values of the abscissa and partly as they more accurately
+represented the original, experimentally-derived form of the
+function [21]. Simple linear interpolation was used to determine
+intermediate values where needed. It has been shown that for large
+values of the abscissa the function F is inversely proportional to
+R/V1/3 [26]. This approach was used to extend F from R/V1/3 = 1.59
+up to R/V1/3 = 2.35 and, by matching this section to the ﬁnal few
+points of the tabulated data [23], the constant of proportionality
+was determined. This gave the form of F over this range as:
+F 
+0:855
+R=V1=3
+ 
+
+ð6Þ
+The constant derived here (0.855) is very close to the value of
+0.845 estimated in reference [26] where a graphical ﬁgure showing
+the form of F over the full range is also provided.
+Using the appropriate values of g=r given in Section 3, the
+variation of detached droplet volume as a function of oriﬁce
+diameter for both water and for the deﬁbrinated horse blood used
+later in this work, is shown in Fig. 1. The difference in volumes for
+the two liquids is due mainly to the larger surface tension constant
+for water. In both cases the droplet volume increases monotoni-
+cally with oriﬁce diameter in an approximately linear fashion. This
+represents the formation of radius-limited droplets. Eventually,
+the liquid ceases to pin on to the oriﬁce wall and instead contacts
+directly with the surrounding liquid surface at zero contact angle
+to form an angle-dependent droplet whose detached volume is
+independent of the oriﬁce size. This represents the formation
+of droplets of maximum volume from an oriﬁce. The predictions
+in Fig. 1 show that, for horse blood, this threshold occurs at around
+16 mm contact diameter, with a detached droplet volume of
+205 mL.
+3. Materials and methods
+The basic experimental technique for producing blood droplets
+from oriﬁce tips is fairly straightforward though care needs to be
+taken at various points to ensure the reproducibility of results.
+Deﬁbrinated horse blood was obtained from TCS Biosciences Ltd.,
+Fig. 1. Detached droplet volume under radius-limited conditions as a function of
+oriﬁce diameter (drop weight theory).
+C.D. Adam / Forensic Science International 303 (2019) 109934 
+3
+
+
+--- PAGE 4 ---
+
+Buckingham, UK and stored in a refrigerator. This material has been
+shown to be suitable alternative to human blood for blood
+dynamics and pattern analysis research and retains its properties
+for up to twelve days of storage [36]. All samples were agitated and
+brought to room temperature before use. Each sample was used for
+only a short period before a fresh amount of blood was taken from
+the 
+refrigerator. 
+These 
+procedures 
+were 
+found 
+to 
+produce
+consistent results.
+A glass separating funnel ﬁtted with a tap acted as a reservoir
+for the blood and was secured to a Kaiser rePro photographic
+camera (copy) stand. A tapered, plastic nozzle (tip diameter
+0.5 mm) ﬁtted to the reservoir allowed for the easy attachment of
+the relevant bored brass nozzle. For the un-bored nozzles, a short
+piece of ﬂexible polythene hose was used to link the reservoir to
+the plastic nozzle which was then held in position against the brass
+nozzle tip to generate the formation of angle-limited blood
+droplets from that nozzle surface. Droplets could be produced
+reliably and at a deﬁned rate by careful control of the tap.
+Sets of nozzles were manufactured from cylindrical brass rod
+that were machined into a conical shape at one end with cone
+angles of 30, 60, 90, 120, 150 and 180 degrees — this last
+corresponding to a ﬂat surface. One of the sets was un-bored while
+the other sets had holes of 1 mm, 2 mm or 3 mm diameter bored
+along the symmetry axis to produce a nozzle tip that had an oriﬁce
+of known diameter with conical edges at the speciﬁed angle. A full
+set of angles with the 2 mm bore was produced while the 1 mm
+bore was restricted to the smaller angles – 30 and 60 while the
+3 mm bore corresponded to the larger angles – 90, 120, 150 and
+180. In total 18 nozzles were manufactured. The inner nozzle
+diameters were measured using a low powered microscope with
+calibrated graticule and found to be equal to or a very little less
+than the designed diameter; those measured values are given in
+Table 1.
+Using the twelve bored nozzles, radius-limited droplets were
+formed by ensuring that the blood was not allowed to wet the
+conical nozzle surface around the tip while, in separate experi-
+ments, angle-limited droplets were formed by pre-wetting the tip
+area with blood. Another set of measurements using deminer-
+alised water produced corresponding radius-limited droplets,
+these results being used for calibration and comparison purposes.
+Droplet formation on the un-bored nozzles was subject to pre-
+wetting of the nozzle surface with blood and careful adjustment
+of the plastic nozzle that was delivering the blood from the
+reservoir.
+Imaging of selected droplets on each tip was carried out using a
+Motic digital camera and images were analysed with Motic Images
+Plus 2.0 imaging and analysis software. Examples of the droplet
+images produced on wetted nozzles are shown in Fig. 2. Droplets
+were counted and their drop rate measured automatically using an
+optical gate linked to a Pasco measurement system. Droplet volumes
+were obtained gravimetrically from an accumulation of between ten
+and ﬁfty droplets, ensuring that for all measurements a weight of at
+least 0.5 g was recorded to four decimal places. Droplet formation
+rates of around one per minute were adopted. It has been suggested
+that the optimum rate should be no faster than one drop every three
+minutes [21] but such formation times were found to lead to physical
+changes to the blood itself, in and around the tip, which led to poor
+reproducibility. Each measurement was taken at least three times
+and a mean value calculated. Contact angles were measured on the
+images using a tool within the Motic software.
+All measurements were stored within Excel spreadsheets
+where all the data processing and analysis was carried out. Both
+the surface tension and density of the blood are relevant to the
+analysis of the results. As is evident from Eq. (3), the detached
+droplet volume depends on the constant a which is a function of
+the ratio of g/r. Further, since the H–B correction factor F is
+independent of the properties of the liquid, it has been shown
+[28,32] that, for the same conical tip, the ratio of the radius-limited
+droplet volumes from two different liquids – say, blood (Vb) and
+water (Vw) – follow from Eq. (3), giving:
+Vb
+Vw
+¼
+gbrw
+gwrb
+ 
+3=2
+ð7Þ
+This relationship continues to apply to angle-limited droplets if
+the contact angles for the two liquids are the same. It follows that
+the distinct values of rb and gb are not needed to interpret these
+results, only the ratio of these quantities and that may be
+calculated from data obtained through a series of similar
+measurements of droplet volume performed using blood and
+water, for which both parameters are known with some precision.
+Using the set of results for radius-limited droplets, to be
+described in the following section (Table 1), together with the
+density (r = 998 kg m3) and surface tension (g = 0.0728 N m1) for
+Table 1
+Drop volume results for water and horse blood for non-wetted nozzles.
+Nozzle diameter 2R mm 
+Nozzle cone angle deg 
+Water 
+Horse blood
+Drop volume 
+Standard error 
+Drop volume 
+Standard error
+Vw mL 
+mL 
+Vb mL 
+mL
+1.00 
+Theorya
+19.1 
+– 
+16.4 
+–
+0.99 
+30 
+20.1 
+0.1 
+16.3 
+0.3
+0.99 
+60 
+20.3 
+0.1 
+15.5
+b
+2.00 
+Theorya
+33.9 
+– 
+29.2 
+–
+1.96 
+30 
+34.0 
+0.4 
+29.1 
+0.3
+1.94 
+60 
+34.0 
+0.4 
+29.7 
+1.0
+1.98 
+90 
+36.2 
+0.2 
+29.6 
+0.4
+2.00 
+120 
+38.4 
+0.4 
+30.5 
+0.2
+2.02 
+150 
+41.2 
+0.4 
+31.4 
+0.5
+1.98 
+180 
+36.4 
+0.2 
+29.2 
+0.1
+3.00 
+Theorya
+47.5 
+– 
+41.0 
+–
+2.99 
+90 
+49.7 
+0.3 
+40.0 
+0.4
+2.94 
+120 
+51.9 
+0.2 
+42.6 
+0.5
+2.99 
+150 
+53.9 
+0.9 
+42.8 
+0.7
+2.94 
+180 
+55.2 
+0.6 
+47.1 
+1.0
+a Calculated from Eq. (3) as described in the text.
+b Only a single measurement was made due to accidental damage to the nozzle.
+4 
+C.D. Adam / Forensic Science International 303 (2019) 109934
+
+
+--- PAGE 5 ---
+
+demineralised water at 20 C [37], the mean ratio for deﬁbrinated
+horse blood was calculated as:
+gb
+rb
+¼ 6:35  0:05  105m3s2
+where the uncertainty is quoted as the standard error. Taking the
+density of horse blood as 1050 kg m3 [36], this result gives the
+surface tension of the blood, under the conditions of these
+experiments, as 0.0667 N m1; this appears to be in line with
+values for surface tension for blood from other mammalian
+species. 
+It 
+should 
+be 
+emphasised 
+that 
+in 
+the 
+calculations
+throughout this work it is this ratio that is utilised in calculations
+rather than the individual values of these two properties. The
+capillary length for horse blood, derived from this ratio and used in
+subsequent calculations, is a ¼ 3:598  103m.
+4. Results
+4.1. Radius-limited droplets: non-wetted nozzles
+The detached droplet volumes from the conical nozzles, for
+both water and blood, where the liquid was not allowed to wet the
+nozzle tip prior to droplet formation, are given in Table 1. The
+volumes predicted for each nozzle diameter according to the drop
+weight theory (Sections 2.1 and 2.3) incorporating the H–B
+correction (Eq. (3)), are included here for comparison. It is clear
+that, for each nozzle, the detached volumes for horse blood are all
+less than those for water due to the higher surface tension for the
+latter liquid. For the most acute cone angles the detached volumes
+for both liquids are very close to those predicted theoretically.
+Across all cone angles these volumes remain close to the
+theoretical values but are on average a little larger for the more
+obtuse angles and the widest nozzle diameter as these conditions
+tend to encourage slight wetting by the liquid. Since faster drop
+rates lead to an increase in the detached droplet volume [21] it is
+also possible that working here with a rate of around one drop per
+minute rather than one every three minutes or more has
+contributed to these experimental volumes being generally larger
+than the theoretical values. Comparison between the droplet
+volumes for the two liquids suggests that it is probable that some
+of the scatter in these values, outside of the standard error, may be
+attributed to microscopic imperfections in each nozzle arising
+from the machining process during manufacture.
+4.2. Angle-limited droplets: wetted nozzles
+The experimental detached droplet volumes where the nozzle
+tip was pre-wetted with blood prior to formation of the droplet,
+are given in Table 2. These include outcomes from the non-bored
+cone tips where the pendent droplet was allowed to form slowly
+by blood ﬂowing across the cone surface. Uncertainties are
+included here again as standard errors. Note that these appear
+consistently larger for the 150 and particularly the 180 tips, than
+for the smaller cone angles. It is suggested that this is due to
+difﬁculties in ensuring a consistent and uniform pre-wetting of
+the tips and, for these large cone angles, a longer contact line
+between the pendant droplet and the tip and a greater area of
+wetting. These factors lead to more variation in the net surface
+tension force acting to hold the growing droplet in place and
+hence more variation in the consequent detached droplet volume
+between repeat measurements.
+There are three principal conclusions to be drawn from these
+results. Firstly, the pre-wetting allows much larger, angle-limited
+pendent droplets to accumulate on a tip and the volume increases
+signiﬁcantly with increasing cone angle. Secondly, for the 30 tips,
+these detached droplet volumes are only a little larger than those
+found for the non-wetted tips of the same cone angle (Table 1) with
+that for the non-bored tip being the smallest and the others
+increasing slightly with nozzle diameter. Finally, although there is
+some scatter in the values, detached droplet volumes from a given
+cone angle are generally independent of oriﬁce diameter, including
+those from the non-bored tips. In other words the volume, for a
+given cone angle, is the same whether it was formed on a bored
+or non-bored tip. The slightly lower volume obtained for the
+Fig. 2. Droplet formation on wetted 90 conical nozzles; (a) 3 mm oriﬁce (b) non-bored cone.
+Table 2
+Drop volume results for horse blood for wetted bored and non-bored cone tips.
+Nozzle diameter 2R mm 
+Nozzle cone
+angle deg
+Horse blood
+Drop volume 
+Standard
+error
+V mL 
+mL
+0.99 
+30 
+30.5 
+1.6
+0.99 
+60 
+47.6 
+0.4
+1.96 
+30 
+34.1 
+0.6
+1.94 
+60 
+48.2 
+0.7
+1.98 
+90 
+63.5 
+1.3
+2.00 
+120 
+85.3 
+0.7
+2.02 
+150 
+112 
+4
+1.98 
+180 
+157 
+5
+2.99 
+90 
+65.3 
+0.8
+2.94 
+120 
+87.4 
+1.0
+2.99 
+150 
+107 
+1
+2.94 
+180 
+154 
+6
+Non-bored
+cone tips
+30 
+28.4 
+0.3
+60 
+45.6 
+0.9
+90 
+62.5 
+1.4
+120 
+85.5 
+1.5
+150 
+116 
+2
+180 
+138 
+3
+C.D. Adam / Forensic Science International 303 (2019) 109934 
+5
+
+
+--- PAGE 6 ---
+
+non-bored 180 tip may be due to the experimental difﬁculties in
+facilitating the ﬂow of blood on to the underside surface under
+those conditions. The outcomes for the 180 tips show a maximum
+detached droplet volume of order 150 mL. These results are
+displayed graphically as a function of cone angle in Fig. 4. This
+ﬁgure includes comparison with theoretical values and will be
+discussed in Section 5.2.
+5. Discussion
+Next, the principal consequences of these results will be
+discussed which, for convenience, may be separated into three
+areas. Firstly, the concept of a maximum droplet volume will be
+examined, then the inﬂuence of the sharpness of the source, as
+deﬁned by cone angle, will be explored and ﬁnally, the relationship
+between the detached droplet volume and the general condition of
+the source will be discussed.
+5.1. Estimates of a maximum droplet volume
+The detached droplet volume predictions in Section 2.3 and the
+experimental results presented in Section 4.2 provide estimates of
+the maximum droplet volume that is possible from detachment
+from a surface or oriﬁce. This will occur when the surface is ﬂat and
+is independent of how the blood has accumulated on that surface.
+It is beneﬁcial to explore this concept in more detail, including
+alternative methods of calculation, in order to better understand
+the factors that most affect the value of this quantity and its
+sensitivity to them.
+Using the pendent drop proﬁle method, the threshold mini-
+mum oriﬁce radius has been calculated for the formation of the
+maximum droplet volume for a liquid which completely wets a
+solid surface (u = 0) [32]. Using this formula, with the capillary
+length for horse blood, gives this radius as:
+Rth ¼ 2:2766a ¼ 2:2766  3:598  103 ¼ 8:19 mm
+The consequent pendent droplet volume is then given by
+Ref. [32]:
+Vp ¼ 6:7045  a3 ¼ 6:7045  ð3:598  103Þ3 ¼ 312:3  mL
+Hence, the detached droplet volume, calculated using the
+algorithm described earlier to generate the H–B correction factor, is
+given by:
+V ¼ Vp  F
+R
+V1=3
+ 
+
+¼ 312:3  0:5879 ¼ 183:6  mL
+This is equivalent to a detached droplet diameter of 7.052 mm.
+For comparison with experimental values where the contact
+angle is not zero, an adjustment to this approach needs to be
+included. A table of correction factors to the pendent droplet
+volume, by contact angle, has been theoretically derived [33]. For
+this present work where a contact angle of 25 was measured for a
+droplet formed on a ﬂat, wetted brass surface, the consequent
+detached droplet volume may be calculated, using the appropriate
+factor, as:
+V ¼ ð5:5080=6:7045Þ  183:6 ¼ 150:8  mL
+Using these factors [33], predicted maximum detached droplet
+volumes as a function of contact angle may be calculated and are
+shown graphically in Fig. 3. This demonstrates how crucial is the
+wetting behaviour of the blood on the surface in determining the
+volume of the detached droplet as the volume decreases quite
+rapidly once the angle is above 20 or so. Moreover, the carefully
+controlled and stable conditions assumed in the theoretical models
+and, to some extent, achievable in laboratory experiments will not
+be sustained in case-work scenarios, with the result that droplet
+volumes will be commonly much lower than these predictions.
+In contrast, previous work on droplet formation on conical tips
+[34,35] assumed ‘completely wetting liquids’ — that is, zero
+contact angle. The data needed to calculate the detached droplet
+volumes were extracted from the graphs presented in that paper
+[34] rather than from tabulated values and so any outcomes from
+this will be subject to further uncertainty. Despite this limitation,
+droplet volumes for horse blood have been calculated for each of
+the cone angles used in this current work and are given in Table 3.
+The contact angle correction factors [33] have been applied to
+these volumes and these estimates are also presented in this table
+together with the mean experimental values from the results
+presented in Section 4.2. For zero contact angle, the maximum
+detached droplet volume is 191 mL, decreasing to 157 mL under the
+experimental conditions measured here.
+Finally, the maximum droplet volume may also be estimated
+using the approximation of Campbell [26] applied to the horse
+blood used here. The corresponding droplet diameter is given by
+Eq. (4), incorporating the value of the capillary length for horse
+blood derived earlier.
+d ¼ 22=3
+ﬃﬃﬃﬃﬃﬃ
+3g
+rg
+s
+¼ 1:944  a ¼ 7:00mm
+This is equivalent to a droplet volume of 179 mL.
+Table 4 summarises all these estimates of the maximum droplet
+volume together with the average for the experimental results
+described here (ﬁnal row in Table 3). There is a fair level of
+consistency across the different approaches for zero contact angle
+while for two of those the application of the contact angle
+Fig. 3. Maximum detached droplet volume for horse blood as a function of contact
+angle using data from reference [33].
+Fig. 4. Detached droplet volume as a function of cone angle for wetted tips.
+6 
+C.D. Adam / Forensic Science International 303 (2019) 109934
+
+
+--- PAGE 7 ---
+
+correction factor yields similar volumes, both of which are close to
+what has been measured experimentally, taken as the mean of the
+three results presented in Table 3.
+Of course, all these droplet volumes relate to deﬁbrinated horse
+blood. On the basis that these theoretical predictions have been
+validated by this experimental data, the equivalent maximum
+droplet volume for human blood, may also be calculated according
+to drop shape theory. Using the capillary length for human blood
+given in Section 2.1 and assuming the same contact angle, the
+maximum detached droplet volume is given by:
+V ¼ ð5:5080=6:7045Þ  0:5879  276:0 ¼ 133:3  mL
+The difference in this value, from that for horse blood, reveals
+the relative sensitivity of this quantity to the ratio g=r for the
+blood.
+Within the bloodstain pattern analysis discipline, the concept of
+a ‘standard’, ‘normal’ or ‘typical’ droplet volume has been used,
+though its meaning has not been clearly deﬁned. A value of 50 mL is
+commonly assigned to this quantity. Originally, it appears to have
+related to an average droplet volume released from typical body
+wounds under passive conditions but became conﬂated with the
+idea of this representing a maximum as, despite being an average,
+volumes very much larger than this occurred rarely in casework
+[38]. Fundamentally, as has been shown here, a maximum droplet
+volume is a valid quantity but in practice whether under laboratory
+or casework conditions, its magnitude, depends very much on the
+nature of the surface or oriﬁce from which it is released so that its
+measurement in real circumstances will yield values that are
+normally very much less than that predicted theoretically for an
+ideal system. Hence, in that sense, for a given set of circumstances
+there will be a typical droplet volume but that quantity will not be
+transferable in any meaningful way to any, quite different scenario.
+5.2. Droplet volumes from conical tips
+The experimental detached droplet volumes from all wetted
+conical tips, together with the theoretical estimates calculated
+using published data [34], are presented in Table 3 and graphically
+as a function of cone angle, in Fig. 4. The contact angle correction
+factors were assigned using the experimentally measured angles
+given in Table 3. The contact angle for the 30 tip could not be
+determined experimentally so an estimated value by extrapolation
+was adopted here. It should be noted that the table of published
+factors [33] apply to droplets formed on ﬂat surfaces and their
+transfer to conical surfaces should be regarded as an approxima-
+tion. Nevertheless, this table shows good agreement amongst the
+results for the different oriﬁce sizes and the non-bored tips which
+suggest that, within the range examined here, the detached droplet
+volume is independent of whether the source of the blood droplet
+is an oriﬁce or a solid tip and, if the former, is also independent of
+the oriﬁce size. There is more scatter for the two largest cone
+angles which may be attributed to the difﬁculties in experimen-
+tally delivering the blood to the tip under those conditions. The
+theoretical values appear to under-estimate the experimental
+volumes to some extent for the 90 and 120 angles, though
+elsewhere the agreement is reasonable. The relationship between
+volume and angle forms a smooth curve which, if extrapolated
+below 30, suggests a limiting value of between 20–30 mL for a
+detached droplet from a conical tip as the cone angle sharpens
+towards zero. This particular conclusion deserves further investi-
+gation.
+5.3. Droplet size and source condition
+It is useful to discuss the range of droplet sizes that have been
+found experimentally in this work and their relationship to the
+conditions under which they were formed. This may provide some
+underpinning scientiﬁc basis to the interpretation of droplets and
+stains found in casework circumstances. Within the range of sources
+examined here, there are clearly maximum and minimum droplet
+volumes released and these will depend very much on the degree of
+wetting of the source by the blood. The relevant experimental values
+are summarised in Table 5 where mean values are taken across the
+relevant individual measurements presented earlier.
+These results suggest that for those cones with the more acute
+angles, the range of potential droplet volumes falls within a
+Table 3
+Detached droplet volumes for conical tips; theory and experiment.
+Cone tip
+angle degrees
+Detached droplet volume V mL 
+Exptal contact
+angle degrees
+Theoretical estimates of detached
+droplet volume [34,33] V mL
+Cone tip type
+1 mm oriﬁce 
+2 mm oriﬁce 
+3 mm oriﬁce 
+Solid cone 
+Mean exptal droplet
+volume mL
+For zero
+contact angle
+With contact
+angle correction
+30 
+30.5 
+34.1 
+– 
+28.4 
+31.0 
+(5)est
+31.6 
+31.3
+60 
+47.6 
+48.2 
+– 
+45.6 
+47.1 
+10 
+39.7 
+38.3
+90 
+– 
+63.5 
+65.3 
+62.5 
+63.8 
+16 
+56.2 
+51.4
+120 
+– 
+85.3 
+87.4 
+85.5 
+86.1 
+19 
+78.4 
+69.4
+150 
+– 
+111 
+106 
+116 
+111 
+22 
+122 
+104
+180 
+– 
+156 
+153 
+138 
+149 
+25 
+191 
+157
+Table 4
+Estimates of the maximum droplet volume for deﬁbrinated horse blood.
+Contact angle
+degrees
+Source 
+Maximum droplet volume V mL
+Zero 
+Drop shape theory [32] 
+184
+Drop weight theory [21,23] 
+205
+Drop weight theory + Campbell approx. [26] 
+179
+Drop shape theory; conical tips [34] 
+191
+25
+Drop shape theory [33] 
+151
+Drop shape theory; conical tips [34] 
+157
+Experiment (this work) 
+149  6
+C.D. Adam / Forensic Science International 303 (2019) 109934 
+7
+
+
+--- PAGE 8 ---
+
+narrower range and hence the degree of wetting of the source is
+less signiﬁcant. In contrast, for much wider angles and approach-
+ing a ﬂat surface, the range is much larger and much more
+dependent on the extent of wetting and source surface character-
+istics. Clearly there are larger oriﬁce sizes, not investigated in this
+study, which will yield larger droplet volumes under non-wetted
+conditions but these may be predicted using Eq. (3). For any cone
+angle, once an oriﬁce is sufﬁciently large that the pendent drop
+pins to its circumference, the detached droplet volume will be
+deﬁned by the oriﬁce diameter and not by the cone angle. The
+maximum detached droplet volume from any sufﬁciently large
+oriﬁce remains at around 150 mL under ideal conditions.
+With casework examples in mind, interest is focused on the
+results in the ﬁnal two columns of Table 5. Comparison of a weapon
+tip with the closest conical equivalent given here would allow
+estimation of the volume and diameter of passively detached
+droplets under gravity, taking into account the degree of wetting of
+the weapon by the blood. Further work on tips with different
+geometric shapes would provide additional reference data for such
+comparisons.
+It is pertinent to compare these results with published droplet
+sizes released under gravity from real and model weapon tips of
+differing curvature, using porcine blood [17]. The difference in the
+g=r factor means that droplet volumes will be expected to be
+around 5% and diameters around 1.5% larger for horse than for
+porcine blood. Direct comparison is not possible with the conical
+tips used here but some general comments may be made. Across all
+types of tips investigated, the detached droplet volumes were in
+the range 37.4–121.8 mL with the larger volumes being released
+from surfaces with larger radii of curvature [17]. This corresponds
+very well to the results shown for wetted conical tips in Table 5
+where volumes from 31 to 149 mL were found. Surface roughness
+effects were found not to be strong factor in relation to detached
+droplet volume and, although contact angle effects are discussed,
+no detail on this is provided for the experimentally measured
+droplets nor is the degree of pre-wetting of the surface discussed
+speciﬁcally [17].
+6. Detached droplets from swing-cast-off
+Having discussed the passive detachment of blood droplets
+under gravity, it is of interest to extend these ideas to the active
+detachment of droplets under other forces, most notably the
+centrifugal force generated during swing-cast off. Here, simple
+theoretical approaches to cast-off will be presented and then
+applied to some recently published data. It is believed this is the
+ﬁrst time that a mathematical model of swing cast-off has been
+applied to the quantitative prediction of the sizes of ejected blood
+droplets. For motion in a horizontal swing plane, any contribution
+from gravity may be neglected while for a vertical swing plane the
+gravitational force will make a contribution depending on the
+point in the motion at which the droplets are ejected. Nevertheless,
+in most practical circumstances the gravitational force is much
+smaller than that from centrifugal action so will not be considered
+here. 
+Experimental 
+studies 
+have 
+been 
+published 
+where 
+a
+mechanical device designed to operate in a vertical plane has
+been used to generate droplets under controlled conditions [12,16]
+and data from these will be used to test mathematical models for
+the ejection mechanism.
+6.1. Review of swing cast-off research
+The fundamental action of ejecting liquid droplets by centrifu-
+gal force generated by a rotation mechanism is the basis of many
+applications where dispersal of ‘atomised’ liquid is required; for
+example, the action of agricultural sprays [39] and in chemical and
+food manufacture. There is a signiﬁcant literature around this topic
+which facilitates our understanding of the creation of blood spatter
+droplets by swing cast-off action. It is not the present purpose to
+review that literature but simply to refer to some points that are
+most relevant to the current analysis. Depending of the ﬂow rate of
+the liquid along the rotating arm, there are three types of
+disintegration that can occur. At the lowest ﬂow rates, droplets are
+ejected directly from the arm then, as the ﬂow increases, liquid
+ligaments may be formed [18]. A transition region may be
+identiﬁed where features of both these mechanisms occur [39].
+At the highest ﬂow rates the liquid is ejected as sheets [39]. Both
+the ligaments and sheets disintegrate further once they travel
+away from the rotation mechanism and droplets may then be
+formed.
+In recent years there has been some interest in producing swing
+cast-off droplets under carefully controlled experimental con-
+ditions. A system for generating cast-off blood droplets has been
+described [16] which is based on an aluminium disc of radius 0.3 m
+rotating in a vertical plane with narrow radial grooves milled on
+one face. These were intended to guide the blood as it ﬂows
+outwards to be ejected at the disc perimeter. Subsequent
+trajectories for droplets produced by this device at a range of
+tangential velocities have been measured and some additional
+quantitative data on droplet diameters and shape oscillations were
+obtained using high-speed photography [12]. Images from these
+studies show that, under these experimental conditions, the blood
+droplets may be released by disintegration of a ligament generated
+by the centrifugal force on blood within the channels [16].
+Examples of the measurement of cast-off droplet diameters
+produced under a range of rotational speeds have been published
+from work using this system but these were not interpreted using
+any quantitative model. A simpler mechanical device for this
+Table 5
+Summary of mean experimental detached droplet volumes from non-wetted and wetted tips.
+Cone tip angle degrees 
+Oriﬁce diameter mm 
+Droplet volume (non-wetted) V mL 
+Droplet volume (wetted)a V mL 
+Droplet diameter (wetted)a mm
+30 
+1 
+16 
+31 
+3.9
+2 
+30
+60 
+1 
+16 
+47 
+4.5
+2 
+30
+90 
+2 
+30 
+64 
+5.0
+3 
+43
+120 
+2 
+30 
+86 
+5.5
+3 
+43
+150 
+2 
+30 
+111 
+6.0
+3 
+43
+180 
+2 
+30 
+149 
+6.6
+3 
+43
+a Including the result from the non-bored tip in this average.
+8 
+C.D. Adam / Forensic Science International 303 (2019) 109934
+
+
+--- PAGE 9 ---
+
+purpose has been used to generate cast-off stain patterns and these
+have been analysed in terms of stain density, aspect ratio and
+hence impact angle, again using high speed photography [14].
+More recently, 
+cast-off 
+patterns have been produced from
+mechanically driven weapons and the trajectories carefully
+interpreted to gain a better idea of how the pattern is formed
+from droplets ejected at different points across the swing arc [18].
+This shows one example of an image of ligament disintegration
+from a baseball bat tip travelling close to 15 ms1 but no speciﬁc
+examples of droplet sizes are provided from this work.
+6.2. Physical principles of swing cast-off
+For swing cast-off action, the key modiﬁcation to the model for
+passive release of blood under gravity is now that the gravitational
+force mg is replaced by the centrifugal force mv2=L or the
+equivalent mv2L where v is the linear (tangential) velocity at
+the point of detachment and v is the angular velocity of the swing
+action; L is the radius of the circular rotational path. This
+centrifugal force Fc is generated by the torque applied to the
+weapon.
+It is important to note that for passive dripping under gravity
+the force causing detachment of a droplet is the same at all points
+across the 
+system. 
+For the 
+centrifugal 
+force 
+however, 
+the
+magnitude increases linearly with distance along the rotating
+arm. Hence, with sufﬁcient blood mass, it will usually be the case
+that this force is different across the blood mass which leads to it
+expanding as well as travelling outward along the radial direction.
+If a droplet is formed statically on the weapon then the motion
+on leaving the weapon will be tangential to the point of ejection.
+However, if there is signiﬁcant blood and there is motion of the
+blood mass radially along the weapon prior to droplet ejection,
+then the initial trajectory will not be purely tangential but will be
+the combination of the tangential speed with any radial velocity
+component along the weapon itself, though that is likely to be
+small compared to the tangential component. For droplets released
+by ligament disintegration, the path followed may be more
+complex depending on the motion of the ligament itself and the
+point at which the droplet detaches. Images of droplet formation
+have been published [12,16,18,39].
+For a manufactured device, such as a rotary atomiser, which
+produces droplets from a continuous liquid ﬂow, a ﬂuid dynamics
+analysis has been used to derive expressions for ligament
+formation and the droplet diameters released under different
+conditions [39]. However, this approach cannot be directly applied
+to blood droplets formed under swing cast-off conditions from a
+weapon so more basic approaches are needed to estimate droplet
+size here. Two models will be considered: the ﬁrst where the
+droplet is release from an oriﬁce or similar structure on the
+rotating surface and another, more appropriate to release from a
+ligament, where the droplet is formed directly from the blood mass
+itself.
+Replacing the gravitational force mg in the model for droplet
+formation from an oriﬁce as described in Section 2.1 (Eq. (3))
+leads to:
+V ¼ p 2gL
+rv2
+ 
+
+RF
+R
+V1=3
+ 
+
+ð8Þ
+The capillary length a* is now no longer a constant so it is more
+convenient to express the formula as shown here. This expression
+implies that higher velocities will result in the formation of smaller
+blood droplets.
+This result may be expected to apply where a droplet is released
+after being pinned to some oriﬁce or similar physical feature
+under radius-limited conditions on the rotating weapon. For the
+experimental system described previously [16] this would be the
+1 mm by 1 mm grooves cut radially on the rotating disc where the
+magnitude of the surface tension force will depend on the contact
+length of the blood around the end of the groove on the disc
+circumference.
+An alternative, yet quite simple model that does not directly
+relate to the dimension of any feature on the weapon has been
+described in the context of the disintegration of liquids –
+‘atomisation’ – by means of a rotating cup [40]. This approach is
+similar to Campbell’s method [26] for determining the maximum
+droplet volume released from a ﬂat surface which was discussed in
+Section 2.1. The droplet separates from the bulging of blood on the
+weapon where there is no pinning to any feature on the weapon.
+Given that formation of a blood ligament is one instance of this
+effect, it is likely that this model is more appropriate for droplets
+released from a fragmenting ligament. Hence, the condition for
+separation is given by equating the centrifugal force to the surface
+tension around the contact length between the emerging droplet
+on the bulging blood mass which is assumed to be equal to the
+detaching droplet circumference:
+mv2
+L
+¼ pgd
+Writing the mass in terms of the density and volume of the
+droplet and re-arranging for d gives:
+d ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃ
+6gL
+r
+s
+1
+v
+ð9Þ
+This result (Eq. (9)), though very much an order of magnitude
+model, implies that droplet diameter d and linear velocity v are in
+inverse proportion. In contrast, the ﬁrst model for droplet release,
+governed by some oriﬁce or structural feature of deﬁned size on
+the weapon (Eq. (8)), suggests a basic relationship governed by:
+d / v2=3
+This is modiﬁed to some small extent by the H–B correction
+factor F.
+6.3. Testing models of droplet release
+Using published data generated by the rotating disc system
+[12,16], these two models have been used to calculate theoretical
+estimates for the diameters of blood droplets released under those
+experimental 
+conditions. 
+These 
+are 
+then 
+compared 
+to 
+the
+experimental values in Table 6. As porcine blood was used in
+these experiments, appropriate published density and surface
+tension values [12] were adopted in these calculations, using
+g=r ¼ 0:0638=1054 ¼ 6:053  105 m3s2. Although values for
+these parameters from two sources are quoted in [12], both give
+similar results for this ratio. It has been assumed here that the
+channels in the disc are fully ﬁlled with blood and the surface
+tension line at the edge of the disc was approximated to a circle of
+radius 0.5 mm for convenience.
+These results 
+shows that, 
+although 
+they are of 
+similar
+magnitudes, all the theoretical values are larger than those found
+experimentally and indeed, if this comparison was done on a
+droplet volume basis, a far larger discrepancy would be evident
+between theory and experiment. For lower swing velocities the
+predictions of Eq. (8) appear better while for the highest velocities,
+Eq. (9) provides slightly closer agreement to experiment. This can
+be rationalised by considering that at these lowest rotational
+speeds the blood movement along the channel in the rotating disc
+will be lower and so direct detachment of droplets from the edge of
+the disc is more likely. On the other hand at high speeds the more
+rapid movement of blood along the channel will produce ligaments
+C.D. Adam / Forensic Science International 303 (2019) 109934 
+9
+
+
+--- PAGE 10 ---
+
+from which droplets will be released, the size of which will not be
+directly related to the channel size. For the ﬁrst model, the droplet
+volumes can be reduced to some extent by assuming the channels
+are only partly ﬁlled with blood but this factor is unknown. The
+second model assumes the surface tension force depends directly
+on the droplet diameter whereas we would expect some necking to
+occur on the ligament leading to a smaller detached droplet, as the
+retaining force would be less. Neither model considers the rate of
+droplet release or the blood ﬂow rate along the channels. These
+factors may at least partly explain the discrepancies in Table 6.
+It is of interest to review the experimental data on the basis of a
+power law relationship between v and d and to compare that with
+the dependency between these quantities describe earlier for these
+two models. Any power law relationship between d and v is most
+clearly determined by a graph of Ln d vs Ln v. These are presented in
+Fig. 5. The gradient of the equation for the linear regression line
+through the experimental data points is 1.01 which clearly shows
+that, across this range of speeds, the dependency of these data is
+most closely modelled by Eq. (9). This is consistent with the
+observations of droplet release from ligaments reported in these
+experiments [16]. In contrast, the calculated power for Eq. (8) was
+found to be 0.69 which is very close to the dependency of 2/3
+before application of the H–B correction factor. An empirical
+adjustment to Eq. (9) which fairly accurately predicts these
+experimental data, may be made on the basis of the regression line
+through the experimental data which yields (for d in m):
+d ¼ 0:0060
+v
+ð10Þ
+Further development of theoretical models for swing-cast off
+must await more detailed experimental data, in particular where
+differing methods for releasing the blood from the rotating
+disc and speciﬁc photographic data on the mechanism of release
+for droplets under differing tangential velocities, have been
+investigated. Further key factors are the ﬂow rate along the
+channels and the rate of release of droplets, given these are known
+to relate to the droplet size and again time-lapsed photographic
+data should enable examination of that issue.
+7. Conclusions
+These theoretical and experimental investigations into the
+formation and release of blood droplets from oriﬁces and surfaces
+have providedseveral signiﬁcant conclusions that potentiallyenhance
+the interpretation of blood evidence from weapon tips encountered in
+casework. For passive release under gravity, theoretical models based
+on the pendent drop weight and shape methods have been shown to
+predict detached droplet volumes from non-wetted oriﬁces, under
+radius-limited conditions, to a good degree of accuracy. When the
+conical tips are pre-wetted with blood the contact angle made by the
+pendent droplet with the tip surface becomes a crucial factor in
+determining the detached droplet volume. This volume is found to be
+independent of whetherthe blood ﬂows from an oriﬁce ontothe tip or
+over the conical tip surface itself in the case of un-bored nozzles. Here
+the droplets are held on to the tip surface by the surface tension force
+and are said to be angle-limited. Detached droplet volumes are
+predicted fairly well by applying the contact angle correction factors
+originally derived for ﬂat surfaces [33] to these conical tips. Droplet
+volume increases with cone angle and, for a ﬂat horizontal surface, the
+detached droplet volume corresponds very well to theoretical
+predictions with a value of around 150 mL for the experimental
+conditions in this work. Furthermore, these data suggest that for the
+sharpest conical tips a lower droplet volume of around 20–30 mL is
+likely. The degree of wettingof theweapon tipwith blood and thewet-
+ability of the surface itself, as well as the degree of sharpness of the tip,
+are the key factors in determining the volume of released blood
+droplets. These results provide quantitative data and theoretical
+models to underpin these conclusions. Although this work was carried
+out using deﬁbrinated horse blood, all the numerical results may be
+converted to equivalent values for human blood using the appropriate
+g=r factor.
+The mathematical models used to predict passive release have
+been modiﬁed to describe the active release of blood droplets
+under conditions of swing cast-off by replacing the gravitational
+acceleration with that arising from the centrifugal force. Using
+published data, derived from a device designed to physically
+simulate the cast-off process [12,16], it has been shown that both
+the mathematical models considered here provide estimates of
+detached droplet diameters that are in order of magnitude
+agreement with those found experimentally. However, the model
+which is based on a mechanism whereby the detaching droplet is
+release directly from a blood mass on the weapon, shows excellent
+functional agreement – d / v1 – with the published data. This
+may be indicative of blood ligament formation prior to the droplet
+release itself, as was observed experimentally [16]. Nevertheless,
+further experimental and theoretical work remains to be done to
+reﬁne our understanding of this aspect of blood droplet formation
+and release.
+Fig. 5. Plot of Ln d versus Ln v for published swing cast-off droplet data and for
+theoretical models.
+Table 6
+Experimental values and theoretical predictions for cast-off droplet diameters.
+Experiment 
+Reference 
+Theory
+Tangential velocity v ms1
+Droplet diameter d mm 
+d (Eq. (8)) mm 
+d (Eq. (9)) mm
+4 
+1.46 
+[12] 
+1.7 
+2.6
+6 
+0.9 
+[16] 
+1.3 
+1.7
+10 
+0.6 
+[16] 
+0.87 
+1.0
+15 
+0.48 
+[12] 
+0.66 
+0.70
+20 
+0.26 
+[16] 
+0.56 
+0.52
+30 
+0.18 
+[16] 
+0.41 
+0.35
+10 
+C.D. Adam / Forensic Science International 303 (2019) 109934
+
+
+--- PAGE 11 ---
+
+Declarations of interest
+None.
+CRediT authorship contribution statement
+Craig D. Adam: Conceptualization, Data curation, Formal
+analysis, 
+Investigation, 
+Methodology, 
+Project 
+administration,
+Resources, Software, Validation, Visualization, Writing - original
+draft, Writing - review & editing.
+Acknowledgements
+This research did not receive any speciﬁc grant from funding
+agencies in the public, commercial, or not-for-proﬁt sectors.
+References
+[1] S.Chandra, C.T.Avedisian, Onthecollisionof adropletwithasolid surface, Proc. R.
+Soc. Lond. A 432 (1991) 13–41, doi:http://dx.doi.org/10.1098/rspa.1991.0002.
+[2] M. Pasandideh-Fard, Y.M. Qiao, S. Chandra, J. Mostaghimi, Capillary effects
+during impact on a solid surface, Phys. Fluids 8 (3) (1996) 650–659, doi:http://
+dx.doi.org/10.1063/1.868850.
+[3] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact
+velocity from circular bloodstains, J. Forensic Sci. 50 (1) (2005) 1–10, doi:http://dx.
+doi.org/10.1520/JFS2003224.
+[4] N.Z. Mehdizadeh, S. Chandra, J. Mostaghimi, Formation of ﬁngers around the
+edges of a drop hitting a metal plate with high velocity, J. Fluid Mech. 510
+(2004) 353–373, doi:http://dx.doi.org/10.1017/S0022112004009310.
+[5] L. Hulse-Smith, M. Illes, A blind trial evaluation of a crime scene methodology for
+deducingimpactvelocityanddropletsizefromcircular bloodstains, J.Forensic Sci.
+52 (1) (2007) 65–69, doi:http://dx.doi.org/10.1111/j.1556-4029.2006.00298.x.
+[6] C.D. Adam, Fundamental studies of bloodstain formation and characteristics,
+Forensic Sci. Int. 219 (1) (2012) 76–87, doi:http://dx.doi.org/10.1016/j.for-
+sciint.2011.12.002.
+[7] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics
+in blood stain pattern analysis: comparative review and research oppor-
+tunities, Forensic Sci. Int. 231 (1–3) (2013) 375–396, doi:http://dx.doi.org/
+10.1016/j.forsciint.2013.04.018.
+[8] C.D. Adam, Experimental and theoretical studies of the spreading of
+bloodstains on painted surfaces, Forensic Sci. Int. 229 (2013) 66–74, doi:
+http://dx.doi.org/10.1016/j.forsciint.2013.03.044.
+[9] N. Laan, K.G. de Bruin, D. Bartolo, C. Josserand, D. Bonn, Maximum diameter of
+impacting liquid droplets, Phys. Rev. Appl. 2 (4) (2014)044018, doi:http://dx.doi.
+org/10.1103/PhysRevApplied.2.044018.
+[10] C. Knock, M. Davison, Predicting the position of the source of blood stains for
+angled impacts, J. Forensic Sci. 52 (5) (2007) 1044–1049, doi:http://dx.doi.org/
+10.1111/j.1556-4029.2007.00505.x.
+[11] N. Laan, K.G. de Bruin, D. Slenter, J. Wilhelm, M. Jermy, D. Bonn, Bloodstain
+pattern analysis: implementation of a ﬂuid dynamic model for position
+determination of victims, Sci. Rep. 5 (2015) 11461, doi:http://dx.doi.org/
+10.1038/srep11461.
+[12] N. Kabaliuk, M.C. Jermy, E.M.P. Williams, T.L. Laber, M.C. Taylor, Experimental
+validation of a numerical model for predicting the trajectory of blood drops in
+typical crime scene conditions, including droplet deformation and breakup,
+with a study of the effect of indoor air currents and wind on typical spatter
+drop trajectories, Forensic Sci. Int. 245 (2014) 107–120, doi:http://dx.doi.org/
+10.1016/j.forsciint.2014.10.020.
+[13] C. Flight, M. Jones, K.N. Ballantyne, Determination of the maximum distance
+blood spatter travels from a vertical impact, Forensic Sci. Int. 293 (2018) 27–36,
+doi:http://dx.doi.org/10.1016/j.forsciint.2018.10.015.
+[14] S.N. Kunz, J. Adamec, C. Grove, Analyzing the dynamics and morphology of
+cast-off pattern at different speed levels using high-speed digital video
+imaging, J. Forensic Sci. 62 (2) (2017) 428–434, doi:http://dx.doi.org/10.1111/
+1556-4029.13299.
+[15] D. Attinger, P.M. Comiskey, A.L. Yarin, K. De Brabanter, Determining the region
+of origin of blood spatter patterns considering ﬂuid dynamics and statistical
+uncertainties, Forensic Sci. Int. 298 (2019) 323–331, doi:http://dx.doi.org/
+10.1016/j.forsciint.2019.02.003.
+[16] E. Williams, M. Taylor, The development and construction of a motorized blood
+droplet generation device (BDGD) for detailed analysis of blood droplet
+dynamics, J. Bloodstain Pattern Anal. 29 (1) (2013) 14–29.
+[17] N. Kabaliuk, M.C. Jermy, K. Morison, T. Stotesbury, M.C. Taylor, E.M.P. Williams,
+Blood drop size in passive dripping from weapons, Forensic Sci. Int. 228 (1–3)
+(2013) 75–82, doi:http://dx.doi.org/10.1016/j.forsciint.2013.02.023.
+[18] E.M.P. Williams, E.S. Graham, M.C. Jermy, D.C. Kieser, M.C. Taylor, The dynamics
+of blood drop release from swinging objects in the creation of cast-off
+bloodstain patterns, J. Forensic Sci. 64 (2) (2019) 413–421, doi:http://dx.doi.
+org/10.1111/1556-4029.13855.
+[19] S. Middleman, Modeling Axisymmetric Flows, Dynamics of Films, Jets and
+Drops, Academic Press, San Diego, 1995.
+[20] Lord Rayleigh, Investigations in capillarity, Philos. Mag. 48 (1899) 321–337,
+doi:http://dx.doi.org/10.1080/14786449908621342.
+[21] W.D. Harkins, F.E.J. Brown, The determination of surface tension and the
+weight of falling drops, Am. Chem. Soc. 4 (1919) 499–524, doi:http://dx.doi.
+org/10.1021/ja01461a003.
+[22] Z.Q. Zhang, Y. Mori, Formulation of the Harkins-Brown correction factor for
+drop-volume description, Ind. Eng. Chem. Res. 32 (1993) 2950–2952, doi:
+http://dx.doi.org/10.1021/ie00023a070.
+[23] J.C. Earnshaw, E.G. Johnson, B.J. Carroll, P.J. Doyle, The drop volume method for
+interfacial tension determination: an error analysis, J. Colloid Interface Sci. 177
+(1996) 150–155, doi:http://dx.doi.org/10.1006/jcis.1996.0015.
+[24] B.-B. Lee, P. Ravindra, E.-S. Chan, A critical review: surface and interfacial
+tension measurement by the drop weight method, Chem. Eng. Commun. 195
+(2008) 889–924, doi:http://dx.doi.org/10.1080/00986440801905056.
+[25] O.E. Yildirim, Q. Xu, O.A. Basaran, Analysis of the drop weight method, Phys.
+Fluids 17 (2005)062107, doi:http://dx.doi.org/10.1063/1.1938227.
+[26] J. Campbell, Surface tension measurement by the drop weight method, J. Phys.
+D: Appl. Phys. 3 (1970) 1499–1504, doi:http://dx.doi.org/10.1088/0022-3727/
+3/10/420.
+[27] B.B. Freud, W.D. Harkins, The shapes of drops and the determination of surface
+tension, J. Phys. Chem. 33 (8) (1929) 1217–1234, doi:http://dx.doi.org/10.1021/
+j150302a012.
+[28] R.C. Brown, H. McCormick, A new drop-weight method for the comparison of
+surface tensions, Philos. Mag. 39 (1948) 420–428, doi:http://dx.doi.org/
+10.1080/14786444808521691.
+[29] C.E. Stauffer, The measurement of surface tension by the pendant drop
+technique, J. Phys. Chem. 69 (6) (1965) 1933–1938, doi:http://dx.doi.org/
+10.1021/j100890a024.
+[30] J.F. Padday, The proﬁles of axially symmetric menisci, Philos. Trans. R. Soc.
+Lond. 
+A 
+269 
+(1197) 
+(1971) 
+265–293, 
+doi:http://dx.doi.org/10.1098/
+rsta.1971.0031.
+[31] J.F. Padday, A.R. Pitt, The stability of axisymmetric menisci, Philos. Trans. R. Soc.
+Lond. 
+A 
+275 
+(1253) 
+(1973) 
+489–528, 
+doi:http://dx.doi.org/10.1098/
+rsta.1973.0113.
+[32] E.A. Boucher, M.J.B. Evans, Pendent drop proﬁles and related capillary
+phenomena, Proc. R. Soc. Lond. A 346 (1646) (1975) 349–374, doi:http://dx.
+doi.org/10.1098/rspa.1975.0180.
+[33] E.A. Boucher, M.J.B. Evans, H.J. Kent, Capillary phenomena II: equilibrium and
+stability of rotationally symmetric ﬂuid bodies, Proc. R. Soc. Lond. A 349 (1656)
+(1976) 81–100, doi:http://dx.doi.org/10.1098/rspa.1976.0061.
+[34] S.R. Babu, Analysis of drop formation at conical tips: 1 theory, J. Colloid
+Interface Sci. 116 (2) (1987) 350–358, doi:http://dx.doi.org/10.1016/0021-9797
+(87)90131-7.
+[35] S.R. Babu, Analysis of drop formation at conical tips: 2 experimental, J. Colloid
+Interface Sci. 116 (2) (1987) 359–372, doi:http://dx.doi.org/10.1016/0021-9797
+(87)90132-9.
+[36] B.A.J. Larkin, C.E. Banks, Exploring the applicability of equine blood to
+bloodstain pattern analysis, Med. Sci. Law 56 (3) (2016) 190–199, doi:http://dx.
+doi.org/10.1177/0025802414542456.
+[37] G.W.C. Kaye, T.H. Laby, Tables of Physical and Chemical Constants, 16th ed.,
+Longman, Harlow, 1995.
+[38] S.H. James, P.E. Kish, T.P. Sutton, Principles of Bloodstain Pattern Analysis —
+Theory and Practice, CRC Press, Boca Raton, 2005.
+[39] A.R. Frost, Rotary atomisation in the ligament formation mode, J. Agric. Eng.
+Res. 26 (1981) 63–78, doi:http://dx.doi.org/10.1016/0021-8634(81)90127-X.
+[40] J. Liu, Q. Yu, Q. Guo, Experimental investigation of liquid disintegration by
+rotary cups, Chem. Eng. Sci. 73 (2012) 44–50, doi:http://dx.doi.org/10.1016/j.
+ces.2012.01.010.
+C.D. Adam / Forensic Science International 303 (2019) 109934 
+11

@@ -1,0 +1,2346 @@
+
+
+--- PAGE 1 ---
+
+
+
+--- PAGE 2 ---
+
+Principles of
+Bloodstain
+Pattern
+Analysis
+Theory and Practice
+
+
+--- PAGE 3 ---
+
+CRC SERIES IN
+PRACTICAL ASPECTS OF CRIMINAL
+AND FORENSIC INVESTIGATIONS
+VERNON J. GEBERTH, BBA, MPS, FBINA Series Editor
+Practical  Homicide Investigation: Tactics, Procedures, and Forensic Techniques,
+Third Edition
+Vernon J. Geberth
+The Counterterrorism Handbook: Tactics, Procedures, and Techniques, Second
+Edition
+Frank Bolz, Jr.,  Kenneth J. Dudonis, and David P. Schulz
+Forensic Pathology, Second Edition
+Dominick J. Di Maio and Vincent J. M. Di Maio
+Interpretation of Bloodstain Evidence at Crime Scenes, Second Edition
+William G. Eckert and Stuart H. James
+Tire Imprint Evidence
+Peter McDonald
+Practical Drug Enforcement, Second Edition
+Michael D. Lyman
+Practical Aspects of Rape Investigation: A Multidisciplinary Approach, Third
+Edition
+Robert R. Hazelwood and Ann Wolbert Burgess
+The Sexual Exploitation of Children: A Practical Guide to Assessment,
+Investigation,
+and Intervention, Second Edition
+Seth L. Goldstein
+Gunshot Wounds: Practical Aspects of Firearms, Ballistics, and Forensic
+Techniques,
+Second Edition
+Vincent J. M. Di Maio
+Friction Ridge Skin: Comparison and Identification of Fingerprints
+James F. Cowger
+Footwear Impression Evidence, Second Edition
+William J. Bodziak
+Principles of Kinesic Interview and Interrogation, Second Edition
+Stan Walters
+Practical Fire and Arson Investigation, Second Edition
+David R. Redsicker and John J. O’Connor
+The Practical Methodology of Forensic Photography, Second Edition
+David R. Redsicker
+Practical Aspects of Interview and Interrogation, Second Edition
+David E. Zulawski and Douglas E. Wicklander
+Investigating Computer Crime
+Franklin Clark and Ken Diliberto
+Practical Homicide Investigation Checklist and Field Guide
+Vernon J. Geberth
+
+
+--- PAGE 4 ---
+
+Bloodstain Pattern Analysis: With an Introduction to Crime Scene Reconstruction,
+Second Edition
+Tom Bevel and Ross M. Gardner
+Practical Aspects of Munchausen by Proxy and Munchausen Syndrome Investigation
+Kathryn Artingstall
+Quantitative-Qualitative Friction Ridge Analysis: An Introduction to Basic and
+Advanced Ridgeology
+David R. Ashbaugh
+Practical Criminal Investigations in Correctional Facilities
+William R. Bell
+Officer-Involved Shootings and Use of Force: Practical Investigative Techniques
+David E. Hatch
+Sex-Related Homicide and Death Investigation: Practical and Clinical Perspectives
+Vernon J. Geberth
+Global Drug Enforcement: Practical Investigative Techniques
+Gregory D. Lee
+Practical Investigation of Sex Crimes: A Strategic and Operational Approach
+Thomas P. Carney
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Stuart James, Paul Kish, and T. Paulette Sutton
+
+
+--- PAGE 5 ---
+
+
+
+--- PAGE 6 ---
+
+Principles of
+Bloodstain
+Pattern
+Analysis
+Theory and Practice
+Stuart H. James
+Paul E. Kish
+T. Paulette Sutton
+A CRC title, part of the Taylor & Francis imprint, a member of the
+Taylor & Francis Group, the academic division of T&F Informa plc.
+Boca Raton   London   New York   Singapore
+
+
+--- PAGE 7 ---
+
+Cover design by Alexei Pace. Drag pattern courtesy of Herbert Leon MacDonell.
+CRC Press
+Taylor & Francis Group
+6000 Broken Sound Parkway NW, Suite 300
+Boca Raton, FL 33487-2742
+© 2005 by Taylor & Francis Group, LLC
+CRC Press is an imprint of Taylor & Francis Group, an Informa business
+No claim to original U.S. Government works
+Version Date: 20140708
+International Standard Book Number-13: 978-1-4200-3946-7 (eBook - PDF)
+This book contains information obtained from authentic and highly regarded sources. Reasonable efforts have been 
+made to publish reliable data and information, but the author and publisher cannot assume responsibility for the valid-
+ity of all materials or the consequences of their use. The authors and publishers have attempted to trace the copyright 
+holders of all material reproduced in this publication and apologize to copyright holders if permission to publish in this 
+form has not been obtained. If any copyright material has not been acknowledged please write and let us know so we may 
+rectify in any future reprint.
+Except as permitted under U.S. Copyright Law, no part of this book may be reprinted, reproduced, transmitted, or uti-
+lized in any form by any electronic, mechanical, or other means, now known or hereafter invented, including photocopy-
+ing, microfilming, and recording, or in any information storage or retrieval system, without written permission from the 
+publishers.
+For permission to photocopy or use material electronically from this work, please access www.copyright.com (http://
+www.copyright.com/) or contact the Copyright Clearance Center, Inc. (CCC), 222 Rosewood Drive, Danvers, MA 01923, 
+978-750-8400. CCC is a not-for-profit organization that provides licenses and registration for a variety of users. For 
+organizations that have been granted a photocopy license by the CCC, a separate system of payment has been arranged.
+Trademark Notice: Product or corporate names may be trademarks or registered trademarks, and are used only for 
+identification and explanation without intent to infringe.
+Visit the Taylor & Francis Web site at
+http://www.taylorandfrancis.com
+and the CRC Press Web site at
+http://www.crcpress.com
+
+
+--- PAGE 8 ---
+
+vii
+Foreword
+The discipline of Bloodstain Pattern Analysis has advanced to the level that if “blood
+evidence”exists investigators and prosecutors want and should have an interpretation. To
+do less would be nothing short of ignoring valuable physical evidence.
+The evolution of this evidence has been driven by discovery and fueled by DNA. By
+using methodical, scientiﬁc principles, crime scene information can be discovered. This
+information will re-create events that support or refute witness statements and will assist
+the court in determining intent and help the jury to visualize the ﬁnal moments. The
+language of bloodstain pattern analysis will provide information that cannot be gained by
+other means. Let the physical evidence speak for itself and tell the stories of self-defense or
+intent to commit murder.
+As a bloodstain pattern analyst I relish in the opportunity to gain further insight into
+this discipline, sometimes as conﬁrmation that a different approach can gain the same
+result or that this new approach provides a more in-depth review of my case. In any event
+I seek to articulate this evidence so that those concerned will gain the same conﬁdence that
+I have.
+The logic of bloodstain pattern analysis can sometimes be a trap. Just when you think
+that you know how to interpret patterns, they give you a different twist. Given classic
+patterns it is not difﬁcult to determine their origin; however, we know that crime scenes are
+not predictable. The evidence is more often a combination or a portion of the patterns we
+know. This subject requires a complete understanding of all aspects of the case. The ability
+to apply training, knowledge, and common sense is key to a successful interpretation of a
+bloodletting scene. If you want to fully understand the intricacies of bloodstains you need
+only refer to the table of contents in this book. Where, when, and how do we begin? Is blood
+a unique substance? How do we recognize one pattern or event from another? Is it possible
+to alter a bloodstain pattern? What equipment will we need? How do we get this evidence to
+court? What if the bloodstains have been entirely or partially cleaned up? Is there an error
+rate, and how do we explain our results to a jury?
+I believe that this book will meet your requirements and I would recommend it to
+readers at every level. Those who are researching at a college or university level will beneﬁt
+as much as those who are working in the ﬁeld of forensic science, or otherwise involved in
+the criminal justice system. The completeness of this book is a testament to the authors.
+Those involved in the ﬁeld of bloodstain pattern analysis, even to the slightest degree, will
+recognize their names.
+The authors are forensic scientists who have gained the respect of the bloodstain analysis
+community through years of work, not only through painstaking analysis of bloodletting
+evidence but also through expert courtroom testimony. As you look at these names you will
+also see teachers—people who take the time and care to share their knowledge. Years of
+
+
+--- PAGE 9 ---
+
+viii
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+expertise have come together to write one of the most comprehensive texts on the subject.
+The reader need only turn these pages with a mild interest to become both fascinated and
+educated.
+Pat Laturnus
+Bloodstain Pattern Analyst
+Instructor–Ontario Police College
+Ontario, Canada
+Retired–Royal Canadian Mounted Police
+
+
+--- PAGE 10 ---
+
+ix
+Preface
+Principles of Bloodstain Pattern Analysis: Theory and Practice presents an in-depth text of
+bloodstain pattern analysis that emphasizes a modern thought process of a taxonomic classi-
+ﬁcation of bloodstains based on their physical characteristics of size, shape, and distribution
+as well as the speciﬁc mechanisms that produce them. The concept of a multidisciplinary
+approach using scene and laboratory examinations in conjunction with forensic pathology,
+forensic serology, and chemical enhancement techniques is also presented to the reader.
+The technical content and quality of this book is increased dramatically with color images
+of bloodletting injuries, bloodstains, and crime scenes. Case studies are presented within
+individual chapters, and the book is complimented by two chapters that discuss details of
+legal issues as they pertain to bloodstain pattern analysis. The coauthors, Stuart H. James,
+Paul Erwin Kish, and T. Paulette Sutton, form a nucleus of bloodstain pattern analysts, each
+with many years of experience in casework and teaching of basic and advanced bloodstain
+pattern analysis courses. 
+The chapters that present the scientiﬁc principles and practical application of bloodstain
+pattern analysis represent the combined efforts of the authors. They have invited other
+respected and qualiﬁed forensic scientists and attorneys to contribute chapters in their
+specialties, which has enhanced the quality and scope of the text. The chapters are arranged
+in a logical order with Chapter 1, “Introduction to Bloodstain Pattern Analysis,” discussing
+the evolution of bloodstain pattern analysis from signiﬁcant historical events to its current
+level as a discipline within the forensic sciences. 
+Chapter 2, “Medical and Anatomic Aspects of Bloodshed,” contributed by forensic
+pathologist Dr. Ronald K. Wright, MD, JD, provides an overview of the circulation of blood
+within the body and the rate of bleeding and blood volume loss resulting from medical
+conditions and speciﬁc injuries. He has also included an interesting section that describes
+postmortem lividity and identiﬁable patterned abrasions and bruises on the skin. The
+authors agreed that this chapter was essential to the bloodstain pattern analyst for the
+understanding of mechanisms of bleeding within and outside the body of the victim.
+Chapter 3, “Biological and Physical Properties of Human Blood,” explains the cellular
+components of human blood and their functions within the body supplemented with
+excellent color images. The physical properties of blood relative to its behavior as a liquid
+outside the body is essential for the bloodstain analyst to appreciate in terms of bloodstain
+formation. The principles of physics pertaining to surface tension, adhesion and cohesion,
+relative density, viscosity, and the non-Newtonian behavior of blood are deﬁned.
+Chapter 4, “Physical Properties of Bloodstain Formation,” applies the physical properties
+of blood to the shape of an airborne drop or droplet of blood and the size and shape of
+resultant bloodstains on horizontal and nonhorizontal surfaces. This chapter also describes
+the taxonomic classiﬁcation of bloodstains that will be the emphasis in subsequent chapters
+of bloodstain pattern analysis.
+
+
+--- PAGE 11 ---
+
+x
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Chapter 5, “Passive Bloodstains,” is a detailed chapter that describes a major category
+of bloodstains. This chapter is supplemented with numerous color images that afford the
+reader many examples of this important taxonomic classiﬁcation of bloodstains.
+Chapter 6, “Formation of Spatter and Spatter Associated with a Secondary Mechanism,”
+discusses the physical characteristics of spatter formation relative to stain size, shape,
+quantity, location, and distribution relative to its taxonomic classiﬁcation. Emphasis is given
+to mechanisms associated with the creation of spatter patterns and the important ability of
+the bloodstain analyst to recognize the overlapping of stain sizes created by different
+mechanisms and the caution to be exercised in making a determination.
+Chapter 7, “Impact Spatter Mechanisms,” describes the production of spatter produced
+as the result of beating, stabbing, gunshot, explosion, and power tool events. Factors that
+limit the production of impact spatter are emphasized.
+Chapter 8, “Spatter Associated with a Projection Mechanism,” presents the characteris-
+tics of bloodstains and patterns produced by arterial, expiratory, and cast-off mechanisms.
+The uniqueness of the patterns as well as the overlap of stain size within a pattern that can be
+confused with impact spatter mechanisms is demonstrated.
+Chapter 9, “Altered Bloodstain Patterns,” is a chapter that applies to all categories of
+bloodstains because physical or biological alterations such as drying, clotting, dilution,
+insect activity, and effects of ﬁre are frequently encountered in casework. Recognition of
+these alterations cannot be overemphasized. Void patterns and sequencing of bloodstain
+patterns are also included in this chapter.
+Chapter 10, “Determination of the Area of Convergence and Area of Origin of Blood-
+stain Patterns,” is a chapter devoted to the reconstruction of bloodstain events using the
+principles of mathematics, including trigonometry. Various methods of the determination
+of areas of convergence and origin are explained.
+Chapter 11, “Directional Analysis of Bloodstain Patterns with a Computer,” contributed
+by Dr. Alfred L. Carter with case studies provided by Craig C. Moore and Mike Illes,
+describes the BackTrack program devised by Dr. Carter for the measurement of bloodstains
+and the determination of areas of convergence and origin.
+Chapter 12, “Documentation and Examination of Bloodstain Evidence,” details the
+methods of preparing sketches, diagrams, photographs, and videos of bloodstain evidence
+at the scene as well as at the laboratory, where the examination of bloodstained clothing is
+crucial prior to testing for DNA analysis.
+Chapter 13, “Examination of Bloodstain Patterns at the Scene,” describes additional
+detail for proper processing of crime scenes and sample collection, including vehicles for
+bloodstain pattern analysis. An important feature of this chapter is the examination of the
+body of the victim for bloodstain patterns. 
+Chapter 14, “Presumptive Testing and Species Determination of Blood and Blood-
+stains,” contributed by Robert Spalding, describes the various presumptive tests for blood,
+including their applications and limitations. Mr. Spalding also explains the conﬁrmatory
+tests for blood and determination of species of origin.
+Chapter 15, “The Detection of Blood Using Luminol,” contributed by Dale Laux,
+explains the luminol reaction, its preparation, its use, and interpretation of patterns
+revealed by this chemi-luminescent reagent. The principles of luminol photography with
+excellent images are provided as well as the effect of the use of luminol on the subsequent
+analysis of bloodstains. 
+
+
+--- PAGE 12 ---
+
+Preface
+xi
+Chapter 16, “Chemical Enhancement of Latent Bloodstain Impressions,” contributed by
+Martin Eversdijk, is an important addition to this text. Martin methodically describes selected
+methods for the chemical dye enhancement of trace impressions of blood augmented with
+excellent images of bloody enhanced ﬁngerprints, palm prints, and footwear.
+Chapter 17, “Approaching the Bloodstain Pattern Case,” explains the importance of
+the examination of all relevant information and the logical sequential approach to case
+evaluation for the bloodstain analyst. The chapter emphasizes the utilization information
+from all involved forensic disciplines for the proper synthesizing of the available data and
+the scientiﬁc formulation and testing of hypotheses.
+Chapter 18, “Report Writing,” is an expansion of an excellent chapter by Paul E. Kish
+that appeared in the text, Scientiﬁc and Legal Applications of Bloodstain Pattern Interpretation.
+It is a logical format for the writing of a bloodstain pattern analysis report from introduction
+to ﬁnal conclusions. 
+Chapter 19, “Legal and Ethical Aspects of Bloodstain Pattern Evidence,” contributed by
+Carol Henderson and Brittan Mitchell, is updated from the text, Scientiﬁc and Legal
+Applications of Bloodstain Pattern Interpretation. This chapter details the issues of the
+admissibility, weight of the bloodstain evidence, and the qualiﬁcations of the bloodstain
+analyst who is called on to provide expert testimony in court. Methods of direct and cross-
+examination are discussed as well as ethical issues of the attorney and the expert.
+Chapter 20, “Bloodstain Pattern Analysis: Postconviction and Appellate Application,”
+contributed by Marie Saccoccio also has been updated from the text, Scientiﬁc and Legal
+Applications of Bloodstain Pattern Interpretation. She discusses the role of the postconviction
+attorney and the appeal process with case examples. 
+Finally, the Appendices supplement the text with scientiﬁc data including trigonometric
+tables, metric equivalents, and scene and laboratory checklists and biohazard safety pre-
+cautions. Additionally, court decisions relating to bloodstain pattern analysis and presump-
+tive blood testing are included. Numerous references are provided for bloodstain pattern
+analysis and the related topics. 
+The goal of the authors and contributors was to provide an up-to-date bloodstain
+pattern analysis text for crime scene investigators, forensic laboratory personnel, forensic
+pathologists, and prosecutors and defense attorneys within the criminal justice system. As
+Professor Andre A. Moenssens stated in an article entitled “Novel Scientiﬁc Evidence in
+Criminal Cases,” published in the Journal of Criminal Law and Criminology in 1993: 
+Attorneys have the responsibility to learn about the scientiﬁc evidence that they
+wish to admit. If the attorneys who are questioning and cross-examining the
+expert witnesses have a working knowledge of bloodstain pattern analysis, they
+will be better equipped to distinguish between those experts with sufﬁcient
+qualiﬁcations and those without them. Also, attorneys will be able to more
+capably critique an expert’s testimony and limit or eliminate conclusions that are
+speculative or over-stated. Unless attorneys know what questions to ask during
+cross-examination, much of what the witness testiﬁes to will go unchallenged.
+Stuart H. James
+Paul E. Kish
+T. Paulette Sutton
+
+
+--- PAGE 13 ---
+
+
+
+--- PAGE 14 ---
+
+xiii
+The Authors
+Stuart H. James of James and Associates Forensic Consultants, Inc. is a graduate of Hobart
+College where he received a BA degree in biology and chemistry in 1962. He received his
+MT(ASCP) in medical technology from St. Mary’s Hospital in Tucson, Arizona in 1963.
+Graduate courses completed at Elmira College included homicide investigation, bloodstain
+pattern analysis, and forensic microscopy. He has completed more than 300 hours of
+continuing education and training in death investigation and bloodstain pattern analysis.
+A former crime laboratory supervisor in Binghamton, New York, he has been a private
+consultant since 1981.
+Mr. James has instructed in Forensic Science at the State University of New York and
+Broome Community College in Binghamton, New York. Additionally, he has lectured on
+the subjects of bloodstain pattern analysis and forensic science throughout the United
+States and abroad. He has instructed basic and advanced bloodstain pattern analysis
+courses with Paul E. Kish in Pontiac, Michigan, Appleton Wisconsin, Suffolk University in
+Boston, Massachusetts, the Henry C. Lee Institute at the University of New Haven in West
+Haven, Connecticut, the Centre of Forensic Sciences in Toronto, Canada, the Politie LSOP
+Institute for Criminal Investigation and Crime Science in Zutphen, The Netherlands and
+the University of Newcastle upon Tyne in the United Kingdom.
+He has been consulted on homicide cases in 46 States and the District of Columbia as
+well as in Australia, Canada, Germany, South Korea, and the US Virgin Islands and has
+provided expert testimony in many of these jurisdictions in state, federal, and military courts.
+Mr. James was a co-author of the text entitled, Interpretation of Bloodstain Evidence at
+Crime Scenes. He was also the Editor of Scientiﬁc and Legal Applications of Bloodstain Pattern
+Interpretation both of which were published in 1998. He is a co-editor with Jon J. Nordby of
+the text entitled Forensic Science: An Introduction to Scientiﬁc and Investigative Techniques
+published in 2003. Mr. James is a fellow in the American Academy of Forensic Sciences and
+a distinguished member of the International Association of Bloodstain Pattern Analysts
+(IABPA) as well as the current editor of the quarterly IABPA News. He is also a member of
+the Scientiﬁc Working Group for Bloodstain Pattern Analysis (SWGSTAIN).
+Paul Erwin Kish is a consulting bloodstain pattern analyst in Corning, New York, as well
+as, an adjunct Instructor in the Criminal Justice Program at Elmira College. He holds a
+B.S. degree in Criminal Justice and an M.S. degree in Education from Elmira College. He
+has been consulted on homicide cases in 30 states within the United States and 7 countries
+while presenting expert testimony in 16 states, the District of Columbia, and Canada.
+Mr. Kish is an internationally known lecturer on the subject of bloodstain pattern
+analysis. He has taught Basic Bloodstain Pattern Analysis courses throughout the United
+States, as well as, in Canada, The Netherlands, United Kingdom, and Sweden. He has educated
+over 850 students from 17 countries during these weeklong basic bloodstain pattern analysis
+courses. He has taught Advanced Bloodstain Pattern Analysis courses in the United States, The
+
+
+--- PAGE 15 ---
+
+xiv
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Netherlands, and United Kingdom. He has lectured extensively throughout the United States
+at forensic and law related conferences and seminars.
+He has authored various articles on the topic of bloodstain pattern analysis including
+contributions to the texts Scientiﬁc and Legal Applications of Bloodstain Pattern Interpretation
+(CRC Press, 1998); Forensic Science: An Introduction to Scientiﬁc and Investigative Techniques
+(CRC Press, 2003). Mr. Kish is an associate editor of the International Association of
+Bloodstain Pattern Analysts News having served as Editor for two years. He is a fellow in the
+American Academy of Forensic Sciences, a member of the Scientiﬁc Working Group for
+Bloodstain Pattern Analysis (SWGSTAIN), the International Association of Bloodstain
+Pattern Analysts, Canadian Society of Forensic Science, and International Association for
+Identiﬁcation.
+T. Paulette Sutton is an Associate Professor of Clinical Laboratory Sciences and Assistant
+Director of Forensic Services at the University of Tennessee Health Science Center in
+Memphis. She holds a B.S. in Medical Technology from the University of Tennessee and a
+M.S. in Operations Management Engineering from the University of Arkansas. She has
+practiced as a forensic serologist and bloodstain pattern analyst at the University of
+Tennessee, Memphis for the past 28 years and is also a member of the crime scene team for
+the Shelby County Medical Examiner’s Ofﬁce (Memphis). Sutton has been consulted on
+cases in many states and federal jurisdictions and has given expert testimony in criminal,
+as well as civil cases, in for both prosecution and defense. She has taught basic and
+advanced Bloodstain Analysis courses, as well as developing and teaching a course devoted
+entirely to the documentation of bloodstain pattern evidence. Ms. Sutton has lectured
+extensively on bloodstain pattern analysis and has received the Lecturer of Merit and the
+Distinguished Faculty awards from the National College of District Attorneys.
+Ms. Sutton has contributed to the texts Interpretation of Bloodstain Evidence at Crime
+Scenes, 2nd edition (CRC Press, 1998); Scientiﬁc and Legal Applications of Bloodstain Pattern
+Interpretation (CRC Press, 1998); Forensic Science: An Introduction to Scientiﬁc and
+Investigative Techniques (CRC Press, 2003) and authored didactic and laboratory exercise
+manuals Bloodstain Pattern Analysis in Violent Crimes. She has authored numerous articles
+on forensic serology and on bloodstain pattern analysis and serves as an associate editor of
+the International Association of Bloodstain Pattern Analysts News. Sutton is a member of the
+International Association for Identiﬁcation, the International Association of Bloodstain
+Pattern Analysts and the Scientiﬁc Working Group for Bloodstain Pattern Analysis
+(SWGSTAIN).
+
+
+--- PAGE 16 ---
+
+xv
+Contributors
+Alfred L. Carter is a retired Professor of Physics at Carleton University in Ottawa, Canada.
+He has done extensive work in the computer analysis of bloodstains and developed software
+for this application. He is a member of the International Association of Bloodstain Pattern
+Analysts. He has consulted with the Royal Canadian Mounted Police in Ottawa, Canada
+and has taught computer analysis of bloodstains in both Canada and the United States.
+Martin Eversdijk began his career with the Dutch Police in 1986 and joined the Forensic
+Scene of Crime Department in the city of Amstelveen in 1993. He became a staff
+member/trainer at the Institute for Criminal Investigation and Crime Science, a national
+training center for forensic scene of crime ofﬁcers in the Netherlands. He conducts research
+and teaches in the areas of bloodstain pattern analysis, blood searching techniques and
+blood enhancement techniques. Mr. Eversdijk is a member of the International Association
+of Bloodstain Pattern Analysts and the FBI Scientiﬁc Working Group for Bloodstain Pattern
+Analysis (SWGSTAIN).
+Carol Henderson is Director of the National Clearing House for Science, Technology and
+the Law and a Visiting Professor of Law at Stetson University College of Law in Gulfport,
+Florida. She is Vice President of the American Academy of Forensic Sciences and has served
+on the Board of Directors and as Chairman of the Jurisprudence Section. She is co-editor of
+the Encyclopedia of Forensic and Legal Medicine published by Elsevier and a co-author of the
+4th Edition of Scientiﬁc Evidence in Civil and Criminal Cases with Moenssens, Starrs and
+Inbau published by The Foundation Press in 1995. She is the author of more than 40 articles
+on scientiﬁc evidence and ethics.
+Mike Illes has been a member of the Ontario Provincial Police for the past 18 years. He has
+been involved in the ﬁeld of forensics for 14 years and is the Unit Commander of the
+Central Region Forensic Identiﬁcation Unit located in Peterborough, Ontario. In 1994
+Sergeant Illes received training in Basic Bloodstain Pattern Recognition in the United States.
+He completed the RCMP Forensic Bloodstain Pattern Analyst program and RCMP Math
+and Physics Course in 1995. Sergeant Illes is internationally known for his work in
+Bloodstain Pattern Analysis. He has done bloodstain crime scene work in Canada (Ontario
+and Newfoundland), the United States and Holland. He has given expert opinion evidence
+in the Canadian and Netherlands Court systems. Sergeant Illes has conducted forensic
+lectures and training courses in Canada, the United States and the Netherlands. Sergeant
+Illes sits on the Trent University/Sir Sandford Fleming College Forensic Degree Program
+Advisory Committee and is an instructor for that program. He is also a member of the FBI
+Scientiﬁc Working Group for Bloodstain Pattern Analysis (SWGSTAIN). 
+
+
+--- PAGE 17 ---
+
+xvi
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Dale Laux began his forensic career in 1980 after graduating from The Ohio State
+University with a Masters of Science degree in developmental biology. He studied limb
+regeneration in salamanders and owes his scientiﬁc reasoning to his advisor, Dr. Roy
+Tassava, who taught him how to think and rationalize. Dale has spent his entire career with
+the Ohio Bureau of Criminal Identiﬁcation and Investigation (BCI), a division of the
+Attorney General’s Ofﬁce. He has witnessed and been a part of the evolution of forensic
+biology from ABO and genetic markers to DNA. He has authored or co-authored 12 papers,
+presented 20 papers, has given numerous workshops on the use of luminol, and has lectured
+on a wide variety of forensic topics. He is a member and past president of the Midwestern
+Association of Forensic Scientists (MAFS) and a Fellow of the American Academy of Forensic
+Sciences. He was named Ohio Peace Ofﬁcer of the Year in 1988, received the Superintendent’s
+Award from BCI in 2004, and was recently given the Distinguished Service Award from
+MAFS, their highest honor. He dedicates his chapter on luminol to his wife Denise, for her
+encouragement and support, and to their sons, David and Kevin, for their assistance in his
+experiments.
+Britton L. Mitchell is a Law and Science Fellow for the National Clearing House for Science,
+Technology and the Law. She graduated magna cum laude from Stetson College of Law and
+is an active member of the Florida Bar. She also received a B.S. degree in Accounting from
+Florida State University and a B.S. in Economics from Brigham Young University.
+Marie Elena Saccoccio is an alumna of New England School of Law and Yale Law School
+and is a practicing attorney in Cambridge, Massachusetts concentrating on appellate/post-
+conviction matters. She is admitted to the bars of Colorado, Florida and Massachusetts
+where she works as a sole practitioner. She is the former judicial law clerk to the Honorable
+Wade Brorby of the United States Court of Appeals for the Tenth Circuit.
+Robert P. Spalding served in the FBI for 28 years as an investigative Special Agent in
+Cleveland and at the Forensic Science Research and Training Center (FSRTC) in Washington,
+DC and the FBI Academy. In 1993 he was assigned to the newly formed Evidence Response
+Team (ERT) Unit where he taught crime scene investigation to FBI ﬁeld ofﬁce personnel. In
+this assignment, he also taught bloodstain pattern analysis to ﬁeld FBI Evidence Response
+Team Personnel at the FBI Academy. Spaulding received his B.S. and M.S. degrees from the
+University of Maine in 1965 and 1968 respectively. He is currently a member of several
+professional organizations and is the owner of Spalding Forensics, LLC, a consulting and
+training ﬁrm in Centreville, Virginia, specializing in casework involving bloodstain patterns
+and crime scene reconstruction. 
+Ronald K. Wright is a forensic pathologist in private practice. He has a B.S. in Biology and
+Chemistry from Southwest Missouri University, an M.D. from St. Louis University School
+of Medicine and a J.D. from the University of Miami School of Law. He has practiced as a
+forensic pathologist and toxicologist for more than 30 years, holding positions of Deputy
+Chief Medical Examiner of the State of Vermont and Miami-Dade County Florida and
+Chief Medical Examiner of Broward County, Florida.
+
+
+--- PAGE 18 ---
+
+xvii
+Acknowledgments
+The authors express their thanks and appreciation to the contributing authors, Dr. Ronald
+Wright, Dr. Al Carter, Dale Laux, Martin Eversdijk, Carol Henderson, Mike Illes, and
+Marie Saccoccio for their excellent chapters. We also appreciate the efforts of Alexei Pace
+for providing excellent diagrams that supplement the text as well as the design of the cover,
+Lisa DiMeo of Arcana Forensics in San Diego, California for her review of some technical
+aspects of the book and for providing photographs, and Lisa Elrod of Memphis Tennessee
+for her invaluable consultation with regard to many of the photographic images. 
+The staff at CRC Press in Boca Raton, Florida including Life Sciences Publisher, Barbara
+Norwitz, Senior Acquisitions Editor Becky McEldowney, Editorial Project Development
+Manager, Helena Redshaw, Project Editor Suzanne Lassandro, and Editorial Assistant Susan
+Longo deserve special recognition for their guidance and assistance throughout the develop-
+ment of this book.
+The authors also thank the following individuals and organizations for their support
+and providing photographs that have enhanced the quality of this book.
+Abbott Laboratories, Abbott Park, Illinois
+Larry Barksdale, Lincoln Police Department, Lincoln, Nebraska
+Joe Cocco, Pennsylvania State Police
+Greg Coughlin, New Castle County Police, New Castle, Delaware
+Dazor Manufacturing Company, St. Louis, Missouri
+Anthony Dinardo, New Castle County Police, New Castle, Delaware
+Philippe Esparanca, French Gendarmerie Laboratory, France
+Jan Ewanow, Binghamton Police Department, Binghamton, New York
+Dr. Jerry Francisco, MD, Retired Medical Examiner, Memphis, Tennessee
+Cynthia Gardner, MD, Hamilton County Coroner’s Ofﬁce, Cincinnati, Ohio
+Dennis Kunkel Microscopy, Inc., Kailua, Hawaii
+Herbert Leon MacDonell, Laboratory of Forensic Science, Corning, New York
+Martin County Sheriffs Ofﬁce, Stuart, Florida
+Paul Mergenthaler, New Castle County Police, New Castle, Delaware
+Linda Netzel, Kansas City Crime Laboratory, Kansas City, Missouri
+Steve Nichols, University of Tennessee, Memphis, Tennessee
+Pinellas County Sheriffs Ofﬁce, Clearwater, Florida
+Rex Sparks, Des Moines Police Department, Des Moines, Iowa
+Jeffrey A. Strobach, Wausau Police Department, Wausau, Wisconsin
+Steven Symes, Mercyhurst College, Erie, Pennsylvania
+Todd Thorne, Kenosha Police Department, Kenosha, Wisconsin
+David Williams, Rochester Police Department, Rochester, New York
+
+
+--- PAGE 19 ---
+
+xviii
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Jim Wallace, University of Tennessee, Memphis, Tennessee
+United States Attorneys Ofﬁce, Washington, DC
+Additionally, the continuing patience, support and understanding of Victoria Wendy
+Hilt of Fort Lauderdale, Florida and Pam Kish of Corning, New York are truly appreciated.
+Stuart H. James
+Paul E. Kish
+T. Paulette Sutton
+
+
+--- PAGE 20 ---
+
+xix
+Contents
+Foreword
+vii
+Preface 
+ix
+The Authors 
+xiii
+Contributors 
+xv
+Acknowledgments 
+xvii
+1
+Introduction to Bloodstain Pattern Analysis
+1
+Introduction 
+1
+Objectives of Bloodstain Pattern Analysis 
+1
+Scientiﬁc Approach to Bloodstain Pattern Analysis 
+2
+Historical Development 
+3
+International Association of Bloodstain Pattern Analysts 
+7
+Classiﬁcation of Bloodstains 
+7
+Low-Velocity Impact Blood Spatter 
+7
+Medium-Velocity Impact Blood Spatter 
+7
+High-Velocity Impact Blood Spatter 
+7
+Acceptance within the Scientiﬁc Community 
+8
+Scientiﬁc Working Group for Bloodstain Pattern Analysis 
+8
+Education and Training in Bloodstain Pattern Analysis 
+9
+Conclusion 
+10
+2
+Medical and Anatomical Aspects of Bloodshed
+11
+Introduction 
+11
+The Circulation of Blood 
+11
+Rate of Bleeding 
+13
+Blood Volume 
+13
+Causes of Blood Volume Loss 
+15
+Blood Loss Resulting from Medical Conditions 
+15
+Bleeding from the Skin 
+15
+Bleeding from the Mouth and Nose 
+16
+Bleeding from the Respiratory System 
+20
+Bleeding from the Gastrointestinal Tract 
+20
+Blood Loss Resulting from Injuries 
+21
+Abrasions 
+21
+Lacerations 
+21
+Incised Wounds 
+24
+
+
+--- PAGE 21 ---
+
+xx
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Stab Wounds 
+26
+Gunshot Wounds 
+27
+Contact Wounds 
+29
+Intermediate-Range Gunshot Wounds 
+30
+Distant or Long-Range Gunshot Wounds 
+31
+Gunshot Exit Wounds 
+31
+Postmortem Aspects of Blood in the Body 
+32
+Bloodstain Patterns within the Body 
+34
+Patterns Associated with Postmortem Lividity 
+34
+Patterns Associated with Postmortem Marbling of the Skin 
+35
+Petechial Hemorrhaging (Tardieu Spots) 
+35
+Patterns Associated with Bruises 
+36
+Patterns Associated with Abrasions 
+37
+Conclusion 
+39
+3
+Biological and Physical Properties
+of Human Blood
+41
+Biological Functions of Human Blood 
+41
+Composition of Blood 
+42
+Volume and pH 
+42
+Plasma 
+42
+White Blood Cells (Leucocytes) 
+44
+Red Blood Cells (Erythrocytes) 
+45
+Hemoglobin 
+45
+Platelets (Thrombocytes) and Clotting Factors 
+45
+Physical Properties of Blood 
+48
+Viscosity 
+48
+Blood — A Non-Newtonian Fluid 
+49
+Poiseuille’s Equation 
+49
+Surface Tension 
+50
+Adhesion, Cohesion, and Capillarity 
+53
+Relative Density 
+53
+Effects of Drugs and Alcohol on Bloodstains 
+55
+Blood Use in Experiments 
+56
+4
+Physical Properties of Bloodstain Formation
+59
+Drop Formation and Travel 
+59
+The Shape of a Falling Drop 
+61
+Volume of a Drop of Blood 
+63
+Drop Volume as a Function of Source 
+63
+Distance Fallen 
+65
+Classiﬁcation of Bloodstain Patterns 
+67
+Passive 
+68
+Spatter 
+68
+Altered 
+69
+
+
+--- PAGE 22 ---
+
+Contents
+xxi
+5
+Passive Bloodstains
+71
+Introduction 
+71
+Free-Falling Drops on Horizontal Surfaces 
+71
+Free-Falling Drops on Angular Surfaces 
+73
+Drip Patterns 
+76
+Drip Trails 
+79
+Splashed Bloodstain Patterns 
+82
+Flow Patterns 
+84
+Blood Pools 
+87
+Saturation 
+87
+Transfer Bloodstains 
+88
+Recognizable Blood Transfer Stains 
+92
+Conclusion 
+92
+6
+Formation of Spatter and Spatter Associated
+with a Secondary Mechanism
+99
+Introduction 
+99
+Physical Properties of Blood Relative to Spatter Formation 
+99
+Physical Characteristics of Spatter Patterns 
+100
+Size Range and Quantity of Spatters 
+100
+Distribution and Location of Spatter 
+102
+Shape of Spatters 
+103
+Effect of Target Surface Texture on Spatter Appearance 
+106
+Mechanisms Associated with the Creation of Spatter Patterns 
+107
+Signiﬁcance of Spatter Identiﬁcation 
+108
+Spatter Associated with a Secondary Mechanism 
+108
+Satellite Spatters on Horizontal Surfaces 
+110
+Satellite Spatters on Vertical Surfaces 
+112
+7
+Impact Spatter Mechanisms
+119
+Introduction 
+119
+Impact Spatter Associated with Beating and Stabbing Events 
+119
+Impact Spatter Associated with Gunshot, Explosions,
+and Power Tools 
+131
+Back Spatter 
+136
+Forward Spatter 
+138
+Detection of Blood in the Barrels of Firearms 
+147
+Caveats 
+148
+8
+Spatter Associated with a Projection Mechanism
+149
+Introduction 
+149
+Arterial Mechanisms 
+149
+Bloodstain Patterns Produced by Medical Conditions
+of the Venous System 
+158
+
+
+--- PAGE 23 ---
+
+xxii
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Expiratory Mechanisms 
+160
+Expiratory Bloodstain Experiments 
+167
+Cast-Off Mechanisms 
+169
+9
+Altered Bloodstain Patterns
+179
+Introduction 
+179
+Diffusion and Capillarity of Bloodstains 
+179
+Aging of Blood 
+180
+Drying of Blood 
+182
+Clotting of Blood 
+188
+Diluted Bloodstains 
+194
+Removal of Bloodstains 
+196
+Effects of Fire and Soot on Bloodstains 
+200
+Fly and Other Insect Activity 
+206
+Void Patterns 
+210
+Sequencing of Bloodstains 
+212
+Conclusion 
+216
+10
+Determination of the Area of Convergence 
+and Area of Origin of Bloodstain Patterns
+217
+Introduction 
+217
+A Pattern 
+217
+Area of Convergence
+217
+Area of Origin 
+219
+Basic Trigonometry of a Right Triangle 
+220
+Angle of Impact 
+221
+Measuring Bloodstains 
+223
+Selection of Stains 
+224
+Methods of Area of Origin Determination 
+225
+Documentation 
+226
+Alternative Methods 
+233
+Trigonometric Method 
+233
+Graphic Method 
+234
+“Using” Surfaces 
+234
+11
+Directional Analysis of Bloodstain Patterns 
+with a Computer
+241
+Introduction 
+241
+Some Basic Theory 
+241
+Locating the Blood Sources 
+242
+An Example of Virtual Paths Compared to Actual Flight Paths 
+243
+The Two Impact Angles (α and γ) Depend on the Shape
+of the Bloodstain 
+244
+Using Ellipses to Analyze Bloodstains 
+246
+
+
+--- PAGE 24 ---
+
+Contents
+xxiii
+More about Ellipses 
+248
+Laboratory Study of a Double Blow with the BackTrack Software 
+249
+Summary 
+253
+A Case Study by Detective Craig C. Moore of the Niagara Regional 
+Police Service, Ontario, Canada 
+254
+Two Case Studies by Sgt. Mike Illes of the Ontario Provincial Police, 
+Peterborough Detachment 
+257
+Case #1 Multiple impacts in a limited space 
+257
+Case #2 Expirated bloodstaining 
+259
+Credits 
+261
+12
+Documentation and Examination 
+of Bloodstain Evidence
+263
+Introduction 
+263
+Methods of Documenting Bloodstain Patterns 
+264
+Notes 
+264
+Sketches and Diagrams 
+265
+Photographs 
+267
+Basic Photographic Equipment List 
+274
+Video 
+274
+Documentation of the Crime Scene 
+275
+Indoor Crime Scenes 
+275
+Outdoor Crime Scenes 
+281
+Documentation and Examination of Motor Vehicles 
+282
+Documentation and Examination of Bloodstains
+in the Laboratory 
+282
+Examination of Bloodstained Clothing 
+283
+Collection and Preservation of Bloodstain Evidence 
+294
+13
+Evaluation of Bloodstain Patterns at the Scene
+297
+Introduction 
+297
+Processing Scenes 
+297
+General Processing for Bloodstain Pattern Analysis 
+300
+Processing for Data 
+304
+Doors and Locks 
+305
+Refrigerator 
+306
+Knife Blocks 
+307
+Medicines/Medicine Cabinets 
+309
+Sinks and Faucets 
+310
+Trash Cans 
+311
+Temperature 
+314
+Lighting 
+315
+Transient Evidence 
+316
+Sequencing 
+316
+
+
+--- PAGE 25 ---
+
+xxiv
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Vehicles as Crime Scenes 
+319
+Negative Checklist for Vehicles 
+323
+Collisions 
+323
+Seatbelts 
+323
+Airbags 
+323
+Effects of Motion and Impact 
+327
+Processing the Body for Bloodstain Patterns 
+329
+Documentation of Bodies at the Scene 
+329
+Use of Scales 
+330
+Body Removal 
+330
+Alterations in Transport 
+333
+Mouth and Nose of the Decedent 
+334
+Feet or Shoes of the Decedent 
+334
+Nonambulatory Movement 
+336
+Posture at Time of Injury 
+336
+Claims of Self-Defense 
+339
+Time Lapse 
+339
+Sequencing Injuries 
+339
+Victim Viability 
+341
+Manner of Death 
+342
+Sample Collection 
+343
+Suspect Clothing 
+343
+Separating Contributors 
+344
+Linking an Accused 
+344
+14
+Presumptive Testing and Species Determination
+of Blood and Bloodstains
+349
+Introduction 
+349
+The Analysis of Blood in Forensic Serology 
+350
+Presumptive Tests for Blood 
+351
+Catalytic Color Tests 
+351
+Benzidine (Adler Test) 
+352
+Phenolphthalein (Kastle-Meyer Test) 
+353
+o-Tolidine 
+353
+Leucomalachite Green 
+354
+Tetramethylbenzidine 
+355
+Comparing the Tests 
+356
+Tests Using Chemiluminescence and Fluorescence 
+357
+Luminol 
+358
+Fluorescein 
+360
+Other Methods 
+361
+Conﬁrmatory Tests for Blood 
+361
+Teichmann Test 
+362
+Takayama Test 
+363
+Species Origin Determination for Blood 
+364
+Serum Protein Analysis 
+364
+General Methods 
+364
+
+
+--- PAGE 26 ---
+
+Contents
+xxv
+Ring Precipitin Test 
+365
+Ouchterlony Double Diffusion Test 
+365
+Crossed-Over Electrophoresis 
+366
+Nonserum Protein Analysis 
+367
+Antihuman Hemoglobin 
+367
+Other Techniques 
+368
+15
+The Detection of Blood Using Luminol
+369
+Introduction 
+369
+Discovery 
+369
+The Luminol Reaction 
+371
+Preparation of Luminol 
+374
+Interpretation of Luminescence 
+376
+Use of Additional Presumptive Tests 
+377
+Interpretation of Patterns 
+377
+Effect of Substrates 
+378
+Collection of Samples 
+378
+Effects of Luminol on the Subsequent Analysis of Bloodstains 
+379
+Luminol Photography 
+380
+Report Writing 
+383
+Testimony 
+384
+Case Studies 
+384
+Case 1 
+384
+Case 2 
+386
+Case 3 
+387
+16
+Chemical Enhancement of Latent Bloodstain 
+Impressions
+391
+Introduction 
+391
+Preliminary Procedures 
+392
+Fixing Blood Impressions 
+392
+Fixative with 2% Aqueous Solution of 5-Sulphosalicylic Acid 
+393
+Preparation of the Fixing Solution 2% Aqueous
+5-Sulphosalicylic Acid 
+393
+Fixing Impressions with Methanol 
+394
+General Methods for Application of the Fixing Solutions 
+394
+Method 1 
+394
+Method 2 
+394
+Method 3 
+395
+General Methods for the Application of the Chemical Dye Reagents 
+395
+Method 1 
+395
+Method 2 
+395
+Method 3 
+395
+Rinsing Procedure 
+395
+Preparation of the Rinse Solution for Water-Based Chemical Dyes 
+395
+Application of the Rinse Solution for Methanol-Based Chemical Dyes 
+396
+
+
+--- PAGE 27 ---
+
+xxvi
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Preparation of the First and Second Rinse Solutions
+for Methanol-Based Chemical Dyes 
+396
+Rinse Solution 1 
+396
+Rinse Solution 2 
+396
+General Methods for the Application of the Rinse Solutions 
+396
+Method 1 
+396
+Method 2 
+397
+Method 3 
+397
+Caveats 
+397
+Amido Black Water-Based 
+398
+Advantages 
+398
+Disadvantages 
+398
+Preparation of Amido Black Water-Based Without Fixative 
+400
+Preparation of Amido Black Water-Based with Fixative 
+400
+Method of Use 
+401
+Caveats 
+402
+Amido Black Methanol-Based 
+402
+Advantages 
+402
+Disadvantages 
+402
+Preparation of Methanol-Based Amido Black 
+403
+Method of Use 
+403
+Amido Black Water-Ethanol Based 
+403
+Preparation of Amido Black Water-Ethanol Based 
+403
+Preparation of the Rinse Solution for Amido Black Water-Ethanol Based 404
+Method of Use 
+404
+Caveats 
+404
+Hungarian Red Water-Based 
+405
+Advantages 
+406
+Disadvantages 
+406
+Method of Use 
+406
+Caveats 
+406
+Aqueous Leucocrystal Violet 
+408
+Advantages 
+408
+Disadvantages 
+409
+Preparation of ALCV 
+409
+Method of Use 
+409
+Caveats 
+409
+Coomassie Brilliant Blue 
+412
+Advantages 
+412
+Disadvantages 
+412
+Preparation of Coomassie Brilliant Blue Methanol Based 
+412
+Coomassie Brilliant Blue Water-Methanol Based 
+413
+Preparation of Coomassie Brilliant Blue Water-Methanol Based 
+413
+Preparation of the Rinse Solution for Water-Methanol Based
+Coomassie Brilliant Blue 
+414
+Method of Use 
+414
+Caveats 
+414
+
+
+--- PAGE 28 ---
+
+Contents
+xxvii
+Crowle’s Double Stain 
+414
+Advantages 
+415
+Disadvantage 
+415
+Preparation of Crowle’s Double Stain 
+415
+Method of Use 
+415
+Caveats 
+416
+Titanium Dioxide Suspension 
+416
+Advantages 
+417
+Disadvantages 
+417
+Preparation of Titanium Dioxide Suspension 
+417
+Method of Use 
+417
+Caveats 
+419
+General Notes of Precaution 
+419
+17
+Approaching the Bloodstain Pattern Case
+421
+Introduction 
+421
+Sequence for Approaching Bloodstain Cases 
+422
+Obtain a Brief Background of the Case 
+422
+Examination of the Crime Scene 
+423
+Initial Review of Crime Scene and Evidence Photographs 
+424
+Examination of Autopsy or Hospital Photographs 
+424
+Examination of Autopsy Protocol or Hospital Records 
+425
+Examination of Crime Scene Sketches/Diagram(s) 
+425
+Examination of Crime Scene and Evidence Photographs 
+426
+Examination of Physical Evidence 
+427
+Sequencing Evidence Examinations 
+428
+Serology Reports 
+429
+Crime Scene Investigator’s Notes and Reports 
+429
+Responding Ofﬁcer’s Notes 
+430
+Emergency Medical Technicians’ Notes or Depositions 
+430
+Additional Forensic Reports 
+430
+Synthesizing the Data 
+431
+Data Synthesis for Bloodstain Pattern (A)
+431
+Formulation and Testing of Hypotheses 
+431
+Data Synthesis for Bloodstain Pattern (A)
+431
+Hypothesis for Bloodstain Pattern (A) 
+431
+Testing of Hypothesis of Bloodstain Pattern (A) 
+431
+Formulation of a Scenario 
+432
+Factors to Consider When Analyzing a Bloodstain Pattern Case 
+432
+18
+Report Writing
+433
+Introduction 
+433
+Scene-Speciﬁc Reports
+434
+Evidence-Speciﬁc Laboratory Reports 
+434
+Final Report 
+434
+
+
+--- PAGE 29 ---
+
+xxviii
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Report Content 
+434
+Report Phrases 
+435
+Introduction of the Report 
+436
+Sample Introduction 
+436
+Body of the Report 
+437
+Crime Scene 
+438
+Physical Evidence 
+438
+Special Issues 
+438
+Conclusion(s) of the Report 
+440
+The Finished Report 
+441
+19
+Legal and Ethical Aspects of Bloodstain 
+Pattern Evidence
+443
+Introduction 
+443
+Legal Issues 
+443
+Admissibility 
+443
+Weight of the Evidence 
+449
+Qualiﬁcations of Experts 
+450
+Burden of Proof 
+454
+Chain of Custody 
+454
+Discovery 
+455
+Direct and Cross-Examination of the Expert 
+459
+Attorney’s Goals and Methods of Direct Examination 
+459
+Demonstrative Evidence 
+460
+Attorneys’ Goals and Methods of Cross-Examination 
+462
+Advice to the Expert — Guidelines for Deposition
+and Trial Testimony 
+464
+Ethical Issues 
+466
+Expert’s Ethics 
+466
+Attorneys’ Ethics in Dealing with Experts 
+467
+Expert Witness Malpractice 
+470
+Conclusion
+478
+20
+Bloodstain Pattern Analysis: Postconviction 
+and Appellate Application
+479
+Introduction 
+479
+A Bit of History 
+479
+The Postconviction Attorney’s Role—The Daunting Task 
+483
+The Appeal 
+483
+Admissibility 
+484
+Expert Qualiﬁcations 
+484
+The Collateral Attack 
+486
+Perjurious Expert Testimony—Newly Discovered Evidence 
+487
+Prosecutorial Misconduct—Denial of Due Process 
+487
+
+
+--- PAGE 30 ---
+
+Contents
+xxix
+Ineffective Assistance of Counsel 
+489
+Conclusion 
+496
+References
+497
+Bloodstain Pattern Analysis 
+497
+Medical and Medical–Legal Aspects of Bloodshed 
+499
+Presumptive Testing and Species Determination of Blood
+and Bloodstains 
+499
+General References 
+499
+Speciﬁc References 
+500
+Luminol 
+502
+Chemical Enhancement of Latent Blood Impressions 
+504
+Appendix A: Trigonometric Tables—Sine
+and Tangent Functions
+505
+Appendix B: Metric Measurements 
+and Equivalents
+507
+Appendix C: Scene and Laboratory
+Checklists
+511
+Appendix D: Biohazard Safety Precautions
+517
+Universal Precautions Policy 
+517
+Human Immunodeﬁciency Virus 
+518
+Hepatitis 
+518
+Basic Rules for Biohazard Safety 
+519
+Minimizing Biohazard Contamination at the Crime Scene 
+519
+Guidelines for the Selection of the Proper Personal
+Protective Equipment 
+520
+Precautions for Evidence Collection 
+520
+Disposables 
+520
+Personal Protective Equipment Removal 
+521
+Selection of Personal Protective Equipment 
+521
+References
+522
+Appendix E: Court Decisions Relating to Bloodstain
+Pattern Analysis
+523
+Appendix F: Court Decisions Relating to Presumptive
+Blood Tests
+527
+Presumptive Testing Cases 
+527
+Luminol Cases 
+527
+Benzidine Cases 
+528
+Orthotolidine/Ortho-Tolidine/o-Tolidine Cases 
+529
+
+
+--- PAGE 31 ---
+
+xxx
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Leucomalachite/Leuco-Malachite Green Cases 
+529
+Hemastix® Case 
+529
+Phenolphthalein Cases 
+530
+Glossary of Terminology
+531
+Index
+533
+
+
+--- PAGE 32 ---
+
+1
+1
+Introduction to Bloodstain 
+Pattern Analysis
+Introduction
+Blood is one of the most signiﬁcant and frequently encountered types of physical evidence
+associated with the forensic investigation of death and violent crime. The identiﬁcation
+and individualization of human bloodstains have progressed over the past 100 years since
+the ABO grouping system was discovered by Landsteiner in 1901. The techniques for the
+individualization of human blood in forensic science relied on the ABO system for many
+years. The development of the characterization of the red cell isoenzymes and serum genetic
+markers in the late 1970s dramatically increased the individualization of human blood.
+The work of Sir Alec Jeffreys in the development of DNA proﬁling in 1985 was a milestone
+in forensic science. Since then the techniques of DNA analysis in forensic cases has rapidly
+evolved through PCR (polymerase chain reaction) and STR (short tandem repeat) tech-
+niques and afforded the forensic scientist a powerful tool for the individualization of
+human blood. Bloodstains collected from a scene of violent death where bloodshed has
+occurred and blood samples collected from clothing of the victim and the accused can
+now provide a link between an assailant and a victim to a high degree of scientiﬁc certainty. 
+The identiﬁcation and individualization of human blood is cojoined with the discipline
+of bloodstain pattern analysis (BPA). BPA focuses on the analysis of the size, shape, and
+distribution of bloodstains resulting from bloodshed events as a means of determining the
+types of activities and mechanisms that produced them. This information coupled with
+DNA individualization and wound interpretation from the autopsy examination of the
+victim by the forensic pathologist provides a basis for the reconstruction of the bloodshed
+events. The scientiﬁc analysis of bloodstain pattern evidence has proved crucial in numer-
+ous cases where the manner of death is questioned and the issue of homicide, suicide,
+accident, or natural death must be resolved in a criminal or civil litigation or proceeding.
+Objectives of Bloodstain Pattern Analysis
+BPA is a discipline that uses the ﬁelds of biology, physics, and mathematics. BPA may be
+accomplished by direct scene evaluation and/or careful study of scene photographs (pref-
+erably color photographs with measuring device in view) in conjunction with detailed
+examination of clothing, weapons, and other objects regarded as physical evidence. Details
+
+
+--- PAGE 33 ---
+
+2
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+of hospital records, postmortem examination, and autopsy photographs also provide useful
+information and should be included for evaluation and study. In cases where a scene inves-
+tigation is not possible and photographs must be relied on, detailed sketches, diagrams,
+reports of crime scene investigators, and laboratory reports should be available for review.
+Relative to the reconstruction of a crime scene, BPA may provide information to the
+investigator in many areas.
+• Areas of convergence and origin of the bloodstains
+• Type and direction of impact that produced bloodstains or spatter
+• Mechanisms by which spatter patterns were produced
+• Assistance with the understanding of how bloodstains were deposited onto items
+of evidence
+• Possible position of victim, assailant, or objects at the scene during bloodshed
+• Possible movement and direction of victim, assailant, or objects at the scene after
+bloodshed
+• Support or contradiction of statements given by accused and/or witnesses
+• Additional criteria for estimation of postmortem interval
+• Correlation with other laboratory and pathology ﬁndings relevant to the investigation
+The goal of the reconstruction of the crime scene using BPA is to assist the overall
+forensic investigation with the ultimate questions that must be addressed, which include,
+but are not limited to, the following:
+• What event(s) occurred?
+• Where did the event(s) occur?
+• When and in what sequence did they occur?
+• Who was there during each event?
+• Who was not there during each event?
+• What did not occur?
+Scientiﬁc Approach to Bloodstain Pattern Analysis
+The approach to BPA must adhere to the scientiﬁc method and rely on the principles of biology,
+physics, and mathematics. Education in these areas is highly recommended. A combination of
+training through formal instruction, personal experimentation, and experience with actual
+casework is necessary before an individual acquires adequate proﬁciency in the analysis of
+bloodstain patterns to answer these types of questions. Contemporaneous experiments to
+duplicate speciﬁc patterns should be considered relative to a given case to support an analysis
+or conclusion. Some conservative speculation is permissible during the initial investigative
+stages of a case. However, ﬁnal opinions, contents of a written report, and ultimate court
+testimony must be based on scientiﬁc fact with no speculation. All potential explanations should
+be explored thoroughly and recognized and acknowledged by the analyst. Analysis of blood-
+stains should be correlated with postmortem and laboratory ﬁndings in an investigation. For
+example, when an arterial spurt pattern is observed, the autopsy report should indicate a cut
+or breached artery in the victim. In those cases where an assailant as well as the victim produces
+bloodshed or where there are multiple victims, the individualization of the bloodstains by the
+forensic laboratory is critical. It is important to stay within the realm of that which can be
+
+
+--- PAGE 34 ---
+
+Introduction to Bloodstain Pattern Analysis
+3
+proven scientiﬁcally and not to overinterpret bloodstain evidence. This axiom particularly
+applies when the number of bloodstains is limited because a single or few small bloodstains
+do not often lend themselves to useful valid analysis. Conclusions based on crime scene pho-
+tographs should be conservative when the investigator has not had the opportunity to examine
+the crime scene personally and must rely on the photographic documentation of others.
+Historical Development
+The study of bloodstain patterns and the consideration of the physical processes in which
+the distribution of these patterns can reconstruct details of activities at scenes of death and
+violent crime have recently emerged as a recognized forensic skill. Historically, bloodstain
+analysis has suffered through a long period of neglect, and as a result investigators in death
+cases frequently have not appreciated the very obvious information available from this
+forensic tool. Signiﬁcant contributions have been made in this discipline as documented
+in the following timeline.
+1895 Dr. Eduard Piotrowski
+The earliest known signiﬁcant study in bloodstain interpre-
+tation that has been documented and preserved was done by Dr. Eduard Piotrowski, assistant
+at the Institute for Forensic Medicine in Krakow, Poland. His work, entitled Uber Entstehung,
+Form, Richtung und Ausbreitung der Blutspuren nach Hiebwunden des Kopfes, was published
+in Vienna in 1895 (Figure 1.1). Piotrowski recognized that “It is of the highest importance
+to the ﬁeld of forensic medicine to give the fullest attention to bloodstains found at the
+Figure 1.1
+The 1895 Eduard Piotrowski published study, Concerning Origin, Shape, Direction
+and Distribution of the Bloodstains following Head Wounds Caused by Blows.
+
+
+--- PAGE 35 ---
+
+4
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+scene of a crime because they can throw light on a murder and provide an explanation for
+the essential moments of the incident.” Through the efforts of Herbert Leon MacDonell of
+Corning, New York, the Historian for the International Association of Bloodstain Pattern
+Analysts, this work has been translated from the German text and reprinted in German and
+English as Concerning Origin, Shape, Direction and Distribution of the Bloodstains following
+Head Wounds Caused by Blows. This work is completely reproduced with color plates of the
+extensive bloodstain experiments performed by Dr. Piotrowski. According to MacDonell,
+“No one preceded Piotrowski in designing meaningful scientiﬁc experiments to show blood
+dynamics with such imagination, methodology and thoroughness. He had an excellent
+knowledge of the scientiﬁc method and a good understanding of its practical application
+to bloodstain pattern interpretation.”
+1900 Dr. Paul Jeserich 
+Subsequent signiﬁcant work involving the study of bloodstain
+patterns at a crime scene is documented by Dr. Paul Jeserich, a forensic chemist in Berlin
+who examined homicide scenes during the ﬁrst decade of the 20th century.
+1939 Dr. Victor Balthazard
+The French scientist Dr. Victor Balthazard and his asso-
+ciates conducted original research and experimentation with bloodstain trajectories and
+patterns and presented a paper at the 22nd Congress of Forensic Medicine entitled Etude
+Des Gouttes De Sang Projete. This was translated from French to English as Research on
+Blood Spatter.
+1955 Dr. Paul Kirk
+Dr. Paul Kirk of the University of California at Berkeley prepared an
+afﬁdavit regarding his ﬁndings based on bloodstain evidence to the Court of Common Pleas
+in the case of the State of Ohio vs. Samuel Sheppard. This was a signiﬁcant milestone in the
+recognition of bloodstain evidence by the legal system. Dr. Kirk was able to establish the
+relative position of the attacker and victim at the time of the administration of the beating.
+1971 Herbert Leon MacDonell
+The further growth of interest and use of the signiﬁcance
+of bloodstain evidence is a direct result of the scientiﬁc research and practical applications
+of bloodstain theory by Herbert Leon MacDonell of Corning, New York (Figure 1.2).
+Through the assistance of a Law Enforcement Assistance Administration (LEAA) grant,
+MacDonell conducted research and performed experiments to re-create and duplicate
+bloodstain patterns observed at crime scenes. This resulted in his publication of the ﬁrst
+modern treatise on bloodstain analysis, entitled Flight Characteristics and Stain Patterns of
+Human Blood (Figure 1.3).
+1973 First Formal Bloodstain Training Course Given
+MacDonell established a training
+program for basic bloodstain pattern interpretation and conducted his ﬁrst Bloodstain
+Institute in Jackson, Mississippi in 1973. His second publication, Laboratory Manual on
+the Geometric Interpretation of Human Bloodstain Evidence, was used by students. Since
+that time he and others have conducted numerous basic and advanced bloodstain analysis
+courses throughout the United States and abroad and trained hundreds of police and crime
+scene investigators, forensic scientists, and crime laboratory personnel.
+I982 Bloodstain Pattern Interpretation Published
+MacDonell expanded his original work
+in a publication entitled Bloodstain Pattern Interpretation.
+1983 Formation of the IABPA
+MacDonell conducted the ﬁrst advanced class for BPA,
+and the participants organized the International Association of Bloodstain Pattern Analysts
+(Figure 1.4).
+
+
+--- PAGE 36 ---
+
+Introduction to Bloodstain Pattern Analysis
+5
+Figure 1.2
+Professor Herbert Leon MacDonell.
+Figure 1.3
+Copy of Flight Characteristics and Stain Patterns of Human Blood, written by
+Professor Herbert Leon MacDonell, that was published in 1971.
+
+
+--- PAGE 37 ---
+
+6
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Experiments and Practical Exercises in Bloodstain Pattern Analysis Published 
+Terry L.
+Laber and Barton P. Epstein cowrote a laboratory manual entitled Experiments and Practical
+Exercises in Bloodstain Pattern Analysis for use in their basic bloodstain analysis courses.
+1989 Interpretation of Bloodstain Evidence at Crime Scenes Published
+The ﬁrst edition
+of the book Interpretation of Bloodstain Evidence at Crime Scenes, written by Dr. William
+G. Eckert and Stuart H. James, was published. This work included numerous case studies
+involving BPA.
+1990 Bloodstain Pattern Analysis —Theory and Practice Published
+Ross Gardner
+and Tom Bevel cowrote a laboratory manual entitled Bloodstain Pattern Analysis —Theory
+and Practice.
+1993 Bloodstain Pattern Analysis in Violent Crimes Published
+T. Paulette Sutton at the
+University of Tennessee in Memphis produced a comprehensive manual entitled Bloodstain
+Pattern Analysis in Violent Crimes.
+1993 Bloodstain Pattern Interpretation Updated to Bloodstain Patterns
+MacDonell
+updated his original bloodstain pattern manual Bloodstain Pattern Interpretation and
+renamed it Bloodstain Patterns.
+1997 Bloodstain Pattern Analysis with an Introduction to Crime Scene Reconstruction
+Published
+Tom Bevel and Ross M. Gardner cowrote the text entitled Bloodstain Pattern
+Analysis with an Introduction to Crime Scene Reconstruction.
+1998 Scientiﬁc and Legal Applications of Bloodstain Pattern Analysis Published
+Edited by Stuart H. James, Scientiﬁc and Legal Applications of Bloodstain Pattern Analysis
+was a compilation of chapters concerning bloodstain analysis and legal issues written by
+Dr. Alfred Carter, William Fischer, Carol Henderson, Paul Kish, Marie Saccoccio, and
+T. Paulette Sutton.
+2001 Blood Dynamics Published
+Anita Wonder wrote the text entitled Blood Dynamics
+in 2001.
+Figure 1.4
+The International Association of Bloodstain Pattern Analysts logo.
+
+
+--- PAGE 38 ---
+
+Introduction to Bloodstain Pattern Analysis
+7
+2004 Herbert Leon MacDonell Received Honorary Degree
+MacDonell received the
+honorary degree of Doctor of Science from the University of Rhode Island in recognition
+of his contributions to forensic science and BPA. 
+As a direct result of MacDonell’s efforts, the evolution of bloodstain analysis in forensic
+science increased rapidly and others have made considerable contributions to the ﬁeld in
+crime scene reconstruction, teaching, research, and publications. 
+Scientiﬁc articles pertaining to aspects of BPA are being seen more frequently in the
+scientiﬁc literature in well-known publications including the Journal of Forensic Sciences,
+Forensic Science International, the American Journal of Forensic Medicine and Pathology, the
+Journal of the Canadian Society of Forensic Science, and the Journal of Forensic Identiﬁcation.
+International Association of Bloodstain Pattern Analysts 
+As of 2004, the IABPA organization consisted of more than 750 members from throughout
+the United States and Canada as well as countries throughout the world including Great
+Britain, Denmark, Finland, Sweden, Norway, the Netherlands, New Zealand, Australia, Taiwan,
+Guam, and Columbia. The association publishes the IABPA News, which is devoted to current
+bloodstain topics, providing a schedule of training courses and exploring such issues as the
+curriculum for basic instructional courses in bloodstain interpretation, uniformity in blood-
+stain terminology, and research in the ﬁeld. The annual IABPA conference agenda includes
+numerous case presentations and research topics by members and guest lecturers.
+Classiﬁcation of Bloodstains
+The conventional method of classifying bloodstains was based on the correlation between
+the velocity of the force inﬂuencing the blood source or drop that governed the charac-
+teristics and size or diameters of the resulting bloodstains. Three basic categories of stain
+groups were used based on the concept that the size of the bloodstain being inversely
+proportional to the force applied to the static blood. 
+Low-Velocity Impact Blood Spatter
+Low-velocity impact spatters (LVIS) are bloodstains created when the source of blood is
+subjected to a force with a velocity up to 5 ft/sec. Primary stains measure generally 4 mm
+in diameter or greater. 
+Medium-Velocity Impact Blood Spatter 
+Medium-velocity impact spatters (MVIS) are bloodstains created when the source of blood
+is subjected to a force with a velocity in the range of 5 to 25 ft/sec. The diameters of the
+resulting stains are in the size range of 1 to 3 mm, although smaller and larger stains may
+be present. Stains in this category were usually associated with beatings and stabbings.
+High-Velocity Impact Blood Spatter
+High-velocity impact spatters (HVIS) are bloodstains created when the source of blood is
+subjected to a force with a velocity of greater than 100 ft/sec. The diameters of the spatters
+
+
+--- PAGE 39 ---
+
+8
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+are predominately less than 1 mm, although smaller and larger stains are often observed
+within the pattern. Stains in this category were usually associated with gunshot injuries.
+Other mechanisms that produced stains within the size range of the conventional medium-
+and high-velocity categories such as satellite spatter and expiratory bloodstains were not
+appreciated to the extent that misinterpretations could and did occur.
+Many bloodstain analysts have chosen to discontinue this conventional terminology
+and classiﬁcation for a more holistic approach to bloodstain classiﬁcation. The issues that
+kindled the rethinking of the conventional classiﬁcation of low-medium-high velocity were
+the overlapping of stain sizes between the medium- and high-velocity categories and the
+realization that mechanisms other than beatings, stabbings, and gunshots frequently pro-
+duced stains with size ranges within these categories. The bloodstains and patterns are
+classiﬁed based on their physical features of size, shape, location, concentration, and distri-
+bution into passive stains, spatter stains, or altered stains. They are further classiﬁed relative
+to mechanisms that may produce stains with those characteristics with reference to pertinent
+scene, medical and case related facts, and history of the evidence. The analyst may then be
+able to establish the speciﬁc mechanism(s) by which the pattern was created.
+Acceptance within the Scientiﬁc Community
+The reliability of scientiﬁc evidence must be addressed within the forensic science com-
+munity including the discipline of BPA. The courts make a preliminary determination of
+relevance and admissibility of scientiﬁc evidence as to whether it is relevant, competent,
+and properly applied to the facts of the case. So-called “pseudoscience” has no place in the
+judicial process. This is referred to as the “gatekeeping” function of the court. Some states
+apply the Frye standard, although many apply the Daubert standard. The interpretation
+of a Frye inquiry is to determine whether or not the procedure, evidence, or proposed
+testimony is relevant and has gained general acceptance within the scientiﬁc community.
+Daubert substitutes a reliability test for a relevancy test. Scientiﬁc knowledge must be
+derived from the scientiﬁc method supported by validation of expert testimony establishing
+a standard of evidentiary reliability. The factors for Daubert are outlined as follows:
+• Has the scientiﬁc theory or technique been empirically tested?
+• Has the scientiﬁc theory or technique been subjected to peer review and publication?
+• What is the known or potential error rate?
+• What are the expert’s qualiﬁcations and stature in the scientiﬁc community?
+• Can the technique and its results be explained with sufﬁcient clarity and simplicity
+so that the court and the jury can understand its plain meaning?
+Scientiﬁc Working Group for Bloodstain Pattern Analysis 
+The Federal Bureau of Investigation (FBI) Laboratory has actively organized and funded
+Scientiﬁc Working Groups (SWG) to establish professional forums composed of experts
+from local, state, federal, and international agencies as well as academic scientists and
+private practitioners to address issues within speciﬁc forensic disciplines. The Scientiﬁc
+Working Group on Bloodstain Pattern Analysis (SWGSTAIN) was established, and the ﬁrst
+meeting was held at the FBI Academy in Quantico, Virginia in March 2002. Recognized
+
+
+--- PAGE 40 ---
+
+Introduction to Bloodstain Pattern Analysis
+9
+bloodstain pattern analysts and practitioners in related ﬁelds from North America and
+Europe convened to discuss and evaluate methods, techniques, protocols, quality assurance,
+education, and research relating to BPA. The group meets biannually. Subcommittees were
+established in the following areas:
+• Education and Training. This subcommittee addresses educational standards for
+students and instructors as well as standards for continuing education. 
+• Legal. This subcommittee addresses issues of scientiﬁc acceptance, peer review,
+publications, error rates, and existence of standards.
+• Quality Assurance. This subcommittee addresses issues of report writing, proﬁ-
+ciency testing, methodology, and standard operating procedures.
+• Research. This subcommittee addresses issues of development of new methodolo-
+gies, standards, resources, references, and validation.
+• Taxonomy and Terminology. This subcommittee addresses taxonomy, glossary, and
+deﬁnitions.
+Education and Training in Bloodstain Pattern Analysis
+Bloodstain analysts represent a range of forensic scientists and crime scene investigators with
+diverse levels of education. The courts have accepted testimony from individuals with strong
+backgrounds in chemistry, biology, and physics. Many of these individuals possess degrees in
+science and/or forensic medicine. Many of these individuals are employed in crime laboratories
+or medical examiner ofﬁces that have crime scene responsibilities. Crime scene investigators,
+evidence technicians, and detectives who do not necessarily possess scientiﬁc backgrounds
+have also offered expert testimony. However, college-level courses in geometry, trigonometry,
+and basic physics are valuable assets for the understanding of BPA.
+It is highly recommended that individuals enroll in a basic 40-hr course in BPA. These
+courses are usually taught over a 5-day period and occasionally as a semester course at a
+college or university by qualiﬁed instructors at numerous locations in the United States
+and abroad. They provide instruction in the theory and practical aspects of BPA, case
+presentations, and opportunities to perform laboratory experiments. Participation in lab-
+oratory experiments is crucial for understanding the dynamics of bloodstain pattern pro-
+duction and the mechanisms involved. Students create stain patterns similar to those
+present at crime scenes using various types of apparatuses. Patterns are created on card-
+board and other surfaces that may be preserved and retained for future reference.
+Advanced courses are also available following the successful completion of a basic
+course. The advanced courses are designed to review basic concepts and provide additional
+training in areas not explored in the basic courses. For example, an advanced course may
+concentrate on computer analysis; digital imaging; examination of bloodstained clothing
+and footwear; mock crime scenes; and, in some cases, mock trials. Students are encouraged
+to present cases to the group for peer review sessions. Successful completion of basic and
+advanced courses in BPA does not imply that an individual is a qualiﬁed bloodstain analyst.
+The formal education must be coupled with years of experience with crime scenes and
+evidence examinations along with regular attendance at scientiﬁc seminars or conferences.
+It is also important to stay abreast of the information in scientiﬁc journals and periodicals.
+Membership in professional organizations is encouraged. Students who have success-
+fully completed a basic course in BPA are qualiﬁed to apply for membership in the IABPA.
+
+
+--- PAGE 41 ---
+
+10
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Conclusion
+The taxonomic approach to the classiﬁcation of bloodstains and patterns is not entirely
+new. It has been discussed among bloodstain pattern analysts for a long time and has been
+described to varying extents in several texts published within the past ten years. The
+hierarchy of bloodstain categories that are discussed in this text combines the geometric
+characterization of the bloodstains with the events that caused the bloodstains (Figure 1.5).
+The objective is to strengthen the scientiﬁc process of BPA in actual casework through the
+ultimate test in the legal process and the courts. The variable level taxonomic classiﬁcation
+is not complex but addresses the issue of the mechanisms that produce overlapping patterns
+with respect to the size of the stains. The structure of the categories will permit the analyst
+to begin with the primary bloodstain pattern categories — namely, passive, spatter, and
+altered — and proceed to speciﬁc subcategories based on case-driven facts.
+Figure 1.5
+Bloodstain pattern categories.
+Bloodstain Pattern Categories
+Bloodstains
+Passive
+Spatter
+Altered
+Transfer
+Flow
+Secondary
+Mechanism
+Diluted
+Impact
+Mechanism
+Clotted
+Large
+Volume
+Drop(s)
+Projection
+Mechanism
+Diffused
+Sequenced
+Insects
+Voids
+
+
+--- PAGE 42 ---
+
+References
+Appendix D: Biohazard Safety Precautions
+Figure D.1 Personal protective equipment (PPE) decision
+tree.
+
+
+--- PAGE 43 ---
+
+497
+References
+Bloodstain Pattern Analysis 
+Balthazard, V., Piedelievre, R., DeSoille, H., and DeRobert, L. Etude des Gouttes de Sang Projecte.
+Presented at the 22nd Congress of Forensic Medicine, Paris, France, 1939.
+Beneke, M., and Barksdale, L., Distinction of Bloodstain Patterns from Fly Artifacts, Forensic Science
+International, 2003.
+Betz, P., Peschel, O., Stiefel, D., and Eisenmenger, W., Frequency of Blood Spatters on the Shooting
+Hand and of Conjunctival Petechiae Following Suicidal Gunshot Wounds to the Head,
+Forensic Science International, 76, 1995, pp. 47–53.
+Bevel, T., and Gardner, R.M., Bloodstain Pattern Analysis: With an Introduction to Crime Scene
+Reconstruction, 2nd Edition, CRC Press, LLC, Boca Raton, FL, 2002.
+Burnett, B.R., Detection of Bone and Bone-Plus-Bullet Particles in Backspatter from Close-Range
+Shots to the Head, Journal of Forensic Sciences, Vol. 36, No. 6, November, 1991, pp. 1745–1752.
+Byrd, J.H., and Castner, J.L., Forensic Entomology: The Utility of Arthropods in Forensic Investigations,
+CRC Press, Boca Raton, FL, 2001.
+DiMaio, V.J.M., Gunshot Wounds: Practical Aspects of Firearms, Ballistics and Forensic Techniques, 2nd
+Ed, CRC Press, Boca Raton, FL, 1999.
+DeForest, P.R., Gaensslen, R.E., and Lee, H.C., Forensic Science: An Introduction to Criminalistics,
+McGraw-Hill, New York, 1983, pp. 295–308. 
+Evans, G.A., Evans, G.M., Seal, R.M., and Craven, J.L., Spontaneous Fatal Haemorrhage Caused by
+Varicose Veins, Lancet, 2:1359–1361, 1973.
+Gardner, R.M., Practical Crime Scene Processing and Investigation, CRC Press, LLC, Boca Raton, FL, 2004.
+Gray, Henry, Gray’s Anatomy, Crown Publishers, Bounty Brooks, New York, 1977.
+Haglund, W.D., and Sorg, M.H., Forensic Taphonomy: The Postmortem Fate of Human Remains,
+CRC Press, LLC, Boca Raton, FL, 1997, pp 436–437.
+Hueske, E.E., Some Observations Concerning the Deposition of Blood on Handguns as a Result of
+Back Spatter from Gunshot Wounds, Southwestern Association of Forensic Science Journal,
+19-1, 1997, pp. 19–20.
+James, S.H., Ed., Scientiﬁc and Legal Applications of Bloodstain Pattern Interpretation, CRC Press,
+LLC, Boca Raton Florida, 1999.
+James, S.H., Eckert, W.G., Interpretation of Bloodstain Evidence at Crime Scenes, 2nd Edition, CRC
+Press, LLC, Boca Raton, FL, 1999.
+
+
+--- PAGE 44 ---
+
+498
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+James, S.H., Edel, C.F., Bloodstain Pattern Interpretation, Introduction to Forensic Sciences, W.E.
+Eckert, Ed., CRC Press, LLC, Boca Raton, FL, 1997.
+James, S.H., and Nordby, J.J., Eds., Forensic Science: An Introduction to Scientiﬁc and Investigative
+Techniques, CRC Press, LLC, Boca Raton, FL, 2002.
+Karger, B., Nusse, R., Schroeder, G., Wustenbecker, S., and Brinkmann B., Backspatter from Experi-
+mental Close-Range Shots to the Head: I. Microbackspatter, International Journal of Legal
+Medicine, 109, 1996, p. 66–74.
+Karger, B., Nusse, R., Troger, H.D., and Brinkmann, B., Backspatter from Experimental Close-Range
+Shots to the Head: II. Microbackspatter and the Morphology of Bloodstains, International
+Journal of Legal Medicine, 110, 1997, pp. 27–30.
+Karger, B., Nusse, R., and Banganowski, T. Backspatter on the Firearm and Hand in Experimental
+Close-Range Gunshots to the Head, American Journal of Forensic Medicine and Pathology,
+23, 2002, pp. 211–213.
+Kirk, P.L., Crime Investigation, 2nd ed., John Wiley and Sons, New York, 1974, pp. 167–181.
+Kish, P.E., and MacDonell, H.L., Absence of Evidence Is not Evidence of Absence, Journal of Forensic
+Identiﬁcation, 46, No. 2, March/April, 1996, pp. 160–164.
+Laber, T.L., Diameter of a Bloodstain as a Function of Origin, Distance Fallen and Volume of Drop,
+IABPA News, Vol. 2, No.1, 1985, pp. 12–16.
+Laber, T.L., and Epstein, B.P., Bloodstain Pattern Analysis, Callen Publishing Company, Minneapolis,
+1983.
+Lee, H.C., Palmbach, T.M., and Miller, M.T., Henry Lee’s Crime Scene Handbook, Academic Press,
+San Diego, 2001.
+Lehrman, R.L., Physics: The Easy Way, 3rd ed., Barron’s Educational Series, Inc., Hauppaugh, New
+York, 1998.
+MacDonell, H.L., Interpretation of Bloodstains: Physical Considerations, Legal Medicine Annual,
+Wecht, C., Ed., Appleton, Century Crofts, New York, 1971, pp. 91–136.
+MacDonell, H.L., and Bialousz, L., Flight Characteristics and Stain Patterns of Human Blood, United States
+Department of Justice, Law Enforcement Assistance Administration, Washington, DC, 1971.
+MacDonell, H.L., and Bialousz, L. Laboratory Manual on the Geometric Interpretation of Human
+Bloodstain Evidence, Laboratory of Forensic Science, Corning, New York, 1973.
+MacDonell, H.L., and Brooks, B., Detection and Signiﬁcance of Blood in Firearms, Legal Medicine
+Annual, Wecht, C., Ed., Appleton-Century-Crofts, New York, 1977, pp. 185–199.
+MacDonell, H.L., and Panchou, C., Bloodstain Patterns on Human Skin, Journal of the Canadian
+Society of Forensic Science, Vol. 12, No. 3, Sept. 1979, pp. 134–141.
+MacDonell, H.L., Criminalistics, Bloodstain Examination, Forensic Sciences, Vol. 3, Wecht, C., Ed.
+Matthew Bender, New York, 1981, 37.1–37.26.
+MacDonell, H.L., Bloodstain Patterns — Revised, Laboratory of Forensic Science, Corning, NY, 1997.
+MacDonell, H.L., Another Confusing Bloodstain Pattern, IABPA News, Vol. 20, No.3, September
+2004, pp. 11–14.
+Pex, J.O., and Vaughn, C.H., Observations of High Velocity Blood Spatter on Adjacent Objects,
+Journal of Forensic Sciences, Vol. 32, No. 6, November 1987, pp. 1587–1594.
+Piotrowski, E., Uber Entstehung, Form, Richtung und Ausbreitung der Blutspuren nach Heibwundendes
+Kopfes, K.K. Universitat, Wein, 1895.
+Pizzola, P.A., Roth, S., and DeForest, P.R., Blood Droplet Dynamics — I, Journal of Forensic Sciences,
+Vol. 31, No. 1, pp. 36−49, Jan. 1986.
+
+
+--- PAGE 45 ---
+
+References
+499
+Pizzola, P.A., Roth, S., and DeForest, P.R., Blood Droplet Dynamics — II, Journal of Forensic Sciences,
+Vol. 31, No. 1, January 1986, pp. 50–64.
+Raymond, M.A., Smith, E.R., and Liesegang, J., The Physical Properties of Blood — Forensic Con-
+siderations, Science and Justice, Vol. 36, 1996, pp. 153–160.
+Reynolds, M., The ABA Card® Hematrace® — A Conﬁrmatory Identiﬁcation of Human Blood
+Located at Crime Scenes, IABPA News, Vol. 20, No. 2, June 2004, pp. 4–10.
+Rolling and Rolling, Facts and Formulas, McNaughten and Gunn, Nashville, TN, 1973.
+Sallah, S., and Bell, A., The Morphology of Human Blood Cells, 6th ed., Abbott Diagnostics, 2003.
+Sparks, R. Chronic Venous Insufﬁciency Syndrome, IABPA News, Vol. 20, No. 3, September 2004.
+Stephens, B.G., and Allen, T.B., Back Spatter of Blood from Gunshot Wounds — Observations and
+Experimental Simulation, Journal of Forensic Sciences, Vol. 28, No. 2, April 1983, pp. 437–439.
+Sutton, T.P., Bloodstain Pattern Analysis in Violent Crimes, Division of Forensic Pathology, University
+of Tennessee, Memphis, TN, 1993.
+White, R.B., Bloodstain Patterns of Fabrics — The Effect of Drop Volume, Dropping Height and
+Impact Angle, Journal of the Canadian Society of Forensic Science, Vol. 19, No. 1, 1986, pp. 3–36.
+Wonder, A.Y., Blood Dynamics, Academic Press, San Diego, 2001.
+Yen, K., Thali, M.J., Kneubuehl, B.P., Peschel, O., Zollinger, U., Dirnhofer, R. Blood Spatter
+Patterns — Hands Hold Clues for the Forensic Reconstruction of the Sequence of Events,
+American Journal of Forensic Medicine and Pathology, Vol. 24, No.2, June 2003, pp. 132–140.
+Medical and Medical–Legal Aspects of Bloodshed
+DiMaio, V.J., and DiMaio, D., Forensic Pathology, 2nd ed., CRC Press, Boca Raton, FL, 2001.
+DiMaio, V.J., Gunshot Wounds: Practical Aspects of Firearms, Ballistics and Forensic Techniques, 2nd ed.,
+CRC Press, Boca Raton, FL, 1999.
+Moritz, A.R. The Pathology of Trauma, 2nd ed., Lee and Febiger, Philadelphia, 1954.
+Knight, B., Forensic Pathology, 2nd ed., Oxford University Press, New York, 1996.
+Spitz, W.U., Ed., Medicolegal Investigation of Death, 3rd ed., Charles C. Thomas, Springﬁeld, IL, 1993.
+Presumptive Testing and Species Determination
+of Blood and Bloodstains
+General References
+Deforrest, P., Gaensslen, R.E., and Lee, H.C., Forensic Science: An Introduction to Criminalistics,
+McGraw-Hill Book Company, New York, Chapter 9, 1983.
+Gaensslen, R.E. Sourcebook in Forensic Serology, Immunology and Biochemistry, U.S. Government
+Printing Ofﬁce, Washington, DC, Units 2, 4, 5, 6, 7, 9, 1983.
+Saferstein, R. Criminalistics: An Introduction to Forensic Science, 6th ed., Prentice-Hall Inc., Engle-
+wood Cliffs, NJ, 1997.
+Spalding, R.P., FBI Laboratory Serology Unit Protocol Manual, U.S. Department of Justice, Federal
+Bureau of Investigation, Sections 2, 3, 4, 5 and 11, May, 1989.
+Sutton, T.P., Presumptive Blood Testing, In James, S. H., Ed., Scientiﬁc and Legal Applications of
+Bloodstain Pattern Interpretation, CRC Press, Boca Raton, Chapter 4, 1999.
+
+
+--- PAGE 46 ---
+
+500
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Speciﬁc References
+Adler, O., and Adler, R., The Reaction of Certain Organic Compounds with Blood, With Particular
+Reference to Blood Identiﬁcation, Hoppe-Seyler’s Z. Physiol. Chem., 41, 59, 1904. Translation
+in Gaensslen, R.E. Sourcebook in Forensic Serology, Immunology and Biochemistry, U.S. Gov-
+ernment Printing Ofﬁce, Washington, DC, Unit 9, 1983.
+ABACard, HemaTrace, Abacus Diagnostics, product literature, 1998.
+Bell, G.H., Breslin, P., and Lemen, R., Eds., Health Hazard Alert: Benzidine-, O-tolidine, and O-
+dianisidine-based Dyes, DHHS (NIOSH) Publication No. 81-106, U.S. Department of Labor
+and U.S. Department of Health and Human Services, 1980.
+Budowle, B., Leggitt, J.L., Defanbaugh, D.A., Keys, K.M., Malkiewicz, S.F., The Presumptive Reagent
+Fluorescein for the Detection of Dilute Bloodstains and Subsequent STR Typing of Recovered
+DNA, J. Forensic Sci., 45, 1090, 2000.
+Cheeseman, R., and DiMeo, L.A., Fluorescein as a Field-Worthy Latent Bloodstain Detection System,
+J. Forensic Ident., 45, 631–646, 1995.
+Cheeseman, R., Direct Sensitivity Comparison of the Fluorescein and Luminol Bloodstain Enhance-
+ment Techniques, J. Forensic. Ident., 49, 261–268, 1999.
+Cheeseman, R., and Tomboc, R., Fluorescein Techinque Performance Study on Bloody Foot Trails,
+J. Forensic Ident., 51, 16–27, 2001.
+Cox, M., A Study of the Sensitivity and Speciﬁcity of Four Presumptive Tests for Blood, J For. Sci.,
+36, 1503, 1991.
+Curtius, T., and Semper, A., Verhalten des 1-äthylesters der 3-notro-benzol-1,2-dicarbonsäure gegen
+hydrazin, Ber. Dtsch. Chem. Ges., 46, 1162, 1913.
+Dilling, W.J., Haemochromogen crystal test for blood, Brit. Med. J., 1, 219, 1926.
+Fleig, C., Nouvelle reaction, a la ﬂuorescine, pour la recherche du sang, en particulier dans l=urine,
+C.R. Soc. Biol. 69, 192–194, 1910.
+Garner, D.D., Cano, K.M., Peimer, R.S., and Yeshion, T.E., An Evaluation of Tetramethylbenzidine
+as a Presumptive Test for Blood, J. Forensic Sci., 21, 816–821, 1979.
+Gimeno, F.E., and Rini, G.A., Fill Flash Luminescence to Photograph Luminol Blood Stain Patterns,
+J. Forensic Ident., 39, 149–156, 1989a.
+Gimeno, F.E., Fill Flash Color Photography to Photograph Luminol Blood Stain Patterns, J. Forensic
+Ident., 39, 305–306, 1989b.
+Grispino, R.R.J., The Effect of Luminol on the Serological Analysis of Dried Human Bloodstains,
+Crime Laboratory Digest, 17, 13–23, 1990.
+Gross, A.M., Harris, K.A., and Kaldun,G.L., The Effect of Luminol on Presumptive Tests and DNA
+Analysis Using the Polymerase Chain Reaction, J. For. Sci., 44, 8837–840, 1999.
+Harrow, B., Borek, E., Mazur, A., Stone, G.C.H., Wagreich, H., Laboratory Manual of Biochemistry,
+5th ed., W.B. Saunders Co., Philadelphia, 75, 1960.
+Hatch, A.L., A Modiﬁed Reagent for the Conﬁrmation of Blood, J. For. Sci., 38, 1502–1506, 1993.
+Higaki, R.S., and Philp, W.M.S., A Study of the Sensitivity, Stability and Speciﬁcity of Phenolphtha-
+lein as an Indicator Test for Blood, Can. Soc. Forens. Sci. J., 9, 97, 1976.
+Hochmeister, M.N., Budowle, B., and Baechtel, F.S., Effects of Presumptive test reagents on the
+Ability to Obtain Restriction Fragment Length Polymorphism (RFLP) Patterns from Human
+Blood and Semen Stains, J. Forensic Sci., 35, 656, 1991.
+Hochmeister, M.N., Budowle, B., Sparkes, R., Rudin, O., Gehrig, C., Thali, M., Schmidt, L., Cordier,
+A., and Dirnhofer, R., Validation Studies of an Immunochromatographic 1-Step Test for the
+Forensic Identiﬁcation of Human Blood, J. Forensic Sci., 44, 597–602, 1999.
+
+
+--- PAGE 47 ---
+
+References
+501
+Holland, V.R., Saunders, B.C., Rose, F. and Walpole, A., A Safer Substitute for Benzidine in the
+Detection of Blood, Tetrahedron, 30, 3299, 1974.
+Hunt, A.C., Corby, C., Dodd, B.E., and Camps, F.E., The Identiﬁcation of Human Blood Stains: A
+Critical Survey, J. For. Med., 7, 112, 1960.
+Huntress, E.H., Stanley, L.N., and Parker, A.S., The preparation of 3-aminophthalhydrazide for use
+in the demonstration of chemiluminescence, J. Am. Chem. Soc., 56, 241, 1934.
+Johnston, S., Newman, J., and Frappier, R., Validation Study of the Abacus Diagnostics ABAcard®
+HemaTrace® Membrane Test for the Forensic Identiﬁcation of Human Blood, Can. Soc. For.
+Sci. J., 36, 2003.
+Kastle, J.H., and Shedd, O.M., Phenolphthalein as a Reagent for the Oxidizing Ferments, Am.
+Chem. J., 26, 526, 1901.
+Kastle, J.H., and Amoss, H.L., Variations in the Peroxidase Activity of the Blood in Health and Disease,
+Bulletin No. 31, U.S. Hygienic Laboratory, U.S. Government Printing Ofﬁce, Washington,
+DC, 1906. 
+Kerr, D.J.A., and Mason, V.H., The haemochromogen crystal test for blood, Brit. Med. J., 1, 134, 1926.
+Kirk, P.L., Crime Investigation, Interscience Publishers, Inc., New York, 105, 1963.
+Laux, D.L., Effects of Luminol on Subsequent Analysis of Bloodstains, J. Forensic Sci., 36, 1512–1520,
+1991.
+Lee, H.C., and DeForest, P.R., The Use of Anti-human Hb Serum for Bloodstain Identiﬁcation,
+Presented at 29th Annual Meeting, American Academy of Forensic Sciences, San Diego, 1977. 
+Lee, H.C., Identiﬁcation and Grouping of Bloodstains, In Saferstein, R., Ed., Forensic Science Hand-
+book, Prentice Hall, Englewood Cliffs, NJ, Chapter 7, 1982.
+Loy, T.H., and Wood, A.R., Blood Analysis at Çayönü Tepesi, Turkey, J. Field Archeol., 16, 451–460, 1989.
+Lytle, L.T., and Hedgecock, D.G., Chemiluminescence in the Visualization of Forensic Bloodstains,
+J. Forensic Sci., 23, 550, 1978.
+Macey, H.L., The Identiﬁcation of Human Blood in a 166 Year Old Stain, Can Soc. For. Sci. J., 12,
+191–193, 1979.
+Material Safety Data Sheet, Fluorescein, Mallinckrodt Baker, Inc., Phillipsburg, NJ, 1999.
+Material Safety Data Sheet, 3 aminophthalhydrazide (Luminol), Fluka Chemical Corp., Milwaukee,
+WI, 2001.
+Miles Laboratories, Product Literature, Hemastix, 1981 and 1992.
+Ouchterlony, O., Antigen-antibody Reactions in Gels, Acta Pathol. Microbiol. Scand., 26, 507, 1949.
+Ouchterlony, O., Handbook of Immunodiffusion and Immunoelectrophoresis, An Arbor Science Pub-
+lishers, Inc., Ann Arbor, Chapter 5, 1968.
+Ponce, A.C., and Verdu Pascual, F.A., Critical Revision of Presumptive Tests for Bloodstains, Forensic
+Science Communications, 1, #2, 1999.
+Proescher, F., and Moody, A.M., Detection of blood by means of chemiluminescence, J. Lab. Clin.
+Med., 24, 1183, 1939.
+RCMP, Fingerprint Development Techniques, www.rcmp.ca/ﬁrs/recipes/leucomalachite_e.htm,
+2001. 
+Reynolds, M., The ABAcard® Hematrace®: Conﬁrmatory Identiﬁcation of Human Blood Located at
+Crime Scenes, International Association of Bloodstain Pattern Analysts News, 20(2), June 2004.
+Silenieks, E., Atkinson, C., and Pearman, C., Use of the ABAcard® Hematrace® for the Detection
+of Higher Primate Blood in Bloodstains, 17th International Symposium on the Forensic
+Sciences, Wellington, New Zealand, 2004.
+
+
+--- PAGE 48 ---
+
+502
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Spear, T.F., and Brinkley, S.A., The HemeSelect™ Test: A Simple and Sensitive Forensic Species Test,
+J. Forensic Sci. Soc., 34, 41–46, 1994.
+Sutton, T.P., Presumptive Blood Testing, In James, S.H., Ed., Scientiﬁc and Legal Applications of
+Bloodstain Pattern Interpretation, CRC Press, Boca Raton, FL, Chapter 4, 1999.
+Takayama, M., A Method for Identifying Blood by Hemochromogen Crystallization, Kokka Igakkai
+Zasshi, No. 306, 463-481, 1912, Translation in Gaensslen, R.E., Sourcebook in Forensic Serology,
+Immunology and Biochemistry, U.S. Government Printing Ofﬁce, Washington, DC, Unit 9,
+1983.
+Teichmann, L., Concerning the Crystallization of Organic Components of Blood,  Z. Ration. Med.,
+3, 375–388, 1853. Translation printed in presented in Gaensslen, R.E., Sourcebook in Forensic
+Serology, Immunology and Biochemistry, U.S. Government Printing Ofﬁce, Washington, DC,
+Unit 9, 1983.
+Vandenberg, N., and McMahon, K., Evaluation of OneStep® ABAcard® p30 and Hematrace® Tests
+for use in Forensic Casework, 17th International Symposium on the Forensic Sciences,
+Wellington, New Zealand, 2004.
+Zweidinger, R.A., Lytle, L.T., and Pitt, C.G., Photography of Bloodstains Visualized by Luminol,
+J. Forensic Sci., 18, 296, 1973. 
+Luminol
+Albrecht, H.O., Uber die Chemiluminescenz des Aminophthalaurehydrazids. Z. Phys. Chem.
+(Leipzig), 136:321–330, 1928.
+Ballou, S.M., Moves of Murder. Journal of Forensic Sciences, 40(4):675–680, 1995.
+Cresap, T.R., et al. 1995. The Effects of Luminol and Coomassie Blue on DNA typing by PCR.
+Presented at the 47th annual American Academy of Forensic Sciences Meeting, Seattle, WA,
+1995.
+Della Manna, A., and Montpetit, S., A Novel Approach to Obtaining Reliable PCR Results from
+Luminol Treated Bloodstains. Journal of Forensic Sciences, 45(4):886–890, 2000.
+Duncan, G.T., Seiden, H., Vallee, L., and Ferraro, D., Effects of Superglue, Other Fingerprint
+Developing Agents, and Luminol on Bloodstain Analysis. Journal Assoc. Anal. Chem., 69(4):
+677–680, 1986.
+Erdey, L., Pickering, W.F., and Wilson, C.L., Mixed Chemiluminescent Indicators. Talanta,
+9:371–375, 1962.
+Fregeau, C.J., Germain, O., and Fourney, R.M., Fingerprint Enhancement Revisited and the Effects
+of Blood Enhancement Chemicals on Subsequent Proﬁler Plus™ Fluorescent Short Tandem
+Repeat DNA Analysis of Fresh and Aged Bloody Fingerprints. Journal of Forensic Sciences,
+45(2):354–379, 2000.
+Gaensslen, R.E., Sourcebook in Forensic Serology, Immunology, and Biochemistry, Superintendent of
+Documents, U.S. Government Printing Ofﬁce, Washington, DC, 1983.
+Gill, S.K., New Developments in Chemiluminescence Research. Aldrichimica Acta, 16:59–61,
+1983.
+Gimeno, F.E., Fill Flash Color Photography to Photograph Luminol Bloodstain Patterns. Journal
+Forensic Identiﬁcation, 39:305–306, 1989.
+Gimeno, F.E., and Rini, G.A., Fill Flash Photo Luminescence to Photograph Luminol Blood Stain
+Patterns. Journal Forensic Identiﬁcation, 39:149–156, 1989.
+
+
+--- PAGE 49 ---
+
+References
+503
+Gleu, K., and Pfannstiel, K., Uber 3-Aminophthalsaure-hydrazid. J. Prakt. Chem., 146:137–150,
+1936.
+Grispino, R.R.J., The Effect of Luminol on the Serological Analysis of Dried Human Bloodstains.
+Crime Laboratory Digest, 17(1):13–23, 1990.
+Grodsky, M., Wright, K., and Kirk, P.L., Simpliﬁed Preliminary Blood Testing. An Improved Technique
+and Comparative Study of Methods. J. Crim. Law Criminol. Police Science, 42:95–104, 1951.
+Gross, A.M., Harris, K.A., and Kaldun, G.L., The Effect of Luminol on Presumptive Tests and DNA
+Analysis Using the Polymerase Chain Reaction. Journal of Forensic Sciences, 44(4):837–840,
+1999.
+Gundermann, K.D., Chemiluminescence in Organic Compounds. Angewandte Chemie (Interna-
+tional Edition), 4:566–573, 1965.
+Hochmeister, M.N., Budowle, B., and Baechtel, F.S., Effects of Presumptive Test Reagents on the
+Ability to Obtain Restriction Fragment Length Polymorphism (RFLP) Patterns from Human
+Blood and Semen Stains. Journal of Forensic Sciences, 36(3):656–661, 1991.
+Hochmeister, M.N., Budowle, B., Sparkes, R., Rudin, O., Gehrig, C., Thali, M., Schmidt, L., Cordier,
+A., and Dirnhofer, R., Validation Studies of an Immunochromatographic 1-Step Test for
+the Forensic Identiﬁcation of Human Blood. Journal of Forensic Sciences (44)3:597–601,
+1999.
+Huntress, E.H., Stanley, L.N., and Parker, A.S., The Preparation of 3-Aminophthalhydrazide For
+Use in The Demonstration of Chemiluminescence. J. Amer. Chem. Soc., 56:241–242, 1934.
+Laux, D.L., Effects of Luminol on the Subsequent Analysis of Bloodstains. Journal of Forensic Sciences,
+36(5):1512–1520, 1991.
+Lytle, L.T., and Hedgecock, D.G., Chemiluminescence in the Visualization of Forensic Bloodstains.
+Journal of Forensic Sciences, 23:550–555, 1978.
+McGrath, J., The Chemical Luminescence Test For Blood. British Medical Journal, 2:156–157, 1942.
+Niebauer, J.C., Booth, J.B., and Brewer, B.L., Recording Luminol Luminescence in its Context Using
+a Film Overlay Method. J. Forensic Ident., 40(5):271–278, 1990.
+Proescher, F., and Moody, A.M., Detection of Blood By Means of Chemiluminescence. J. Lab. Clin.
+Med., 24:1183–1189, 1939.
+Specht, W., The Chemiluminescence of Hemin: An Aid For Finding and Recognizing Blood Stains
+Important For Forensic Purposes. Angewante Chemie, 50:155–157, 1937.
+Tamamushi, B., and Akiyama, H., Mechanism of the Chemiluminescence of 3-Aminophthalhy-
+drazide. Zeitschrift Fuer Physikalische Chemie, 38:400–406, 1938.
+Thornton, J.I., and Maloney, R.S., The Chemistry of the Luminol Reaction: Where to From Here?
+Calif. Assoc. Crim. Newsletter, Sept:9–16, 1985.
+Thornton, J.I., and Murdock, J.E., Photography of Luminol Reaction in Crime Scenes. Criminol.,
+10(37):15–19, 1977.
+Weber, K., Die Anwendung der Chemiluminescenz des Luminols in der gerichtlichen Medizin und
+Toxicologie. I. Der Nachweis von Blutspuren. Z. Gesamte Gerichtl. Med., 57:410–423, 1966.
+White, E.H., The Chemiluminescence of Luminol. In McElroy, W.D., and Glass, B. Eds., Light and
+Life, Johns Hopkins Press, Baltimore, MD, 1961, pp. 183–195.
+White, E.H., and Bursey, M.M., Chemiluminescence of Luminol and Related Hydrazides: The Light
+Emission Step. Journal of the American Chemical Society, 86:941–942, 1964.
+Zweidinger, R.A., Lytle, L.T., and Pitt, C.G., Photography of Bloodstains Visualized By Luminol.
+Journal of Forensic Sciences, 18:296–302, 1973.
+
+
+--- PAGE 50 ---
+
+504
+Principles of Bloodstain Pattern Analysis: Theory and Practice
+Chemical Enhancement of Latent Blood Impressions
+Bergeron, J., Development of bloody prints on dark surfaces with titanium dioxide and methanol,
+Journal of Forensic Identiﬁcation, No. 53, 2003. 
+Bodziak, W.J., Footwear Impression Evidence, 2nd ed., CRC Press, Boca Raton, FL, 2000.
+Eversdijk, M., and Gelderman, R., Shedding Fresh Light at the Scene of the Crime, Information
+Bulletin for Shoeprint/Toolmark Examiners, Vol. 6, No. 1, March 2000.
+Eversdijk, M., Gelderman, R., Nieuw Licht op de Plaats Delict, Modus, Jaargang 8, No. 4, September
+1999.
+Grodsky, Wright, M.K. and Kirk, P.L. Simpliﬁed Preliminary Blood Testing. An Improved Technique
+and Comparative Study of Methods, Journal of the American Institute of Criminal Law and
+Criminology, Vol. 42, 1951.
+Manual of Fingerprints Development Techniques, Police Scientiﬁc Development Branch, Home
+Ofﬁce Police Policy Derectorate, 2nd ed., 1998.
+Sears, V.G., Prizeman, T.M., Enhancement of Fingerprints in Blood—Part1: The Optimization of
+Amido Black, Journal of Forensic Identiﬁcation, Vol. 50, No. 5, 2000.
+Spence, L., Asmussen G., Spectral Enhancement of Leucocrystal Violet Treated Footwear Impression
+Evidence in Blood, Forensic Science International, No. 132, 2003. 
+Teeuwen, A.B.E., van Barneveld, S., Drok, J.W., Keereweer, I. Limborgh, J.C.M., Naber, W.M., and
+Velders, T., Enhancement of Footwear Impressions in Blood, Forensic Science International,
+No. 95, 1998. 
+U.S. Department of Justice, Federal Bureau of Investigation, Processing Guide for Developing Latent
+Prints.

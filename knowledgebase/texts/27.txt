@@ -1,0 +1,969 @@
+
+
+--- PAGE 1 ---
+
+How important is it to consider target properties and hematocrit
+in bloodstain pattern analysis?
+Sungu Kim, Yuan Ma, Prashant Agrawal, Daniel Attinger *
+Department of Mechanical Engineering, Iowa State University, Ames, IA 50011, USA
+1. Introduction
+Bloodstain pattern analysis has several applications in crime
+scene reconstruction, informing on the sequence and timing of the
+events, their mode of operation, and the location of blood sources.
+The latter application is known as the determination of the region of
+origin and involves the inspection of bloodstains and the backward
+reconstruction of trajectories. Current methodologies for predicting
+the origin of a bloodletting event rely on assuming that blood drops
+travel in straight lines [1]. While simple, the technique involves
+intrinsic inaccuracies since the effect of drag and gravity on drop
+ﬂight are unaccounted. These inaccuracies become signiﬁcant as the
+distance between the origin of the event and the spatter increases, or
+in speciﬁc cases of downward projecting drops [2]. Several extensive
+studies have also explored the uncertainty associated with an
+arbitrary selection of stains or the values of impact angles [3–5].
+To reconstruct the trajectories backward and account for drag
+and gravity, knowledge of droplet size and impact velocity is
+required [6]. These can be estimated from the morphology of the
+bloodstains, by e.g. analyzing their size, volume and number of
+spines [7–9]. In this regard, there is signiﬁcant literature proposing
+correlations between stain diameters, droplet sizes, and impact
+velocities [7,10,11]. A few studies have also demonstrated backward
+reconstruction of trajectories [7,11], albeit without quantifying the
+inﬂuence of speciﬁc target properties and blood hematocrit. Blood is
+indeed a highly complex, shear-thinning, non-Newtonian ﬂuid,
+whose ﬂow behavior depends on several factors such as: shear rate
+(or the impact velocity), temperature, hematocrit and humidity
+[12–14]. Hematocrit values in human blood of healthy individuals
+vary between values of about 40 to 45% [1,15,16].
+This manuscript highlights the effect of varying target conditions
+in predicting the trajectories of blood drops. The experimental
+analysis
+presented
+here
+considers
+dripping
+drops
+impacting
+vertically on glass, cardboard, polycarbonate and aluminum targets.
+The inﬂuence of target wettability and roughness is documented,
+together with the inﬂuence of humidity, room temperature, blood
+temperature and hematocrit. The study also describes a process to
+measure the viscosity of blood and to estimate its variation with
+hematocrit and temperature. The spreading characteristics of the
+drop, in regards to surface wettability and roughness, are discussed
+by generating individual correlations for each of the targets. Based
+on the differences between correlations, the study quantiﬁes the
+inaccuracies
+in
+the
+simple
+trajectory
+reconstruction
+task
+of
+identifying the drop release height when target-independent
+correlations or population-average hematocrit levels are used
+instead of values speciﬁc to the case at hand.
+Forensic Science International 266 (2016) 178–184
+A R T I C L E
+I N F O
+Article history:
+Received 3 February 2016
+Received in revised form 4 May 2016
+Accepted 17 May 2016
+Available online 24 May 2016
+Keywords:
+Bloodstain pattern analysis
+Drop impact
+Trajectories
+Hematocrit
+Surface roughness
+Wettability
+A B S T R A C T
+Trajectory reconstruction from inspection of bloodstain patterns is relevant to crime scene investigation.
+While the inﬂuence of target properties on trajectory reconstruction has been often qualitatively
+discussed, it has rarely been quantiﬁed. Similarly, a few impact studies measure the viscosity of the blood
+used in impact experiments. In this work, the impact of blood drops is investigated on targets with a range
+of surface roughness and surface material. The maximum spreading is characterized using a spreading
+correlation, which relates the ratio of stain diameter to drop diameter with the non-dimensional numbers
+Reynolds number and Ohnesorge number. The process for obtaining individual spreading correlations for
+each of the target substrates and for measuring the viscosity of the respective blood samples is described
+extensively. The error in estimating the drop release height, associated with using an impact correlation
+unspeciﬁc to the target of interest, is estimated analytically and numerically using experimental data. A
+similar analysis is done when the hematocrit of the blood is assumed rather than measured. Both
+assumptions lead to signiﬁcant errors in estimating the release height of a blood droplet.
+ 2016 Published by Elsevier Ireland Ltd.
+* Corresponding author at: 2036 Black Engineering, Ames, IA 50011.
+Tel.: +1 515 294 1692.
+E-mail address: attinger@iastate.edu (D. Attinger).
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+http://dx.doi.org/10.1016/j.forsciint.2016.05.015
+0379-0738/ 2016 Published by Elsevier Ireland Ltd.
+i
+An update to this article is included at the end
+
+
+--- PAGE 2 ---
+
+2. Experimental setup
+2.1. Blood handling
+For the blood droplet impact studies on solid surfaces, blood
+from healthy swine is utilized, which is comparable to human blood
+by its ability to assemble in rouleaux at low shear rates [17,18]. The
+blood used in this study is purchased from the National Animal
+Disease Center, in Ames, IA. The anticoagulant used is 1% heparin.
+Before use, the blood is placed on a rocker (Labquake, Thermo
+Scientiﬁc) until it reaches room temperature. The hematocrit of the
+blood is measured through centrifugation (STI, HemataStat-II) at
+1548–2312 g for 60  3 s, as per the manufacturer’s instructions. The
+temperature of blood, room temperature and relative humidity are
+also documented prior to experimentation. No blood samples older
+than three days were used in the experiments.
+2.2. Blood rheometry
+Before each blood droplet impact experiment, blood viscosity is
+measured at the documented temperature and at different shear
+rates (seven measurements are taken with shear rates ranging
+from 10 to 2500 s1), using the capillary viscometer setup shown
+in Fig. 1. The setup comprises a syringe pump (KD Scientiﬁc,
+780230) which pumps blood into a hard polycarbonate capillary
+tube (FEP, ID 0.521 mm, length 1.575 m), with a controlled ﬂow
+rate between 0.01 and 2 mL/min. These values of ﬂow rates
+correspond to a Reynolds number Re < 600, thereby assuring a
+laminar ﬂow. A differential pressure sensor (Omega DPG 110, with
+a range of 1 to 7 bar and accuracy < 0.5%) is employed to measure
+the pressure drop DP along the tube at different ﬂow rates Q. The
+entry length (Le) for Newtonian ﬂows is theoretically calculated as
+Le/D = 0.06Re, where D is the internal diameter of the tubing
+[19]. For Re = 600, the entry length for a Newtonian ﬂow comes out
+to be 18 mm, and that for a shear-thinning ﬂuid is of comparable
+length [20]. In the experimental setup, an entry length of 12 cm is
+provided to ensure that the velocity proﬁle is fully developed
+before reaching the pressure sensor.
+The Ostwald-de Waele power-law equation is used to describe
+the shear-thinning behavior
+t ¼ K ˙gn;
+(1)
+with ˙g is the shear rate, t, the shear stress, and K and n the
+respective
+ﬂow
+consistency
+and
+non-Newtonian
+power-law
+exponent. Then, the Rabinowitsch–Mooney (RM) equation is
+employed to determine the non-Newtonian shear rate [21,22]:
+˙g ¼  Q
+pR3
+3 þ dlogQ
+dlogDP
+
+
+(2)
+Above, R is the hydraulic radius of the tubing and d represents
+the derivative. The non-Newtonian power law exponent (n) is
+expressed as
+n ¼ dlogDP
+dlogQ
+(3)
+Equation (1) is coupled with the wall shear stress (tw) given by:
+tw ¼ DDP
+4L
+¼ K ˙gn;
+(4)
+to calculate the coefﬁcient K. The relative uncertainty (SD = 4%) on
+the viscosity measurements with the capillary viscometer is
+mostly due to the uncertainty on the temperature and on the
+pressure measurement.
+The viscosity measurement reaches a plateau (4.1  0.05 mPa,s)
+above a shear rate of approximately 580 s1. While the chosen
+mathematical correlation matches well with the data points in
+general, there is a slight mismatch where the measured viscosity
+reaches a plateau due to the inherent mathematical shape of the curve
+ﬁt. Expressions for the viscosity accounting for the dependency on
+shear rate, temperature (T) [6] and hematocrit (H) can be obtained as
+follows. First, the power law curves, equation (5), of six blood samples
+(labeled A to F), measured at different temperature and hematocrit
+levels, are tabulated in Table 1.
+Then, the viscosity at a given shear rate is expressed as a linear
+function of T and H, as in
+mð ˙gÞ ¼ a0 þ a1T þ a2H;
+(5)
+where, a0, a1 and a2 are coefﬁcients calculated using the method of
+least squares[23]:
+N
+X
+N
+i¼1
+Ti
+X
+N
+i¼1
+Hi
+X
+N
+i¼1
+Ti
+X
+N
+i¼1
+Ti
+2
+X
+N
+i¼1
+TiHi
+X
+N
+i¼1
+Hi
+X
+N
+i¼1
+TiHi
+X
+N
+i¼1
+Hi
+2
+2
+6666666664
+3
+7777777775
+a0
+a1
+a2
+2
+4
+3
+5 ¼
+X
+N
+i¼1
+mi
+X
+N
+i¼1
+Timi
+X
+N
+i¼1
+Himi
+2
+6666666664
+3
+7777777775
+(6)
+Although the viscosity typically varies exponentially with
+temperature [19], the small temperature range (15–30 8C) in the
+present experiments allows a linear assumption between the
+viscosity and temperature[13].
+A question arises as to which shear rate to use for evaluating the
+viscosity. In drop impacts with relevance to bloodstain pattern
+analysis, the shear rate is on the order of the impact velocity
+divided by the drop diameter [7]. Taking a typical case of a 1 mm
+droplet travelling at 2 m/s or faster, this corresponds to a shear rate
+of 2000 s1 or larger. Also, as observed in Fig. 2, the viscosity attains
+a plateau above a shear rate of approximately 580 s1. This plateau,
+physically corresponds to the situation where shear is so high that
+[(Fig._1)TD$FIG]
+Fig. 1. Before each measurement, the non-Newtonian, shear-thinning viscosity of
+the blood is measured with a capillary viscometer built according to this schematic.
+Table 1
+Capillary viscosity measurement at different temperatures and values of hematocrit.
+Blood sample No.
+Temperature [8C]
+H[%]
+Viscosity[cP]: measured @ shear rate
+Power law ﬁt curve
+R2
+A
+23.5
+42  1
+4.29 @1870 s1
+m ¼ 53:485ð ˙gÞ0:344
+0.994
+B
+27
+34  1
+3.32 @2381 s1
+m ¼ 11:099ð ˙gÞ0:172
+0.861
+C
+27.1
+37.5  1
+3.57 @2352 s1
+m ¼ 9:193ð ˙gÞ0:13
+0.9672
+D
+26
+44  1
+4.12 @2472 s1
+m ¼ 8:783ð ˙gÞ0:106
+0.9442
+E
+26
+44  1
+3.91 @2536 s1
+m ¼ 15:107ð ˙gÞ0:185
+0.9713
+F
+25.6
+44  1
+4.08 @2479 s1
+m ¼ 9:462ð ˙gÞ0:116
+0.9476
+S. Kim et al. / Forensic Science International 266 (2016) 178–184
+179
+
+
+--- PAGE 3 ---
+
+blood cells no longer interact so that the blood assumes Newtonian
+behavior. Consequently, the blood viscosity value used here is at a
+shear rate of 2000 s1. As a function of T (in 8C) and H (in %), it
+corresponds to the following correlation
+mð2000Þ ¼ 2:91550:0796T þ 0:068H:
+(7)
+2.3. Drop impacts experiments
+As described in Table 2, the drop impact experiments are
+conducted on glass, cardstock (Colorbok, textured white cardstock),
+polycarbonate and aluminum surfaces, which represent a range of
+non-absorbing surfaces. Several values of surface roughness for
+polycarbonate and aluminum surfaces are obtained after grinding
+with sand paper and subsequent rinsing with isopropanol and
+deionized water. Then, to dry the targets, the aluminum surfaces are
+wiped with clean tissue, while only compressed air is used for
+polycarbonate to prevent the formation of static charge on the
+surface.
+Surface roughness of the targets is measured using a 3D
+microscope (Hirox, Digital Microscope, KH-8700). The static
+contact angle of the blood drops, on the targets, is measured
+using ImageJ software [24]. A syringe pump (KD Scientiﬁc,
+KDS230) is used to create blood droplets, through FEP tubing
+and a 27 gauge blunt needle (corresponding to an average droplet
+diameter of 2.47 mm, and a volume of 7.89 mL), as shown in
+Fig. 3. Within 70% population interval, the uncertainty on the
+measured droplet diameter is 3.1%, and 6.2% for impact velocity.
+Blood is a complex ﬂuid and the following handling precautions
+have been useful to reduce experimental uncertainties. The blood
+is continuously pumped (at 0.1 ml/min), without stopping, to
+prevent its drying at the needle outlet; drying of blood at the
+needle outlet has been observed to modify drop diameter over
+time. Correspondingly, a droplet is generated every 5 s. A small
+container was placed under the needle to collect redundant
+droplets generated between each trial of experiment. Droplet
+impact velocity is altered by changing the droplet release height (5,
+10, 20, 60 and 150 cm). At each height, the needle is replaced to
+ensure consistent nozzle condition. The targets are blown with
+compressed air just before the start of the experiments to remove
+any residual dust particles. Series of 10 blood stains are created on
+each surface, at each height, to ensure repeatability of results. A
+high speed camera (Redlake MotionXtra HG-100 K) is used to
+record the droplet impact, while the dripping rate is kept constant.
+3. Results and discussion
+The representative sequence of events during droplet impact
+and spreading on different targets is shown in Fig. 4. When the
+droplet impacts normally on the surface, its inertia drives the liquid
+radially outwards, and this expansion is opposed by viscous
+dissipation in the blood and by surface tension at the blood–air
+interface. At t = 2 ms, the droplet stretches the blood into a thin
+layer called lamella, surrounded by a peripheral thicker ring called
+the rim. About 3 ms after the impact, as the inertial forces weaken,
+the droplet reaches a maximum spreading, whereafter capillary and
+viscous forces dominate. The liquid in the rim is brought back by
+surface tension toward the vertical axis of symmetry. This recoiling
+phase
+occurs
+for
+3 ms < t < 20 ms,
+and
+corresponds
+to
+the
+dissipation of the inertial forces by viscous forces. That phase
+occurs with contact line pinned to the target[7,11,25], except on
+glass as observed in Fig. 4. After the instance of maximum spreading
+(image (iv) in Fig. 4), the contact line remains pinned for the
+aluminium, cardstock and polycarbonate targets, while the contact
+line on the glass target spreads further: this is attributed to the
+[(Fig._2)TD$FIG]
+Fig. 2. The viscosity of swine blood as a function of shear rate. The plotted data was
+obtained at a room temperature of T = 27.1 8C, and hematocrit H = 37.5%,
+corresponding to measurement C in Table 1.
+Table 2
+Blood and target properties used during droplet impact experiment. Viscosity is evaluated considering temperature and hematocrit value. The surface tension and density
+values are taken and interpolated with respect to temperature from values in [6].
+Surface
+Polycarbonate bare
+Polycarbonate 20 grit
+Al mirror
+Al 600 grit
+Cardstock
+Glass slide
+Hematocrit (%)
+43
+43
+43
+49
+49
+49
+Room temp. (8C)
+23.4
+23.4
+23.1
+24.5
+24.5
+24.5
+Blood temp. (8C)
+23.5
+23.5
+23.5
+23.2
+24.4
+24.4
+Relative humidity (%)
+18.5
+18.5
+18.5
+36.2
+56.3
+56.3
+r (kg/m3)
+1060
+1060
+1060
+1060
+1060
+1060
+g (mN/m)
+59
+59
+59
+59
+59
+59
+m (cP), calibrated
+3.97
+3.97
+3.97
+4.41
+4.09
+4.09
+[(Fig._3)TD$FIG]
+Fig. 3. Experimental setup for conducting blood impact experiments.
+S. Kim et al. / Forensic Science International 266 (2016) 178–184
+180
+
+
+--- PAGE 4 ---
+
+signiﬁcantly higher wettability of the glass target, due to low
+wetting angle and roughness, compared to the other targets. A
+glossary for the speciﬁc ﬂuid dynamics terms used in this paragraph
+is available in Tables 2 and 4b of review [6].
+To formulate correlations for a speciﬁc target, droplet diameter,
+impact velocity and spreading factor are measured from the
+sequence of images. Droplet diameter is determined using equation
+(8), which accounts for drop extensional oscillation following
+detachment from the needle [26].
+di ¼ ðd2
+ihdivÞ
+1=3:
+(8)
+Here, dih and div are the horizontal and vertical diameter of the
+drop in an image. The droplet’s impact velocity (Vi) is measured by
+considering the difference in height of the center of the droplets
+(Ds) between two frames (i and ii in Fig. 4) just before the impact of
+the drop, and calculated as:
+Vi ¼ Ds
+Dt ;
+(9)
+where, Dt is the time difference between the two frames. After the
+impact, the droplets are left for drying (for about 24 h), and the
+diameter of the dried stain (DS) is measured to calculate the
+spreading factor (b).
+b ¼ DS
+di
+:
+(10)
+It is noteworthy to mention here that the dried stain diameter
+is observed to be approximately 2–3% smaller than the blood
+stain diameter after 20 ms of impact, for all the targets used in
+the experiments. Having obtained the spreading factor, the
+impact velocity and diameter, we ﬁt correlations [27] of the
+[(Fig._4)TD$FIG]
+Fig. 4. Evolution of drop spreading on different targets. (a) Polycarbonate bare, (b) Glass, (c) Aluminum, (d) Cardstock. The yellow lines represent the maximum extent of the
+spreading of the rim. The white lines represent the center of the droplet. The droplet height is 20 cm for all the cases in the ﬁgure. Corresponding non-dimensional numbers
+are: Re = 1200, We = 158 and Oh = 0.010.
+S. Kim et al. / Forensic Science International 266 (2016) 178–184
+181
+
+
+--- PAGE 5 ---
+
+Bousﬁeld-Scheller type on each dataset related to an speciﬁc
+target, to characterize the spreading as a function of the impact
+conditions. This type of correlations are chosen because of their
+ability to ﬁt a wide range of impact velocities, targets and
+liquids[27], and for their mathematical simplicity, with
+b ¼ aðRe2OhÞ
+b; with Re2OH ¼ r1:5d1:5
+i
+V2
+i
+m
+ﬃﬃﬃs
+p
+:
+(11)
+Above, a and b are the coefﬁcients of the Bousﬁeld correlation
+that can be found from curve ﬁtting of the experimental data. Re is
+the Reynolds number and Oh is the Ohnseorge number given by:
+Re ¼ rVidi
+m
+(12)
+Oh ¼
+ﬃﬃﬃﬃﬃﬃﬃ
+We
+p
+Re
+(13)
+Here, We is the Weber number (We ¼ rVid2
+i =g).
+The Ohnesorge number can be understood as a comparison
+between the kinetic energy of impact with the resistant work of the
+viscous forces and the surface tension. As mentioned previously, as
+the time scale of the spreading process is extremely small, droplet
+spreading is associated with high shear rates. Consequently, it is
+acceptable to employ the viscosity of blood at high shear rates[7];
+here, the viscosity value at 2000 s1 is used, as mentioned in
+Table 3. The corresponding correlations for the different targets are
+plotted in Fig. 5 and tabulated in Table 3.
+Inspection of Fig. 5 reveals ﬁrst how much larger the spreading
+is on the glass target. At low impact velocities, the spread factor on
+glass is on average 25% larger than on the other targets. This might
+be due to enhanced wetting on the glass, which has a signiﬁcantly
+lower contact angle than other targets, as shown in tabulated in
+Table 3. As the Ohnesorge number increases, i.e. as the ratio of
+impact energy versus the work of resistance forces increases, the
+spread factor on the glass target becomes comparable with that on
+other targets, owing to the decreased inﬂuence of wetting forces on
+spreading[10].
+Fig. 5 also demonstrates how spreading is inﬂuenced by the
+roughness, for a given surface. The spreading factor for the
+roughened aluminum and polycarbonate targets are lower than for
+their respective unaltered counterparts. These observations are
+coherent with the observations in Patil et al. [28] and Hulse-Smith
+et al. [7], where an increase in the surface roughness reduces
+spreading upon drop impact. The associated formation of spines
+observed in [7] is attributed to the Rayleigh-Taylor instability,
+which is encountered when a liquid-air interface is subjected to a
+sudden acceleration[7,29]. One question that arises is if the
+spreading factor as calculated by equation (10) remains constant
+between a few seconds after impact and the hours or days that
+separate a crime from a thorough bloodstain pattern analysis.
+Indeed, Brutin et al. [14] recently reported a slow spreading of
+sessile blood drops on glass due to evaporation, until equilibrium is
+reached. However, such a spreading is not observed in our
+experiments of impacting drops. For glass, the dried stain diameter
+measured 24 h after impact is approximately 2% smaller than the
+diameter of the blood drop after 20 ms of impact. A similar
+variation is observed for the other targets, where the dried stain
+diameter is approximately 2–3% smaller than the blood drop
+diameter after 20 ms of impact. This difference in spreading
+behavior, between the observation of Brutin’s group, who used
+sessile drops spreading slowly, and our experiments, can be
+attributed to the enhanced inertial spreading of the drop on impact
+in our study, where the inertia of the impacting drops completely
+overpowers the surface forces and causes the drops to reach a
+maximum spread within just 20 ms after impact. The spreading
+induced by evaporative ﬂux observed in [14] is effective on a much
+larger time scale (in the order of 1 s), hence, its effects are not
+observed.
+Based on the data in Fig. 5, a question of high relevance to
+forensic arises as follows. For the purpose of trajectory reconstruction
+from inspection of stains, can we use a single spreading correlation
+independently of the target material and conditions? Let us ﬁrst
+quantify the uncertainty on trajectory reconstruction induced by
+using a one-size ﬁt all correlation, versus correlations speciﬁc to a
+given target. A way to study these effects is by analytical inspection
+of equation (11). For a given correlation (i.e., known values of a and
+b) and a known b (from known stain size and drop volume), the
+height from which the drop is released can be predicted using
+equation (11). Assuming that drag does not affect the droplet
+trajectory, the impact velocity of the drop can be given as:
+Vi ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃ
+2gh
+p
+;
+(14)
+where, g is the acceleration due to gravity and h is the predicted
+drop release height. Using equation (14), equation (11) is
+transformed into:
+b ¼ a 2ghr2d2
+i
+m2 Oh
+ 
+!b
+;
+(15)
+from which the drop release height h can be expressed as
+h ¼
+m
+ﬃﬃﬃs
+p
+2gp1:5d1:5
+i
+b
+a
+ 1
+b
+:
+(16)
+To ascertain the variation in the drop release height prediction
+originating from variations in a and b, Dh can be written as:
+Dh ¼ @h
+@a Da þ @h
+@b Db:
+(17)
+The corresponding partial derivatives of equation (16) give:
+Dh
+h ¼ Da
+ab þ ln
+a
+b
+ Db
+b2 :
+(18)
+Table 3
+Experimental correlations for different targets plotted in Fig.5.
+Target
+Contact
+angle (o)
+Surface
+roughness,
+Ra(mm)
+Correlation
+Glass
+16.1
+–
+b ¼ 0:8474ðRe2OhÞ
+0:1334
+Aluminum mirror
+87.1
+0.32
+b ¼ 0:4285ðRe2OhÞ
+0:1934
+Aluminum P600 grit
+62.2
+0.4
+b ¼ 0:3914ðRe2OhÞ
+0:1965
+Cardstock
+96.8
+1.09
+b ¼ 0:4019ðRe2OhÞ
+0:1921
+Polycarbonate bare
+86.9
+0.22
+b ¼ 0:3428ðRe2OhÞ
+0:2118
+Polycarbonate P20 grit
+98.6
+4.5
+b ¼ 0:3954ðRe2OhÞ
+0:1912
+[(Fig._5)TD$FIG]
+Fig. 5. Experimental correlations between the spreading factor and the non-
+dimensional number Re2Oh, as a function of the target. The correlations are
+tabulated in Table 3.
+S. Kim et al. / Forensic Science International 266 (2016) 178–184
+182
+
+
+--- PAGE 6 ---
+
+Taking the values for a and b for aluminum mirror as the base,
+and b = 3, a 10% change in a (keeping b constant) leads to about a
+51% change in h, whilst, a 10% change in b (keeping a constant)
+leads to about a 43% change in h. Conversely, to ensure that a
+change in h does not exceed 10% (i.e. Dh/h < 10%), the maximum
+change in a and b should not exceed approximately 2 and 3%,
+respectively. Relating these observations to the correlations for
+different targets in Table 3, the variations in a (between 2 and
+116%) and b (between 1.5 and 33%) exceed the above calculated
+values, thereby indicating that a single correlation will signiﬁcant-
+ly impact the prediction of a drop release height.
+The effects of this ﬁnding can be shown from the current set of
+experiments, in Fig. 6. Here, we use the measured spread factor b
+from drop impact experiments on the aluminum mirror target
+(from all drop release heights), and calculate the drop release height
+using the spreading correlations of Table 3 speciﬁc to each of the
+targets. For the case with gravity and without drag, equation (16) is
+used to reconstruct the trajectory. For the case with gravity and
+drag, the differential equations of motion in [6] are numerically
+integrated. Hence, the height ratio HR compares the calculated
+heights using correlations of the individual targets (x-axis), to the
+experimental drop release height on the aluminum mirror. It is
+important to mention here that the data in Fig. 6 corresponds to all
+the drop release heights used in the experiments (i.e. 5, 10, 20,
+60 and 150 cm). Fig. 6 clearly shows a marked difference in height
+predictions from the respective correlations; the variation in the
+average height values are tabulated in Table 4. For example,
+estimating the height of release of stains found on an aluminim
+mirror target using correlations obtained on glass would underes-
+timate the release height by about 50%, while using correlations for
+rough polycarbonate would overestimate the height by about 50%.
+A related question of interest is the inﬂuence of the assumed
+hematocrit level on the backward reconstruction of trajectories.
+This corresponds to a crime scene reconstruction where a standard
+hematocrit level, say 44%, would be used to estimate the height of a
+released drop, instead of measuring the hematocrit of the individual
+to whom the blood belongs. For the case where gravity is considered
+and drag neglected, the resulting uncertainty on the prediction of
+the release height of a dripping drop can be estimated again by
+analyzing how equation (16) depends on the hematocrit. First, the
+viscosity m of the blood depends on the blood hematocrit, as per
+equation (5). Second, the drop impact diameter di is not known on a
+crime scene, contrary to the laboratory experiments here where it
+can be measured from high-speed videos. In a crime scene situation,
+it has been proposed to estimate di by e.g. by measuring the volume
+Vs of solid material remaining in the stain [6], which is linearly
+proportional to the drop volume and the hematocrit [9], so that
+Vd = aVs/H, where a is a proportionality coefﬁcient determined
+experimentally. For the present experiments, where average drop
+volume of 7.89 mL and the average value of H = 44% is known, we
+have aVS = 3.47 mL. As a result, the estimated impacting drop
+diameter (di), for an unknown value of H can be obtained as:
+di ¼
+6aVS
+pH
+
+1
+3
+:
+(19)
+Therefore, using standard values of hematocrit in trajectory
+reconstruction introduces two systematic errors, one on the blood
+viscosity and the other on the estimated impact diameter. An
+example of the systematic error due to the use of standard values of
+hematocrit for the estimation of the dripping drop release height is
+shown in Fig. 7 for the situation when a dripping drop impacts an
+aluminum mirror surface (i.e. a = 0.4285 and b = 0.1934), with
+typical spreading b = 3 and 3.9. The droplet release height was
+estimated with and without considering the drag force acting on
+the droplet, as was done for Fig. 6. For a typical hematocrit value of
+44%, the estimated droplet release heights are 26.0 cm without
+drag and 28.1 cm with drag for the spreading factor b = 3. For the
+spreading factor b = 3.9, the estimated droplet release heights are
+100.8 cm without drag and 129.8 cm with drag.
+The range of height over which the above graph is plotted
+corresponds to the typical values of hematocrit found in humans. It
+is seen that within this range, and for this speciﬁc trajectory
+reconstruction task, a difference of 10% between the hematocrit
+used to develop the correlations, and that relevant to the crime
+scene (for instance 40% vs. 50%) leads to errors larger than 30% in the
+[(Fig._6)TD$FIG]
+Fig. 6. Comparison of the ratio (HR) of estimated drop height to the experimental drop height using correlations of different targets for drop impact on aluminum mirror. All
+the droplet release heights used in the experiment (i.e. 5, 10, 20, 60 and 150 cm) were taken as the reference height to calculate HR. The drop release heights were calculated
+with and without considering drag force on the droplet.
+Table 4
+Comparison of error in average values of HR from b correlations of different targets.
+Al P600 grit
+Glass
+Cardstock
+Polycarbonate bare
+Polycarbonate P20 grit
+Drag considered
+31.1%
+46.9%
+46.77%
+15.8%
+72.1%
+Drag not considered
+37.7%
+71.4%
+35.03%
+61.8%
+44.9%
+S. Kim et al. / Forensic Science International 266 (2016) 178–184
+183
+
+
+--- PAGE 7 ---
+
+drop release height calculations (23.0 cm vs. 30.7 cm for b = 3,
+89.2 cm vs. 119.1 cm for b = 3.9 for calculations without drag). For
+trajectory reconstructions involving gravity and drag, the error is
+between 30 and 50% (24.7 cm vs. 33.7 cm for =3; 110.2 cm vs.
+164.6 cm for b = 3.9). Thus, the problem of reconstructing trajecto-
+ries by inspection of individual drops seems very sensitive to the
+correct choice of the spreading correlation and to the correct
+knowledge of the hematocrit.
+4. Conclusion
+The impact of blood drops on targets with different materials and
+roughnesses was investigated, detailing a methodology for measur-
+ing
+the
+viscosity of blood
+at
+relevant high shear
+rates
+of
+2000 s1. Care was taken to ensure consistent blood ﬂow conditions
+during experimentation, whilst the blood rheometry procedure
+allowed the use of appropriate values of blood viscosity for the blood
+sample used for experimentation, incorporating the effect of
+temperature and hematocrit. Individual correlations, relating stain
+size (through spreading factor b) and velocity of impact (through
+Re2Oh), were developed for each of the targets, with an aim to
+minimize the error in calculation of drop release height. Conse-
+quently, it was demonstrated, both analytically and numerically,
+that reconstructing the height of release of an individual drop by
+stain inspection using correlations obtained with a different target
+than the target of interest can lead to signiﬁcant errors, as large as
+50% of the drop release height. A similar analysis showed that a
+difference of 10% between the hematocrit used to develop the
+correlations, and that relevant to the crime scene (for instance 40%
+vs. 50%), induced errors between 30 and 50% in the drop release
+height. The systematic errors induced by misestimating the
+hematocrit or by using spreading correlations not speciﬁc to the
+target of interest were found larger when drag was included in the
+calculations, besides gravity. While this level of uncertainty is
+probably acceptable in most court cases, it is nonetheless important
+that BPA analysts are aware of the magnitude of the uncertainty.
+This is especially important in relation with the 2009 study of the US
+National Academies of Science and Engineering, which mentioned
+that ‘‘the uncertainties associated with bloodstain pattern analysis
+are enormous’’ [30]. As a result, we suggest that for an accurate
+trajectory reconstruction of blood drops, it is advisable to generate
+correlations individual to the speciﬁc surface and blood, if the
+surface characteristics and hematocrit of the blood speciﬁc to the
+crime scene is available. Employing generalized correlations or
+average
+hematocrit
+levels
+can
+lead
+to
+signiﬁcant
+errors
+in
+determining the region of origin of the blood spatter.
+Acknowledgments
+The authors gratefully acknowledge ﬁnancial support from the
+US National Institute of Justice (awards number: 2010-DN-BX-
+K203, 2014-DN-BX-K036). The authors would also like to thank
+collaborators Patrick Comiskey and Alexander Yarin for their
+editorial help, and the latter for also sharing information on blood
+rheometry, as well as Arpa Ghosh and Basant Sikarwar for
+contributing to the design of the capillary viscometer.
+References
+[1] T. Bevel, R.M. Gardner, Bloodstain pattern analysis with an introduction to crime
+scene reconstruction, CRC Press, Boca Raton, FL, USA, 2008.
+[2] K.G. de Bruin, R.D. Stoel, J.C.M. Limborgh, Improving the point of origin determi-
+nation in bloodstain pattern analysis, J. Forensic Sci. 56 (2011) 1476–1482.
+[3] W.F. Rowe, Errors in the determination of the point of origin of bloodstains,
+Forensic Sci. Int. 161 (Aug 2006) 47–51.
+[4] C. Connolly, M. Illes, J. Fraser, Affect of impact angle variations on area of origin
+determination in bloodstain pattern analysis, Forensic Sci. Int. 223 (2012) 233–240.
+[5] M. Illes, M. Boue´, Investigation of a model for stain selection in bloodstain pattern
+analysis, Can. Soc. Forensic Sci. J. 44 (2011) 1–12.
+[6] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics in
+bloodstain pattern analysis: comparative review and research opportunities,
+Forensic Sci. Int. 231 (2013) 375–396.
+[7] L. Hulse-Smith, N.Z. Mehdizadeh, S. Chandra, Deducing drop size and impact
+velocity from circular bloodstains, J. Forensic. Sci. 50 (2005) 54–63.
+[8] L. Hulse-Smith, M. Illes, A blind trial evaluation of a crime scene methodology for
+deducing impact velocity and droplet size from circular bloodstains, J. Forensic.
+Sci. 52 (Jan 2007) 65–69.
+[9] N. Laan, R.H. Bremmer, M.C. Aalders, K.G. de Bruin, Volume determination of fresh
+and dried bloodstains by means of optical coherence tomography, J. Forensic. Sci.
+59 (Jan 2014) 34–41.
+[10] C.D. Adam, Fundamental studies of bloodstain formation and characteristics,
+Forensic Sci. Int. 219 (June 2012) 76–87.
+[11] N. Laan, K.G. de Bruin, D. Bartolo, C. Josserand, D. Bonn, Maximum diameter of
+impacting liquid droplets, Phys. Rev. Appl. 2 (2014).
+[12] J. Rosina, E. Kvasnak, D. Suta, H. Kolarova, J. Malek, L. Krajci, Temperature
+dependence of blood surface tension, Physiol. Res. 56 (2007) S93–S98.
+[13] M. Maffesoli, Ritual and daily life as basis of life histories, Cah. Int. Sociol. 69
+(1980) 341–349.
+[14] W. Bou-Zeid, D. Brutin, Effect of relative humidity on the spreading dynamics of
+sessile drops of blood, Colloids Surf. A Physicochem. Eng. Asp. 456 (2014) 273–285.
+[15] M. Raymond, E. Smith, J. Liesegang, The physical properties of blood–forensic
+considerations, Sci. Justice 36 (1996) 153–160.
+[16] H.L. MacDonell, Bloodstain patterns, 2nd. ed., Laboratory of Forensic Sciences,
+Corning, NY USA, 2005.
+[17] N. Behrooz, L. Hulse-Smith, S. Chandra, An evaluation of the underlying mecha-
+nisms of bloodstain pattern analysis error, J. Forensic Sci. 56 (Sep 2011) 1136–1142.
+[18] U. Windberger, A. Bartholovitsch, R. Plasenzotti, K.J. Korak, G. Heinze, Whole blood
+viscosity, plasma viscosity and erythrocyte aggregation in nine mammalian spe-
+cies: reference values and comparison of data, Exp. Physiol. 88 (2003) 431–440.
+[19] M.E. Falagas, E.I. Pitsouni, G.A. Malietzis, G. Pappas, Comparison of PubMed,
+Scopus, Web of Science, and Google Scholar: strengths and weaknesses, FASEB
+J. 22 (Feb 2008) 338–342.
+[20] R.J. Poole, B.S. Ridley, Development-length requirements for fully developed
+Laminar pipe ﬂow of inelastic non-Newtonian liquids, J. Fluid. Eng.-T. Asme
+129 (Oct 2007) 1281–1287.
+[21] C. Tropea, A.L. Yarin, J.F. Foss, Springer handbook of experimental ﬂuid mechanics,
+Springer, Heidelberg, Germany, 2007.
+[22] J.F. Steffe, Rheological methods in food process Engineering, Freeman Press, USA,
+1996.
+[23] S.C. Chapra, R. Canale, Numerical methods for engineers, McGraw-Hill, Inc., 2006.
+[24] C.A. Schneider, W.S. Rasband, K.W. Eliceiri, NIH Image to ImageJ: 25 years of
+image analysis, Nat. Methods 9 (2012) 671–675.
+[25] C. Hurth, R. Bhardwaj, C. Frankiewicz, A. Dobos, D. Attinger, F. Zenhausern,
+Biomolecular interactions control coffee ring effect during droplet drying, Col-
+loids Surf. B Biointerfaces (2014).
+[26] A. Rozhkov, B. Prunet-Foch, M. Vignes-Adler, Impact of drops of polymer solutions
+on small targets, Phys. Fluids 15 (2003) 2006.
+[27] B.L. Scheller, D.W. Bousﬁeld, Newtonian drop impact with a solid surface, AIChE J.
+41 (1995) 1357–1367.
+[28] N.D. Patil, R. Bhardwaj, A. Sharma, Droplet impact dynamics on micropillared
+hydrophobic surfaces, Exp. Therm. Fluid. Sci. 74 (2016) 195–206.
+[29] R.F. Allen, The role of surface tension in splashing, J. Colloid Interface Sci. 51
+(1975) 350–351.
+[30] Strengthening Forensic Science in the United States: A Path Forward, Committee
+on Identifying the Needs of the Forensic Sciences Community, National Research
+Council, 2009.
+[(Fig._7)TD$FIG]
+Fig. 7. Variation of the estimated droplet release height for a spreading factor
+b = 3 and 3.9, assuming 44% hematocrit, as a function of the actual value of
+hematocrit. The droplet release height was estimated with and without considering
+the drag force acting on the droplet.
+S. Kim et al. / Forensic Science International 266 (2016) 178–184
+184
+
+
+--- PAGE 8 ---
+
+Update
+Forensic Science International
+Volume 287, Issue , June 2018, Page 217
+ https://doi.org/10.1016/j.forsciint.2018.04.001
+DOI:
+
+
+--- PAGE 9 ---
+
+Corrigendum
+Corrigendum to “How important is it to consider target properties and
+hematocrit in bloodstain pattern analysis?” [FSI 266C (2016) 178–184]
+Sungu Kim, Yuan Ma, Prashant Agrawal, Daniel Attinger*
+Department of Mechanical Engineering, Iowa State University, Ames, IA 50011, USA
+The authors regret that on Table 3, the reporting values of roughness for a range of substrates, has a typo for the roughness unit,
+mentioning [mm] instead of the correct magnitude in [mm].
+The authors would like to apologise for any inconvenience caused.
+DOI of original article: http://dx.doi.org/10.1016/j.forsciint.2016.05.015
+* Corresponding author.
+E-mail address: attinger@iastate.edu (D. Attinger).
+http://dx.doi.org/10.1016/j.forsciint.2018.04.001
+0379-0738/© 2018 Elsevier B.V. All rights reserved.
+Forensic Science International 287 (2018) 217
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locat e/f orsciint

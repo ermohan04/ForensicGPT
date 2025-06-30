@@ -1,0 +1,653 @@
+
+
+--- PAGE 1 ---
+
+Automated identification of impact spatters and fly spots with a residual 
+neural network
+Lihong Chen a, Yaoren Zhu a, Chuang Ma b, Zhou Lyu a,c,d,*
+a Criminal Investigation School, Southwest University of Political Science and Law, Chongqing, China
+b School of Software Engineering, Chongqing University of Posts and Telecommunications, Chongqing, China
+c Chongqing Institutions of Higher Education Municipal Key Criminal Technology Laboratory, Chongqing, China
+d Intelligent Research Center of Difficult Homicide Cases Investigation, Southwest University of Political Science and Law, Chongqing, China
+A R T I C L E  I N F O
+Keywords:
+Bloodstain pattern analysis
+Impact spatter
+Fly spots
+Image recognition
+Transfer learning
+ResNet-18
+A B S T R A C T
+In criminal investigations, distinguishing between impact spatters and fly spots presents a challenge due to their 
+morphological similarities. Traditional methods of bloodstain pattern analysis (BPA) rely significantly on the 
+expertise of professional examiners, which can result in limitations including low identification efficiency, high 
+misjudgment rates, and susceptibility to external disturbances. To enhance the accuracy and scientific rigor of 
+identifying impact spatters and fly spots, this study employed artificial intelligence techniques in image recog­
+nition and transfer learning. Two types of bloodstains obtained from simulation experiments were utilized as 
+datasets, and a pre-trained neural network, ResNet-18, was employed for feature extraction. The original fully 
+connected layer was replaced, and a new fully connected layer with a dimensionality of 2 was introduced to fulfil 
+the task requirements. The results demonstrate that the transfer learning network model, based on ResNet-18, 
+achieved a maximum accuracy of 93 % in morphologically identifying impact spatters and fly spots. The 
+objective is to assist crime scene investigators and BPA analysts to identify bloodstains at homicide scenes 
+conveniently, rapidly and accurately, thereby furnishing scientific evidence for scene reconstruction and 
+advancing BPA toward intelligent practices.
+1. Introduction
+Bloodstain pattern analysis (BPA) employs a multi-disciplinary 
+approach to discern the nature of activities and mechanisms behind 
+bloodstains. BPA draws upon principles from biology, physics, and 
+mathematics to scrutinise and analyze the size, shape, and distribution 
+of bloodstains [1]. This approach has been demonstrated to be an 
+effective tool in the investigation of crime scenes, offering vital clues and 
+robust support for crime scene reconstruction and aiding in case 
+detection during legal proceedings.
+Spatter stains are among the most common types of bloodstains 
+found at violent crime scenes [2]. These stains frequently form at the 
+primary crime scene and include subtypes such as spurt, cast-off, and 
+impact spatter [2]. Impact spatter is a type of bloodstain pattern formed 
+by the impact of objects moving at different speeds on blood-stained or 
+blood-containing objects, resulting in blood droplets splattering radially 
+in all directions, which is of great significance for bloodstain analysts to 
+analyze the specific process of the occurrence of the case [3]. These 
+bloodstains are typically circular or elliptical in shape, and their diam­
+eter size is inversely proportional to the force of impact, ranging from 
+0.01 mm to over 4 mm in diameter [1,3].
+In certain homicide scenarios, when an assailant repeatedly strikes 
+the victim’s head with a blunt object near a wall, blood droplets may 
+splatter perpendicularly onto the wall, creating overlapping impact 
+spatters [2]. The morphology of these overlapping impact spatters, 
+resulting from multiple impacts, closely resembles the fly spots formed 
+by necrophagous flies regurgitating or defecating onto wall surfaces 
+after licking blood [1,2,4]. On the one hand, fly spots typically have a 
+diameter of 1–2 mm, and exhibit a wide variety of shapes including 
+circular, elliptical, tadpole-like, and teardrop-like shapes [4–6]. These 
+stains may occasionally possess a tail ranging from a few millimeters to 
+less than 20 millimeters in length [4,5]. On the other hand, fly spots may 
+include human blood that has not been fully digested, making it difficult 
+for presumptive blood tests such as Hemastix, Sangur, or Luminol, and 
+DNA typing to differentiate between fly spots and impact spatter [4]. 
+Failure to promptly distinguish between these bloodstain types at a 
+* Correspondence to: Criminal Investigation School, Southwest University of Political Science and Law, 301 Baosheng Avenue, Chongqing 401120, China.
+E-mail address: forensicluzhou@hotmail.com (Z. Lyu). 
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+https://doi.org/10.1016/j.forsciint.2024.112354
+Received 7 August 2024; Received in revised form 16 December 2024; Accepted 19 December 2024  
+Forensic Science International 367 (2025) 112354 
+Available online 20 December 2024 
+0379-0738/© 2024 Published by Elsevier B.V. 
+
+
+--- PAGE 2 ---
+
+homicide scene may result in misinterpretation of the facts, potentially 
+leading to misdirection of the investigation [6].
+In global forensic practice, disciplines like forensic genetics and 
+forensic toxicology primarily utilize instruments for analysis, and the 
+accuracy of their results is independent of examiner experience. 
+Conversely, BPA demands a high level of expertise from analysts, 
+making it less amenable to widespread application compared to these 
+fields [7]. Those lacking knowledge or with limited training in BPA 
+frequently encounter difficulties in making accurate judgments 
+regarding the morphology and formation mechanisms of specific 
+bloodstains, such as the overlapping impact spatters and fly spots pre­
+viously mentioned. It is therefore essential to identify bloodstain 
+morphology at crime scenes in a convenient, rapid and accurate manner.
+Benecke et al. [4] proposed a method for distinguishing human 
+bloodstains from fly spots based on the calculation of the ratio of tail 
+length to body length. If the ratio is greater than 1, it can be concluded 
+with a high degree of certainty that the observed stain is not human 
+blood. However, Ristenbatt et al. [8] offered a contrasting viewpoint, 
+suggesting that blood droplets striking a surface at an angle could also 
+result in a tail-to-body length ratio greater than 1. They argued that this 
+renders Benecke et al.’s method misleading and potentially dangerous. 
+To address these concerns, Fujikawa et al. [9,10] proposed a method 
+combining the tail-to-body length ratio with the fluorescence of fly 
+spots. Their results revealed that fly defecatory stains could be readily 
+identified by their tailed shape and fluorescence under 465 nm light 
+when viewed with an orange filter. Nevertheless, this method has only 
+been validated for stains formed by Lucilia sericata (Meigen, 1826) and 
+Calliphora vicina (Robineau-Desvoidy, 1830), and the fluorescence 
+mechanism requires further research. Pelletti et al. [11] utilized scan­
+ning electron microscopy (SEM) to observe fly spots on various surfaces. 
+They noted the presence of micro-crystals resembling uric acid, 
+cholesterol, and amorphous crystals on hard, non-absorbent surfaces 
+such as metal and glass. Notably, no red blood cells were observed in the 
+fly spots. It was proposed that SEM analysis could differentiate between 
+fly spots and authentic human bloodstains on hard surfaces. However, 
+this method is only applicable to small, removable samples that fit 
+within the SEM compartment, and is unable to detect bloodstains on 
+concrete floors, stucco walls, or fabric-like absorbent materials.
+In addition to the non-destructive testing techniques described 
+above, some scholars have utilized the detection of distinctive compo­
+nents in fly spots to distinguish them from authentic human bloodstains. 
+Rivers et al. [12,13] developed a diagnostic tool (anti-md3 serum) using 
+a pepsin-like enzyme found in the crop of adult Protophormia terraenovae 
+(Robineau-Desvoidy, 1830) and in fly regurgitate. The serum exhibited 
+high specificity for bloodstains containing this protein. This result pro­
+vides evidence that the identification of bloodstain species is feasible by 
+detecting fly digestive enzymes in bloodstains. Nevertheless, it remains 
+unclear whether similar specificity exists for proteases secreted by other 
+necrophagous fly species.
+In recent years, the surge in artificial intelligence (AI) image recog­
+nition technology has facilitated the completion of numerous identifi­
+cation tasks traditionally reliant on images or morphology, including 
+fingerprint identification [14], bone age assessment [15], pathological 
+section interpretation [16], and cell sorting [17], et al. Moreover, it 
+presents a novel avenue for advancing BPA. Arthur et al. [18] developed 
+an automated bloodstain pattern recognition system utilizing the Fisher 
+quadratic discriminant classifier to accurately distinguish between 
+impact spatter and cast-off bloodstain patterns. When applied to a 
+dataset of impact spatter and cast-off bloodstain patterns on painted and 
+wallpaper substrates, the trained classifier attained an overall error rate 
+of just 2 %, indicating its exceptional accuracy and reliability. 23 
+bloodstain patterns on a smooth painted surface and 17 patterns on a 
+wallpaper surface were successfully predicted, with only one cast-off 
+bloodstain pattern on the wallpaper misclassified. Zhou et al. [19]
+collected 2400 images of red ink droplets at varying elevations to 
+simulate bloodstains and applied semi-supervised learning to train a 
+CaffeNet model. After conducting classification tests on 400 validation 
+samples, the model achieved an accuracy rate of 96.75 %. This study 
+improved the accuracy of bloodstain pattern recognition and introduced 
+a novel methodology for forensic science applications, contributing to 
+crime scene reconstruction and evidence analysis. Liu et al. [20] pro­
+posed an automated framework integrating digital image processing and 
+machine learning to classify blood spatter patterns resulting from gun­
+shot and blunt impact at varying distances between the target surface 
+and the blood source. They designed a set of potentially relevant features 
+for classification and applied the random forest algorithm to evaluate 
+feature effectiveness and perform the classification, achieving accuracy 
+rates of 98.81 %, 93.20 %, and 85.96 % at distances of 30 cm, 60 cm, and 
+120 cm, respectively. This research introduced a mathematical approach 
+to bloodstain pattern analysis, supporting forensic specialists in inter­
+preting complex evidence. The above studies have demonstrated the 
+potential of deep learning in bloodstain pattern recognition while 
+establishing a significant repository of experience and data for future 
+research.
+With advances in deep learning techniques, Convolutional Neural 
+Networks (CNNs) have emerged as a breakthrough technology in image 
+recognition. CNNs are feed-forward neural networks that include multi- 
+layer convolutional computation and have a deep structure, demon­
+strating exceptional performance in image recognition tasks. Classic 
+CNNs models like LeNet [21], AlexNet [22], VGGNet [23], GoogLeNet 
+[24] and ResNet [25] are all open-source deep learning frameworks that 
+have driven the advancement of AI image recognition technology during 
+their respective epochs. In particular, Residual Network (ResNet), 
+building on VGG19 with innovative enhancements and introducing 
+jump connections and residual learning concepts, effectively mitigates 
+issues like vanishing gradients, gradient explosions, and network 
+degradation resulting from the increase in depth of the deep CNNs 
+during training. This improvement dramatically enhances the perfor­
+mance and training speed of CNNs, enabling more effective learning of 
+deeper features and further enhancing image recognition accuracy [25].
+This study employed a modified ResNet model to train and evaluate 
+the capacity of AI in recognizing images of impact spatters and fly spots. 
+The objective is to assist crime scene investigators and BPA analysts to 
+identify bloodstains at homicide scenes conveniently, rapidly and 
+accurately, thereby furnishing scientific evidence for scene reconstruc­
+tion and advancing BPA toward intelligent practices.
+2. Material and methods
+2.1. Experimental site
+The simulation experiment site for impact spatters and the feeding 
+site for necrophilous flies are situated within the BPA experimental field 
+and forensic entomology laboratory of the Chongqing Institutions of 
+Higher Education Municipal Key Criminal Technology Laboratory at 
+Southwest University of Political Science and Law. The activities of the 
+flies at this experimental site remain undisturbed by unrelated in­
+dividuals, with the exception of scheduled feeding, observation, and 
+documentation.
+2.2. Impact spatters simulation experiment
+Two wooden screens (300 cm × 4.5 cm × 180 cm) were positioned in 
+the experimental area to replicate an interior wall corner, and a wooden 
+experimental table was placed on the inside of the corner (Fig. 1). A flat 
+polypropylene board was securely affixed at the center of the experi­
+mental bench using transparent tape, and the center of the board was 
+30 cm away from the nearest screen vertically. A multitude of A4 
+printing paper was affixed to the screen surrounding the experimental 
+bench with pins in an orderly fashion. Fake theatrical blood, made of 
+edible pigments, honey, and sucrose, was used to simulate human blood. 
+A syringe was employed to dispense 1 ml drop of fake theatrical blood 
+L. Chen et al.                                                                                                                                                                                                                                    
+Forensic Science International 367 (2025) 112354 
+2 
+
+
+--- PAGE 3 ---
+
+onto the center of the polypropylene board. The fake theatrical blood 
+was vertically struck several times with a rubber hammer during each 
+experiment. Subsequently, the A4 papers containing the simulated 
+bloodstains were removed, air-dried and collected. The aforementioned 
+procedure was repeated 20 times, with the A4 printing paper being 
+replaced on the screen each time. Once the initial set of experiments had 
+been completed, the experimental table was relocated, and the distance 
+between the center of the polypropylene board and the screen was 
+adjusted to 50 cm and 100 cm, respectively, for the subsequent repeti­
+tions of the experiment.
+2.3. Fly spots simulation experiment
+A domestic pig carcass (29.6 kg, Fig. 2) was obtained from a local 
+market, slaughtered by the butcher, and subsequently frozen and 
+transported to the laboratory. Once the carcass had been fully thawed, it 
+was placed on plastic trays in the woods on the campus of the Southwest 
+University of Political Science and Law to attract necrophilous flies for 
+egg-laying. The plastic trays were then covered with vermiculite for the 
+larvae to pupate. Upon the departure of the third instar larvae from their 
+food sources for pupation, the fly pupae were harvested from the 
+vermiculite. The most common necrophilous flies in the region during 
+the spring, summer, and fall were filtered from pupae for this study: 
+Chrysomya megacephala (Fabricius, 1794), Chrysomya pinguis (Walker, 
+1858), and Achoetandrus rufifacies (Macquart, 1843) [26]. In the present 
+study, the authors primarily employed the taxonomic identification 
+criteria from the Key to the Common Flies of China [27] to identify the 
+species. The pupae were evenly mixed and divided into two equal por­
+tions, which were then placed in two fly-rearing cages. Blank A4 
+printing papers were spread all over the bottom of the fly-rearing cages 
+(130 × 60 cm × 60 cm, Fig. 3). Once the adult flies had emerged, dishes 
+of milk and fake theatrical blood were placed into the cages. The feed 
+was replenished every two days, while the A4 paper lining the bottom of 
+the cages was collected and replaced until all the flies within the cages 
+had died.
+2.4. Image acquisition and processing
+The A4 papers containing simulated impact spatters and fly spots 
+from the aforementioned experiments were scanned with an Epson 
+L6178 multifunction printer at a resolution of 600 dpi. To prevent 
+misclassification by the modified ResNet model due to color intensity 
+fluctuations caused by adding milk to fake theatrical blood for fly 
+rearing, and to streamline the matrix while improving computational 
+performance, all images were converted to grayscale and stored in TIFF 
+format. This study aims to distinguish between fly spots and impact 
+spatters, which are challenging to identify with the naked eye. Due to 
+the limitations of the employed model, automatic localization of indi­
+vidual stains within the image was not feasible, necessitating manual 
+cropping. In the preliminary analysis, we examined the imaginal body 
+lengths of three fly species selected for the fly spots simulation experi­
+ment. The maximum imaginal body length among the specimens did not 
+exceed 12.60 mm. Therefore, stains larger than 12.60 mm in diameter 
+were excluded from the analysis. Additionally, this study manually 
+screened the impact spatters generated in the simulation to exclude 
+those with significant morphological differences from fly spots. When 
+using Adobe Photoshop 2021 to process the collected grayscale blood­
+stain images, we conducted a series of tests to optimally display the 
+morphological characteristics of each bloodstain. We determined that a 
+600 × 600 pixels cropping frame was ideal for standardizing image 
+cropping. This step utilized the batch processing function in Adobe 
+Photoshop 2021 to ensure consistency and efficiency in image 
+processing.
+2.5. Image recognition
+The overall structure of the convolutional neural network is depicted 
+in Fig. 4. ResNet-18 is a neural network model that we utilized to 
+identify various aspects in bloodstain photos. With 17 layers devoted to 
+extracting different details from the images and one final output layer, 
+this network operates similarly to a multi-layered image processing 
+system. By separating distinct "bits of information" from the image, each 
+layer enables the computer to progressively "understand" the material. A 
+"batch normalization" step, which helps stabilize the data as it passes 
+between layers, and many image-processing layers (convolutions) make 
+up each of the "residual blocks" that make up the ResNet-18 model. 
+Furthermore, each block contains "shortcut connections" that allow data 
+to bypass specific layers if necessary. This characteristic keeps infor­
+mation from "vanishing" as it moves through deeper layers, which is a 
+common issue in complicated networks. By the time the information 
+reaches the network’s deeper layers, the feature maps (data represen­
+tations) grow smaller but more sophisticated, allowing the model to 
+make correct classifications. In the last stage, all of the learnt features 
+are combined using a "average pooling" method, and the classification 
+results are obtained via a fully connected output layer with two 
+Fig. 1. Impact spatters simulation experimental scene. a. striking area. b. 
+polypropylene plate. c. target surface, using full coverage with a large amount 
+of A4 paper.
+Fig. 2. The domestic pig carcass used to attract flies to lay eggs.
+Fig. 3. The fly-rearing cage used in this study.
+L. Chen et al.                                                                                                                                                                                                                                    
+Forensic Science International 367 (2025) 112354 
+3 
+
+
+--- PAGE 4 ---
+
+classification possibilities (dimensions). A "Softmax" function is used at 
+this stage to ensure that the model produces a clear categorization result.
+The training and testing process of the model was conducted on a 
+Microsoft Windows 11 operating system. The GPU model employed was 
+the Nvidia RTX-3070 with 8 GB of available video memory. The deep 
+learning programming framework utilized for the experiments was 
+PyTorch. The gradient optimization algorithm employed during training 
+was the Adam algorithm. The loss function used was CrossEntropy Loss, 
+with a fixed learning rate of 0.0001 and a weight decay of 0.0001. The 
+number of epochs was fixed to 50, and the batch size was 128. The 
+preprocessing operations included resizing the images to 250 × 250 
+pixels and normalizing the pixel values.
+In this study, a total of 14,381 single blood spot grayscale images 
+were collected. A random sampling procedure was employed to parti­
+tion the preprocessed blood spot grayscale images into a training set and 
+a test set. The training set comprised 13,900 sample images, which is 
+approximately 97 % of the entire dataset. This included 7022 impact 
+spatter images and 6878 fly spot images. The test set comprised 481 
+sample images, approximately 3 % of the total data, including 224 
+impact spatter images and 257 fly spot images.
+3. Results
+3.1. Morphological characteristics of bloodstains images
+The bloodstains obtained from the impact spatters simulation 
+experiment (Fig. 5) were observed to be circular, elliptical, and excla­
+mation mark-shaped. The measured diameters of the stains ranged from 
+0.33 to 12.60 mm, with a relatively concentrated distribution on the 
+target surface, radiating clearly from the point of impact to the sur­
+rounding area.
+In contrast, the bloodstains resulting from the fly spots simulation 
+experiment (Fig. 6) were predominantly circular, elliptical, teardrop- 
+like with tail, exclamation mark-shaped, with some irregular shapes. 
+The measured diameters of the stains ranged from 0.67 to 8.19 mm. The 
+distribution of the stains on the paper surface was relatively disorga­
+nized, often exhibiting overlapping between spots.
+3.2. ResNet-18 model training results
+3.2.1. The loss curve
+The training loss represents the average loss of the model on the 
+training set. The loss function, also referred to as the cost function, 
+measures the gap between the model’s predicted and true values. 
+Calculated by the model at each iteration based on the training data, the 
+training loss is used to optimize model parameters, guiding updates 
+during the training process. It typically decreases with each epoch, 
+indicating that the model is progressively learning the features of the 
+training data.
+The test set, which is not used during training, is typically employed 
+to evaluate the model’s generalization ability—specifically, its perfor­
+mance on previously unseen data. The test loss, representing the average 
+Fig. 4. Modified BPA neural network model based on the ResNet-18 framework. Conv: convolutional layer; fc: fully connected layer.
+Fig. 5. Laboratory-generated impact spatters.
+Fig. 6. Laboratory-generated fly spots.
+L. Chen et al.                                                                                                                                                                                                                                    
+Forensic Science International 367 (2025) 112354 
+4 
+
+
+--- PAGE 5 ---
+
+loss on the test set, is used to assess whether the model is overfitting or 
+underfitting. A significantly higher test loss compared to the training 
+loss may indicate that the model performs well on the training data but 
+generalizes poorly on new data, suggesting overfitting. Conversely, if 
+both the training and test losses are high, it may suggest that the model is 
+not adequately learning from the data, indicating potential underfitting.
+The numerical curves of training loss and test loss for this study, 
+under the specified parameters, are presented in Fig. 7. The vertical axis 
+represents the model’s loss value, while the horizontal axis indicates the 
+number of iterations in the training and test sets. The observed change in 
+loss suggests that both the training set and the test set converged satis­
+factorily. The loss of the training set demonstrated a gradual decrease 
+with the increase in the number of iterations, while the test set exhibited 
+a similar trend, albeit with a consistently higher loss value compared to 
+the training set.
+3.2.2. Recognition accuracy
+The numerical curves of training accuracy and test accuracy for this 
+study, under the specified parameters, are presented in Fig. 8. The 
+vertical axis represents the model’s accuracy, while the horizontal axis 
+indicates the number of iterations for the training and test sets. The 
+observed change in accuracy indicates that the accuracy of both the 
+training set and the test set increases as the loss decreases. The final 
+accuracy of the training set at convergence is approximately 95 %, while 
+the accuracy of the test set ranges between 0.91 and 0.93.
+4. Discussion
+Bloodstains serve as crucial physical evidence, often providing sig­
+nificant breakthroughs in challenging cases. They not only verify case 
+facts but also play a pivotal role in reconstructing the crime scene and 
+revealing the truth behind criminal activities. To assist crime scene in­
+vestigators in distinguishing impact spatter from fly spots accurately and 
+without damaging samples, this study employs a transfer learning model 
+based on ResNet-18 to differentiate the two types of bloodstains. The 
+experimental results demonstrate that the model achieves an overall 
+accuracy rate of 93 %. These findings indicate that the application of 
+residual neural network-based image recognition techniques in BPA is 
+both feasible and highly accurate. This study holds significant scientific 
+value and offers promising applications in BPA. Compared to traditional 
+methods, the AI-based approach minimizes human error and mitigates 
+the risk of misjudgment due to variations in expert experience, thereby 
+enhancing the objectivity and reliability of the results. Furthermore, this 
+technology preserves the integrity of the crime scene by automating the 
+analysis of bloodstain images, eliminating the need for direct contact 
+with the evidence. This innovation not only provides an intelligent so­
+lution for BPA but also transforms the conventional, experience-based 
+model into a data-driven approach. Moreover, this technology has 
+substantial practical implications for courtroom forensics. Traditional 
+BPA methods often face challenges in terms of accuracy and scientific 
+validity, particularly when expert testimony conflicts with analytical 
+results, which can lead to uncertainty in legal decisions. In contrast, AI 
+technology yields consistent, reproducible analysis results, thereby 
+enhancing the scientific credibility of bloodstain evidence and 
+increasing its acceptance in court, ultimately contributing to the pursuit 
+of justice.
+In this study, real human and mammalian blood was not selected for 
+the experiment, primarily due to the bloodstain simulation experiment 
+was scheduled in October-November 2022 in the period of COVID-19 
+control. During this time, China’s regulations on livestock and animal 
+products were further strengthened. According to regional laws and 
+regulations, it was challenging for individuals to obtain fresh blood from 
+food animal slaughterhouses, such as those for pigs, cows, and sheep. 
+Considering that the primary objective of this study was to classify and 
+identify the morphology of impact spatters and fly spots using the 
+ResNet-18 model, Zhou et al. [19] found in their experiment, which 
+utilized a convolutional neural network to analyze morphological im­
+ages of droplet bloodstains, that the morphological characteristics of 
+bloodstains could be accurately simulated using red ink instead of blood 
+after conducting several tests. Singh et al. [28] also used fake blood 
+made from Awlata dye in drop experiments and observed bloodstain 
+pattern at various heights, confirming the relationship between drop 
+height and the formation of satellite stains and spines. In their study, 
+they suggested that researchers and scientists could use fake blood made 
+from Awlata dye for experimental purposes in future studies. Mean­
+while, Byrd et al. [29] and Wang et al. [30] confirmed that adult flies can 
+survive on sucrose and milk, making it feasible to use sucrose-enriched 
+artificial blood combined with milk to feed flies during the fly spots 
+simulation experiment. Due to the presence of pigments and honey in 
+the fake theatrical blood provided to the flies, they may be unable to 
+digest or regurgitate the fake blood as effectively as they do real blood. 
+However, our observations confirmed that adult flies could regurgitate 
+and excrete simultaneously while feeding. In summary, the results of 
+this simulation experiment, using fake theatrical blood instead of real 
+blood, should be sufficient for analysis. Additionally, this study opted to 
+strike blood pools with a blunt object, a scenario more commonly seen in 
+homicide cases, while simulating impact spatters at various distances. 
+This approach more accurately reproduced the distribution and 
+morphological characteristics of the impact spatters.
+It is important to note that all bloodstain patterns in this study were 
+formed under controlled laboratory conditions, and only impact spatters 
+and fly spots were modeled. These two types of bloodstains were not 
+present in the same space and did not interact with each other. However, 
+in actual crime scenes involving intentional injuries or homicides, the 
+circumstances can be more complex. Not only is the amount of blood 
+greater, but the variety of bloodstain patterns is also more diverse. The 
+identification process becomes significantly more challenging when 
+different bloodstains mix or overlap. As the model developed in this 
+Fig. 7. The iteration loss value curves of the training set and the test set.
+Fig. 8. The iteration accuracy curves of the training set and the test set.
+L. Chen et al.                                                                                                                                                                                                                                    
+Forensic Science International 367 (2025) 112354 
+5 
+
+
+--- PAGE 6 ---
+
+study has not yet been applied in real cases, it remains to be determined 
+whether it can be effectively utilized in particularly complex crime 
+scenes. The authors will continue to refine the model in collaboration 
+with local law enforcement.
+Additionally, while the transfer learning model based on ResNet-18 
+employed in this study, excels at feature extraction and classification, 
+its architecture is not equipped to generate spatial location data, such as 
+bounding boxes, for objects. Therefore, the model cannot autonomously 
+identify and localize specific stain regions, particularly for those that are 
+small in size and have low contrast. This limitation makes it challenging 
+for the model to distinguish subtle differences between the stain and the 
+background. To mitigate the impact of background interference on 
+classification, significant manual preprocessing was required prior to 
+stain recognition. These processing steps included but were not limited 
+to, manually screening and cropping individual stains for identification, 
+discarding too large stains, and removing blank areas that interfered 
+with coverage. We also converted the stains to grayscale to prevent 
+interference with the model’s identification of features caused by color 
+changes in the fake theatrical blood due to the addition of milk for fly 
+rearing. However, in reality, classification based on bloodstain 
+morphology should also incorporate color information, which requires 
+more exploration in future studies. Nevertheless, the primary focus of 
+this study is to develop a method that can quickly and accurately 
+distinguish between challenging stains in impact spatters and fly spots.
+5. Conclusion
+In this study, we successfully achieved the effective identification of 
+impact spatters and fly spots by utilizing the transfer learning model 
+based on ResNet-18, developing a new and efficient technological 
+method in forensic bloodstain analysis. This method reduces errors 
+caused by human subjective judgment in the BPA process and enhances 
+the objective credibility of the identification results.
+During the study, strict experimental controls and extensive pre- 
+processing steps were conducted to eliminate potential interferences 
+and ensure the quality of data and validity of model training. However, 
+these measures alone are not sufficient for successful application in real 
+crime scene analysis. To facilitate broader use in forensic investigations 
+and assist more analysts in bloodstain analysis, the study must be 
+extended to include a wider range of bloodstain patterns and incorpo­
+rate bloodstain colors into the morphological identification of these 
+patterns. In future research, we intend to integrate ResNet-18 with an 
+object localization module to enhance the model’s ability to distinguish 
+between stains and the background, thereby automating bloodstain 
+detection and localization, and reducing the need for manual pre­
+processing. Additionally, more realistic and complex environments need 
+to be simulated on various surfaces. Although fake theatrical blood has 
+been demonstrated as suitable for simulating bloodstain experiments in 
+laboratory settings, repeating the study with mammalian blood will be 
+necessary to meet the demands of legal practice, as liquids with differing 
+properties can produce varying shapes and size distributions.
+The deep learning technology are assuming an increasingly pivotal 
+role in forensic science in the future. The ongoing advancement of 
+bloodstain analysis techniques is expected to enable fully automated, 
+highly accurate bloodstain evidence analysis, significantly enhancing 
+both the efficiency and precision of forensic investigations. However, 
+challenges remain, including issues related to the explainability and 
+transparency of models, algorithmic biases, and the admissibility of 
+evidence in court. Despite these obstacles, further breakthroughs in 
+forensic bloodstain analysis are likely to provide greater scientific con­
+tributions to justice and public safety.
+CRediT authorship contribution statement
+Lihong Chen: Writing – original draft, Visualization, Investigation, 
+Data curation. Yaoren Zhu: Investigation, Data curation. Chuang Ma: 
+Software, Formal analysis. Zhou Lyu: Writing – review & editing, Su­
+pervision, Resources, Project administration, Methodology, Funding 
+acquisition, Conceptualization.
+Declaration of Competing Interest
+There is no conflict of interest of this paper.
+Acknowledgements
+This work was supported by the Science and Technology Fund of 
+Chongqing Education Commission for Young Scientists and Scientific 
+(funding number: KJQN201800305) and key program of Special Pro­
+jects for Technological Innovation and Application Development of 
+Chongqing Science and Technology Bureau (funding number: 
+CSTB2022TIAD-KPX0109).
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the 
+online version at doi:10.1016/j.forsciint.2024.112354.
+References
+[1] S.H. James, P.E. Kish, T.P. Sutton, Principles of Bloodstain Pattern Analysis: Theory 
+and Practice, CRC Press, Boca Raton, 2005.
+[2] T. Bevel, R.M. Gardner. Bloodstain Pattern Analysis with an Introduction to Crime 
+Scene Reconstruction, 3rd ed., CRC Press, Boca Raton, 2008.
+[3] L.H. Wan, Forensic Sceneology, Peoples Medical Publishing House, Beijing, 2012.
+[4] M. Benecke, L. Barksdale, Distinction of bloodstain patterns from fly artifacts, 
+Forensic Sci. Int. 137 (2003) 152–159, https://doi.org/10.1016/j. 
+forsciint.2003.07.012.
+[5] A. Durdle, R.A.H. van Oorschot, R.J. Mitchell, The morphology of fecal and 
+regurgitation artifacts deposited by the blow fly Lucilia cuprina fed a diet of human 
+blood, J. Forensic Sci. 58 (2013) 897–903, https://doi.org/10.1111/1556- 
+4029.12145.
+[6] A. Viero, M. Montisci, G. Pelletti, S. Vanin, Crime scene and body alterations 
+caused by arthropods: implications in death investigation, Int. J. Leg. Med. 133 
+(2019) 307–316, https://doi.org/10.1007/s00414-018-1883-8.
+[7] A. Bettison, M.N. Krosch, J. Chaseling, K. Wright, Bloodstain pattern analysis: does 
+experience equate to expertise? J. Forensic Sci. 66 (2021) 866–878, https://doi. 
+org/10.1111/1556-4029.14661.
+[8] R.R. Ristenbatt, P.A. Pizzola, R.C. Shaler, L.N. Sorkin, Commentary on: Mark 
+Benecke and Larry Barksdale, Distinction of bloodstain patterns from fly artifacts, 
+Forensic Sci. Int. 137 (2003) 152–159, https://doi.org/10.1016/j. 
+forsciint.2004.05.012. Forensic Sci. Int. 149 (2005) 293–294.
+[9] A. Fujikawa, L. Barksdale, L.G. Higley, D.O. Carter, Changes in the morphology and 
+presumptive chemistry of impact and pooled bloodstain patterns by Lucilia sericata 
+(Meigen) (Diptera: Calliphoridae), J. Forensic Sci. 56 (2011) 1315–1318, https:// 
+doi.org/10.1111/j.1556-4029.2011.01800.x.
+[10] A. Fujikawa, L. Barksdale, D.O. Carter, Calliphora vicina (Diptera: Calliphoridae) 
+and their ability to alter the morphology and presumptive chemistry of bloodstain 
+patterns, J. Forensic Ident. 59 (2009) 502–512. 〈https://www.researchgate.net 
+/publication/272622557〉.
+[11] G. Pelletti, D. Martini, L. Ingr`a, M.C. Mazzotti, A. Giorgetti, M. Falconi, P. Fais, 
+Morphological characterization using scanning electron microscopy of fly artifacts 
+deposited by Calliphora vomitoria (Diptera: Calliphoridae) on household materials, 
+Int. J. Leg. Med. 136 (2022) 357–364, https://doi.org/10.1007/s00414-021- 
+02634-8.
+[12] D.B. Rivers, G. Acca, M. Fink, R. Brogan, A. Schoeffield, Spatial characterization of 
+proteolytic enzyme activity in the foregut region of the adult necrophagous fly, 
+Protophormia terraenovae, J. Insect Physiol. 67 (2014) 45–55, https://doi.org/ 
+10.1016/j.jinsphys.2014.06.006.
+[13] D.B. Rivers, G. Acca, M. Fink, R. Brogan, D. Chen, A. Schoeffield, distinction of fly 
+artifacts from human blood using immunodetection, J. Forensic Sci. 63 (2018) 
+1704–1711, https://doi.org/10.1111/1556-4029.13756.
+[14] S. Minocha, K.C. Krishnachalitha, S. Gupta, S.R. Alatba, S.S. Pund, B.S. Alfurhood, 
+A finger print recognition using CNN model, in: 2023 3rd International Conference 
+on Advance Computing and Innovative Technologies in Engineering (ICACITE), 
+IEEE Press, Piscataway, 2023, pp. 1490–1494, https://doi.org/10.1109/ 
+ICACITE57410.2023.10182507.
+[15] M.S. Sun, Y.H. Ding, Z.Y. Yan, X.M. Su, Application of artificial intelligence in 
+evaluating the bone age image of children, China Med. Dev. 36 (2021) 28–32, 
+https://doi.org/10.3969/j.issn.1674-1633.2021.03.006.
+[16] S.C. Liu, H.Y. Hu, N.N. Zhu, H. Tang, Application analysis of artificial intelligence 
+in cervical cytology, Chin. Clin. Oncol. 28 (2023) 541–544, https://doi.org/ 
+10.3969/j.issn.1009-0460.2023.06.013.
+[17] Z.D. Diao, L.Y. Kan, Y.L. Zhao, H.B. Yang, J.Y. Song, C. Wang, Y. Liu, F.L. Zhang, 
+T. Xu, R.Z. Chen, Y.T. Ji, X.X. Wang, X.Y. Jing, J. Xu, Y.D. Li, B. Ma, Artificial 
+L. Chen et al.                                                                                                                                                                                                                                    
+Forensic Science International 367 (2025) 112354 
+6 
+
+
+--- PAGE 7 ---
+
+intelligence-assisted automatic and index-based microbial single-cell sorting 
+system for One-Cell-One-Tube, mLife 1 (2022) 448–459, https://doi.org/10.1002/ 
+mlf2.12047.
+[18] R.M. Arthur, J. Hoogenboom, M. Baiker, M.C. Taylor, K.G. de Bruin, An automated 
+approach to the classification of impact spatter and cast-off bloodstain patterns, 
+Forensic Sci. Int. 289 (2018) 310–319, https://doi.org/10.1016/j. 
+forsciint.2018.05.019.
+[19] B.Y. Zhou, S.H. Gao, An experimental study on analyzing morphological images of 
+droplet bloodstains based on convolutional neural network, J. People’s Public 
+Secur. Univ. China (Sci. Technol.) 24 (2018) 43–47, https://doi.org/10.3969/j. 
+issn.1007-1784.2018.01.008.
+[20] Y. Liu, D. Attinger, K.D. Brabanter, Automatic classification of bloodstain patterns 
+caused by gunshot and blunt impact at various distances, J. Forensic Sci. 65 (2020) 
+729–743, https://doi.org/10.1111/1556-4029.14262.
+[21] Y. LeCun, L. Bottou, Y. Bengio, P. Haffner, Gradient-based learning applied to 
+document recognition, Proc. IEEE 86 (1998) 2278–2324, https://doi.org/10.1109/ 
+5.726791.
+[22] A. Krizhevsky, I. Sutskever, G.E. Hinton, ImageNet classification with deep 
+convolutional neural networks, Commun. ACM 60 (2017) 84–90, https://doi.org/ 
+10.1145/3065386.
+[23] K. Simonyan, A. Zisserman, Very deep convolutional networks for large-scale 
+image recognition. 3rd International Conference on Learning Representations, 
+ICLR, Appleton, 2015, pp. 1–14, https://doi.org/10.48550/arXiv.1409.1556.
+[24] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, 
+V. Vanhoucke, A. Rabinovich, Going deeper with convolutions, in: 2015 IEEE 
+Conference on Computer Vision and Pattern Recognition (CVPR), IEEE Press, 
+Piscataway, 2015, pp. 1–9, https://doi.org/10.1109/CVPR.2015.7298594.
+[25] K. He, X. Zhang, S. Ren, J. Sun, Deep residual learning for image recognition, in: 
+2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), IEEE 
+Press, Piscataway, 2016, pp. 770–778, https://doi.org/10.1109/CVPR.2016.90.
+[26] Z. Lv. Insect Succession on Carcasses in Southern Chongqing City and Its Forensic 
+Application, Doctoral dissertation, ChongQing Medical University, 2015 http:// 
+doi.org/10.7666/d.D01119770.
+[27] Z.D. Fan, Key to the Common Flies of China, Science Press, Beijing, 1992.
+[28] P. Singh, N. Gupta, R. Rathi, Blood pattern analysis—a review and new findings, 
+Egypt. J. Forensic Sci. 11 (2021) 1–7, https://doi.org/10.1186/s41935-021-00224- 
+8.
+[29] J.H. Byrd, J.K. Tomberlin. Forensic Entomology: The Utility of Arthropods in Legal 
+Investigations, 3rd ed, CRC Press, Boca Raton, 2019.
+[30] J.G. Wang, F. Zhao, C.L. Lei, Z. Sun, Effects of sugar on Chrysomya megacephala 
+(Fabricius) fecundity, Chin. J. Vector Biol. Control 16 (2005) 348–350, https://doi. 
+org/10.3969/j.issn.1003-4692.2005.05.006.
+L. Chen et al.                                                                                                                                                                                                                                    
+Forensic Science International 367 (2025) 112354 
+7 

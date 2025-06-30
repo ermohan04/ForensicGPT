@@ -1,0 +1,715 @@
+
+
+--- PAGE 1 ---
+
+PAPER
+CRIMINALISTICS
+Michael C. Taylor,1 Ph.D.; Terry L. Laber,2 B.S.; Paul E. Kish,3 M.Sc.; Glynn Owens,4 Ph.D.; and
+Nikola K. P. Osborne,5 Ph.D.
+The Reliability of Pattern Classification in
+Bloodstain Pattern Analysis, Part 1: Bloodstain
+Patterns on Rigid Non-absorbent Surfaces*
+ABSTRACT: This study was designed to produce the first baseline measure of reliability in bloodstain pattern classification. A panel of
+experienced bloodstain pattern analysts examined over 400 spatter patterns on three rigid non-absorbent surfaces. The patterns varied in spatter
+type and extent. A case summary accompanied each pattern that either contained neutral information, information to suggest the correct pattern
+(i.e., was positively biasing), or information to suggest an incorrect pattern (i.e., was negatively biasing). Across the variables under examina-
+tion, 13% of classifications were erroneous. Generally speaking, where the pattern was more difficult to recognize (e.g., limited staining extent
+or a patterned substrate), analysts became more conservative in their judgment, opting to be inconclusive. Incorrect classifications increased as
+a function of the negatively biasing contextual information. The implications of the findings for practice are discussed.
+KEYWORDS: forensic science, bloodstain pattern analysis, error rate, reliability, contextual bias, cognitive science
+Bloodstains are a common by-product of violent crime, and
+analysis of these stains is a vital part of a crime scene investiga-
+tion. Despite the fact that DNA analysis can now routinely iden-
+tify the individuals that have bled at a scene, other important
+questions can remain unanswered. For example, it is not uncom-
+mon for a suspect to claim that the blood found on his/her cloth-
+ing was deposited when he/she was trying to aid the victim. In
+these situations, understanding the mechanism by which the
+stains were deposited onto an article of clothing could be more
+informative than knowing from whom the blood originated. This
+is where the analysis of bloodstain patterns can often give valu-
+able clues as to how the blood came to be where it was found.
+Although the dynamics of the formation of a bloodstain pat-
+tern appear to be infinitely variable, it is nevertheless true that
+bloodstain patterns have reproducible characteristics that allow a
+connection to be made between the distribution of bloodstains
+and the underlying mechanism of their formation. Thus, at the
+heart of bloodstain pattern analysis (BPA) is the recognition and
+classification of the bloodstain pattern.
+BPA has been used in criminal investigations since the 1800s.
+Like many other disciplines from the early days of forensic
+science, its use and acceptance occurred without rigorous valida-
+tion. The Organization of Scientific Area Committees (OSAC)
+BPA Subcommittee (previously the Scientific Working Group
+on Bloodstain Pattern Analysis (SWGSTAIN)) has made valu-
+able progress in setting standards for training and education, ter-
+minology, quality assurance, and validation of new procedures
+for the discipline (1–3). Like other forensic practitioners, how-
+ever, bloodstain pattern analysts are grappling with the problem
+of assessing the reliability of the methodology that they use. At
+this time, very little is known about this beyond the instincts of
+experienced instructors and investigators who have observed the
+reproducibility of bloodstain patterns over many crime scenes
+and practical sessions in the classroom. While such experience
+has served as the main basis for assessing the reliability of BPA
+testimony in the past, the courts now rightly demand much
+more. Indeed, establishing accuracy and reliability measures in
+forensic disciplines was a key recommendation in the National
+Research Council’s 2009 (4) report on the state of forensic
+science.
+There are several factors that may influence the reliability of
+bloodstain pattern classifications. First, different bloodletting
+mechanisms can give rise to bloodstain patterns that possess
+similar or indistinguishable characteristics. For example blunt
+force impact and expiration patterns (2) can both feature small
+bloodstains and as such may be confused with one another. Sec-
+ond, at times, a pattern might only comprise one, or a small
+number of stains, meaning an analyst must decide if he/she has
+sufficient data to make a reliable classification. Finally, the sur-
+1Institute of Environmental Science and Research Limited (ESR), PO
+Box 29-181, Christchurch, New Zealand.
+2Minnesota Bureau of Criminal Apprehension (BCA), 1430 Maryland Ave
+East, St Paul, MN 55106.
+3Forensic Consultant & Associates, PO Box 814, Corning, NY 14830.
+4School of Psychology, University of Auckland, Private Bag 92019,
+Auckland 1142, New Zealand.
+5Institute of Environmental Science and Research Limited (ESR), PO
+Box 29-181, Christchurch, New Zealand.
+*Supported by a research grant from the National Institute of Justice
+(Award # 2010-DN-BX-K213). Presented at the International Association of
+Bloodstain Pattern Analysts (IABPA) Training Conference, October 1-4,
+2013, in San Diego, CA.
+Received 8 June 2015; and in revised form 6 Oct. 2015; accepted 17 Oct.
+2015.
+922
+© 2016 American Academy of Forensic Sciences
+J Forensic Sci, July 2016, Vol. 61, No. 4
+doi: 10.1111/1556-4029.13091
+Available online at: onlinelibrary.wiley.com
+
+
+--- PAGE 2 ---
+
+face characteristics of the substrate on which the bloodstain is
+created, whether a rigid smooth surface or an absorbent fabric,
+might add another level of complexity to the pattern recognition
+task. These issues have been highlighted in several high profile
+homicide trials in which bloodstain pattern analysts have found
+themselves at the center of controversial arguments relating to
+the explanation of the mechanisms that produce very small
+bloodstains on clothing (5,6).
+Although the size and distribution of individual bloodstains
+are often measured, pattern recognition methods rely primarily
+on a qualitative assessment of the appearance of the pattern. It is
+essential therefore that these methods are well understood, their
+reliability is demonstrable and that any bloodstain pattern con-
+clusion proffered can be supported by statements that guide the
+courts in their assessment of the extent of that reliability.
+One of the complications for any study of method reliability
+is the variability in the methods used. At this time, there is no
+discipline standard in the methodology employed by bloodstain
+pattern analysts. Two suggestions have been made to meet this
+need (7,8), but so far no significant effort has been made to
+establish these or any other approaches as standards. In fact, it is
+possible that some bloodstain pattern analysts would struggle to
+articulate the methodology that they employ.
+Testing the reliability of BPA methods is not a straightforward
+task. For example, it is generally impossible to know with cer-
+tainty the “true” mechanistic cause of a bloodstain pattern at a
+crime scene. For this reason, procedures to test method reliability
+are limited to artificially created scenarios for which the ground
+truth can be known. This approach has the risk of under or over
+estimating identification errors because some of the dynamics
+present in a real case investigation are lacking.
+When considering the reliability of any forensic method, it is
+important to assess whether factors outside of the evidence can
+influence the reliability of interpretations. In particular, a grow-
+ing body of research has demonstrated that expert interpretations
+may be influenced by the presentation of contextual information
+(9–18).
+Perhaps more so than in any other forensic discipline, contex-
+tual information is a necessary part of BPA. That is because
+bloodstain patterns are analyzed in the context of a case with the
+objective to assist with the reconstruction of events. This means
+that once the pattern is classified, its relevance to the case inves-
+tigation must be considered. These two processes (pattern classi-
+fication and scene reconstruction) frequently overlap. At present,
+there is no rigorous protocol for BPA that distinguishes these
+processes. This means that, at an early stage of the analysis, ana-
+lysts may consider additional case-specific information, such as
+medical findings, case circumstances, and even witness testi-
+mony. If the BPA methodology is not reliable, this integration
+of case information may create a fertile breeding ground for con-
+textual bias (19).
+The Present Study
+The research hypothesis at the heart of this study was as fol-
+lows: Pattern recognition methods employed in BPA are reliable
+when used by fully competent analysts.
+To test this, a panel of experienced bloodstain pattern analysts
+classified a series of bloodstain spatter patterns. These patterns
+included stains made under a variety of conditions relevant to a
+crime scene and included some sets of stains produced under
+“ideal” conditions. That is to say, patterns produced to provide
+the maximum chance of accurate classification. While it is
+acknowledged that training and experience are important ingredi-
+ents in the accurate conclusions reached by forensic analysts, the
+approach used here was designed to help define the upper limit
+of pattern classification reliability by focusing attention on
+method reliability rather than analyst competency.
+The type of pattern, pattern extent, the nature of the substrate,
+and the direction of contextual cues were varied in a balanced
+experiment designed to determine the effect of these variables
+on pattern classification accuracy.
+Method
+Participants
+Participants were 27 bloodstain pattern analysts from North
+America, Australasia (New Zealand and Australia), and Europe.
+All were invited based on their experience and standing within
+the BPA community and were required to meet the following
+three criteria: (i) must have completed at least 80 h training in
+BPA, (ii) have been active in BPA casework for a minimum of
+5 years, (iii) and be qualified by a court as an expert in BPA
+and have provided expert testimony.
+Materials
+Bloodstain pattern targets (40 cm 9 40 cm) were prepared in
+a controlled laboratory setting at the Minnesota Bureau of Crimi-
+nal Apprehension (BCA). This size was chosen to aid with ship-
+ping the materials to study participants. The completed targets
+were coated with a clear lacquer to prevent deterioration and to
+assist with biohazard safety. This coating meant that no chemical
+tests to identify blood or saliva were possible. Participants were
+expected to assume that any visible red-brown stains were
+indeed bloodstains.
+Three variables were manipulated when preparing the blood-
+stain pattern targets: type of pattern, pattern extent, and target
+substrate.
+Type of Pattern—One of four different bloodstain pattern types
+were prepared for each target: blunt force impact spatter, firearms-
+related (back or forward) spatter, cast-off pattern, and expirated
+spatter. These spatter pattern types were chosen to reflect the poten-
+tial for overlap in pattern characteristics between pattern types,
+which can be problematic for bloodstain pattern analysts, and were
+designed to represent those typically encountered at crime scenes.
+Cast-off pattern and blunt force impact spatter targets were
+made with fresh human blood, donated by project volunteers.
+Blood was drawn into tubes containing EDTA anticoagulant and
+was used within 7 days of drawing. Blood for the firearms-
+related spatter was purchased from Memorial Blood Center, 737
+Pelham Boulevard, Saint Paul, MN 55114, and was used within
+30 days of drawing. Blood for the expirated patterns was drawn
+from an experimenter on the same day it was used and was used
+unrefrigerated. To represent the variability found in crime scenes
+and to create varied pattern extents, two methods were used to
+create each pattern type (Tables 1–4). Targets were mounted on
+a vertical surface during preparation.
+Pattern Extent—The extent of pattern on each target was cate-
+gorized into three levels: minimum, medium, and maximum. Cat-
+egory membership was determined by an approximation of the
+total number of stains in the pattern and the number of stains
+larger than 1 mm in diameter (see Table 5).
+TAYLOR ET AL. . CLASSIFICATION RELIABILITY IN BPA
+923
+ 15564029, 2016, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.13091 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+
+Substrate—Targets were one of three different rigid-surface
+substrates designed to represent varying levels of anticipated
+identification difficulty; paint, wallpaper, and chipboard. Two
+coats of white Zinsser 1-2-3 primer were used for the painted
+substrate. The wallpaper was white Brewster Easy Texture pain-
+table wallpaper (STRIA Pattern 99417F), with one coat of Zins-
+ser
+1-2-3
+primer.
+The
+target
+was
+rotated
+during
+pattern
+construction so that the wallpaper texture ran vertically. The
+chipboard surface was made from oriented strand board (OSB),
+which comprises wood logs (e.g., pines and aspen) that are
+chipped and oriented in random directions.
+Contextual Information—In addition to varying the type of
+bloodstain pattern, pattern extent, and target substrate, case sum-
+maries were created to manipulate the contextual information asso-
+ciated with each target. Contextual information was presented in
+the form of a short vignette that provided background information
+about how the bloodstain pattern was found and what was known
+about the case. This included information such as eyewitness
+reports, the position of the pattern/victim, injuries sustained by the
+victim, and any weapons that were found or assumed to have been
+used. All scenarios indicted a single bleeder and included a DNA
+result. The scenario either contained information that supported the
+correct classification (positively biasing), was misleading toward a
+particular incorrect classification (negatively biasing), or contained
+no directional information (neutral). No analyst received the same
+vignette twice. Two examples are given in Table 6.
+Procedure
+Analysts were initially invited via email. In both the invitation
+email and in a letter to the analysts after they had agreed to par-
+ticipate, they were informed that the aim of the study was not to
+test competency, but rather the reliability of BPA methodology.
+Furthermore, they were informed that all responses would
+remain anonymous and could in no way be linked to any speci-
+fic analyst. To further ensure anonymity, an independent third-
+party liaised with study participants.
+TABLE 1––Methods used to create blunt force impact spatter. For both pat-
+tern-creating methods, multiple targets were positioned 50 cm from the front,
+side, and back of a striking zone.
+Method 1
+One drop of blood was placed on a wooden block in the center
+of the striking zone. A hammer was propelled by rubber bands
+and gravity onto the blood pool. This method tended to produce
+fine horizontally directed spatter
+Method 2
+Six drops of blood were placed on a wooden block to the right
+side of the center of the striking zone and extending outside of
+that zone. The hammer was allowed to fall under gravity alone
+onto the blood pool. This method tended to produce larger
+spatter stains that travelled higher on the adjacent vertical
+surface
+TABLE 2––Methods used to create cast-off bloodstain patterns.
+Method 1
+A wrench was liberally coated in blood and then swung a few
+times to remove excess blood. An experimenter stood
+approximately 130 cm from the left and front walls that held the
+targets and swung the wrench forcibly from left to right, on an
+angle, and overhead and downwards. This method tended to
+produce large stains with a broadly linear distribution
+Method 2
+A small knife was dipped a few millimeters into a beaker of
+blood and tapped one to two times to remove excess blood.
+An experimenter then stood approximately 85 cm from the left
+wall and 130 cm from the front wall and swung the knife
+forcibly toward the targets. This method tended to give smaller
+spatter stains in a tightly linear distribution
+TABLE 3––Methods used to create expirated bloodstain patterns.
+Method 1
+An experimenter transferred blood to his lips with a finger and
+blew air gently through tightly pursed lips directly toward the
+targets, which were mounted 15–20 cm from him. This method
+tended to produce smaller stains and generally lacked mucus
+strands
+Method 2
+An experimenter took a small volume of blood (<1 mL) and
+mixed it gently with saliva before coughing from the front of
+the mouth directly toward the targets, which were mounted
+50–90 cm from him. This method tended to give a larger
+range of spatter sizes and frequently contained mucus strands
+TABLE 4––Methods used to create firearms-related bloodstain patterns. For
+both methods, a 0.22 caliber bullet was fired from a pistol through a blood-
+soaked sponge. Some targets required multiple shots to obtain the desired
+amount of pattern.
+Method 1
+Back spatter was collected from targets positioned 120 cm in
+front of a blood-soaked sponge
+Method 2
+Forward spatter was collected from targets positioned 120 cm to
+the rear of the sponge
+TABLE 5––Thresholds for determining pattern extent.
+Total N Stains
+N Stains > 1 mm
+Extent
+<50*
+<10
+Minimum
+<50
+>10
+Medium
+50–500
+<50
+Medium
+50–500
+>50
+Maximum
+>500
+Maximum
+*For cast-off patterns, a minimum pattern was deemed to be fewer than
+four tightly linear stains, or fewer than 10 broadly linear stains. If there were
+more than 10 linear stains, the pattern was considered to have medium extent.
+TABLE 6––Example of contextual information.
+Example scenario containing contextual information* to suggest the
+pattern is the result of expirated blood
+Police were called to a late-night disturbance outside an inner-city club. On
+arrival, they found the body of a 23-year-old man in a dark alleyway, with
+a crowd of youths standing nearby watching the paramedics, who comment
+that they thought the man died from severe internal injuries following a
+beating. The man’s external bloodletting injuries were confined to his nose
+and mouth. An officer noticed bloodstains on the side door of the club. The
+club owner was interviewed and told police that he had not been present
+during the disturbance but had heard the noise and had come outside and
+saw the deceased lying in the alleyway and several youths running off. He
+says the bloodstaining occurred when the victim was alive and was
+coughing up blood. Police bring you a section of the door for your
+bloodstain pattern examination. DNA tests confirm the blood on the door of
+the club was from the 23-year-old victim found in the alleyway. You are
+requested to determine the nature of the bloodstaining to confirm the club
+owner’s account.
+*If the target pattern was an expirated bloodstain pattern, this contextual
+information would be considered positively biasing. If the target pattern was
+a pattern other than expirated blood, then this contextual information would
+be considered negatively biasing.
+Example scenario containing neutral contextual information
+Police get a call from a hotel manager who reports that one of her cleaning
+staff found bloodstains on the wall in one of the hotel rooms during a
+routine room service. She reports that the guest who occupied the room had
+checked out. The police locate the guest who denies all knowledge of the
+blood and appears to be able to account for all his movements during his
+stay. A DNA test shows the blood in the room is not from him. Police have
+brought you this sample from the room and asked you to examine it to help
+determine the significance of the pattern present.
+924
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2016, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.13091 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+
+Materials were only sent to analysts after they had indicated a
+willingness to participate. Each analyst received 15 or 16 targets,
+and a response sheet associated with each target. A number was
+placed at the top of each target; this identified which target cor-
+responded to each response sheet and indicated the pattern align-
+ment during pattern construction. No two analysts received the
+same targets.
+Each of the manipulated variables was counterbalanced across
+the other variables and across the entire sample.
+The response sheet included the following instructions: “You
+are preparing your final report for investigators, which could
+end up being presented in court. Please give your opinion as to
+the pattern type or types that could account for the stains on the
+sample target.”
+A list of pattern types, along with SWGSTAIN definitions,
+was provided as follows: cast-off, drip trail, impact, saturation,
+splash, transfer, drip, expiration, pool, spatter from gunshot
+trauma (forward or back spatter), swipe, insect stain, drip stain,
+flow, projected (e.g., arterial), and wipe.
+Analysts could select any number of patterns, or indicate that
+“I can’t state that any of the above patterns would account for
+the stains on the sample target.”
+After classifying all target patterns, analysts emailed or posted
+their responses to the independent third-party.
+Results
+Error and Accuracy Rate Determination
+Analysts’ responses were considered correct if they selected
+the pattern type that represented the true mechanistic cause for
+pattern (or selected this pattern type among multiple selections).
+Analysts’ responses were considered incorrect if the true pattern
+type was not selected in their choice(s). If analysts could not state
+that any of the listed patterns could account for the target pattern,
+their responses were considered inconclusive. If analysts had clas-
+sified the pattern by indicating all listed types as possible, these
+responses would have been considered inconclusive; none did so.
+Pattern Classification Accuracy
+Twenty-seven analysts made judgements on 15–16 target pat-
+terns each, yielding 416 unique assessments. Three assessments
+were removed from the analysis because no response was provided;
+413 responses remained. In total, analysts were correct for 69.5%
+of classifications and made errors for 13.1% of classifications. The
+remaining 17.4% of responses were inconclusive. Chi-squared (v2)
+tests were performed to determine whether the frequency of correct,
+incorrect,
+and
+inconclusive
+responses
+varied
+significantly
+(p < 0.05) as a function of each of the variables under examination.
+Effect of Pattern Type
+There was a significant overall difference in the frequency of ana-
+lysts’ correct, incorrect, and inconclusive responses as a function of
+pattern type, v2 (6, N = 413) = 13.871, p = 0.031. This was
+mainly due to analysts’ success in identifying expirated patterns
+(81% correct compared to 64–69% for the remaining types; Fig. 1).
+Effect of Pattern Extent
+There was a significant overall difference in the frequency of
+correct, incorrect, and inconclusive responses as a function of
+pattern extent, v2 (4, N = 413) = 26.74, p < 0.0001. As might
+be expected, analysts’ accuracy improved as the extent of blood-
+staining in the pattern (essentially the number of stains present
+on the target) increased (Fig. 2). Rather than the decrease in
+staining extent increasing analysts’ propensity to make errors,
+the decrease in correct classifications was matched with an
+increase in inconclusive classifications.
+Effect of Target Substrate
+There was a significant overall difference in the frequency of
+correct, incorrect, and inconclusive responses as a function of
+the substrate on which the bloodstain patterns were deposited, v2
+(4, N = 413) = 38.64, p < 0.0001. Analysts made the greatest
+number of correct classifications on the white-painted surface,
+followed by the wallpaper surface (Fig. 3). The chipboard sur-
+face resulted in the lowest proportion of correct responses and
+greatest proportion of inconclusive responses. The chipboard sur-
+face had a highly patterned finish with many surface features
+that could have been confused with small bloodstains. Analysts
+had little or no scope for using any enhancement methods that
+might have assisted them with distinguishing bloodstains from
+artefacts.
+Analysts’
+decrease
+in
+correct
+classifications
+was
+matched by an increase in inconclusive classifications, rather
+than an increase in erroneous classifications.
+Effect of Contextual Information
+There was a significant overall difference in the number of
+correct, incorrect, and inconclusive responses as a function of
+the direction of the contextual cues, v2 (4, N = 413) = 12.39,
+FIG. 1––Proportion of response outcomes as a function of pattern type.
+FIG. 2––Proportion of response outcomes as a function of pattern extent.
+TAYLOR ET AL. . CLASSIFICATION RELIABILITY IN BPA
+925
+ 15564029, 2016, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.13091 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+
+p = 0.015 (Fig. 4). When a positive context was presented, ana-
+lysts were less likely to make an incorrect classification than
+when the context was neutral, with the overall error rate drop-
+ping from 11% to 8%. Conversely, when a negative context was
+presented analysts were more likely to make an incorrect classi-
+fication than when the context was neutral, with the overall error
+rate increasing to 20%. The rate of inconclusive decisions was
+highest when the contextual information contained no directional
+cues (21%), relative to when there were positively (15%) or neg-
+atively biasing cues (16%).
+Discussion
+The purpose of this study was to assess the reliability of clas-
+sification decisions in bloodstain pattern analysis. To do this,
+well-trained and highly experienced analysts examined over 400
+spatter patterns on rigid non-absorbent surfaces, representing sur-
+faces frequently encountered at crime scenes. Four spatter pattern
+types commonly encountered in crime scene investigations were
+used. The extent of available pattern, the nature of the substrate,
+and the type of contextual information were varied in a balanced
+experiment designed to determine the effect of these variables
+on pattern classification accuracy.
+Analysts were required to classify the pattern to a standard
+required for court. To do this, analysts were allowed to select
+one or more pattern classifications that they determined could
+not be excluded. Within the chosen range of conditions, the
+17.4% overall rate of inconclusive decisions gives some measure
+of interpretation difficulty for the patterns created in this study.
+Where a classification was made, either by choosing a single
+pattern or by nominating more than one pattern, 13.1% of these
+classifications did not include the correct pattern type. This find-
+ing can be considered the first approximation of an overall error
+rate for bloodstain pattern classification on rigid non-absorbent
+surfaces.
+Some patterns were more reliably classified than others. In
+particular, the error rate was 4% for expirated patterns compared
+with 19% for impact patterns. The characteristic features of expi-
+rated patterns (e.g., mucus strands and air bubbles) were gener-
+ally evident within these patterns, which could explain why this
+pattern type was the most recognizable. The second most recog-
+nizable pattern type was cast-off spatter. Many of the distinctive
+features of a cast-off pattern, such as a linear or curvilinear dis-
+tribution of stains, were also generally present in the cast-off pat-
+terns prepared in this study.
+Other than a lack of distinctive features in a pattern, it is not
+clear why the proportion of incorrect classifications for impact
+and firearms-related spatter patterns was higher. It is possible
+that the features that were observed in these patterns were those
+shared by other pattern types. For example, many of the impact
+patterns had a somewhat narrow distribution of stains, similar to
+cast-off. Indeed, on closer observation of the data, many of the
+impact patterns were incorrectly classified as cast-off. Firearms-
+related spatter patterns in this study did not always have a large
+proportion of the very small “mist” stains usually associated with
+this pattern type, which may explain why firearms related spatter
+was excluded as a mechanism for some of these patterns.
+Looking more closely at the other variables used in this study,
+it is evident that where the amount of available pattern was lim-
+ited or the substrate made stain visualization more difficult (e.g.,
+chipboard)
+the
+proportion
+of
+correctly
+classified
+patterns
+decreased. However, the reduction in classification accuracy was
+generally accompanied by an increase in the proportion of incon-
+clusive responses. So where the pattern was more difficult to
+recognize, analysts became more conservative in their judgment,
+which is what is to be expected from a reliable method.
+The error rates estimated from this study are based, in part, on
+the conditions chosen for examination. These conditions were
+designed to be a fair representation of real casework but remain
+the subjective judgement of the experimenters. In particular, the
+patterns used in the study were restricted to common spatter
+types. Had other more easily recognized pattern types, such as
+drip stains, drip patterns, transferred blood, and saturation pat-
+terns been included, the proportion of correct classifications may
+have been higher. In addition, the size of the targets meant that
+in many cases the analysts received only a portion of the total
+pattern. As well as reducing the number of bloodstains available
+for analysis, the limited pattern size meant that it may not have
+been possible to perform other analyses such as area of origin
+determinations. Even with a small number of stains and only a
+portion of the complete pattern available, however, many ana-
+lysts were prepared to make a classification. Finally, the use of a
+coating of lacquer removed the potential to perform any chemi-
+cal tests on the bloodstains, which may have hindered analysts’
+ability to confirm, for example, the presence of saliva to indicate
+expirated blood. It is worth noting that some of these limitations
+exist in casework, especially where analysts are working solely
+from photographs. While any of these limitations could have
+reduced the classification success rate, none would be expected
+to increase erroneous classifications, because such errors mean
+the correct pattern type has been excluded. Rather, an increase in
+inconclusive classifications
+would be
+expected, which was
+FIG. 4––Proportion of response outcomes as a function of direction of
+contextual cues.
+FIG. 3––Proportion of response outcomes as a function of target sub-
+strate.
+926
+JOURNAL OF FORENSIC SCIENCES
+ 15564029, 2016, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.13091 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+
+indeed the observed outcome in this study for the pattern extent
+and substrate limitations.
+Of particular interest in this study was whether contextual
+information can influence classification decisions. Indeed, where
+a scenario was offered that deliberately pointed analysts toward
+the correct classification, the proportion of misclassifications that
+resulted was lower (8%) than that observed for patterns with
+neutral scenarios (11%).
+Of more concern, the proportion of misclassifications that
+resulted when the contextual information pointed toward an incor-
+rect pattern type was considerably higher (20%) than when the
+contextual information was neutral (11%). This study, therefore,
+has produced evidence that analysts consider contextual informa-
+tion when classifying bloodstain patterns and that this information
+can influence accuracy. These findings may be evidence for con-
+firmation bias (19), where analysts interpreted the pattern in line
+with the expectation created by the contextual cues.
+In situations where data from a bloodstain pattern is limited, it
+may be tempting for analysts to seek out contextual information
+in order to help reach a decision. Unfortunately, contextual bias
+is most likely to occur when data are ambiguous (20–24), and in
+these situations, efforts to avoid contextual information are par-
+ticularly important. The nature of forensic science is such that
+analyses are rarely conducted without a degree of ambiguity and
+the need to apply subjective judgements. With a reliable method-
+ology, however, it should be possible to reach sound conclusions
+even in the absence of ideal conditions.
+Analysts’ use of contextual information to inform classifica-
+tion decisions could reflect the fact that the boundary between
+pattern classification and crime scene reconstruction is often
+blurred. This blurred boundary is not helped by the fact that, at
+present, there is not a rigorous protocol for BPA that distin-
+guishes the two processes. This means that, at the stage of pat-
+tern classification, additional case-specific information, such as
+medical findings, case circumstances, and eye-witness statements
+could influence pattern interpretation decisions (25). This prob-
+lem is compounded by the fact that the BPA terminology used
+to describe pattern classifications generally describe the mecha-
+nism of pattern formation (e.g., cast-off, expiration). Thus classi-
+fications actually form components of a reconstruction theory,
+rather than purely representing a summary of pattern characteris-
+tics. Moving forward, it could be advantageous for the BPA
+community to agree on a standard methodology for the analysis
+of bloodstain patterns that includes a better distinction between
+classification and reconstruction, and on terminology that relies
+less on mechanistic descriptions of patterns.
+Conclusions
+One significant implication of this study is the inference that
+contextual information is being integrated into pattern classifica-
+tion decisions. The assumption made here is that this is not a
+competency issue, given that the participants in this study were
+all experienced bloodstain pattern analysts. This vulnerability to
+context effects justifies further investigation. Based on the find-
+ings of this study, it seems prudent for practitioners and agencies
+to take steps to minimize the effects of contextual information.
+The practicalities of this may vary from agency to agency and
+may not be straightforward, as many analysts are immersed in
+an investigation in ways that make it difficult to control the flow
+of information. However, further research efforts could see valid
+contextual information management methods emerge.
+A study of this sort has limitations, not the least of which is
+the fact that analysts were not making decisions in the context
+of a real case, with the associated demands of a court. Within
+the restrictions of the study, however, a useful baseline has been
+established for the expected error rate in bloodstain pattern clas-
+sification.
+References
+1. Scientific Working Group on Bloodstain Pattern Analysis. Guidelines for
+the minimum educational and training requirements for bloodstain pattern
+analysts. Forensic Sci Commun 2008;10(1):1–5.
+2. Scientific Working Group on Bloodstain Pattern Analysis. Recommended
+terminology. Forensic Sci Commun 2009;11(2):1–3.
+3. Scientific Working Group on Bloodstain Pattern Analysis. Guidelines for
+a quality assurance program in bloodstain pattern analysis. Forensic Sci
+Commun 2008;10(1):1–4.
+4. National Research Council. Strengthening forensic science in the United
+States: a path forward. Washington, DC: The National Academy of
+Sciences, 2009.
+5. Aguirre-Jarquin v. State. Supreme Court of Florida, 2014.
+6. Camm v. State. NE 2d: Ind: Court of Appeals; 2011; 205.
+7. Gardner RM. Defining a methodology for bloodstain pattern analysis. J
+Forensic Identif 2006;56(4):549–57.
+8. Saviano J. Articulating a concise scientific methodology for bloodstain
+pattern analysis. J Forensic Identif 2005;55(4):461–70.
+9. Dror IE, Charlton D, Peron AE. Contextual information renders experts
+vulnerable to making erroneous identifications. Forensic Sci Int 2006;156
+(1):74–8.
+10. Dror IE, Hampikian G. Subjectivity and bias in forensic DNA mixture
+interpretation. Sci Justice 2011;51(4):204–8.
+11. Dror IE, Rosenthal R. Meta-analytically quantifying the reliability and
+biasability of forensic experts. J Forensic Sci 2008;53(4):900–3.
+12. Nakhaeizadeh S, Dror IE, Morgan RM. Cognitive bias in forensic
+anthropology: visual assessment of skeletal remains is susceptible to con-
+firmation bias. Sci Justice 2014;54(3):208–14.
+13. Kerstholt J, Eikelboom A, Dijkman T, Stoel R, Hermsen R, van Leuven
+B. Does suggestive information cause a confirmation bias in bullet com-
+parisons? Forensic Sci Int 2010;198(1):138–42.
+14. Dror IE, Wertheim K, Fraser-Mackenzie P, Walajtys J. The impact of
+human–technology cooperation and distributed cognition in forensic
+science: biasing effects of AFIS contextual information on human
+experts. J Forensic Sci 2012;57(2):343–52.
+15. Osborne NK, Woods S, Kieser J, Zajac R. Does contextual information
+bias bitemark comparisons? Sci Justice 2014 Jul;54(4):267–73.
+16. Kerstholt JH, Eikelboom AR. Effects of prior interpretation on situation
+assessment in crime analysis. J Behav Decis Making 2007;20(5):455–65.
+17. Kerstholt JH, Paashuis R, Sjerps M. Shoe print examinations: effects of
+expectation, complexity and experience. Forensic Sci Int 2007;165(1):30–4.
+18. Fraser-Mackenzie PA, Dror IE, Wertheim K. Cognitive and contextual
+influences in determination of latent fingerprint suitability for identifica-
+tion judgments. Sci Justice 2013 Jun;53(2):144–53.
+19. Nickerson RS. Confirmation bias: a ubiquitous phenomenon in many
+guises. Rev Gen Psychol 1998;2(2):175.
+20. Andrews S, Bond R. Lexical expertise and reading skill: bottom-up and
+top-down processing of lexical ambiguity. Read Writ 2009;22:687–711.
+21. Bartels BL. Top-down and bottom-up models of judicial reasoning. In:
+Klein DE, Mitchell G, editors. The psychology of judicial decision mak-
+ing. New York, NY: Oxford University Press, 2010;41–56.
+22. Ha YW, Hoch SJ. Ambiguity, processing strategy, and advertising-evi-
+dence interactions. J Consumer Res 1989;16:354–60.
+23. Giannelli PC. Confirmation bias. Criminal Justice 2007;22:60–1.
+24. Osborne NK, Zajac R. An imperfect match? Crime-related context influ-
+ences fingerprint decisions. Appl Cognitive Psychol 2015;30(1):126–34.
+25. Jamieson A. A rational approach to the principles and practice of crime
+scene investigation: I. Principles. Sci Justice 2004;44(1):3–7.
+Additional information and reprint requests:
+Michael C. Taylor, Ph.D.
+Institute of Environmental Science and Research Ltd
+PO Box 29181
+Christchurch 8540
+New Zealand
+E-mail: michael.taylor@esr.cri.nz
+TAYLOR ET AL. . CLASSIFICATION RELIABILITY IN BPA
+927
+ 15564029, 2016, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.13091 by <Shibboleth>-member@glyndwr.ac.uk, Wiley Online Library on [24/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

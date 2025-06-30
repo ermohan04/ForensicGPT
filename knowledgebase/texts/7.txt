@@ -1,0 +1,1152 @@
+
+
+--- PAGE 1 ---
+
+Automated reconstruction of cast-off blood spatter patterns based on
+Euclidean geometry and statistical likelihood
+Scott McClearya, Eugene Lisciob, Kris De Brabanterc,d, Daniel Attingere,f,*
+a 240 E Walnut St APT 108, Des Moines, IA, 50309, United States
+b P. Eng., ai2-3D, 271 Jevlan Drive, Unit 14, Woodbridge, Ontario, L4L 8A4, Canada
+c Iowa State University, Department of Statistics, 2419 Snedecor Hall, 2438 Osborn Dr., Ames, IA, 50011-1210, United States
+d Department of Industrial Manufacturing & Systems Engineering, 3033 Black Engineering, 2529 Union Dr, Ames, IA, 50011-2030, United States
+e Struo LLC, Ames, IA, 50010, United States
+f Department of Mechanical Engineering, Iowa State University, 2025, Black Engineering, Ames, 50011, IA, United States
+A R T I C L E 
+I N F O
+Article history:
+Received 30 September 2020
+Received in revised form 18 November 2020
+Accepted 23 November 2020
+Available online 1 December 2020
+Keywords:
+Bloodstain pattern analysis
+Crime scene reconstruction
+Open source software
+A B S T R A C T
+Cast-off spatter patterns exhibit linear trails of elliptical stains. These characteristic patterns occur by
+centrifugal forces that detach drops from a swinging object covered with blood or other liquid. This
+manuscript describes a method to reconstruct the motion, or swing, of the object. The method is based on
+stain inspection and Euclidean geometry. The reconstructed swing is represented as a three-dimensional
+region of statistical likelihood. The reconstruction uncertainty corresponds to the volume of the
+reconstructed region, which is speciﬁc to the uncertainties of the case at hand. Simple numerical
+examples show that the reconstruction method is able to reconstruct multiple swings that are either
+intersecting or adjacent to each other. The robustness, spatial convergence, computing time of the
+reconstruction method is characterized. For the purpose of this study, about 20 cast-off experiments are
+produced, with motion of the swinging object documented using video and/or accelerometers. The
+swings follow circular or arbitrary paths, and are either human- or machine-made. The reconstruction
+results are compared with the experimentally documented swings. Agreement between measured and
+reconstructed swings is very good, typically within less than 10 cm. The method used in this study is
+implemented as a numerical code written in an open source language, provided in an open access
+repository, for purposes of transparency and access.
+© 2020 Elsevier B.V. All rights reserved.
+1. Introduction
+Cast-off spatters often occur during crimes involving beating
+events. In the context of bloodstain pattern analysis, a cast-off
+spatter pattern is deﬁned as “a bloodstain pattern resulting from
+blood drops released from an object due to its motion” [1]. Cast-off
+spatters occur when non-gravitational inertial forces overcome the
+capillary forces retaining blood on an object experiencing linear or
+rotational acceleration. In the latter case, the inertial forces are
+called centrifugal forces. Cast-off patterns are characterized with
+linear or curvilinear stain distributions [2]. Cast-off patterns tend
+to be elongated, as compared to impact spatter that exhibit radial
+dispersions as shown in Fig. 1(a) [3]. Other occurrences of cast-off
+spatters involve water or mud projection by vehicle wheels. The
+scope of this manuscript is focused on spatters relevant to
+bloodstain pattern analysis.
+The dynamics of cast-off formation have been well documented
+[2,4–9]. Blood adhering by capillary forces on a swinging object
+detaches when centrifugal forces become large enough to balance
+capillary forces. The detaching drops leave the swinging object
+tangentially to its swing, with an initial velocity equal in
+magnitude and direction to that of the weapon at the instant of
+detachment. The trajectories of the drops are then controlled by
+gravitational and drag forces. They can be described with Newton’s
+second law of motion. While several studies have described the
+reconstruction of impact spatter patterns [10–15], where the area
+of origin of the blood is assumed to be static, there is currently no
+available method to reconstruct the trajectory of the swinging
+object that generates a cast-off spatter pattern. Current recon-
+struction methods for impact spatter patterns are called method of
+strings or tangent method, assume the blood drops travel in straight
+trajectories from the impacted blood source to the stain impact
+* Corresponding author.
+E-mail addresses: scott.thomas.mccleary@gmail.com (S. McCleary),
+eliscio@ai2-3d.com (E. Liscio), kbrabant@iastate.edu (K. De Brabanter),
+Struo.Attinger@gmail.com (D. Attinger).
+http://dx.doi.org/10.1016/j.forsciint.2020.110628
+0379-0738/© 2020 Elsevier B.V. All rights reserved.
+Forensic Science International 319 (2021) 110628
+Contents lists available at ScienceDirect
+Forensic Science International
+journal homepage: www.elsevier.com/locate/forsciint
+
+
+--- PAGE 2 ---
+
+locations. The method presented in this manuscript is about
+reconstructing the swing of the object causing the spatter pattern,
+based on stain inspection and statistical methods.
+Studies on cast-off patterns have also produced reconstruction
+guidelines [2,4,16]. Recent advances in theory, measurement, and
+crime scene processing have shed light on various aspects of cast-
+off patterns [2,16,17]. Two studies, by Maloney [17] and Liscio [16],
+propose methods for the analysis and interpretation of cast-off
+patterns. 
+Method 
+[17] 
+results 
+in 
+the 
+determination 
+of 
+an
+“approximate plane of motion”, a plane within which the bloody
+weapon has probably swung. This plane of motion is calculated
+using least squares and orthogonal regressions [17]. Method [16]
+presents and determines a “path volume envelope” (x10 [16]) that
+encloses the weapon swing. The path volume envelope is a box
+“deﬁned as the space which contains all or part of the object path
+which created the cast-off stains” (x8 in [16]). The method in [16]
+also deﬁnes an “exclusion zone”, that is a volume where the cast-off
+spatter pattern is not likely to have originated. Both methods result
+in a plane containing the reconstructed motion of the weapon
+swing, which is supposedly planar. The error associated with these
+methods can be estimated as the distance between the plane, or
+associated planar region, and the known cast-off swing motion.
+Human created cast-off patterns, commonly present on crime
+scenes, are not necessarily planar [2], and might involve multiple
+swings.
+To date, there are no methods to directly reconstruct the swing
+(s) of a weapon from inspection of cast-off spatter patterns. In this
+manuscript, we develop a geometric and statistical reconstruction
+method. The geometric approach determines circular segments of
+the weapon swing from triplets of stains, which are then
+assembled statistically to reconstruct weapon swings featuring
+variable radii and multiplanar motion. The reconstructed swing is
+represented statistically with uncertainty regions [12], which are
+volumes of arbitrary shape that are likely to contain the swing of
+the weapon. Analog probabilistic approaches have been proposed
+for the reconstruction of impact spatter patterns by Camana [12] in
+2D and then by Attinger et al. in 3D [18]. The methods involve the
+propagation of measurement uncertainties and the construction of
+a joint probability density function (PDF) [18]. The method in this
+manuscript is analog, in the sense that similar statistical methods
+are used, however the reconstruction result is the path of a bloody
+weapon rather than a stationary blood source.
+2. Experiments
+Fig. 1 shows the three setups used to produce cast-off patterns
+to develop and test the reconstruction method. One set of cast-off
+spatter patterns was produced with a sitting participant who
+swung a wet rod around his shoulder, and two sets of patterns were
+produced by circular and non-circular motions of a wet rod. A total
+of about 20 spatter patterns was used to develop and test the
+reconstruction method.
+2.1. “Sitting” cast-off spatter patterns
+Four cast-off spatter patterns were created by the ﬁrst author,
+who swung a wooden rod while seating, as shown in Fig. 1b. Fluid
+was ink solution (Royal Talens Amsterdam green and red acrylic
+ink) diluted with an equal volume of deionized water, and later
+swine 
+blood. 
+Swine 
+blood 
+trials 
+were 
+conducted at 
+room
+temperature, 22  1 C, with ethically-sourced heparinized blood
+to prevent coagulation. Swine blood was chosen to minimize
+biohazards, and is a substitute to human blood with similar
+physical properties [5,19,20]. The blood was drawn less than 24 h
+prior to experimentation and stored under refrigeration and on a
+rocker. Hematocrit was measured within the range of 44–48% prior
+to experimentation with a dedicated centrifuge device (STI,
+Hemata-Stat-II). The blood was warmed to room temperature
+while on a rocker before experimentation. The reconstruction
+method proposed in this manuscript is independent on the ﬂuid
+Fig. 1. Cast-off spatter patterns such as (a) have been generated in three ways: (b) participant “sitting” and rotating his arm, with measured weapon swing indicated in dashed
+black arrow. (c) using a “Castanova” rig, where wooden arm rotates around ﬁxed axis driven by bungee cord, with measured swing motion as dashed black arrow; and (d) “
+human” participant creating a cast-off pattern during downward swing. Reference markers on the ﬂoor help calibrate motion measurement, and position trackers are
+mounted on the participant and on the bloody rod. The inset shows overlaid experiment video frames with the captured motion (in white). Tip of rod for each video frame is
+highlighted as visual assistance.
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+2
+
+
+--- PAGE 3 ---
+
+properties which explain why the ﬁrst trials, done early in the
+training of the ﬁrst author, were not done with blood. The wooden
+rod was dipped in a 25 mL beaker containing a 15 mL ink solution
+or swine blood to produce cast-off spatter patterns. The seated
+position was used to maintain a constant center of rotation,
+approximately around the shoulder.
+The experiments were conducted in an enclosed room with
+dimensions (X, Y, Z)=(248 cm, 159 cm, 243 cm) [21]. The swinging
+motion was in a vertical plane. The swing radius was about 70 cm.
+Stains were spattered onto the front, back, ceiling, and ground
+surfaces, which were covered with butcher paper. Stains were
+individually imaged at approximately 200–250 DPI with a DSLR
+camera (Canon EOS 70D) with a plumb line and measurement
+10  0.2 mm reference marker with manufacturer uncertainty
+tolerancing (KISS System WMM50B Wound Mapping Marker).
+Stain locations were measured with a square ruler referencing the
+deﬁned origin room corner. Stain images were analyzed using
+HemoSpat1 to determine stain width, length, and impact angles
+[14], as illustrated in Fig. 2. The uncertainty on the weapon swing
+was estimated as a radius of 5 cm.
+2.2. Cast-off spatter patterns from the “Castanova” rig
+Ten spatter patterns with the constant radius “Castanova”
+mechanical cast-off rig were performed as described in [22], with
+method summarized here. An amount of 5 mL of sheep blood at
+23  1 C was deposited to the end of a wooden arm afﬁxed with a
+3D printed sphere with diameter of 4 cm. Hematocrit for sheep
+blood ranges between 13 and 32% [23]. The arm was able to rotate
+around a ﬁxed axis, was drawn back with a bungee cord and
+released to produce the cast-off spatter. The swing motion was
+constrained in a vertical plane and spatter stains were produced
+mostly on the front wall. The experiments involved pattern
+generation, identiﬁcation, bloodstain labeling and photographing,
+laser scanning (here FARO Focus S350 with ranging error of 1 mm
+and angular accuracy of 19 arcseconds), with reference markers on
+the wall. Data analysis in a computer aided design (CAD) program
+(FARO Zone 3D) was used to align stain photographs with a three-
+dimensional representation of the room. Results were displayed by
+importing all data into 3ds Max [22]. The cast-off rig produced ﬁve
+trials at 0.5 m and another ﬁve trials 1.0 m from the target surface
+[22]. The velocity of the cast-off producing end of the member after
+the trials was approximately 10:5  1:2  m
+s [22]. A detailed three-
+dimensional analysis of the experiments is available in [22].
+The uncertainty on the weapon swing was estimated as a radius of
+2.7 cm.
+2.3. “Human”, non-circular cast-off spatter patterns
+Six cast-off patterns were generated by a human participant
+swinging a wooden rod in a non-circular trajectory representative
+of an actual ﬁght (“human” cast-offs #1–4, 6–7). The documenta-
+tion and measurements process of the stains was same as with the
+Castanova rig. In the experiments, the blood was previously
+donated from volunteers, and spiked with anticoagulant. The blood
+was heated to room temperature (approximately 23 C) prior to
+use.
+The motion of the weapon relative to the bloodstained surfaces
+was measured and documented as follows. Eighteen accelerometer
+and gyroscope systems were used (MTw Awinda from Xsens [24]).
+This motion capture system is a commercial motion capture
+system with six degrees of freedom (linear accelerations along (X,
+Y, Z) coordinates axes and rotational accelerations along three
+perpendicular ðf; u; cÞ orientations). The motion capture system
+determines the (X, Y, Z) coordinate locations from the linear and
+rotational accelerations. The measurement setup allows for
+eighteen body motion trackers placed at various areas on the
+body and one additional tracker ﬁxed on the item being used as a
+“weapon”.
+The weapon used for this study was a wooden rod with a length
+of 34 cm and a diameter of approximately 4 cm. A tracker was
+placed on the rod, ﬁxed at a known position along the length of the
+rod at approximately 10 cm from the end held by the subject. To
+reconstruct the motion of the end of the rod, the tracker data is
+translated by the corresponding length and oriented. The motion
+capture system requires that the person being recorded is
+“calibrated” in the system by entering their body dimensions
+and then by moving through a routine of prescribed motions that
+accurately calibrate each tracker to their respective position on the
+subject.
+The motion recording began with the right foot of the
+participant aligned onto a reference marker on the ground. The
+participant then wet the rod by dipping into a small bowl of blood.
+Participants were directed to take a few steps towards the wall
+directly in front of them and then swing the rod with enough force
+to create a cast-off pattern. The motion started with the arm
+lowered, then raised up, then quickly downwards. Once the
+striking motion was complete, the subject was asked to step back
+and reposition their right foot on the marker. The recording was
+then ended. A total of six trials were recorded, all of which are used
+in this manuscript.
+In addition to the motion capture system, a Microsoft Kinect
+sensor was used to record motion point cloud data of the subject
+creating the cast-off pattern [25,26]. This was used as a redundant
+external system of a color CGA video camera in RGB and an infrared
+projector with 640  480 pixel resolution at 30 frames per second.
+The system allowed for the walls, ﬂoor, and motion of the subject to
+be captured in the global scale of the room. The motion capture
+system did not have any external references and thus, having the
+participant place their right foot on a known marker at the
+beginning and end of each trial was used to accommodate for any
+drift or other possible inaccuracies in the motion capture system.
+Based on the above setup, it was possible to align all the data such
+that the motion of the rod was measured in relation to the rest of the
+room during the generation of the cast-off pattern. The uncertainty
+on the weapon swing was estimated as a radius of 5.4 cm.
+Fig. 2. Impact angle α, directional angle g, and angle b are determined from
+inspection of stain ellipticity and directionality. Symbols da and dg are the
+uncertainty on the estimated direction of the respective impact velocity and
+of the main axis of the stain. Drop impact vector ~V is shown with its three
+components Vx, Vy, and Vz [13]. Coordinates XYZ are global coordinates.
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+3
+
+
+--- PAGE 4 ---
+
+3. Theoretical reconstruction of cast-off patterns
+3.1. Geometric reconstruction of segments of the weapon swing
+The proposed reconstruction method is based on the fact that
+drops leave the weapon tangentially to its trajectory and on the
+assumptions that (1) the trajectories of the drops are linear, along a
+line that contains the stain of interest, with slope estimated from
+stain inspection and (2) that the weapon follows a circular
+trajectory, at least over small displacements (piecewise circular
+swing).
+Under these two assumptions, each circular piece of the swing
+can be reconstructed as in Fig. 3. To do so, we use a geometrical
+property of triangles adjacent to a circle, as in Proposition 4 of book
+IV of the Elements by Euclid. Euclid lived in the third century before
+the Common Era and is considered the founder of geometry. To the
+best of our knowledge, he did not produce any work on forensics,
+unlike his younger contemporary Archimedes who is credited with
+uncovering commercial fraud by applying the buoyancy laws [27]
+that he discovered. In the application of Euclidean geometry
+proposed here, the green circle describes the trajectory of the
+weapon, and the adjacent triangle ðA; B; CÞ is formed by inter-
+sections of the trajectories of three blood drops, reconstructed
+from stains M, L, N. In his proposition x127, Lachlan [28] shows that
+Euclid’s work implies that “The internal bisector of the angle BAC,
+and the external bisectors of the angles ABC, ACB, are concurrent.
+Let the point in which they meet be denoted by I1. This point is the
+centre of a circle which can be drawn to touch the sides of the
+triangle, but it is on the side of BC remote to A. This circle is called
+an escribed circle [ . . . ] L1, M1, N1 be the points of contact of the
+sides with this circle”.
+In the forensic reconstruction task at hand, the escribed circle
+proposition is valid for any set of three stains where trajectories of
+the associated drops are not parallel, such as the set labelled M, L, N
+in Fig. 3. Using this proposition, triplets of three adjacent stains will
+typically determine an escribed circle along which the swinging
+weapon is most likely to have travelled. More precisely, the arc
+shown in magenta in Fig. 3 connects the three points of contact of
+the stain trajectories with the escribed circle, and best approx-
+imates the likely reconstructed weapon swing. Then, the various
+arcs produced by various triplets of stains are combined in the
+probabilistic manner described below, so that circular and non-
+circular curves of swinging weapon can be reconstructed.
+3.2. Probabilistic reconstruction of the weapon swing
+The geometric reconstruction approach above produces multi-
+ple segments in the form of arcs. A probabilistic approach has been
+developed to achieve two tasks: adding a speciﬁc thickness to the
+reconstructed arcs based on the propagation of measurement
+uncertainties 
+(the 
+thickness 
+being 
+a 
+representation 
+of 
+the
+uncertainty in determining the swing motion) and merging the
+arcs obtained from all the reconstructed triplets/triplets of stains
+into a volume that reconstructs most of the swing of the weapon.
+Each reconstructed arc has the appearance, visually and culinary
+speaking, of a noodle. The centerline of the noodle describes the
+most likely arc associated with a triplet of stain, and the thickness
+of the noodle, the associated uncertainty. The volume merged from
+all the arcs may assume any shape based on the probabilistic union
+of multiple arcs with given thickness.
+Based on the principle of maximum likelihood estimation, the
+uncertainty of the reconstructed arc is expressed probabilistically,
+in a manner analogous to what Camana [12] and Attinger et al. [18]
+have done for impact spatter patterns (the simpler situation where
+the blood source is assumed to be immobile). In the present case,
+we assume that the uncertainty of any measurement relevant to
+the reconstruction process can be expressed as a probability
+density function (PDF), Eq. (1), where m is the mean of the
+measurement, sk is the standard deviation, and x is a continuous
+random variable, such as an angle or a distance:
+ck x
+ð Þ ¼
+1
+sk
+ﬃﬃﬃﬃﬃﬃ
+2p
+p
+e
+1
+2
+xm
+sk
+ 
+2
+ð1Þ
+The space considered in the analysis is the room containing the
+blood spatter pattern. It is discretized with a Cartesian grid into
+uniform cubic regions. As shown in Fig. 4, the relative position of
+any given spatial region is expressed with respect to the
+reconstructed arc using the radial distance Djn between the
+center of a cube j and reconstructed cast-off arc n. In these symbols,
+index j represents a given region in space, and index n refers to the
+cast-off arc segment reconstructed from the n-th triplet of stains as
+per method in Fig. 3. The radial distance is used as the continuous
+variable in Eq. (1) to estimate the relative likelihood that any given
+discretized region contains the reconstructed cast-off segment.
+The probability that a given point in space is associated with a
+cast-off arc reconstructed from an arbitrary set of three stains can
+be quantiﬁed with the PDF
+cjn ¼
+1
+SFjn 
+ﬃﬃﬃﬃﬃﬃ
+2p
+p
+e
+1
+2
+Djn
+SFjn
+ 
+2
+ð2Þ
+As shown in Fig. 5, this PDF is maximum for Djn ¼ 0, which
+gives 
+most 
+weight 
+to 
+spatial 
+regions 
+coincident 
+with 
+the
+reconstructed arc. By deﬁnition of a normal distribution, the term
+SFjn, in cm, is a spreading parameter that controls the shape of the
+distribution. Small spreading values correspond to very local
+distributions, while larger spreading values spread the distribution
+over larger distances. To deﬁne the spreading value, we postulate
+that it depends on three independents quantities, graphically
+represented in the inset of Fig. 5. We deﬁne
+SFjn ¼ f a ; ’ ;Dwall
+ð 
+Þ 
+ð3Þ
+a function of the following variables: a, a measurement of the
+angular uncertainty associated with the triplet of stains associated
+with a reconstructed arc; ’, an angle measuring the planar
+alignment of the three impact velocities associated with the triplet
+of stains and the best-ﬁt plane containing the reconstructed arc;
+and Dwall, a measure of the distance between the triplet of the
+stains and the reconstructed arc. It is expected that function f in
+Eq. (3) increases monotonically with the increase of each of the
+three variables a ; ’ ;Dwall. Indeed, a reconstructed arc will be
+known more accurately if there is little angular uncertainty in the
+related drop impact; if the directionalities of the stains align in the
+Fig. 3. Escribed circle to ﬀBAC for stain trajectories derived from stains M, L, N.
+The points of contact of the stain trajectories with this circle are M1, L1, N1
+containing the weapon swing arc.
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+4
+
+
+--- PAGE 5 ---
+
+same plane; and if the reconstructed arc is close to the stained wall
+(because of the assumption of straight trajectories). A full
+deﬁnition of SFjn is provided in Supplementary Documentation,
+and eight numerical examples of the related PDF cjn are plotted in
+Fig. 5. In short, the spread SFjn is the product of the angular
+uncertainty of the stains in the triplet considered, and the average
+distance between the reconstructed arc and the stains. This way,
+the contributions of arcs reconstructed with higher accuracy are
+more signiﬁcant (less spread-out) than those of arcs involving
+more uncertainty in their position. The PDF of Eq. (2) represents
+the likelihood that a region in space is associated with a
+reconstructed cast-off arc n.
+The likelihood that a region in space is associated with a cast-off
+event is then obtained as the product of the PDFs associated with
+each triplets of stains, as per Eq. (4), with N triplets.
+cj ¼
+YN
+n¼1 cjn
+ð4Þ
+Finally, the uncertainty UL of a reconstruction is simply
+measured as the volume in space where the value of cj is larger
+than an assumed likelihood value. For instance, U75% is the
+uncertainty of a cast-off reconstruction assuming a likelihood
+value L=75%. Uncertainty UL has units of volume, for example liter
+(L).
+Fig. 4. Geometry used for the reconstruction of a cast-off arc. The clustered mean plane is a best-ﬁt plane to the triplet n of drop trajectories considered and contains the
+reconstructed arc (in red). The distance between a spatial region jn and the arc n is measured with (green) distance Djn. Colors available in online version. (For
+interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 5. Shapes and values of PDF distributions corresponding to various types of stain triplets. The spread SFjn and height of the PDF depends on angular uncertainty of
+stain measurement (here represented by a), alignment of the stains with the plane of the reconstructed arc (’), and on the distance Dwall between the
+reconstructed arc and the stains. The most important PDFs for reconstruction are narrow and correspond to triplets of stains that are elliptical, well aligned with
+the plane of the reconstructed arc, and close to that arc.
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+5
+
+
+--- PAGE 6 ---
+
+4. Numerical and software implementation of the theoretical
+cast-off reconstruction model
+4.1. Choice of software, scene processing and input data
+The reconstruction model presented above is implemented as a
+software script that runs with Octave [29]. Octave is a free, open-
+source language generally compatible with Matlab1, a commercial
+scientiﬁc computing environment widely used in academia. The
+choice of Octave was made to address the common problem that
+forensic practitioners and other engineers rarely have commercial
+licenses of Matlab1. The software script has been checked to also
+be compatible with Matlab1. To reconstruct a spatter pattern, the
+inputs in Table 1 are similar to those required for existing impact
+spatter patterns reconstruction software, such as Hemospat1.
+Inputs required are room dimensions, the area of investigation
+deﬁned by four walls (ﬂoor, ceiling and two vertical walls); normal
+unit vectors, by convention oriented outside of the room of the
+walls considered; tangential vectors to the walls considered
+(coplanar vectors to each wall in the direction of gravity unless
+walls are orthogonal to gravity in which case tangential vectors are
+deﬁned in the positive x-direction); a global origin (to deﬁne an
+XYZ-coordinate system as shown in Fig. 2; stain locations (XYZ
+component positions of the stain in centimeters relative to the
+origin location); stain directional angle g, deﬁned as the stain
+glancing angle between the projected trajectory vector onto the
+impacted surface and the tangent vector to the surface, and stain
+impact angle alpha a, the stain impact angle between the
+trajectory vector and the impacted surface as shown in Table 1.
+Inputs mentioned above are entered by the analyst in the input ﬁle
+in order observed along the curvilinear cast-off patterns, in a
+comma-separated spreadsheet. A script, also called driver, formats
+and converts that spreadsheet units into data with format
+compatible with main software script.
+4.2. Description of the reconstruction software
+4.2.1. Determination of impact velocities
+The yawing angle b ¼ arctan
+tan a
+ð Þ
+sin g
+ð Þ
+ 
+
+in Fig. 2 is calculated from
+the a and g impact angles [13]. Euclidean vector components are
+deﬁned for each surface to describe stain impact angles in a global
+reference frame, surface deﬁnitions included in supplementary
+documentation.
+4.2.2. Geometric reconstruction of individual cast-off arcs
+Using the geometric reconstruction method presented in
+section 2.1, three escribed circles are deﬁned on the triangle
+formed by the three converging drop trajectories [30] of a triplet of
+stains. To provide a best guess for which of these three circles is
+relevant to the cast-off swing, we use the Pratt ﬁt method. The Pratt
+ﬁt method is a curve ﬁt method that algebraically ﬁts a circle to
+data points [31]. The Pratt ﬁt method determines a ﬁtted circle
+center to be used as an approximated escribed circle reference
+point ½xref ; zref , and this information is used to select the
+appropriate escribed circle, and apply the Euclidean theorem in
+section 2.1 to reconstruct the cast-off swing. More details on the
+Pratt ﬁt method are in the Supplementary Documentation.
+While Euclid’s escribed circles theorem (section 2.1) is deﬁned
+in a single plane, the drop trajectories of any triplet of identiﬁed
+stains are not necessarily in the same plane (while being
+approximately in the same plane, which results in the linear
+aspect of the pattern characteristic of cast-offs). To apply Euclid’s
+theorem, we project the trajectories associated with the three
+stains of the triplet onto the best possible plane. This plane that we
+call the best-ﬁt plane is the plane that minimizes the alteration of
+stain trajectories of the tree stains considered in each triplet. The
+best-ﬁt plane is deﬁned by a normal unit vector 	 n that minimizes
+the projection alterations (it minimizes its dot product with the
+stain trajectory vectors). This minimization task is done with either
+the Nelder-Mead [32] or Levenberg-Marquardt algorithm, with the
+Y-axis as initial guess. Vector 	 n and the point closest to the three
+stain determine the best-ﬁt plane. Stain locations and their
+respective drop trajectories vectors are then translated and rotated
+onto the XZ-plane to reduce the stain trajectory intersections to a
+two-dimensional problem.
+Typical reconstruction cases involved between N = 5–100
+triplets of stains. Given the narrow distributions of the PDFs in
+Eq. (2), and their N-time multiplication as per Eq. (4), there is a risk
+that the likelihood associated with a given region of space
+becomes zero during the reconstruction process, because of the
+ﬁnite numerical resolution of the computer performing the
+calculation. To avoid such artiﬁcial loss of data, the PDFs of
+individual triplets of stains are truncated to be at least as large as
+their 3-s value, and the product of likelihood in Eq. (4) is rescaled
+as the computation proceeds. For reconstructing cast-off arcs, we
+could 
+select 
+every 
+distinct 
+combination 
+of 
+stain 
+triplet
+N
+3
+  ¼  
+N!
+3! N3
+ð 
+Þ!, less the triplets exhibiting at least two stains
+with parallel trajectories, for which there would no intersection of
+bisectors. Each triplet of non-parallel trajectories determines one
+triangle with 3 escribed circles. The escribed circle with center
+closest to ½xref ; zref , identiﬁed with the Pratt-ﬁt method, would
+provide 
+an 
+arc 
+of 
+the 
+cast-off, 
+and 
+its 
+center, 
+using 
+the
+Euclidean geometric theorem above. However, we found that
+the recorded swings were reconstructed in the most robust
+manner by selecting only the triplets of stains located close to each
+other, with approximately equal spacing along the stains. Selecting
+the triplets that way ensured that not only the circular swings, but
+swings of arbitrary trajectory shape would be reconstructed. The
+open source software is freely available in an open access
+repository [33].
+Table 1
+Example of user data inputs for the cast-off reconstruction software. Global origin defaults to 0; 0; 0
+ð 
+Þ and room dimensions are extracted from XYZ-location coordinates.
+Project 
+Stain 
+Location x 
+Location y 
+Location z 
+Surface 
+M axis (mm) 
+m axis (mm) 
+alpha 
+gamma
+cast-off_2019_06.21 
+UF01 
+250 
+35.9 
+93.8 
+Back Wall 
+3.3 
+3.2 
+73.8 
+60.4
+cast-off_2019_06.21 
+UF02 
+250 
+36.5 
+117.7 
+Back Wall 
+3.5 
+3.5 
+79.8 
+16.6
+cast-off_2019_06.21 
+UF03 
+250 
+34.9 
+129.8 
+Back Wall 
+3.2 
+3.1 
+77.5 
+21.4
+cast-off_2019_06.21 
+UF04 
+250 
+42.5 
+170.6 
+Back Wall 
+4.2 
+3.7 
+62.4 
+11.8
+cast-off_2019_06.21 
+UF05 
+250 
+46.4 
+194.9 
+Back Wall 
+4.2 
+3.1 
+48 
+0.2
+cast-off_2019_06.21 
+UU06 
+196 
+64.6 
+243 
+Ceiling 
+3.9 
+3.4 
+62.7 
+15
+cast-off_2019_06.21 
+UU07 
+145.8 
+65.9 
+243 
+Ceiling 
+3.1 
+2.9 
+70.2 
+72.8
+cast-off_2019_06.21 
+UU08 
+55.2 
+58.1 
+243 
+Ceiling 
+3.7 
+3.1 
+57.4 
+171.8
+cast-off_2019_06.21 
+UU09 
+38.8 
+54.8 
+243 
+Ceiling 
+3.1 
+2.3 
+48.2 
+167.8
+cast-off_2019_06.21 
+UU10 
+22.8 
+52 
+243 
+Ceiling 
+2.7 
+1.6 
+37.2 
+177
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+6
+
+
+--- PAGE 7 ---
+
+5. Results and discussion
+In this section, reconstruction results are described. The
+reconstructed patterns involve actual cast-off experiments, and
+simulated cast-off patterns. The actual cast-off experiments
+include swings executed along circular and non-circular swings
+by human participants, and circular swings executed by the
+rotating arm of a Castanova device, already presented in [16].
+Reconstruction results are presented in terms of uncertainty
+regions, which are spatial regions most likely to contain some of
+the path of the weapon that generated the cast-off. The uncertainty
+regions are estimated based on the geometric and probabilistic
+methods expressed above. Three embedded uncertainty regions
+are typically shown, each corresponding to a speciﬁc likelihood
+value. The likelihood value mathematically corresponds to the
+measure of goodness of a statistical ﬁt and can assume values
+between zero and one. Practically, likelihood values of 60%, 75%
+and 90% are used in this work. Low likelihood values correspond to
+larger uncertainty volumes and higher chances of intersecting the
+weapon swing. High likelihood values correspond to smaller
+uncertainty volumes and lower chances of intersecting the weapon
+swing.
+For example, Fig. 6 displays reconstruction results for a
+“Castanova” spatter pattern, where the motion of the blood-
+covered rod is circular. Several orthonormal views are presented of
+the uncertainty regions and measured weapon swing. Orthonor-
+mal views conﬁrm that the reconstructed swing intersects with the
+measured swing, and measure the uncertainty of the reconstructed
+swing (which is represented by embedded regions of different
+likelihood). For instance, the green volume in Fig. 6, U75%, is the
+uncertainty on the reconstructed cast-off swing assuming a
+likelihood value of 75%. A spatial resolution of 5 cm is used for
+all the numerical results presented in this work, unless speciﬁed
+otherwise.
+The results of one of the “sitting” cast-off pattern, with
+experimental details described above, are presented in Fig. 7.
+The measured swing of the ink-covered rod intersects the
+reconstructed swing. Fig. 7 also illustrates the effect of the spatial
+reconstruction on the quality of the results. Results with a
+resolution of 25 cm appear rough, while there is no obvious
+difference in results with 10 cm or 5 cm resolution.
+Fig. 8 displays the reconstruction results for non-circular
+“human” cast-off spatter (trial 7). Cast-off reconstruction results
+are superimposed with the corresponding captured cast-off
+motion depicted by a black line and uncertainty region in yellow,
+and video frames of the human subject producing the cast-off. The
+measured weapon swing was clockwise and clearly intersects the
+reconstructed regions.
+For all the numerical results above, likelihood values have been
+speciﬁcally selected to minimize both uncertainty and error in the
+reconstruction. While the volume of the reconstructed swings is
+the uncertainty on the reconstruction of the weapon motion
+(which is a one-dimensional curved line, with zero volume), the
+error in the reconstructed cast-off region can be measured as the
+closest distance between the estimated reconstructed cast-off
+region and the recorded cast-off motion. We assume that the latter,
+within its own measurement uncertainty, is the most accurate
+measurement of the swing. Fig. 9 illustrates how the uncertainty
+and error vary with the selected likelihood value, showing average
+values and standard deviations for the reconstruction of six
+“human” cast-off spatter patterns, similar to and including that of
+Fig. 8. The average volume of each uncertainty region is provided in
+Fig. 9, as a function of the likelihood value. The volume of the
+uncertainty region corresponding to likelihood L ¼ 90%, noted
+U90%, is smaller than 20 L (the volume of a small daypack) for every
+one of the trials studied. Among all trials, the average uncertainty
+volumes U75% and U60% is respectively 104 L and 296 L, respectively.
+The lower the likelihood value, the larger the volume of the
+uncertainty region, until it becomes comparable to the volume of
+the entire room volume (58,430 L). As reported in Fig. 9, the
+average error associated with region U90% is 6 cm, and the error is
+less than 17 cm for all the trials studied. The average error
+associated with U75% for all trials is less than 2 cm. No error is found
+for U60%, which means that this uncertainty region embed at least a
+portion of the known cast-off motion for every trial considered.
+The choice of likelihood value therefore controls the trade-off
+between uncertainty and error. The lower the likelihood value, the
+lower the error, but the larger the uncertainty. The sweet spot of
+Fig. 6. Reconstruction of the weapon swing in “Castanova” spatter pattern #10, seen from different viewpoints. The reconstructed swing is the red, green, or blue volume
+(respectively corresponding to likelihood of 90%, 75% or 60%), and intersects the measured cast-off swing (black arrow, with measurement uncertainty in yellow). (For
+interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+7
+
+
+--- PAGE 8 ---
+
+this trade-off is observed between L = 60% (where error is typically
+zero and uncertainty is reasonably small), and L = 90% (where
+uncertainty is minimal and error is about 10 cm). Thus, all the
+reconstruction results in this study are represented with three
+likelihood values of L = 60%, 75% and 90%.
+Fig. 10 illustrates how the uncertainty in the reconstruction
+results increase with the uncertainty on stain measurement. Stain
+width and length can be measured within 0.1 mm uncertainty with
+state-of-the-art cameras. However, historical cases or crime scene
+videos 
+typically 
+provide 
+lower 
+resolution 
+images, 
+and 
+the
+Fig. 7. Reconstruction of the weapon swing in the “sitting” cast-off pattern. Comparison of reconstructed swings (red, green, blue volumes respectively correspond to to
+likelihood of 90%, 75% or 60%. The measured cast-off swing is the black arrow, with its measurement uncertainty in yellow. The same experimental cast-off data is
+reconstructed using three spatial resolutions: 25 cm, 10 cm and 5 cm. (For interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web
+version of this article.)
+Fig. 8. Cast-off reconstruction of trajectories for non-circular “Human” cast-off spatter pattern, trial 7. Comparison of reconstructed swing (red, green, blue volumes
+respectively correspond to reconstructions uncertainties of U90%;  U75%   and  U60%. The measured cast-off swing is the black arrow, with its measurement
+uncertainty in yellow. Simulation results, video motion pictures and accelerometer-based weapon swing measurements are superimposed, using the software
+CloudCompare. (For interpretation of the references to colour in this ﬁgure legend, the reader is referred to the web version of this article.)
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+8
+
+
+--- PAGE 9 ---
+
+uncertainty on the stain size can be as large as 1 mm. The
+reconstructed swings in Fig. 10 exhibit larger volumes for larger
+uncertainty on the measurement of the stain. This trend is both
+reasonable and an illustration that the reconstruction results
+depend on the quality of the input pictures. The fact that “human”
+cast-off #7 can be reconstructed assuming both values of stain
+measurement uncertainty is also a sign of the robustness of the
+reconstruction method. Ultimately, a reconstruction method
+should propagate the uncertainties on the input data (here the
+stain measurements), as done for other types of bloodstain pattern
+analysis reconstruction [12,18]. This is technically achieved here
+with the spread of the likelihood increasing with stain measure-
+ment uncertainty, as shown in Eq. (2).
+Every numerical method produces results that are sensitive to
+the spatial discretization, so it is important to perform the
+reconstruction 
+with 
+enough 
+spatial 
+discretization 
+to 
+make
+discretization errors negligible. Here, the space is discretized in
+cubes 
+with 
+side 
+length 
+r, 
+oriented 
+along 
+the 
+three 
+main
+coordinates. In Fig. 7, signiﬁcant differences in the shape of the
+reconstructed regions are visible between the reconstructed
+regions with r = 25 cm or 10 cm; the former appearing rougher
+than the latter. We also measured that the larger the value of r, the
+larger the volumes of the uncertainty regions. For instance, r = 30
+cm would give uncertainty volumes 21% larger than those for r = 3
+cm (the smallest resolution we have tested). Volumes of the
+uncertainty regions agreed within 10% for resolutions r 
+ 7 cm, and
+Fig. 9. Trade-off between uncertainty and error in the reconstruction of the six “human” cast-off trials, as a function of the likelihood value. The uncertainty is the volume of
+the reconstructed region, while the error is the closest distance between the recorded motion of the bloody object and the reconstructed region. Standard deviations among
+the trials are indicated by vertical bars. Images of hippopotamus and daypack are volume references to the reader, as is the volume of the room.
+Fig.10. Effect of the quality of the stain measurement on the reconstruction results of Human cast-off spatter pattern #7. Stains with equivalent diameter of 3.3 mm have been
+measured from high-quality photographs, corresponding to an uncertainty on the width and length of the stain of 0.1 mm. On the right, the same spatter pattern
+reconstructed with 1 mm uncertainty in the width and length of the stain, as would be with lower resolution crime scene pictures. Reconstruction for stains measured with
+more uncertainty exhibit a larger uncertainty as seen with the larger volumes of the reconstructed regions. Error in both cases is zero: the reconstructed region intersects with
+the measured weapon swing.
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+9
+
+
+--- PAGE 10 ---
+
+within 5% for r 
+ 5 cm, with no observable signiﬁcant difference in
+the shape between regions with r 
+ 7 cm. Results presented in this
+study have thus been obtained with a spatial resolution r = 5 cm,
+unless otherwise speciﬁed. Computing time varied linearly with
+the volume of the space investigated, and was proportional to r5.
+Typical reconstruction simulation times on a recent laptop (Intel I7
+2.4 GHz processor) took 20 min with r = 5 cm, and 25 s with r = 20
+cm. The latter resolution is adequate for investigative work,
+suggesting that the method is suitable for real-time crime scene
+processing.
+To further assess the capabilities of the reconstruction method,
+arbitrary spatter patterns have been numerically generated using
+geometrical intersections between the tangents to prescribed
+circles and the walls of a room. The prescribed swings (in black)
+and the corresponding reconstruction are in Fig. 11. It appears that
+the reconstruction method can help distinguishing multiple
+swings from each other, such as circular swings in parallel planes
+(a) or in intersecting planes (b); The method is also able to
+reconstruct cast-off patterns where 
+the swing 
+has 
+various
+orientations with respect to the vertical plane (b).
+6. Implications for crime scene reconstruction
+This work provides a new tool to process crime scenes involving
+linear spatter patterns characteristic of cast-off events. The
+proposed tool can handle stains located on four perpendicular
+surfaces such as the walls of a room. The reconstruction results are
+provided with an uncertainty that is speciﬁc to the spatter pattern
+at hand. Best reconstruction results are produced using all the
+available stains, independently of size or ellipticity (see section
+3.2). While round stains are usually avoided for area of origin
+determinations, since they imply large directional uncertainty
+[12], the proposed method automatically associates less weight to
+reconstructed arcs associated with round stains. According to the
+trade-off between uncertainty and error presented in Fig. 9,
+likelihood values ranging from 60 
+ L < 90% are recommended for
+investigative work. Spatial resolution of r = 20 cm or less and
+pictures with less than 0.1 mm uncertainty on stain size are
+recommended for investigative work.
+While the current model can be applied to investigative work on
+current and historical forensic cases, there is room for future work.
+First, the presented method assumes straight-line trajectories of the
+drops. While this assumption can cause signiﬁcant errors in the
+reconstruction of impact spatter patterns (which can be generated by
+drops with wide range of sizes and initial velocities), it is not clear at
+present how much errorin cast-off reconstruction occurs byassuming
+straight trajectories. Possibly, the generation mechanism of cast-off is
+different than impact spatter patterns and may produce different
+distributions of drops sizes and velocities, that may be less subject to
+deviation by drag and gravity. This hypothesis, as well as any
+modiﬁcation of the method to address the curvature of the trajectories
+by gravity is however a topic of further studies. What is currently
+known is that reconstruction uncertainties associated with drag and
+gravity strongly depend on the distance between wall and origin,
+increasingwithapowerofaboutﬁveof thatdistance[18].Forexample,
+one reviewerwhotested the accompanying software mentioned large
+errors (more than two meters) for a case where a set of stains made on
+two opposite walls, 5 m apart, were used to reconstruct a cast-off
+pattern. Thus, analysts should be wary of reconstruction results where
+the reconstructed swing or area of origin are not close to the wall, a
+ﬁnding supported by experiments in [14]. This recommendation is
+especially important for evaluative statements made during court
+testimony. Furtherstudies mayalsoextendthesoftwarecapabilitiesto
+handle stains on walls of arbitrary orientations, which will require
+modiﬁcations to the data structure of the software. Handling stains on
+walls of different materials may also require to have individual
+measurement errors for each stain. It is also the ﬁrst time that the
+authors propose a new reconstruction method as an open-source
+software, with the hope that forensic researchers will use it and
+provide feedback and input for future development.
+7. Conclusions
+In this manuscript, a method to reconstruct the motion, or
+swing, of a weapon generating cast-off stains has been proposed,
+based on stain inspection and Euclidean geometry. Agreement
+between measured and reconstructed swings is characterized in
+terms of error and uncertainty. For a series of six human-created
+cast-off patterns, a trade-off is identiﬁed between the amount of
+uncertainty and the magnitude of the error, which can be
+controlled by selecting the likelihood value. Error was found to
+be zero for likelihood values 60% or smaller. The reconstruction
+Fig. 11. Ability of the algorithm to reconstruct spatter patterns produced by more than one cast-off swing event. Reconstruction of numerically generated stains prescribed by
+two circular swings that are either adjacent (a) and intersecting (b).
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+10
+
+
+--- PAGE 11 ---
+
+method allows for consideration of stains on up to four surfaces
+(front, back, ceiling and ground) and more than ﬁve-hundred
+stains to be inputted. The reconstruction method is robust in the
+sense that it delivers meaningful results for a broad range of spatial
+resolution and for crime scenes documented with high- or low-
+quality pictures. Speciﬁcally, the uncertainty of the reconstructed
+results is speciﬁc to the quality of the pictures of the spatter stains:
+results will have less uncertainty if the stains are measured with
+more precision. The reconstruction software used in this study is
+implemented as a numerical code written in an open source
+language, provided in an open access repository. Opportunities for
+future work are presented.
+Contribution of authors
+DA designed and led the project, and guided the development of
+the software and reconstruction method. EL performed “Casta-
+nova” and non-circular “Human” cast-off experiments, processed
+the related patterns and swing motions, and provided the data. S.
+MC designed and wrote the numerical code, and performed the
+“Sitting” cast-off spatter experiments. De Brabanter provided input
+on the statistical part of the code. Most of the manuscript was
+written by SMC and DA, who both interpreted the results. All
+authors contributed to and reviewed the ﬁnal manuscript.
+Declaration of Competing Interest
+There are no conﬂicts of interest.
+Acknowledgment
+DA, KDB and SMC acknowledge ﬁnancial support from the
+Center for Statistics and Applications in Forensic Evidence (CSAFE),
+through Cooperative Agreement No. 70NANB15H176 between
+NIST and Iowa State University, which includes activities carried
+out at Carnegie Mellon University, University of California Irvine,
+and University of Virginia. DA also acknowledges ﬁnancial support
+from Iowa State University, as well as computing support from
+Struo LLC, a scientiﬁc consulting company based in Ames IA. DA
+thanks his Iowa State University colleague Xuan Hien Nguyen for
+pointing out the Euclidean geometry proposition to him. EL would
+like to thank Independent Forensic Services (IFS) for their
+assistance and use of their facilities and resources in collecting
+the human created cast-off patterns.
+Appendix A. Supplementary data
+The Supplementary Documentation related to this article can
+be found, in the online version, at https://doi.org/10.1016/j.
+forsciint.2020.110628. The open source software is available in
+an open-access repository [33].
+References
+[1] ASB Technical Report 033, Terms and Deﬁnitions in Bloodstain Pattern
+Analysis, ﬁrst edition, Academy Standards Board, 2017.
+[2] E.M.P. Williams, E.S. Graham, M.C. Jermy, D.C. Kieser, M.C. Taylor, The dynamics
+of blood drop release from swinging objects in the creation of cast-off
+bloodstain patterns, J. Forensic Sci. 64 (March (2)) (2019) 413–421 (in English).
+[3] R.M. Arthur, J. Hoogenboom, M. Baiker, M.C. Taylor, K.G. De Bruin, An
+automated approach to the classiﬁcation of impact spatter and cast-off
+bloodstain patterns, Forensic Sci. Int. 289 (2018) 310–319.
+[4] C.D. Adam, Experimental and theoretical studies into the release of blood
+droplets from weapon tips, Forensic Sci. Int. 303 (October) (2019)109934 p. 11.
+(in English).
+[5] D. Attinger, C. Moore, A. Donaldson, A. Jafari, H.A. Stone, Fluid dynamics topics
+in bloodstain pattern analysis: comparative review and research opportu-
+nities, Forensic Sci. Int. 231 (September (1-3)) (2013) 375–396.
+[6] N. Kabaliuk, M.C. Jermy, E. Williams, T.L. Laber, M.C. Taylor, Experimental
+validation of a numerical model for predicting the trajectory of blood drops in
+typical crime scene conditions, including droplet deformation and breakup, with
+a study of the effect of indoor air currents and wind on typical spatter drop
+trajectories, Forensic Sci. Int. 245 (December) (2014) 107–120 (in English).
+[7] S.N. Kunz, J. Adamec, C. Grove, Analyzing the dynamics and morphology of
+cast-off pattern at different speed levels using high-speed digital video
+imaging, J. Forensic Sci. 62 (March (2)) (2017) 428–434 (in English).
+[8] T. Raymond, Crime scene reconstruction from bloodstains, Aust. J. Forensic Sci.
+29 (2) (1997) 69–78 1997/07/01.
+[9] E.M.P.T. Williams, Michael, The development and construction of a motorized
+blood droplet generation device (BDGD), for detailed analysis of blood droplet
+dynamics, J. Bloodstain Pattern Analy. 29 (2013).
+[10] N. Behrooz, L. Hulse-Smith, S. Chandra, An evaluation of the underlying
+mechanisms of bloodstain pattern analysis error, J. Forensic Sci. 56 (September
+(5)) (2011) 1136–1142.
+[11] U. Buck, B. Kneubuehl, S. Nather, N. Albertini, L. Schmidt, M. Thali, 3D
+bloodstain pattern analysis: ballistic reconstruction of the trajectories of blood
+drops and determination of the centres of origin of the bloodstains, Forensic
+Sci. Int. 206 (March (1-3)) (2011) 22–28 (in English).
+[12] F. Camana, Determining the area of convergence in Bloodstain Pattern
+Analysis: a probabilistic approach, Forensic Sci. Int. 231 (September (1-3))
+(2013) 131–136.
+[13] A.L. Carter, The directional analysis of bloodstain patterns theory and
+experimental validation, Can. Soc. Forensic Sci. J. 34 (4) (2001) 173–189
+2001/01/01.
+[14] K.G. de Bruin, R.D. Stoel, J.C.M. Limborgh, Improving the point of origin
+determination in bloodstain pattern analysis, J. Forensic Sci. 56 (November (6))
+(2011) 1476–1482.
+[15] N. Hakim, E. Liscio, Calculating point of origin of blood spatter using laser
+scanning technology, J. Forensic Sci. 60 (March (2)) (2015) 409–417 (in
+English).
+[16] E. Liscio, P. Bozek, H. Guryn, Q. Le, Observations and 3D analysis of controlled
+cast-off stains, J. Forensic Sci. 18 (February) (2020).
+[17] A.C. Maloney T, J. Killeen, Visualization of cast-off patterns using 3D modelling
+software, J. Associat. Crime Scene Reconstruct. 17 (4) (2011) 49–56.
+[18] D. Attinger, P.M. Comiskey, A.L. Yarin, K. De Brabanter, Determining the region
+of origin of blood spatter patterns considering ﬂuid dynamics and statistical
+uncertainties, Forensic Sci. Int. 298 (May) (2019) 323–331 (in English).
+[19] U. Windberger, A. Bartholovitsch, R. Plasenzotti, K.J. Korak, G. Heinze, Whole
+blood viscosity, plasma viscosity and erythrocyte aggregation in nine
+mammalian species: reference values and comparison of data, Exp. Physiol.
+88 (3) (2003) 431–440.
+[20] D. Attinger, Y. Liu, K. De Brabanter, Authors’ response, J. Forensic Sci. 8 (June)
+(2020), doi:http://dx.doi.org/10.1111/1556-4029.14452.
+[21] D. Attinger, Y. Liu, T. Bybee, K. De Brabanter, A data set of bloodstain patterns
+for teaching and research in bloodstain pattern analysis: impact beating
+spatters, Data Brief 18 (June) (2018) 648–654.
+[22] E.Liscio,P. Bozek,H.Guryn,Q. Le,Observations and 3Danalysis of controlled cast-
+off stains, J. Forensic Sci. 2020 (2020) (in English) Article; Early Access p. 13.
+[23] J.R. Peiro, A.S. Borges, R.C. Goncalves, L.C.N. Mendes, Evaluation of a portable
+clinical analyzer for the determination of blood gas partial pressures,
+electrolyte concentrations, and hematocrit in venous blood samples collected
+from cattle, horses, and sheep, Am. J. Vet. Res. 71 (May (5)) (2010) 515–521 (in
+English).
+[24] J.T. Zhang, A.C. Novak, B. Brouwer, Q.G. Li, Concurrent validation of Xsens MVN
+measurement of lower limb joint angular kinematics, Physiol. Meas. 34
+(August (8)) (2013) N63–N69.
+[25] M. Capecci, M.G. Ceravolo, F. Ferracuti, S. Iarlori, S. Longhi, L. Romeo, S.N. Russi,
+F. Verdini, Accuracy evaluation of the kinect v2 sensor during dynamic
+movements in a rehabilitation scenario, in: J. Patton (Ed.), et al., 2016 38th
+Annual International Conference of the IEEE Engineering in Medicine and
+Biology Society, IEEE, New York, 2016, pp. 5409–5412 (IEEE Engineering in
+Medicine and Biology Society Conference Proceedings).
+[26] E. Lachat, H. Macher, M.A. Mittet, T. Landes, P. Grussenmeyer, First experiences
+with kinect V2 sensor for close range 3D modelling, in: D. Gonzalez Aguilera, F.
+Remondino, J. Boehm, T. Kersten, T. Fuse (Eds.), 3d-Arch 2015 - 3d Virtual
+Reconstruction and Visualization of Complex Architectures, vol. 40-5,
+Copernicus Gesellschaft Mbh, Gottingen, 2015, pp. 93–100 (International
+Archives of the Photogrammetry Remote Sensing and Spatial Information
+Sciences, no. W4).
+[27] T.L. Heath, The Works of Archimedes, (1897) .
+[28] R. Lachlan, The inscribed and the escribed circles, x126-128 in An Elementary
+Treatise on Modern Pure Geometry, London Macmillan, 1893, pp. 72–74.
+[29] A.V. Wouwer, P. Saucez, C. Vilas, Simulation of ODE/PDE models with MATLAB,
+Octave and Scilab: Scientiﬁc and Engineering Applications, Springer, 2014.
+[30] H.S.M. Coxeter, S.L. Greitzer, Geometry Revisited, Mathematical Association of
+America, New York, 1967.
+[31] V. Pratt, Direct least-squares ﬁtting of algebraic surfaces, Siggraph 21 (April
+(4)) (1987) 145–152.
+[32] J.C. Lagarias, J.A. Reeds, M.H. Wright, P.E. Wright, Convergence properties of the
+Nelder-Mead simplex method in low dimensions, Siam J. Optim. 9 (1) (1998)
+112–147.
+[33] https://github.com/scottres/CastoffReconstruction.git. (Accessed 10 Decem-
+ber 2020).
+S. McCleary, E. Liscio, K. De Brabanter et al. 
+Forensic Science International 319 (2021) 110628
+11

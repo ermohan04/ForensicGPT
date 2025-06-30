@@ -1,0 +1,799 @@
+
+
+--- PAGE 1 ---
+
+Heat exchange between a bouncing drop and a
+superhydrophobic substrate
+Samira Shiria and James C. Birda,1
+aDepartment of Mechanical Engineering, Boston University, Boston, MA 02215
+Edited by William R. Schowalter, Princeton University, Princeton, NJ, and approved May 18, 2017 (received for review January 4, 2017)
+The ability to enhance or limit heat transfer between a surface and
+impacting drops is important in applications ranging from indus-
+trial spray cooling to the thermal regulation of animals in cold rain.
+When these surfaces are micro/nanotextured and hydrophobic, or
+superhydrophobic, an impacting drop can spread and recoil over
+trapped air pockets so quickly that it can completely bounce off
+the surface. It is expected that this short contact time limits heat
+transfer; however, the amount of heat exchanged and precise role
+of various parameters, such as the drop size, are unknown. Here,
+we demonstrate that the amount of heat exchanged between a
+millimeter-sized water drop and a superhydrophobic surface will
+be orders of magnitude less when the drop bounces than when
+it sticks. Through a combination of experiments and theory, we
+show that the heat transfer process on superhydrophobic surfaces
+is independent of the trapped gas. Instead, we ﬁnd that, for a
+given spreading factor, the small fraction of heat transferred is
+controlled by two dimensionless groupings of physical parame-
+ters: one that relates the thermal properties of the drop and bulk
+substrate and the other that characterizes the relative thermal,
+inertial, and capillary dynamics of the drop.
+droplets | wetting | heat transfer | microtexture | feathers
+A
+n effective method to rapidly cool a surface is to intro-
+duce a stream of cold liquid drops, a process referred to
+as spray cooling (1, 2). Spray cooling is advantageous in appli-
+cations ranging from electronics (3) to cryogenic dermatology
+procedures (4). However, there are also situations in which this
+rapid exchange of thermal energy with droplets is undesirable,
+such as in ice formation on the wings of an airplane (5), exposure
+to scalding liquids (6), or heat lost by animals with wet fur and
+feathers (7, 8). Here, there is an effort to minimize heat exchange
+by designing superhydrophobic surfaces that can rapidly shed
+drops from the surface (9–11). Indeed, a drop impacting a super-
+hydrophobic surface can completely bounce, leaving the surface
+before all possible heat is transferred. However, there is likely
+some heat exchanged during the short residence time of the drop,
+and even a small amount of exchanged heat could become signif-
+icant following aggregate exposure to multiple bouncing drops.
+A similar bouncing phenomenon occurs when a drop impacts
+a surface that is sufﬁciently hotter than the drop saturation tem-
+perature. Under this Leidenfrost or superheated condition, the
+drop bounces on a cushion of its own vapor (12, 13), prevent-
+ing direct contact between the solid and liquid and severely
+limiting the efﬁcacy of spray cooling (14, 15). Models have
+been developed to predict the partial heat transfer that occurs
+when drops impact superheated surfaces (16–18); however, it
+is unclear which aspects of these models, if any, might extend
+to drops impacting on a superhydrophobic surface when phase
+change does not occur. In particular, these models typically con-
+clude that the thermal properties of the vapor cushion determine
+the amount of heat transferred.
+Our study addresses how much heat is transferred during
+the bounce of either a warm or cold water drop on a superhy-
+drophobic substrate in the absence of phase change. Record-
+ing the bounce with thermal and high-speed cameras simulta-
+neously enables us to experimentally measure the transferred
+heat by a single drop over a short residence time. We use can-
+dle soot to create a superhydrophobic coating on the substrate,
+both because it is a simple and effective technique (19, 20) and
+because the surface properties of soot are highly compatible
+with thermal imaging. Soot, like other superhydrophobic sur-
+faces, combines chemical hydrophobicity with micro/nanoscale
+texture, a combination that can support signiﬁcant air under a
+water drop (21, 22). The supported air leads to a large effec-
+tive contact angle and low contact friction, which together cause
+an impacting drop to rapidly recoil and completely bounce off
+the surface (23). Indeed, if air escaped from the microstructure,
+the drop would transition from a Cassie to a Wenzel state, and
+bouncing would not occur (24). Replacing the vapor layer in pre-
+vious superheated models (16, 17) with this constant-thickness,
+air-ﬁlled layer predicts the transferred heat Q should scale with
+initial drop radius R as Q ∼R3.5. This scaling is different from
+the relation that we ﬁnd for the superhydrophobic surfaces in our
+experiments, Q ∼R2.75.
+We propose two different mechanisms that could result in this
+scaling: one in which the heat transfer is dictated by a cush-
+ion of air separating the drop from the superhydrophobic sur-
+face and the other in which the heat transfer is based on direct
+thermal exchange between the drop and the substrate. To dis-
+cern these mechanisms, we modify the substrate material in our
+experiments and the subsequent results support the predictions
+of the direct contact model. We also demonstrate—on a bird
+feather—an additional model prediction that, for a given ﬂow
+rate, a superhydrophobic surface can be cooled faster by small
+drops than by large ones.
+Results and Discussion
+The heat exchange between a drop and a substrate during a
+bounce is demonstrated experimentally in Fig. 1. A glass slide
+is coated with a layer of soot with average thickness δ ≈30 µm
+(Fig. S1). A hot water drop with radius R = 1.2 mm and initial
+Signiﬁcance
+A superhydrophobic surface can be so water repellent that
+a drop can bounce off the surface in milliseconds. By mea-
+suring the thermal interaction between a superhydrophobic
+substrate and a heated or cooled drop, we demonstrate that
+the contact time is short enough that only a small fraction of
+potential heat is transferred, and, counterintuitively, smaller
+drops transfer a larger fraction of their potential heat than
+larger drops despite contacting the surface for less time. Our
+results indicate that birds with superhydrophobic feathers will
+be warmer in cold rain than those with feathers on which
+drops stick, and we envision that a better understanding of
+these mechanisms can inspire the design of superhydrophobic
+materials to control heat exchange.
+Author contributions: J.C.B. designed research; S.S. performed research; S.S. and J.C.B.
+analyzed data; and S.S. and J.C.B. wrote the paper.
+The authors declare no conﬂict of interest.
+This article is a PNAS Direct Submission.
+1To whom correspondence should be addressed. Email: jbird@bu.edu.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1700197114/-/DCSupplemental.
+6930–6935
+|
+PNAS
+|
+July 3, 2017
+|
+vol. 114
+|
+no. 27
+www.pnas.org/cgi/doi/10.1073/pnas.1700197114
+Downloaded from https://www.pnas.org by 92.30.172.63 on June 24, 2025 from IP address 92.30.172.63.
+
+
+--- PAGE 2 ---
+
+APPLIED PHYSICAL
+SCIENCES
+ECOLOGY
+Fig. 1.
+The ﬁnite-time heat exchange between a drop and a superhy-
+drophobic substrate. (A) A water drop impacts a glass substrate coated with
+a thin layer δ ≈30 µm of soot. (B) A scanning electron microscope image
+of the soot layer reveals the submicrometer roughness responsible for the
+substrate superhydrophobicity. (C) High-speed images show that the water
+drop bounces, residing on the surface for a ﬁnite time tr = 11.8 ms. Here
+the drop radius is R = 1.2 mm and the impact velocity is U = 0.74 ms−1.
+(D) Simultaneous thermographic images, from an orthogonal perspective,
+show a temperature map of the drop surface and substrate during impact.
+(E) The drop leaves a thermal footprint on the substrate that decays over
+time. Note that the spatial information from the thermal camera suffers
+from motion blur due to the 8-ms time response in the uncooled sensor. This
+exposure time is too long to accurately resolve details during the impact, but
+is short enough to characterize the thermal footprint left from the drop.
+temperature Tℓ= 52.7 ◦C is released from a suspended needle
+and impacts, at velocity U = 0.74 ms−1, a soot-coated glass sub-
+strate that is initially at ambient temperature Ts = 23.4 ◦C. Note
+that the substrate temperature Ts is signiﬁcantly lower than the
+saturation temperature for water. Even still, it is possible that the
+drop might dimple as it nears impact, as has been documented
+for drops as they approach smooth surfaces (25–27), trapping a
+cushion of air between the drop and the superhydrophobic sur-
+face (Fig. 1A).
+When the drop contacts the substrate, the chemistry and sub-
+micrometer structure of the soot coating (Fig. 1B) repel the
+water so that the water drop bounces off the surface. The time
+that the drop resides on the substrate, deﬁned as the residence
+time tr, is less than 15 ms (Fig. 1C). Simultaneous thermal images
+show that the drop leaves the surface before reaching thermal
+equilibrium (Fig. 1D). The drop leaves a thermal footprint on the
+substrate that decays over time (Fig. 1E). Due to the 8-ms time
+response in the uncooled sensor, there is motion blur during drop
+impact and recoil that is responsible for the apparent smearing of
+the drop. However, these motion blur effects are negligible over
+the longer timescales of the substrate footprint decay used in our
+analysis.
+Further details on the impact dynamics are revealed by plot-
+ting the contact radius r(t) as the drop spreads and recoils on the
+superhydrophobic surface (Fig. 2A). From high-speed images,
+the contact radius and residence time are extracted for the drop
+illustrated in Fig. 1. The drop spreads out to a maximum con-
+tact radius rm that is larger than the initial radius of the drop
+by a spreading factor of rm/R = 1.24. The drop then recoils
+until it loses contact with the surface at tr = 11.8 ms. The maxi-
+mum contact radius rm is known to depend on the Weber num-
+ber We ≡ρℓU 2R/γ, a balance of inertial and capillary effects
+where ρℓis the liquid density, γ is the surface tension, and U
+is the impact velocity (28, 29). In this paper, we control the
+Weber number so that the spreading factor rm/R is limited to
+a range between 1.2 and 1.7. In contrast, the residence time
+is largely independent of the Weber number (23) and instead
+scales with the inertial-capillary timescale
+p
+ρℓR3/γ. Indeed, the
+residence time is near the axisymmetric hydrodynamic limit of
+Fig. 2.
+Extraction of the maximum contact radius rm and transferred heat Q
+for the drop illustrated in Fig. 1. (A) Plot of the contact radius r(t) normalized
+by drop radius R. (B) Average temperature of the drop footprint T on the
+substrate surface (z = 0) over time t. The transferred heat Q is calculated by
+ﬁtting a one-dimensional, semiinﬁnite heat exchange model (dotted line)
+as the surface returns to its ambient temperature Ts. Here ks and αs are the
+substrate thermal conductivity and diffusivity, respectively.
+Shiri and Bird
+PNAS
+|
+July 3, 2017
+|
+vol. 114
+|
+no. 27
+|
+6931
+Downloaded from https://www.pnas.org by 92.30.172.63 on June 24, 2025 from IP address 92.30.172.63.
+
+
+--- PAGE 3 ---
+
+tr = 2.3
+p
+ρℓR3/γ, suggesting that the soot microstructure does
+not pin the drop as it recedes (30, 31) and is therefore macro-
+scopically equivalent to a drop bouncing on a vapor layer.
+As the drop departs the surface, it leaves behind a thermal
+footprint on the substrate (Fig. 1D), which we use to calculate
+the transferred heat Q. Immediately after an impact, this heat is
+concentrated near the substrate surface. We measure the aver-
+age temperature T across the drop contact area for each ther-
+mal time-series image, as noted in Mean Temperature Calcula-
+tion (Fig. S2). Plotting this footprint temperature T over time t
+illustrates that the temperature rises rapidly during impact and
+then returns asymptotically to Ts with a decay rate of ∼50 ms
+(Fig. 2B). For the conditions in this experiment, conductive heat
+transfer is expected to dominate both convective and radiative
+heat transfer (Heat Transfer Mechanism). Additionally, during
+the ﬁrst 100 ms after contact, the heat would be expected to dif-
+fuse throughout the glass substrate by a distance √αst ≈210 µm,
+where αs is the thermal diffusivity of the substrate (Table S1).
+Because this distance is much less than the millimeter thickness
+of the glass and radius of the footprint, this early-time heat trans-
+fer can be approximated as one-dimensional and semiinﬁnite.
+After a pulse of energy, the surface temperature of a semi-
+inﬁnite, one-dimensional substrate decays in time following the
+classic self-similar equation
+T(z = 0, t) −Ts =
+Q
+ksπr 2m
+p
+πt/αs
+,
+[1]
+where ks is the thermal conductivity and πr 2
+m is the contact area
+over which the energy Q is deposited. For a drop bouncing on
+a superhydrophobic surface, the energy transfer is not instanta-
+neous; however, the residence time is signiﬁcantly shorter than
+the subsequent temperature decay, so the heat transfer can be
+estimated by ﬁtting Eq. 1 to the average surface temperature in
+Fig. 2B (dotted line). For the drop shown in Figs. 1 and 2, the
+estimated heat transferred is Q = 10 mJ.
+Role of Drop Size and Temperature. To explore the physics under-
+lying the ﬁnite-time heat transfer, we carry out a series of exper-
+iments in which we systematically vary the drop size R and its
+initial temperature Tℓ. In these experiments, we use water as
+the liquid and soot-coated glass as the substrate. Additionally, we
+adjust the impact velocityU to constrain the spreading factor to
+a range between rm/R = 1.2 and 1.7. Repeating the steps illus-
+trated in Figs. 1 and 2, we calculate the transferred heat Q for
+varying drop sizes R and temperature differences ∆T = Tℓ−Ts
+(Fig. 3). To illustrate the effect of the temperature difference
+∆T on the transferred heat Q, the data in Fig. 3 are sepa-
+rated into 10 ◦C increments, each of which is represented with
+a different symbol orientation. Note that ∆T is negative when
+cold drops, rather than hot drops, impact the superhydrophobic
+surface. The high-speed optical images allow us to identify the
+spreading factor rm/R for each drop, which are separated into
+0.1 increments depicted with symbol color and contrast (Fig. 3).
+As the temperature difference, drop size, and spreading factor
+increase, the amount of heat transferred increases as well.
+A key feature of bouncing drops on superhydrophobic and
+superheated surfaces is the trapped gas or vapor under the drop.
+If this gas layer acts as a thermal barrier, we might expect the
+heat ﬂux to scale with an effective barrier thickness δ. For a given
+spreading factor, this model would predict the amount of heat
+transferred to scale as the conduction heat ﬂux across the bar-
+rier ˙q ∼kg∆T/δ—where kg is the thermal conductivity of the
+conﬁned gas layer—integrated over the contact area ∼R2 for
+the duration of the residence time tr ∼(ρℓR3/γ)
+1/2. Given the
+importance of the air-ﬁlled microscale roughness on the super-
+hydrophobicity, a natural scale for the thickness δ might be the
+thickness of the superhydrophobic coating itself, which would not
+vary with drop size or contact time. From a simple scaling per-
+B
+A
+Fig. 3.
+Measurements of heat transferred by drops. (A) The exchanged
+heat Q varies with the drop size R; the temperature difference ∆T between
+the drop and substrate (symbol orientation); and the extent of spreading,
+or spreading factor, rm/R (symbol color). The black arrows illustrate drops
+bouncing off of the substrate, leaving behind either a warm or cool foot-
+print. (B) The data collapse into single curves for ﬁxed rm/R when the trans-
+ferred heat Q is normalized by the initial temperature difference ∆T, show-
+ing a power-law dependence on the drop radius R. Note that the larger
+triangle corresponds to the speciﬁc drop illustrated in Fig. 2.
+spective, integrating with a constant gap thickness would lead to
+Q/∆T ∼(kg/δ)trR2 ∼(kg/δ)(.ρℓ/γ)0.5 R3.5.
+An alternative hypothesis is that the trapped gas within the
+superhydrophobic microtexture has a negligible inﬂuence on
+the heat transfer and that the heat transfer is dominated by the
+substrate below. In this case, the heat continues to propagate
+downward into the substrate as the drop spreads and recoils;
+the characteristic length is self-similar and grows as
+√
+αt. By
+substituting this length into the heat ﬂux, we ﬁnd .Q/∆T ∼
+(k/√αtr)trR2 ∼(k/√α)(ρℓ/γ)0.25R2.75. To evaluate this hy-
+pothesis, the experimental results for the transferred heat Q
+(Fig. 3A) are normalized by the temperature difference ∆T and
+plotted over a logarithmic scale (Fig. 3B). The data collapse onto
+a single curve and are more consistent with a power-law scaling
+of R2.75 than R3.5.
+It is also possible that the heat transfer is dictated by an air
+cushion above the superhydrophobic surface and that this gap
+depends on the radius R in such a way to produce a scaling con-
+sistent with Fig. 3B. Speciﬁcally, research on the trapped air layer
+over smooth surfaces (32) indicates that the cushion thickness
+scales as δ ∼R(ρℓUR/µg)−2/3, where µg is the viscosity of the
+air. For a ﬁxed spreading factor, the impact velocity scales as
+6932
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1700197114
+Shiri and Bird
+Downloaded from https://www.pnas.org by 92.30.172.63 on June 24, 2025 from IP address 92.30.172.63.
+
+
+--- PAGE 4 ---
+
+APPLIED PHYSICAL
+SCIENCES
+ECOLOGY
+U ∼γ/√ρR, so that Q/∆T ∼(kg/δ)trR2 ∼kg(ρℓγ/µ2
+g)
+1/3 R2.8.
+It is noted that the thermal footprint does not reveal any direct
+evidence of a dimple, such as a lower temperature in the cen-
+ter; nevertheless, both the direct-contact and air-cushion mod-
+els are consistent with the power-law relationship in Fig. 3B. To
+adequately discern between these models, we rely on differing
+predictions for the role of the underlying substrate. In particular,
+the direct-contact model would be expected to depend on the
+substrate thermal properties, and a more detailed analysis of this
+dependence is developed in the next section.
+Predicting the Amount of Exchanged Heat. The mechanism of
+ﬁnite-time heat exchange between a drop and a superhydropho-
+bic substrate in the absence of a gas layer and coating can be
+modeled analytically. Here, we approximate the energy evolution
+as one dimensional and consider conduction as the main mech-
+anism of heat transfer (Heat Transfer Mechanism). If we model
+the heat ﬂux ˙q(t) and contact radius r(t) as decoupled, then the
+total heat transferred by a single drop over a residence time tr
+can be estimated as Q =
+R tr
+0 ˙q(t)πr(t)2dt. The contact radius ini-
+tially spreads to a maximum radius before retracting back to zero.
+These spreading and retraction dynamics can be approximated
+(1) using the relation r(t) = 2rm
+q
+t/tr −(t/tr)2.
+To calculate the heat ﬂux ˙q(t), we model the drop and sub-
+strate as two semiinﬁnite bodies at different initial temperatures,
+Tℓfor the liquid and Ts for the substrate, that are brought into
+contact and achieve temperature equality at the contact surface,
+T(z = 0, t) (Fig. 4A). For conduction-dominated heat transfer,
+this semiinﬁnite approximation is appropriate when the thermal
+diffusion length √αtr is less than the thickness of the material.
+Provided that the drop does not spread too thinly, this condi-
+tion is met for both the drop and the substrate during their rapid
+contact.
+By imposing the condition that the two bodies have an
+equal contact temperature during contact time, the standard
+heat equation can be solved analytically (33), revealing a
+time-independent contact surface temperature of T(z = 0, t) =
+ p
+(kρcp)ℓTℓ+
+p
+(kρcp)sTs
+ p
+(kρcp)ℓ+
+p
+(kρcp)s
+
+. Here
+cp is the speciﬁc heat and the subscripts s and ℓdenote the prop-
+erties of the substrate and liquid, respectively. It follows from
+the self-similar analysis that the heat ﬂux into the substrate is
+˙q(t) = ks(Ts −T(z = 0, t))/√παst. Combining the relations for
+the heat ﬂux and the contact radius, the amount of heat trans-
+ferred Q =
+R tr
+0 ˙q(t)πr(t)2dt is
+Q = 2.8
+ksρℓ
+1/4(rm/R)2∆T
+γ1/4√αs
+
+1 +
+p
+(ρcpk)s/(ρcpk)ℓ
+R11/4.
+[2]
+From a scaling perspective, Eq. 2 is equivalent to the relation
+Q/∆T ∼R2.75 presented in the previous section and thus also
+consistent with the data in Fig. 3A. However, in addition to pro-
+viding a coefﬁcient, Eq. 2 also provides falsiﬁable predictions
+into how the spreading factor and material properties of the liq-
+uid and the substrate affect the heat transferred.
+A natural way to nondimensionalize the transferred heat Q is
+to normalize it by the maximum possible heat transfer mcp∆T,
+where m is a drop mass. Noting that m = 4
+3πR3ρℓ, the normal-
+ized heat exchange can be expressed as
+Q
+mcp∆T = 0.7
+rm
+R
+2 
+1
+1 + M
+ ρℓα2
+ℓ
+Rγ
+1/4
+.
+[3]
+In this form, it becomes clear that for a given spreading fac-
+tor, the model predicts that the fraction of potential heat trans-
+ferred is controlled by two dimensionless parameters: one relat-
+ing the thermal-inertial capillary dynamics of the drop ρℓα2
+ℓ/Rγ
+and the other relating the thermal properties of the material
+M = kℓ√αs/ks√αℓ.
+Experiments
+A
+B
+Fig. 4.
+Comparison between model and experiment. (A) The model
+assumes that during the residence time tr, the temperatures of the drop
+Tℓand solid Ts contact along a plane z = 0 and the heat transfer leads
+to self-similar temperature proﬁles T(z, t). (B) For a given spreading fac-
+tor rm/R (symbol color), the portion of energy exchanged depends on two
+dimensionless groups, one based on dynamic properties ρℓα2
+ℓ/Rγ and the
+other on material thermal properties M (symbol shape). The experimental
+data (symbols) are consistent with the theoretical results with rm/R = 1.4
+(solid lines).
+The ﬁrst dimensionless group identiﬁed in our analysis,
+ρℓα2
+ℓ/Rγ, may be interpreted as the square of the ratio of
+residence time tr ∼
+p
+ρℓR3/γ to the thermal diffusion time
+td ∼R2/αℓ. For millimeter water drops, ρℓα2
+ℓ/Rγ is of the order
+of 10−7, which implies that the drop bounces ∼2,000 times faster
+than the time needed for the heat to thermally diffuse across the
+drop. The stark difference in timescales supports the semiinﬁ-
+nite approximation. Furthermore, the scaling highlights the com-
+peting inﬂuence of drop size. A larger drop will have a longer
+residence time than a smaller drop; yet the increase in diffu-
+sion time is greater and therefore the ratio of these timescales
+tr/td decreases. These two timescales become comparable for
+sufﬁciently small drops; yet for water, this size is less than a
+nanometer or near the molecular scale. Therefore, we would
+expect ρℓα2
+ℓ/Rγ ≪1 for most water drops and comparable
+liquids.
+The other control parameter identiﬁed in our analysis is
+the material factor deﬁned as M = kℓ√αs/ks√αℓ. This factor
+relates the thermal heat transfer between the liquid and the sub-
+strate and therefore depends solely on the thermal properties of
+these two materials. If the substrate transfers heat signiﬁcantly
+faster than the drop, then the heat transfer is rate limited by the
+drop and M →0; whereas if the substrate transfers heat slower
+than the drop, then the heat transfer is rate limited by the sub-
+strate and M →∞. For a water drop on a glass substrate, the
+relative heat transfer rates are comparable and M = 1.
+The experimental results illustrated in Fig. 3 are rescaled in
+terms of the dimensionless groups presented in Eq. 3 alongside
+the theoretical prediction for a spreading factor of rm/R = 1.4
+Shiri and Bird
+PNAS
+|
+July 3, 2017
+|
+vol. 114
+|
+no. 27
+|
+6933
+Downloaded from https://www.pnas.org by 92.30.172.63 on June 24, 2025 from IP address 92.30.172.63.
+
+
+--- PAGE 5 ---
+
+(Fig. 4B). The theoretical model is able to predict not only the
+scaling trend in the data, but also the prefactor; both exper-
+iment and model indicate that ∼1% of the available heat is
+exchanged during the bounce of a millimeter-sized water drop
+on a superhydrophobic-coated glass substrate. Additionally, as
+the spreading factor rm/R is increased, holding the other param-
+eters constant, the amount of heat transferred increases as well,
+as predicted in the model.
+Returning to the two potential models proposed earlier, the
+direct-contact model depends on the substrate thermal proper-
+ties, whereas the air-cushion model does not. Speciﬁcally, the
+model predicts that less heat would be exchanged by the bounc-
+ing water drop if the glass substrate were replaced by more insu-
+lating materials, such as synthetic rubber (M = 2.6) or natural
+wood (M = 4.2). To test this prediction, we repeat the experi-
+mental procedure with neoprene rubber and pine wood instead
+of glass. The measured thermal properties of these materials are
+provided in Table S1. A thin superhydrophobic layer of soot is
+coated on the rubber and wood substrates following the same pro-
+cedure used for the glass substrate. Thus, the superhydrophobic
+surfaces in all samples were identical, whereas the underlying sub-
+strates differed. Experimental data for heated water drops bounc-
+ing on the rubber (square symbols) and wood (circle symbols) are
+plotted along with the theoretical predictions (Fig. 4B). The
+results conﬁrm that the substrate material—even under a layer
+of soot—affects the amount of heat exchanged Q during the drop
+bounce, providing evidence for the direct-contact model.
+An interesting feature of the direct-contact model is that,
+counterintuitively, a smaller drop can transfer a larger fraction
+of its potential heat than a larger drop even though the smaller
+drop is in contact with the surface for less time (Fig. 4B). This
+result is a consequence of the self-similar conductive heat trans-
+fer into the drop and substrate. Indeed, the opposite trend—
+larger drops transferring a larger fraction of potential heat—
+would be expected if the heat transfer was regulated by a layer of
+trapped gas with a ﬁxed depth. These trends are further compli-
+cated if the spreading factor rm/R also varies. Nevertheless, our
+ﬁndings taken at a constant spreading factor (Fig. 4B) illustrate
+an important concept: Smaller drops may contact the surface for
+a shorter time than larger drops, yet during this time, the smaller
+drop encounters a larger average heat ﬂux from the self-similar
+conduction.
+Cooling from Multiple Drops. Although the focus of this paper has
+been on the heat exchange of individual drops, most applications
+involve multiple drops. For example, many birds have feathers
+that are superhydrophobic (7, 21); however, exposure to cold rain
+can adversely cool a bird (34, 35) and in extreme cases has been
+linked to hypothermia and death (36, 37).
+Our results measuring the small fraction of potential heat
+exchanged with a drop on a superhydrophobic surface (Fig. 4)
+suggest that a solid body would be noticeably warmer throughout
+a cold shower if drops rapidly bounced off the surface rather than
+becoming stuck. Additionally, these results suggest that at the
+same ﬂow rate, the bouncing of smaller drops would exchange
+more heat than that of larger drops, provided that the spreading
+factor for the smaller drops was similar to or greater than that of
+the larger drops.
+To evaluate these predictions, we measure the temperature T
+on the underside of a suspended duck feather on top of which a
+steady stream of drops impacts. These feathers (Fig. 5A) have
+a barb and barbule microtexture (Fig. 5B) that enables their
+natural superhydrophobicity. We compare identical experiments
+on a feather that is superhydrophobic and a feather that has
+been made superhydrophilic through plasma irradiation (38) and
+indeed ﬁnd that the undersides of feathers are warmer when cold
+droplets bounce rather than stick (Fig. S3).
+A superhydrophobic feather can also be used to explore
+the extent that drop size might affect the amount of heat
+A
+B
+C
+D
+E
+Fig. 5.
+Cooling from different-sized drops impacting at ambient tempera-
+ture onto a warmed feather. (A) A photograph of a gray duck pennaceous
+feather used in the experiments. (B) A scanning electron microscope image
+reveals the interlocking barb and barbule microtexture that is responsible
+for the natural superhydrophobicity of the feather. (C) High-speed images
+show the two different-sized streams of water drops at identical ﬂow rates
+bounce off of the top surface of the feather. (D) A heat map illustrates the
+temperature underneath the warmed feather averaged over a 100-s period.
+During this period, the two streams of ambient-temperature water drops
+that bounce on the top side of the feather lead, on the bottom side, to local
+cooling. The circles denote the location of the stream of large drops (left),
+the stream of small drops (right), and a midpoint in which there are no drops
+(center). (E) The temperature within each of these circled regions is plotted
+for 10 s before the start of the experiment, as well as 2 min during which
+the drops steadily drip on the top side of the feather. Insets highlight the
+periodicity of the temperature response on the side of the feather opposite
+to where the drops impact. Here the time between each falling water drop
+is 2 s for the large drops and 0.3 s for the small drops.
+transferred. To explore this possibility, two streams of drops
+were released simultaneously, one larger (R ≈2 mm) and
+one smaller (R ≈1.1 mm), with identical ﬂow rates 1 mL/min
+and similar spreading factors rm/R ≈1.3 and 1.7, respec-
+tively (Fig. 5C). Here the drops were at the ambient lab-
+oratory temperature 26 ◦C, whereas the feather was heated
+to 40 ◦C, the approximate body temperature of a bird (39)
+(Fig. S4).
+A time-averaged thermal image from below the feather (Fig.
+5D) reveals that the regions under which the large and small
+drops fall are indeed cooler than the surrounding regions, even
+though the drops are the same temperature as the ambient air
+on the top side of the feather. The locations under which the
+drops fall, as well the midpoint between these two locations,
+are denoted with black circles in Fig. 5D. The average temper-
+ature within these circled regions varies with time (Fig. 5E).
+Before the experiment begins (t < 0), the temperature within
+these three regions is indistinguishable. As drops bounce off the
+feather, the midpoint temperature remains steady whereas the
+temperature on the opposite side from where the drops fall cools.
+These temperatures ﬂuctuate, with the region associated with the
+smaller drop having a lower average temperature than that of the
+larger drop.
+6934
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1700197114
+Shiri and Bird
+Downloaded from https://www.pnas.org by 92.30.172.63 on June 24, 2025 from IP address 92.30.172.63.
+
+
+--- PAGE 6 ---
+
+APPLIED PHYSICAL
+SCIENCES
+ECOLOGY
+Closer inspection of these temperature ﬂuctuations reveals
+that they are periodic (Fig. 5E, Insets). Indeed, the period of
+2 s for the large drops and 0.3 s for the small drops corre-
+sponds precisely with the time interval between the dripping of
+the large and small drops, respectively, providing additional evi-
+dence that the cooling corresponds to the droplet bounce events.
+Although the cooling from these drops might seem insigniﬁcant,
+it should be noted that the ambient temperature and water drops
+are relatively warm (T ≈26 ◦C). More signiﬁcant temperature
+drops would be expected in colder conditions. Indeed, identical
+experiments conducted outdoors in colder weather (T ≈3.9 ◦C)
+resulted in signiﬁcantly greater cooling when the drops bounced
+on the heated, superhydrophobic feather (Fig. S5).
+Conclusion
+The ﬁndings presented in this study add insight into the ﬁnite-
+time heat transfer that occurs when a hot or cold drop bounces
+on a superhydrophobic substrate. We demonstrate experimen-
+tally and theoretically that a small fraction of available heat is
+exchanged when a water drop impacts and bounces off a super-
+hydrophobic substrate and that the heat can be modeled as being
+directly exchanged with the solid substrate. A consequence of
+this direct exchange is that a greater fraction of available heat is
+exchanged for smaller than for larger drops, even though larger
+drops are in contact with the surface for a longer period. Equally
+signiﬁcant is the role of the substrate material in the amount
+of heat exchanged. We highlight how such principles extend to
+a more general case of multiple bouncing drops and identify
+dimensionless parameters that can guide the design of nonwet-
+ting materials for which heat exchange with impacting drops may
+be a factor, such as weather-related fabrics. In the context of
+avian hypothermia associated with cold rain, past work has indi-
+cated that feather water repellency mitigates evaporative cooling
+(40); our results highlight another important mechanism associ-
+ated with this process: direct heat exchange with the rain itself.
+Materials and Methods
+Experimental
+Methodology. High-speed
+images
+are
+captured
+using
+a
+Photron camera with a frame rate of 10,000 frames per second and a
+200-mm Nikon lens. A ﬁber-optic light source provides cool, high-intensity
+light to the samples during high-speed imaging. Thermographic images are
+simultaneously recorded with a thermal camera at a frame rate of 200
+frames per second with a close-up IR lens. To control the water tempera-
+ture, a water bath is connected to a syringe that can eject a single drop on
+demand. The drop velocity is controlled by varying the height of the needle
+above the substrate. Velocity adjustments are made to limit the range of
+the spreading factor rm/R. In the cooling from the multiple-drops experi-
+ments, the feather is suspended by using a stand and clamp. The top of the
+feather is subjected to two sets of water drops released from two different
+sizes of needles. A constant ﬂow rate for both sets of drops is maintained
+with a dual syringe pump. Finally, a heat gun is used to heat the feather
+from below.
+Substrate Material Characterization. To measure the heat capacity of the
+substrate material, thermal analysis is conducted with a Q2000 differential
+scanning calorimeter (DSC). The DSC sample measurements are referenced
+against pure indium metal and evaluated over a range of 15−45 ◦C, follow-
+ing standard procedures (41). The heat capacity and density of glass, rubber,
+and wood are measured experimentally and the thermal conductivity values
+are obtained from the literature (42–44).
+ACKNOWLEDGMENTS. We thank J. Goldfarb for assistance in measuring the
+thermal properties of the solids and K. Varanasi, E. Wang, and F. Brasz for
+commenting on the manuscript. S.S. acknowledges partial support from the
+Boston University Dean’s Catalyst Award.
+1. Leon Bolle JCM (1982) Spray cooling of hot surfaces. Multiphas Sci Tech 1:1–97.
+2. Kim J (2007) Spray cooling heat transfer: The state of the art. Int J Heat Fluid Flow
+28:753–767.
+3. Deng W, Gomez A (2011) Electrospray cooling for microelectronics. Int J Heat Mass
+Tran 54:2270–2275.
+4. Pikkula BM, Torres JH, Tunnell JW, Anvari B (2001) Cryogen spray cooling: Effects of
+droplet size and spray density on heat removal. Laser Surg Med 28:103–112.
+5. Thomas SK, Cassoni RP, MacArthur CD (1996) Aircraft anti-icing and de-icing tech-
+niques and modeling. J Aircraft 33:841–854.
+6. McLoughlin E, McGuire A (1990) The causes, cost, and prevention of childhood burn
+injuries. Am J Dis Child 144:677–683.
+7. Kennedy R (1970) Directional water-shedding properties of feathers. Nature 227:
+736–737.
+8. Voigt CC, Schneeberger K, Voigt-Heucke SL, Lewanzik D (2011) Rain increases the
+energy cost of bat ﬂight. Biol Lett 7:793–795.
+9. Mishchenko L, et al. (2010) Design of ice-free nanostructured surfaces based on repul-
+sion of impacting water droplets. ACS Nano 4:7699–7707.
+10. Patterson CJ, Shiri S, Bird JC (2017) Macrotextured spoked surfaces reduce the resi-
+dence time of a bouncing Leidenfrost drop. J Phys Condens Matter 29:064007.
+11. Golovin K, et al. (2016) Designing durable icephobic surfaces. Sci Adv 2:e1501496.
+12. Burton J, Sharpe A, van der Veen R, Franco A, Nagel S (2012) Geometry of the vapor
+layer under a Leidenfrost drop. Phys Rev Lett 109:074301.
+13. Shirota M, van Limbeek MA, Sun C, Prosperetti A, Lohse D (2016) Dynamic Leidenfrost
+effect: Relevant time and length scales. Phys Rev Lett 116:064501.
+14. Leidenfrost JG (1966) On the ﬁxation of water in diverse ﬁre. Int J Heat Mass Tran
+9:1153–1166.
+15. Khavari M, Sun C, Lohse D, Tran T (2015) Fingering patterns during droplet impact on
+heated surfaces. Soft Matter 11:3298–3303.
+16. Guo Y, Mishima K (2002) A non-equilibrium mechanistic heat transfer model for post-
+dryout dispersed ﬂow regime. Exp Therm Fluid Sci 26:861–869.
+17. Gradeck M, Seiler N, Ruyer P, Maillet D (2013) Heat transfer for Leidenfrost drops
+bouncing onto a hot surface. Exp Therm Fluid Sci 47:14–25.
+18. van Limbeek MA, et al. (2016) Vapour cooling of poorly conducting hot substrates
+increases the dynamic Leidenfrost temperature. Int J Heat Mass Tran 97:101–109.
+19. Bird JC, Mandre S, Stone HA (2008) Short-time dynamics of partial wetting. Phys Rev
+Lett 100:234501.
+20. Duez C, Ybert C, Clanet C, Bocquet L (2010) Wetting controls separation of inertial
+ﬂows from solid surfaces. Phys Rev Lett 104:084503.
+21. Cassie A, Baxter S (1944) Wettability of porous surfaces. Trans Faraday Soc 40:
+546–551.
+22. Koishi T, Yasuoka K, Fujikawa S, Ebisuzaki T, Zeng XC (2009) Coexistence and tran-
+sition between Cassie and Wenzel state on pillared hydrophobic surface. Proc Natl
+Acad Sci USA 106:8435–8440.
+23. Richard D, Clanet C, Qu´er´e D (2002) Surface phenomena: Contact time of a bouncing
+drop. Nature 417:811.
+24. Lee C, et al. (2015) Two types of Cassie-to-Wenzel wetting transitions on superhy-
+drophobic surfaces during drop impact. Soft Matter 11:4592–4599.
+25. Mandre S, Mani M, Brenner MP (2009) Precursors to splashing of liquid droplets on a
+solid surface. Phys Rev Lett 102:134502.
+26. van der Veen RC, Tran T, Lohse D, Sun C (2012) Direct measurements of air layer
+proﬁles under impacting droplets using high-speed color interferometry. Phys Rev E
+85:026315.
+27. Li E, Thoroddsen ST (2015) Time-resolved imaging of a compressible air disc under a
+drop impacting on a solid surface. J Fluid Mech 780:636–648.
+28. Clanet C, B´eguin C, Richard D, Qu´er´e D (2004) Maximal deformation of an impacting
+drop. J Fluid Mech 517:199–208.
+29. Tran T, Staat HJ, Prosperetti A, Sun C, Lohse D (2012) Drop impact on superheated
+surfaces. Phys Rev Lett 108:036101.
+30. Reyssat M, Richard D, Clanet C, Qu´er´e D (2010) Dynamical superhydrophobicity. Fara-
+day Discuss 146:19–33.
+31. Bird JC, Dhiman R, Kwon HM, Varanasi KK (2013) Reducing the contact time of a
+bouncing drop. Nature 503:385–388.
+32. Li J, et al. (2016) Oil droplet self-transportation on oleophobic surfaces. Sci Adv
+2:e1600148.
+33. Bergman TL, Incropera FP, DeWitt DP, Lavine AS (2011) Fundamentals of Heat and
+Mass Transfer (Wiley, Hoboken, NJ), 7th Ed.
+34. Webb D, King J (1984) Effects of wetting of insulation of bird and mammal coats. J
+Therm Biol 9:189–191.
+35. Wilson GR, Cooper SJ, Gessaman JA (2004) The effects of temperature and artiﬁcial
+rain on the metabolism of American kestrels (Falco sparverius). Comp Biochem Physiol
+A Mol Integr Physiol 139:389–394.
+36. Odum EP, Pitelka FA (1939) Storm mortality in a winter starling roost. Auk 56:
+451–455.
+37. Kennedy R (1970) Direct effects of rain on birds: A review. Br Birds 63:401–414.
+38. Bormashenko E, Grynyov R (2012) Plasma treatment induced wetting transitions on
+biological tissue (pigeon feathers). Colloids Surf B Biointerfaces 92:367–371.
+39. Prinzinger R, Pressmar A, Schleucher E (1991) Body temperature in birds. Comp
+Biochem Physiol A Physiol 99:499–506.
+40. Lustick S, Adams J (1977) Seasonal variation in the effects of wetting on the energetics
+and survival of starlings (Sturnus vulgaris). Comp Biochem Physiol A Comp Physiol
+56:173–177.
+41. Goldfarb JL, K ¨ulaots I (2010) Melting points and enthalpies of fusion of anthracene
+and its heteroatomic counterparts. J Therm Anal Calorim 102:1063–1070.
+42. Avallone EA, Baumeister T, III, Sadegh AM (2006) Marks’ Standard Handbook for
+Mechanical Engineers (McGraw-Hill, New York), 11th Ed.
+43. Ross RJ, et al. (2010) Wood Handbook: Wood as an Engineering Material (US Depart-
+ment of Agriculture, Forest Service, Forest Products Laboratory, Madison, WI), Cen-
+tennial Ed.
+44. Perry RH, Green D, Maloney J (1997) Perry’s Handbook of Chemical Engineering
+(McGraw-Hill, New York), 7th Ed.
+Shiri and Bird
+PNAS
+|
+July 3, 2017
+|
+vol. 114
+|
+no. 27
+|
+6935
+Downloaded from https://www.pnas.org by 92.30.172.63 on June 24, 2025 from IP address 92.30.172.63.
